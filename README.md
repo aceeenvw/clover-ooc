@@ -20,8 +20,6 @@
 [![Build](https://img.shields.io/badge/build-static%20%C2%B7%20no%20bundler-bbb?style=flat-square&labelColor=1a1a1a)](#-tech-stack)
 [![Author](https://img.shields.io/badge/author-aceeenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
-[ About ](#-about)  ·  [ Pages ](#-pages)  ·  [ Structure ](#-project-structure)  ·  [ Credits ](#-acknowledgements)
-
 </div>
 
 ---
