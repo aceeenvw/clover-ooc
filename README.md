@@ -17,7 +17,6 @@
 [![Prompts](https://img.shields.io/badge/prompts-250-c99?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Images](https://img.shields.io/badge/renders-250%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-data-files)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-data-files)
-[![Build](https://img.shields.io/badge/build-static%20%C2%B7%20no%20bundler-bbb?style=flat-square&labelColor=1a1a1a)](#-tech-stack)
 [![Author](https://img.shields.io/badge/author-aceeenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
 </div>
