@@ -1,14 +1,14 @@
 <div align="center">
 
 ```
-                                                ╔══════════════════════════════════════════════════════╗
-                                                ║                                                      ║
-                                                ║           ⊹   C L O V E R   ·   O O C   ⊹            ║
-                                                ║                                                      ║
-                                                ║       A bilingual catalogue of image-generation      ║
-                                                ║          prompts for narrative roleplay              ║
-                                                ║                                                      ║
-                                                ╚══════════════════════════════════════════════════════╝
+                          ╔══════════════════════════════════════════════════════╗
+                          ║                                                      ║
+                          ║           ⊹   C L O V E R   ·   O O C   ⊹            ║
+                          ║                                                      ║
+                          ║       A bilingual catalogue of image-generation      ║
+                          ║          prompts for narrative roleplay              ║
+                          ║                                                      ║
+                          ╚══════════════════════════════════════════════════════╝
 ```
 
 **250 prompts · Example renders · Mix-and-match tools · EN / RU**
