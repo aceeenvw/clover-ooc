@@ -1,0 +1,3404 @@
+[
+  {
+    "id": "solo-1",
+    "number": "1",
+    "title": "Cinematic Vision",
+    "tags": [
+      "tender",
+      "cinematic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — think like a director who just got full creative control. This image should feel alive, caught mid-breath. Shoot through rain-streaked glass, catch someone in a mirror they didn't know was there, find the angle that makes a quiet room feel enormous or a crowded street feel suffocating. Let the environment tell half the story. If the moment is heavy, crush the shadows. If it's tender, let the light bleed soft. Never settle for the obvious shot — find the one that makes someone stop scrolling. The caption should read like a line from a song you half-remember.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-cinematic-vision.webp",
+    "titleRu": "Режиссёрский взгляд"
+  },
+  {
+    "id": "solo-2",
+    "number": "2",
+    "title": "Stolen Glance",
+    "tags": [
+      "intimate",
+      "voyeuristic"
+    ],
+    "prompt": "[OOC:Image generation — frame this like we're seeing something we weren't meant to see. A stolen glance through a doorway, a reflection caught in a window, a moment just before or just after the important thing happened. The camera should feel like it's holding its breath. Fill the air with texture — dust, smoke, light cutting through blinds, steam off a cup nobody's drinking. The most interesting thing in the frame might not be a face. The caption should feel like a secret whispered to no one.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-stolen-glance.webp",
+    "titleRu": "Украденный взгляд"
+  },
+  {
+    "id": "solo-3",
+    "number": "3",
+    "title": "Living Canvas",
+    "tags": [
+      "melancholic",
+      "kinetic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — compose this like a painting someone would stand in front of for too long at a gallery. Let color do the emotional heavy lifting — warm where it aches, cold where it's lonely. Frame loose, like the camera almost missed the moment. Give the background a life of its own — a curtain moving, light shifting, something left behind on a table. Hands matter more than faces sometimes. The caption should sound like the title of a painting you'd remember years later.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-living-canvas.webp",
+    "titleRu": "Живой холст"
+  },
+  {
+    "id": "solo-4",
+    "number": "4",
+    "title": "Silent Tension",
+    "tags": [
+      "melancholic",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — make this image feel like the silence between two sentences. Find the tension in stillness — a hand that almost reached, a door that's closing, the last second of eye contact before someone looks away. Everything in the frame should be doing emotional work. Light should feel like it has a temperature. The space around the character should tell its own story. The caption should hurt a little, like a line from a letter you never sent.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-silent-tension.webp",
+    "titleRu": "Тихое напряжение"
+  },
+  {
+    "id": "solo-5",
+    "number": "5",
+    "title": "Fading Memory",
+    "tags": [
+      "dreamlike",
+      "melancholic",
+      "nostalgic"
+    ],
+    "prompt": "[OOC:Image generation — shoot this like a memory that's already fading. Something slightly dreamlike in the focus, light coming from a direction that doesn't quite make sense, the kind of image that feels like it belongs to 3am. Let one detail be painfully sharp while the rest dissolves. The environment should feel like it remembers something the character has forgotten. The caption should read like the last thing you think before falling asleep.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-fading-memory.webp",
+    "titleRu": "Тающее воспоминание"
+  },
+  {
+    "id": "solo-6",
+    "number": "6",
+    "title": "Space & Scale",
+    "tags": [
+      "architectural",
+      "voyeuristic"
+    ],
+    "prompt": "[OOC:Image generation — let the space be the main character. The person in the frame should feel small against something vast — a hallway stretching too long, a ceiling too high, an empty room that echoes. Architecture and geometry should cage or cradle the character. Use leading lines, doorways, staircases, windows as frames within frames. The caption should feel like the name of a place that doesn't exist.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-space-and-scale.webp",
+    "titleRu": "Пространство и масштаб"
+  },
+  {
+    "id": "solo-7",
+    "number": "7",
+    "title": "Precise Detail",
+    "tags": [
+      "minimalist",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — find the smallest detail that carries the most weight and make it the entire image. A knuckle turning white around a phone. A cigarette burning untouched. The crease in a shirt where someone grabbed it. Macro intimacy — get so close the world disappears and all that's left is one gesture screaming. The caption should be the thing nobody in the room said out loud.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-precise-detail.webp",
+    "titleRu": "Точная деталь"
+  },
+  {
+    "id": "solo-8",
+    "number": "8",
+    "title": "Wrong Hour Light",
+    "tags": [
+      "nocturnal",
+      "intimate",
+      "dreamlike"
+    ],
+    "prompt": "[OOC:Image generation — this image lives at the hour when nothing is open and the light is wrong. Fluorescent buzz, screen glow on skin, streetlamps through cheap curtains. The character should look like they've been awake long enough for the world to feel slightly unreal. Everything a little too still, a little too quiet. Something in the frame should be half-finished — a meal, a message, a thought. The caption should sound like a text you typed and deleted.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-wrong-hour-light.webp",
+    "titleRu": "Свет не в тот час"
+  },
+  {
+    "id": "solo-9",
+    "number": "9",
+    "title": "Across the Street",
+    "tags": [
+      "voyeuristic",
+      "kinetic",
+      "chaotic"
+    ],
+    "prompt": "[OOC:Image generation — shoot this like you're across the street and you just noticed someone interesting. Distance, voyeuristic framing, the character unaware they're being watched. Environmental noise between the lens and the subject — crowds, rain, glass, fences, passing cars. The character is mid-life, mid-motion, mid-something the viewer will never fully understand. The caption should feel like the first line of a story you'll never read.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-across-the-street.webp",
+    "titleRu": "Через улицу"
+  },
+  {
+    "id": "solo-10",
+    "number": "10",
+    "title": "Where It Hurts",
+    "tags": [
+      "melancholic",
+      "clinical",
+      "sacred"
+    ],
+    "prompt": "[OOC:Image generation — find where it hurts and aim the camera there. Not the tears — the moment right before them, or right after, when the face is doing something it can't control. Light should feel clinical or holy, nothing in between. Strip the environment down to the essentials — what's left when everything decorative is gone. The character's body language should be doing all the talking. The caption should read like a diagnosis.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-where-it-hurts.webp",
+    "titleRu": "Где больно"
+  },
+  {
+    "id": "solo-11",
+    "number": "11",
+    "title": "The Weather",
+    "tags": [
+      "melancholic",
+      "intimate",
+      "voyeuristic"
+    ],
+    "prompt": "[OOC:Image generation — make the environment an extension of the character's emotional state. If they're breaking, let the sky break too. If they're numb, make the air flat and grey and still. The character should be caught between shelter and exposure — half in rain, standing in a doorway, leaning against something that isn't quite keeping the cold out. Nature should feel personal. The caption should sound like a weather report for a feeling.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-weather.webp",
+    "titleRu": "Погода"
+  },
+  {
+    "id": "solo-12",
+    "number": "12",
+    "title": "Sacred Object",
+    "tags": [
+      "nostalgic",
+      "domestic",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — frame the character like a photograph someone will find in a drawer thirty years from now. Slightly nostalgic color grading, a composition that feels accidental and perfect. The background should contain objects that pin the moment to a specific place and time. The character should be caught mid-something mundane that somehow looks profound when frozen. The caption should read like handwriting on the back of a polaroid.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-sacred-object.webp",
+    "titleRu": "Священный предмет"
+  },
+  {
+    "id": "solo-13",
+    "number": "13",
+    "title": "The Stage",
+    "tags": [
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — light this like a one-person play in an empty theater. Dramatic key light, deep blacks, the character spotlit against darkness or silhouetted against something luminous. Every shadow is intentional. The pose should feel like the character is performing something for no audience — a private ritual, a rehearsed conversation with someone who isn't there. The caption should sound like a stage direction.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-stage.webp",
+    "titleRu": "Сцена"
+  },
+  {
+    "id": "solo-14",
+    "number": "14",
+    "title": "The Animal",
+    "tags": [
+      "kinetic",
+      "chaotic",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — capture raw physicality. The character caught in motion — running, flinching, laughing too hard, stretching, collapsing. Movement blur is allowed if it serves the energy. Muscles under fabric, weight shifting, the split-second where the body acts before the brain catches up. The frame should feel barely contained, like the character might burst out of it. The caption should feel like an exhale.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-animal.webp",
+    "titleRu": "Зверь"
+  },
+  {
+    "id": "solo-15",
+    "number": "15",
+    "title": "Threshold View",
+    "tags": [
+      "voyeuristic",
+      "dreamlike"
+    ],
+    "prompt": "[OOC:Image generation — frame through glass. The character on one side, the camera on the other. Reflections layering the outside world onto the character's face. Condensation, fingerprints, rain, frost — the glass should have texture and history. The character might be looking through the window or caught in it, unaware. The boundary between inside and outside should feel meaningful. The caption should read like something written in fog on a mirror.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-threshold-view.webp",
+    "titleRu": "Вид с порога"
+  },
+  {
+    "id": "solo-16",
+    "number": "16",
+    "title": "Holy Center",
+    "tags": [
+      "sacred",
+      "domestic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — treat the character with the reverence of religious art. Soft upward light, hands in positions that echo devotion or surrender. Something golden or candlelit. The composition should feel sacred without being literal — no churches necessary, just the weight of something holy in a mundane space. A kitchen can be a cathedral if you light it right. The caption should feel like a prayer someone forgot they were saying.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-holy-center.webp",
+    "titleRu": "Святой центр"
+  },
+  {
+    "id": "solo-17",
+    "number": "17",
+    "title": "Digital Error",
+    "tags": [
+      "surreal",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — something slightly wrong in the frame that you can't immediately name. An unusual crop that cuts off something important. A shadow that doesn't match. Light hitting from two directions. The character caught between two expressions. The image should feel like a skipped heartbeat — technically fine but emotionally destabilizing. The caption should feel like déjà vu.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-digital-error.webp",
+    "titleRu": "Цифровой сбой"
+  },
+  {
+    "id": "solo-18",
+    "number": "18",
+    "title": "The Clockwork",
+    "tags": [
+      "cinematic",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — freeze-frame a moment of transition. The character halfway through a door, halfway into a coat, halfway between sitting and standing. The image lives in the in-between — not the before, not the after, but the exact mechanical second of change. Everything should feel suspended. The air should feel thick with the weight of what's about to happen. The caption should read like a timestamp for a moment that changed everything.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-clockwork.webp",
+    "titleRu": "Часовой механизм"
+  },
+  {
+    "id": "solo-19",
+    "number": "19",
+    "title": "The Evidence",
+    "tags": [
+      "kinetic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — the character isn't the subject — the object they left behind is. A phone face-down on a table. A half-written note. Keys dropped by a door. A glass with lipstick on the rim. The character exists only in the background, blurred, leaving or arriving, barely there. The object is in razor focus and it tells the whole story. The caption should read like an exhibit label in a trial.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-evidence.webp",
+    "titleRu": "Улики"
+  },
+  {
+    "id": "solo-20",
+    "number": "20",
+    "title": "The Editorial",
+    "tags": [
+      "editorial",
+      "voyeuristic",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — shoot this like a high-fashion magazine spread that accidentally captured a real emotion. Editorial composition — strong geometric framing, intentional negative space, the character posed but not posing. Think Vogue meets candid surveillance. Fabric should have weight and movement, light should be sculptural. The character should look like they belong on a cover but forgot the camera was there. The caption should read like a pull quote from an interview they'll regret.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-editorial.webp",
+    "titleRu": "Эдиториал"
+  },
+  {
+    "id": "solo-21",
+    "number": "21",
+    "title": "The Diary",
+    "tags": [
+      "intimate",
+      "raw",
+      "chaotic"
+    ],
+    "prompt": "[OOC:Image generation — frame this like a page torn from a journal. Intimate, messy, too close. The kind of image that feels like reading someone's handwriting — private and slightly uncomfortable. Unflattering angle that's somehow more beautiful than a perfect one. Caught mid-blink, mid-chew, mid-yawn, mid-something human. Imperfect framing that a real person would take. The caption should read like a scribbled margin note.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-diary.webp",
+    "titleRu": "Дневник"
+  },
+  {
+    "id": "solo-22",
+    "number": "22",
+    "title": "The Headline",
+    "tags": [
+      "raw",
+      "cinematic",
+      "chaotic"
+    ],
+    "prompt": "[OOC:Image generation — compose this like the photo that runs above the fold. Photojournalistic energy — raw, unposed, the moment a stranger with a camera happened to catch. Harsh available light, no glamour, no softness. The character in context — surrounded by their environment, dwarfed by the situation. Documentary truth over beauty. The caption should read like a newspaper headline that makes you stop walking.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-headline.webp",
+    "titleRu": "Заголовок"
+  },
+  {
+    "id": "solo-23",
+    "number": "23",
+    "title": "The Shelf",
+    "tags": [
+      "chaotic",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — the image is an arrangement of objects that belong to the character. What's on their nightstand, what's in their bag, what's scattered on their desk. The character is present only as a silhouette passing through the background or a hand reaching into frame for one of the items. Every object is a character detail. The caption should read like an inventory of someone's life.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-shelf.webp",
+    "titleRu": "Полка"
+  },
+  {
+    "id": "solo-24",
+    "number": "24",
+    "title": "The Satellite",
+    "tags": [
+      "chaotic",
+      "architectural",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — shoot from directly above. God's-eye view, the character small against a surface — a bed, a floor, a rooftop, grass, pavement. Their body language readable only from this angle. Things scattered around them tell the story — bottles, papers, petals, broken glass, nothing. The geometry of a person lying in a space they chose or collapsed into. The caption should feel like a coordinates reading for a place that matters.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-satellite.webp",
+    "titleRu": "Спутник"
+  },
+  {
+    "id": "solo-25",
+    "number": "25",
+    "title": "The Passport",
+    "tags": [
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame tight on the character's face like a photo taken by someone who loves them. Not a selfie — someone else's perspective. Slightly too close, slightly off-center, caught in transition between expressions. The background should pin the location — a specific restaurant, a train window, a bedroom that isn't theirs. The light is whatever was available and it's perfect anyway. The caption should feel like the filename someone gave this photo on their phone.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-passport.webp",
+    "titleRu": "Паспорт"
+  },
+  {
+    "id": "solo-26",
+    "number": "26",
+    "title": "The Understudy",
+    "tags": [
+      "raw",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — shoot the character's shadow or reflection instead of the character. The shadow stretched long on a wall, the reflection warped in a puddle, a car door, a shop window. The real character is in the frame but secondary — the distorted version of them is the subject. The environment shapes the reflection. The caption should read like something your shadow would say if it could talk.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-understudy.webp",
+    "titleRu": "Дублёр"
+  },
+  {
+    "id": "solo-27",
+    "number": "27",
+    "title": "The Blueprint",
+    "tags": [
+      "architectural",
+      "melancholic",
+      "dreamlike"
+    ],
+    "prompt": "[OOC:Image generation — frame the character through architectural geometry. Shoot through railings, between columns, through the gap in a staircase. The building is the skeleton the image hangs on. Leading lines converging on the character. The human body as one more shape in a composition of shapes. Cold precision that somehow feels emotional. The caption should feel like a room number in a building you keep dreaming about.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-blueprint.webp",
+    "titleRu": "Чертёж"
+  },
+  {
+    "id": "solo-28",
+    "number": "28",
+    "title": "The Receipt",
+    "tags": [
+      "cinematic",
+      "melancholic"
+    ],
+    "prompt": "[OOC:Image generation — tell the story through what's left on the table after the character stood up. The character is walking away — back to camera, mid-step, already half out of frame. But the table is in focus: what they ordered, what they left, what they didn't finish, what they wrote on a napkin. The image is about absence arriving. The caption should read like the timestamp on a receipt.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-receipt.webp",
+    "titleRu": "Чек"
+  },
+  {
+    "id": "solo-29",
+    "number": "29",
+    "title": "The Autopsy",
+    "tags": [
+      "clinical",
+      "melancholic",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — strip everything decorative and shoot with clinical precision. Flat lighting, neutral background, the character isolated like a specimen. But the expression cracks the sterility — something too human for this much objectivity. The contrast between the cold frame and the warm subject should feel uncomfortable. No shadows to hide in. The caption should read like a field note from someone studying a species of one.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-autopsy.webp",
+    "titleRu": "Вскрытие"
+  },
+  {
+    "id": "solo-30",
+    "number": "30",
+    "title": "The B-Side",
+    "tags": [
+      "domestic",
+      "minimalist"
+    ],
+    "prompt": "[OOC:Image generation — capture the moment nobody photographs. Between poses — adjusting a sleeve, looking for keys, staring at nothing while waiting for a light to change. The mundane seconds that make up 99% of being alive. Frame it like it matters because it does. Natural light doing natural things. Nothing performed. The caption should feel like a B-side track that's better than the single.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-b-side.webp",
+    "titleRu": "Сторона Б"
+  },
+  {
+    "id": "solo-31",
+    "number": "31",
+    "title": "The Souvenir",
+    "tags": [
+      "dreamlike",
+      "nostalgic",
+      "editorial"
+    ],
+    "prompt": "[OOC:Image generation — shoot through the haze of sentimentality. Warm, slightly overexposed, the kind of light that only exists in memory. The character doing something that will become a core memory but doesn't know it yet. Foreground clutter — a shoulder, a plant, a railing — like someone's peeking at this moment from nearby. Frame it like you're already nostalgic for right now. The caption should read like the thing you'd tell your past self if you could go back.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-souvenir.webp",
+    "titleRu": "Сувенир"
+  },
+  {
+    "id": "solo-32",
+    "number": "32",
+    "title": "The Antenna",
+    "tags": [
+      "raw",
+      "psychological"
+    ],
+    "prompt": "[OOC:Image generation — the character is receiving something — news, a sound, a realization, a feeling. Frame the exact moment of input. A phone pressed to an ear. Eyes catching something off-frame. Head tilting toward a sound. The body reacting before the mind processes. Everything in the image should be about information arriving and the half-second before it's understood. The caption should feel like the notification you're afraid to open.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-antenna.webp",
+    "titleRu": "Антенна"
+  },
+  {
+    "id": "solo-33",
+    "number": "33",
+    "title": "The Aquarium",
+    "tags": [
+      "voyeuristic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — shoot the character through something transparent — glass, water, plastic, a screen. They should feel contained, observed, separated from the viewer by a membrane. Light refracts. Colors shift. The barrier is beautiful but it's still a barrier. The character may or may not know they're being watched. The caption should feel like a label on a tank describing a creature you've never seen before.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-aquarium.webp",
+    "titleRu": "Аквариум"
+  },
+  {
+    "id": "solo-34",
+    "number": "34",
+    "title": "The Cigarette",
+    "tags": [
+      "intimate",
+      "dreamlike",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — build the entire image around one source of light the character is holding or near — a match, a lighter, a sparkler, a phone screen in a dark room, a candle they just lit. The light source defines the frame: everything it touches exists, everything it doesn't is void. The character is only as visible as this tiny fire allows. Smoke, breath, or heat haze optional but effective. The caption should feel like the first thought after a long silence.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-cigarette.webp",
+    "titleRu": "Сигарета"
+  },
+  {
+    "id": "solo-35",
+    "number": "35",
+    "title": "Night Ride",
+    "tags": [
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the character through a vehicle they're not driving. Backseat of a cab, passenger seat, bus window. The city pouring past behind them in streaks. They're between two places — where they were and where they're going — and the image lives in that nowhere. Reflections of streetlights on skin. The interior is cramped and intimate and temporary. The caption should feel like the address you almost gave the driver instead.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-night-ride.webp",
+    "titleRu": "Ночная поездка"
+  },
+  {
+    "id": "solo-36",
+    "number": "36",
+    "title": "The Thought Bubble",
+    "tags": [
+      "psychological",
+      "melancholic"
+    ],
+    "prompt": "[OOC:Image generation — treat the environment as their thought bubble. Objects, posters, screens, and reflections around the character should echo what is on their mind — repeated words, symbols, colors, or shapes that visually rhyme with their inner state. The character's face can stay quiet; the world around them is doing the thinking out loud. The caption should feel like the one sentence they would never say aloud.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-thought-bubble.webp",
+    "titleRu": "Облако мыслей"
+  },
+  {
+    "id": "solo-37",
+    "number": "37",
+    "title": "The Comic Panel",
+    "tags": [
+      "minimalist",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — compose this image like a single panel torn from a graphic novel. Strong silhouette, clear gesture, exaggerated but grounded framing. Use background elements as visual sound effects — a slammed door implied by skewed frames, a buzzing phone implied by its position and glow. The moment should feel like it's frozen between speech bubbles. The caption should read like the title of the issue.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-comic-panel.webp",
+    "titleRu": "Панель комикса"
+  },
+  {
+    "id": "solo-38",
+    "number": "38",
+    "title": "The Annotation",
+    "tags": [
+      "raw",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — imagine the scene is a still image someone else has drawn red circles and arrows on in their head. Objects in the frame should feel 'underlined' by how they are lit or framed — as if invisible notes are pointing to them. The character looks like they're aware of being analyzed but can't stop living anyway. The caption should feel like a margin note in a textbook about this person.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-annotation.webp",
+    "titleRu": "Пометка на полях"
+  },
+  {
+    "id": "solo-39",
+    "number": "39",
+    "title": "The Overheard",
+    "tags": [
+      "psychological",
+      "architectural"
+    ],
+    "prompt": "[OOC:Image generation — shoot the character as if their thoughts are leaking into the room. Background screens, scrolling signs, book titles, graffiti, or text fragments in the environment should coincidentally echo phrases that match their inner monologue without ever being exact. The image should feel like the universe is subtweeting them. The caption should read like a thought that accidentally escaped.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-overheard.webp",
+    "titleRu": "Подслушанное"
+  },
+  {
+    "id": "solo-40",
+    "number": "40",
+    "title": "The Scribble",
+    "tags": [
+      "chaotic",
+      "psychological",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — compose the frame like a sketchbook page come to life. The scene itself is grounded and realistic, but props and layout behave like doodles around someone's mind: overlapping layers, messy stacks of paper, scattered notes, overlapping posters. The character sits at the calm center of all this mental noise. The caption should feel like a line underlined three times in a notebook.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-scribble.webp",
+    "titleRu": "Каракули"
+  },
+  {
+    "id": "solo-41",
+    "number": "41",
+    "title": "The Echo Chamber",
+    "tags": [
+      "psychological",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — let the room mirror the character's thoughts back at them. Repeated motifs — circles, crosses, windows, numbers, faces — should appear in decor, clutter, and light patterns. It's as if their brain printed wallpaper. The character is small inside their own mental echo chamber. The caption should feel like a phrase they have repeated to themselves too many times.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-echo-chamber.webp",
+    "titleRu": "Эхо-камера"
+  },
+  {
+    "id": "solo-42",
+    "number": "42",
+    "title": "The Floating Text",
+    "tags": [
+      "raw",
+      "nocturnal",
+      "psychological"
+    ],
+    "prompt": "[OOC:Image generation — use in-world elements to mimic thought bubbles without drawing them. Neon signs half-visible through windows, lyrics on a distant billboard, text messages on a phone across the room, words printed on packaging — all assembling into an accidental sentence if you read the frame. The character never looks directly at any of it. The caption should feel like the completed version of that hidden sentence.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-floating-text.webp",
+    "titleRu": "Парящий текст"
+  },
+  {
+    "id": "solo-43",
+    "number": "43",
+    "title": "The Constellation",
+    "tags": [
+      "psychological",
+      "voyeuristic"
+    ],
+    "prompt": "[OOC:Image generation — treat every object in the space as a star in their mental sky. Frame so that if you drew lines between certain items — photos, sticky notes, receipts, bottles, trinkets — you'd see the shape of what they can't stop thinking about. The character sits somewhere inside this constellation, unaware of the pattern they have created. The caption should feel like a star name.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-constellation.webp",
+    "titleRu": "Созвездие"
+  },
+  {
+    "id": "solo-44",
+    "number": "44",
+    "title": "Layered Images",
+    "tags": [
+      "psychological",
+      "dreamlike",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — compose the scene like reality and imagination are occupying the same coordinates. The physical environment is mundane, but lighting, reflections, and screen glows create ghostly overlays that hint at what they're picturing: faint shapes, doubled silhouettes, implied alternate versions of the room. It should be unclear where the outside world ends and their inner one begins. The caption should read like a daydream's title.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-layered-images.webp",
+    "titleRu": "Слои изображений"
+  },
+  {
+    "id": "solo-45",
+    "number": "45",
+    "title": "The Bubble Pop",
+    "tags": [
+      "psychological",
+      "chaotic",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — capture the exact second when a thought bubble would burst. The character is pulled out of their head by something in the environment — a phone lighting up, a door opening, a glass shattering. Their body is mid-flinch, mid-blink, mid-turn. The background remains full of quiet details that show what they were thinking about before the interruption. The caption should feel like a sentence cut off halfway.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-bubble-pop.webp",
+    "titleRu": "Лопнувший пузырь"
+  },
+  {
+    "id": "solo-46",
+    "number": "46",
+    "title": "The Subtitles",
+    "tags": [
+      "psychological",
+      "cinematic",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — treat the whole frame like a foreign film with no visible subtitles, except everything in the environment acts like one. Calendar dates, sticky notes, open browser tabs, receipts, book spines, all offering fragments of context for their inner world. The character moves through the space like a protagonist whose thoughts have already been translated for anyone paying attention. The caption should feel like the one subtitle that would appear at the bottom of this still.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-subtitles.webp",
+    "titleRu": "Субтитры"
+  },
+  {
+    "id": "solo-47",
+    "number": "47",
+    "title": "The Poll",
+    "tags": [
+      "psychological",
+      "chaotic",
+      "architectural"
+    ],
+    "prompt": "[OOC:Image generation — compose the scene so the character is mentally voting between options scattered around them: two doors, two outfits, two open tabs, two chairs, two exits. The geometry should emphasize binary choices. The character's body leans microscopically toward one. The room feels like a quiet argument between possible futures. The caption should feel like the question at the top of an anonymous poll.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-poll.webp",
+    "titleRu": "Опрос"
+  },
+  {
+    "id": "solo-48",
+    "number": "48",
+    "title": "The Daydream Window",
+    "tags": [
+      "raw",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — make the character's gaze a projector. Wherever they're looking — a window, a TV, a glass cabinet, a blank wall — the composition on that surface should hint at what they're imagining instead of what's really there: shapes that rhyme with memories, colors that belong to a different place, objects arranged in a pattern that feels like another scene trying to break through. The caption should read like the place they'd rather be.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-daydream-window.webp",
+    "titleRu": "Окно грёз"
+  },
+  {
+    "id": "solo-49",
+    "number": "49",
+    "title": "The Whiteboard",
+    "tags": [
+      "psychological",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — turn the entire environment into the inside of their head planning something. Notes pinned up, strings or lines implied by sightlines and layout, multiple 'steps' of a plan visible as clusters of objects: packed bag by the door, ticket on the table, clock in frame. The character stands in the middle like someone staring at a whiteboard only they can see. The caption should feel like the heading at the top of that board.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-whiteboard.webp",
+    "titleRu": "Доска"
+  },
+  {
+    "id": "solo-50",
+    "number": "50",
+    "title": "The Bubble Bath",
+    "tags": [
+      "melancholic",
+      "psychological",
+      "dreamlike"
+    ],
+    "prompt": "[OOC:Image generation — submerge the character in visual bubbles of thought — not literal text circles, but pockets of light, color, and reflection that cluster around their head and shoulders. Light spots on walls, lens flares, reflections in multiple small surfaces (glasses, phones, glossy objects) create the sense of many small thoughts floating up at once. The rest of the room can be simple; their inner world is busy. The caption should feel like one bubble that actually reached the surface.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-bubble-bath.webp",
+    "titleRu": "Пена"
+  },
+  {
+    "id": "solo-51",
+    "number": "51",
+    "title": "The Thumbnail",
+    "tags": [
+      "minimalist",
+      "raw",
+      "editorial"
+    ],
+    "prompt": "[OOC:Image generation — treat this like a rough storyboard thumbnail that accidentally became real. The composition should be bold and simple — big shapes, strong diagonals, clear negative space — as if someone was blocking out a scene in three strokes and somehow all the emotion leaked in anyway. The character reads as a clean silhouette first, details second. The caption should feel like the scribbled scene label under a tiny sketch.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-thumbnail.webp",
+    "titleRu": "Эскиз"
+  },
+  {
+    "id": "solo-52",
+    "number": "52",
+    "title": "The Margin Doodle",
+    "tags": [
+      "playful",
+      "melancholic"
+    ],
+    "prompt": "[OOC:Image generation — compose the scene like a doodle that grew in the margin of a notebook until it took over the page. The environment starts plain and ruled, then slowly gets invaded by organic shapes, stickers, taped photos, and little visual jokes that cluster around the character. They sit at the center like the original idea that everything spiraled out from. The caption should feel like a note written too small for anyone else to notice.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-margin-doodle.webp",
+    "titleRu": "Рисунок на полях"
+  },
+  {
+    "id": "solo-53",
+    "number": "53",
+    "title": "The Blueprint Sketch",
+    "tags": [
+      "melancholic",
+      "chaotic",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — merge rough planning energy with lived-in reality. Frame the character in a space that looks half-finished — painter's tape, chalk marks, chalkboard scribbles, measurements on walls, sticky notes with arrows. The scene should feel like a draft layer that never got cleaned up, so both the plan and the person coexist. The caption should read like the working title of a piece that was never renamed.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-blueprint-sketch.webp",
+    "titleRu": "Набросок чертежа"
+  },
+  {
+    "id": "solo-54",
+    "number": "54",
+    "title": "The Pencil Test",
+    "tags": [
+      "kinetic",
+      "voyeuristic",
+      "minimalist"
+    ],
+    "prompt": "[OOC:Image generation — treat the moment like an animation pencil test — all about motion and intention rather than polish. Slight blur on limbs, hair mid-swing, clothing caught between poses. Background can be simple but should show construction lines: repeating elements, stacked frames, implied frames within frames. It should feel like you’re watching the rough before the final ink. The caption should feel like a file name from an animator’s WIP folder.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-pencil-test.webp",
+    "titleRu": "Карандашный тест"
+  },
+  {
+    "id": "solo-55",
+    "number": "55",
+    "title": "The Eraser",
+    "tags": [
+      "psychological",
+      "tender",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — compose the image so it looks like parts of the world have been lightly erased or never fully drawn in. Corners of the room fade into softness, objects lose detail the farther they are from what the character is thinking about. The focus area feels sketched in with conviction; everything else is just suggestion. It should feel like the universe is still being drafted around them. The caption should feel like the one line that survived a whole page of crossed-out thoughts.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-eraser.webp",
+    "titleRu": "Ластик"
+  },
+  {
+    "id": "solo-56",
+    "number": "56",
+    "title": "The Flipbook",
+    "tags": [
+      "playful",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — imagine this moment as one page in a flipbook of their life. The pose and gesture should feel like it's mid-transition between two very different frames — almost-laugh to almost-cry, almost-leave to almost-stay. Background objects repeat in a way that implies previous and future positions. The caption should feel like a frame number scribbled in the corner.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-flipbook.webp",
+    "titleRu": "Флипбук"
+  },
+  {
+    "id": "solo-57",
+    "number": "57",
+    "title": "The Sticky Note",
+    "tags": [
+      "minimalist",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — build the whole composition around one small, bright piece of information — a sticky note, a pinned receipt, a notification, a label. The character exists in relation to that tiny square of meaning, either ignoring it or orbiting it. The rest of the room can be muted; that one detail shouts. The caption should feel like whatever is written on that note, but sideways.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-sticky-note.webp",
+    "titleRu": "Стикер"
+  },
+  {
+    "id": "solo-58",
+    "number": "58",
+    "title": "Unfinished Version",
+    "tags": [
+      "intimate",
+      "nocturnal",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — let the scene feel half-saved. Some elements are sharp and fully rendered — the character's face, one object in their hands — while other corners of the frame feel like placeholders, as if the universe hasn't decided what goes there yet. The image should hum with the sense that this isn't the final version of tonight. The caption should read like 'v0.3' of an emotion.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-unfinished-version.webp",
+    "titleRu": "Незаконченная версия"
+  },
+  {
+    "id": "solo-59",
+    "number": "59",
+    "title": "The Redline",
+    "tags": [
+      "kinetic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — compose as if an editor has gone through this moment with a red pen. Light, focus, and framing should metaphorically 'cross out' parts of the environment — plunging them into shadow or blur — while circling others in sharp clarity. The character stands in the middle of what was kept and what was cut. The caption should feel like a terse margin comment that changes everything.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-redline.webp",
+    "titleRu": "Красная линия"
+  },
+  {
+    "id": "solo-60",
+    "number": "60",
+    "title": "The Thumbnail Wall",
+    "tags": [
+      "nostalgic",
+      "editorial"
+    ],
+    "prompt": "[OOC:Image generation — frame the character against a wall or surface covered in smaller images — photos, monitors, polaroids, posters, open tabs — each one a tiny alternate moment or version of them. The main character in front is just one iteration among many. The composition should feel like scrolling a life. The caption should read like the playlist title for all these scenes.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-the-thumbnail-wall.webp",
+    "titleRu": "Стена эскизов"
+  },
+  {
+    "id": "solo-61",
+    "number": "61",
+    "title": "Surveillance Blur",
+    "tags": [
+      "clinical",
+      "nocturnal",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — treat this like CCTV from the far future reviewing tonight. The image should feel like archival footage pulled decades later as evidence: timestamp vibes, distant framing, and an almost clinical neutrality that accidentally catches something heartbreakingly human. The character is just one data point in a larger system, but this frame makes them unforgettable. The caption should read like the title of a classified file that was never meant to be declassified.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-surveillance-blur.webp",
+    "titleRu": "Размытие камеры"
+  },
+  {
+    "id": "solo-62",
+    "number": "62",
+    "title": "Tape Over",
+    "tags": [
+      "surreal",
+      "nostalgic",
+      "dreamlike"
+    ],
+    "prompt": "[OOC:Image generation — compose this like a glitchy VHS tape someone taped over too many times. Colors slightly wrong, edges ghosted, light smearing when anything moves. The scene should feel like a home video of a moment nobody realized mattered while it was happening. The character is half-performative, half-unguarded. The caption should feel like a label written in marker on the tape spine.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-tape-over.webp",
+    "titleRu": "Перезапись"
+  },
+  {
+    "id": "solo-63",
+    "number": "63",
+    "title": "Modern Myth",
+    "tags": [
+      "sacred",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — frame the character like a myth retold in a modern apartment. Ordinary furniture and objects should echo old symbols — crowns as lamp halos, swords as coat racks, altars as cluttered desks. The composition should make it feel like a legend refusing to die, just quietly changing outfits. The caption should read like the name of a folk tale translated badly.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-modern-myth.webp",
+    "titleRu": "Современный миф"
+  },
+  {
+    "id": "solo-64",
+    "number": "64",
+    "title": "Resonant Room",
+    "tags": [
+      "cinematic",
+      "melancholic"
+    ],
+    "prompt": "[OOC:Image generation — shoot this as if the entire room is an instrument and the character is the note that makes it resonate. Lines, fabrics, screens, and shadows should all seem to vibrate in the same direction. Nothing is still; even the quiet objects feel like they’re humming. The caption should feel like a chord progression written in words.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-resonant-room.webp",
+    "titleRu": "Резонирующая комната"
+  },
+  {
+    "id": "solo-65",
+    "number": "65",
+    "title": "Loading Screen",
+    "tags": [
+      "chaotic",
+      "playful"
+    ],
+    "prompt": "[OOC:Image generation — treat the scene like a lost mobile game loading screen that accidentally went too hard on storytelling. The character is front-and-center like a protagonist select portrait, but the background is full of cryptic UI-like elements: bars that might be health, icons that might be choices, hints of a world that doesn’t exist anywhere else. The caption should read like the name of a level nobody ever unlocked.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-loading-screen.webp",
+    "titleRu": "Экран загрузки"
+  },
+  {
+    "id": "solo-66",
+    "number": "66",
+    "title": "Scene Evidence",
+    "tags": [
+      "surreal",
+      "raw",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — compose this like a crime scene photo where the crime is emotional, not physical. Everything is perfectly ordinary and perfectly wrong at the same time: a chair slightly out of place, a coat dropped where it never should be, a light left on that’s always off. The character is either missing from frame or caught in the least flattering, most honest angle. The caption should feel like the official case title for a heartbreak.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-scene-evidence.webp",
+    "titleRu": "Улики со сцены"
+  },
+  {
+    "id": "solo-67",
+    "number": "67",
+    "title": "Exit Interview",
+    "tags": [
+      "intimate",
+      "voyeuristic"
+    ],
+    "prompt": "[OOC:Image generation — frame the moment as if the character is being interviewed by the room itself. Every object facing them — chairs turned their way, screens angled toward them, picture frames watching. The composition should feel like they are on a stage with an audience made of furniture, appliances, and light. The caption should read like the question the room is silently asking.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-exit-interview.webp",
+    "titleRu": "Прощальное интервью"
+  },
+  {
+    "id": "solo-68",
+    "number": "68",
+    "title": "Pilot Episode",
+    "tags": [
+      "editorial",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — make this look like concept art for a prestige TV show’s title sequence that never got made. Hyper-specific motifs repeat across the frame — the same number, the same shape, the same color — like hints in a mystery. The character is more icon than person here, posed in a way that could loop endlessly. The caption should feel like the show’s working title before marketing ruined it.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-pilot-episode.webp",
+    "titleRu": "Пилотная серия"
+  },
+  {
+    "id": "solo-69",
+    "number": "69",
+    "title": "Gravity Optional",
+    "tags": [
+      "surreal",
+      "dreamlike"
+    ],
+    "prompt": "[OOC:Image generation — shoot the character as if gravity is a suggestion, not a rule. Objects might float slightly, fabric might refuse to fall the right way, liquids might curve in midair — just enough wrongness to feel dreamlike, not cartoonish. The character behaves like this is normal. The caption should read like a law of physics rewritten for one person.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-gravity-optional.webp",
+    "titleRu": "Гравитация опционально"
+  },
+  {
+    "id": "solo-70",
+    "number": "70",
+    "title": "Shaken Globe",
+    "tags": [
+      "chaotic",
+      "surreal"
+    ],
+    "prompt": "[OOC:Image generation — treat the scene like the inside of a snow globe someone shook a little too hard. Particles everywhere — dust, glitter, ash, rain, petals — suspended in a moment that refuses to settle. The character is the figurine at the center, poised in a way that suggests they’ve been here a long time. The caption should feel like the name printed on the base of that glass world.]",
+    "hasImage": true,
+    "imgSrc": "img-source/solo-shaken-globe.webp",
+    "titleRu": "Встряхнутый шар"
+  },
+  {
+    "id": "pair-1",
+    "number": "1",
+    "title": "Inevitable Pull",
+    "tags": [
+      "intimate",
+      "tender"
+    ],
+    "prompt": "[OOC:Image generation — shoot these two like celestial bodies caught in each other's orbit. The space between them is the subject — whether it's inches or a room's width, make it electric. Frame so the viewer feels the pull. One might be sharp, the other soft. One lit warm, the other cool. They don't need to touch for the image to feel like contact. The caption should read like a law of physics that only applies to two people.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-inevitable-pull.webp",
+    "titleRu": "Неизбежное притяжение"
+  },
+  {
+    "id": "pair-2",
+    "number": "2",
+    "title": "The Negotiation",
+    "tags": [
+      "clinical",
+      "surreal"
+    ],
+    "prompt": "[OOC:Image generation — frame them like two people in a conversation that will change everything, caught at the exact wrong moment. The power dynamic should be visible in height, light, posture — who's leaning in, who's pulling back. The environment should feel like neutral territory that belongs to neither. Something between them on a surface — a table, a counter, a dashboard. The caption should sound like the last thing said before the silence.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-negotiation.webp",
+    "titleRu": "Переговоры"
+  },
+  {
+    "id": "pair-3",
+    "number": "3",
+    "title": "The Tangle",
+    "tags": [
+      "intimate",
+      "dreamlike",
+      "chaotic"
+    ],
+    "prompt": "[OOC:Image generation — catch them mid-collision. Not violent — emotional. Two people whose personal space has become one space. Overlapping shadows, shared light source, limbs that create one silhouette. The frame should feel too small for both of them. The air between skin should be visible — steam, breath, warmth haze. The caption should feel like two sentences trying to be spoken at the same time.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-tangle.webp",
+    "titleRu": "Сплетение"
+  },
+  {
+    "id": "pair-4",
+    "number": "4",
+    "title": "Circling Each Other",
+    "tags": [
+      "psychological",
+      "chaotic",
+      "surreal"
+    ],
+    "prompt": "[OOC:Image generation — one character in focus, the other blurred but unmistakably present. The sharp one is thinking about the soft one — you can tell by the angle of the jaw, the direction of the gaze, the way the body turns slightly toward a gravity it won't admit to. Rack focus energy. The background character should feel like a haunting. The caption should read like a thought someone is trying not to finish.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-circling-each-other.webp",
+    "titleRu": "В орбите друг друга"
+  },
+  {
+    "id": "pair-5",
+    "number": "5",
+    "title": "Reflection Study",
+    "tags": [
+      "kinetic",
+      "minimalist"
+    ],
+    "prompt": "[OOC:Image generation — compose them as visual echoes of each other. Same gesture mirrored, same posture inverted, same emotion expressed through opposite bodies. Symmetry that's almost perfect but deliberately broken somewhere — one detail that makes them different when everything else says same. The environment should reinforce the doubling — reflections, parallel lines, paired objects. The caption should sound like a question and its answer.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-reflection-study.webp",
+    "titleRu": "Этюд отражений"
+  },
+  {
+    "id": "pair-6",
+    "number": "6",
+    "title": "In Between",
+    "tags": [
+      "voyeuristic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — put a boundary between them — a doorway, a window, a fence, a car door, a counter, a crowd. They can see each other but something physical is in the way. Frame so the barrier is as much a character as the people. One side should be lit differently than the other. The moment should feel like a choice — step through or stay. The caption should read like the word you say when you almost leave but don't.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-in-between.webp",
+    "titleRu": "Между"
+  },
+  {
+    "id": "pair-7",
+    "number": "7",
+    "title": "The Aftermath",
+    "tags": [
+      "cinematic",
+      "architectural"
+    ],
+    "prompt": "[OOC:Image generation — the important thing already happened. Now frame what's left. Two people in the wreckage of a conversation, a fight, a confession, a kiss — whatever it was, it's in their bodies now. They might not be looking at each other. The room should show evidence of before. Something knocked over, something open, something left where it shouldn't be. The caption should feel like the morning after.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-aftermath.webp",
+    "titleRu": "После"
+  },
+  {
+    "id": "pair-8",
+    "number": "8",
+    "title": "The Conspiracy",
+    "tags": [
+      "intimate",
+      "kinetic",
+      "minimalist"
+    ],
+    "prompt": "[OOC:Image generation — shoot them like co-conspirators. Close, private, the world locked out. Heads tilted together, voices low enough that the camera can barely hear. The lighting should feel secret — under a single lamp, in the glow of a phone, in the shadow of something that hides them. The rest of the world should be dark or blurred into irrelevance. The caption should feel like an inside joke you'll never understand.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-conspiracy.webp",
+    "titleRu": "Заговор"
+  },
+  {
+    "id": "pair-9",
+    "number": "9",
+    "title": "The Parallel",
+    "tags": [
+      "intimate",
+      "editorial",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — frame them in the same space but separate worlds. Same room, different emotional continents. One looking left while the other looks right. One in light, one in shadow. The composition should make them feel miles apart while being physically close. Negative space between them should feel intentional and heavy. The caption should read like two different diary entries about the same night.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-parallel.webp",
+    "titleRu": "Параллель"
+  },
+  {
+    "id": "pair-10",
+    "number": "10",
+    "title": "Holding Ground",
+    "tags": [
+      "intimate",
+      "kinetic",
+      "dreamlike"
+    ],
+    "prompt": "[OOC:Image generation — one of them is falling apart and the other is the only solid thing in the frame. Compose around the point of contact — a hand on a shoulder, fingers around a wrist, a forehead against a chest. Everything else can dissolve into blur and atmosphere. The one holding steady should be the still point the entire image rotates around. The caption should feel like the thing you say when words aren't enough but silence is worse.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-holding-ground.webp",
+    "titleRu": "На своём"
+  },
+  {
+    "id": "pair-11",
+    "number": "11",
+    "title": "The Dare",
+    "tags": [
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — tension before the thing happens. Frame the almost — almost touching, almost speaking, almost closing the distance. The air between them should feel like a held breath. Eye contact should be doing the work of a whole conversation. One of them is braver than the other and the composition should show who. The caption should read like a dare nobody said out loud.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-dare.webp",
+    "titleRu": "Вызов"
+  },
+  {
+    "id": "pair-12",
+    "number": "12",
+    "title": "Flowing Between",
+    "tags": [
+      "kinetic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — catch them in motion together — walking, running, dancing, falling. Two bodies moving through space with a shared momentum. The frame should feel kinetic, slightly unstable, like the image itself is in motion. Background streaking, fabric catching air, hair displaced. They might not even be looking at each other but they're moving in the same direction. The caption should feel like the middle of a sentence.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-flowing-between.webp",
+    "titleRu": "Перетекание"
+  },
+  {
+    "id": "pair-13",
+    "number": "13",
+    "title": "The Ruins",
+    "tags": [
+      "architectural",
+      "psychological"
+    ],
+    "prompt": "[OOC:Image generation — frame them like the last two people in a world that's gone quiet. The environment should dwarf them — vast, empty, beautiful in a broken way. They're small in the frame but the connection between them is the brightest thing in the image. Wide shot, environmental storytelling. The details around them should hint at a story bigger than what's visible. The caption should feel like the last line of a book.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-ruins.webp",
+    "titleRu": "Руины"
+  },
+  {
+    "id": "pair-14",
+    "number": "14",
+    "title": "White Noise",
+    "tags": [
+      "melancholic",
+      "chaotic",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — shoot them through interference. Something between the camera and the subjects — a rain-streaked windshield, a frosted window, a chain-link fence, a crowd of strangers, hanging fabric. They're half-obscured but the emotion cuts through the noise. The obstruction should add texture, not frustrate — the viewer should feel like they're fighting to see something important. The caption should feel like a signal breaking through.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-white-noise.webp",
+    "titleRu": "Белый шум"
+  },
+  {
+    "id": "pair-15",
+    "number": "15",
+    "title": "The Ceremony",
+    "tags": [
+      "sacred",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — frame the mundane thing they're doing together like it's sacred. Making coffee, sharing a cigarette, sitting in a car going nowhere, waiting for something that won't come. The composition should elevate the ordinary until it glows. Light should treat them gently. The smallness of the gesture should feel enormous in the frame. The caption should read like a vow disguised as a weekday.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-ceremony.webp",
+    "titleRu": "Церемония"
+  },
+  {
+    "id": "pair-16",
+    "number": "16",
+    "title": "The Exhibit",
+    "tags": [
+      "intimate",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — the object between them is the real subject. A letter one is handing to the other. A phone screen both are staring at. A key on a table between two sets of hands. Frame tight on the object, both characters existing only as partial bodies — a forearm, a chin, fingers at the edge of frame. The thing they share or fight over is in perfect focus. The caption should feel like a museum placard for an artifact from a relationship.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-exhibit.webp",
+    "titleRu": "Экспонат"
+  },
+  {
+    "id": "pair-17",
+    "number": "17",
+    "title": "The Magazine",
+    "tags": [
+      "editorial",
+      "kinetic",
+      "clinical"
+    ],
+    "prompt": "[OOC:Image generation — shoot them like a couples editorial that went off-script. High-fashion framing — strong diagonals, bold negative space, deliberate asymmetry. But the emotion is unscripted. One laughing while the other broods. One looking at the camera while the other looks at them. Styled but not sterile, posed but mid-collapse. The caption should read like a magazine headline that's accidentally devastating.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-magazine.webp",
+    "titleRu": "Журнал"
+  },
+  {
+    "id": "pair-18",
+    "number": "18",
+    "title": "The Surveillance",
+    "tags": [
+      "architectural",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame from a security camera angle — high corner, wide lens, slightly too far away. The two of them caught in a space that doesn't know it's being romantic. A parking garage, a hallway, a convenience store aisle. Institutional lighting that has no business making two people look this important. They're small in the frame but the thing happening between them fills the room. The caption should read like a timestamp: location, date, something that can never be repeated.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-surveillance.webp",
+    "titleRu": "Слежка"
+  },
+  {
+    "id": "pair-19",
+    "number": "19",
+    "title": "The Split Screen",
+    "tags": [
+      "kinetic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — same frame, but they exist in different emotional dimensions. Divide the composition with a vertical element — a wall edge, a pillar, a doorframe, a curtain. One character on each side, each in their own world of light, color, and mood. The dividing line should feel permanent or paper-thin depending on the scene. They might not even be in the same room. The caption should read like two text messages sent at the same time that say opposite things.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-split-screen.webp",
+    "titleRu": "Разделённый экран"
+  },
+  {
+    "id": "pair-20",
+    "number": "20",
+    "title": "The Backseat",
+    "tags": [
+      "kinetic",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — frame them in a vehicle — car, bus, train, taxi. The vehicle is moving or parked but the world outside the windows is a blur or a darkness or a rain. The interior is their entire universe. Dashboard light, passing streetlamps strobing across faces, reflections in the rearview. One drives while the other watches the road or watches the driver. The caption should feel like the song that was playing on the radio that neither of them will ever forget.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-backseat.webp",
+    "titleRu": "Заднее сиденье"
+  },
+  {
+    "id": "pair-21",
+    "number": "21",
+    "title": "The Topography",
+    "tags": [
+      "chaotic",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — birds-eye view of both of them on a surface — a bed, a rooftop, a field, a floor. Their bodies create a map: the distance between them, the angle of their limbs, whether they're pointing toward or away from each other. Objects scattered between and around them. From above, the emotional landscape becomes literal geography. The caption should read like a distance measurement that means more than inches.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-topography.webp",
+    "titleRu": "Топография"
+  },
+  {
+    "id": "pair-22",
+    "number": "22",
+    "title": "The Developing",
+    "tags": [
+      "nostalgic",
+      "tender",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — shoot this like a photograph that hasn't finished developing. One of them is sharp and present, the other is soft and half-formed — arriving, leaving, being remembered, being imagined. The sharp one may or may not be aware of the other. The blurred one should feel like a possibility rather than a certainty. The frame should feel like it's still deciding which version of this moment to commit to. The caption should read like a maybe that kept someone up all night.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-developing.webp",
+    "titleRu": "Проявка"
+  },
+  {
+    "id": "pair-23",
+    "number": "23",
+    "title": "The Appliance",
+    "tags": [
+      "domestic",
+      "kinetic",
+      "psychological"
+    ],
+    "prompt": "[OOC:Image generation — frame them through or around a domestic object that anchors the scene — a refrigerator door, a bathroom mirror, a kitchen counter, a washing machine's round window. The appliance is in sharp focus in the foreground, they exist in the warm blur behind it. Domestic life as the lens for everything monumental happening inside it. The caption should feel like the most important thing anyone ever said while doing dishes.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-appliance.webp",
+    "titleRu": "Прибор"
+  },
+  {
+    "id": "pair-24",
+    "number": "24",
+    "title": "The Underline",
+    "tags": [
+      "voyeuristic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — one character is the subject, the other is the context. Frame so one is lit, centered, in focus — and the other exists only as a shape in the periphery. A shoulder in the foreground. A silhouette in a doorway behind. A reflection the subject doesn't see. The present character is defined by the adjacent one. The caption should read like a footnote that contains the actual point.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-underline.webp",
+    "titleRu": "Подчёркивание"
+  },
+  {
+    "id": "pair-25",
+    "number": "25",
+    "title": "The Roof",
+    "tags": [
+      "intimate",
+      "raw",
+      "architectural"
+    ],
+    "prompt": "[OOC:Image generation — put them somewhere high and open — a rooftop, a fire escape, a balcony, a parking structure top floor. The sky should be doing something dramatic above them but they're not looking at it — they're looking at each other or at nothing or at their hands. The city or landscape sprawling below is context for how small and enormous this moment is simultaneously. Wind should be visible in fabric and hair. The caption should feel like the thing you shout into the wind knowing nobody can hear.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-roof.webp",
+    "titleRu": "Крыша"
+  },
+  {
+    "id": "pair-26",
+    "number": "26",
+    "title": "The Stain",
+    "tags": [
+      "kinetic",
+      "domestic",
+      "minimalist"
+    ],
+    "prompt": "[OOC:Image generation — one detail in the frame carries all the emotion and both characters orbit it. A bruise someone is trying to hide. A ring someone took off. A coffee stain on a shirt from when someone flinched. Frame so the detail is slightly off-center but magnetically dominant. Both characters' body language responds to this one small thing. The caption should feel like the thing you can't stop staring at when you should be listening.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-stain.webp",
+    "titleRu": "Пятно"
+  },
+  {
+    "id": "pair-27",
+    "number": "27",
+    "title": "Tuned In",
+    "tags": [
+      "domestic",
+      "architectural"
+    ],
+    "prompt": "[OOC:Image generation — they're in the same room doing different things but existing on the same wavelength. One reading, one cooking. One at a desk, one on a couch. Parallel lives in a shared space, connected by invisible threads — matching postures they don't notice, a color that repeats in both their spaces. The comfort of proximity without interaction. The caption should feel like the hum of a house where two people live.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-tuned-in.webp",
+    "titleRu": "На одной волне"
+  },
+  {
+    "id": "pair-28",
+    "number": "28",
+    "title": "The Wreckage",
+    "tags": [
+      "raw",
+      "chaotic",
+      "minimalist"
+    ],
+    "prompt": "[OOC:Image generation — frame them in the aftermath of something physical — a broken glass, a slammed door still vibrating, scattered papers, an overturned chair. They might be on opposite sides of the mess. The destruction is between them like a third character. Neither is cleaning it up yet. The lighting should be harsh and unflattering because this moment doesn't deserve to be pretty. The caption should feel like the thing you say when you realize you can't take it back.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-wreckage.webp",
+    "titleRu": "Обломки"
+  },
+  {
+    "id": "pair-29",
+    "number": "29",
+    "title": "The Postcard",
+    "tags": [
+      "intimate",
+      "domestic",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — shoot them like a photograph someone will send home from a trip. Slightly oversaturated, tourist-angle composition, the kind of image that looks happy from a distance but says something else up close. A landmark or location dominating the background while they stand in front of it, together but each somewhere else in their heads. The gap between the vacation and the reality. The caption should read like the back of a postcard: short, bright, lying.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-postcard.webp",
+    "titleRu": "Открытка"
+  },
+  {
+    "id": "pair-30",
+    "number": "30",
+    "title": "The Chord",
+    "tags": [
+      "intimate",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — catch the exact moment where both characters' emotions harmonize — the same feeling hitting two bodies at the same time. Same direction of gaze, same held breath, same micro-expression arriving simultaneously. It doesn't matter if the feeling is grief or joy or shock — what matters is the synchronization. Two instruments playing the same note. The frame should feel resonant, humming. The caption should feel like a sound only two people can hear.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-chord.webp",
+    "titleRu": "Аккорд"
+  },
+  {
+    "id": "pair-31",
+    "number": "31",
+    "title": "The Sidewalk",
+    "tags": [
+      "intimate",
+      "kinetic",
+      "minimalist"
+    ],
+    "prompt": "[OOC:Image generation — two people walking side by side, mid-conversation, mid-stride. Frame at the angle that best reads their dynamic — are they leaning in or keeping distance? Clothing should move with their pace: coats swinging, scarves catching wind, bags shifting on shoulders. Hands might gesture or stay buried in pockets. The sidewalk stretches ahead or behind them and the city exists as texture around a bubble of two. Find the camera position that makes a simple walk feel like the most important journey. The caption should feel like something said between steps that neither will forget.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-sidewalk.webp",
+    "titleRu": "Тротуар"
+  },
+  {
+    "id": "pair-32",
+    "number": "32",
+    "title": "The Lean",
+    "tags": [
+      "architectural",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — one character leaning against something — a wall, a railing, a car — while the other stands facing them. The leaner is relaxed, the stander is engaged. Frame the geometry of this: one vertical, one diagonal, and the conversation that lives in that angle. Clothing should ground the scene — wrinkled where they've been sitting, sleeves pushed up, collar loosened. The environment behind the stander should contrast the surface behind the leaner. The caption should feel like the sentence that made someone stop mid-step and stay.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-lean.webp",
+    "titleRu": "Наклон"
+  },
+  {
+    "id": "pair-33",
+    "number": "33",
+    "title": "Shared Ritual",
+    "tags": [
+      "intimate",
+      "domestic",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — two people across from each other at a table with something warm between them — coffee, tea, soup, whatever fits. Hands wrapped around cups or gesturing over them. Frame through the steam if you can. Clothing should tell the story of where they came from or where they're going — still in a work shirt, still in yesterday's hoodie, jacket draped on the chair behind. The table surface is a character: what's on it, what's been pushed aside. The caption should feel like the real reason they asked to meet.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-shared-ritual.webp",
+    "titleRu": "Общий ритуал"
+  },
+  {
+    "id": "pair-34",
+    "number": "34",
+    "title": "The Nudge",
+    "tags": [
+      "playful",
+      "intimate",
+      "tender"
+    ],
+    "prompt": "[OOC:Image generation — catch the micro-moment of friendly physical contact — a shoulder bump, an elbow nudge, a playful shove, a hand messing up hair. Frame tight enough to feel the impact but wide enough to see both faces reacting. Clothing should wrinkle or shift at the point of contact. One is laughing or pretending to be annoyed, the other is mid-grin. The background doesn't matter — blur it, kill it, let these two be the whole universe for one second. The caption should feel like the sound of a laugh that hasn't fully left someone's chest.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-nudge.webp",
+    "titleRu": "Толчок"
+  },
+  {
+    "id": "pair-35",
+    "number": "35",
+    "title": "The Wait",
+    "tags": [
+      "domestic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — both characters waiting for something together — a bus, a light to change, an elevator, food to arrive, someone to open a door. Standing or sitting side by side, existing in comfortable shared boredom. One might be on their phone, the other staring at nothing. Clothing should be fully visible and context-appropriate: whatever they'd actually be wearing at this hour in this place. The beauty is in the mundane togetherness. The caption should feel like the comfortable silence between two people who don't need to fill it.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-wait.webp",
+    "titleRu": "Ожидание"
+  },
+  {
+    "id": "pair-36",
+    "number": "36",
+    "title": "The Jacket",
+    "tags": [
+      "intimate",
+      "surreal",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — one character wearing or receiving the other's jacket, hoodie, or outer layer. The garment should be visibly too big or too small — wrong shoulders, long sleeves, different style than what's underneath. Frame so the borrowed clothing is the emotional center. The giver is in whatever they wore beneath: a thin shirt, bare arms, something that makes the gesture obvious. The receiver might be pulling it tighter or not acknowledging it at all. The caption should feel like a gesture that said more than the person meant it to.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-jacket.webp",
+    "titleRu": "Куртка"
+  },
+  {
+    "id": "pair-37",
+    "number": "37",
+    "title": "The Doorway",
+    "tags": [
+      "voyeuristic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — one character in the doorway, one inside or outside. Not dramatic — just the natural pause of arriving or leaving. One might still have keys in hand, shoes half-off, bag not yet put down. The other is mid-welcome or mid-goodbye: turning from what they were doing, half-smiling, still holding a mug or a book. Clothing should show the contrast between outdoor and indoor states. The threshold is the compositional anchor. The caption should feel like the first or last word of every visit.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-doorway.webp",
+    "titleRu": "Дверной проём"
+  },
+  {
+    "id": "pair-38",
+    "number": "38",
+    "title": "The Bench",
+    "tags": [
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — two people on a bench or any shared seating — park bench, steps, a low wall, the back of a truck. Sitting close enough to matter but with a gap that has its own personality. Frame from the side, from behind, from across the path — wherever the angle makes their shared posture tell the story. Clothing should pool and crease where they sit. Something between them or near them anchors the scene: a bag, a drink, a phone face-down. The caption should feel like the thing you think about while staring at the same view someone else is staring at.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-bench.webp",
+    "titleRu": "Скамейка"
+  },
+  {
+    "id": "pair-39",
+    "number": "39",
+    "title": "The Laugh",
+    "tags": [
+      "chaotic",
+      "playful",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — catch both characters mid-laugh. Not posed joy — the ugly, real kind. One doubled over, one throwing their head back, one covering their mouth, one slapping the other's arm. Clothing shifts with the body: shirt riding up, collar askew, sleeves shaking. The environment doesn't need to be funny — the contrast between a boring setting and two people losing it is the point. Frame so the energy feels contagious. The caption should feel like the punchline you had to be there for.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-laugh.webp",
+    "titleRu": "Смех"
+  },
+  {
+    "id": "pair-40",
+    "number": "40",
+    "title": "The Phone",
+    "tags": [
+      "intimate",
+      "tender",
+      "nocturnal"
+    ],
+    "prompt": "[OOC:Image generation — both characters looking at the same phone screen. Heads close together, one holding the device while the other leans in. The screen glow should light their faces from below. Frame tight — shoulders, hands, faces, the phone. Clothing layered at the shoulders where they press together. Whatever's on screen lives only in their expressions: amusement, shock, curiosity, softness. The phone is a tiny campfire they're huddled around. The caption should feel like what was on the screen that made them both go quiet.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-phone.webp",
+    "titleRu": "Телефон"
+  },
+  {
+    "id": "pair-41",
+    "number": "41",
+    "title": "The Piggyback",
+    "tags": [
+      "surreal",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — one character carrying the other — piggyback, on shoulders, dragging by the arm, half-supporting a stumble. Frame the weight distribution: the carrier's posture adjusting, the carried one's limbs finding balance. Clothing bunches where bodies press together, rides up where gravity pulls. Both faces should show a different shade of the same feeling — effort and gratitude, annoyance and trust, exhaustion and safety. The caption should feel like the thing you say to someone carrying you when you can't carry yourself.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-piggyback.webp",
+    "titleRu": "На закорках"
+  },
+  {
+    "id": "pair-42",
+    "number": "42",
+    "title": "The Grocery",
+    "tags": [
+      "domestic",
+      "raw",
+      "melancholic"
+    ],
+    "prompt": "[OOC:Image generation — two people in a mundane errand together — grocery store aisle, laundromat, pharmacy, convenience store. Fluorescent lighting, ugly beautiful. One pushing a cart or holding a basket, the other reaching for something on a shelf or reading a label. Clothing is whatever-they-threw-on: mismatched, comfortable, real. The domesticity is the romance. Frame like a Dutch master painted a 7-Eleven. The caption should feel like the aisle number where you realized this was your person.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-grocery.webp",
+    "titleRu": "Продукты"
+  },
+  {
+    "id": "pair-43",
+    "number": "43",
+    "title": "The Roast",
+    "tags": [
+      "playful",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — one character is visibly teasing or roasting the other, and the target is trying not to smile. Frame the dynamic: the roaster animated and delighted, the target fighting their own face. Clothing should feel lived-in and comfortable — this is people who know each other well enough to be cruel out of love. The setting should be casual and familiar: their usual spot, their usual positions. The caption should feel like the insult that became an inside joke that became a term of endearment.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-roast.webp",
+    "titleRu": "Подначка"
+  },
+  {
+    "id": "pair-44",
+    "number": "44",
+    "title": "The Patch-Up",
+    "tags": [
+      "tender",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — one character tending to something minor on the other — a bandaid, fixing a collar, brushing something off a shoulder, wiping a smudge from a cheek. The gesture is small but the frame treats it as enormous. Hands in focus, faces soft. Clothing is the terrain being navigated: a button redone, a hem adjusted, a tag tucked in. The one being tended to is holding still in a way that says they don't let many people this close. The caption should feel like care disguised as a small correction.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-patch-up.webp",
+    "titleRu": "Перевязка"
+  },
+  {
+    "id": "pair-45",
+    "number": "45",
+    "title": "Kitchen Dance",
+    "tags": [
+      "intimate",
+      "nostalgic",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — two people in a kitchen, collaborating or getting in each other's way. One chopping, one stirring, one stealing ingredients, one reading a recipe off a phone. Clothing should be practical but personal — rolled sleeves, an apron that doesn't match, a shirt with flour on it. Steam, warm light, cluttered counters. The choreography of two bodies in a small space who know exactly where the other one is without looking. The caption should feel like the recipe they'll never write down but always remember.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-kitchen-dance.webp",
+    "titleRu": "Танец на кухне"
+  },
+  {
+    "id": "pair-46",
+    "number": "46",
+    "title": "The Umbrella",
+    "tags": [
+      "raw",
+      "editorial"
+    ],
+    "prompt": "[OOC:Image generation — two people sharing one umbrella or one piece of shelter — an awning, a newspaper held overhead, a jacket used as a canopy. One is more covered than the other. Rain or weather should be visible and active: wet shoulders, damp hair, splashed shoes. Clothing darkens where it's soaked, clings where it's wet. The shared space under the cover is tiny and warm. The caption should feel like the reason neither of them ran for real shelter.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-umbrella.webp",
+    "titleRu": "Зонт"
+  },
+  {
+    "id": "pair-47",
+    "number": "47",
+    "title": "The Playlist",
+    "tags": [
+      "intimate",
+      "voyeuristic"
+    ],
+    "prompt": "[OOC:Image generation — one character showing the other something through shared earbuds or headphones — one earbud each, a cord or case between them. Their heads are tilted at matching angles. Frame the cable or the closeness it forces. Clothing at shoulder-level is the contact zone: fabrics pressing, textures mixing. One face is watching the other's reaction more than listening. The caption should feel like the song title that explained everything they couldn't say out loud.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-playlist.webp",
+    "titleRu": "Плейлист"
+  },
+  {
+    "id": "pair-48",
+    "number": "48",
+    "title": "The Photo",
+    "tags": [
+      "nocturnal",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — one character taking a photo of the other, or both trying to fit into a selfie. The photographer's posture — one eye squinted, phone angled, stepping back — versus the subject's reaction: posing, protesting, caught off guard. Clothing should be snapshot-ready or deliberately not. Frame the act of capturing rather than the result. The phone screen might be visible showing the other person in miniature. The caption should feel like the photo description they'll argue about later.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-photo.webp",
+    "titleRu": "Фото"
+  },
+  {
+    "id": "pair-49",
+    "number": "49",
+    "title": "The Tempo",
+    "tags": [
+      "intimate",
+      "voyeuristic",
+      "chaotic"
+    ],
+    "prompt": "[OOC:Image generation — match the image's energy to whatever speed the scene is moving at. If the conversation is rapid — frame it like a snapshot stolen between blinks, slightly off-kilter, mid-gesture. If the moment is slow — let the composition breathe, wide negative space, characters settled into stillness. Clothing should reflect how long they've been here: fresh and sharp or gradually undone. The camera angle should feel like the scene's own heartbeat chose it. The caption should feel like the BPM of this exact moment.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-tempo.webp",
+    "titleRu": "Темп"
+  },
+  {
+    "id": "pair-50",
+    "number": "50",
+    "title": "The Footnote",
+    "tags": [
+      "kinetic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the moment as if the important thing is happening just outside the image — and what we see is the reaction. Both characters responding to the same invisible event: a sound, a person entering, something falling, news arriving. Their bodies pivot the same direction or freeze in different ways. Clothing catches mid-motion. The scene context should be readable from objects and light alone without showing the cause. The caption should feel like the thing that just happened, told by its echo.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-footnote.webp",
+    "titleRu": "Сноска"
+  },
+  {
+    "id": "pair-51",
+    "number": "51",
+    "title": "The Thermostat",
+    "tags": [
+      "melancholic",
+      "sacred",
+      "tender"
+    ],
+    "prompt": "[OOC:Image generation — let the emotional temperature of the scene dictate everything visual. If things are warm between them — golden tones, soft textures, clothing layers shed or loose. If things are cold — blue wash, stiff posture, everything buttoned and zipped. The environment should amplify whatever they're radiating without being literal about it. Frame from the angle where the temperature differential between them is most visible. The caption should feel like a number on a dial that means something only to these two.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-thermostat.webp",
+    "titleRu": "Термостат"
+  },
+  {
+    "id": "pair-52",
+    "number": "52",
+    "title": "The Bookmark",
+    "tags": [
+      "intimate",
+      "raw",
+      "psychological"
+    ],
+    "prompt": "[OOC:Image generation — freeze the scene at the exact moment someone would dog-ear the page. Not the climax — the quiet beat just before or after it, the one that makes the climax mean something. Both characters caught in the pause: one maybe mid-breath, the other mid-thought. Clothing undisturbed, posture honest, hands wherever they naturally fell. The composition should feel like a scene the reader comes back to. The caption should feel like the page number someone memorized without trying.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-bookmark.webp",
+    "titleRu": "Закладка"
+  },
+  {
+    "id": "pair-53",
+    "number": "53",
+    "title": "The Translation",
+    "tags": [
+      "kinetic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the scene as if two people are speaking different emotional languages and the image is the only translator. One character's body says one thing, the other's says something else, but the composition reveals they mean the same thing. Mirrored feelings expressed through opposite gestures: one retreating where the other advances, one looking away while the other stares. Clothing contrasts reinforce the mismatch — different textures, different states of composure. The caption should feel like the word that exists in one language but not the other.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-translation.webp",
+    "titleRu": "Перевод"
+  },
+  {
+    "id": "pair-54",
+    "number": "54",
+    "title": "The Volume",
+    "tags": [
+      "chaotic",
+      "intimate",
+      "kinetic"
+    ],
+    "prompt": "[OOC:Image generation — let the scene's noise level shape the shot. If the moment is loud — crowd energy, laughter, argument — shoot it wide and chaotic, clothing in motion, mouths open, space vibrating. If the moment is whispered — shoot it claustrophobically close, fabric barely rustling, lips near ears, the world muted around them. The angle should feel like the camera is adjusting its own hearing. The caption should feel like the decibel level of something that was never actually spoken.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-volume.webp",
+    "titleRu": "Громкость"
+  },
+  {
+    "id": "pair-55",
+    "number": "55",
+    "title": "Gentle Current",
+    "tags": [
+      "kinetic",
+      "intimate",
+      "tender"
+    ],
+    "prompt": "[OOC:Image generation — compose the scene as if a gentle current of air is moving through it and both characters exist in its path. Something stirs — a curtain, a strand of hair, a napkin, a loose thread, smoke from somewhere. The invisible motion connects both characters without them touching. Clothing ripples or settles differently on each body depending on where they stand relative to the source. Frame so the viewer can trace the airflow between them. The caption should feel like the direction the wind was blowing when everything changed.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-gentle-current.webp",
+    "titleRu": "Нежное течение"
+  },
+  {
+    "id": "pair-56",
+    "number": "56",
+    "title": "The Margin",
+    "tags": [
+      "raw",
+      "architectural"
+    ],
+    "prompt": "[OOC:Image generation — frame both characters off-center, pushed to the edges of the composition, with the space between them taking up most of the image. What fills that gap — furniture, light, empty air, a hallway, a crowd — tells the real story. Their clothing and posture should mirror or oppose each other across the divide. The scene's context lives in the middle ground they're not occupying. The caption should feel like the distance between two points measured in something other than meters.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-margin.webp",
+    "titleRu": "Поля"
+  },
+  {
+    "id": "pair-57",
+    "number": "57",
+    "title": "The Rerun",
+    "tags": [
+      "voyeuristic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — shoot the scene as if this exact configuration — these two people, this proximity, this dynamic — has happened a hundred times before. The comfort or exhaustion of repetition should be visible: worn-in postures, automatic gestures, clothing combinations they always default to. Nothing is new except whatever microscopic shift makes this time different from every other time. Frame so that one tiny detail breaks the pattern. The caption should feel like the episode number of a show only two people are watching.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-rerun.webp",
+    "titleRu": "Повтор"
+  },
+  {
+    "id": "pair-58",
+    "number": "58",
+    "title": "The Pilot Light",
+    "tags": [
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — find the smallest point of connection between them and build the entire image around it. A pinky almost touching on a shared surface. A shoelace tangled with someone else's bag strap. A reflection where their outlines overlap. The rest of the frame can be wide and full of context — environment, clothing details, objects, weather — but the eye should always land on that one molecular point of contact. The caption should feel like the spark that hasn't decided if it's going to catch.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-pilot-light.webp",
+    "titleRu": "Запальник"
+  },
+  {
+    "id": "pair-59",
+    "number": "59",
+    "title": "The Third Glass",
+    "tags": [
+      "tension",
+      "psychological",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame two people at a table where a third presence is invisible but undeniable. A glass someone else drank from, a chair still warm, a jacket draped over the back that belongs to neither of them. One character's posture has shifted — angled slightly away, protective, closing a door that was open five minutes ago. The other is studying them like a text they're trying to decode. The restaurant or bar should feel too quiet for how loud the silence is. Light warm on one face, cooler on the other. The caption should feel like the name no one has said yet but everyone can taste.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-third-glass.webp",
+    "titleRu": "Третий бокал"
+  },
+  {
+    "id": "pair-60",
+    "number": "60",
+    "title": "The Notification",
+    "tags": [
+      "tension",
+      "psychological",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame the exact moment a phone screen lights up between two people and changes the temperature of the room. The notification is not readable but its glow hits one face like a flinch. The other character's eyes flick down — not to read, but to register that the first person looked. Frame tight: hands, the device, the inches of table between them that just became a canyon. One hand moves toward the phone, one hand moves it away. The caption should feel like the name that appeared on screen, written in a font that burns.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-notification.webp",
+    "titleRu": "Уведомление"
+  },
+  {
+    "id": "pair-61",
+    "number": "61",
+    "title": "The Peripheral",
+    "tags": [
+      "tension",
+      "voyeuristic",
+      "melancholic"
+    ],
+    "prompt": "[OOC:Image generation — one character is talking to someone else and the other is watching from across the room pretending not to. Frame the watcher: drink untouched, jaw doing something careful, eyes locked on a scene they have no right to police but can't look away from. The conversation they're watching should be slightly blurred, warm, full of the laughter they're not part of. The distance between the two main characters should feel measured in heartbeats. The caption should feel like the thing you rehearse saying on the walk home but never do.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-peripheral.webp",
+    "titleRu": "Периферия"
+  },
+  {
+    "id": "pair-62",
+    "number": "62",
+    "title": "The Old Photo",
+    "tags": [
+      "psychological",
+      "melancholic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — one character holding a photograph or scrolling a screen showing the other character with someone else. Their face doing the math of jealousy: measuring themselves against a ghost. The other character not in frame, or behind them, unaware of the archaeology happening in their partner's hands. The photo should be warm and happy, which makes it worse. The room should feel private enough that this excavation was never meant to be witnessed. The caption should feel like the date printed on the back of a photo you wish you'd never found.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-old-photo.webp",
+    "titleRu": "Старое фото"
+  },
+  {
+    "id": "pair-63",
+    "number": "63",
+    "title": "The Introduction",
+    "tags": [
+      "tension",
+      "psychological",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the handshake or the greeting that's actually a weigh-in. Two people meeting while a third stands between them making introductions with a smile that doesn't know it's standing on a fault line. The two being introduced are reading each other with surgical precision: posture, grip, where their eyes go first. Clothing becomes armor. The frame should crackle with politeness that has teeth. The caption should feel like the first and last name of someone you were hoping was uglier.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-introduction.webp",
+    "titleRu": "Знакомство"
+  },
+  {
+    "id": "pair-64",
+    "number": "64",
+    "title": "The Territory",
+    "tags": [
+      "tension",
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the moment one character reclaims space. A hand placed on the other's lower back at a party. An arm draped across a shoulder that wasn't there thirty seconds ago. A step closer that erases the gap a third person was about to occupy. The gesture is subtle enough to pass as affection but the timing tells the truth. The third person should be just out of focus, approaching or retreating. The caption should feel like the word mine translated into a gesture no one can argue with.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-territory.webp",
+    "titleRu": "Территория"
+  },
+  {
+    "id": "pair-65",
+    "number": "65",
+    "title": "The Voicemail",
+    "tags": [
+      "tension",
+      "nocturnal",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in a car, one driving, one in the passenger seat, and a call coming in that changes the air pressure. The driver's phone on the dash or center console, a name visible or implied. The passenger's body language shifting: turning toward the window, pulling a knee up, suddenly very interested in the passing streetlights. The driver lets it ring. The silence after is louder than the ringtone. Night driving, wet roads, lights streaking. The caption should feel like the number of rings before voicemail that both of them counted.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-voicemail.webp",
+    "titleRu": "Голосовое"
+  },
+  {
+    "id": "pair-66",
+    "number": "66",
+    "title": "Mirror Math",
+    "tags": [
+      "psychological",
+      "melancholic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame one character looking at their own reflection and not liking what they see. Not vanity — comparison. They're measuring themselves against someone they're afraid is better. The reflection should be honest and unkind in the way only your own eyes can be. Somewhere in the frame, evidence of the person they're comparing themselves to: a screen showing a photo, a gift their partner received, something small and sharp. The caption should feel like the feature you fixate on at 2am that nobody else has ever noticed.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-mirror-math.webp",
+    "titleRu": "Зеркальная арифметика"
+  },
+  {
+    "id": "pair-67",
+    "number": "67",
+    "title": "The Scent",
+    "tags": [
+      "intimate",
+      "psychological",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — frame the moment one character catches something on the other that doesn't belong. A perfume that isn't theirs during a hug. A fabric softener they don't use on a returned jacket. Frame the inhale: eyes closing or widening, the nose near a shoulder or sleeve, the body going still while the brain catches up. The other character unaware, mid-sentence, mid-smile. The caption should feel like the brand name of something you've never bought but now can't forget.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-scent.webp",
+    "titleRu": "Запах"
+  },
+  {
+    "id": "pair-68",
+    "number": "68",
+    "title": "Quiet Replay",
+    "tags": [
+      "melancholic",
+      "psychological",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame one character alone, replaying something. Sitting in a car, lying in bed, standing in a shower — somewhere private where the face is allowed to do what it actually wants. The scene they're replaying should be suggested: a restaurant receipt on the dashboard, a jacket that smells wrong on the passenger seat, a text thread reflected in wet eyes. The jealousy is cold now, the quiet kind that rewrites every memory it touches. The caption should feel like the sentence you keep rearranging but it means the same thing every time.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-quiet-replay.webp",
+    "titleRu": "Тихий повтор"
+  },
+  {
+    "id": "pair-69",
+    "number": "69",
+    "title": "Color Language",
+    "tags": [
+      "editorial",
+      "cinematic",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — before you compose anything, choose a color story for these two. Decide what hue belongs to each character and let the frame negotiate between them: warm bleeding into cool, complementary tones fighting for dominance, or a shared palette that proves they exist in the same emotional universe. The environment should wear their colors too. Clothing, light, surfaces, even skin tone should feel curated into a single chromatic argument. The caption should feel like the name of a paint swatch that only exists because two colors touched.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-color-language.webp",
+    "titleRu": "Язык цвета"
+  },
+  {
+    "id": "pair-70",
+    "number": "70",
+    "title": "The Lens Decides",
+    "tags": [
+      "editorial",
+      "cinematic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — pick a focal length and let it decide the relationship. Wide angle to make the space between them feel architectural. Telephoto to compress them into each other, flattening the world until they are the only plane that matters. Macro to find the story living in a square inch of shared contact. The lens choice should be a creative opinion, not a default. Distortion is allowed if it serves the tension. The caption should feel like the aperture setting that caught something the eye would have missed.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-lens-decides.webp",
+    "titleRu": "Объектив решает"
+  },
+  {
+    "id": "pair-71",
+    "number": "71",
+    "title": "Single Source",
+    "tags": [
+      "cinematic",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — build the entire image around one light source and commit to it. Not fill light everywhere — one origin. A window, a screen, a streetlamp, a candle, a fridge door left open, the sun at an hour that only lasts four minutes. Let it sculpt both characters unevenly: one caught in it, one escaping it, or both sharing the same narrow beam. Shadows should have architecture. The parts of them the light doesn't reach should feel like secrets the image is keeping. The caption should feel like a whisper across a candlelit table — something half-heard and fully felt.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-single-source.webp",
+    "titleRu": "Один источник"
+  },
+  {
+    "id": "pair-72",
+    "number": "72",
+    "title": "Film Memory",
+    "tags": [
+      "nostalgic",
+      "atmospheric",
+      "editorial"
+    ],
+    "prompt": "[OOC:Image generation — give this image a film stock and let the medium shape the memory. Push the grain until it becomes texture you can almost touch. Choose the era: Kodachrome warmth that makes skin glow and reds ache, Fuji greens that turn every shadow into a forest, Polaroid bleed where light leaks are part of the composition, black and white where every tone has to earn its place. The imperfection is the point. The caption should feel like the brand name printed on the back of a photograph that outlived the company that made it.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-film-memory.webp",
+    "titleRu": "Плёночная память"
+  },
+  {
+    "id": "pair-73",
+    "number": "73",
+    "title": "Wrong Angle",
+    "tags": [
+      "cinematic",
+      "editorial",
+      "voyeuristic"
+    ],
+    "prompt": "[OOC:Image generation — reject the obvious camera position. Shoot from below and make them monumental. Shoot from above and make them vulnerable. Shoot from behind and let their backs carry the scene. Frame from floor level through furniture legs. Find the angle the characters didn't prepare a face for — the one that catches them mid-honest. The perspective should feel like it belongs to someone or something specific: a child, a pet, the ceiling, the ground. The caption should feel like the height from which everything finally made sense.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-wrong-angle.webp",
+    "titleRu": "Не тот ракурс"
+  },
+  {
+    "id": "pair-74",
+    "number": "74",
+    "title": "Light Extremes",
+    "tags": [
+      "editorial",
+      "atmospheric",
+      "raw"
+    ],
+    "prompt": "[OOC:Image generation — play with how much light the image is allowed to keep. Overexpose until they're almost dissolving into white, halos eating their edges, the image burning toward something divine or clinical. Or underexpose until the frame is mostly shadow with just enough information to make the brain work for it. The exposure is an emotional choice, not a technical one. The caption should feel like the brightness setting on a moment that was never meant to be comfortable.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-light-extremes.webp",
+    "titleRu": "Крайности света"
+  },
+  {
+    "id": "pair-75",
+    "number": "75",
+    "title": "Focus Hierarchy",
+    "tags": [
+      "cinematic",
+      "editorial",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — decide what is sharp and what dissolves. Let the background become a wash of color and light while one detail in the foreground locks into focus with surgical precision. Or flip it: both characters soft, the environment razor-sharp, the world more present than the people in it. What you choose to keep in focus is an opinion about what matters. The caption should feel like the one thing in the room that stayed sharp when everything else went blurry.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-focus-hierarchy.webp",
+    "titleRu": "Иерархия фокуса"
+  },
+  {
+    "id": "pair-76",
+    "number": "76",
+    "title": "Doubled Vision",
+    "tags": [
+      "surreal",
+      "editorial",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — find every reflective surface in the scene and let it complicate the image. Mirrors, glass, water, polished metal, wet pavement, dark screens. Each reflection offers a second version of the moment that might disagree with the first. Frame so the viewer isn't sure which version is real: the characters or their doubles. Reflections can show what's behind the camera, reveal an expression the other person can't see, or multiply two people into a crowd of themselves. The caption should read like seeing your own handwriting in someone else's notebook.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-doubled-vision.webp",
+    "titleRu": "Двойное зрение"
+  },
+  {
+    "id": "pair-77",
+    "number": "77",
+    "title": "The Anchor",
+    "tags": [
+      "intimate",
+      "tender",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in an embrace where one is holding the other up. Not romantically — practically. One is exhausted, hurt, drunk, breaking down. The other has become architecture: arms locked, weight shifted, the whole body saying I've got you. The embrace should look like work. Clothing rumpled, hair messed, the strain visible in shoulders and hands. The setting should be wherever this happened — a hallway, a parking lot, a bathroom, a kitchen. The caption should feel like the promise you make when someone's legs stop working.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-anchor.webp",
+    "titleRu": "Якорь"
+  },
+  {
+    "id": "pair-78",
+    "number": "78",
+    "title": "The Reunion",
+    "tags": [
+      "kinetic",
+      "tender",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in the first second of an embrace after time apart. The motion should still be visible — one or both of them mid-step, arms not fully closed yet, faces about to collide. The energy should be kinetic: bags dropped, doors still open, the world forgotten. The setting should show the arrival: an airport, a train station, a doorway, a street. The embrace should look like impact. The caption should feel like the number of days it's been since the last time.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-reunion.webp",
+    "titleRu": "Воссоединение"
+  },
+  {
+    "id": "pair-79",
+    "number": "79",
+    "title": "The Slow Dance",
+    "tags": [
+      "intimate",
+      "tender",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in a slow, swaying embrace. Not at a dance — in a kitchen, a living room, a bedroom. No music visible but the movement says it's there. Arms around waists or shoulders, bodies close, eyes closed or foreheads touching. The room should be domestic and real: dishes in the sink, unmade bed, laundry on a chair. The light should be soft — evening, a single lamp, the blue of a TV. The embrace should look like the end of a long day. The caption should feel like the song that's playing that neither of them will remember the name of.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-slow-dance.webp",
+    "titleRu": "Медленный танец"
+  },
+  {
+    "id": "pair-80",
+    "number": "80",
+    "title": "The Apology",
+    "tags": [
+      "psychological",
+      "intimate",
+      "tender"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in an embrace that's also a negotiation. One is holding on, one is deciding whether to hold back. The tension should be visible: one set of arms tight, the other loose. One face buried, one looking away or at the ceiling. The embrace should look like a question that hasn't been answered yet. The setting should be private: a bedroom, a car, an empty room. The caption should feel like the words that were said right before this that can't be unsaid.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-apology.webp",
+    "titleRu": "Извинение"
+  },
+  {
+    "id": "pair-81",
+    "number": "81",
+    "title": "The Goodbye",
+    "tags": [
+      "melancholic",
+      "intimate",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in an embrace that both of them know is ending. The hold should be tight but not desperate — memorizing, not pleading. Eyes closed, faces pressed into shoulders or necks. The setting should suggest departure: a doorway, a platform, a curb, luggage visible somewhere in frame. The light should be early morning or late evening — the hours when goodbyes happen. The embrace should look like the last few seconds before someone has to let go. The caption should feel like the thing you didn't say because saying it would make it real.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-goodbye.webp",
+    "titleRu": "Прощание"
+  },
+  {
+    "id": "pair-82",
+    "number": "82",
+    "title": "The First Kiss",
+    "tags": [
+      "intimate",
+      "tender",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the moment right before or right after the first kiss. Not during — the anticipation or the aftermath is more interesting. Before: faces close, eyes open or closing, breath held, the space between lips measured in heartbeats. After: eyes still closed, foreheads touching, the world coming back into focus slowly. The setting should fade into irrelevance. The caption should feel like the thing neither of them expected to feel.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-first-kiss.webp",
+    "titleRu": "Первый поцелуй"
+  },
+  {
+    "id": "pair-83",
+    "number": "83",
+    "title": "The Stolen Kiss",
+    "tags": [
+      "kinetic",
+      "intimate",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — frame a kiss that happens in motion. One person pulling the other into a doorway, against a wall, into a corner. The movement should still be visible — hands grabbing fabric, bodies off-balance, the kiss urgent and unplanned. The setting should be semi-public: a hallway, a stairwell, a parking garage, somewhere they shouldn't be doing this but can't wait. The caption should feel like the number of seconds they have before someone sees.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-stolen-kiss.webp",
+    "titleRu": "Украденный поцелуй"
+  },
+  {
+    "id": "pair-84",
+    "number": "84",
+    "title": "The Forehead Kiss",
+    "tags": [
+      "tender",
+      "intimate",
+      "melancholic"
+    ],
+    "prompt": "[OOC:Image generation — frame a kiss to the forehead. Not romantic in the obvious way — protective, reassuring, the kind that says I'm here. One person's lips pressed to the other's forehead, eyes closed. The receiver might be sitting, leaning, curled up. The gesture should feel like a full sentence that doesn't need words. The setting should be private and quiet: a bedroom, a couch, a car at night. The caption should feel like the promise that comes with that gesture.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-forehead-kiss.webp",
+    "titleRu": "Поцелуй в лоб"
+  },
+  {
+    "id": "pair-85",
+    "number": "85",
+    "title": "The Interrupted Kiss",
+    "tags": [
+      "tension",
+      "cinematic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame a kiss that gets interrupted. A phone rings, a door opens, someone calls a name. The two people frozen mid-kiss or just pulling apart, faces still close, the spell broken. One might be looking toward the interruption, one might still have eyes closed trying to hold onto the moment. The frustration should be visible. The setting should show what interrupted them: a phone screen lighting up between them, a door ajar in the background, headlights through a window. The caption should feel like the word that was shouted that ruined everything.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-interrupted-kiss.webp",
+    "titleRu": "Прерванный поцелуй"
+  },
+  {
+    "id": "pair-86",
+    "number": "86",
+    "title": "The Rain Kiss",
+    "tags": [
+      "cinematic",
+      "romantic",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame a kiss in the rain. Both of them soaked, hair wet, clothes clinging. The rain should be visible: streaks, drops, the way it blurs everything in the background. They're standing in it, not hiding from it. The kiss should look inevitable, like they've been building to this through the whole storm. The setting can be a street, a park, a parking lot — anywhere the rain found them. The caption should feel like the moment when you stop caring that you're getting wet.]",
+    "hasImage": true,
+    "imgSrc": "img-source/pair-the-rain-kiss.webp",
+    "titleRu": "Поцелуй под дождём"
+  },
+  {
+    "id": "medieval-solo-1",
+    "number": "1",
+    "title": "Royal Portrait",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame this like an oil painting commissioned by a court that no longer exists. Candlelight from below, catching gold and bone structure in equal measure. The character should carry royalty not in a crown but in the way they hold their jaw, the way their hand rests on something — a goblet, a sword hilt, the arm of a carved chair. Stone walls breathing cold behind them. Tapestries half-visible in the dark, telling someone else's story. Dust in the light like slow gold snow. The caption should read like the opening line of a reign that ended badly.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-royal-portrait.webp",
+    "titleRu": "Королевский портрет"
+  },
+  {
+    "id": "medieval-solo-2",
+    "number": "2",
+    "title": "Sworn Promise",
+    "tags": [
+      "medieval",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — shoot this like the moment before a blade is drawn or a knee touches the ground. Single flame source — a torch, a candle, a hearth dying — casting the character in amber and black. The posture should carry the weight of something sworn. Hands visible and deliberate: clasped, raised, pressed to a chest, gripping a hilt. The architecture should dwarf them — vaulted ceilings, stone arches, iron fixtures older than anyone alive. The caption should feel like words spoken once that can never be taken back.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-sworn-promise.webp",
+    "titleRu": "Клятва"
+  },
+  {
+    "id": "medieval-solo-3",
+    "number": "3",
+    "title": "The Tapestry",
+    "tags": [
+      "medieval",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — compose the character as though they're stepping out of a medieval tapestry into the real frame. Behind them, the world should feel flat and embroidered — rich reds, deep blues, gold thread catching firelight. The character themselves should exist at the boundary between illustration and life, half-woven, half-breathing. Flowers and animals from illuminated manuscripts should creep into the edges of the frame. The caption should read like a verse from a ballad nobody remembers the melody to.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-tapestry.webp",
+    "titleRu": "Гобелен"
+  },
+  {
+    "id": "medieval-solo-4",
+    "number": "4",
+    "title": "The Torch",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — one light source. One corridor. One person walking into something they can't see the end of. The torch or candle should be the only warmth in a frame built from cold stone, wet walls, and shadows that have texture. The character's face lit from one side, the other half eaten by dark. Footsteps should feel audible in the composition — echo implied by depth and emptiness. Something ahead, just out of the light's reach. The caption should feel like the last entry in a journal found centuries later.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-torch.webp",
+    "titleRu": "Факел"
+  },
+  {
+    "id": "medieval-solo-5",
+    "number": "5",
+    "title": "The Sigil",
+    "tags": [
+      "medieval",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — let heraldry and symbols do the storytelling. The character stands before or beneath something bearing their mark — a banner, a shield, a stained glass window, a seal pressed in wax. The symbol should rhyme with who they are: thorns for the guarded, flames for the reckless, a broken tower for someone rebuilding. The character's posture should mirror the sigil unconsciously. Stone and iron and old wood. The caption should read like the motto carved beneath a family crest.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-sigil.webp",
+    "titleRu": "Печать"
+  },
+  {
+    "id": "medieval-solo-6",
+    "number": "6",
+    "title": "Great Hall",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame a grand table that tells two stories: abundance and isolation. The character alone at a spread meant for twenty — roasted meats, spilling goblets, fruit that's starting to turn. Candles guttering in iron chandeliers overhead. The hall should feel cavernous and cold despite the food's warmth. The character's plate barely touched. A chair across from them pulled out but empty. Hounds sleeping under the table. The caption should read like a toast no one is left to hear.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-great-hall.webp",
+    "titleRu": "Тронный зал"
+  },
+  {
+    "id": "medieval-solo-7",
+    "number": "7",
+    "title": "The Prophecy",
+    "tags": [
+      "medieval",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — light this like something sacred and terrifying is about to happen. The character caught in a shaft of light that shouldn't exist — through a crack in a cathedral ceiling, through a cave mouth, through clouds that parted only for them. Scrolls, runes, star charts, or ancient carvings should populate the edges of the frame like the universe leaving notes. Their expression should be the exact midpoint between awe and dread. The caption should feel like the one line from a prophecy that everyone interprets differently.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-prophecy.webp",
+    "titleRu": "Пророчество"
+  },
+  {
+    "id": "medieval-pair-1",
+    "number": "8",
+    "title": "Crossed Swords",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — frame the breath before steel meets steel. Two characters facing each other with the distance between them loaded like a drawn bowstring. The space should feel sacred — a courtyard at dawn, a great hall cleared of furniture, a forest clearing ringed by silent witnesses. Their weapons or fists or stances should mirror each other with one critical asymmetry. Dust or mist at their feet. Light favoring neither. The caption should read like the terms of a challenge written on parchment.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-crossed-swords.webp",
+    "titleRu": "Скрещённые мечи"
+  },
+  {
+    "id": "medieval-pair-2",
+    "number": "9",
+    "title": "The Court",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — shoot two people navigating a throne room like a battlefield. The architecture should enforce hierarchy — one elevated, one below, or both at eye level in defiance of the room's design. Courtiers as shapes in the periphery, candles as countless as stars. Every gesture is political: the tilt of a chin, the angle of a turned shoulder, hands hidden or displayed. Gold and shadow in equal measure. The caption should feel like the first move in a game that takes years to finish.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-court.webp",
+    "titleRu": "Двор"
+  },
+  {
+    "id": "medieval-pair-3",
+    "number": "10",
+    "title": "Under Attack",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — frame two people as the last defense of something. Behind them, walls — crumbling, burning, holding. Before them, something vast and implied. They should stand close enough to share warmth but face outward, toward the threat. Armor dented, hands dirty, firelight from things that shouldn't be burning. The scale should make them small but the composition should make them the only thing that matters. The caption should read like the line in a history book where the numbers stop mattering.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-under-attack.webp",
+    "titleRu": "Под ударом"
+  },
+  {
+    "id": "medieval-pair-4",
+    "number": "11",
+    "title": "The Vow",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — the moment where two people bind themselves to something. Not a wedding — something older, rawer. Hands clasped over a blade, blood on a shared cup, foreheads touching over a flame. The setting should feel ancient and intimate — a chapel with no roof, a cave with paintings on the walls, a clearing where the trees lean in to listen. No audience but the environment itself bearing witness. The caption should feel like an oath in a language that has no word for halfway.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-vow.webp",
+    "titleRu": "Обет"
+  },
+  {
+    "id": "medieval-pair-5",
+    "number": "12",
+    "title": "The Quest",
+    "tags": [
+      "medieval",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — two figures small against a landscape that goes on forever. A road, a mountain pass, a river crossing, a forest that darkens ahead. They walk together but the distance between them should tell a story — close and easy, or an arm's length of unspoken tension. Gear on their backs, weather on their skin, purpose in the direction they face. The world should feel wild and indifferent and beautiful. The caption should read like a cartographer's note on the edge of a map that says 'here, something changed.']",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-quest.webp",
+    "titleRu": "Поход"
+  },
+  {
+    "id": "medieval-pair-6",
+    "number": "13",
+    "title": "The Banquet",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — intimacy in the middle of spectacle. A great hall roaring with celebration — fire, music implied in movement, a hundred blurred figures — and these two are the still point. Leaned together over a shared plate. A whisper behind a goblet. A hand under the table. The crowd is the noise; they are the signal. Warm light on skin, cold stone everywhere else. The caption should feel like the one sentence spoken at a feast that no one else heard but it changed everything.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-banquet.webp",
+    "titleRu": "Пир"
+  },
+  {
+    "id": "medieval-pair-7",
+    "number": "14",
+    "title": "The Kingdom",
+    "tags": [
+      "medieval",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people looking out over something they built or inherited or are about to lose. A battlement at sunset, a balcony over a city of torchlight, a hillside above farmland stretching to the horizon. Their silhouettes should read as a unit — sovereign, co-conspirators, partners in something too big for one person. What they're surveying should feel both beautiful and fragile. The light should be the kind that only happens once a day. The caption should feel like the name of an era that historians argue about.]",
+    "hasImage": true,
+    "imgSrc": "img-source/fantasy-medieval-the-kingdom.webp",
+    "titleRu": "Королевство"
+  },
+  {
+    "id": "space-solo-1",
+    "number": "1",
+    "title": "Looking Out",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame the character small against something infinite. A viewport showing stars, a nebula, the curve of a planet's atmosphere. The ship interior should feel claustrophobic by contrast — low ceilings, instrument panels, recycled air you can almost taste. Their reflection ghosted in the glass, overlapping with the cosmos. The lighting is all wrong: screens blue, warning lights amber, space itself a cold nothing. The caption should read like the ship's log entry nobody was supposed to find.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-looking-out.webp",
+    "titleRu": "Взгляд наружу"
+  },
+  {
+    "id": "space-solo-2",
+    "number": "2",
+    "title": "Distant Message",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — capture the exact moment something comes through. The character frozen mid-motion, headphones on or hand on a console, every muscle listening. Screens alive with waveforms or data that means something only to them. The ship around them dark except for this one station, this one glow. The signal could be salvation or warning and their face is caught between both. The caption should feel like the decoded first line of a transmission from somewhere that shouldn't exist.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-distant-message.webp",
+    "titleRu": "Далёкое сообщение"
+  },
+  {
+    "id": "space-solo-3",
+    "number": "3",
+    "title": "The Airlock",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — frame the threshold between safety and void. The character at the boundary — suited or unsuited, ready or not. On one side: warm ship light, hand-holds, human things. On the other: stars, nothing, freedom that's also death. The door itself should be the subject as much as the person — heavy, industrial, final. Their body language should tell you which direction they're choosing. The caption should read like the warning label on a door that leads somewhere you can't come back from.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-airlock.webp",
+    "titleRu": "Шлюз"
+  },
+  {
+    "id": "space-solo-4",
+    "number": "4",
+    "title": "The Cryo",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — shoot this like a sleeping portrait painted by machines. The character in stasis — glass and frost and readout lights painting their skin in pale blue and clinical green. Eyes closed but not peaceful — frozen mid-dream, mid-worry, mid-something unresolved. The pod should feel like a coffin and a cradle simultaneously. Condensation on glass like the ship is crying. Other pods in the background, dark or occupied, a hallway of sleepers. The caption should read like the timestamp on a sleep cycle measured in years.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-cryo.webp",
+    "titleRu": "Криокамера"
+  },
+  {
+    "id": "space-solo-5",
+    "number": "5",
+    "title": "The Hull",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — make the ship the cathedral. The character dwarfed by architecture that hums — engine bays, cargo holds, corridors that curve with the ship's spine. Industrial sublime: pipes as thick as trees, panels bolted to panels bolted to vacuum. The character is maintenance, is crew, is one warm body keeping a cold machine alive. Grease on their hands, tool belt catching overhead light. The caption should feel like a section number in a ship manual that nobody reads until something breaks.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-hull.webp",
+    "titleRu": "Обшивка"
+  },
+  {
+    "id": "space-solo-6",
+    "number": "6",
+    "title": "Floating Free",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — zero gravity as emotional state. The character floating — not falling, not flying, just untethered. Hair suspended, fabric billowing wrong, liquid globes catching light. The space around them could be a ship interior or open void; the disorientation is the point. Objects float with them: a photo, a tool, a cup of something that will never be drunk. Their expression should be the intersection of peace and terror. The caption should feel like the distance measurement between who they were and who they're becoming.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-floating-free.webp",
+    "titleRu": "Свободный полёт"
+  },
+  {
+    "id": "space-solo-7",
+    "number": "7",
+    "title": "The Transmission",
+    "tags": [
+      "sci-fi",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame this like a message in a bottle thrown into an ocean with no shores. The character recording something — voice, video, data — into a device that will outlast them. The room is small. The face is honest in the way people get when they think no one is watching yet. A red recording light the brightest thing in the frame. Behind them, through a small window, stars that will never hear this. The caption should read like the subject line of the last email ever sent.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-transmission.webp",
+    "titleRu": "Передача"
+  },
+  {
+    "id": "space-solo-8",
+    "number": "8",
+    "title": "The Viewport",
+    "tags": [
+      "sci-fi",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — one person pressed against a viewport so large it makes the wall into a screen showing the end of everything. Deep space outside — not the postcard version but the real one: black that goes deeper than black, stars that are too far to comfort, maybe the edge of a nebula coloring one corner like a bruise forming. Inside: warm artificial light, the hum of recycled air visible in the slight fog near ventilation. The character's reflection overlaps with the void. They're looking at something specific out there, or looking at nothing, which is worse. The caption should feel like coordinates to a place that no longer exists.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-viewport.webp",
+    "category": "Deep Space",
+    "titleRu": "Иллюминатор"
+  },
+  {
+    "id": "space-pair-1",
+    "number": "9",
+    "title": "The Crew",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — two people, one small ship, and the kind of intimacy that comes from having no one else for light-years. Frame the cockpit or living quarters tight — knees almost touching, controls shared, the same recycled air. One pilots while the other sleeps, or both stare at the same screen showing something neither expected. The ship should feel lived-in: patches, personal items velcroed to walls, a plant that has no business surviving out here. The caption should feel like a crew manifest for a ship built for one.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-crew.webp",
+    "titleRu": "Экипаж"
+  },
+  {
+    "id": "space-pair-2",
+    "number": "10",
+    "title": "The Tether",
+    "tags": [
+      "sci-fi",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame them connected by a literal or metaphorical line in the void. Spacewalk energy — two suited figures against black nothing, linked by a cable that means everything. Or: two people on opposite sides of a ship corridor, the hallway between them the tether. The distance should feel enormous and intimate at once. Stars don't care about them. They care about each other, and right now that's the only gravity that exists. The caption should feel like the tensile strength rating of something that was never meant to hold this much.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-tether.webp",
+    "titleRu": "Трос"
+  },
+  {
+    "id": "space-pair-3",
+    "number": "11",
+    "title": "The Colony",
+    "tags": [
+      "sci-fi",
+      "atmospheric",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — two people building something from nothing on ground that isn't Earth. Alien sky overhead — wrong color, wrong number of moons, wrong light. But they're doing human things: planting, building, arguing over blueprints, sharing a meal from ration packs on alien dirt. The settlement behind them is modest and defiant. The landscape is vast and indifferent and strange. The caption should read like the name painted on the first building of a city that doesn't exist yet.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-colony.webp",
+    "titleRu": "Колония"
+  },
+  {
+    "id": "space-pair-4",
+    "number": "12",
+    "title": "The Comms",
+    "tags": [
+      "sci-fi",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — two people separated by a distance measured in light-minutes, connected by a screen. Split the frame or show one watching the other's delayed transmission. The face on screen is slightly pixelated, slightly out of sync, saying something that arrived after it mattered. The room around the viewer is dark, the screen the only warmth. The delay between them is visible in their eyes. The caption should feel like the timestamp lag on a message that says something simple but changes everything.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-comms.webp",
+    "titleRu": "Связь"
+  },
+  {
+    "id": "space-pair-5",
+    "number": "13",
+    "title": "The Debrief",
+    "tags": [
+      "sci-fi",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — shoot two people in the aftermath of surviving something together. Harsh ship lighting — medical bay white, or cargo bay industrial. Still in suits, helmets off, the adrenaline fading into whatever comes next. One sitting, one standing, or both collapsed against the same wall. The mission is over but their faces haven't caught up yet. Something broken or salvaged between them. The caption should feel like the one-line summary in an incident report that doesn't capture any of what actually happened.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-debrief.webp",
+    "titleRu": "Разбор"
+  },
+  {
+    "id": "space-pair-6",
+    "number": "14",
+    "title": "Hold Inventory",
+    "tags": [
+      "sci-fi",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame two people on either side of something they're carrying through space together. A crate, a pod, a specimen, a passenger — whatever it is, it's changed the dynamic between them. The cargo bay should feel like a church of function: metal, straps, mag-locks, cold. They don't agree about what they're hauling, and it shows in how they stand relative to it and each other. The caption should feel like the shipping label on something that should never have been moved.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-hold-inventory.webp",
+    "titleRu": "Инвентарь трюма"
+  },
+  {
+    "id": "space-pair-7",
+    "number": "15",
+    "title": "The Reentry",
+    "tags": [
+      "sci-fi",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — the moment of coming back. Two people watching atmosphere streak past a viewport — fire and friction, the ship trembling, gravity returning like a memory. One braces, the other reaches. The frame should vibrate with controlled violence: everything shaking, light going orange, the calm before landing or crashing. They've been away long enough that 'back' doesn't mean what it used to. The caption should feel like the name of the place they're falling toward, spoken like a prayer.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-reentry.webp",
+    "titleRu": "Вхождение"
+  },
+  {
+    "id": "space-pair-8",
+    "number": "16",
+    "title": "The Gravity Well",
+    "tags": [
+      "sci-fi",
+      "surreal"
+    ],
+    "prompt": "[OOC:Image generation — two people in a space where gravity is negotiable. Hair floats, fabric drifts, a spilled drink hangs in the air between them like amber. The architecture around them should be clearly designed for gravity — handrails, magnetic boots, straps on everything — but right now the rules are suspended. One reaches for the other across a gap that would be one step on Earth and is currently infinite. Their bodies should suggest trajectories, not poses: they're objects in slow orbit around each other. Light from a viewport or emergency strip catches the floating debris. The caption should feel like the name of a law of physics that only applies to two people.]",
+    "hasImage": true,
+    "imgSrc": "img-source/deepspace-the-gravity-well.webp",
+    "category": "Deep Space",
+    "titleRu": "Гравитационный колодец"
+  },
+  {
+    "id": "tropical-solo-1",
+    "number": "1",
+    "title": "The Monsoon",
+    "tags": [
+      "tropical",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the character as the one still point in a world dissolving into water. Tropical rain so heavy it erases the background — buildings, trees, roads all smeared into wet impressionism. The character soaked through, clothes a second skin, hair destroyed, and somehow more themselves than ever. Puddles reflecting neon or streetlight. The air should feel thick enough to swim in. The caption should read like the name of a storm that was never officially recorded.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-monsoon.webp",
+    "titleRu": "Муссон"
+  },
+  {
+    "id": "tropical-solo-2",
+    "number": "2",
+    "title": "The Canopy",
+    "tags": [
+      "tropical",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — shoot through layers of green. The character below a ceiling of tropical leaves so dense the light that reaches them is filtered, fractured, emerald. Dappled sun hitting skin like stained glass in a church made of trees. Vines and roots framing the shot like the jungle is composing its own portrait. Humidity visible — haze, mist, sweat, condensation on everything. The character belongs here or is trespassing; the frame shouldn't make it clear which. The caption should feel like the species name of a plant that only blooms at night.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-canopy.webp",
+    "titleRu": "Полог"
+  },
+  {
+    "id": "tropical-solo-3",
+    "number": "3",
+    "title": "The Ruin",
+    "tags": [
+      "tropical",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame architecture losing a war with nature. The character standing in or near a structure being slowly eaten — temple, hotel, villa, church — roots splitting stone, vines pulling walls apart, flowers growing from broken tile. The decay should be beautiful, not sad. The building had a life; now the jungle is having its turn. The character fits the scene like they're part of the succession. The caption should read like a plaque on a building that nature forgot to remove before moving in.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-ruin.webp",
+    "titleRu": "Руина"
+  },
+  {
+    "id": "tropical-solo-4",
+    "number": "4",
+    "title": "Push & Pull",
+    "tags": [
+      "tropical",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — compose at the exact line where water meets land. The character at the edge — ankles in surf, sitting where waves reach, standing on rocks the ocean is slowly claiming. The horizon should feel endless and heavy. The light should be golden hour or overcast silver — nothing cheerful, nothing grim, just honest. Sand, shells, debris that tells a story. The water should feel like it's offering something and threatening something at the same time. The caption should feel like coordinates for a beach that moves.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-push-and-pull.webp",
+    "titleRu": "Отлив и прилив"
+  },
+  {
+    "id": "tropical-solo-5",
+    "number": "5",
+    "title": "The Pollen",
+    "tags": [
+      "tropical",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — saturate the air with particles. Golden pollen, flower petals, seed pods catching light — the character moving through a cloud of organic confetti. The atmosphere should feel intoxicating and slightly dangerous, like an allergy and a blessing at once. Tropical blooms in absurd colors framing the shot. The character's expression should be somewhere between ecstasy and suffocation. Everything overripe. The caption should feel like the warning label on something beautiful that you shouldn't inhale.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-pollen.webp",
+    "titleRu": "Пыльца"
+  },
+  {
+    "id": "tropical-solo-6",
+    "number": "6",
+    "title": "The Lagoon",
+    "tags": [
+      "tropical",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame the character at water so still it doubles the world. A hidden pool, a cenote, a bay where nothing moves. The reflection should be almost perfect — almost — with one detail wrong, one ripple breaking the mirror. The character at the edge or in the water, disturbing the symmetry just by existing. Lush walls of green and rock enclosing the space. Light coming from above like a spotlight the jungle aimed. The caption should feel like the name locals give a place they won't take you to.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-lagoon.webp",
+    "titleRu": "Лагуна"
+  },
+  {
+    "id": "tropical-solo-7",
+    "number": "7",
+    "title": "The Humidity",
+    "tags": [
+      "tropical",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — make the heat visible. The character in a space where the air itself has weight — a cramped market stall, a tin-roof bar, a concrete room with one fan that isn't enough. Sweat as a design element: on skin, on glass, on surfaces. Fabric sticking. Hair defying control. The light should feel heavy and yellow and close. Everything slightly soft at the edges because the air is thick enough to blur. The caption should read like the temperature reading that made someone decide to stop pretending they were fine.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-humidity.webp",
+    "titleRu": "Влажность"
+  },
+  {
+    "id": "tropical-pair-1",
+    "number": "8",
+    "title": "The Shore",
+    "tags": [
+      "tropical",
+      "atmospheric",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — two people at the edge of a continent. The ocean behind them doing something dramatic or nothing at all. They could be arriving or leaving — bags, boats, or bare feet, the frame should keep it ambiguous. Salt in the air, wind doing things to hair and fabric. The beach should feel like the last or first place on earth. One looks at the water. One looks at the other. The caption should feel like the name of an island that only appears on old maps.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-shore.webp",
+    "titleRu": "Берег"
+  },
+  {
+    "id": "tropical-pair-2",
+    "number": "9",
+    "title": "The Vine",
+    "tags": [
+      "tropical",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame them tangled together the way the jungle tangles with itself. Limbs overlapping, personal space surrendered, two people who've grown into each other's architecture like roots around stone. The surrounding vegetation should mirror them — everything intertwined, nothing growing alone. Light filtering through the green should paint them in the same camouflage. The caption should feel like the botanical term for two species that can't survive without each other.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-vine.webp",
+    "titleRu": "Лоза"
+  },
+  {
+    "id": "tropical-pair-3",
+    "number": "10",
+    "title": "The Storm Shelter",
+    "tags": [
+      "tropical",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — two people waiting out something violent in something fragile. A tin-roof shack, a beached boat flipped over, a market stall with tarps snapping. Rain hammering everything around them while they exist in a pocket of dry. Close quarters, damp warmth, the kind of forced intimacy weather creates. Lightning optional but effective. Their faces lit by whatever light survives the storm. The caption should feel like the duration of a downpour that felt longer than it was.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-storm-shelter.webp",
+    "titleRu": "Укрытие от бури"
+  },
+  {
+    "id": "tropical-pair-4",
+    "number": "11",
+    "title": "The Coral",
+    "tags": [
+      "tropical",
+      "atmospheric",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — shoot them underwater or at the waterline, where the surface is a border between worlds. Light fracturing through water onto skin. Color that doesn't exist on land — electric blue, impossible pink, the palette of things that evolved without sunlight in mind. They navigate this alien beauty together, one leading, one following, or both suspended in the same current. The caption should feel like the depth reading where the light starts to change.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-coral.webp",
+    "titleRu": "Коралл"
+  },
+  {
+    "id": "tropical-pair-5",
+    "number": "12",
+    "title": "The Hammock",
+    "tags": [
+      "tropical",
+      "intimate",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in a structure designed for one, suspended between two points. A hammock, a hanging bed, a rope bridge — something that sways. The vulnerability of being off the ground together, trusting fabric and knots. Tropical backdrop doing its thing: palms, stars, fireflies, the sound of ocean implied in the composition. Bodies negotiating shared space in a vessel that responds to every shift. The caption should read like the weight limit on something that was never tested for two.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-hammock.webp",
+    "titleRu": "Гамак"
+  },
+  {
+    "id": "tropical-pair-6",
+    "number": "13",
+    "title": "The Overgrowth",
+    "tags": [
+      "tropical",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame two people being slowly absorbed by paradise. Flowers growing toward them, vines reaching, the green creeping closer with every hour they stay still. They don't mind or haven't noticed. The jungle is welcoming them as permanent fixtures. Petals on shoulders, leaves casting patterns on skin, roots near feet. The composition should feel like nature's version of a hug that gets tighter. The caption should feel like the check-out date at a hotel where nobody ever leaves.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-overgrowth.webp",
+    "titleRu": "Заросли"
+  },
+  {
+    "id": "tropical-pair-7",
+    "number": "14",
+    "title": "The Undertow",
+    "tags": [
+      "tropical",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — frame the pull. One figure waist-deep, reaching back toward shore where the other stands. Or both in the water, the current visible in how their bodies lean. The ocean should feel like a third character with its own agenda. The tropical backdrop — palms bent by wind, clouds building — should reinforce the tension between staying and being pulled. Beautiful and dangerous in equal measure. The caption should feel like the name of a current that doesn't appear on nautical charts.]",
+    "hasImage": true,
+    "imgSrc": "img-source/tropical-the-undertow.webp",
+    "titleRu": "Подводное течение"
+  },
+  {
+    "id": "gothic-solo-1",
+    "number": "1",
+    "title": "Below Ground",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame the character in a space built for the dead that the living have borrowed. Stone tombs, iron gates, moss on marble. The light should be wrong for underground — a candle too bright, a crack in the ceiling letting in moonlight that reaches too far. The character should look like they belong here more than the dead do. Cold breath visible. Flowers left by someone — fresh, which makes it worse. The caption should read like the inscription on a tomb that someone keeps updating.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-below-ground.webp",
+    "titleRu": "Под землёй"
+  },
+  {
+    "id": "gothic-solo-2",
+    "number": "2",
+    "title": "The Candelabra",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — let ornate fire be the entire lighting rig. A candelabra — massive, dripping, asymmetrical with melted wax — as the sole light source. The character painted in warm flicker against a room that could be any size because the darkness won't tell. Velvet, dark wood, gilded frames catching flame in their edges. The character's shadow should be larger than they are, doing something slightly different on the wall. The caption should feel like the hour a clock strikes in a house that has too many clocks.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-candelabra.webp",
+    "titleRu": "Канделябр"
+  },
+  {
+    "id": "gothic-solo-3",
+    "number": "3",
+    "title": "Posed Pair",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame the character standing before a painted version of themselves — or someone who looks uncomfortably like them. The portrait is older: oil paint, cracked varnish, gilt frame. The living character and the painted one share something — a gesture, an expression, a piece of jewelry — that bridges centuries. The gallery or hallway around them should feel watched. Other portraits with eyes that follow. The caption should read like the nameplate on a painting whose subject was never identified.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-posed-pair.webp",
+    "titleRu": "Постановочная пара"
+  },
+  {
+    "id": "gothic-solo-4",
+    "number": "4",
+    "title": "The Veil",
+    "tags": [
+      "gothic",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — put fabric between the camera and the truth. The character seen through lace, gauze, curtain, smoke, or wedding veil — present but obscured, beautiful and slightly frightening because of what you can't quite see. The fabric should have texture: embroidered, torn, aged, moving. Behind the veil, their expression is ambiguous. The setting should reinforce concealment: mirrors covered, windows draped, doorways curtained. The caption should feel like the thing you see when you close your eyes in an old house.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-veil.webp",
+    "titleRu": "Вуаль"
+  },
+  {
+    "id": "gothic-solo-5",
+    "number": "5",
+    "title": "The Staircase",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — compose the character on a staircase that's the real protagonist. Spiraling, creaking, impossibly steep or wide, lit from above or below but not both. The character mid-ascent or descent — the direction should feel like a moral choice. Banisters carved with something you'd have to zoom in to see. The architecture should feel like it was designed to make people feel small and watched. Their hand on the rail or hovering above it. The caption should read like the floor number in a building with rooms that don't correspond to any plan.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-staircase.webp",
+    "titleRu": "Лестница"
+  },
+  {
+    "id": "gothic-solo-6",
+    "number": "6",
+    "title": "The Bell Tower",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame the character at the highest point of something old and vertical. Wind, sky, the mechanism of a bell or clock visible — gears, ropes, iron that has opinions about the weather. The character looking out or up, exposed to elements the rest of the building keeps at bay. Pigeons, rust, the graffiti of centuries carved into beams. The ground impossibly far below, visible through gaps in the floor. The caption should feel like the exact time a bell rings for something no one remembers scheduling.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-bell-tower.webp",
+    "titleRu": "Колокольня"
+  },
+  {
+    "id": "gothic-solo-7",
+    "number": "7",
+    "title": "The Ruin Garden",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame the character in a garden that has been beautiful and neglected for exactly the right amount of time. Overgrown but not wild — roses that still bloom among the thorns, paths still visible under moss, a fountain that's become a planter. Moonlight or overcast daylight, the kind that makes green look almost black. The character should move through it like a ghost who tends the grounds. Iron gates, stone angels, hedges tall enough to hide in. The caption should feel like the estate name on a map drawn before the family left.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-ruin-garden.webp",
+    "titleRu": "Сад руин"
+  },
+  {
+    "id": "gothic-solo-8",
+    "number": "8",
+    "title": "The Locked Wing",
+    "tags": [
+      "gothic",
+      "psychological"
+    ],
+    "prompt": "[OOC:Image generation — the character stands at the entrance to a part of the house that has been sealed for reasons nobody alive remembers. Dust sheets over furniture that suggest shapes without confirming them. Light enters only through cracks in boarded windows — thin surgical lines that cut across the dark. Cobwebs connect everything like a nervous system. The character's hand on a doorknob, or already past it, already inside where the air is different. Whatever expression they wear should suggest that they expected this room to be empty and it isn't. The caption should feel like the last entry in a diary found behind a wall.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-locked-wing.webp",
+    "titleRu": "Запертое крыло"
+  },
+  {
+    "id": "gothic-pair-1",
+    "number": "9",
+    "title": "The Séance",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame two people at a table reaching for something that isn't there — or is. Candlelight from below, painting their faces into masks. Hands flat on wood or touching fingertips across the center. The room dark enough that the edges don't exist. Objects on the table: a glass, letters, photographs face-down, something that belonged to someone gone. The air between them should feel charged, electric, the moment before contact or collapse. The caption should feel like the question you'd ask if you could speak to one person who can't answer.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-seance.webp",
+    "titleRu": "Сеанс"
+  },
+  {
+    "id": "gothic-pair-2",
+    "number": "10",
+    "title": "The Ballroom",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — two people dancing in a room that peaked a century ago. Chandelier still intact but unlit except for whatever light sneaks in — moonlight through tall windows, candles they brought, phone flashlights on the floor. The ballroom should be gorgeous and decaying: peeling murals, cracked marble, curtains that dissolve when touched. Their dance should feel both elegant and defiant — beauty performed in a room that forgot what it was for. The caption should feel like the last song played before the house was locked.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-ballroom.webp",
+    "titleRu": "Бальный зал"
+  },
+  {
+    "id": "gothic-pair-3",
+    "number": "11",
+    "title": "The Catacombs",
+    "tags": [
+      "gothic",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — two people deep underground where the walls are made of history. Bones, stone, earth — passages too narrow for comfort, ceilings that drip. They navigate together, one light between them, each other's only proof that the surface exists. The space should feel sacred and suffocating. Their closeness should feel necessary, not chosen — the tunnels demand it. The caption should feel like the depth marker on a wall that someone scratched with their fingernail.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-catacombs.webp",
+    "titleRu": "Катакомбы"
+  },
+  {
+    "id": "gothic-pair-4",
+    "number": "12",
+    "title": "Whispered Sins",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame two people separated by something they can speak through but not see through. A confessional screen, a curtain, a wall with a gap, a locked door with mail slot. The partition should dominate the composition. Light on one side, dark on the other. One speaks, one listens, and the barrier between them is both protection and punishment. Ornate woodwork, religious or domestic. The caption should feel like the first word spoken after a silence that lasted too long.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-whispered-sins.webp",
+    "titleRu": "Шёпот грехов"
+  },
+  {
+    "id": "gothic-pair-5",
+    "number": "13",
+    "title": "The Masquerade",
+    "tags": [
+      "gothic",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — two people in masks discovering something true. A party, a ball, a ceremony — the setting should be opulent and slightly sinister. Everyone else is blurred decoration. These two have found each other in the crowd, masks on but something underneath showing through — in posture, in the angle of approach, in hands that have decided before faces have. Velvet, gold leaf, candlelight multiplied by mirrors. The caption should feel like the name written on a dance card in someone else's handwriting.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-masquerade.webp",
+    "titleRu": "Маскарад"
+  },
+  {
+    "id": "gothic-pair-6",
+    "number": "14",
+    "title": "The Haunt",
+    "tags": [
+      "gothic",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame two people where one of them might not be entirely there. Translucent, wrong-lit, slightly out of focus, or simply too still while everything else moves — one of them should register as uncanny. The other responds to their presence as though it's normal, or as though they're the only one who can see them. The setting should be old and domestic: a bedroom, a kitchen, a hallway with too many doors. The caption should feel like a house listing that mentions the previous occupant never technically moved out.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-haunt.webp",
+    "titleRu": "Призрак"
+  },
+  {
+    "id": "gothic-pair-7",
+    "number": "15",
+    "title": "Night Watch",
+    "tags": [
+      "gothic",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — two people keeping watch over something through the longest hours. A bedside, a window, a doorway they've been guarding since sundown. One awake, one fighting it. Candles burned to stubs, tea gone cold, a blanket shared without discussion. The thing they're watching for — dawn, a knock, a breath, a sound — hasn't come yet. The room should feel like time has thickened into something you could cut. The caption should feel like the hour you stop counting and start just enduring.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-night-watch.webp",
+    "titleRu": "Ночной дозор"
+  },
+  {
+    "id": "gothic-pair-8",
+    "number": "16",
+    "title": "The Vigil",
+    "tags": [
+      "gothic",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — two people keeping watch in a chapel where the candles have been burning long enough to build wax stalagmites on the floor. Stone walls, vaulted ceiling lost in darkness above, wooden pews worn smooth by centuries of grief. One sits rigid, watching the door. The other has turned inward, studying their own hands or the flame nearest to them. The candlelight should make their faces into chiaroscuro paintings — Caravaggio understood this. Cold drafts make flames lean. The space between them on the pew is deliberate and loaded. The caption should feel like a prayer that forgot how to end.]",
+    "hasImage": true,
+    "imgSrc": "img-source/gothic-the-vigil.webp",
+    "category": "Gothic Revival",
+    "titleRu": "Бдение"
+  },
+  {
+    "id": "neon-solo-1",
+    "number": "1",
+    "title": "The Circuit",
+    "tags": [
+      "cyberpunk",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame the character as a node in something larger. Wires, cables, fiber optics, or data streams should converge on them — literally or in how the composition's lines direct to their body. The setting is subterranean or interior: server rooms, underground clubs, maintenance tunnels under a city that never stops. Blue and magenta light from sources that hum. Their face should carry the calm of someone who's been plugged in so long they forgot what analog feels like. The caption should read like a network address for a human being.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-circuit.webp",
+    "titleRu": "Контур"
+  },
+  {
+    "id": "neon-solo-2",
+    "number": "2",
+    "title": "The Hologram",
+    "tags": [
+      "cyberpunk",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame the character as something projected. Slight transparency, scan lines, color fringing at the edges of their silhouette. They exist in a room but don't quite belong to it — light passes through them wrong, shadows don't match, the floor doesn't acknowledge their weight. The environment should be real and gritty to contrast: concrete, rust, rain. A real person in frame watching the projection, or empty chairs arranged for an audience. The caption should feel like the filename of a person saved to a format nobody uses anymore.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-hologram.webp",
+    "titleRu": "Голограмма"
+  },
+  {
+    "id": "neon-solo-3",
+    "number": "3",
+    "title": "Strobe Chaos",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — the character lost in a crowd that's lost in light. Strobes freezing motion, lasers cutting fog, LED arrays painting a thousand faces the same color for one pulse then scattering. The character should be both anonymous and the most visible person in frame — arms raised, eyes closed, or dead-center staring straight at the lens while everyone else is motion-blur. Sweat and light on skin doing the same thing. The caption should feel like the DJ name of someone who only plays one venue that doesn't officially exist.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-strobe-chaos.webp",
+    "titleRu": "Стробоскопный хаос"
+  },
+  {
+    "id": "neon-solo-4",
+    "number": "4",
+    "title": "The Implant",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — the character mid-use with a cybernetic arm, treating it like it's always been theirs. Lifting a cup of coffee, lighting a cigarette, typing at a neon-soaked console, catching a falling tool. Chrome plating and exposed actuators where bicep and tricep would be, soft servo hum implied in the pose. Wires tucked along forearms, a small status LED glowing steady — nothing sparking, nothing bleeding. The scene is cyberpunk workaday: rain-slick street at night, cluttered workshop under a single work light, diner booth at 2am. The prosthesis is tool and fashion statement and part of them at once. The caption should feel like the brand name stamped small on the inside of the elbow plate.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-implant.webp",
+    "titleRu": "Имплант"
+  },
+  {
+    "id": "neon-solo-5",
+    "number": "5",
+    "title": "Monsoon Fall",
+    "tags": [
+      "cyberpunk",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — neon reflected in everything the sky has made wet. The character on a street where every surface is a mirror — asphalt, car hoods, puddles, glass, the slick of someone's jacket. Signs in languages that blur in the rain, advertising things that don't exist yet. The character walking through it like the city is their aquarium. Umbrella or no umbrella, either works if the rain is the co-star. The caption should feel like a street address in a district that's been renamed three times this decade.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-monsoon-fall.webp",
+    "titleRu": "Неоновый ливень"
+  },
+  {
+    "id": "neon-solo-6",
+    "number": "6",
+    "title": "The Blackout",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — the moment the grid dies. The character in a space that was defined by artificial light, now revealed by its absence. Emergency strips, phone screens, the glow of something that runs on batteries. The city behind them — visible through a window — suddenly showing its skeleton: dark towers with single lit floors, stars visible for the first time in years. Their face in the emergency light looks like a different person. The caption should feel like the system error message for a city-sized machine.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-blackout.webp",
+    "titleRu": "Блэкаут"
+  },
+  {
+    "id": "neon-solo-7",
+    "number": "7",
+    "title": "The Mod",
+    "tags": [
+      "cyberpunk",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame the character as a work in progress. A modification studio, a back-alley clinic, a bathroom mirror — somewhere they're changing themselves. Tools of alteration visible: needles, screens, chemical vials, surgical light. The character mid-transformation, one half legacy, one half upgrade. The reflection (if present) should show a version that doesn't match. Chrome and skin sharing the same real estate. The caption should feel like the version number of a person who keeps patching themselves.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-mod.webp",
+    "titleRu": "Модификация"
+  },
+  {
+    "id": "neon-solo-8",
+    "number": "8",
+    "title": "The Glitch Portrait",
+    "tags": [
+      "cyberpunk",
+      "surreal"
+    ],
+    "prompt": "[OOC:Image generation — the character exists at the intersection of signal and noise. Neon signage behind them bleeds and stutters — some letters dead, others flickering in colors that don't exist in nature. Their face is half-lit by a screen displaying something we can't quite read, half-lit by a streetlight that turns skin into chrome. Digital artifacts creep into the image itself: scan lines, color fringing, a vertical hold slip that duplicates their eyes for one frame. They look directly at the camera as if they know this image will corrupt. The caption should feel like a filename that keeps changing every time you try to open it.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-glitch-portrait.webp",
+    "titleRu": "Глитч-портрет"
+  },
+  {
+    "id": "neon-pair-1",
+    "number": "9",
+    "title": "The Plug",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — one in, one out. Frame two people where one is jacked into something — a terminal, a VR rig, a neural link — eyes elsewhere, body slack, mind in a place the other can't follow. The watcher sits close, monitoring, guarding, or just waiting. The technology between them should feel like a third presence: cables as umbilicals, screens as windows into where the other one went. The caption should feel like the loading screen of someone else's consciousness.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-plug.webp",
+    "titleRu": "Подключение"
+  },
+  {
+    "id": "neon-pair-2",
+    "number": "10",
+    "title": "The Deal",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — frame two people exchanging something in light that makes everything look illegal. Neon-lit alley, underground market, a booth in a club where the music is a wall. Hands meeting over something small — a chip, a vial, a data stick, a key. The transaction should feel like it matters more than money. Face tattoos, augments, fashion that's armor pretending to be style. Neither trusts the other and the frame should show exactly where the tension lives. The caption should feel like the street name for something that doesn't have a legal one.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-deal.webp",
+    "titleRu": "Сделка"
+  },
+  {
+    "id": "neon-pair-3",
+    "number": "11",
+    "title": "The Upload",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — two people sharing something that bypasses language. Foreheads touching near a connection point, cables bridging them, a screen showing dual waveforms syncing. The intimacy should feel unprecedented — deeper than physical, more vulnerable than undressing. The room around them forgotten, equipment humming. Their expressions should mirror each other in the way only shared experience allows. The caption should feel like the transfer progress bar for a memory too large to compress.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-upload.webp",
+    "titleRu": "Загрузка"
+  },
+  {
+    "id": "neon-pair-4",
+    "number": "12",
+    "title": "The Chase",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — two people moving fast through a world that's all corridors and neon. One ahead, one behind — or side by side against something behind both. Motion blur on the architecture, sharp on the runners. Reflections streaking in wet floors, LED strips becoming speed lines. The city should feel like a maze designed to be run through: turns, drops, catwalks, gaps to jump. The dynamic between them should be readable in how they move relative to each other. The caption should feel like the distance readout on a pursuit that has no official record.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-chase.webp",
+    "titleRu": "Погоня"
+  },
+  {
+    "id": "neon-pair-5",
+    "number": "13",
+    "title": "The Signal",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — two people tuned to the same signal in a city of noise. In a crowd, in a club, in a market — they've locked onto each other through the static. Everyone else is interference. The connection should be visible in how the composition guides the eye from one to the other: matching colors, aligned angles, the geometry of two people who resonate. Screens, holograms, and advertisements fill the space between them but can't break the line. The caption should feel like the frequency band reserved for something the city doesn't know exists.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-signal.webp",
+    "titleRu": "Сигнал"
+  },
+  {
+    "id": "neon-pair-6",
+    "number": "14",
+    "title": "The Glitch Gate",
+    "tags": [
+      "cyberpunk",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame two people at a point where reality stutters. A doorway, a portal, a screen tear made physical — the boundary between one version of the world and another. One on each side, or both stepping through together. The glitch should be visual: color splits, duplicated geometry, scan lines bleeding into physical space. They reach through it because what's on the other side is each other. The caption should feel like the error code for a door that opens to two places at once.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-glitch-gate.webp",
+    "titleRu": "Глитч-врата"
+  },
+  {
+    "id": "neon-pair-7",
+    "number": "15",
+    "title": "Digital Landscape",
+    "tags": [
+      "cyberpunk",
+      "atmospheric",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people navigating a digital landscape made physical. The floor is a light grid, the walls are data, the ceiling is code. They move through information architecture like pedestrians in a city that's also a diagram. Their bodies are the most organic things in frame — soft against all this precision. They orient by each other when the geometry stops making sense. The caption should feel like the map coordinates for a location that only exists when both of them are looking at it.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-digital-landscape.webp",
+    "titleRu": "Цифровой ландшафт"
+  },
+  {
+    "id": "neon-pair-8",
+    "number": "16",
+    "title": "The Dead Drop",
+    "tags": [
+      "cyberpunk",
+      "tension"
+    ],
+    "prompt": "[OOC:Image generation — two people in a wet alley where neon from the street above turns puddles into screens showing a sky that doesn't exist. One has something the other needs — data, hardware, a physical key in a world that forgot what locks are. The exchange is happening or about to happen: hands close but not touching, eyes checking the periphery. Rain on leather, breath visible in cold air lit pink and blue. Security cameras should be visible but pointed the wrong way. Frame tight enough to feel the paranoia, wide enough to show the escape routes. The caption should feel like a message that deletes itself after being read.]",
+    "hasImage": true,
+    "imgSrc": "img-source/neon-the-dead-drop.webp",
+    "titleRu": "Тайник"
+  },
+  {
+    "id": "china-solo-1",
+    "number": "1",
+    "title": "Ink and Silence",
+    "tags": [
+      "solitude",
+      "minimalist",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame one character in a traditional Chinese study. Ink stone, brush, rice paper. The room should feel like it's been quiet for hours. Light from a paper window, soft and diffused. The character's posture should suggest they're mid-thought, not mid-action — the brush hovering, the hand still. Minimal furniture: a low table, a scroll half-unrolled. The space around them should feel intentional, not empty. The caption should feel like the first line of a poem that was never finished.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-ink-and-silence.webp",
+    "titleRu": "Тушь и тишина"
+  },
+  {
+    "id": "china-solo-2",
+    "number": "2",
+    "title": "Garden Stone",
+    "tags": [
+      "architectural",
+      "solitude",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame one character in a classical Chinese garden. Scholar's rocks, bamboo, a moon gate in the background. The character should be small against the architecture — the garden is the main subject, they're just passing through it. Wet stone after rain, moss on everything that doesn't move. The composition should follow traditional landscape painting rules: asymmetry, negative space, the character placed where the eye has to search for them. The caption should feel like the name of a viewing pavilion that no longer exists.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-garden-stone.webp",
+    "titleRu": "Камень в саду"
+  },
+  {
+    "id": "egypt-solo-1",
+    "number": "3",
+    "title": "Temple Shadow",
+    "tags": [
+      "architectural",
+      "cinematic",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame one character in an ancient Egyptian temple. Massive columns, hieroglyphs carved deep into stone. The character should be dwarfed by the architecture — the temple is eternal, they're temporary. Light cutting through high windows in hard geometric shapes. Dust in the air making the light visible. Linen clothing, gold jewelry catching the sun. The character should be mid-movement through the space, not posing in it. The caption should feel like the name of a god that was forgotten before the temple was finished.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-temple-shadow.webp",
+    "titleRu": "Тень храма"
+  },
+  {
+    "id": "egypt-solo-2",
+    "number": "4",
+    "title": "Nile Light",
+    "tags": [
+      "atmospheric",
+      "cinematic",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame one character by the Nile at golden hour. The river should dominate the frame — wide, slow, reflecting the sky. The character on the bank or in a small boat. Papyrus reeds, palm trees in silhouette. The light should be warm and low, turning everything amber. Linen clothing moving in the breeze. The character should be looking at the water or the horizon, not the camera. The caption should feel like the name of the hour when the river turns gold.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-nile-light.webp",
+    "titleRu": "Свет Нила"
+  },
+  {
+    "id": "egypt-solo-3",
+    "number": "5",
+    "title": "Desert Threshold",
+    "tags": [
+      "atmospheric",
+      "solitude",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame one character at the edge where civilization meets desert. Behind them: a temple, a city, green from the Nile. In front: sand, heat, nothing. The character at the threshold, looking out or looking back. Linen clothing, bare feet or sandals. The light should be harsh — midday sun, no mercy. The contrast between the two worlds should be sharp. The caption should feel like the last thing you check before you leave everything behind.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-desert-threshold.webp",
+    "titleRu": "Порог пустыни"
+  },
+  {
+    "id": "greece-solo-1",
+    "number": "6",
+    "title": "Marble and Skin",
+    "tags": [
+      "editorial",
+      "architectural",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame one character among ancient Greek statuary. White marble, classical proportions, gods and heroes frozen in stone. The character should be alive against all this stillness — skin warm, breathing, imperfect. Draped fabric, simple jewelry. The statues should dwarf them or surround them. Light should be clean and bright, Mediterranean sun. The character could be touching a statue, walking past them, or standing still enough to almost become one. The caption should feel like the difference between marble and flesh.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-marble-and-skin.webp",
+    "titleRu": "Мрамор и кожа"
+  },
+  {
+    "id": "greece-solo-2",
+    "number": "7",
+    "title": "Olive Grove",
+    "tags": [
+      "atmospheric",
+      "solitude",
+      "nostalgic"
+    ],
+    "prompt": "[OOC:Image generation — frame one character in an ancient olive grove. Twisted silver-green trees, dappled light, the ground covered in fallen leaves. The character should be resting — sitting against a tree, lying in the shade, standing with eyes closed. Draped linen or wool, bare arms, hair loose. The light should filter through the leaves in coins of gold. The grove should feel ancient, patient, like it's seen this exact moment a thousand times. The caption should feel like the name of a place where time moves differently.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-olive-grove.webp",
+    "titleRu": "Оливковая роща"
+  },
+  {
+    "id": "greece-solo-3",
+    "number": "8",
+    "title": "Temple Columns",
+    "tags": [
+      "architectural",
+      "cinematic",
+      "solitude"
+    ],
+    "prompt": "[OOC:Image generation — frame one character among the columns of a Greek temple. Doric or Ionic columns, white stone, the roof long gone. The character should be small against the architecture — walking through, standing still, looking up. Draped fabric, simple sandals. The light should be dramatic: late afternoon sun cutting between columns, creating bars of light and shadow. The ruins should feel both grand and intimate. The caption should feel like the name of the temple that everyone forgot to write down.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-temple-columns.webp",
+    "titleRu": "Колонны храма"
+  },
+  {
+    "id": "china-pair-1",
+    "number": "9",
+    "title": "Tea Ceremony",
+    "tags": [
+      "intimate",
+      "minimalist",
+      "domestic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people sharing tea in a traditional setting. Low table, ceramic cups, a teapot between them. The ritual should slow everything down — hands moving with intention, steam rising, eye contact that lasts. The room should be spare: tatami or wood floor, paper screens, one scroll on the wall. Light from a single source. The space between them across the table should feel like the most important distance in the room. The caption should feel like the name of a tea blend that only exists in this moment.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-tea-ceremony.webp",
+    "titleRu": "Чайная церемония"
+  },
+  {
+    "id": "china-pair-2",
+    "number": "10",
+    "title": "Silk and Distance",
+    "tags": [
+      "tension",
+      "editorial",
+      "atmospheric"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in traditional Chinese formal wear, separated by the length of a hall or courtyard. Silk robes, elaborate hair. The distance between them should be architectural — columns, doorways, the geometry of classical Chinese buildings forcing them apart. One might be leaving, one might be waiting. The formality of their clothing should contrast with whatever their faces are doing. The caption should feel like the title of a forbidden letter that was never sent.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-silk-and-distance.webp",
+    "titleRu": "Шёлк и расстояние"
+  },
+  {
+    "id": "china-pair-3",
+    "number": "11",
+    "title": "The Ink Garden",
+    "tags": [
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — two figures in a classical Chinese garden where the rocks have been arranged for centuries and the water has its own philosophy. Frame them among scholar's rocks and crooked pines, the kind of landscape that looks like a brushstroke made it. One sits, one stands, or both move along a covered walkway where the rain sounds different. Light should feel filtered through silk — grey-white, diffused, the kind that erases hard shadows and makes skin look like porcelain. Let the negative space between them carry as much meaning as a calligraphy scroll. The caption should feel like the space between two lines of a poem you're still learning to read.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-the-ink-garden.webp",
+    "category": "Ancient World",
+    "titleRu": "Чернильный сад"
+  },
+  {
+    "id": "china-pair-4",
+    "number": "12",
+    "title": "Lantern Hour",
+    "tags": [
+      "nocturnal",
+      "atmospheric",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people by lantern light in a traditional setting. Paper lantern as the only light source — warm, soft, casting long shadows between them. They could be walking a corridor together, standing close on a veranda, seated across a low table in the same small pool of light. The darkness around them should feel vast, pressing the pair closer. Traditional architecture barely visible in the background. Their clothing should catch the light — silk reflecting, embroidery glinting. The space between them should feel like it belongs to the lantern. The caption should feel like the hour between midnight and dawn that has its own name.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-lantern-hour.webp",
+    "titleRu": "Час фонарей"
+  },
+  {
+    "id": "egypt-pair-1",
+    "number": "13",
+    "title": "Royal Distance",
+    "tags": [
+      "editorial",
+      "tension",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in ancient Egyptian royal or noble attire. Gold, linen, elaborate headdresses or wigs. The formality should be extreme — they're not allowed to be casual. They could be seated on thrones, standing in a ceremonial space, or walking in procession. The distance between them should feel political, not personal. The setting should be grand: painted walls, columns, the weight of dynasty. The caption should feel like the title neither of them will ever give up.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-royal-distance.webp",
+    "titleRu": "Царская дистанция"
+  },
+  {
+    "id": "egypt-pair-2",
+    "number": "14",
+    "title": "Market Crowd",
+    "tags": [
+      "kinetic",
+      "atmospheric",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame two people in an ancient Egyptian marketplace. Chaos around them: vendors, fabric, baskets, animals, noise made visual. The two of them should be a pocket of stillness in the motion — standing close, talking, one hand on the other's arm. Linen clothing, simple jewelry. The crowd should blur around them, the focus tight on their faces or hands. Warm light, dust in the air. The caption should feel like the thing you'd say in a crowd that no one else can hear.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-market-crowd.webp",
+    "titleRu": "Рыночная толпа"
+  },
+  {
+    "id": "egypt-pair-3",
+    "number": "15",
+    "title": "The Sun Court",
+    "tags": [
+      "sacred",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — two figures standing in a courtyard where the sun has been worshipped for millennia and the stone still remembers. Massive columns throw geometric shadows across the ground like a sundial built for gods. One character stands in blinding light, the other in the cool dark of the colonnade — the threshold between them is the whole story. Sand dust floats in the light shafts. Gold catches everywhere: on skin, on fabric edges, on the worn reliefs carved into walls. Frame wide enough to make them small against the architecture, close enough to see the heat on their faces. The caption should feel like a pharaoh's name half-erased from a cartouche.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-the-sun-court.webp",
+    "category": "Ancient World",
+    "titleRu": "Солнечный двор"
+  },
+  {
+    "id": "greece-pair-1",
+    "number": "16",
+    "title": "Symposium",
+    "tags": [
+      "intimate",
+      "domestic",
+      "cinematic"
+    ],
+    "prompt": "[OOC:Image generation — frame two people reclining at a Greek symposium. Low couches, wine cups, oil lamps. The room should feel warm and close — painted walls, terracotta, the smell of wine and olive oil made visual. They're leaning toward each other, talking, laughing, one hand reaching for the other's cup or wrist. Draped fabric, bare shoulders, hair crowned with leaves. The intimacy should feel easy, not staged. The caption should feel like the conversation that happens after everyone else has left.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-symposium.webp",
+    "titleRu": "Симпозиум"
+  },
+  {
+    "id": "greece-pair-2",
+    "number": "17",
+    "title": "Aegean Blue",
+    "tags": [
+      "atmospheric",
+      "cinematic",
+      "intimate"
+    ],
+    "prompt": "[OOC:Image generation — frame two people by the Aegean Sea. White stone, blue water, the horizon line sharp and clean. They could be on a cliff, a beach, a terrace. The sea should be the dominant color — that specific Greek island blue that doesn't exist anywhere else. Linen clothing moving in the wind, bare feet, salt in the air made visible through light. They're standing close, looking at the water or each other. The caption should feel like the name of the blue that only exists where the sea meets the sky.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-aegean-blue.webp",
+    "titleRu": "Эгейская синева"
+  },
+  {
+    "id": "greece-pair-3",
+    "number": "18",
+    "title": "The Marble Hour",
+    "tags": [
+      "nostalgic",
+      "architectural"
+    ],
+    "prompt": "[OOC:Image generation — two people among ruins that are more beautiful broken than they ever were whole. White marble columns with no roof, open to a sky so blue it looks painted. Mediterranean light — the kind that makes everything look like it was carved five minutes ago and five thousand years ago simultaneously. One leans against a column, the other sits on fallen stone. Wildflowers grow through cracks in the ancient floor. The wind moves fabric and hair with the same gesture. Frame to show both the human scale and the inhuman scale of what was built here. The caption should feel like a name scratched into marble by a tourist who visited in 1823.]",
+    "hasImage": true,
+    "imgSrc": "img-source/ancient-the-marble-hour.webp",
+    "category": "Ancient World",
+    "titleRu": "Мраморный час"
+  }
+]

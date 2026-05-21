@@ -1,0 +1,752 @@
+{
+  "categories": [
+    {
+      "name": "Solid Colors",
+      "nameRu": "Однотонные",
+      "backgrounds": [
+        {
+          "term": "pure white background",
+          "nameRu": "чисто белый фон",
+          "description": "Clean white, studio-style. Great for character cards and isolated portraits",
+          "descriptionRu": "Чистый белый, студийный стиль. Отлично для карточек персонажей и изолированных портретов",
+          "preview": "#ffffff"
+        },
+        {
+          "term": "pure black background",
+          "nameRu": "чисто чёрный фон",
+          "description": "Deep black void. Dramatic, makes the character pop with high contrast",
+          "descriptionRu": "Глубокая чёрная пустота. Драматично, персонаж выделяется за счёт контраста",
+          "preview": "#0a0a0a"
+        },
+        {
+          "term": "soft pink background",
+          "nameRu": "мягкий розовый фон",
+          "description": "Delicate pastel pink. Romantic, tender, dreamy mood",
+          "descriptionRu": "Нежный пастельный розовый. Романтичное, нежное, мечтательное настроение",
+          "preview": "#f4c2c2"
+        },
+        {
+          "term": "deep crimson background",
+          "nameRu": "тёмно-алый фон",
+          "description": "Rich dark red. Passion, danger, gothic intensity",
+          "descriptionRu": "Насыщенный тёмный красный. Страсть, опасность, готическая интенсивность",
+          "preview": "#7a1a1a"
+        },
+        {
+          "term": "midnight navy background",
+          "nameRu": "тёмно-синий фон",
+          "description": "Deep navy blue. Mysterious, nocturnal, elegant",
+          "descriptionRu": "Глубокий тёмно-синий. Загадочный, ночной, элегантный",
+          "preview": "#1a1a3e"
+        },
+        {
+          "term": "warm amber background",
+          "nameRu": "тёплый янтарный фон",
+          "description": "Golden amber warmth. Nostalgic, sunset vibes, cozy",
+          "descriptionRu": "Тёплый золотисто-янтарный. Ностальгия, закатные вайбы, уют",
+          "preview": "#d4900a"
+        },
+        {
+          "term": "forest green background",
+          "nameRu": "лесной зелёный фон",
+          "description": "Rich natural green. Earthy, alive, fantasy-friendly",
+          "descriptionRu": "Насыщенный природный зелёный. Земной, живой, подходит для фэнтези",
+          "preview": "#2d5a27"
+        },
+        {
+          "term": "lavender background",
+          "nameRu": "лавандовый фон",
+          "description": "Soft purple-lilac. Ethereal, magical, calming",
+          "descriptionRu": "Мягкий фиолетово-лиловый. Воздушный, магический, успокаивающий",
+          "preview": "#b8a9d4"
+        },
+        {
+          "term": "charcoal gray background",
+          "nameRu": "угольно-серый фон",
+          "description": "Dark neutral gray. Professional, modern, doesn't distract",
+          "descriptionRu": "Тёмный нейтральный серый. Профессионально, современно, не отвлекает",
+          "preview": "#36393f"
+        },
+        {
+          "term": "cream ivory background",
+          "nameRu": "кремовый фон",
+          "description": "Warm off-white. Vintage, gentle, painterly feel",
+          "descriptionRu": "Тёплый почти-белый. Винтажный, нежный, живописный",
+          "preview": "#f5f0e1"
+        },
+        {
+          "term": "dusty rose background",
+          "nameRu": "пыльно-розовый фон",
+          "description": "Muted warm pink with vintage softness. Romantic without being saccharine",
+          "descriptionRu": "Приглушённый тёплый розовый с винтажной мягкостью. Романтично, но не приторно",
+          "preview": "#c9a0a0",
+          "pairsWith": [
+            "soft focus",
+            "warm tones",
+            "film grain"
+          ],
+          "sampleHookEn": "A portrait that wants to be a memory, not a photograph",
+          "sampleHookRu": "Портрет, который хочет быть воспоминанием, а не фотографией"
+        },
+        {
+          "term": "sage green background",
+          "nameRu": "шалфейный фон",
+          "description": "Soft muted green-grey. Calming, herbal, modernist mood",
+          "descriptionRu": "Мягкий приглушённый зелёно-серый. Успокаивающий, травяной, модернистский",
+          "preview": "#a8b89a",
+          "pairsWith": [
+            "muted colors",
+            "soft focus",
+            "35mm film"
+          ],
+          "sampleHookEn": "Quiet shot — the kind of light that makes you whisper",
+          "sampleHookRu": "Тихий кадр — такой свет, при котором хочется шептать"
+        }
+      ]
+    },
+    {
+      "name": "Blurred & Bokeh",
+      "nameRu": "Размытые и боке",
+      "backgrounds": [
+        {
+          "term": "bokeh background",
+          "nameRu": "боке-фон",
+          "description": "Soft circular light blurs. The gold standard for portrait backgrounds",
+          "descriptionRu": "Мягкие круглые размытия света. Золотой стандарт для портретных фонов",
+          "preview": "radial-gradient(circle at 30% 40%, #f0c27f44, transparent 50%), radial-gradient(circle at 70% 60%, #4b6cb744, transparent 50%), #2a2a3a"
+        },
+        {
+          "term": "gaussian blur background",
+          "nameRu": "гауссово размытие",
+          "description": "Everything behind the subject is soft and out of focus. Classic depth-of-field look",
+          "descriptionRu": "Всё за объектом мягко размыто. Классический вид малой глубины резкости",
+          "preview": "linear-gradient(135deg, #667eea55, #764ba255, #f093fb33)"
+        },
+        {
+          "term": "city lights bokeh background",
+          "nameRu": "боке городских огней",
+          "description": "Blurred city lights at night. Multicolor dots, urban romance",
+          "descriptionRu": "Размытые городские огни ночью. Разноцветные точки, городская романтика",
+          "preview": "radial-gradient(circle at 20% 30%, #ff634744, transparent 40%), radial-gradient(circle at 80% 50%, #4fc3f744, transparent 40%), radial-gradient(circle at 50% 80%, #f0c27f44, transparent 40%), #1a1a2e"
+        },
+        {
+          "term": "soft focus dreamy background",
+          "nameRu": "мягкий мечтательный фокус",
+          "description": "Hazy, dreamlike blur. Everything glows softly, like a memory",
+          "descriptionRu": "Туманное, мечтательное размытие. Всё мягко светится, как воспоминание",
+          "preview": "linear-gradient(135deg, #ffecd2, #fcb69f88, #ee9ca788)"
+        },
+        {
+          "term": "tilt-shift blur background",
+          "nameRu": "тилт-шифт размытие",
+          "description": "Sharp center, blurred edges. Makes scenes look miniature and surreal",
+          "descriptionRu": "Резкий центр, размытые края. Делает сцены миниатюрными и сюрреальными",
+          "preview": "linear-gradient(to bottom, #33333388, transparent 30%, transparent 70%, #33333388), #5a7a8a"
+        },
+        {
+          "term": "stage-light bokeh background",
+          "nameRu": "боке софитов",
+          "description": "Warm theatrical spotlight blobs against deep velvet dark. Performance energy",
+          "descriptionRu": "Тёплые театральные пятна софитов на глубоком бархатном фоне. Энергия выступления",
+          "preview": "radial-gradient(circle at 30% 30%, #ffb04055, transparent 40%), radial-gradient(circle at 70% 60%, #ff704055, transparent 40%), #1a0a14",
+          "pairsWith": [
+            "bloom",
+            "anamorphic flare",
+            "chiaroscuro"
+          ],
+          "sampleHookEn": "Catch them in the moment between the song ending and the applause starting",
+          "sampleHookRu": "Поймать их между концом песни и началом аплодисментов"
+        },
+        {
+          "term": "firefly bokeh background",
+          "nameRu": "боке светлячков",
+          "description": "Tiny scattered warm-green glow points in summer dark. Magical, alive",
+          "descriptionRu": "Крошечные рассеянные тёпло-зелёные точки света в летней темноте. Магически, живо",
+          "preview": "radial-gradient(circle at 20% 30%, #c8ff8055, transparent 20%), radial-gradient(circle at 60% 50%, #c8ff8055, transparent 20%), radial-gradient(circle at 80% 70%, #c8ff8055, transparent 20%), #0a1a14",
+          "pairsWith": [
+            "glow",
+            "shallow depth of field",
+            "warm tones"
+          ],
+          "sampleHookEn": "A night so quiet you can hear someone thinking",
+          "sampleHookRu": "Ночь такая тихая, что слышно, как кто-то думает"
+        },
+        {
+          "term": "candle bokeh background",
+          "nameRu": "свечное боке",
+          "description": "Out-of-focus candlelight orbs in warm darkness. Ritual, intimate, slow",
+          "descriptionRu": "Размытые шары свечного света в тёплой темноте. Ритуал, интимность, медленность",
+          "preview": "radial-gradient(circle at 25% 40%, #ffa04066, transparent 35%), radial-gradient(circle at 65% 55%, #ffa04055, transparent 35%), radial-gradient(circle at 45% 75%, #ffa04044, transparent 35%), #1a0e08",
+          "pairsWith": [
+            "bokeh",
+            "warm tones",
+            "vignette"
+          ],
+          "sampleHookEn": "Whatever is about to happen, the candles already know",
+          "sampleHookRu": "Что бы ни случилось дальше — свечи уже знают"
+        }
+      ]
+    },
+    {
+      "name": "Gradients & Atmosphere",
+      "nameRu": "Градиенты и атмосфера",
+      "backgrounds": [
+        {
+          "term": "sunset gradient background",
+          "nameRu": "закатный градиент",
+          "description": "Warm orange-to-purple transition. Golden hour energy",
+          "descriptionRu": "Тёплый переход от оранжевого к фиолетовому. Энергия золотого часа",
+          "preview": "linear-gradient(to bottom, #ff6b35, #f7931e, #c84b8a, #4a1a6b)"
+        },
+        {
+          "term": "northern lights background",
+          "nameRu": "северное сияние",
+          "description": "Green-purple aurora ripples. Mystical, cold, otherworldly",
+          "descriptionRu": "Зелёно-фиолетовые переливы авроры. Мистический, холодный, потусторонний",
+          "preview": "linear-gradient(160deg, #0f2027, #1a6b4a, #5b2a8e, #0f2027)"
+        },
+        {
+          "term": "twilight sky background",
+          "nameRu": "сумеречное небо",
+          "description": "Deep blue fading into warm horizon. That perfect 15-minute window",
+          "descriptionRu": "Глубокий синий, переходящий в тёплый горизонт. Те самые идеальные 15 минут",
+          "preview": "linear-gradient(to bottom, #0c1445, #1a3a6b, #c06040, #f0a050)"
+        },
+        {
+          "term": "smoke and haze background",
+          "nameRu": "дым и дымка",
+          "description": "Swirling smoke tendrils. Moody, noir, atmospheric depth",
+          "descriptionRu": "Закручивающиеся пряди дыма. Мрачный, нуарный, атмосферная глубина",
+          "preview": "radial-gradient(ellipse at 50% 50%, #44444488, #1a1a1a)"
+        },
+        {
+          "term": "underwater caustics background",
+          "nameRu": "подводные каустики",
+          "description": "Rippling light patterns like sunlight through water. Surreal and fluid",
+          "descriptionRu": "Рябь света как солнечные лучи сквозь воду. Сюрреалистично и текуче",
+          "preview": "linear-gradient(135deg, #0f4c75, #3282b8, #0f4c75, #1b6ca8)"
+        },
+        {
+          "term": "blood moon background",
+          "nameRu": "кровавая луна",
+          "description": "Deep red-black sky with low ominous moon glow. Apocalyptic, ritualistic",
+          "descriptionRu": "Глубокое красно-чёрное небо с низким зловещим лунным свечением. Апокалиптично, ритуально",
+          "preview": "radial-gradient(circle at 70% 30%, #8a1a1a, #2a0808 60%)",
+          "pairsWith": [
+            "volumetric lighting",
+            "high contrast",
+            "haze"
+          ],
+          "sampleHookEn": "Whatever pact was made tonight, the sky already signed it",
+          "sampleHookRu": "Какой бы договор сегодня ни заключили — небо его уже подписало"
+        },
+        {
+          "term": "rolling fog background",
+          "nameRu": "наплывающий туман",
+          "description": "Thick white-grey mist devouring everything past three steps. Liminal, dreaming",
+          "descriptionRu": "Густой бело-серый туман, поглощающий всё дальше трёх шагов. Лиминально, сновидчески",
+          "preview": "linear-gradient(to bottom, #d8dadc, #a8aaac, #787a7c)",
+          "pairsWith": [
+            "fog",
+            "soft focus",
+            "desaturated"
+          ],
+          "sampleHookEn": "Two steps further and the world stops existing",
+          "sampleHookRu": "Ещё два шага — и мира больше нет"
+        },
+        {
+          "term": "electric storm background",
+          "nameRu": "электрический шторм",
+          "description": "Heavy purple-black clouds split by branching lightning. Violent grandeur",
+          "descriptionRu": "Тяжёлые фиолетово-чёрные облака, рассечённые ветвящейся молнией. Жестокое величие",
+          "preview": "linear-gradient(160deg, #1a1a2e, #3a2a5a, #1a1a2e, #4a4a8a)",
+          "pairsWith": [
+            "high contrast",
+            "rim light",
+            "cinematic color grading"
+          ],
+          "sampleHookEn": "The storm is the loudest thing here, but not the most dangerous",
+          "sampleHookRu": "Шторм здесь самый громкий — но не самый опасный"
+        }
+      ]
+    },
+    {
+      "name": "Textures & Materials",
+      "nameRu": "Текстуры и материалы",
+      "backgrounds": [
+        {
+          "term": "marble texture background",
+          "nameRu": "мраморная текстура",
+          "description": "Polished marble veins. Luxurious, classical, sculptural",
+          "descriptionRu": "Полированные мраморные прожилки. Роскошный, классический, скульптурный",
+          "preview": "linear-gradient(135deg, #e8e4df, #d4cfc7, #e8e4df, #c8c2b8)"
+        },
+        {
+          "term": "concrete wall background",
+          "nameRu": "бетонная стена",
+          "description": "Raw industrial concrete. Urban, gritty, brutalist",
+          "descriptionRu": "Грубый индустриальный бетон. Городской, шершавый, брутализм",
+          "preview": "#8a8a82"
+        },
+        {
+          "term": "velvet fabric background",
+          "nameRu": "бархатная ткань",
+          "description": "Rich velvet texture. Opulent, sensual, theatrical",
+          "descriptionRu": "Богатая бархатная текстура. Роскошный, чувственный, театральный",
+          "preview": "linear-gradient(135deg, #4a0e2e, #6b1a3a, #4a0e2e)"
+        },
+        {
+          "term": "old paper texture background",
+          "nameRu": "текстура старой бумаги",
+          "description": "Aged parchment with stains. Vintage, historical, story-like",
+          "descriptionRu": "Состаренный пергамент с пятнами. Винтажный, исторический, повествовательный",
+          "preview": "linear-gradient(135deg, #d4c5a0, #c8b888, #d4c5a0)"
+        },
+        {
+          "term": "cracked earth background",
+          "nameRu": "потрескавшаяся земля",
+          "description": "Dried desert mud cracks. Post-apocalyptic, harsh, elemental",
+          "descriptionRu": "Высохшие трещины пустынной глины. Постапокалипсис, суровость, стихия",
+          "preview": "#8b7355"
+        },
+        {
+          "term": "rusted metal background",
+          "nameRu": "ржавый металл",
+          "description": "Oxidized iron with orange-brown corrosion patterns. Industrial decay, post-apocalyptic",
+          "descriptionRu": "Окисленное железо с оранжево-коричневыми узорами коррозии. Промышленный распад, постапокалипсис",
+          "preview": "linear-gradient(135deg, #7a4028, #a05028, #5a3018, #8a4828)",
+          "pairsWith": [
+            "grainy texture",
+            "desaturated",
+            "high contrast"
+          ],
+          "sampleHookEn": "Everything here used to work. Nothing here works now",
+          "sampleHookRu": "Всё здесь когда-то работало. Сейчас не работает ничего"
+        },
+        {
+          "term": "wet asphalt background",
+          "nameRu": "мокрый асфальт",
+          "description": "Dark slick street surface with neon-light reflections puddled across it",
+          "descriptionRu": "Тёмная блестящая поверхность улицы с лужами, в которых отражается неон",
+          "preview": "linear-gradient(135deg, #1a1a1e, #2a2a3a, #1a1a2e, #3a3a4a)",
+          "pairsWith": [
+            "cinematic color grading",
+            "anamorphic flare",
+            "rain"
+          ],
+          "sampleHookEn": "The city after midnight, when even the lights look tired",
+          "sampleHookRu": "Город после полуночи — даже огни выглядят уставшими"
+        },
+        {
+          "term": "peeling wallpaper background",
+          "nameRu": "отслоившиеся обои",
+          "description": "Floral wallpaper curling away from damp walls. Faded grandeur, southern gothic",
+          "descriptionRu": "Цветочные обои отслаиваются от сырых стен. Увядшее величие, южная готика",
+          "preview": "linear-gradient(135deg, #c8a890, #a08868, #c8a890, #806848)",
+          "pairsWith": [
+            "sepia tone",
+            "soft focus",
+            "warm tones"
+          ],
+          "sampleHookEn": "The house remembers everyone who ever cried inside it",
+          "sampleHookRu": "Дом помнит каждого, кто плакал внутри него"
+        },
+        {
+          "term": "holographic foil background",
+          "nameRu": "голографическая фольга",
+          "description": "Iridescent rainbow-shift surface. Y2K, club kid, surreal sheen",
+          "descriptionRu": "Переливающаяся радужная поверхность. Y2K, клубный шик, сюрреальный блеск",
+          "preview": "linear-gradient(135deg, #ff80c0, #80c0ff, #80ffc0, #ffc080, #c080ff)",
+          "pairsWith": [
+            "chromatic aberration",
+            "prism effect",
+            "bloom"
+          ],
+          "sampleHookEn": "Reality is malfunctioning in a really pretty way",
+          "sampleHookRu": "Реальность глючит — но как-то очень красиво"
+        }
+      ]
+    },
+    {
+      "name": "Scenic & Environmental",
+      "nameRu": "Сценические и пейзажные",
+      "backgrounds": [
+        {
+          "term": "rainy window background",
+          "nameRu": "дождливое окно",
+          "description": "Rain streaks on glass with blurred lights behind. Melancholic, intimate",
+          "descriptionRu": "Дождевые потёки на стекле с размытыми огнями позади. Меланхолично, интимно",
+          "preview": "linear-gradient(to bottom, #2c3e50, #3d566e, #2c3e50)"
+        },
+        {
+          "term": "neon-lit alley background",
+          "nameRu": "неоновый переулок",
+          "description": "Cyberpunk alley with neon reflections. Electric, dangerous, stylish",
+          "descriptionRu": "Киберпанк-переулок с неоновыми отражениями. Электрический, опасный, стильный",
+          "preview": "linear-gradient(135deg, #0a0a1a, #1a0a2e, #0a1a1a)"
+        },
+        {
+          "term": "autumn forest background",
+          "nameRu": "осенний лес",
+          "description": "Golden-red foliage, dappled sunlight. Warm, nostalgic, fairy-tale",
+          "descriptionRu": "Золотисто-красная листва, пятнистый свет. Тёплый, ностальгический, сказочный",
+          "preview": "linear-gradient(to bottom, #8b6914, #a0522d, #6b3a2a)"
+        },
+        {
+          "term": "starfield background",
+          "nameRu": "звёздное поле",
+          "description": "Deep space with scattered stars. Cosmic, infinite, sci-fi",
+          "descriptionRu": "Глубокий космос с разбросанными звёздами. Космический, бесконечный, sci-fi",
+          "preview": "radial-gradient(circle at 50% 50%, #0a0a2e, #050510)"
+        },
+        {
+          "term": "candlelit room background",
+          "nameRu": "комната при свечах",
+          "description": "Warm flickering candlelight in darkness. Intimate, medieval, sacred",
+          "descriptionRu": "Тёплый мерцающий свет свечей в темноте. Интимный, средневековый, сакральный",
+          "preview": "radial-gradient(circle at 50% 60%, #3d2b1f, #1a1008)"
+        },
+        {
+          "term": "snowstorm whiteout background",
+          "nameRu": "снежная буря",
+          "description": "Near-white blizzard erasing all distance. Isolating, brutal, silent",
+          "descriptionRu": "Почти белая метель стирает всю даль. Изолирующее, жестокое, тихое",
+          "preview": "linear-gradient(135deg, #e8eaec, #c8caec, #d8dadc, #b8babc)",
+          "pairsWith": [
+            "fog",
+            "desaturated",
+            "soft focus"
+          ],
+          "sampleHookEn": "Lose the horizon, lose the year, lose the name they called you",
+          "sampleHookRu": "Потерять горизонт, потерять год, потерять имя, которым тебя звали"
+        },
+        {
+          "term": "cherry blossoms falling background",
+          "nameRu": "падающая сакура",
+          "description": "Soft pink petals drifting against pale spring sky. Tender, fleeting, mono no aware",
+          "descriptionRu": "Мягкие розовые лепестки парят на фоне бледного весеннего неба. Нежно, мимолётно, моно-но-аварэ",
+          "preview": "linear-gradient(to bottom, #f8d8e0, #e8b8c8, #d898a8)",
+          "pairsWith": [
+            "soft focus",
+            "shallow depth of field",
+            "warm tones"
+          ],
+          "sampleHookEn": "Beautiful because it's already ending",
+          "sampleHookRu": "Красиво именно потому, что уже заканчивается"
+        },
+        {
+          "term": "lightning storm background",
+          "nameRu": "грозовой шторм",
+          "description": "Heavy night sky split by white lightning forks. Drama in a single frame",
+          "descriptionRu": "Тяжёлое ночное небо, расколотое белыми вилками молний. Драма в одном кадре",
+          "preview": "linear-gradient(160deg, #0a0a1a, #2a2a4a, #ffffff20, #0a0a1a)",
+          "pairsWith": [
+            "high contrast",
+            "silhouette",
+            "rim light"
+          ],
+          "sampleHookEn": "One second of light to show what was always there",
+          "sampleHookRu": "Одна секунда света, чтобы показать то, что всегда было"
+        }
+      ]
+    },
+    {
+      "name": "Places & Worlds",
+      "nameRu": "Места и миры",
+      "backgrounds": [
+        {
+          "term": "abandoned cathedral interior",
+          "nameRu": "заброшенный собор",
+          "description": "Crumbling gothic arches, shafts of dusty light through broken stained glass",
+          "descriptionRu": "Рушащиеся готические арки, пыльные лучи света через разбитые витражи",
+          "preview": "linear-gradient(135deg, #3a2f2f, #5c4a3a, #2a2020)"
+        },
+        {
+          "term": "rooftop at golden hour",
+          "nameRu": "крыша на закате",
+          "description": "City skyline stretching below, warm light painting everything amber",
+          "descriptionRu": "Городской горизонт внизу, тёплый свет окрашивает всё в янтарь",
+          "preview": "linear-gradient(to bottom, #e8a044, #c0653a, #4a2040)"
+        },
+        {
+          "term": "overgrown greenhouse",
+          "nameRu": "заросшая оранжерея",
+          "description": "Tropical plants reclaiming rusty glass walls, humid light, feral beauty",
+          "descriptionRu": "Тропические растения захватывают ржавые стеклянные стены, влажный свет, дикая красота",
+          "preview": "linear-gradient(135deg, #2a4a2a, #4a7a3a, #1a3a1a)"
+        },
+        {
+          "term": "venetian canal at dusk",
+          "nameRu": "венецианский канал в сумерках",
+          "description": "Water reflections, pastel buildings, gondolas dissolving into blue hour",
+          "descriptionRu": "Отражения в воде, пастельные здания, гондолы растворяются в синем часе",
+          "preview": "linear-gradient(to bottom, #d4a07a, #7a8aaa, #3a4a6a)"
+        },
+        {
+          "term": "underground metro station",
+          "nameRu": "станция метро",
+          "description": "Tiled walls, fluorescent flicker, empty platforms at 3am. Liminal, eerie",
+          "descriptionRu": "Кафельные стены, мерцание ламп, пустые платформы в 3 ночи. Лиминальное, жуткое",
+          "preview": "linear-gradient(135deg, #2a3a2a, #4a5a4a, #1a2a1a)"
+        },
+        {
+          "term": "japanese shrine in rain",
+          "nameRu": "японский храм в дождь",
+          "description": "Red torii gates, wet stone steps, mist curling between cedar trees",
+          "descriptionRu": "Красные тории, мокрые каменные ступени, туман вьётся между кедрами",
+          "preview": "linear-gradient(135deg, #8a2a2a, #5a6a5a, #2a3a2a)"
+        },
+        {
+          "term": "brutalist apartment interior",
+          "nameRu": "бруталистская квартира",
+          "description": "Raw concrete walls, one dramatic window, sparse furniture casting long shadows",
+          "descriptionRu": "Грубые бетонные стены, одно драматичное окно, редкая мебель отбрасывает длинные тени",
+          "preview": "linear-gradient(135deg, #5a5a58, #7a7a76, #3a3a38)"
+        },
+        {
+          "term": "frozen lake at midnight",
+          "nameRu": "замёрзшее озеро в полночь",
+          "description": "Black ice reflecting moonlight, snow-heavy pines, absolute silence",
+          "descriptionRu": "Чёрный лёд отражает лунный свет, заснеженные сосны, абсолютная тишина",
+          "preview": "linear-gradient(to bottom, #0a1a2a, #2a4a6a, #0a0a1a)"
+        },
+        {
+          "term": "baroque opera house",
+          "nameRu": "барочный оперный театр",
+          "description": "Red velvet seats, gilded balconies, massive chandelier, empty stage",
+          "descriptionRu": "Красные бархатные кресла, золочёные балконы, массивная люстра, пустая сцена",
+          "preview": "linear-gradient(135deg, #6a1a1a, #8a6a2a, #4a0a0a)"
+        },
+        {
+          "term": "desert highway at noon",
+          "nameRu": "пустынное шоссе в полдень",
+          "description": "Heat haze melting the asphalt, nothing for miles, blinding sun overhead",
+          "descriptionRu": "Жаркое марево плавит асфальт, ничего на мили вокруг, ослепляющее солнце",
+          "preview": "linear-gradient(to bottom, #e8d8a0, #c0a060, #8a7040)"
+        },
+        {
+          "term": "witch's apothecary",
+          "nameRu": "аптека ведьмы",
+          "description": "Glass jars with herbs, dried flowers hanging from beams, warm amber glow",
+          "descriptionRu": "Стеклянные банки с травами, сушёные цветы на балках, тёплое янтарное свечение",
+          "preview": "radial-gradient(circle at 50% 60%, #5a3a1a, #2a1a0a)"
+        },
+        {
+          "term": "space station observation deck",
+          "nameRu": "обзорная палуба космостанции",
+          "description": "Curved windows showing Earth below, dim interior lights, weightless silence",
+          "descriptionRu": "Изогнутые окна с видом на Землю, приглушённый свет интерьера, невесомая тишина",
+          "preview": "radial-gradient(circle at 60% 40%, #1a3a5a, #0a0a1a)"
+        },
+        {
+          "term": "1920s speakeasy background",
+          "nameRu": "спикизи 20-х",
+          "description": "Dim jazz-era bar with brass fixtures, smoke, and green banker's lamps",
+          "descriptionRu": "Полумрачный бар эпохи джаза с латунной фурнитурой, дымом и зелёными банкирскими лампами",
+          "preview": "radial-gradient(circle at 50% 50%, #3a2818, #1a0e08)",
+          "pairsWith": [
+            "sepia tone",
+            "smoke",
+            "warm tones"
+          ],
+          "sampleHookEn": "Everyone here is keeping a secret, including the piano player",
+          "sampleHookRu": "Здесь у каждого свой секрет — даже у пианиста"
+        },
+        {
+          "term": "victorian parlor background",
+          "nameRu": "викторианская гостиная",
+          "description": "Heavy drapes, oil portraits, dark wood, the smell of old books and grief",
+          "descriptionRu": "Тяжёлые драпировки, портреты маслом, тёмное дерево, запах старых книг и горя",
+          "preview": "linear-gradient(135deg, #3a1a1a, #5a2a2a, #2a1010, #3a1a1a)",
+          "pairsWith": [
+            "chiaroscuro",
+            "warm tones",
+            "film grain"
+          ],
+          "sampleHookEn": "The house has been waiting for someone to come back and finish the conversation",
+          "sampleHookRu": "Дом ждал, чтобы кто-то вернулся и закончил разговор"
+        },
+        {
+          "term": "sterile lab background",
+          "nameRu": "стерильная лаборатория",
+          "description": "Cold fluorescent white, stainless steel surfaces, the absence of anything alive",
+          "descriptionRu": "Холодный люминесцентный белый, поверхности из нержавейки, отсутствие всего живого",
+          "preview": "linear-gradient(135deg, #e8eaec, #c8d0d8, #e8eaec, #b8c0c8)",
+          "pairsWith": [
+            "cool tones",
+            "high contrast",
+            "HDR"
+          ],
+          "sampleHookEn": "Whatever is in the jar is the most interesting thing in the room",
+          "sampleHookRu": "Что бы ни было в банке — это самое интересное, что есть в комнате"
+        },
+        {
+          "term": "ruined castle background",
+          "nameRu": "руины замка",
+          "description": "Crumbling stone walls open to grey sky, ivy reclaiming the throne room",
+          "descriptionRu": "Рушащиеся каменные стены открыты серому небу, плющ возвращает себе тронный зал",
+          "preview": "linear-gradient(135deg, #5a5a4a, #8a8a7a, #3a3a2a, #6a6a5a)",
+          "pairsWith": [
+            "god rays",
+            "desaturated",
+            "haze"
+          ],
+          "sampleHookEn": "The crown is still here somewhere — but nobody's looking",
+          "sampleHookRu": "Корона всё ещё где-то здесь — но её никто не ищет"
+        }
+      ]
+    },
+    {
+      "name": "Surreal & Conceptual",
+      "nameRu": "Сюрреализм и концепт",
+      "backgrounds": [
+        {
+          "term": "infinite mirror corridor",
+          "nameRu": "бесконечный зеркальный коридор",
+          "description": "Reflections repeating into infinity, reality folding on itself",
+          "descriptionRu": "Отражения повторяются до бесконечности, реальность складывается сама в себя",
+          "preview": "linear-gradient(135deg, #2a2a3a, #4a4a6a, #2a2a3a, #4a4a6a)"
+        },
+        {
+          "term": "upside down cityscape",
+          "nameRu": "перевёрнутый городской пейзаж",
+          "description": "Buildings hanging from the sky, puddle-reflection reality. Inception vibes",
+          "descriptionRu": "Здания свисают с неба, реальность отражения лужи. Вайбы Inception",
+          "preview": "linear-gradient(to bottom, #4a5a7a, #8aaaca, #4a5a7a)"
+        },
+        {
+          "term": "void with floating objects",
+          "nameRu": "пустота с парящими объектами",
+          "description": "Dark endless void where random objects drift weightlessly. Liminal, surreal",
+          "descriptionRu": "Тёмная бесконечная пустота где случайные объекты парят в невесомости. Лиминальное, сюрреал",
+          "preview": "radial-gradient(circle at 50% 50%, #1a1a2a, #0a0a10)"
+        },
+        {
+          "term": "melting clock landscape",
+          "nameRu": "пейзаж с тающими часами",
+          "description": "Dalí-esque surrealism — warped horizon, impossible shadows, dream logic",
+          "descriptionRu": "Дали-подобный сюрреализм — искривлённый горизонт, невозможные тени, логика сна",
+          "preview": "linear-gradient(to bottom, #e8c870, #c08040, #5a3020)"
+        },
+        {
+          "term": "glitch-art void background",
+          "nameRu": "глитч-пустота",
+          "description": "Black space torn by digital corruption bands and RGB shift. Unstable reality",
+          "descriptionRu": "Чёрное пространство, разорванное полосами цифровых артефактов и RGB-смещением. Нестабильная реальность",
+          "preview": "linear-gradient(to bottom, #0a0a14, #ff003040 49%, #00d0ff40 51%, #0a0a14)",
+          "pairsWith": [
+            "chromatic aberration",
+            "glitch distortion overlay",
+            "scan lines overlay"
+          ],
+          "sampleHookEn": "The render is breaking and somehow that's the truest thing in the frame",
+          "sampleHookRu": "Рендер ломается — и почему-то это самая правдивая часть кадра"
+        },
+        {
+          "term": "paper-cutout world background",
+          "nameRu": "мир из бумажных вырезок",
+          "description": "Flat layered paper landscape with visible edges. Storybook, handmade, theatrical",
+          "descriptionRu": "Плоский слоистый бумажный пейзаж с видимыми краями. Сказочно, ручная работа, театрально",
+          "preview": "linear-gradient(to bottom, #c8d8e8, #d8c8a8, #a8b89a, #888a6a)",
+          "pairsWith": [
+            "soft focus",
+            "warm tones",
+            "muted colors"
+          ],
+          "sampleHookEn": "Everything here is fragile in the way a page is fragile",
+          "sampleHookRu": "Всё здесь хрупко так, как хрупка бумажная страница"
+        },
+        {
+          "term": "kaleidoscope chamber background",
+          "nameRu": "калейдоскопическая комната",
+          "description": "Mirrored geometric patterns refracting endlessly into colored symmetries",
+          "descriptionRu": "Зеркальные геометрические узоры бесконечно преломляются в цветных симметриях",
+          "preview": "conic-gradient(from 0deg at 50% 50%, #ff4080, #80c0ff, #80ff80, #ffc040, #c080ff, #ff4080)",
+          "pairsWith": [
+            "prism effect",
+            "bloom",
+            "chromatic aberration"
+          ],
+          "sampleHookEn": "Look at one of you and see six of you looking back",
+          "sampleHookRu": "Посмотри на одного из себя — и увидь шестерых, смотрящих в ответ"
+        }
+      ]
+    },
+    {
+      "name": "Interiors & Architecture",
+      "nameRu": "Интерьеры и архитектура",
+      "backgrounds": [
+        {
+          "term": "grand library interior",
+          "nameRu": "интерьер большой библиотеки",
+          "description": "Floor-to-ceiling bookshelves, rolling ladders, dust-filtered light from above",
+          "descriptionRu": "Книжные шкафы от пола до потолка, лестницы на колёсиках, пыльный свет сверху",
+          "preview": "linear-gradient(135deg, #3a2a1a, #5a4a2a, #2a1a0a)"
+        },
+        {
+          "term": "empty ballroom",
+          "nameRu": "пустой бальный зал",
+          "description": "Polished floors reflecting chandeliers, faded grandeur, ghosts of waltzes",
+          "descriptionRu": "Полированные полы отражают люстры, увядшее величие, призраки вальсов",
+          "preview": "linear-gradient(to bottom, #e8d8b8, #c8a878, #8a7050)"
+        },
+        {
+          "term": "neon bathroom tiles",
+          "nameRu": "неоновый кафель ванной",
+          "description": "Clinical white tiles hit by colored neon. Drive-movie aesthetic, liminal",
+          "descriptionRu": "Клинический белый кафель в цветном неоне. Эстетика Drive, лиминальное",
+          "preview": "linear-gradient(135deg, #d0e0e8, #ff4080aa, #d0e0e8)"
+        },
+        {
+          "term": "train compartment window",
+          "nameRu": "окно купе поезда",
+          "description": "Landscape rushing past through a dirty window, warm interior light",
+          "descriptionRu": "Пейзаж мелькает за грязным окном, тёплый свет интерьера",
+          "preview": "linear-gradient(135deg, #4a5a3a, #8aaa6a, #3a4a2a)"
+        },
+        {
+          "term": "attic with skylight background",
+          "nameRu": "чердак с мансардным окном",
+          "description": "Dust-filled beam of light through pitched-roof window, stored memories everywhere",
+          "descriptionRu": "Луч света через окно скатной крыши пронизывает пыль, кругом сложенные воспоминания",
+          "preview": "linear-gradient(135deg, #3a2818, #8a6840, #3a2818, #1a1008)",
+          "pairsWith": [
+            "god rays",
+            "dust particles in light beam",
+            "warm tones"
+          ],
+          "sampleHookEn": "Everything anyone forgot, the attic kept",
+          "sampleHookRu": "Всё, что кто-то забыл — чердак сохранил"
+        },
+        {
+          "term": "abandoned theater background",
+          "nameRu": "заброшенный театр",
+          "description": "Empty velvet seats, dust on the proscenium, ghost light alone on the stage",
+          "descriptionRu": "Пустые бархатные кресла, пыль на просцениуме, дежурный фонарь одиноко горит на сцене",
+          "preview": "radial-gradient(circle at 50% 60%, #6a3a2a, #2a1010 70%)",
+          "pairsWith": [
+            "chiaroscuro",
+            "warm tones",
+            "dust particles in light beam"
+          ],
+          "sampleHookEn": "The play is still running — there's just nobody left to watch",
+          "sampleHookRu": "Спектакль всё ещё идёт — просто его больше некому смотреть"
+        },
+        {
+          "term": "observatory dome background",
+          "nameRu": "купол обсерватории",
+          "description": "Massive brass telescope under open dome, starfield above, dim red instrument lights",
+          "descriptionRu": "Огромный латунный телескоп под открытым куполом, звёздное поле сверху, тусклые красные огни приборов",
+          "preview": "radial-gradient(circle at 50% 30%, #1a1a3a, #0a0a14 60%), radial-gradient(circle at 50% 90%, #5a1a1a, transparent 50%)",
+          "pairsWith": [
+            "cool tones",
+            "rim light",
+            "long exposure"
+          ],
+          "sampleHookEn": "Up there is the answer. Down here is the person asking",
+          "sampleHookRu": "Там, наверху — ответ. Здесь, внизу — тот, кто задаёт вопрос"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# macOS / OS junk
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Dev tooling workspaces
+.claude/
+.opencode/
+node_modules/
+
+# Local image masters (originals kept locally, not pushed)
+img-source-original/
+img-sources-leftover*/
+
+# Backups / scratch
+*.bak
+*.orig
+*.tmp
+
+# Logs
+*.log

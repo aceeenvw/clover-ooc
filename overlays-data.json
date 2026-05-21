@@ -1,0 +1,414 @@
+{
+  "categories": [
+    {
+      "name": "Paper & Edges",
+      "nameRu": "Бумага и края",
+      "items": [
+        {
+          "term": "torn paper edges",
+          "nameRu": "рваные края бумаги",
+          "description": "Ragged torn paper borders framing the image. Raw, collage-like, editorial",
+          "descriptionRu": "Рваные бумажные границы обрамляют изображение. Грубо, коллажно, журнально",
+          "vibe": "linear-gradient(135deg, #e8e0d4, #c8b8a4, #e8e0d4)"
+        },
+        {
+          "term": "burnt paper edges",
+          "nameRu": "обожжённые края бумаги",
+          "description": "Singed, blackened borders as if the photo survived a fire",
+          "descriptionRu": "Обугленные, почерневшие края будто фото пережило пожар",
+          "vibe": "linear-gradient(135deg, #3a2010, #8a4a1a, #1a0a00)"
+        },
+        {
+          "term": "crumpled paper texture overlay",
+          "nameRu": "текстура мятой бумаги",
+          "description": "Wrinkled paper creases over the image. Found-in-a-pocket aesthetic",
+          "descriptionRu": "Складки мятой бумаги поверх изображения. Эстетика найденного-в-кармане",
+          "vibe": "linear-gradient(160deg, #d8d0c4, #b8a890, #d8d0c4)"
+        },
+        {
+          "term": "polaroid frame",
+          "nameRu": "рамка полароида",
+          "description": "Classic instant photo border with white edges and slightly washed colors",
+          "descriptionRu": "Классическая рамка мгновенного фото с белыми краями и слегка выцветшими цветами",
+          "vibe": "#f0ece4"
+        },
+        {
+          "term": "taped photograph",
+          "nameRu": "приклеенная фотография",
+          "description": "Photo attached with masking tape strips, pinned to a wall or notebook",
+          "descriptionRu": "Фото приклеено полосками малярного скотча, прикреплено к стене или блокноту",
+          "vibe": "linear-gradient(135deg, #e0d8c0, #c8c0a8, #d4c8a8)"
+        },
+        {
+          "term": "ripped magazine cutout",
+          "nameRu": "вырезка из журнала",
+          "description": "Torn from glossy pages, uneven edges, visible print dots at close range",
+          "descriptionRu": "Вырвано из глянцевых страниц, неровные края, видна точечная печать вблизи",
+          "vibe": "linear-gradient(135deg, #e84080, #4080e8, #e8c040)"
+        }
+      ]
+    },
+    {
+      "name": "Drawings & Scribbles",
+      "nameRu": "Рисунки и каракули",
+      "items": [
+        {
+          "term": "pen doodles overlay",
+          "nameRu": "каракули ручкой",
+          "description": "Casual ballpoint pen drawings scattered over the image — stars, hearts, arrows",
+          "descriptionRu": "Небрежные рисунки шариковой ручкой поверх картинки — звёзды, сердечки, стрелки",
+          "vibe": "linear-gradient(135deg, #e8e4f0, #2a2a6a, #e8e4f0)"
+        },
+        {
+          "term": "chalk scribbles overlay",
+          "nameRu": "меловые каракули",
+          "description": "Dusty chalk marks like on a blackboard. Childlike, raw, school-corridor vibes",
+          "descriptionRu": "Пыльные меловые штрихи как на школьной доске. Детское, грубое, вайбы школьного коридора",
+          "vibe": "linear-gradient(135deg, #2a3a2a, #4a5a4a, #2a3a2a)"
+        },
+        {
+          "term": "crayon drawing overlay",
+          "nameRu": "рисунок мелками",
+          "description": "Waxy crayon strokes blending with the image. Nostalgic, kindergarten energy",
+          "descriptionRu": "Восковые штрихи мелков сливаются с изображением. Ностальгия, энергия детского сада",
+          "vibe": "linear-gradient(135deg, #e84040, #e8c840, #40a0e8, #40c840)"
+        },
+        {
+          "term": "sketch lines overlay",
+          "nameRu": "наброски карандашом",
+          "description": "Pencil construction lines, gesture marks, visible eraser smudges",
+          "descriptionRu": "Карандашные линии построения, штрихи жестов, видны следы ластика",
+          "vibe": "linear-gradient(135deg, #c8c0b8, #8a8078, #c8c0b8)"
+        },
+        {
+          "term": "marker highlights overlay",
+          "nameRu": "выделение маркером",
+          "description": "Bright highlighter stripes over key areas, like someone studied the photo",
+          "descriptionRu": "Яркие полосы маркера поверх ключевых зон, будто кто-то изучал фото",
+          "vibe": "linear-gradient(135deg, #f0e84080, #80f0a040, #80c0f040)"
+        },
+        {
+          "term": "graffiti tags overlay",
+          "nameRu": "граффити-теги",
+          "description": "Spray paint tags and drips bleeding into the image. Street, rebellious, loud",
+          "descriptionRu": "Теги аэрозольной краской и потёки поверх изображения. Уличное, бунтарское, громкое",
+          "vibe": "linear-gradient(135deg, #e82040, #f0a010, #1a1a1a)"
+        }
+      ]
+    },
+    {
+      "name": "Stickers & Stamps",
+      "nameRu": "Стикеры и штампы",
+      "items": [
+        {
+          "term": "sticker collage overlay",
+          "nameRu": "коллаж из стикеров",
+          "description": "Random cute stickers scattered over the image — puffy, glossy, Y2K energy",
+          "descriptionRu": "Случайные милые стикеры разбросаны по картинке — объёмные, глянцевые, Y2K энергия",
+          "vibe": "linear-gradient(135deg, #ff90c0, #a0d0ff, #c0ff90, #ffc890)"
+        },
+        {
+          "term": "postage stamps overlay",
+          "nameRu": "почтовые марки",
+          "description": "Vintage postage stamps and postal marks. Traveled, storied, pen-pal aesthetic",
+          "descriptionRu": "Винтажные почтовые марки и штемпели. Путешествие, история, эстетика переписки",
+          "vibe": "linear-gradient(135deg, #c8a878, #8a6a4a, #c8a878)"
+        },
+        {
+          "term": "wax seal overlay",
+          "nameRu": "сургучная печать",
+          "description": "Rich wax seal pressed into the corner. Royal, secretive, old-world",
+          "descriptionRu": "Сургучная печать в углу. Королевское, тайное, старый мир",
+          "vibe": "radial-gradient(circle at 50% 50%, #8a2020, #4a0a0a)"
+        },
+        {
+          "term": "emoji rain overlay",
+          "nameRu": "дождь из эмодзи",
+          "description": "Scattered emojis floating over the image. Chaotic, gen-z, terminally online",
+          "descriptionRu": "Разбросанные эмодзи летают поверх картинки. Хаотично, зумерское, хронически онлайн",
+          "vibe": "linear-gradient(135deg, #ffe040, #ff6060, #60c0ff, #60ff90)"
+        },
+        {
+          "term": "kiss marks overlay",
+          "nameRu": "следы поцелуев",
+          "description": "Lipstick kiss prints scattered across the image. Flirty, glamorous, bold",
+          "descriptionRu": "Следы помады разбросаны по картинке. Кокетливо, гламурно, дерзко",
+          "vibe": "radial-gradient(circle at 40% 50%, #c8204088, transparent 50%), radial-gradient(circle at 70% 40%, #c8204066, transparent 40%), #f8e8e8"
+        },
+        {
+          "term": "band-aid patches overlay",
+          "nameRu": "пластыри",
+          "description": "Adhesive bandages stuck over the image, patching invisible wounds. Cute-dark",
+          "descriptionRu": "Лейкопластыри наклеены на картинку, заклеивают невидимые раны. Мило-мрачное",
+          "vibe": "linear-gradient(135deg, #e8cca8, #d0b088, #e8cca8)"
+        }
+      ]
+    },
+    {
+      "name": "Glitch & Digital",
+      "nameRu": "Глитч и цифровое",
+      "items": [
+        {
+          "term": "glitch distortion overlay",
+          "nameRu": "глитч-искажение",
+          "description": "Digital corruption artifacts — shifted color channels, scanlines, data moshing",
+          "descriptionRu": "Артефакты цифрового сбоя — смещённые каналы, сканлайны, дата-мошинг",
+          "vibe": "linear-gradient(135deg, #ff0040, #00ff80, #4040ff)"
+        },
+        {
+          "term": "VHS tracking lines",
+          "nameRu": "полосы VHS-трекинга",
+          "description": "Horizontal noise bands like a bad tape. 90s camcorder, found-footage horror",
+          "descriptionRu": "Горизонтальные полосы шума как на плохой кассете. Камкордер 90-х, found-footage хоррор",
+          "vibe": "linear-gradient(to bottom, #1a1a2a, #3a3a4a22, #1a1a2a, #4a4a5a22, #1a1a2a)"
+        },
+        {
+          "term": "pixel sorting overlay",
+          "nameRu": "пиксельная сортировка",
+          "description": "Columns of pixels melting and dripping downward. Digital decay, art-code hybrid",
+          "descriptionRu": "Столбцы пикселей тают и стекают вниз. Цифровой распад, гибрид арта и кода",
+          "vibe": "linear-gradient(to bottom, #2a1a3a, #6a2a8a, #1a3a6a, #2a1a3a)"
+        },
+        {
+          "term": "scan lines overlay",
+          "nameRu": "сканлайны",
+          "description": "Thin horizontal lines like a CRT monitor. Retro-tech, cyberpunk, surveillance",
+          "descriptionRu": "Тонкие горизонтальные линии как на ЭЛТ-мониторе. Ретро-тех, киберпанк, слежка",
+          "vibe": "linear-gradient(to bottom, #0a0a0a, #1a1a1a22, #0a0a0a, #2a2a2a22, #0a0a0a)"
+        },
+        {
+          "term": "matrix code rain overlay",
+          "nameRu": "дождь кода матрицы",
+          "description": "Falling green characters cascading over the image. Hacker aesthetic, digital rain",
+          "descriptionRu": "Падающие зелёные символы каскадом поверх изображения. Эстетика хакера, цифровой дождь",
+          "vibe": "linear-gradient(to bottom, #001a00, #00aa40, #002a00)"
+        },
+        {
+          "term": "broken screen cracks overlay",
+          "nameRu": "трещины разбитого экрана",
+          "description": "Spiderweb cracks like a dropped phone. The image seen through shattered glass",
+          "descriptionRu": "Трещины паутиной как на упавшем телефоне. Изображение сквозь разбитое стекло",
+          "vibe": "radial-gradient(circle at 35% 45%, #ffffff44, transparent 30%), radial-gradient(circle at 35% 45%, #00000022, transparent 60%), #1a1a2a"
+        }
+      ]
+    },
+    {
+      "name": "Nature & Organic",
+      "nameRu": "Природа и органика",
+      "items": [
+        {
+          "term": "pressed flowers overlay",
+          "nameRu": "засушенные цветы",
+          "description": "Dried flowers pressed flat over the image. Herbarium page, delicate, botanical",
+          "descriptionRu": "Засушенные цветы расплющены поверх изображения. Страница гербария, нежное, ботаническое",
+          "vibe": "linear-gradient(135deg, #f0e8d8, #d8a0a0, #e8d0b0)"
+        },
+        {
+          "term": "spider web overlay",
+          "nameRu": "паутина",
+          "description": "Delicate web threads stretched across corners. Abandoned, gothic, morning dew",
+          "descriptionRu": "Тонкие нити паутины натянуты по углам. Заброшенное, готичное, утренняя роса",
+          "vibe": "radial-gradient(circle at 80% 20%, #ffffff20, transparent 40%), #2a2a30"
+        },
+        {
+          "term": "water droplets on lens",
+          "nameRu": "капли воды на линзе",
+          "description": "Rain or condensation drops on the camera lens itself. Intimate, raw, real",
+          "descriptionRu": "Капли дождя или конденсата на самой линзе камеры. Интимно, сырое, настоящее",
+          "vibe": "radial-gradient(circle at 30% 40%, #8ab8d044, transparent 30%), radial-gradient(circle at 70% 60%, #8ab8d044, transparent 25%), #4a6a7a"
+        },
+        {
+          "term": "falling petals overlay",
+          "nameRu": "падающие лепестки",
+          "description": "Cherry blossom or rose petals drifting through the frame. Anime, romantic, fleeting",
+          "descriptionRu": "Лепестки сакуры или роз проплывают через кадр. Аниме, романтика, мимолётность",
+          "vibe": "linear-gradient(135deg, #f8e0e8, #e8a0b8, #f8d8e0)"
+        },
+        {
+          "term": "dust particles in light beam",
+          "nameRu": "пылинки в луче света",
+          "description": "Floating dust motes caught in a shaft of light. Cinematic, sacred, still",
+          "descriptionRu": "Парящие пылинки в луче света. Кинематографично, сакрально, тихо",
+          "vibe": "linear-gradient(160deg, #1a1408, #c8a04044, #1a1408)"
+        },
+        {
+          "term": "frost crystals on glass overlay",
+          "nameRu": "кристаллы инея на стекле",
+          "description": "Intricate ice patterns creeping from edges. Winter, isolation, fairy-tale cold",
+          "descriptionRu": "Замысловатые ледяные узоры ползут от краёв. Зима, изоляция, сказочный холод",
+          "vibe": "linear-gradient(135deg, #d0e8f8, #a0c8e8, #e0f0ff)"
+        }
+      ]
+    },
+    {
+      "name": "Light & Lens",
+      "nameRu": "Свет и оптика",
+      "items": [
+        {
+          "term": "rainbow prism overlay",
+          "nameRu": "радужная призма",
+          "description": "Prismatic light refracting across the image, spectral bands cutting through shadows",
+          "descriptionRu": "Призматический свет преломляется по изображению, спектральные полосы прорезают тени",
+          "vibe": "linear-gradient(135deg, #ff000044, #ff880044, #ffff0044, #00ff0044, #0088ff44, #8800ff44)"
+        },
+        {
+          "term": "sun rays through blinds",
+          "nameRu": "солнечные лучи через жалюзи",
+          "description": "Harsh parallel light stripes slicing across the scene. Noir, interrogation room",
+          "descriptionRu": "Жёсткие параллельные полосы света режут сцену. Нуар, комната допроса",
+          "vibe": "linear-gradient(to right, #f0d06044, transparent 8%, transparent 12%, #f0d06044 14%, transparent 16%, transparent 20%, #f0d06044 22%, transparent 24%)"
+        },
+        {
+          "term": "stained glass light overlay",
+          "nameRu": "свет витража",
+          "description": "Colored light patches like sunlight through a cathedral window. Sacred, painted",
+          "descriptionRu": "Цветные пятна света как солнце через соборное окно. Сакральное, живописное",
+          "vibe": "linear-gradient(135deg, #e84040aa, #4080e8aa, #40c840aa, #e8c040aa)"
+        },
+        {
+          "term": "disco ball reflections",
+          "nameRu": "отражения диско-шара",
+          "description": "Scattered geometric light dots dancing over everything. 70s party, euphoria",
+          "descriptionRu": "Россыпь геометрических световых точек танцуют повсюду. Вечеринка 70-х, эйфория",
+          "vibe": "radial-gradient(circle at 30% 30%, #ffffff44, transparent 5%), radial-gradient(circle at 60% 50%, #ffffff44, transparent 5%), radial-gradient(circle at 45% 70%, #ffffff44, transparent 5%), #2a1a3a"
+        }
+      ]
+    },
+    {
+      "name": "Typography & Marks",
+      "nameRu": "Типографика и надписи",
+      "items": [
+        {
+          "term": "typewriter text overlay",
+          "nameRu": "текст печатной машинки",
+          "description": "Monospaced typed letters layered onto the image, ink bleed, uneven pressure",
+          "descriptionRu": "Моноширинные буквы печатной машинки наложены на изображение, растёкшиеся чернила",
+          "vibe": "linear-gradient(135deg, #f0e8d0, #d0c8a8, #f0e8d0)"
+        },
+        {
+          "term": "handwritten notes overlay",
+          "nameRu": "рукописные заметки",
+          "description": "Cursive handwriting scrawled in margins, crossing out, underlining, personal",
+          "descriptionRu": "Курсивный почерк в полях, зачёркивания, подчёркивания, личное",
+          "vibe": "linear-gradient(135deg, #e8e0f0, #c8b8d8, #e8e0f0)"
+        },
+        {
+          "term": "newspaper headline overlay",
+          "nameRu": "газетный заголовок",
+          "description": "Bold black serif headlines slapped over the image. Propaganda, breaking news",
+          "descriptionRu": "Жирные чёрные заголовки шрифтом с засечками поверх изображения. Пропаганда, срочные новости",
+          "vibe": "linear-gradient(135deg, #e8e4e0, #1a1a1a, #e8e4e0)"
+        },
+        {
+          "term": "redacted censored bars",
+          "nameRu": "цензурные заслонки",
+          "description": "Black rectangular bars covering parts of the image. Classified, secret, SCP",
+          "descriptionRu": "Чёрные прямоугольные полосы закрывают части изображения. Засекречено, SCP",
+          "vibe": "linear-gradient(to bottom, transparent 30%, #0a0a0a 32%, #0a0a0a 38%, transparent 40%, transparent 60%, #0a0a0a 62%, #0a0a0a 68%, transparent 70%)"
+        }
+      ]
+    },
+    {
+      "name": "Film & Camera",
+      "nameRu": "Плёнка и камера",
+      "items": [
+        {
+          "term": "film strip border overlay",
+          "nameRu": "рамка кинопленки",
+          "description": "Sprocket holes on both sides, black film rebate. Cinema, behind-the-scenes",
+          "descriptionRu": "Перфорация по бокам, чёрная рамка плёнки. Кино, закулисье",
+          "vibe": "linear-gradient(to right, #0a0a0a 8%, #3a3a3a 10%, transparent 12%, transparent 88%, #3a3a3a 90%, #0a0a0a 92%)"
+        },
+        {
+          "term": "double exposure overlay",
+          "nameRu": "двойная экспозиция",
+          "description": "Two images bleeding into each other, ghostly silhouettes, layered reality",
+          "descriptionRu": "Два изображения перетекают друг в друга, призрачные силуэты, многослойная реальность",
+          "vibe": "radial-gradient(circle at 30% 50%, #2a3a5a88, transparent 60%), radial-gradient(circle at 70% 50%, #5a3a2a88, transparent 60%), #1a1a2a"
+        },
+        {
+          "term": "viewfinder frame overlay",
+          "nameRu": "рамка видоискателя",
+          "description": "Camera viewfinder UI — focus brackets, exposure meter, battery icon. Meta-photo",
+          "descriptionRu": "UI видоискателя камеры — скобки фокуса, экспонометр, иконка батареи. Мета-фото",
+          "vibe": "linear-gradient(135deg, #1a1a1a, #2a2a2a, #1a1a1a)"
+        },
+        {
+          "term": "film burn overlay",
+          "nameRu": "засветка плёнки",
+          "description": "Orange-red light bleed from film edge, accidental beauty, analog warmth",
+          "descriptionRu": "Оранжево-красная засветка от края плёнки, случайная красота, аналоговое тепло",
+          "vibe": "linear-gradient(135deg, transparent, #e8602088, #e8a02088, transparent)"
+        }
+      ]
+    },
+    {
+      "name": "Fabric & Texture",
+      "nameRu": "Ткань и фактура",
+      "items": [
+        {
+          "term": "lace veil overlay",
+          "nameRu": "кружевная вуаль",
+          "description": "Delicate lace pattern covering the image like a bridal veil. Romantic, mysterious",
+          "descriptionRu": "Нежный кружевной узор покрывает изображение как свадебная вуаль. Романтично, загадочно",
+          "vibe": "linear-gradient(135deg, #f8f0f4cc, #e8d8e0cc, #f8f0f4cc)"
+        },
+        {
+          "term": "mesh net overlay",
+          "nameRu": "сетка-меш",
+          "description": "Fine fishnet or mesh pattern laid over the image. Editorial fashion, avant-garde",
+          "descriptionRu": "Тонкая сетка наложена поверх изображения. Модная редакционная, авангард",
+          "vibe": "#1a1a1a"
+        },
+        {
+          "term": "silk wrinkles overlay",
+          "nameRu": "складки шёлка",
+          "description": "Flowing silk fabric ripples with light catching the folds. Luxurious, sensual",
+          "descriptionRu": "Складки шёлка с бликами света на изгибах. Роскошный, чувственный",
+          "vibe": "linear-gradient(160deg, #c8a0b8, #e8c8d8, #a088a0, #e8c8d8)"
+        },
+        {
+          "term": "burlap texture overlay",
+          "nameRu": "текстура мешковины",
+          "description": "Rough woven burlap grain over the image. Rustic, farmhouse, honest",
+          "descriptionRu": "Грубая тканая текстура мешковины поверх изображения. Деревенское, честное",
+          "vibe": "#8a7a60"
+        }
+      ]
+    },
+    {
+      "name": "Chaos & Experimental",
+      "nameRu": "Хаос и эксперимент",
+      "items": [
+        {
+          "term": "paint splatter overlay",
+          "nameRu": "брызги краски",
+          "description": "Jackson Pollock energy — wild paint splashes exploding across the frame",
+          "descriptionRu": "Энергия Джексона Поллока — дикие брызги краски разлетаются по кадру",
+          "vibe": "radial-gradient(circle at 25% 35%, #e8204088, transparent 25%), radial-gradient(circle at 65% 55%, #2040e888, transparent 20%), radial-gradient(circle at 45% 80%, #e8c02088, transparent 22%), #f0f0e8"
+        },
+        {
+          "term": "smoke wisp overlay",
+          "nameRu": "завитки дыма",
+          "description": "Delicate smoke trails curling through the frame, partially obscuring the subject",
+          "descriptionRu": "Тонкие струйки дыма вьются сквозь кадр, частично скрывая объект",
+          "vibe": "linear-gradient(135deg, #1a1a1a, #4a4a4a44, #1a1a1a, #5a5a5a44, #1a1a1a)"
+        },
+        {
+          "term": "confetti explosion overlay",
+          "nameRu": "взрыв конфетти",
+          "description": "Colorful paper confetti frozen mid-air. Celebration, chaos, birthday energy",
+          "descriptionRu": "Цветное бумажное конфетти застыло в воздухе. Праздник, хаос, энергия дня рождения",
+          "vibe": "linear-gradient(135deg, #ff4080, #40c0ff, #ffc040, #80ff40, #c040ff)"
+        },
+        {
+          "term": "blood drip overlay",
+          "nameRu": "потёки крови",
+          "description": "Dark red streaks running down from the top. Horror, visceral, Tarantino",
+          "descriptionRu": "Тёмно-красные потёки стекают сверху. Хоррор, висцеральное, Тарантино",
+          "vibe": "linear-gradient(to bottom, #4a0a0a, #8a1010, #2a0000)"
+        }
+      ]
+    }
+  ]
+}

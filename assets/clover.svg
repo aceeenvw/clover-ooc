@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="currentColor">
+  <!-- 4-leaf clover: four heart shapes rotated 90° each -->
+  <!-- Each leaf = two arcs forming a heart, rotated around center (100,100) -->
+
+  <!-- Top leaf -->
+  <g transform="rotate(0 100 100)">
+    <path d="M100 100 C100 72, 80 40, 68 40 C52 40, 50 60, 58 76 C64 88, 84 98, 100 100Z"/>
+    <path d="M100 100 C100 72, 120 40, 132 40 C148 40, 150 60, 142 76 C136 88, 116 98, 100 100Z"/>
+  </g>
+
+  <!-- Right leaf -->
+  <g transform="rotate(90 100 100)">
+    <path d="M100 100 C100 72, 80 40, 68 40 C52 40, 50 60, 58 76 C64 88, 84 98, 100 100Z"/>
+    <path d="M100 100 C100 72, 120 40, 132 40 C148 40, 150 60, 142 76 C136 88, 116 98, 100 100Z"/>
+  </g>
+
+  <!-- Bottom leaf -->
+  <g transform="rotate(180 100 100)">
+    <path d="M100 100 C100 72, 80 40, 68 40 C52 40, 50 60, 58 76 C64 88, 84 98, 100 100Z"/>
+    <path d="M100 100 C100 72, 120 40, 132 40 C148 40, 150 60, 142 76 C136 88, 116 98, 100 100Z"/>
+  </g>
+
+  <!-- Left leaf -->
+  <g transform="rotate(270 100 100)">
+    <path d="M100 100 C100 72, 80 40, 68 40 C52 40, 50 60, 58 76 C64 88, 84 98, 100 100Z"/>
+    <path d="M100 100 C100 72, 120 40, 132 40 C148 40, 150 60, 142 76 C136 88, 116 98, 100 100Z"/>
+  </g>
+
+  <!-- Stem -->
+  <path d="M97 108 Q92 148 90 190 Q89 200 100 200 Q111 200 110 190 Q108 148 103 108Z" opacity="0.5"/>
+</svg>

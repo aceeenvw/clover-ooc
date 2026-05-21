@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!-- ═══════════════════════════════════════════════
+     CLOVER OOC — CATALOGUE
+     aceenvw
+     ═══════════════════════════════════════════════ -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue — CLOVER OOC</title>
+  <meta name="description" content="Browse 250 OOC prompts across 8 worlds — solo, pair, ancient, fantasy, space, tropical, gothic, neon.">
+  <meta property="og:title" content="Catalogue — CLOVER OOC">
+  <meta property="og:description" content="Browse and copy 250 curated image generation prompts for SillyTavern.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/catalogue.css">
+</head>
+<body>
+  <a href="#prompts-grid" class="sr-only">Skip to content</a>
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <svg class="nav-logo-icon" viewBox="0 0 200 240" fill="currentColor">
+        <g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(180 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(270 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <path d="M97 108Q92 148 90 190Q89 200 100 200Q111 200 110 190Q108 148 103 108Z" opacity="0.5"/>
+      </svg>
+      <span class="nav-logo-text">CLOVER OOC</span>
+    </a>
+    <div class="nav-center">
+      <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
+      <a href="catalogue.html" class="nav-link active"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
+      <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+      <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
+      <a href="tools.html" class="nav-link"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
+      <a href="guide.html" class="nav-link"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
+    </div>
+    <div class="nav-right">
+      <a href="https://janitorai.com/profiles/895c6c07-6a53-4420-bff5-b874db870b32_profile-of-aceenvw" class="nav-author" target="_blank" rel="noopener">aceenvw</a>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en">RU</span>
+        <span class="lang-ru">EN</span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
+    <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
+    <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+    <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
+    <a href="tools.html"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
+    <a href="guide.html"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
+  </div>
+
+  <!-- CATALOGUE HEADER -->
+  <section class="catalogue-header">
+    <div class="container">
+      <h1 class="catalogue-title">
+        <span class="lang-en">250 Prompts</span>
+        <span class="lang-ru">250 Промптов</span>
+      </h1>
+
+      <!-- CATEGORY NAVIGATION -->
+      <nav class="category-nav">
+        <a href="#solo" class="category-nav-link">
+          <span class="lang-en">Solo</span>
+          <span class="lang-ru">Соло</span>
+        </a>
+        <a href="#pair" class="category-nav-link">
+          <span class="lang-en">Pair</span>
+          <span class="lang-ru">Пара</span>
+        </a>
+        <a href="#ancient" class="category-nav-link">
+          <span class="lang-en">Ancient</span>
+          <span class="lang-ru">Древний мир</span>
+        </a>
+        <a href="#fantasy" class="category-nav-link">
+          <span class="lang-en">Fantasy</span>
+          <span class="lang-ru">Фэнтези</span>
+        </a>
+        <a href="#space" class="category-nav-link">
+          <span class="lang-en">Space</span>
+          <span class="lang-ru">Космос</span>
+        </a>
+        <a href="#tropical" class="category-nav-link">
+          <span class="lang-en">Tropical</span>
+          <span class="lang-ru">Тропики</span>
+        </a>
+        <a href="#gothic" class="category-nav-link">
+          <span class="lang-en">Gothic</span>
+          <span class="lang-ru">Готика</span>
+        </a>
+        <a href="#neon" class="category-nav-link">
+          <span class="lang-en">Neon</span>
+          <span class="lang-ru">Неон</span>
+        </a>
+      </nav>
+
+      <!-- FILTERS STRIP -->
+      <div class="filters-strip">
+        <div class="filters-top-row">
+          <div class="search-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" id="search-input" placeholder="">
+          </div>
+
+          <div class="view-controls">
+            <button class="view-toggle active" data-view="grid" aria-label="Grid view">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </button>
+            <button class="view-toggle" data-view="list" aria-label="List view">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="21" y1="6" x2="3" y2="6"></line>
+                <line x1="21" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="18" x2="3" y2="18"></line>
+              </svg>
+            </button>
+            <button class="clear-filters" id="clear-filters">
+              <span class="lang-en">Clear</span>
+              <span class="lang-ru">Очистить</span>
+            </button>
+            <button class="random-btn" id="random-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 4l3 3-3 3"/><path d="M18 20l3-3-3-3"/>
+                <path d="M3 7h3a5 5 0 0 1 5 5 5 5 0 0 0 5 5h5"/>
+                <path d="M21 7h-5a5 5 0 0 0-5 5 5 5 0 0 1-5 5H3"/>
+              </svg>
+              <span class="lang-en">Random</span>
+              <span class="lang-ru">Мне повезёт</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="tags-filter" id="tags-filter">
+      
+        </div>
+      </div>
+
+      <div class="results-count" id="results-count">
+        <span class="lang-en">Showing <strong>250</strong> prompts</span>
+        <span class="lang-ru">Показано <strong>250</strong> промптов</span>
+      </div>
+
+      <!-- CREDITS & THANKS -->
+      <details class="credits-notice">
+        <summary>
+          <svg class="credits-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="16" x2="12" y2="12"/>
+            <line x1="12" y1="8" x2="12.01" y2="8"/>
+          </svg>
+          <span class="credits-label">
+            <span class="lang-en">Credits &amp; thanks</span>
+            <span class="lang-ru">Благодарности</span>
+          </span>
+          <svg class="credits-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </summary>
+        <div class="credits-body">
+          <p class="lang-en">Most prompts feature my own OCs and characters — but some of the example images here also include the OCs/characters of friends who kindly helped me put these together: <a href="https://janitorai.com/profiles/75bd5226-92af-4b66-8cde-2fbcb816db25_profile-of-permanent" target="_blank" rel="noopener">puppy</a>, <a href="https://janitorai.com/profiles/73d5b15c-95d5-405c-b65d-8ee5afa2ea18_profile-of-arriettyxo" target="_blank" rel="noopener">arrie</a>, <a href="https://janitorai.com/profiles/be17295d-b02b-40d1-931d-2205d13a87b2_profile-of-axanti" target="_blank" rel="noopener">axa</a>, <a href="https://t.me/sillykamoi" target="_blank" rel="noopener">kamoi</a>, <span class="credits-name">heatri</span>, <span class="credits-name">agat</span>.</p>
+          <p class="lang-ru">Большинство промптов — мои собственные ОС и персонажи, но на некоторых примерах также появляются ОС/персонажи моих друзей, которые помогли мне собрать всё это вместе: <a href="https://janitorai.com/profiles/75bd5226-92af-4b66-8cde-2fbcb816db25_profile-of-permanent" target="_blank" rel="noopener">паппи</a>, <a href="https://janitorai.com/profiles/73d5b15c-95d5-405c-b65d-8ee5afa2ea18_profile-of-arriettyxo" target="_blank" rel="noopener">ари</a>, <a href="https://janitorai.com/profiles/be17295d-b02b-40d1-931d-2205d13a87b2_profile-of-axanti" target="_blank" rel="noopener">акса</a>, <a href="https://t.me/sillykamoi" target="_blank" rel="noopener">камои</a>, <span class="credits-name">хитри</span>, <span class="credits-name">агат</span>.</p>
+          <div class="credits-stickynote" aria-hidden="false">
+            <span class="lang-en">big big thanks!! ilysm!! ♡</span>
+            <span class="lang-ru">огромное-огромное спасибо!! люблю вас!! ♡</span>
+          </div>
+        </div>
+      </details>
+
+      <!-- DISCLAIMER -->
+      <details class="credits-notice disclaimer-notice">
+        <summary>
+          <svg class="credits-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          <span class="credits-label">
+            <span class="lang-en">A small disclaimer about the examples</span>
+            <span class="lang-ru">Небольшой дисклеймер про примеры</span>
+          </span>
+          <svg class="credits-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </summary>
+        <div class="credits-body">
+          <p class="lang-en">your generated images can look <strong>noticeably different</strong> from mine even with the exact same prompt!! a lot depends on the <strong>references</strong> you use (if any), the <strong>overall generation prompt</strong> (if you're generating inside SillyTavern), and also on the mood of <strong>nano banana</strong> — or whichever model you happen to be using. the examples below just show what <em>can</em> come out when you use my OOC prompts!!</p>
+          <p class="lang-ru">ваши сгенерированные картинки могут <strong>значительно отличаться</strong> от моих, имея один и тот же промпт!! во многом это зависит от <strong>референсов</strong>, если такие присутствуют, <strong>общего промпта для генерации</strong> (если вы генерируете в таверне), а также от самочувствия <strong>нано бананы</strong> или любой другой модели, которую вы используете. примеры ниже лишь показывают что <em>может</em> получится при использовании моих оос промптов!!</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- PROMPTS GRID -->
+  <section class="prompts-section">
+    <div class="container">
+      <div class="prompts-grid" id="prompts-grid" data-view="grid">
+        <div class="loading-state" id="loading-state">
+          <p class="lang-en">Loading prompts...</p>
+          <p class="lang-ru">Загрузка промптов...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal" id="prompt-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-text" aria-hidden="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-title-row">
+          <span class="modal-number"></span>
+          <h2 class="modal-title" id="modal-title-text"></h2>
+        </div>
+        <div class="modal-tags"></div>
+      </div>
+
+      <div class="modal-image-container"></div>
+
+      <div class="modal-body">
+        <pre class="modal-prompt-text"><code></code></pre>
+        <div class="modal-actions">
+          <button class="modal-copy-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span class="lang-en">Copy Prompt</span>
+            <span class="lang-ru">Копировать</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <svg class="footer-clover" viewBox="0 0 200 240" fill="currentColor">
+      <g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+      <g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+      <g transform="rotate(180 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+      <g transform="rotate(270 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+      <path d="M97 108Q92 148 90 190Q89 200 100 200Q111 200 110 190Q108 148 103 108Z" opacity="0.5"/>
+    </svg>
+    <p class="footer-text">
+      <a href="https://janitorai.com/profiles/895c6c07-6a53-4420-bff5-b874db870b32_profile-of-aceenvw" target="_blank" rel="noopener">aceenvw</a>
+      ·
+      <a href="https://github.com/aceeenvw?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+      ·
+      <a href="https://t.me/aceeenvw" target="_blank" rel="noopener">Telegram</a>
+    </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    fetch('prompts-data.json')
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => { window.PROMPTS_DATA = data; })
+      .then(() => { const s = document.createElement('script'); s.src = 'js/catalogue.js'; document.body.appendChild(s); })
+      .catch(err => {
+        console.error('Failed to load prompts:', err);
+        var el = document.getElementById('loading-state');
+        if (el) el.innerHTML = '<p class="lang-en">Failed to load prompts. Please reload the page.</p><p class="lang-ru">Не удалось загрузить промпты. Перезагрузи страницу.</p>';
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,945 @@
+{
+  "sections": [
+    {
+      "id": "solo-male",
+      "name": "Solo · Male-coded",
+      "nameRu": "Соло · Мужские",
+      "description": "20 single male-coded figures, mid-action and contemplative",
+      "descriptionRu": "20 одиночных мужских фигур, в действии и в раздумьях",
+      "prompts": [
+        {
+          "id": "M01",
+          "title": "Puddle Leap",
+          "titleRu": "Прыжок через лужу",
+          "description": "Mid-air over a courtyard puddle, library books clutched to the chest",
+          "descriptionRu": "В воздухе над дворовой лужей, библиотечные книги прижаты к груди",
+          "body": "SCENE: Low-angle view. A digital illustration of a figure mid-leap over a wide puddle on a cracked Soviet-era courtyard in late October. The figure is caught at the apex of the jump, both feet airborne, body twisted slightly mid-air. The figure's left arm is thrown back for balance, fingers splayed; the right arm clutches a heavy stack of unbound library books to the chest. Head is tilted down, eyes wide and locked on the puddle below in a startled, almost-laughing expression. The figure wears an oversized wool peacoat two sizes too big, dark green corduroy trousers cuffed at the ankle, and scuffed brown loafers. The puddle reflects a sliver of pale grey sky, a flickering streetlamp, and a single yellow leaf. The midground is a beige Khrushchevka facade with peeling paint, a row of identical balconies hung with drying linens. The background is a pale-grey sky with bare poplar branches cutting across it. Lighting is overcast diffuse, cool grey-blue, with a single warm sodium streetlamp tinting the puddle's edge amber. The mood is small joyful rebellion in a tired city. Shallow depth of field with the foreground books razor-sharp."
+        },
+        {
+          "id": "M02",
+          "title": "3 A.M. Kitchen Counter",
+          "titleRu": "Кухонная стойка в 3 ночи",
+          "description": "Cross-legged on the counter, pizza in one hand, ice cream spoon in the other",
+          "descriptionRu": "Скрестив ноги на стойке, пицца в одной руке, ложка мороженого в другой",
+          "body": "SCENE: A digital illustration in 3:4 aspect ratio. A figure sits cross-legged on the kitchen counter at 3 a.m., centered in the frame, framed by hanging copper pots above and an open refrigerator below that spills cold blue light up over the legs. The figure is hunched forward, both knees drawn up; the left hand cradles a half-eaten cold slice of pizza with one bite missing; the right hand holds a dripping ice-cream spoon, hovering halfway to the mouth. Head is tilted back against an upper cabinet, eyes half-closed in glazed midnight bliss, mouth slightly parted. The figure wears a stretched-out band t-shirt, plaid boxer shorts, and one mismatched sock. The midground is a granite countertop scattered with crumbs, an open jar of pickles, a phone face-down glowing through the surface. Background: dim kitchen with a single under-cabinet warm yellow strip, the rest of the room swallowed in indigo darkness. Lighting is two-source — cold blue from the open fridge below, warm yellow from above — meeting on the figure's collarbone. The mood is dissociative comfort, the secret holiness of being awake when the world isn't. Shallow depth of field, slight digital grain. EFFECTS: sticker collage overlay, cool tones. The stickers are 90s puffy variety — cartoon ghosts, smiley faces, a glittery \"★YES★\", a tiny pizza slice, a heart with an arrow through it — scattered loosely on the fridge door behind the figure as if the kitchen itself has been defaced rather than the photograph."
+        },
+        {
+          "id": "M03",
+          "title": "Empty Concourse at Dawn",
+          "titleRu": "Пустой вокзал на рассвете",
+          "description": "Tiny on a steamer trunk in a vast train station, dog at his feet",
+          "descriptionRu": "Крошечная фигура на сундуке в огромном вокзале, собака у ног",
+          "body": "SCENE: A figure is seated on an old steamer trunk in the middle of a vast empty train station concourse at dawn. Extreme wide shot, figure tiny and centered. The trunk is plastered with peeling stickers from a dozen cities. The figure is in profile, knees together, both hands resting palms-down on the knees, back perfectly straight, head turned to look across the concourse toward an enormous mechanical departures board. The board's split-flap rows are mid-flip, frozen in a snowstorm of letters. The figure wears a long camel coat, a brimmed felt hat, polished boots. A single small dog (a wirehaired terrier) sits at the figure's feet, also looking at the board, ears pricked. The concourse is a cathedral of vaulted iron-and-glass, light grey marble floor, no other passengers, three pigeons strolling in the middle distance. A janitor's mop bucket sits abandoned far off. Lighting is pale yellow dawn pouring through enormous arched windows, cutting long buttery beams across the marble. Mood: civilized stoic departure."
+        },
+        {
+          "id": "M04",
+          "title": "Ringmaster on a Tightrope",
+          "titleRu": "Шпрехшталмейстер на канате",
+          "description": "Mid-balance on a rope strung between autumn trees, fox watching below",
+          "descriptionRu": "Балансирует на канате между осенними деревьями, внизу смотрит лиса",
+          "body": "SCENE: A figure is captured from directly behind, walking a tightrope strung between two skeletal trees in an autumn forest. Wide shot, the rope a thin diagonal across the frame. The figure is in the exact middle of the rope, both arms extended for balance like a slow-motion crucifix, body bent slightly at the knees. The right hand holds a long thin balancing pole; the left hand is empty, fingers splayed. The figure wears a circus-ringmaster costume that is slightly too big — long red tailcoat, gold-trimmed waistcoat, white riding pants tucked into tall boots, a black top hat wedged firmly down. The forest floor below is a deep blanket of red and orange leaves, with one small fox sitting on its haunches looking up. The two trees anchoring the rope have iron rings hammered into them; their bark is silver-grey. The forest beyond recedes into a smoky autumn haze. A single bright leaf is suspended in the air mid-fall just past the figure's shoulder. Lighting is overcast warm autumn diffuse, no harsh shadows. Mood: dignified absurdity."
+        },
+        {
+          "id": "M05",
+          "title": "Tokyo Ramen Meditation",
+          "titleRu": "Медитация над рамэном в Токио",
+          "description": "Eyes squeezed shut, noodle suspended mid-flight in steaming izakaya",
+          "descriptionRu": "Глаза зажмурены, лапша подвешена в воздухе в дымящейся идзакая",
+          "body": "SCENE: A close-up of a figure in profile, bent over a bowl of ramen at a counter inside a tiny Tokyo izakaya. Steam rises from the bowl in dramatic curls. The figure has slurped an enormous mouthful of noodles; a long noodle is suspended mid-flight between the chopsticks (held in the right hand) and the lips. The eyes are squeezed shut in deep noodle-meditation, eyebrows knotted, cheeks flushed from the heat. A drop of broth has freckled the figure's nose. The left hand holds the rim of the bowl steady. The figure wears a salaryman's white shirt slightly damp, tie loosened and flipped over the shoulder to keep it dry. Behind the figure, the cramped izakaya: paper lanterns, racks of bottles, a chef's hands working a flat-top, condensation on a small window, a calligraphy menu hung crooked. Lighting is warm tungsten and lantern glow with steam-diffraction. Mood: monastic glutton joy. NEGATIVE: chopsticks held incorrectly."
+        },
+        {
+          "id": "M06",
+          "title": "Holding the Big Fish",
+          "titleRu": "С большой рыбой",
+          "description": "Golden-hour dock, an enormous silver fish, pure panicked uncertainty",
+          "descriptionRu": "Закатный пирс, огромная серебряная рыба, чистая паническая растерянность",
+          "body": "SCENE: A figure stands on a dock at golden hour holding an enormous, just-caught fish that's almost as long as the figure is tall. Wide-angle, the figure centered in the frame. Both arms strain to hold the fish horizontally at chest height. The fish is sleek silver with iridescent scales catching the sun, mouth open, glassy eye. The figure's posture is heroic but the face shows sheer panicked uncertainty: eyes wide, mouth in a small \"uh\" of disbelief. The figure wears denim overalls over a yellow shirt, rubber waders, a fishing hat with too many lures pinned. The dock is weathered grey planks. A red fishing rod leans against a piling. A bucket and tackle box sit by the figure's feet, the tackle box open and chaotic. Behind: a calm lake bouncing a low orange sun, a dark distant treeline, a single canoe pulled up on the far shore. Lens flare in the upper right. Mood: the photograph is being taken before the figure decides what to do next."
+        },
+        {
+          "id": "M07",
+          "title": "After the Wedding",
+          "titleRu": "После свадьбы",
+          "description": "Spent against the chapel wall at twilight, bouquet dangling from one hand",
+          "descriptionRu": "Изможденный у стены часовни в сумерках, букет свисает с руки",
+          "body": "SCENE: A figure leans against the outer wall of a small countryside chapel at the very end of a wedding day, captured medium-shot at three-quarter angle. The figure's back is pressed flat against the whitewashed stone wall, head tipped back to rest against it, eyes closed, a tiny exhausted smile playing on the lips. Both arms hang slack at the sides. The right hand still grips a half-empty champagne flute by the stem; the left hand holds a single dropped bouquet by its ribbon. The figure wears a dove-grey wedding suit slightly rumpled, the tie pulled loose, top button undone, one shoe unlaced. Around the figure, the white-washed chapel wall is climbing with ivy. The arched wooden door is closed behind the figure with rice still stuck to the threshold. To the right, a long line of fairy lights strung to a tree, glowing warm against the deepening sky. Far in the background, the silhouettes of the wedding party are still dancing in a lit gazebo. Lighting is twilight blue with the warm yellow of distant fairy lights catching the figure's profile. Mood: the spent calm after the most important day. EFFECTS: film grain, golden hour."
+        },
+        {
+          "id": "M08",
+          "title": "Hundred-Faceted Mirror",
+          "titleRu": "Стогранное зеркало",
+          "description": "Subway station mirror shattered into a hundred reflections of one figure",
+          "descriptionRu": "Зеркало в метро расколото на сотню отражений одной фигуры",
+          "body": "SCENE: A figure stands in front of a cracked-mirror wall of an underground subway station, captured frontally. The mirror is fractured into a hundred angled facets, each containing a different fragment of the figure's reflection — an eye here, a mouth there, a hand pressing in a fragment far to the right, a kneeling pose impossibly visible in a low fragment. The actual figure stands in the center, body still and frontal, face composed in a small unreadable smile, both hands held quietly together in front of the chest. The figure wears a long charcoal coat, narrow black trousers, polished oxford shoes. Behind, the dim subway tunnel mouth is visible to the right, a train's headlights approaching. Tiled walls in white subway brick streaked with rust. The platform is empty save for a single newspaper drifting along the floor. Lighting is harsh white tube light buzzing from above, with the approaching train's twin headlamps starting to wash a pale gold glow into the mirror fragments. Mood: identity in a hundred simultaneous angles. NEGATIVE: incorrect reflection geometry — each fragment must show a plausible piece of the figure from its own angle."
+        },
+        {
+          "id": "M09",
+          "title": "Rooftop Cannonball",
+          "titleRu": "Бомбочка с крыши",
+          "description": "Airborne tuck above a sherbet-sky rooftop pool, shouting with joy",
+          "descriptionRu": "Группировка в воздухе над крышным бассейном на закате, крик восторга",
+          "body": "SCENE: A figure stands at the edge of a flat rooftop pool at twilight, captured from a low side angle. The figure is mid-cannonball — body fully airborne above the water, knees pulled to chest in a tight tuck, both arms wrapped around the shins. The face is locked in a wide unselfconscious shout of joy, mouth open, eyes screwed shut. The pool below is a perfect blue rectangle catching a band of pink sky on its surface; ripples haven't started yet. The figure wears plain navy swim trunks, no shirt, a wristwatch left on (the only accessory), a stripe of zinc sunscreen still visible across the nose. The figure's left hand grips the right wrist for tightness; both feet point. Around the pool: an empty white deck chair with a folded towel, a sweating bottle of beer, a paperback face-down with a cracked spine, a portable speaker mid-song. Beyond the pool's far edge, the city skyline drops away to a sherbet sunset, distant rooftops of unlit air-conditioning units. Lighting is high-contrast — warm pink wash from the sky on the right, cool blue from the pool reflecting up onto the underside of the airborne body. Shallow depth of field. Mood: the absolute moment before the splash erases the silence."
+        },
+        {
+          "id": "M10",
+          "title": "Midnight Bike Shop",
+          "titleRu": "Велосипедная мастерская в полночь",
+          "description": "Hunched at a workbench under a single lamp, chain link in tweezers",
+          "descriptionRu": "Согнулся над верстаком под одной лампой, звено цепи в пинцете",
+          "body": "SCENE: An illustration of a figure hunched over a workbench in a small bicycle repair shop at midnight, lit by a single swing-arm desk lamp. Captured at a 3/4 angle from across the bench. The figure leans forward with both elbows planted on the bench. The right hand grips a small wrench at an awkward angle, knuckles white; the left hand holds a tiny chain link in tweezers a centimeter from the eyes, brow furrowed in laser concentration, the tip of the tongue caught between teeth. The figure wears a faded mechanic's jumpsuit half-unzipped to the waist with the sleeves tied off at the hips, a sweat-soaked white tank top, a thick leather belt with a kit of small tools, hands black with chain grease that has streaked one cheek. The bench is chaos: an upended bicycle frame, a coffee cup full of bolts, a soldering iron resting on its stand, a torn parts diagram pinned with three thumbtacks, an oily rag, a half-eaten sandwich on wax paper. The walls of the shop are pegboard with the silhouettes of every tool drawn in marker. A radio plays. Lighting is a single hard incandescent cone from the desk lamp, warm yellow, casting deep crisp shadows across the figure's working hands; everything else fades into umber dimness. Mood: late-night problem-solving devotion."
+        },
+        {
+          "id": "M11",
+          "title": "Last Car, 1 A.M.",
+          "titleRu": "Последний вагон, час ночи",
+          "description": "Slumped on the subway with bodega flowers, private smile half-formed",
+          "descriptionRu": "Развалился в метро с букетом из ларька, едва уловимая улыбка",
+          "body": "SCENE: A figure rides the New York subway alone in the last car at 1 a.m., captured from the seat across. The figure sits with legs spread wide, weight slumped sideways onto the right armrest, head dropped back against the window. The right arm hangs over the seat-back; the left hand cradles a cheap bodega flower bouquet upright in the lap, three single-stem roses still in their plastic sleeve. The face is exhausted but smiling — eyes half-closed, mouth in a small private grin as if remembering what the flowers are for. The figure wears a wrinkled navy suit jacket unbuttoned over a white shirt half-untucked, the tie shoved into a side pocket and dangling out, scuffed brogues, a hospital-visitor wristband still on. Behind the figure, the subway car windows show the dark tunnel sliding past in horizontal streaks of orange-and-grey light. Above the seats, ad placeholders read \"PLACE NAME\" and \"YOUR CALL TO ACTION\" in white sans-serif. The car is otherwise empty save for a single shoe abandoned at the far end. The bench is acid-green plastic. The floor has a wad of newspaper. Lighting is the cold blue-white of subway fluorescents from overhead, with the cabin's emergency-yellow undertone flickering once. Mood: the private rehearsal of what to say at the door."
+        },
+        {
+          "id": "M12",
+          "title": "Back Porch, Golden Hour",
+          "titleRu": "Задняя веранда на закате",
+          "description": "Leaning on the railing in a long lazy contrapposto, cat on the rail",
+          "descriptionRu": "Опирается на перила в ленивом контрапосто, кот сидит рядом",
+          "body": "SCENE: An illustration of a figure on the back porch of a small wooden house in the rural American South, captured medium-wide from the yard at golden hour. The figure leans on the porch railing with both forearms, chin resting on the back of his stacked fists, gaze fixed on a far point past the camera. Body weight is on the right hip, the left foot crossed behind the right ankle in a long lazy contrapposto. The face is in three-quarter view - a small soft smile that hasn't formed all the way. The figure wears worn Levi's, a faded chambray work shirt with the sleeves rolled to the elbows, a leather belt cinched at a worn notch, dusty boots. A wedding ring on the left hand is the only ornament. The porch boards beneath are silver with weather. To one side: a metal bucket with a few empty beer bottles, a guitar case leaned against a column, a ginger cat on the rail watching the same far point. The yard beyond is summer-burnt grass, an old pickup truck, a far row of pines, a thunderhead piling pink-and-grey on the horizon. Lighting is direct rake-light from a setting sun off-frame right, igniting the rim of the cheekbone and the smoke from a single cigarette held in the right hand. Mood: a long quiet that does not need explanation."
+        },
+        {
+          "id": "M13",
+          "title": "Reading in the Dryer",
+          "titleRu": "Чтение в сушилке",
+          "description": "Folded impossibly into a laundromat dryer drum, book inches from face",
+          "descriptionRu": "Невероятно сложился внутри барабана сушилки, книга у самого лица",
+          "body": "SCENE: A figure sits in a coin-op laundromat dryer (door open, machine OFF) reading a paperback, captured frontally as if from a low chair across the room. The figure has folded himself impossibly into the dryer's cylindrical drum: knees drawn up against the chest, the back curved against the rear of the drum, head tilted to fit, the right hand holding the open paperback inches from the face, the left hand resting on a knee with one finger marking some other page. The face is composed and intent, lips moving slightly with what's being read, glasses sliding down the nose. The figure wears a thrifted Hawaiian shirt unbuttoned over a plain white tee, cargo shorts, mismatched socks, no shoes. The dryer's interior is the dull beige of well-loved appliance metal, dented and scorched in places, the lint-screen visible to one side. The viewer-side wall of the laundromat shows a row of front-load washers, a child's discarded sock on the floor, a vending machine glowing pale green with off-brand soda. A single basket of folded laundry sits beside the dryer with a balled-up pair of jeans on top. Lighting is the unforgiving overhead fluorescent flat tube, cold white, plus a faint warm orange spill from a streetlamp through the front window at frame-edge. Mood: complete claim of a small space."
+        },
+        {
+          "id": "M14",
+          "title": "Vespa Hillside Lean",
+          "titleRu": "Веспа на серпантине",
+          "description": "Mid-corner on a mint Vespa above the Tyrrhenian Sea, suit and loafers",
+          "descriptionRu": "В повороте на мятной Веспе над Тирренским морем, в костюме и лоферах",
+          "body": "SCENE: An illustration of a figure mid-corner on a vintage Vespa scooter on a narrow Italian hillside road at midmorning. Captured from a side tracking angle, the scooter and rider in profile mid-lean, a 25-degree tilt into the curve. The figure leans forward, both gloved hands on the handlebars, right wrist slightly twisted on the throttle, body braced through the knees against the scooter frame. The face is in profile under a tucked-down chin: sunglasses on, mouth set in a small focused smile, helmet absent (this is bad and very Italian). The figure wears a slim-cut grey suit jacket buttoned, a crisp white open-collar shirt, dark slim trousers, leather loafers, a leather messenger bag slung crosswise so it rides on the lower back. The Vespa is faded mint-green with a chrome leg shield, a single small dent in the front fender, a leather-strapped baguette and a bouquet of yellow chrysanthemums tucked into the rear rack basket. The road is a hot pale ribbon hugging the hillside; the inside of the curve drops to a terraced olive grove and a glimpse of blue Tyrrhenian sea far below. The outside of the curve is a low stone wall with bursts of bougainvillea spilling over. A single ochre farmhouse sits in the deeper distance. Lighting is hard mediterranean sun from screen-right, throwing a sharp diagonal shadow of scooter and rider across the road. Mood: the casual virtuosity of a commute."
+        },
+        {
+          "id": "M15",
+          "title": "Skatepark Kickflip",
+          "titleRu": "Кикфлип в скейтпарке",
+          "description": "Frozen at the apex of a kickflip in a graffiti bowl, kid watching",
+          "descriptionRu": "Замер на пике кикфлипа в граффити-чаше, мальчишка смотрит",
+          "body": "SCENE: A figure is captured from a low front angle, frozen mid-air at the apex of a skateboard kickflip on a graffiti-covered concrete bowl in a public skatepark. Both feet are off the deck, the board itself rotating sideways below the feet, body tucked, arms pinwheeling for balance with the right arm forward and the left arm cocked behind. The face is locked in a flat, focused expression — no smile yet, just the pre-decision instant of \"did I land this.\" The figure wears a baggy white t-shirt that has lifted to expose two inches of stomach, loose-fit black jeans rolled at the cuff over high-top sneakers worn through at the toe, a black baseball cap turned slightly sideways. A small chain wallet trails a chain that has lifted away from the hip in the airborne moment. Behind the figure, the bowl wall is a riot of colored tags, smiley faces, and overlapping signatures; the lip of the bowl is rounded by years of grinds. Empty beer cans rest in one corner. A single small kid sits on the rim watching, wide-eyed. The sky above is flat overcast. Lighting is the diffused white of high-cloud, with the colors of the graffiti popping despite the soft light. Mood: the suspended instant in which a thousand failures have not yet decided to become a success."
+        },
+        {
+          "id": "M16",
+          "title": "Desert Convertible",
+          "titleRu": "Кабриолет в пустыне",
+          "description": "One-finger hook on the wheel, toothpick smile, road to nowhere",
+          "descriptionRu": "Один палец на руле, зубочистка в улыбке, дорога в никуда",
+          "body": "SCENE: An illustration of a figure driving a beat-up convertible muscle car on a long straight desert highway in the American Southwest, captured from the passenger seat looking sideways at the driver and out the windshield. The figure's left hand rests at the very bottom of the steering wheel in an effortless one-finger hook; the right hand is raised, elbow on the door sill, the back of the hand braced against the wind, fingertips drumming the door panel. The body is sunk low into the bucket seat, knees apart, posture pure unhurried. The face is in three-quarter — aviator sunglasses, a toothpick clamped in the corner of a small smile, hair wind-thrashed. The figure wears a sleeveless white tank top with a small tear at the collar, faded jeans, a leather belt with a small turquoise buckle, a single leather wrist-cord. Inside the car: cracked red leather seats, an open paper map blowing on the floorboard, an unopened bottle of warm cola in the center console, an analog radio glowing FM 88.1, a half-melted cassette case. The windshield reveals a road that runs perfectly straight to the horizon, telephone poles ticking by, mesa silhouettes in the deep distance, one circling vulture. The sky is a flat saturated cobalt with a single high cirrus. Lighting is harsh midday sun from the upper-right, glinting off the chrome of the rear-view mirror. Mood: the freedom of having absolutely nowhere to be by sundown."
+        },
+        {
+          "id": "M17",
+          "title": "Stream at First Light",
+          "titleRu": "Ручей на рассвете",
+          "description": "Crouched in a mountain stream, cupped hands raising water to the mouth",
+          "descriptionRu": "Присел в горном ручье, сложенные ладони с водой подносит к губам",
+          "body": "SCENE: A figure crouches alone in a small mountain stream at first light, captured medium-shot from the opposite bank. The figure is in a low squat, balanced on weathered boulders, the water running fast around the boots. Both hands are cupped together, full of clear stream-water that catches the dawn; he is in the act of bringing the cupped palms to his mouth to drink. The face is bent forward, eyes closed, expression of small hard-earned reverence. Hair drips. The figure wears a flannel shirt rolled to the forearms, a dark canvas vest with a small fishing-fly pinned to the collar, faded khakis cuffed and wet to mid-shin, leather hiking boots laced tight. A bedroll and a rifle case lie in the foreground on a flat rock; an open metal mug rests beside them with steam still rising. The stream is brilliant glass-clear, broken silver where it folds over rocks; small black river-pebbles are visible underneath. The far bank is dense fir forest, mist clinging in the lower branches. Lighting is sidelong cold blue dawn from screen-left, with the first warm gold rim just beginning to catch the upper edge of the figure's hat brim. Mood: a man briefly equal to the world he's standing in. EFFECTS: dust particles in light beam, golden hour."
+        },
+        {
+          "id": "M18",
+          "title": "The Conspiracy Wall",
+          "titleRu": "Стена с уликами",
+          "description": "Pinning photos and red string under a single bare bulb, one-man investigation",
+          "descriptionRu": "Прикалывает фото и красную нить под голой лампочкой, расследование в одиночку",
+          "body": "SCENE: A figure sits cross-legged on the floor in front of a wall covered in pinned photographs, news clippings, and red string in a small dim apartment, captured frontally medium-wide. The wall fills the background; the figure occupies the center foreground. Both hands are raised: the right hand pins a new photograph to the wall with a thumbtack mid-press, the left hand holds a spool of red string with a length already trailing toward another photo. The face is intent, half-lit, lips parted. The figure wears a rumpled white button-down shirt with the sleeves shoved up, dark trousers, no tie, suspenders hanging loose around the hips, a single shoe off. The wall is a chaotic collage: dozens of photographs (faces, places, license plates), printed maps, hand-scrawled notes on lined paper, a child's drawing in the bottom corner, three long ribbons of red string crisscrossing between thumbtacks like a constellation. A single overhead bulb on a black cord hangs above the figure casting a hard cone. On the floor: an upended tin of thumbtacks, an ashtray with one stubbed cigarette, a yellow legal pad covered in writing, a single mug long gone cold. Lighting is one source — the bare bulb — direct from above, deep raccoon shadows under the eyes, the rest of the room receding to charcoal. Mood: a one-man investigation that is becoming a religion. EFFECTS: handwritten notes overlay, redacted censored bars."
+        },
+        {
+          "id": "M19",
+          "title": "London Cab in Rain",
+          "titleRu": "Лондонский кэб в дождь",
+          "description": "Half-out of a black cab, hair slicked dark, caught and not caring",
+          "descriptionRu": "Полу-выходя из чёрного кэба, мокрые волосы, пойман и не парится",
+          "body": "SCENE: A figure stands inside a London black cab at the curb of a wet city street at night, half-out of the rear door which is held open above his head. Captured from across the street, the cab in profile with the figure caught in the act of stepping down. One foot is on the wet sidewalk; one foot is still inside the cab. The right hand grips the cab roof for balance; the left hand holds a worn leather folio against the hip. The face is turned three-quarter back to look directly at the camera with a flat, unsurprised expression — caught, not caring. The figure wears a long charcoal overcoat, a dove-grey three-piece suit, polished black brogues, no umbrella despite the rain — the hair is slicked dark and wet. The cab itself is the classic boxy black London hackney, headlamps glowing yellow, the meter visible through the side window with a number. Wet asphalt reflects the cab's red taillight in a long red smear. Behind, a Georgian terrace of white-stucco facades with black ironwork, a pillar-box red and beaded with rain, a single warm window above. The rain falls in vertical silver lines. Lighting is mixed cool — sodium streetlamp from the upper-right, cab's red taillight from below, occasional warm yellow from a passing window. Mood: an arrival the figure was not announcing. EFFECTS: rain, anamorphic flare."
+        },
+        {
+          "id": "M20",
+          "title": "Sawdust Workshop",
+          "titleRu": "Мастерская в опилках",
+          "description": "Mid-cut at the table saw, sawdust ignited in a volumetric sun beam",
+          "descriptionRu": "В процессе распила, опилки горят в объёмном солнечном луче",
+          "body": "SCENE: A figure is captured at eye-level inside a small woodworking workshop, mid-action at the table saw. Sawdust hangs in a slow gold cloud all around the figure, lit from a single high window. Both hands grip a long pine plank steady against the saw fence; the saw's spinning blade is a soft motion-blur disk in the immediate foreground. The figure leans forward into the cut, body braced through bent knees, weight on the front foot, head tilted just enough to track the line. The face is composed — safety glasses on, ear-defenders pushed up onto the crown, a small grim concentration to the mouth, a smear of sawdust frosting one eyebrow. The figure wears a heavy canvas shop apron over a chambray shirt and dark workpants, leather steel-toed boots, a carpenter's pencil tucked behind one ear, a tape measure clipped at the hip, two old plaster bandages on the left thumb. The shop around: walls of pegboard with chisels, hand-planes, clamps; a half-built chair on a workbench; coils of yellow extension cord; a transistor radio on a high shelf. A pinup calendar on the wall, the date crossed out in marker. Lighting is one huge window pouring volumetric sun from screen-right, every floating sawdust mote ignited; the shadow side of the figure deep cool umber. Mood: the meditative precision of a small good thing being made well. EFFECTS: dust particles in light beam, volumetric lighting."
+        }
+      ]
+    },
+    {
+      "id": "solo-female",
+      "name": "Solo · Female-coded",
+      "nameRu": "Соло · Женские",
+      "description": "15 single female-coded figures, tender and theatrical",
+      "descriptionRu": "15 одиночных женских фигур, нежных и театральных",
+      "prompts": [
+        {
+          "id": "F01",
+          "title": "Upside-Down on Monkey Bars",
+          "titleRu": "Вверх ногами на лазалке",
+          "description": "Suspended inverted at sunset playground, soda dripping, bored godliness",
+          "descriptionRu": "Подвешена вниз головой на закатной площадке, газировка капает, скучающая божественность",
+          "body": "SCENE: A vertical 9:16 illustration. A figure is suspended upside-down from monkey bars in an empty playground at sunset, knees hooked over the metal bar, body fully inverted. Hair hangs straight down, swaying. Both arms dangle loosely above the head (which is below). Face is upside-down to the viewer, with a small mischievous grin and eyes that are deliberately crossed. In the right hand, the figure holds an opened can of soda; a slow droplet of orange liquid is in the act of falling out of the can toward the woodchips below. The figure wears a pleated skirt that has flipped down toward the head, exposing dark cycling shorts underneath, a white blouse half-untucked, knee-high socks slipping. Background: empty municipal playground, faded blue plastic slide, a swing set with one swing creaking sideways, a chain-link fence with vines, a sky in deep magenta-orange gradient with a single contrail. Lighting is warm raking sidelight from the setting sun, kissing the metal of the bars with copper specular. Mood: bored and serenely upside-down godliness. EFFECTS: pen doodles overlay, lens flare. The doodles are blue ballpoint, sloppy and clearly self-applied: hearts with arrows along the figure's bare forearm, the words \"BORED\" scrawled vertically up the inside of one knee, three little stars near the ear, a tiny crooked smiley face on the back of one hand. The doodles read as drawn ON the photograph after printing — and on the figure herself before the photograph was taken."
+        },
+        {
+          "id": "F02",
+          "title": "Wheat Field at Noon",
+          "titleRu": "Пшеничное поле в полдень",
+          "description": "Waist-deep in wheat, palms up, bee suspended near her ear",
+          "descriptionRu": "По пояс в пшенице, ладони вверх, пчела зависла у уха",
+          "body": "SCENE: A figure stands waist-deep in a wheat field at high noon, captured from the chest up. The figure faces the camera, arms slightly raised and out to either side at hip-level, palms open and turned upward, fingers brushing the wheat tops. Eyes are closed, head tilted up to the sun, lips parted in a small contented smile. A bumblebee is suspended in mid-flight near the figure's right ear. The figure wears a sleeveless white linen sundress with eyelet trim, a thin gold chain at the neck, and a single woven grass bracelet on the right wrist. The wheat fills the entire midground in horizontal golden-amber waves, occasional poppies and cornflowers punctuating it. The background is a flat blue summer sky with a single small cumulus cloud directly above the figure's head, like a punctuation mark. Lighting is harsh directional overhead sun with bright bouncing fill from the wheat. The concept is the pagan quietness of being briefly forgotten by the world."
+        },
+        {
+          "id": "F03",
+          "title": "Trespass at the Pool",
+          "titleRu": "Ночной заплыв",
+          "description": "Hip-deep at the center of a still indoor pool at night, palms on water",
+          "descriptionRu": "По пояс в неподвижном крытом бассейне ночью, ладони на воде",
+          "body": "SCENE: A digital illustration of a figure standing in the very center of a perfectly still indoor swimming pool at night, water at hip level. The pool is institutional turquoise tile, the lane lines have been removed. The figure faces directly forward, body symmetrical, both arms slightly out from the sides with palms resting on the water surface, fingers spread. The head is tilted slightly down, eyes lifted in a steady upward gaze toward the camera, expression unreadable, lips closed. The figure wears a one-piece black swimsuit with a high neck. The pool's surface is mirror-still except for tiny concentric ripples spreading from the fingertips, and a single fallen leaf floating at the far edge. Above and around: an empty natatorium with rows of dark windows, ceiling fluorescents OFF, the only light coming from the underwater pool lamps casting upward-rippled cyan reflections across the white tile walls and the figure's face. The figure's reflection is shattered by the gentle ripples. Mood: late-night sacred trespass. NEGATIVE: visible feet through the water (water should be opaque turquoise under reflection)."
+        },
+        {
+          "id": "F04",
+          "title": "Bookshop Ladder",
+          "titleRu": "Лесенка в книжном",
+          "description": "On tiptoe reaching the top shelf, one shoe already fallen below",
+          "descriptionRu": "На цыпочках тянется к верхней полке, один ботинок уже упал",
+          "body": "SCENE: A figure stands on a stepladder in a small bookshop, reaching up. Wide vertical shot. The figure is on tiptoe on the third rung, body fully extended upward in a long S-curve, the right arm straight up with fingertips just brushing the spine of a book on the very top shelf. The left hand grips the top of the ladder for balance. The figure's face is tilted up, mouth set in a stubborn pout of concentration, brows furrowed. The figure wears a brown librarian's cardigan, a pleated mid-length skirt, opaque tights, and one shoe — the other shoe has fallen onto the floor below. The bookshop is dense, floor-to-ceiling: walnut shelves bowed in the middle, books stacked horizontally on top of vertical rows, a globe on the floor, a sleeping bookshop dog curled by the ladder, a hanging brass lamp with a green glass shade. A small rolling cart in the foreground holds open volumes face-down. Lighting is warm tungsten from the brass lamp combined with cool daylight from a single round porthole window above the upper shelves, creating a vertical light column on the figure's reaching arm. The concept is the precise instant before retrieval. EFFECTS: sketch lines overlay, soft focus. The sketch lines are graphite construction marks: a faint perspective grid running back into the shelves' vanishing point, an arrow labeled \"TARGET\" pointing at the top-shelf book, a small note in the margin reading \"do not fall again\", and a single eraser-smudge cloud at the corner. The drawings read as a librarian's working notebook accidentally laid over the image."
+        },
+        {
+          "id": "F05",
+          "title": "4 A.M. Shawarma",
+          "titleRu": "Шаурма в 4 утра",
+          "description": "Post-club sacrament at a kiosk under fluorescent buzz, smudged mascara",
+          "descriptionRu": "Постклубное таинство у ларька под жужжанием ламп, размазанная тушь",
+          "body": "SCENE: A figure stands at a 24-hour shawarma kiosk under a single buzzing fluorescent tube at 4 a.m. Wide medium shot. The figure leans both forearms on the kiosk's chrome counter, body bowed forward in surrender to the smell, both hands cradling a freshly-wrapped foil shawarma like a holy relic. The first bite has been taken — sauce drips threaten to fall on the counter. The figure's eyes are closed in beatific transcendence, mouth full mid-chew, eyebrows climbing in disbelief at how good. The figure wears a sequined party top now wrinkled and a long unbuttoned coat, mascara slightly smudged, a single dangling earring, mismatched shoes. Behind the kiosk window: the kiosk worker stoic in a paper hat, a vertical rotating spit, racks of sauces, a tiny TV playing static. The street beyond is a dim Eastern European night, a tram cable swooping overhead, a flickering pharmacy cross sign in the distance, wet cobblestones reflecting neon orange. Lighting is harsh fluorescent overhead with a kicker from the pharmacy neon. Mood: post-club sacrament. EFFECTS: crumpled paper texture overlay, chromatic aberration."
+        },
+        {
+          "id": "F06",
+          "title": "Bioluminescent Yacht Dance",
+          "titleRu": "Танец на яхте в свечении",
+          "description": "Mid-spin on deck, silk dress and glowing plankton spray, Milky Way above",
+          "descriptionRu": "В развороте на палубе, шёлковое платье и брызги планктона, Млечный Путь сверху",
+          "body": "SCENE: A digital illustration of a figure on a yacht-deck at night, captured mid-action from a low angle. The figure is balanced on the polished teak deck mid-spin in a barefoot dance, body arched in a long C, both arms thrown wide, head thrown back, eyes closed, mouth in an open laugh. A long silk dress in deep ocean-blue swirls in a perfect circle around the legs, hem crackling with bioluminescent plankton spray that has somehow leapt onto the fabric. The right hand holds a half-empty crystal champagne flute, the liquid suspended mid-tilt about to spill. The left hand trails behind clutching nothing. Around the deck: scattered rope coils, a brass ship's bell, a single open book of poetry blown facedown. The yacht is small and old, weathered. Beyond the deck: black sea, blacker sky, the entire visible water aglow with the faint cyan trail of bioluminescent algae stirred by the boat's wake. The Milky Way is brutal overhead. Lighting comes only from the algae below and the stars above, casting two competing blue washes on the figure. Mood: oceanic ecstatic loneliness. EFFECTS: bokeh, light leak."
+        },
+        {
+          "id": "F07",
+          "title": "Dance Studio Stretch",
+          "titleRu": "Растяжка в студии",
+          "description": "Folded in half on hardwood, mirror doubling the entire scene",
+          "descriptionRu": "Сложилась пополам на паркете, зеркало удваивает всю сцену",
+          "body": "SCENE: A figure is seated cross-legged on a bare hardwood floor of an empty dance studio, viewed from a low corner of the room. The far wall is a floor-to-ceiling mirror; the figure's reflection sits parallel, identical pose, mirrored. The figure is in tights and a leotard, wears soft pink ballet slippers, hair in a tight bun. The body is collapsed forward over the legs in a deep stretch, forehead almost touching shins, both hands wrapped around the soles of the feet. The face is hidden by hair. A pair of pointe shoes lies on the floor beside the figure with their satin ribbons trailing in a careful spiral. A water bottle stands tall a few feet away. The mirrored wall doubles the entire scene; the wood floor's grain forms a perfect symmetry meeting at the mirror line. A barre runs along the mirror wall, casting a single horizontal line. Lighting is one cold north-facing window pouring even pale blue from the side, no other sources. Mood: solitary discipline before performance. NEGATIVE: incorrect mirror reflection (must perfectly match the original figure pose)."
+        },
+        {
+          "id": "F08",
+          "title": "Tub of Rubber Ducks",
+          "titleRu": "Ванна с уточками",
+          "description": "Balanced on the tub's rim above thousands of yellow ducks, frozen guilt",
+          "descriptionRu": "Балансирует на бортике над тысячами жёлтых уточек, замершая вина",
+          "body": "SCENE: A figure crouched on the rim of a bathtub in an empty pastel-tile bathroom, captured from the front at a low diagonal. The bathtub is filled with thousands of tiny rubber ducks. The figure balances precariously on the tub's rim, both feet bare, knees deeply bent, body tipped forward, both arms held wide for balance like a high-wire walker. Eyes are wide and fixed straight at the camera with a frozen \"what have I done\" expression. The figure wears short pajamas with cherry print, hair in two messy buns. One yellow rubber duck is balanced on top of the head. A second duck is wedged in the crook of the right elbow. Three ducks are still mid-air around the figure as if they'd just been thrown in. The bathroom is pale mint-green tile, a small basket of bath towels on a stool, a frosted window admitting flat morning light. Lighting is even pale blue daylight with soft yellow bouncing off the duck-pile. Mood: domestic moral panic. EFFECTS: sticker collage overlay, soft focus."
+        },
+        {
+          "id": "F09",
+          "title": "Abandoned Pool Cathedral",
+          "titleRu": "Заброшенный бассейн-собор",
+          "description": "At the bottom of a drained tile pool, god-rays through skylights",
+          "descriptionRu": "На дне пустого кафельного бассейна, лучи света сквозь разбитые окна",
+          "body": "SCENE: A wide-angle illustration of a figure inside a dim, cathedral-sized vintage indoor pool — abandoned, drained, dust-floored. The figure is centered at the bottom of the deep end, looking up the long sloped tile floor toward the camera positioned at the shallow-end edge. The figure stands with both arms hanging loose, palms open slightly forward, head tilted up in awe to the shafts of sunlight cutting down from broken skylights overhead. A flock of disturbed pigeons flutters across one of the light-shafts, casting moving shadow across the figure's upturned face. The figure wears a long black dress and a single dust-print on the cheek. The empty pool's tiles are ornate art-nouveau peacock motifs in faded turquoise and gold, water-stained. Cracked plaster columns, peeling diving board, a rusted ladder bent at an angle. Lighting is sharp cathedral god-rays through dust, isolating the figure in a halo. Mood: reverence for the corpse of a glorious place."
+        },
+        {
+          "id": "F10",
+          "title": "Lipstick in the Vestibule",
+          "titleRu": "Помада в прихожей",
+          "description": "Two mirrors at once, judgmental cat, leaving with maximum drama",
+          "descriptionRu": "Два зеркала сразу, осуждающий кот, выходит с максимальной драмой",
+          "body": "SCENE: A figure stands in front of a Soviet-era hallway mirror inside a poorly-lit communal apartment vestibule. Captured frontally; we see both the figure and the figure's reflection. The figure faces the mirror, body squared, both hands raised — the right hand is in the act of finishing the last loop of bright crimson lipstick on the lips, while the left hand holds a tiny plastic compact mirror up to the side as if double-checking. The face in the wall mirror is sharp-eyed and amused; the face in the small compact mirror is at a different angle and shows the lipstick mid-application. The figure wears a tan trench coat over a dressing-gown — clearly leaving in a hurry. A house cat sits on a wooden stool beneath the mirror, watching with profound judgment. Around: a coat rack overloaded with three coats and a fur shapka, communal mailboxes along the wall with peeling numbers, cracked floor tile, a wallpaper of faded brown vines. The mirror frame is ornate dark wood. Lighting is one sad yellow bulb above the mirror, with a slice of cooler daylight from a half-open door at the edge of the frame. Mood: leaving the apartment with maximum drama for a very small errand."
+        },
+        {
+          "id": "F11",
+          "title": "Photo-Booth Strip",
+          "titleRu": "Лента из фотобудки",
+          "description": "Four panels of chaos arcing into one tender sincere smile",
+          "descriptionRu": "Четыре панели хаоса перетекают в одну искреннюю улыбку",
+          "body": "SCENE: A figure is captured in a close-up at an old-school photo-booth strip, four panels visible vertically. In each panel the figure does something different. Top panel: figure makes a peace sign and grins teeth-baring at the camera. Second panel: figure has slid down out of frame, only the top of the head and two waving hands above the frame edge. Third panel: figure has popped back up, eyes crossed, tongue out, holding a vintage candy lollipop pressed to the cheek. Fourth panel: figure leans elbows on the seat, chin in hands, gives the camera a soft sincere closed-mouth smile, eyes warm. The booth's curtain is visible at the edges in deep crimson velvet. The figure wears a striped sailor shirt and a single butterfly clip in the hair (different position in each panel because of the chaos). Lighting is the booth's harsh on-camera flash with cool fluorescent fill. Mood: a complete character arc in four square inches. EFFECTS: crayon drawing overlay, polaroid frame. The crayon overlay is in waxy primary colors, drawn by what is clearly a child or a very excited adult: a bright purple heart around panel three, a yellow sun in the corner of panel one, the words \"BEST DAY\" scrawled in red across the bottom of all four frames, a tiny green snake winding between the panels. The drawings sit ON the photo strip itself, smudged where a thumb has touched."
+        },
+        {
+          "id": "F12",
+          "title": "Fire-Escape in Sequins",
+          "titleRu": "Пожарная лестница в пайетках",
+          "description": "Dangling from a fifth-floor ladder in a ridiculous evening gown",
+          "descriptionRu": "Висит на лестнице пятого этажа в нелепом вечернем платье",
+          "body": "SCENE: A figure dangles from a fire escape outside a fifth-floor brick apartment building, captured from below in a very low-angle wide shot. The figure hangs by both hands from the bottom rung of the fire escape ladder, body fully extended, legs kicking lightly, looking down toward the camera with an exasperated half-grin: \"well, this is fine.\" The figure wears a ridiculous floor-length sequined evening gown that is bunched up around the thighs from the wind, paired with practical sneakers. A small purse swings from the right wrist. The fire escape is rust-streaked iron, with one window above showing a cat watching impassively from the sill. Below the figure, a narrow alley with steaming manhole cover, a dumpster, the corner of a neon SUSHI sign. The brick wall is plastered with peeling paste-up posters. Lighting is warm orange sodium streetlamp from the alley below mixed with a bluer ambient from above. Mood: dressed for a different evening's plan."
+        },
+        {
+          "id": "F13",
+          "title": "Museum Tomb Effigy",
+          "titleRu": "Эффигия в музее",
+          "description": "Playing dead on marble among Roman busts, lily on the chest",
+          "descriptionRu": "Изображает мертвую на мраморе среди римских бюстов, лилия на груди",
+          "body": "SCENE: A figure lies on the cold marble floor of a museum's classical sculpture hall, on their back, hands folded across the chest, in a deliberate parody of a tomb effigy. Captured from an overhead high-angle. The figure is completely still, eyes closed, a serene mock-pious expression, a single white lily clutched in the folded hands. The figure wears all black with a long flowing skirt. Around them, the marble hall stretches in deep perspective: rows of headless Roman busts on plinths, a colossal seated statue at the far end, a fluted column in the corner, a single museum guard far in the deep background looking the other way. The marble floor is patterned in geometric grey-and-cream. A small velvet rope cordon is visible just past the figure's feet. Lighting is the cold bluish daylight of museum skylights, even and shadowless. Mood: theatrical solemnity at the wrong moment. NEGATIVE: museum guard noticing. EFFECTS: dust particles in light beam, sepia tone."
+        },
+        {
+          "id": "F14",
+          "title": "Four-Leaf Clover",
+          "titleRu": "Четырёхлистный клевер",
+          "description": "Flat on the back in clover, four-leaf raised to the sky, bumblebee above",
+          "descriptionRu": "Лежит навзничь в клевере, четырёхлистник поднят к небу, шмель сверху",
+          "body": "SCENE: A figure is captured at a worm's-eye low angle, lying flat on the back in a meadow of clover, arms and legs spread, looking straight up. The camera sits on the ground a meter from the figure's head. Above the figure, the sky is perfectly framed by a giant tree's spreading canopy. The figure's eyes are wide open, pupils enormous, a small slack-jawed wonder on the face. A four-leaf clover is held up in the right hand toward the sky as if to compare. A single bumblebee is suspended above the nose. The figure wears a long flowing white sundress, straw hat fallen aside, bare feet. The clover bed is dense and bright green, dotted with yellow buttercups. The tree's leaves above are silvered on the underside in a breeze, a few pale petals drifting down. A patch of cobalt sky shows between the highest branches. Lighting is dappled green-gold filtered light, rim-bright at the edges of every leaf above. Mood: reverence for cheap miracles."
+        },
+        {
+          "id": "F15",
+          "title": "Giant Sunflower Awe",
+          "titleRu": "Подсолнух-гигант",
+          "description": "Waist-deep in sunflowers taller than her, awed by one giant bloom",
+          "descriptionRu": "По пояс в подсолнухах выше неё, в благоговении перед огромным цветком",
+          "body": "SCENE: A figure stands waist-deep in a sea of long-stemmed sunflowers at the very tail of summer, captured medium-wide. The flowers are TALLER than the figure, towering above the head; the figure stands inside the field with neck craned upward at a particularly enormous bloom directly over the head. Both hands are raised to gently steady the heavy nodding flower's stem at face level. The face is tilted up, eyes locked on the giant black-and-gold disk above, mouth slightly open in awe. The figure wears a faded yellow sundress and a wide straw hat tipped back. Bees move slowly between the flowers. Distant glimpses of more sunflowers stretching to a dark windbreak of poplars. The sky above is huge and pale blue with high cirrus brushed in long strokes. Lighting is direct hot midday sun, flowers and figure all golden. Mood: standing in a temple no one built. EFFECTS: falling petals overlay, golden hour."
+        }
+      ]
+    },
+    {
+      "id": "solo-universal",
+      "name": "Solo · Universal",
+      "nameRu": "Соло · Универсальные",
+      "description": "37 gender-neutral single-figure scenes across moods and places",
+      "descriptionRu": "37 гендерно-нейтральных сцен с одной фигурой, разные настроения и места",
+      "prompts": [
+        {
+          "id": "U01",
+          "title": "Snow Angel from Above",
+          "titleRu": "Снежный ангел сверху",
+          "description": "Overhead view, spread-eagle in fresh powder, breath plume rising",
+          "descriptionRu": "Вид сверху, раскинулся в свежем снегу, столб дыхания поднимается",
+          "body": "SCENE: Overhead bird's-eye view. A figure is captured directly from above, lying spread-eagle on freshly fallen snow that fills the entire frame, arms and legs sweeping outward to make a snow angel. The figure's head is tilted back into the powder, eyes screwed shut, mouth wide open in an unrestrained laugh, breath rising in a visible white plume that almost reaches the camera. Hair fans out around the head in a dark halo against the white. Both gloved hands are mid-sweep, the right slightly higher than the left, leaving fan-shaped trails in the snow. The figure wears a thick puffer coat the color of egg yolk, navy snow pants, and one mitten that has come loose and rests near the wrist. Surrounding the angel-form is virgin powder, dotted with three small pinecones and a scatter of pine needles. At the corners of the frame, the dark green of conifer branches creeps in. Lighting is diffused white-blue overcast winter light with a faintest pink suggesting late afternoon. The concept is solitary unfiltered joy. NEGATIVE: footprints leading away from the figure (there should be none on this side)."
+        },
+        {
+          "id": "U02",
+          "title": "2 A.M. Laundromat Selfie",
+          "titleRu": "Селфи в прачечной в 2 ночи",
+          "description": "Cheek squished against laundromat glass, collapsing peace sign",
+          "descriptionRu": "Щека прижата к стеклу прачечной, ослабевший знак мира",
+          "body": "SCENE: Selfie. Front-camera. A figure leans against the sticker-covered glass door of a 24-hour laundromat, holding the phone at arm's length so half the laundromat is visible behind. The figure is tilted slightly, head cocked, with one cheek squished against the cold glass. The right hand holds the phone; the left hand is raised in a half-hearted peace sign that's collapsing into a wave. Eyes are tired but smiling, with one eyelid slightly heavier than the other. The figure wears an oversized hoodie pulled up halfway, pajama pants under it, and slippers. Behind the figure: rows of washers in chrome and white, a single tumbling drum mid-cycle blurring its colors, a vending machine glowing pale green, a flickering fluorescent tube overhead, and a stranger far in the back reading a newspaper. Lighting is unforgiving fluorescent flat with the screen's own warm reflected glow on the figure's face. The mood is 2 a.m. domestic exile. Slight motion blur on the spinning drum. EFFECTS: scan lines overlay, cool tones."
+        },
+        {
+          "id": "U03",
+          "title": "Tide Pool Reverence",
+          "titleRu": "Благоговение у заводи",
+          "description": "Kneeling at a tide pool, chin in cupped hands, starfish in the water",
+          "descriptionRu": "Стоит на коленях у заводи, подбородок в ладонях, морская звезда в воде",
+          "body": "SCENE: A digital illustration with a wide 16:9 aspect ratio. A figure kneels at the edge of a tide pool at low tide, body in a low crouch, weight resting on the right knee with the left foot flat on wet rock. The figure leans forward, both elbows on the front knee, chin cupped in both palms, gazing down into the pool with an absorbed expression of total scientific reverence. Long hair falls forward, the wet ends nearly touching the water's surface. The figure wears a knit fisherman's sweater rolled at the cuffs and rolled-up linen trousers; bare feet are wet and barnacle-pricked. The pool itself is a microcosm: a single small orange starfish, three transparent shrimp, a rust-red sea anemone open like a flower, three tiny periwinkle snails, and the figure's own face rippling on the surface. Around the pool, the rocks are streaked with white salt crust and black mussel clusters. The background is a wide low-tide flat receding to a slate-grey sea under a heavy mother-of-pearl sky. Lighting is soft, overcast, with the water acting as a pale silver mirror. The mood is hushed pre-storm wonder."
+        },
+        {
+          "id": "U04",
+          "title": "Dandelion Sneeze",
+          "titleRu": "Чих с одуванчиком",
+          "description": "Pre-sneeze macro, single dandelion seed suspended at the lip",
+          "descriptionRu": "Макро перед чихом, семя одуванчика подвешено у губы",
+          "body": "SCENE: Macro close-up. A figure's face fills the right two-thirds of the frame, viewed from a 3/4 angle. The figure is about to sneeze: nose scrunched, eyes fully shut, eyebrows knitted, mouth half-open in the inhalation just before the explosion. A single fluffy white dandelion seed is suspended in mid-air a centimeter from the upper lip. The figure's right hand is raised partway to the face but won't make it in time, fingers half-curled. A field of dandelions, fully gone-to-seed, blurs into a creamy white-green bokeh background. Lighting is direct golden-hour sun from screen-left, igniting the floating seed and outlining a downy halo on the cheek and earlobe. The concept is the universe pranking a pollen-allergic person at the loveliest possible moment. NEGATIVE: seed already inside the nostril."
+        },
+        {
+          "id": "U05",
+          "title": "Hotel Hallway Mask",
+          "titleRu": "Маска в гостиничном коридоре",
+          "description": "Tiny at the vanishing point, blank plastic mask, dread without violence",
+          "descriptionRu": "Крошечный в точке схода, гладкая пластиковая маска, тихий ужас",
+          "body": "SCENE: A figure stands in an empty hotel hallway at the end of a long corridor. Worm's-eye low-angle perspective. The carpet is a gaudy red-and-gold geometric pattern that fills the foreground, leading to the figure who is centered at the vanishing point. The figure is small in the frame, both arms held perfectly straight at the sides, body rigid, face entirely hidden by a clear plastic mask of blank smooth features tied with a black ribbon. Head is tilted unnaturally forward five degrees too far. Identical doors line both walls in a one-point perspective march, all closed, brass numbers on each. A single brass wall sconce on each wall casts a small warm pool of light at every fourth door, leaving the spaces between in muted shadow. The figure wears a long unstructured grey nightgown that grazes the carpet. Lighting is dim incandescent yellow with deep red-shifted shadows. The mood is dread without violence. NEGATIVE: open doors; visible face under the mask. EFFECTS: vignette, fog."
+        },
+        {
+          "id": "U06",
+          "title": "Thrift Store Melodrama",
+          "titleRu": "Драма в комиссионке",
+          "description": "Sprawled on a velvet chaise, theatrical despair amid donations",
+          "descriptionRu": "Разлёгся на бархатной кушетке, театральное отчаяние среди вещей",
+          "body": "SCENE: Dutch angle. A figure is collapsed sideways across a velvet chaise lounge in a thrift store, surrounded on all sides by towers of unsorted donations. The figure is sprawled on the back, one arm flung over the eyes in mock theatrical despair, the other arm dangling off the chaise with a vintage Polaroid camera dangling from a wrist strap, swinging gently. One leg is on the chaise; the other has slid off and rests on a stack of paperback books, foot in a lace-up boot. A wide-brimmed straw hat with a half-eaten silk rose has slid off the head and rests on the floor. Surrounding the chaise: a headless mannequin in a faux-fur stole, a brass floor lamp shaped like a flamingo, a portrait of a stranger's grandmother in an oval frame, a glass case of broken costume jewelry, and a cat-shaped clock with the tail wagging seconds. Lighting is filtered through a yellowed plastic skylight, hazy and warm with floating dust. The mood is overwhelmed-treasure-hunter melodrama."
+        },
+        {
+          "id": "U07",
+          "title": "Head in the Freezer",
+          "titleRu": "Голова в морозилке",
+          "description": "Heatwave coping, head buried in freezer fog, frost-vapor halo",
+          "descriptionRu": "Спасение от жары, голова в морозильном тумане, нимб из инея",
+          "body": "SCENE: A figure crouches in front of a refrigerator covered in magnets and children's drawings in a small Eastern European apartment. The figure is shot from the side at hip level, body in a deep squat, knees hugged to chest. The right hand holds open the freezer door at the very top; the left hand is buried inside the freezer fog, presumably gripping something. The face is leaned into the freezer compartment, eyes closed, expression of ecstatic relief, hair lifting slightly in the cold-air draft. A halo of white frost-vapor curls out around the head. The figure wears a sweat-damp tank top and pajama shorts, ankle socks pushed down. Above the freezer door, an upper magnet display: a Crimean magnet, an Eiffel Tower magnet, a mosaic-tile magnet from Lisbon, and a child's crayon drawing of a yellow sun with a face. The kitchen behind is summer-stifling: a fan blurring on a stool, an empty glass on the floor with a melting ice cube, sweat-drips of condensation on the linoleum. Lighting is hot orange evening sun slanting through a window blind in horizontal stripes across the figure's back. The concept is heatwave coping."
+        },
+        {
+          "id": "U08",
+          "title": "Winter Rooftop Edge",
+          "titleRu": "Край зимней крыши",
+          "description": "At the parapet at dusk, breath visible, city dimming below",
+          "descriptionRu": "У парапета в сумерках, дыхание видно, город тускнеет внизу",
+          "body": "SCENE: An illustration of a figure on the rooftop of an apartment block in winter, captured from a low-angle three-quarter perspective at dusk. The figure stands at the edge of a flat tar roof, framed against a deep cobalt sky. The figure is mid-throw: the body is twisted in a wind-up, right arm cocked back behind the shoulder, left arm pointing forward as a counterweight aim, knees bent. The right hand holds a paper airplane folded from a printed letter, with visible typed text. The face is intent, tongue caught at the corner of the mouth, eyes locked on a destination far beyond the frame. The figure wears a knee-length wool coat unbuttoned, a chunky knit scarf wrapped twice, fingerless gloves. On the rooftop foreground: a satellite dish with snow gathered on its rim, a metal vent issuing a small white plume, a string of forgotten holiday lights tangled along the parapet. The background skyline is a sea of identical apartment blocks with a thousand warm yellow window-squares, a half-frozen river snaking through, and a single low pink star. Lighting is steel-blue dusk with one warm sodium spill from a stairwell door behind the figure. The mood is a goodbye that wants to be heard by the city. EFFECTS: handwritten notes overlay, blue hour. The handwriting is fast cursive in black fountain-pen ink, scrawled across the sky and the rooftops in fragmentary phrases — \"I tried\", \"you weren't here\", \"they painted over the green door\", \"August again\" — written by the figure on the airplane itself before it was thrown, and now leaking off the page into the world."
+        },
+        {
+          "id": "U09",
+          "title": "Through the Fishbowl",
+          "titleRu": "Сквозь аквариум",
+          "description": "Face refracted through goldfish water, kitchen warped behind",
+          "descriptionRu": "Лицо преломлено сквозь воду с золотыми рыбками, кухня искажена позади",
+          "body": "SCENE: A close-up illustration of a figure, shot through the inside of a fishbowl. The fishbowl is large, round, on a kitchen table. The figure is on the far side of the bowl, face pressed close to the curved glass, distorted by the lensing of the water and glass into a wide-eyed caricature: enormous owlish eyes, narrowed forehead, cheeks flattened sideways. The mouth is open in a perfect \"O\" of conversation; the figure is clearly talking to the goldfish. A single goldfish hovers in the middle of the bowl, its body in sharp focus, mouth opening and closing in apparent reply. Bubbles rise behind it. The figure's right hand is raised on the far side of the glass, distorted finger pointing at something the fish can't possibly see. Behind the figure, blurred: a sunlit kitchen window with pale yellow curtains. Lighting is warm afternoon light filtering through the water, casting a wobbling caustic pattern on the figure's face and the table. The mood is patient one-sided friendship."
+        },
+        {
+          "id": "U10",
+          "title": "Zorb Down the Hill",
+          "titleRu": "Зорб с холма",
+          "description": "Mid-roll inside a translucent orb on a grassy slope, all chaos",
+          "descriptionRu": "Катится внутри прозрачного шара по травяному склону, сплошной хаос",
+          "body": "SCENE: A figure sits inside a giant translucent inflatable orb (zorb ball), captured in a wide outdoor shot with the orb mid-roll down a grassy hillside. The figure is mid-tumble inside, body curled defensively with arms wrapped around shins, head ducked between knees, hair flying upward in zero-gravity disarray. The face shows pure laughing terror, mouth wide open, eyes squeezed shut. The interior of the orb is webbed with air-cushion ribs that distort the figure's silhouette. The figure wears bright pink athletic shorts and a yellow t-shirt, one sneaker has come off and is rolling beside the body inside the ball. Outside the orb: a long green grass slope receding into a small mountain town with red roofs at the bottom, a flock of sheep scattered to the sides like exclamation marks, blue sky with cumulus, lens flare from the upper-left sun. The orb has rolled tracks behind it and a small disturbed bee swarm rising in the wake. Lighting is bright midday with strong rim through the translucent plastic. Mood: physical-comedy euphoria. NEGATIVE: visible zipper of the orb (it must look seamless). EFFECTS: motion blur, lens flare."
+        },
+        {
+          "id": "U11",
+          "title": "Orchard Swing",
+          "titleRu": "Качели в саду",
+          "description": "Low-angle on a creaky swing in autumn, ropes climbing into branches",
+          "descriptionRu": "Нижний ракурс на скрипучих качелях осенью, верёвки в ветвях",
+          "body": "SCENE: A figure sits on a creaky wooden swing in an unkempt orchard at the edge of autumn. The shot is low-angle from the ground, looking up. The swing's two ropes climb diagonally out of the frame. The figure is in a relaxed slump, both knees together and slightly to one side, both hands gripping the ropes loosely. The head is tipped back against the rope, throat exposed, eyes closed, lips quirked in a private half-smile as if hearing a joke. A single red apple is balanced precariously on the figure's lap. Above and around: a canopy of half-bare apple branches, half the leaves yellow and the other half clinging green, scattered pale pink-white late blossoms confused by the season. Three apples hang at different heights. The sky beyond the branches is a high pale washed blue. On the ground far below, a basket already half-full of apples and one dozing tabby cat curled inside it. Lighting is flat soft mid-morning with warm patches reaching through gaps in the canopy. The mood is contented suspension between two seasons."
+        },
+        {
+          "id": "U12",
+          "title": "Clawfoot Bubble Bath",
+          "titleRu": "Пенная ванна на лапах",
+          "description": "Bolt-upright in iridescent bubbles, knees barely surfacing",
+          "descriptionRu": "Сидит прямо в радужной пене, колени едва над поверхностью",
+          "body": "SCENE: A digital illustration in 1:1 square aspect ratio. A figure sits bolt-upright in a clawfoot bathtub filled to the brim with iridescent soap bubbles, captured from the front. Bubbles rise above the figure's shoulders and trail down the chin and hair like a foam beard. The figure has fashioned a peaked bubble-crown atop the head and a bubble-monocle around the right eye. The right hand is raised aristocratically with a long-handled wooden bath brush held like a scepter; the left hand rests on the rim of the tub gripping a steaming porcelain teacup. The face is composed in a deeply serious, mock-imperial expression with eyebrows raised, mouth set in a tiny pursed line. In the background, a tiled bathroom wall in dusty turquoise hexagons, a frosted window admitting pale blue light, a brass faucet dripping a single suspended droplet, a rubber duck tilted as if bowing on the rim of the tub. Steam curls upward and condenses on the mirror in the corner where part of the figure's nonsense is reflected. Lighting is soft cool morning blue with the bubbles refracting tiny rainbows across the ceiling. Mood: solo dignified silliness. EFFECTS: rainbow prism overlay, soft focus."
+        },
+        {
+          "id": "U13",
+          "title": "Pottery Studio Selfie",
+          "titleRu": "Селфи в гончарной",
+          "description": "Half-turned at the wheel, clay-streaked apron, tripod-mounted phone",
+          "descriptionRu": "Полуобернулась за кругом, фартук в глине, телефон на штативе",
+          "body": "SCENE: Selfie. A figure has propped a phone on a tripod inside a pottery studio and is half-turned mid-task. Captured at a 3/4 angle with the figure off-center to the right of the frame. Both hands are wet with grey clay; the right hand cradles a half-formed bowl spinning on a wheel; the left hand is raised away from the wheel, index finger and thumb pinched together in a \"wait, picture first\" gesture toward the camera. There is a gray clay handprint smeared across the figure's left cheek and another on the apron. The figure wears a navy denim apron over a tank top, hair wrapped in a bandana, one streak of clay arcing from forehead to ear. Eyes are bright, mouth in a teeth-baring laugh. The wheel kicks up a faint fine spray. Behind the figure: shelves lined with greenware bowls in various stages, glaze buckets in deep colors, a wall of hanging tools, a single window pouring warm afternoon light onto the right side of the figure's face. The wheel-thrown bowl is slightly off-center and probably ruined. Mood: messy uninterrupted joy. Slight depth-of-field with the wheel sharp and shelves softly blurred."
+        },
+        {
+          "id": "U14",
+          "title": "Walking Down the Jetway",
+          "titleRu": "Идущий по телетрапу",
+          "description": "Silhouetted from behind walking into the open mouth of a jet",
+          "descriptionRu": "Силуэт сзади, идёт в открытое жерло трапа самолёта",
+          "body": "SCENE: A figure is captured from directly behind, walking away from the camera down the center of a wet airport jetway. The figure is silhouetted against the open mouth of the jetway where it meets the airplane door. Body weight is on the left foot, the right foot mid-stride, suitcase wheels rolling behind on the right and casting a thin water-trail on the rubber jetway flooring. The right hand pulls the suitcase; the left hand grips a wilting bouquet of supermarket tulips upside-down by the stems, three petals already fallen along the path behind the figure like a Hansel-trail. The head is tilted slightly to the right, hair caught mid-toss. The figure wears a long dark trenchcoat over jeans. Through the open airplane door at the far end, a slice of cabin interior glows warm amber, a crew member's silhouette frozen in greeting. Lighting is the cold corrugated fluorescents of the jetway against the warm cabin glow, splitting the figure into two color zones. Mood: a leaving that hasn't decided yet whether it's permanent. NEGATIVE: petals scattered ahead of the figure (they only fall behind)."
+        },
+        {
+          "id": "U15",
+          "title": "Night Greenhouse Profile",
+          "titleRu": "Профиль в ночной оранжерее",
+          "description": "Face pressed to glass at night, indoor jungle behind",
+          "descriptionRu": "Лицо прижато к стеклу ночью, тропический сад за спиной",
+          "body": "SCENE: A close-up portrait of a figure in a dimly lit greenhouse at night, captured at three-quarter angle. The figure's face is pressed in profile against the glass wall of an enormous fern terrarium that's almost the figure's height. The cheek is squashed flat, one eye visible peering inward, lips parted in awe. Inside the terrarium, a tiny cluster of bioluminescent mushrooms glows soft cyan, illuminating the figure's eye and cheekbone with cold light. The right hand is splayed flat on the glass at face height, fingertips pale where they press. The left hand holds a small notebook open with a pen tucked in the spine. The figure wears wire-rimmed glasses pushed up on the head, a thick green knit sweater, a leather satchel slung across the chest. Behind the figure: a botanical greenhouse interior with hanging baskets in shadow, a long wooden potting bench, and far in the back the warm yellow square of an overseer's office window. Lighting is pure mushroom-cyan on the figure's face plus a distant warm yellow rim from the office. Mood: scientific tender obsession."
+        },
+        {
+          "id": "U16",
+          "title": "Box-Stack in Empty Room",
+          "titleRu": "Ящики в пустой комнате",
+          "description": "Crouched on a single tower of moving boxes in vast white room",
+          "descriptionRu": "Присел на одной башне из коробок в огромной белой комнате",
+          "body": "SCENE: A figure crouches on a stack of moving boxes in an empty white-walled apartment, only one box high in the otherwise vast empty room. Wide shot, deep one-point perspective with the figure dead-center. Both forearms rest on the figure's knees, hands hanging limp, fingertips touching. The figure stares directly at the camera with a flat, exhausted, unreadable expression — not sad, not happy, completely emptied out. The figure wears paint-stained overalls, a faded t-shirt, hair scraped into a messy bun with strands escaping. The boxes are labeled in marker: \"KITCHEN\", \"BOOKS — DO NOT DROP\", \"MISC + FRAGILE\", \"??\". A single houseplant sits on the floor far to the right, a pizza box closed on the floor to the left, a forgotten roll of packing tape unspooling. The walls bear pale rectangles where art used to hang. Lighting is the cold flat overhead light of a ceiling fixture without a shade — bare bulb. The figure's shadow is short and severe. Mood: the limbo between two homes. EFFECTS: marker highlights overlay, high contrast. The marker overlay is yellow highlighter applied to the cardboard box labels in the scene — only the words \"FRAGILE\", \"DO NOT\", and \"??\" glow yellow as if someone has tried to study a moving day for a test, while the rest of the image is left flat."
+        },
+        {
+          "id": "U17",
+          "title": "Hot Spring at Night",
+          "titleRu": "Горячий источник ночью",
+          "description": "Floating in milky water, only head and limbs surfacing, stars above",
+          "descriptionRu": "Плывёт в молочной воде, только голова и конечности на поверхности, звёзды сверху",
+          "body": "SCENE: An overhead shot looking straight down at a figure floating on the back in a hot spring at night. The water is opaque pale milky blue, only the head, hands, knees, and tips of toes break the surface. The figure's eyes are closed, mouth in a small soft smile, hair fanning out in a dark anemone halo. Both hands float palms-up at hip level, fingers loose. A small wooden float-tray drifts beside the right hand carrying a single steaming sake cup and a folded paper crane. Around the figure, the milky water is dotted with stars — a perfect mirror reflection of the night sky overhead, but inverted: the brightest star is just below the chin. Wisps of steam curl up off the water in spirals. Surrounding the spring, the rim is rough volcanic black stone with a few patches of frost-edged moss. Lighting is starlight only; pale blue diffuse, with two distant warm lantern points at the corners of the frame. Mood: weightless union with sky."
+        },
+        {
+          "id": "U18",
+          "title": "Phone Booth in Neon Rain",
+          "titleRu": "Будка в неоновом дожде",
+          "description": "Inside a fogged booth on a soaked neon street, receiver to ear",
+          "descriptionRu": "Внутри запотевшей будки на залитой неоном улице, трубка у уха",
+          "body": "SCENE: A figure stands inside a phone booth at the corner of a deserted neon-soaked street in heavy rain. The booth's glass is fogged with breath and rain. The figure is in profile, the right shoulder pressed to one glass wall, the receiver of an old corded payphone held to the ear with the right hand, the cord stretched taut. The left hand is splayed flat on the opposite glass wall, fingers spread, condensation around them. The face is half-turned toward the camera — visible through the fogged glass and trickling water lines — eyes wide, mouth slightly open as if about to say a word never said. The figure wears a soaked dark coat with the collar turned up. Outside the booth: rain in horizontal sheets, a wet sidewalk reflecting magenta and electric-cyan signage from across the street, a single pedestrian-shaped silhouette far down the block under a yellow umbrella, a small abandoned bouquet of pink carnations in the gutter. Lighting is mixed neon — magenta key on the side of the face, cyan rim along the back, warm interior bulb of the booth tinting the breath-fog gold. Mood: a confession to a number that won't pick up."
+        },
+        {
+          "id": "U19",
+          "title": "Dune Under Meteor Shower",
+          "titleRu": "Дюна под метеорным дождём",
+          "description": "Kneeling at the crest of a dune, sky streaked with falling stars",
+          "descriptionRu": "На коленях на гребне дюны, небо исчёркано падающими звёздами",
+          "body": "SCENE: A figure is centered in a wide horizontal frame, kneeling at the edge of a desert dune at the absolute peak of a meteor shower. The figure faces away from the camera, kneeling upright with the back perfectly straight, head tilted up. Both arms are raised symmetrically overhead, palms together as if catching falling water. A single bright meteor's trail appears to plunge into the figure's cupped hands. The figure wears a long undyed linen robe that pools on the sand in a pale mound. Long hair falls down the back in a single unbraided river. Around the figure, sand is rippled in delicate wind patterns. Far in the background, a ridge of darker dunes cuts a gentle S-curve against the horizon. Above, the sky is a dense river of stars; perhaps a dozen meteor trails are visible at varying lengths, the longest ones curving gently with atmospheric perspective. Lighting is moonless starlight; the figure is lit only by the night sky and by a faint warm glow that seems to be coming from the cupped hands themselves, as if the meteor has actually arrived. Mood: liturgical desert silence. EFFECTS: long exposure, glow."
+        },
+        {
+          "id": "U20",
+          "title": "Diner Tailgate at Dusk",
+          "titleRu": "Кузов у закусочной в сумерках",
+          "description": "On the tailgate of a beat-up pickup outside a diner, legs swinging",
+          "descriptionRu": "На откидном борту пикапа у придорожной закусочной, ноги болтаются",
+          "body": "SCENE: A figure sits on the open tailgate of a beat-up pickup truck parked at a midwestern roadside diner at dusk. Medium shot from a low angle. The figure swings both legs over the tailgate's edge, ankles crossed, kicking gently at the air. The right hand cups a chocolate milkshake topped with a maraschino cherry; the straw is in the figure's mouth mid-sip. The left hand holds a folded greasy paper bag of fries on the lap, one fry pinched between thumb and forefinger of the right hand even as that hand also holds the milkshake (improbable but committed). The figure's eyes are crinkled in pleasure, head tilted slightly, gazing somewhere into the middle distance. The figure wears a denim jacket over a faded band t-shirt, cuffed jeans, scuffed cowboy boots. Inside the truck bed behind: a rolled-up sleeping bag, a battered acoustic guitar without a case, a road atlas open and fluttering, a tangle of camping rope. Behind the truck, the diner's vintage neon \"OPEN\" sign and a slice of empty highway disappearing into a flat horizon under a sherbet sunset. Lighting is warm magenta-orange from the sky plus a buzzing red wash from the diner sign. Mood: contented vagrancy."
+        },
+        {
+          "id": "U21",
+          "title": "Lone House in Snow Field",
+          "titleRu": "Дом в снежном поле",
+          "description": "Tiny on the doorstep of a single house in an endless snow field",
+          "descriptionRu": "Крошечная фигурка у порога одинокого дома в бескрайнем снегу",
+          "body": "SCENE: A digital illustration of a figure standing on the doorstep of a tiny isolated house in a vast snowy field, captured from medium-far. The whole frame is dominated by white snow and white sky, the small dark house and figure in the center. The door of the house is open behind the figure, spilling warm yellow light onto the snowy step. The figure stands frozen mid-step, half-out, half-in, with one boot still on the threshold and one in the snow. The right hand grips a heavy coat that's only on one shoulder, the other arm not yet through the sleeve. The left hand is raised flat in a \"wait\" gesture, palm out, toward something off-frame to the left. The face is turned to the same direction, mouth open in a small surprised \"oh\", eyes fixed on what we cannot see. Around the house, virgin snow stretches to a flat horizon, a single line of fence-posts marching off to the right corner. A single wisp of chimney smoke. Lighting is the warm interior glow against the cold blue ambient of arctic afternoon. Mood: an interrupted decision."
+        },
+        {
+          "id": "U22",
+          "title": "Diner Booth, Jukebox Glow",
+          "titleRu": "Закусочная в свете музыкального автомата",
+          "description": "Slumped low in a red vinyl booth, lit only by a glowing jukebox",
+          "descriptionRu": "Сполз вниз в красном виниловом диванчике, освещён только музыкальным автоматом",
+          "body": "SCENE: A close-up of a figure inside a vintage diner booth at midnight, lit only by an enormous jukebox. The figure has slid down low in the red vinyl booth so the chin almost touches the formica table. Only the upper half of the face is above the table edge — eyes half-lidded, eyebrows up in a slow sleepy seriousness. The right hand is raised above the table, holding a single french fry pointed at the camera like a fencing épée. The left hand is hidden under the table. On the table: a half-eaten cheeseburger, a malted milkshake with a long-straw poking up, a small ceramic ashtray, a folded handwritten note. The booth's red vinyl is cracked along the top piping. The jukebox dominates the right side of the frame, glowing in pulses of pink, gold, and teal. Lighting is jukebox-driven, color-cycling, with rainbow gels chasing across the figure's face frame by frame. The chrome of the table and the napkin dispenser catches the colors. Mood: delirious 2 a.m. seriousness. EFFECTS: scan lines overlay, chromatic aberration."
+        },
+        {
+          "id": "U23",
+          "title": "Dawn Surf, Rolled Jeans",
+          "titleRu": "Прибой на рассвете, подвёрнутые джинсы",
+          "description": "Ankle-deep in gray surf at dawn, toes burrowed in wet sand",
+          "descriptionRu": "По щиколотку в сером прибое на рассвете, пальцы зарыты в мокрый песок",
+          "body": "SCENE: A figure stands ankle-deep in the surf of a gray ocean at dawn, captured in profile from the thigh up. The figure has rolled jeans up to mid-shin, the toes are buried. Both hands are tucked deep into the front pockets of an oversized fisherman's sweater. The shoulders are slightly hunched against the cold. The head is lowered, gaze fixed on the foam swirling around the ankles, hair lifting in the offshore breeze. A small flock of dunlins is suspended mid-flight just past the figure's shoulder, tracing a low V. The horizon is a soft pearl-gray meeting a deeper slate sea, no sun visible — only its diffuse rumor lighting the underbelly of the cloud bank in cold rose. Wet sand stretches behind the figure with a single line of footprints leading from the upper-right corner. A piece of green sea-glass winks from beside the right foot. Mood: pre-coffee ocean truce."
+        },
+        {
+          "id": "U24",
+          "title": "Night Bus Window",
+          "titleRu": "Окно ночного автобуса",
+          "description": "Slumped sideways on a long bench, forehead against the window",
+          "descriptionRu": "Развалился боком на длинном сиденье, лоб прижат к окну",
+          "body": "SCENE: A figure rides a city bus at night, captured from across the aisle. The figure sits sideways on a long bench seat, body slumped against the rear-side window, head tilted, one cheek squashed against the cold glass. Eyes are wide open, glassy with exhaustion, staring at the camera with no recognition — a person who has gone through the wall. The right arm hugs a backpack pulled into the lap; the left hand is wedged between the thigh and the seat, holding a melting ice-cream cone partially upside down. A drip has reached the wrist. The figure wears a thin parka, one earbud dangling out and the other still in. Behind the figure, the dark city slides past the window in neon streaks — pink, green, white — blurred long-exposure shapes. The bus interior is jaundiced fluorescent yellow with hard shadows under the seats. A single other passenger is slumped at the back of the frame, only their hat visible. Lighting is hard greenish-yellow overhead and pink-blue motion-streaks from outside, mixing on the figure's face. Mood: late-shift commuter dissociation."
+        },
+        {
+          "id": "U25",
+          "title": "Eye of the Mess",
+          "titleRu": "Око хаоса",
+          "description": "Calm centre of a tornado-struck bedroom, everything else in chaos",
+          "descriptionRu": "Спокойный центр разрушенной спальни, всё остальное в хаосе",
+          "body": "SCENE: A figure is captured from the front, sitting calmly at the eye of an absolutely chaotic bedroom that looks tornado-struck, in a wide interior shot. The figure sits cross-legged in the exact center of a bare patch of carpet, hands folded primly in lap, posture upright, expression saintly serene with eyes gently closed and a small smile. The chaos radiates outward in a perfect debris circle: an explosion of clothing, scattered papers, knocked-over books, a collapsed shoe rack, a houseplant on its side spilling soil, a fallen lamp still lit and pointing wrong, a single sock improbably stuck to the ceiling, an open suitcase upended. A laptop balanced on a teetering pile flickers with a paused cartoon. The figure wears clean folded-looking pajamas, hair brushed. Lighting is the warm cozy glow of the still-on lamp from the floor mixed with cold blue from the laptop screen. Mood: meditative defeat. NEGATIVE: tidy room (the chaos must be visibly extreme)."
+        },
+        {
+          "id": "U26",
+          "title": "Bridge Railing at Dusk",
+          "titleRu": "Перила моста в сумерках",
+          "description": "Perched sideways on iron rail, city skyline behind",
+          "descriptionRu": "Сидит боком на железных перилах, силуэт города позади",
+          "body": "SCENE: A digital illustration of a figure perched on the iron railing of a bridge at dusk. Medium-wide shot, the figure to the left third of the frame. The figure sits sideways on the railing, both legs swung over to the river side of the bridge, with the left arm wrapped around a vertical iron support and the right hand cupped around the mouth as if calling out across the water. The face is in three-quarter view to the camera, mouth open in mid-shout, eyes squinted in the effort. The figure wears a long, billowing rain jacket the color of egg yolk, and rubber boots. Below the bridge, the river is a wide dark pewter ribbon with a single skinny sculler far downstream, and a flock of geese in a low V cutting the water. Across the river, a bank of half-built brutalist apartment blocks under cranes, lit by sodium worklights. The bridge itself is rust-streaked iron lattice. Lighting is overcast dusk with a single distant orange crane light. Mood: shouted secret to a city that doesn't care."
+        },
+        {
+          "id": "U27",
+          "title": "Radio Booth, Headphones",
+          "titleRu": "Радиостудия, наушники",
+          "description": "On a stool with oversized cans, hands cupping the mic in confession",
+          "descriptionRu": "На стуле в больших наушниках, ладони обнимают микрофон в исповеди",
+          "body": "SCENE: An illustration captured at eye-level inside a small recording booth in a radio station. The figure sits on a stool wearing oversized headphones, both hands wrapped tight around the metal lollipop microphone in front. The figure is leaned forward into the mic with mouth open mid-word, eyes locked closed, expression utterly absorbed. A faint blush. The figure wears a cozy oatmeal-colored cardigan, the sleeves pulled down over the hands. On the music stand: a stack of yellow scripts, the top page underlined heavily in red marker, a steaming mug of tea. The booth walls are foam-cone soundproofing in alternating teal and gray hexagonal panels. Through a small interior window behind the figure, a producer in headphones is visible giving a thumbs-up. The \"ON AIR\" sign glows red above the door, casting a faint warm wash. Lighting is a single overhead LED key plus the red ON-AIR ambient, splitting the figure into two-tone. Mood: confiding to ten thousand strangers at once."
+        },
+        {
+          "id": "U28",
+          "title": "Zero-G Fetal Float",
+          "titleRu": "Поза эмбриона в невесомости",
+          "description": "Curled in a small spacecraft, hair fanned out around the head",
+          "descriptionRu": "Свернулся в маленьком корабле, волосы веером вокруг головы",
+          "body": "SCENE: A figure floats in zero-gravity in the cylindrical interior of a small spacecraft, captured in a square 1:1 frame. The figure is curled into a loose fetal float, body tilted at a 30-degree off-axis angle, hair fanned upward. Both hands cradle a small clear glass globe of water with a single goldfish swimming inside. The figure's eyes are open in calm wonder, gazing at the fish. The figure wears a white jumpsuit with patches on the shoulder, socks, no shoes. Around the figure, the cylindrical cabin: padded walls in pale beige, multiple small portholes around the curve, a clipboard tethered by a curling cord, a half-eaten food pouch drifting near the ceiling, a stylus floating beside it. Out the largest porthole, Earth fills the view as a curve of blue and white cloud, the terminator line cutting across continents. Lighting is two-source: a hard white astronaut spotlight directly above and the soft Earth-glow from the porthole bouncing pale blue along the figure's underside. Mood: gentle interstellar custodianship."
+        },
+        {
+          "id": "U29",
+          "title": "Sprint Across the Field",
+          "titleRu": "Бег через поле",
+          "description": "Mid-stride across dry summer grass, both legs airborne, eyes ahead",
+          "descriptionRu": "В шаге через сухую летнюю траву, обе ноги в воздухе, взгляд вперёд",
+          "body": "SCENE: A figure runs full-tilt across a flat field of dry summer grass, captured from a side tracking angle, mid-stride. Both legs are airborne, body tilted forward, arms pumping with the right arm forward and the left arm back. The figure clutches a long red ribbon of kite string in the right hand; behind the figure, against a brilliant summer sky, an enormous handmade box-kite — six panels of mismatched fabrics: paisley, gingham, polka-dot, plain — soars far above. The figure's head is thrown back to see the kite, mouth wide open in an unrestrained scream of laughter, hair flying. The figure wears denim shorts, a sleeveless white tank, dirty sneakers. The grass is dotted with white and yellow daisies. The horizon is a long line of dark green forest. The sky is cobalt with three perfect fluffy cumulus clouds spaced like a rhythm section. Lighting is direct overhead summer sun with rich saturated colors. Mood: the perfect fact of running with a kite in any decade. EFFECTS: crayon drawing overlay, motion blur. The crayon overlay is in primary fat-stick colors drawn directly across the sky and grass: a crooked yellow sun in the upper-left with a smiling face, three blue scribble-clouds, the kite outlined in red as if traced over the photograph, and the words \"I FLEW\" in shaky green capital letters along the bottom edge — drawn by the figure himself the day after, on a printed copy."
+        },
+        {
+          "id": "U30",
+          "title": "Climbing in the Window",
+          "titleRu": "Влезает в окно",
+          "description": "Half-through a darkened kitchen window, frozen in mid-trespass",
+          "descriptionRu": "Наполовину влез в тёмное кухонное окно, замер на полпути",
+          "body": "SCENE: A digital illustration of a figure climbing through the open window of a kitchen at the back of a darkened house — captured from inside the kitchen looking at the window. The figure is straddling the window-frame, halfway in, halfway out: the right leg already on the linoleum kitchen floor, the left leg still on the back porch outside. Both hands grip the upper window frame above the head. The body is twisted to face the camera; the face is caught in a \"shhh\" expression — index finger of an impossible third hand would be at the lips, but here the figure compromises by biting the lower lip. Eyes are wide and gleaming. The figure wears all black, a beanie pulled low, and is conspicuously carrying a giant cardboard birthday cake box strapped to the back like a backpack. On the kitchen counter behind the camera POV, a sleeping dog is visible on its bed, ears beginning to twitch. Outside the window, a moonlit suburban backyard with a swing set. Lighting is silver-blue moonlight through the window mixed with the dim red glow of a microwave clock from the camera's side. Mood: surprise-party reconnaissance."
+        },
+        {
+          "id": "U31",
+          "title": "Pink Bubblegum Bubble",
+          "titleRu": "Розовый пузырь жвачки",
+          "description": "Inside a car-sized chewing-gum bubble he's still blowing",
+          "descriptionRu": "Внутри пузыря жвачки размером с машину, который всё ещё надувает",
+          "body": "SCENE: A figure sits inside an enormous translucent bubble of pink chewing gum, captured eye-level. The bubble is the size of a small car and is being inflated by the figure who is in the act of blowing it; it has stretched far past the face and now the head is barely visible inside the gum, the figure's hair and face squashed in pink translucent membrane. The eyes are bulging slightly with comic strain, eyebrows up high. Both hands are pressed against the inside walls of the bubble, fingers spread. The figure wears a 90s tracksuit in baby blue and a backwards baseball cap. The setting is a cracked basketball court at night under a single orange sodium lamp. A skateboard lies abandoned in the foreground. Lighting is one overhead sodium key from above-right that glows through the pink gum, turning the figure into a pink-gold silhouette. Mood: the precise instant before catastrophic pop. NEGATIVE: gum already burst."
+        },
+        {
+          "id": "U32",
+          "title": "3 A.M. Produce Aisle",
+          "titleRu": "Овощной отдел в 3 ночи",
+          "description": "Squatting low in fluorescent grocery aisle, lemon in hand",
+          "descriptionRu": "Присел в овощном отделе под флуоресцентной лампой, лимон в руке",
+          "body": "SCENE: A figure crouches in the produce aisle of a fluorescent-lit late-night grocery store, captured from a low angle along the floor. The figure is in a deep squat, knees together, arms resting on knees, both hands cupping a single large overripe peach as if it were a small holy object. The face is bent low to it, eyes closed, the figure has clearly just sniffed and is in a state of mid-revelation. The figure wears a long camel coat over flannel pajamas, sheepskin slippers, hair half-tied. Around the squat: glossy mountains of stacked produce — apples, pears, mangoes — in tiered displays under a misting jet that has just released a curtain of water-fog over the greens behind. A spinning rack of plastic produce bags, a forgotten basket on the floor with a baguette, a single rolling avocado. Lighting is unforgiving overhead fluorescent flat with the mister catching the cold light in tiny droplets. Mood: 11 p.m. agricultural epiphany."
+        },
+        {
+          "id": "U33",
+          "title": "Backwards Dive into Laundry",
+          "titleRu": "Падение спиной в бельё",
+          "description": "Horizontal mid-fall above a pile of unfolded laundry",
+          "descriptionRu": "Горизонтальный полёт спиной над кучей нескладного белья",
+          "body": "SCENE: A figure stands in the middle of a bedroom doing a perfect backwards dive onto a pile of unfolded laundry. Captured mid-flight, the figure horizontal in the air about to land, body fully arched in a perfect swan-dive backbend. Both arms are out in a T, eyes closed, mouth in a beatific pre-impact smile. The figure wears mismatched pajamas: striped pants, a polka-dot top. Hair flying. The pile of laundry below is an impossible mound of clean folded items already going to be re-rumpled — towels, t-shirts, fitted sheets, a single sock fluttering off the top in disturbed air. A woven laundry basket lies tipped on its side. The bedroom around: an unmade bed, a wall of pinned photos, an open closet, a guitar leaned in the corner, a string of fairy lights along one wall. Lighting is warm afternoon golden hour from the window, igniting the laundry pile in honeyed light. Mood: domestic-physics rebellion."
+        },
+        {
+          "id": "U34",
+          "title": "Peeking from a Box",
+          "titleRu": "Выглядывает из коробки",
+          "description": "Half-visible above the rim of a giant cardboard moving box",
+          "descriptionRu": "Виден наполовину над краем огромной картонной коробки",
+          "body": "SCENE: A figure is captured peeking out from inside a very large cardboard moving box in the middle of an empty living room. Only the top half of the figure is visible above the box's open flaps. Both hands grip the box rim. The figure has placed an old colander on the head as a knight's helmet. The face is composed in a heroic forward gaze with a single eyebrow raised, mouth set in stoic determination, a streak of marker on the cheek as warpaint. A wooden spoon is gripped in the right hand and held upright like a sword. The box is labeled in marker: \"FRAGILE — WAR MACHINE\". The room around the box is otherwise nearly empty: bare walls with picture-hook holes, two cardboard boxes stacked at the side, a single house plant, a sleeping dog with one eyebrow raised at the figure. Lighting is bright white midday from a curtainless window, casting hard shadows. Mood: the chivalry of moving day."
+        },
+        {
+          "id": "U35",
+          "title": "Coffee Cup, Cupped Hands",
+          "titleRu": "Кружка кофе в ладонях",
+          "description": "Tight close-up, steaming cup raised under the chin, soft warmth",
+          "descriptionRu": "Тесный крупный план, дымящаяся кружка под подбородком, мягкое тепло",
+          "body": "SCENE: A figure is captured indoors in a very tightly cropped close-up, holding a single steaming cup of coffee in cupped hands directly under the chin. The cup is in the immediate foreground. Steam rises and curls in soft tendrils around the figure's chin and lower face. The figure's eyes are visible above the steam, half-closed in pre-caffeine zombification, dark circles beneath. The mouth behind the steam is set in a flat tired line. Hair is wild bedhead. The figure wears a thick oatmeal-cable-knit sweater, the cuffs falling around the hands. Behind the figure, soft out-of-focus blur: a sunny window, a paperback book face-down, a houseplant. Lighting is morning-window soft, with the steam catching the directional light in feathered rays. Mood: the small minute before a person becomes a person again."
+        },
+        {
+          "id": "U36",
+          "title": "Rural Platform, One Lamp",
+          "titleRu": "Сельская платформа, один фонарь",
+          "description": "Tiny under a single lamp-post on a country platform at night",
+          "descriptionRu": "Крошечная фигурка под одним фонарём на сельской платформе ночью",
+          "body": "SCENE: A figure stands on a rural train platform at night, captured from across the tracks looking at the figure under a single lamp-post. The figure is small and centered, holding a small leather suitcase in the right hand at the side, the left hand raised in a flat, simple wave to no one — just the empty rails. The face is a small smile, neither happy nor sad, eyes lifted. The figure wears a wool greatcoat that nearly reaches the ground, a knit hat. The platform is pale concrete, a single wooden bench off to the right, a metal sign reading \"PLATFORM 2\". Beyond the platform, the small ticket-house is dark. Past the rails, fields of black grass, a far line of pines, an enormous low full moon rising. The lamp's halo above the figure is the only warm thing in the scene. Lighting is one tungsten lamp casting a perfect cone of warm yellow on the figure with cool deep-blue ambient everywhere else. Mood: arrival and departure indistinguishable."
+        },
+        {
+          "id": "U37",
+          "title": "Hostel Bathtub Squat",
+          "titleRu": "На корточках в ванне хостела",
+          "description": "Folded into a tiny hostel tub, looking up through the curtain",
+          "descriptionRu": "Сложился в крошечной ванне хостела, смотрит вверх сквозь штору",
+          "body": "SCENE: A figure squats inside an empty bathtub in a small low-ceilinged hostel bathroom, captured at a downward angle through the open shower curtain. The bathtub is a pale yellow porcelain. The figure has not run any water; instead, the tub is covered in a layer of crumpled travel-receipts, train tickets, foreign banknotes, and dog-eared postcards. The figure is in the act of reading one — a postcard held in both hands at face-height, brow furrowed, eyes scanning. A small smile is forming at the corner of the mouth. The figure wears traveler's clothes — a faded band t-shirt, loose linen pants — and is barefoot. A backpack lies open on the bathroom floor outside the tub, more papers spilling out. The bathroom is tiled in cracked beige hexagons, a buzzing fluorescent strip light overhead, a tiny window with frosted glass admitting blue evening. Lighting is harsh fluorescent overhead, color-temperature mismatched with the warm window blue. Mood: archaeology of a long trip."
+        }
+      ]
+    },
+    {
+      "id": "couple",
+      "name": "Couple",
+      "nameRu": "Пара",
+      "description": "20 two-figure scenes about intimacy, friction, and quiet closeness",
+      "descriptionRu": "20 парных сцен об интимности, трении и тихой близости",
+      "prompts": [
+        {
+          "id": "61",
+          "title": "Candlelit Attic Armchair",
+          "titleRu": "Кресло в свечах на чердаке",
+          "description": "Two figures sharing one chair, a grape mid-air between them",
+          "descriptionRu": "Двое в одном кресле, виноградина в воздухе между ними",
+          "body": "SCENE: A digital illustration in 16:9 aspect. Two figures share a single oversized armchair in a candlelit attic. The first figure (right) is sprawled sideways across the chair with the legs draped over one armrest; the head rests in the lap of the second figure (left), who sits properly upright. The second figure looks down at the first figure with an expression of patient indulgence; the first figure looks straight up at the second figure with a wide goofy grin, mouth open mid-joke. The second figure's right hand is in the act of feeding a single grape into the first figure's open mouth — the grape suspended midair between thumb and forefinger. The second figure's left hand absently strokes the first figure's hair. The first figure's left hand drapes off the side of the chair holding a paperback novel face-down; the right hand is raised, fingers curled around the wrist of the second figure as if holding a pulse. The first figure wears striped pajamas; the second figure wears a long velvet robe over a slip. Around them, an attic with sloped wooden beams, a stained-glass round window, towers of stacked books, three lit candles in mismatched holders, a sleeping ginger cat at their feet. Lighting is warm orange candlelight from below-screen-left and cooler moonlight from the round window. Mood: long-broken-in love. EFFECTS: pen doodles overlay, soft focus. The doodles are blue ballpoint, scrawled across the attic walls behind the figures: a small heart with both their initials inside (just \"M+\" and \"+J\", placeholders), a crooked arrow pointing at the candle that says \"still on FIRE 8 yrs\", a small star above the cat. The doodles are clearly the work of one of them on a long boring afternoon."
+        },
+        {
+          "id": "62",
+          "title": "Running in the Rain",
+          "titleRu": "Бег под дождём",
+          "description": "Both airborne mid-stride on a wet boardwalk, umbrella inverted",
+          "descriptionRu": "Оба в полёте на мокром настиле, зонт вывернут наизнанку",
+          "body": "SCENE: An illustration of two figures running together along a wet boardwalk in the rain, captured in a side tracking shot, both fully airborne mid-stride. The first figure (left) is taller and is leaning forward, the right arm thrown up overhead holding a small umbrella that is doing nothing useful in the wind, the umbrella inverted. The first figure's left hand is locked in an iron grip with the second figure's right hand. The second figure (right) is laughing so hard the eyes are squeezed shut, head thrown back, free left hand flung wide for balance, hair plastered to the face. Both are completely soaked. The first figure wears a long oversized blazer turned dark with rain over jeans; the second figure wears a yellow summer dress now translucent and clinging, sneakers. Spray kicks up at every footfall. Around: a wet wooden boardwalk slick with sheen, a row of arcade façades on the right (cracked neon \"RIDES\", a faded carousel just visible, a closed cotton candy stand), the dark gray ocean to the left with white-cap waves, a sky of sheeting rain. A single seagull is hunkered on a railing, judging. Lighting is overcast diffuse with the warm pinks of the arcade neon kicking in along the right. Mood: weather as accomplice."
+        },
+        {
+          "id": "63",
+          "title": "Threaded Fingers, Silver",
+          "titleRu": "Сплетённые пальцы, серебро",
+          "description": "Extreme close-up of laced hands with a silver thread between fingers",
+          "descriptionRu": "Крупный план сплетённых рук, серебряная нить между пальцами",
+          "body": "SCENE: An extreme close-up of two figures' clasped hands in the immediate foreground, occupying the right two-thirds of the frame. The first figure's hand is on top, fingers laced through the second figure's. A simple silver thread is knotted around the joined index fingers. The skin tones differ; the first figure's hand has chipped black nail polish and three small henna marks on the back, the second figure's hand has a faint scar across the knuckles. Out of focus behind the hands, far in the background, both figures are barely visible: one in a deep red sweater, one in a pale blue shirt, both seated at a small café table outdoors, faces turned away from the camera, both looking at the same far-off thing. The table holds two espresso cups, one almost full and one almost empty. The café is on a cobblestoned European side-street. The depth of field is razor-thin: only the threaded fingers are sharp. Lighting is warm late-afternoon side-light catching on the fine silver thread, making it glow. Mood: a vow agreed to wordlessly. EFFECTS: bokeh, golden hour."
+        },
+        {
+          "id": "64",
+          "title": "Dorm Bed Top-View",
+          "titleRu": "Кровать в общаге сверху",
+          "description": "Two heads opposite, feet tangled in the middle of a twin bed",
+          "descriptionRu": "Две головы напротив, ноги переплетены посередине",
+          "body": "SCENE: An overhead bird's-eye view directly above a small twin bed in a college dorm. Two figures are crammed onto the narrow mattress in opposite directions: the first figure's head is at the top of the bed (facing the foot), the second figure's head is at the foot of the bed (facing the top). Both are on their backs, looking up at the camera/ceiling. Their feet meet in the middle and are casually tangled. The first figure (top of frame) holds an open laptop balanced on the chest; on the laptop screen visible from above, a paused movie. The second figure (bottom of frame) holds a giant bag of popcorn between both hands at chest level. Both faces are tilted slightly, mouths open in mid-laugh, eyes locked on each other across the upside-down geometry. A pile of pillows is shoved against the wall on one side. Strewn on the bed and floor: open textbooks, fairy lights tangled, an empty pizza box, a single fuzzy slipper. The bedspread is tie-dyed. Lighting is the cool blue glow of the laptop combined with one warm desk lamp tilted strangely off the desk. Mood: the casual closeness of long platonic intimacy. EFFECTS: sticker collage overlay, cool tones."
+        },
+        {
+          "id": "65",
+          "title": "Library Aisle Meet-Cute",
+          "titleRu": "Случайная встреча в библиотеке",
+          "description": "Reaching for the same green book on a bottom shelf, hands almost meeting",
+          "descriptionRu": "Тянутся за одной зелёной книгой, ладони почти встречаются",
+          "body": "SCENE: A digital illustration of two figures meeting unexpectedly in a narrow library aisle. Captured from a low angle along the floor between two tall shelves of books vanishing into one-point perspective. Both figures are crouched at exactly the same low shelf, reaching for the same book, their fingers about to meet on the same dark green spine. Both have frozen in the small instant of mutual recognition. The first figure (left) has long hair half-falling forward, eyes wide; the second figure (right) wears small round glasses, mouth open as if about to apologize. Their other hands grip clutched stacks of books against their chests in mirrored postures. Both are kneeling with one knee on the carpet, one foot flat. A single dust mote floats between them. Around: floor-to-ceiling old wooden shelves, the books worn and various, a brass shelf-label visible reading \"POETRY 821-825\", a sleeping cat-shaped doorstop. The library beyond the aisle is darker and warmer with green-shaded lamps. Lighting is one shaft of cool window light cutting across the aisle from the left, illuminating the dust between the meeting hands. Mood: the precise photographable instant of meet-cute."
+        },
+        {
+          "id": "66",
+          "title": "Head-to-Head in Wheat",
+          "titleRu": "Голова к голове в пшенице",
+          "description": "Side-by-side on backs at twilight, hands meeting above the heads",
+          "descriptionRu": "Рядом на спинах в сумерках, руки соединены над головами",
+          "body": "SCENE: A wide horizontal illustration of two figures lying flat on their backs side-by-side in a wheat field at twilight. Captured from directly above. They lie head-to-head, tops of heads touching, bodies extending in opposite directions making a single long line. Both are looking straight up at the camera/sky. The first figure (frame-left torso) has one knee bent, foot flat in the wheat; the second figure (frame-right torso) has both legs straight. Their hands meet between the heads in a casual interlace at the top of the frame. The first figure holds a small bundle of wildflowers loosely in the free outer hand; the second figure holds a single Polaroid photograph face-down in the free outer hand. Both wear soft pastels that don't match — first figure in a faded sage shirt, second figure in dusty rose. The wheat is golden-amber under twilight, lying in a flattened depression made by their bodies. The sky is a deep purple-blue with the first three stars visible. Lighting is the dying red-violet of last sunset on the cheeks, an even ambient blue from the sky on the bodies. Mood: parallel solitude that has chosen each other."
+        },
+        {
+          "id": "67",
+          "title": "Kitchen Slow Waltz",
+          "titleRu": "Медленный вальс на кухне",
+          "description": "Barefoot ballroom frame on checkered linoleum, foreheads touching",
+          "descriptionRu": "Босиком в бальной позе на шахматном линолеуме, лбы соприкасаются",
+          "body": "SCENE: A close-up illustration of two figures locked in a slow waltz inside a tiny rural kitchen. Both are barefoot on a black-and-white checkered linoleum floor. The first figure (lead, left) holds the second figure's right hand at shoulder height in a classic ballroom frame; the first figure's right hand rests at the small of the second figure's back. The second figure (follow, right) has the left hand resting at the first figure's shoulder. Their faces are very close, foreheads almost touching, eyes closed, both wearing small private smiles. The first figure wears a wrinkled white button-down shirt, sleeves rolled, brown trousers. The second figure wears a worn-out plain grey t-shirt and pajama shorts. The kitchen is small and lived-in: a pot bubbling on a gas stove behind them with steam rising, a mismatched mug on the counter, a window above the sink full of late-evening pale rose light, a hanging strip of dried herbs, an old portable radio plugged in on the counter playing something only they hear. A wooden spoon rests forgotten on the floor near their feet. Lighting is the warm tungsten over-stove lamp with cool pink window light. Mood: a romance that doesn't need an audience."
+        },
+        {
+          "id": "68",
+          "title": "Subway Stares Across Aisle",
+          "titleRu": "Взгляды через проход в метро",
+          "description": "Four feet of empty aisle between two seated figures, mutual gaze",
+          "descriptionRu": "Четыре фута пустого прохода между двумя сидящими, обмен взглядами",
+          "body": "SCENE: An illustration captured from inside a moving subway car at night. Two figures sit across the aisle from each other, each in a separate row of seats, facing each other. The car is otherwise empty. The first figure (left of frame) sits with knees together, hands folded in lap, gazing intently at the second figure with a small uncertain smile. The second figure (right of frame) leans back with one arm slung over the seat-back, head tilted, returning the gaze with a steadier, half-amused expression — one eyebrow raised. There are precisely four feet of empty subway aisle between them. Neither wears outdoor gear that matches; the first figure has a short floral dress and combat boots, the second figure has a charcoal suit with no tie. Above their heads, the subway car's overhead grab-rail and a row of advertisements: a generic fake travel poster (\"PARADISE\"), a missing-cat poster, a public service announcement. Through the dark windows behind them, light-streaks of the tunnel race horizontally, giving a sense of speed. Lighting is harsh blue-white fluorescent overhead with subtle vibration blur visible only on the seats — they are perfectly sharp. Mood: the lengthy held moment of \"should I move closer?\"."
+        },
+        {
+          "id": "69",
+          "title": "Balloon Basket Anchor",
+          "titleRu": "Якорь в корзине воздушного шара",
+          "description": "One leans out shouting, the other grips their coat with affection",
+          "descriptionRu": "Один свесился с криком, другой держит его за пальто с нежностью",
+          "body": "SCENE: A medium-shot illustration of two figures in a hot-air balloon basket, captured from across the basket as if from another nearby balloon. The first figure (left in basket) leans far over the wicker rim, both forearms on the lip, mouth wide open in a delighted shout downward at the world below, hair streaming back, eyes squinted in the wind. The second figure (right in basket) has one hand calmly on the burner-rope handle keeping the balloon steady, the other hand reaches forward to grip the back of the first figure's coat in a gentle \"don't fall\" anchor. The second figure smiles at the first figure with fond amusement, head shaking. Both wear thick winter coats — the first in a vintage red wool, the second in a long brown duster. The wicker basket is covered in stickers and a small picnic basket and a thermos. Above them, the giant balloon canopy is a riot of patchwork colors. Below: the green-and-tan patchwork of farmland at dawn, a thin river ribbon, two horses in a field looking up. Lighting is direct golden dawn from screen-right with a strong warm rim around both heads and the edge of the balloon. Mood: one careful, one boundless."
+        },
+        {
+          "id": "70",
+          "title": "Fire Escape Cigarette",
+          "titleRu": "Сигарета на пожарной лестнице",
+          "description": "Shoulders touching on iron stairs at twilight, mostly silence",
+          "descriptionRu": "Плечи соприкасаются на железных ступенях в сумерках, тишина",
+          "body": "SCENE: A close-up of two figures sitting together on a fire escape stair landing at twilight, captured from a slightly low front angle. They are seated on the same metal grating step. The first figure (left) sits hugging knees to chest, chin resting on the knees, looking straight at the camera with a small contented sleepy expression. The second figure (right) sits with legs dangling between the iron bars, leaning back on both palms behind, head tipped back to the sky, eyes closed. Their shoulders touch. A single shared cigarette is held between the second figure's lips; smoke curls upward. The first figure's right hand is holding a half-eaten plum; the second figure's right hand has a small cassette tape balanced on the kneecap. The first figure wears a vintage leather jacket two sizes too big over a band shirt; the second figure wears an oversized white button-down with the sleeves rolled. Behind them, the iron grating recedes; below, a narrow city alley with a single warm window across the way; above, a sky of dusky lavender with the first stars. Lighting is the alley's pink-orange neon spilling from the right with the violet sky as ambient. Mood: a friendship that's mostly silence and that's the point."
+        },
+        {
+          "id": "71",
+          "title": "Pillow Fort Universe",
+          "titleRu": "Вселенная под одеялом",
+          "description": "Chest-to-chest under a fairy-lit fort, noses an inch apart",
+          "descriptionRu": "Грудь к груди под крепостью с гирляндами, носы в сантиметре",
+          "body": "SCENE: An illustration captured from above of two figures lying chest-to-chest, eye-to-eye, on a soft floor of pillows, blankets, and stuffed animals — a tower of bedding clearly built for a private fort. The first figure is on the bottom, face up, both arms loose at the sides; the second figure is on top, propped on both elbows above the first figure, knees on the bedding. The second figure is mid-laugh, looking down at the first figure who returns the gaze with a tender, unguarded expression. Their noses are an inch apart. The first figure wears an oversized hoodie; the second figure wears a worn t-shirt, both with bare legs in cozy socks. Around them, a dome of shared blankets has been propped up by chair-backs and broomsticks creating a soft cave; fairy lights are tangled across the inside roof of the fort. Two open books, a half-eaten chocolate bar, and a thermos sit at the edge of the pillow-pile. Lighting is the warm amber-red of all the fairy lights inside the fort — no other source. Mood: an entire universe shrunk to one dome of fabric. EFFECTS: chalk scribbles overlay, warm tones. The chalk is white, applied to the inside walls of the fort itself: a fast childlike map of an imaginary country labeled \"OURS\", a list of \"RULES\" with three numbered bullet points unreadable, a single very large \"DO NOT EXIT\" near the entrance. The drawings read as defaced by both figures together over many evenings."
+        },
+        {
+          "id": "72",
+          "title": "Piano Duet, Shared Joke",
+          "titleRu": "Фортепианный дуэт, общая шутка",
+          "description": "Four hands in counterpoint, both heads turned for a sideways glance",
+          "descriptionRu": "Четыре руки в контрапункте, обе головы повёрнуты для бокового взгляда",
+          "body": "SCENE: A digital illustration of two figures playing a piano duet on a single piano bench, captured from behind. Both bodies in identical posture, leaning slightly forward, four hands arranged on the keys in coordinated counterpoint — the first figure's hands on the lower octaves to the left, the second figure's hands on the upper octaves to the right. Their elbows touch. Their heads are turned ninety degrees toward each other in tandem mid-note, both giving a knowing sideways glance with private smiles, sharing a private joke in the music. The first figure wears a long-sleeved black shirt; the second figure wears a cream cardigan. Above the piano: a row of framed sepia photographs and a single cup of tea on a saucer perched on the piano top. The room is a cluttered music room with sheet music on every surface, a violin case open on the floor, a metronome ticking on the side table, a window of softly raining grey afternoon. Lighting is one low-key floor lamp with an amber shade casting warm raking light across both their backs and reflecting on the piano's glossy black surface. Mood: a conversation that uses no words."
+        },
+        {
+          "id": "73",
+          "title": "Shared Earbuds at Bus Stop",
+          "titleRu": "Один наушник на двоих",
+          "description": "Tethered by a single headphone cable, no touch except the wire",
+          "descriptionRu": "Соединены одним проводом наушников, других прикосновений нет",
+          "body": "SCENE: A close-up of two figures sharing a single pair of headphones at a bus stop at night, captured frontally. They sit shoulder-to-shoulder on a metal bench. Each wears one earbud, the cord stretched taut between them like a tether. The first figure (left) tilts the head toward the second figure to keep the cable slack, eyes closed, faint smile, mouthing along to the lyrics. The second figure (right) is mid-mouthing the same lyrics, head also tilted toward the first figure, eyes flicking to the first figure with a \"this one — listen to this one\" expression. Both have phones balanced on knees showing the same paused track. The first figure wears a long puffy coat; the second figure wears a cropped jacket and a scarf. Their gloved hands are jammed deep in their own respective pockets — no touch between bodies, only the cable. Behind them, a glass-walled bus shelter, an empty road, a single bus visibly approaching from far in the deep background, headlights blooming. A bus-stop ad poster shows a placeholder reading \"PLACE NAME\" in white sans-serif. Lighting is the bluish bus-stop fluorescent with a warm distant headlamp glow approaching. Mood: 11 p.m. shared discovery. EFFECTS: graffiti tags overlay, cool tones. The graffiti is on the bus shelter glass and the wall behind: spray-painted hearts in pink and yellow with messy drips, a tag reading \"NOW\" overlapping a rival tag, a small stencil of a cassette tape — by strangers, but happening to frame the two figures perfectly."
+        },
+        {
+          "id": "74",
+          "title": "Rowboat at Dawn",
+          "titleRu": "Лодка на рассвете",
+          "description": "Cross-legged facing each other on a drifting boat, mirror lake",
+          "descriptionRu": "Скрестив ноги, друг напротив друга в дрейфующей лодке, зеркальная вода",
+          "body": "SCENE: A wide horizontal illustration. Two figures sit cross-legged on the deck of a small wooden rowboat that's adrift in a perfectly still lake at dawn. They are facing each other, knees nearly touching, the boat completely still on water that mirrors the sky. The first figure (left) holds out both open palms toward the second figure; the second figure (right) is in the act of lowering a tiny folded paper boat into the first figure's hands. Their eyes are locked on the paper boat, both faces serious, the small ceremony silent. The first figure wears a long-sleeved striped shirt; the second figure wears a knit fisherman's sweater. Beside them in the rowboat: a thermos, two empty mugs, a basket with a folded blanket. The boat itself is plain weathered wood, two oars laid flat across the seats. The water reflects the figures, the boat, and the dawn sky perfectly — a doubled world. The lake is ringed with dark fir trees in the distance. The sky is a soft gradient from peach at the horizon to pale blue overhead. Lighting is even cool dawn with a warm horizon kicker. Mood: a private offering."
+        },
+        {
+          "id": "75",
+          "title": "Tangled on a Small Couch",
+          "titleRu": "Переплетены на маленьком диване",
+          "description": "Overhead view of sleeping figures crammed onto a too-small couch",
+          "descriptionRu": "Вид сверху на спящих, втиснувшихся в слишком маленький диван",
+          "body": "SCENE: An overhead shot of two figures tangled in sleep on a too-small couch in a cluttered living room. The first figure is on the inside (against the couch back), curled into a comma; the second figure is on the outside, draped half on top of the first figure with one leg thrown over and one hand fallen to the floor. Both are asleep, faces relaxed, the second figure's mouth slightly open. The second figure's hand on the floor is loosely holding the corner of an open paperback book that has fallen page-down. A small dog has claimed the very small remaining couch space at the figures' feet, also asleep, paws twitching mid-dream. The couch is brown corduroy, sagging. A blanket is half-on, half-off, mostly bunched at the second figure's hip. The coffee table beside them has two empty wine glasses, a half-eaten bowl of popcorn, and a TV remote. The TV at the foot of the couch is on, casting blue color onto everything; on its screen, a paused frame of generic film static. Lighting is single-source TV-blue, with one small desk lamp far in the corner adding warm fill. Mood: weeknight collapse. EFFECTS: pen doodles overlay, film grain. The doodles are red ballpoint and scattered very lightly across the photo as if a child found the print and added: a tiny crown above each sleeping figure's head, a speech bubble coming from the dog reading \"ENOUGH\", three little Zs above the standing wineglass."
+        },
+        {
+          "id": "76",
+          "title": "Bathroom Mirror Morning",
+          "titleRu": "Утреннее зеркало в ванной",
+          "description": "Two figures and two reflections, getting ready in synchrony",
+          "descriptionRu": "Две фигуры и два отражения, синхронно собираются",
+          "body": "SCENE: A medium illustration of two figures in front of a bathroom mirror getting ready in the morning. Captured frontally — we see both their backs and their reflections in the mirror, four faces total. The first figure (left) is bent forward slightly, brushing teeth vigorously, foam at the corner of the mouth, hair held out of the way by the left hand. The second figure (right) is leaning into the mirror to apply mascara with the right hand, mouth dropped open in the universal mascara-face. Their hips bump. The first figure's free right hand reaches behind without looking and rests casually on the second figure's lower back. The second figure's free left hand is pressed flat on the counter for stability. The first figure wears a towel wrapped at the waist; the second figure wears a slip and bare feet. The counter is cluttered: a hairdryer, an open makeup pouch, a tipped lipstick, two coffee mugs, a single droplet of water mid-fall from the faucet. The mirror has streaks of yesterday's wiping. Lighting is warm bulbs around the mirror plus a sliver of cool morning light from a small window to the left. Mood: practiced choreography."
+        },
+        {
+          "id": "77",
+          "title": "Across the Museum Vitrine",
+          "titleRu": "Через музейную витрину",
+          "description": "Bent over the same artifact from opposite sides of glass, eye contact",
+          "descriptionRu": "Склонились над одним экспонатом с разных сторон стекла, контакт глаз",
+          "body": "SCENE: A digital illustration of two figures separated by a museum vitrine. Captured at a downward 3/4 angle. The first figure (left of vitrine) is bent slightly forward, both palms flat on the glass top, gazing down through the glass at an artifact — a small bronze sculpture of clasped hands on a white pedestal inside. The second figure (right of vitrine) stands across the vitrine in a mirrored posture, both palms also flat on the glass. Their palms are perfectly aligned through the glass: first figure's right palm directly under the second figure's left palm, separated only by the glass thickness. Their faces are tilted up to meet each other's eyes through the reflection of the museum lights on the case. Both expressions are open, slightly stunned, lips parted. The first figure wears a museum docent's name-tag clipped to a navy blazer; the second figure is clearly a visitor in a wool coat. Around them, a cathedral-quiet gallery of marble floor and dim spotlights highlighting other vitrines in the soft background. Lighting is each vitrine internally lit with cool LED, while ambient is warm tungsten — the figures' faces are washed cool from the shared object. Mood: the artifact and the encounter mirror each other."
+        },
+        {
+          "id": "78",
+          "title": "Pillow Fight Impact",
+          "titleRu": "Удар подушкой",
+          "description": "Mid-swing pillow strike captured at the moment of impact, feathers",
+          "descriptionRu": "Удар подушкой в момент столкновения, перья летят",
+          "body": "SCENE: A close-up of two figures fighting playfully with pillows in a bedroom, captured mid-impact. The first figure (left) is mid-swing, both hands gripping a large pillow, the pillow connecting flat against the second figure's face. Feathers explode in a white halo around the impact zone. The first figure's mouth is wide open in a triumphant battle-cry. The second figure (right) is mid-collapse backwards onto the bed, one arm flailing for balance, the other still holding the half-deflated remains of a previous pillow that has already split open. Both are laughing so hard tears are forming at the corners of the eyes. The first figure wears boxer shorts and a tank top; the second figure wears a oversized band t-shirt. The bedroom is half-disaster: feathers everywhere, the mattress askew, the bedside lamp tipped at a precarious angle, a glass of water on the floor about to be knocked. A small dog watches from the doorway in horrified judgment. Lighting is one warm bedroom lamp casting a low wide beam, motion blur on the swing, individual feathers in suspended razor focus. Mood: completely consensual chaos."
+        },
+        {
+          "id": "79",
+          "title": "Red Light, Tiny Car",
+          "titleRu": "Красный свет, маленькая машина",
+          "description": "Crammed in the front seats at a red light, traffic alone with them",
+          "descriptionRu": "Втиснулись на передние сиденья на красном, дорога только их",
+          "body": "SCENE: An illustration of two figures crammed into the front seats of a tiny old car at a red traffic light at night. The first figure (driver, left) grips the steering wheel with both hands, leaning forward, head turned all the way to the right toward the second figure with raised eyebrows in a \"is this really a good idea?\" look. The second figure (passenger, right) is mid-bite of a giant fast-food burger held in both hands, cheeks bulging, eyes wide and locked back at the first figure with an exaggerated innocent shrug — the shoulders are visibly raised. Ketchup has dripped down the second figure's chin. The dashboard glows with the light meter and an old radio glowing green showing \"FM 102.4\". The rear-view mirror reflects a slice of the back seat strewn with fast-food bags, a discarded jacket, a half-deflated balloon. Outside the windshield, the empty intersection is washed in red traffic light. Through the side windows, blurred wet asphalt and a row of closed shops. Lighting is the red of the traffic light from the front and the warm green of the dashboard from below — a deeply unflattering and beautiful mixture. Mood: late-night accomplices."
+        },
+        {
+          "id": "80",
+          "title": "Revolving Door Reunion",
+          "titleRu": "Воссоединение в крутящихся дверях",
+          "description": "Hands on opposite sides of revolving glass, recognition mid-rotation",
+          "descriptionRu": "Ладони с разных сторон вращающейся двери, узнавание на полпути",
+          "body": "SCENE: A vertical illustration of two figures on opposite sides of a glass revolving door at the entrance to an office building during a snowstorm. The first figure (left, inside) is in the act of pushing the revolving door forward to leave; the second figure (right, outside, in the snow) is pushing the same door forward to come in. They both freeze in the same instant, recognizing each other through the glass mid-rotation. Their right hands are flat on the glass at exactly the same height. Their faces are inches apart on either side of the glass; both are in shock — first figure's eyes wide, mouth slightly open; second figure's eyebrows up, mouth in a small disbelieving smile. The first figure wears a sharp business suit and a long camel coat; the second figure is bundled in a thick parka with snow flecking the hood, ungloved fingers red from cold, holding a small bouquet of frozen flowers in the left hand. The office lobby behind the first figure is warm marble and brass; the street behind the second figure is whiteout snow with a single yellow taxi just visible. Lighting is the warm interior tungsten of the lobby on the first figure with the cold blue snow ambient on the second figure, the door's glass dividing two color temperatures down the middle. Mood: the unscheduled reunion."
+        }
+      ]
+    },
+    {
+      "id": "group",
+      "name": "Group & Conceptual",
+      "nameRu": "Группа и Концепт",
+      "description": "20 group compositions and conceptual setups, from band rehearsals to terrariums",
+      "descriptionRu": "20 групповых композиций и концептуальных кадров: от репетиций до террариумов",
+      "prompts": [
+        {
+          "id": "81",
+          "title": "Fountain Rim, Four Friends",
+          "titleRu": "Бортик фонтана, четверо друзей",
+          "description": "Sweltering piazza, four figures in primary colors, splash chaos",
+          "descriptionRu": "Душная пьяцца, четверо в основных цветах, водяной хаос",
+          "body": "SCENE: A wide horizontal illustration of four figures crammed onto the rim of a public fountain in a European piazza on a sweltering afternoon. The central figure (focal) sits dead-center, leaning forward with both feet in the fountain water, head thrown back in laughter, holding a half-melted gelato cone aloft like a torch. The figure to the left of center is sprawled on the rim sleeping, arm dangling into the water, fingers trailing. The figure to the right of center is bent over, both hands cupping water to splash a fourth figure in the foreground who is mid-flinch, face screwed up, both hands raised defensively, one shoe already in the water. Each wears summer clothes in a different color — primary red, primary yellow, primary blue, and one in white. The fountain itself has a baroque marble centerpiece of dolphins and cherubs. Behind, a piazza of pale ochre buildings, faded green shutters, a few pigeons, and a distant gelato cart. The cobblestones are worn and dark with splash. Lighting is harsh midday sun directly overhead with strong reflected bounce off the fountain water, casting wobbling caustic patterns on the figures' faces. Mood: collective heatwave delirium. NEGATIVE: only three figures (must be exactly four). EFFECTS: lens flare, water droplets on lens."
+        },
+        {
+          "id": "82",
+          "title": "Rooftop Triangle",
+          "titleRu": "Треугольник на крыше",
+          "description": "Three friends at sunset — stillness, surrender, joy in one frame",
+          "descriptionRu": "Трое на крыше на закате — покой, отдача, радость в одном кадре",
+          "body": "SCENE: A digital illustration of three figures forming a triangular composition on a rooftop at sunset. Captured medium-wide, slightly low angle. The first figure (foreground center) sits on the ledge, legs dangling over the city, looking back over the shoulder toward the camera with a small smile. The second figure (background left) stands far behind on the roof, arms wide, face up to the sky. The third figure (background right) is caught mid-cartwheel, body inverted, hair fanning down. Each figure is precisely separated by negative space; none of them is interacting, and yet the three poses make a coherent emotional triangle of stillness, surrender, and joy. The first figure wears denim and a faded t-shirt; the second figure wears a long flowing dress; the third figure wears athletic shorts and a sports bra. The roof is concrete with tar-paper patches, an HVAC unit far in the back, a forgotten lawn chair, a string of cafe lights running along the ledge. The skyline beyond is densely packed with mid-rise buildings, water towers, satellite dishes. The sky is a layered sherbet — peach over cyan over deep purple. Lighting is golden hour from screen-left with strong rim on all three figures. Mood: three friends, three different ways to feel alive."
+        },
+        {
+          "id": "83",
+          "title": "Izakaya Toast, Five Faces",
+          "titleRu": "Тост в идзакая, пять лиц",
+          "description": "Five figures crammed at one tiny table, mid-laugh from a punchline",
+          "descriptionRu": "Пятеро втиснулись за крохотный столик, смех после кульминации",
+          "body": "SCENE: An illustration of a school of five figures crowded around a single tiny table in a packed Tokyo izakaya. Captured from a slightly high three-quarter angle. The table is centered and obscenely small for five people; the figures lean into it from all sides, elbows colliding, faces close. The central figure is mid-toast, one arm raised holding a small porcelain sake cup; the other four figures lean in with their own cups raised at slightly different heights, none of them quite making eye contact at the same moment because they are all reacting to a joke the central figure just told. Three are laughing open-mouthed; one is wiping the corner of an eye; one is choking with a fist to the mouth. Each figure wears a slightly different smart-casual outfit — varying jackets, ties loosened. The table is covered in small dishes: yakitori skewers, a half-eaten plate of edamame, a bottle of sake, a bowl of pickled ginger, a steaming bowl of ramen. Behind the figures: a wall plastered in bilingual menus, glowing red lanterns, the chef's hat just visible behind the bar at the edge of the frame. Lighting is warm overhead red-lantern key with cool kicker from a sign through the doorway. Mood: a friendship so old no one remembers the joke's setup. NEGATIVE: empty cups."
+        },
+        {
+          "id": "84",
+          "title": "Seven Across a Mirror Lake",
+          "titleRu": "Семеро по зеркальному озеру",
+          "description": "Sunset, ankle-deep water, seven figures running with their reflections",
+          "descriptionRu": "Закат, вода по щиколотку, семеро бегут со своими отражениями",
+          "body": "SCENE: A wide horizontal illustration of seven figures running across a long shallow lake at sunset, captured in a side tracking shot. The lake's water is only ankle-deep, mirror-flat, and seems to extend to infinity. The figures are arrayed in a ragged horizontal line across the frame, each frozen at a different point of stride; the second from the left is fully airborne, the figure on the far right has fallen into the water and is laughing on hands and knees, water spraying. The middle figure (focal) is in profile mid-leap, the highest of all. The lake reflects the entire row of figures perfectly, doubling the composition. The horizon is a thin band of dark mountains far in the back; the sky is brilliant orange-red with long cirrus streaks. Each figure wears different summer clothes; one wears a paper crown; one carries a beach umbrella; one is barefoot; the rest wear cheap plastic flip-flops. Spray and ripples carry between them across the otherwise glass-smooth water. Lighting is direct backlit sun from the horizon, silhouetting the figures' edges in incandescent fire while the lake glows beneath. Mood: collective inarticulate joy at the end of a perfect day."
+        },
+        {
+          "id": "85",
+          "title": "Six Hands, One Bowl",
+          "titleRu": "Шесть рук, одна миска",
+          "description": "Overhead radial composition of hands reaching for cherries",
+          "descriptionRu": "Радиальная композиция сверху: руки тянутся к вишне",
+          "body": "SCENE: A close-up overhead shot of six pairs of hands meeting in the center of a round wooden table, all reaching toward the same bowl of cherries in a deliberate Hokusai-like radial composition. Each pair of hands belongs to a different person; the rest of the figures are out of frame. Each pair is at a different angle around the bowl, fingers extended, some already pinching a cherry by the stem, others mid-reach. One hand has nail polish chipped, one has a wedding band, one has henna patterns, one is small and child-sized, one has a leather bracelet, one has paint stains. The bowl is white ceramic, full of glossy red cherries with green stems, perched on a striped tablecloth. Around the bowl: an open jar of jam with a sticky knife, a teapot, two open books, a fountain pen, a single dropped cherry rolling away. Lighting is warm window-side morning light from screen-left, casting six soft hand-shadows that converge on the bowl. Mood: the small ritual of Sunday morning communal hunger."
+        },
+        {
+          "id": "86",
+          "title": "Mall Corridor in Five Frames",
+          "titleRu": "Коридор торгового центра в пяти кадрах",
+          "description": "One figure walking past the camera across five stitched panels",
+          "descriptionRu": "Один человек идёт мимо камеры через пять склеенных кадров",
+          "body": "SCENE: A 16:9 conceptual illustration of a single figure walking through a deserted shopping mall at night, captured in five repeated frames stitched together horizontally as if from one long security camera, with the figure visible in each panel at a different stage of the walk. The first panel (far left): figure tiny in the deep distance, just entering the corridor. The second panel: figure halfway closer, the shoulders slumped. The third panel (center, largest figure): figure walking past the camera plane, body mid-stride, face turned to glance directly at the viewer with a flat tired expression. The fourth panel: figure walking away from the camera, getting smaller. The fifth panel: figure tiny again at the far end, just before disappearing. The mall is empty, fluorescent lights buzzing, two-story atrium with shuttered store-fronts, a dead fountain, a single forgotten balloon drifting on the upper level. Lighting is institutional cold white with the same ambient in every panel. The figure wears a long coat and carries a single shopping bag from a now-closed store. Mood: time as a corridor. The five panels are subtly separated by faint vertical timestamp lines. AVOID: writing visible text other than the timestamps."
+        },
+        {
+          "id": "87",
+          "title": "Twelve in a Bookshop",
+          "titleRu": "Двенадцать в книжном",
+          "description": "High-angle on a lunchtime bookstore, twelve micro-scenes coexisting",
+          "descriptionRu": "Вид сверху на обеденный книжный, двенадцать микро-сцен сосуществуют",
+          "body": "SCENE: A high-angle illustration of a busy independent bookstore at lunchtime with twelve figures occupying different microscenes. Captured from a corner near the ceiling. Foreground: a customer kneeling in front of the lowest shelf of \"TRAVEL\", squinting at a spine. Mid-distance left: two friends leaning shoulder-to-shoulder in front of \"POETRY\", one reading a passage aloud. Mid-distance right: a parent and child sharing the floor of the children's nook, a picture book open between them. The center: a long oak table with five mismatched figures all reading silently in unmatched postures — one cross-legged on the table itself, one head-down in hands, one balancing a coffee on a knee. Behind the counter: the bookseller with a stamp poised over a paperback, mid-conversation with a final customer holding three books. Each figure has a clearly individual posture; no two are identical. The bookstore is a dense forest of shelves, hanging Edison bulbs, an overstuffed reading chair, a black cat sleeping on an unsold encyclopedia, a \"POEM OF THE DAY\" chalkboard reading \"YOUR POEM\" in placeholder. Lighting is warm tungsten layered in pools across the room with cool window light at the far end. Mood: the collective hush of separate inner worlds."
+        },
+        {
+          "id": "88",
+          "title": "MOTION Poster",
+          "titleRu": "Постер MOTION",
+          "description": "Ten clones of one jump across a gradient, editorial poster layout",
+          "descriptionRu": "Десять клонов одного прыжка по градиенту, эдиториальный постер",
+          "body": "SCENE: A conceptual high-contrast poster illustration. Centered against a flat cyan background is a figure mid-jump, frozen in the air; cloned ten times in a horizontal row, each clone offset slightly, each in a slightly different stage of the jump — from crouched preparation on the far left to fully airborne in the center to mid-landing on the far right. The colors of the clones cycle through a smooth gradient from deep magenta on the left to pure white in the center to deep cyan on the right. Each clone is fully outlined with a thick clean black line. The figure wears the same outfit in every clone: a slim tracksuit, sneakers, hair tied back. Above the row, in bold white sans-serif text: \"MOTION.\" Below the row, in smaller white text: \"every frame is a person.\" At the bottom corners, two small graphic elements: a circle with a cross and a single asterisk. Lighting in this kind of poster is flat, no source, just the implication of motion through color logic. Mood: the kineticism of self-replication. AVOID: writing text not specified. EFFECTS: glitch distortion overlay, scan lines overlay."
+        },
+        {
+          "id": "89",
+          "title": "Basement Band Rehearsal",
+          "titleRu": "Репетиция группы в подвале",
+          "description": "Four-quadrant frame: drummer, guitarist, bassist, singer, locked in",
+          "descriptionRu": "Кадр в четырёх квадрантах: барабанщик, гитарист, басист, вокалист",
+          "body": "SCENE: An illustration of a band rehearsal in a cluttered basement, captured wide. Four figures, each occupying a quadrant of the frame. Top-left: a drummer mid-fill, both sticks airborne, hair flying, sweat on the brow, face contorted in joyful concentration. Top-right: a guitarist with one foot on a small amp, leaning back into a power-chord, head down so the hair curtains the face. Bottom-left: a bassist standing perfectly still with closed eyes, headphones on over the instrument, body the calm center. Bottom-right: a singer, mouth wide at the SM58 mic, free hand clenched at the chest, eyes locked at the camera. The basement is wood-paneled, low-ceilinged, festooned with mismatched gear: a half-eaten pizza box on an amp, a string of Christmas lights, a single saggy couch in the back covered in jackets, a lyric notebook open on the floor. Cables snake across the concrete floor. Lighting is two cheap colored party lights — magenta from the upper-left, cyan from the lower-right — plus one bare bulb on a string. Mood: the intoxication of a band finally locking in."
+        },
+        {
+          "id": "90",
+          "title": "Empty Seats for Thirteen",
+          "titleRu": "Пустые места на тринадцать",
+          "description": "Top-down on a round table set for thirteen, only one figure seated",
+          "descriptionRu": "Сверху на круглый стол на тринадцать, сидит только один",
+          "body": "SCENE: A bird's-eye conceptual top-down illustration of an enormous round formal dining table set for thirteen, but with only one figure seated. The figure is at the very head of the table, captured directly from above, hands folded politely in lap, head tipped slightly back to look up at the camera/ceiling with a small unreadable smile. Twelve other place settings are perfectly arranged around the rest of the table: each with white plate, polished cutlery, folded burgundy napkin, crystal glass — all pristinely empty. The table cloth is bone-white linen. A long candelabra runs the length of the table with seven lit candles. A central platter holds a whole roast pheasant. Beside each empty plate: a small place card folded in half. Each card visibly reads \"YOUR NAME\" in elegant script (English placeholder). The dining room around the table is glimpsed at the corners: dark parquet floor, the bottom of a chandelier, the suggestion of a long curtain. Lighting is candle-warm from the table center casting twelve doubled shadows of forks across the cloth. Mood: anticipation that may have already passed. AVOID: filling any other seat."
+        },
+        {
+          "id": "91",
+          "title": "Apartment Block, Lit Windows",
+          "titleRu": "Дом в окнах",
+          "description": "Six stories of dioramas, every window a separate tiny life",
+          "descriptionRu": "Шесть этажей диорам, в каждом окне своя крошечная жизнь",
+          "body": "SCENE: A long horizontal illustration of an entire city block from a low side-on perspective at twilight. The block is a single tall apartment building, six stories of windows, each window a tiny lit diorama showing a different micro-scene. First-floor windows show a laundromat full of figures, a small late-night corner shop with a clerk reading, a tiny restaurant with two diners sharing a plate. Second floor: a child practicing piano in one window; an arguing couple in silhouette in the next. Third floor: a figure dancing alone with headphones; an old figure asleep in a chair under a tilted reading lamp. Fourth floor: a figure painting at an easel; a figure on the toilet; a figure mid-yoga pose. Fifth floor: a figure with a telescope pointed out the window; a figure cooking with billowing steam; an empty window with only a cat. Sixth floor: a single figure on the roof above the building, sitting on the edge, dangling legs. The street below is empty save one cyclist. The sky is a cobalt twilight gradient with a thin moon. Lighting: every window is its own tiny key-light, warm amber, while the building's brick is washed in cold blue ambient. Mood: the city as a Joseph Cornell diorama box."
+        },
+        {
+          "id": "92",
+          "title": "Chair with a Red String",
+          "titleRu": "Стул и красная нить",
+          "description": "One chair in a vast white room, a red string running out of frame",
+          "descriptionRu": "Один стул в огромной белой комнате, красная нить уходит за кадр",
+          "body": "SCENE: A square 1:1 conceptual illustration of a single chair in a vast empty white room, captured frontally. The chair is positioned dead-center, an old wooden Thonet bentwood chair. On the chair's seat sits a precisely folded white t-shirt, a single closed paperback book, a wristwatch face-up, and a small key. A long red string is tied to the back of the chair and extends in a perfectly straight line out of the right edge of the frame. The room is otherwise utterly empty — no walls visible, only an infinite white floor and an infinite white ceiling implied by the absence of horizon. There are no figures. A single shaft of cool light comes from above, casting a hard short shadow under the chair. Mood: an inventory of someone who walked out of frame on purpose. The string is the only saturated color. AVOID: any other object, person, or texture in the empty space."
+        },
+        {
+          "id": "93",
+          "title": "Three Selves, One Room",
+          "titleRu": "Три «я» в одной комнате",
+          "description": "Three identical figures sharing one bedroom, none seeing the others",
+          "descriptionRu": "Три одинаковые фигуры в одной спальне, не замечают друг друга",
+          "body": "SCENE: A wide conceptual illustration of three identical figures (same face, same body, same outfit) inhabiting one bedroom at the same time. Captured from a corner three-quarter angle. The first instance of the figure is asleep in the unmade bed on the left, curled toward the wall. The second instance of the figure is seated at the desk on the right, fully dressed, working on a laptop with a coffee cup, posture sharp. The third instance of the figure stands in the open doorway in the back, dressed in workout clothes, mid-laugh, holding a yoga mat under one arm — about to leave. Each version of the figure is unaware of the others. The room is small, organized in three subtle \"zones\" matching each instance: the sleep zone on the left, the productivity zone in the middle, the activity zone near the door. Lighting is split into three subtle color washes: cool blue over the bed, neutral white over the desk, warm yellow at the door. Mood: the conflicting selves of one ordinary morning. NEGATIVE: figures noticing each other."
+        },
+        {
+          "id": "94",
+          "title": "Fifty Faces, One Play",
+          "titleRu": "Пятьдесят лиц, один спектакль",
+          "description": "Theater audience from stage view, each face in a different reaction",
+          "descriptionRu": "Зал из театра со сцены, у каждого лица своя реакция",
+          "body": "SCENE: An illustration of an audience of fifty figures in a small black-box theater watching a performance, captured from the stage looking outward. The first three rows are sharp and detailed; the back rows blur into a sea of attentive silhouettes. Each figure in the front rows is rendered in a distinct posture — one figure leaning forward with chin in palm, one figure with arms crossed and head tilted, one figure clutching a partner's hand in their lap, one figure with eyes closed openly weeping, one figure with an expression of irritated boredom, one figure dozing with chin to chest, one figure with a small notebook taking notes. The theater walls are matte black. A single exit-light glows red in the back-left. The seats are red velvet. A faint haze drifts over the audience from a stage smoke machine. The audience is collectively lit only by the spill of stage light from the camera's position, which means each face has the same warm key from below — flattering, golden, theatrical. Mood: fifty different relationships with the same play. NEGATIVE: blank identical faces."
+        },
+        {
+          "id": "95",
+          "title": "Spiral Staircase Upward",
+          "titleRu": "Винтовая лестница вверх",
+          "description": "Looking straight up a library spiral, eight figures at different floors",
+          "descriptionRu": "Взгляд вверх по библиотечной спирали, восемь фигур на разных этажах",
+          "body": "SCENE: A vertical 9:16 illustration of an enormous spiral staircase in an old library tower, captured looking straight up from the bottom. Eight figures are visible at different floors of the spiral, each leaning over a different railing, each a different size due to perspective. The figure at the bottom of the spiral (closest, largest in frame) leans heavily over the railing in the immediate foreground, looking straight up with mouth open in awe, hair falling away. Each subsequent figure higher up the spiral is smaller, and their poses cycle through six different reactions to whatever is at the top: looking up, looking down, leaning, pointing, reading a book, turning to leave. The very top of the spiral, far above, is a tiny circle of bright light against which the highest figure is a black silhouette. The staircase is wrought iron in a deep green, the walls lined with infinite books, each landing a small reading nook. Brass lamps hang on long cords along the inner wall of the spiral, each lamp at a different height. Lighting is warm tungsten lamp-by-lamp with the bright white skylight at the very top crowning the composition. Mood: the architecture of awe."
+        },
+        {
+          "id": "96",
+          "title": "Before / After Spread",
+          "titleRu": "Разворот «До / После»",
+          "description": "One figure split down the middle: color half vs grayscale half",
+          "descriptionRu": "Одна фигура расколота по центру: цветная половина против серой",
+          "body": "SCENE: A conceptual editorial illustration designed as a magazine spread. The frame is rectangular, divided down the middle. The left half is full color; the right half is monochrome black-and-white. A single figure stands centered, straddling the divide: the left half of the body in full saturated color (a teal blazer, peachy skin, brown hair, blue jeans), the right half of the body in pure grayscale (the same blazer monochrome, the skin in greys, the jeans dark). The figure faces forward, body squared to the camera, both hands held out at hip level palms-up — the left palm holds a small blooming flower in color; the right palm holds the same flower wilted in monochrome. The face is composed, looking directly at the camera, the expression neutral but the eye on the color side has a single reflective sparkle, while the eye on the monochrome side is dull. Background, both halves: an empty studio with a horizon line of light. Across the bottom of the spread, in clean serif: \"BEFORE / AFTER\". Above the head, smaller text: \"this is one person.\" Lighting is studio-flat with no shadows. Mood: the editorial of a quiet personal change. AVOID: writing text not specified in the prompt."
+        },
+        {
+          "id": "97",
+          "title": "Imperfect Family Portrait",
+          "titleRu": "Несовершенный семейный портрет",
+          "description": "Twenty-three figures arranged formally, every one slightly imperfect",
+          "descriptionRu": "Двадцать три фигуры в торжественной композиции, у каждой свой изъян",
+          "body": "SCENE: An illustration of a very large extended family photograph being taken in front of an old country house at golden hour. Twenty-three figures are arranged in three rows: the back row standing, the middle row seated on chairs, the front row of children seated cross-legged on the grass. The composition is captured from in front by a tripod-mounted camera; the tripod itself is barely visible at the edge of the foreground. The grandmother (centermost figure) sits in the middle chair, posture proud, hands folded in her lap, the only figure smiling completely. Around her, every other figure is doing something slightly imperfect: one cousin in the back row is mid-sneeze; two children in the front are wrestling; one teen is checking a phone hidden under a sleeve; one figure has a finger raised in a silent objection; one toddler is escaping the frame to the right; one figure is looking the wrong way at a dog; the family dog itself is mid-shake, water flying. Two figures look directly into the camera, making eye contact. Each figure has a distinct outfit; no uniform. Behind the family, a yellow stucco farmhouse with green shutters, a wide oak tree to one side, a long table set up for the post-photo dinner. Lighting is direct golden hour from screen-right, halo on every head, long shadows running diagonally to the left. Mood: the photograph that is more honest than the photograph anyone wanted."
+        },
+        {
+          "id": "98",
+          "title": "One Person, Nine Ages",
+          "titleRu": "Один человек, девять возрастов",
+          "description": "3x3 grid of the same pose at child, teen, adult, elder — all sincere",
+          "descriptionRu": "3x3 сетка одной позы в детстве, юности, взрослости, старости",
+          "body": "SCENE: A concept illustration of a single figure depicted nine times across a 3x3 grid, each grid cell showing the figure at a different age — child, schoolchild, teen, young adult, mid-twenties, thirties, forties, sixties, eighties — but each in the exact same pose: sitting cross-legged on the same wooden floor, looking directly at the camera with a small calm smile, hands folded in lap. Each cell shares the same backdrop (a plain warm beige wall), the same pose, the same lighting. Only the figure ages. Outfits subtly evolve with each life-stage: a child's pajamas, a school uniform, a punky teen ensemble, a young adult's casual wear, professional wear, a parent's tired sweatshirt, a mature confident outfit, a comfortable retirement cardigan, a final elegant simple shirt. Each cell is bordered by a thin white line. Above the grid, small placeholder text reads: \"ONE PERSON\". Below the grid, smaller text: \"every age is the same person.\" Lighting: identical warm side-light across all nine cells. Mood: the small clean honesty of a life laid out in equal squares. AVOID: writing text not specified."
+        },
+        {
+          "id": "99",
+          "title": "Playground Just After",
+          "titleRu": "Площадка сразу после",
+          "description": "Empty playground at midnight, one swing still swaying, sneaker on woodchips",
+          "descriptionRu": "Пустая площадка в полночь, качели ещё качаются, кроссовок на щепе",
+          "body": "SCENE: A wide horizontal illustration of an empty playground at midnight, captured from a low angle. There are no figures in this image. The swings sway gently — one at a slight angle as if a child has just left it, two empty and still. A single sneaker sits on the woodchips beneath the swings. The slide has a small puddle of moonlight at its base. The merry-go-round is half-rotated and slowing. A red ball rests against the see-saw. A jacket is draped over the climbing dome. The chain-link fence behind the playground has a small gap in the bottom. Beyond the fence, suburban houses with most windows dark, a single warm yellow window glowing. The sky is deep navy with a fat full moon. Lighting is hard moonlight casting sharp blue shadows of the playground equipment across the woodchips. The mood is the precise moment after a child has been called inside — the equipment still warm with implication. Mood: an absence that's louder than any presence."
+        },
+        {
+          "id": "100",
+          "title": "Terrarium World",
+          "titleRu": "Мир-террариум",
+          "description": "House-sized glass terrarium with five tiny lives inside, watcher outside",
+          "descriptionRu": "Стеклянный террариум размером с дом, пять крошечных жизней внутри",
+          "body": "SCENE: A square 1:1 conceptual illustration of a giant translucent glass terrarium, the size of a small house, set on a featureless white plain. Inside the terrarium, a complete miniature world: rolling green hills, a tiny river, a forest of bonsai-scale trees, a pebbled path winding to a small thatched cottage with a chimney issuing a real wisp of smoke. Five tiny figures are scattered across this miniature world — one walking along the path, one fishing at the river, one on a ladder picking apples from a tiny orchard, one sitting on the cottage roof reading, one lying flat on the hill cloud-watching. Outside the terrarium, on the white plain, a single full-sized figure stands far in the foreground with the back to the camera, looking into the terrarium with both hands resting at the sides. The full-sized figure is small in the frame compared to the terrarium itself. The terrarium's curved glass catches the only warm light source — a sunset-colored sun that exists only inside it. The exterior plain is in cool flat daylight. Mood: a god looking at a world that doesn't know it is observed. NEGATIVE: smoke escaping the terrarium glass."
+        }
+      ]
+    }
+  ]
+}

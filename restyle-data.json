@@ -1,0 +1,1047 @@
+{
+  "sections": [
+    {
+      "id": "gacha-cards",
+      "name": "Gacha Cards",
+      "nameRu": "Гача-карты",
+      "description": "20 collectible card aesthetics — from plain summon to god pull, every rarity tier",
+      "descriptionRu": "20 коллекционных стилей карт — от обычного призыва до божественного пулла",
+      "prompts": [
+        {
+          "id": "gacha-01",
+          "title": "N — Plain Summon",
+          "titleRu": "N — Простой призыв",
+          "description": "Starter-tier card: matte paper, thin cream border, humble and simple",
+          "descriptionRu": "Карта стартового уровня: матовая бумага, тонкая кремовая рамка, скромно и просто",
+          "body": "Transform the attached image into a simple N-tier gacha character card. Preserve the subject, pose, outfit silhouette, color accents, and iconic details, but place them in a clean vertical card layout with a matte paper finish, thin cream border, tiny rarity mark, simple nameplate, and soft muted background gradient. Use gentle natural lighting, minimal decoration, and readable negative space. Make it humble, cute, collectible, and starter-card simple, not flashy."
+        },
+        {
+          "id": "gacha-02",
+          "title": "R — Soft Foil",
+          "titleRu": "R — Мягкая фольга",
+          "description": "Pearlescent shimmer on the border, muted pastels, lightly special",
+          "descriptionRu": "Перламутровый отблеск на рамке, приглушённая пастель, легко особенная",
+          "body": "Recreate the attached image as an R-tier gacha card with a subtle foil accent. Keep the reference subject, pose, outfit shapes, and recognizable details intact, but frame them inside a polished card layout with a pale metallic border, small rarity badge, delicate corner ornaments, and faint pearlescent shimmer only on the border and nameplate. Use muted pastels, soft shadows, and a simple magical backdrop. Make it cute, clean, and lightly special."
+        },
+        {
+          "id": "gacha-03",
+          "title": "SR — Pearl Holographic",
+          "titleRu": "SR — Жемчужная голограмма",
+          "description": "Pearl foil edges, translucent pastel overlays, soft bokeh particles",
+          "descriptionRu": "Жемчужные грани, прозрачные пастельные слои, мягкие частицы боке",
+          "body": "Transform the attached image into an SR-tier pearl holographic gacha card. Preserve the main pose, outfit silhouette, color accents, and iconic reference details, but add a refined card frame with pearl foil edges, translucent pastel overlays, soft bokeh particles, and a small embossed rarity emblem. Use lavender, cream, pale blue, dusty rose, and gentle iridescent highlights. Make it elegant, rare-feeling, and collectible without becoming noisy."
+        },
+        {
+          "id": "gacha-04",
+          "title": "SSR — Full Art Dream Foil",
+          "titleRu": "SSR — Полно-арт мечта",
+          "description": "Full-bleed dreamy background, holographic foil highlights, premium feel",
+          "descriptionRu": "Мечтательный фон во весь кадр, голографические блики, премиальное ощущение",
+          "body": "Recreate the attached image as an SSR full-art gacha card. Keep the subject recognizable through pose, outfit, silhouette, and key details, but expand the art to fill the whole card with a dreamy illustrated background, layered pastel lighting, holographic foil across selected highlights, and ornate but readable UI elements. Add a luminous rarity crest, delicate border etching, and soft dimensional glow. Make it premium, magical, and beautiful, not cluttered."
+        },
+        {
+          "id": "gacha-05",
+          "title": "UR — Etched Celestial Foil",
+          "titleRu": "UR — Гравированная небесная фольга",
+          "description": "Silver-gold etched foil lines, moonlit gradients, tiny constellations",
+          "descriptionRu": "Гравированные серебряно-золотые линии, лунные градиенты, крошечные созвездия",
+          "body": "Transform the attached image into a UR-tier celestial foil card. Preserve the reference pose, clothing shapes, color accents, and iconic details, but present the subject as a premium full-art card with etched silver-gold foil lines, moonlit pastel gradients, raised texture on the border, tiny constellation marks, and a refined rarity seal. Use muted cosmic colors, soft glow, and crisp card photography. Make it luxurious, rare, and quietly breathtaking."
+        },
+        {
+          "id": "gacha-06",
+          "title": "LR — Legendary Glass Card",
+          "titleRu": "LR — Легендарная стеклянная карта",
+          "description": "Translucent crystal slab, refracted pastel light, suspended foil particles",
+          "descriptionRu": "Прозрачная хрустальная плита, преломлённый пастельный свет, парящие частицы",
+          "body": "Recreate the attached image as an LR legendary glass-style gacha card. Keep the reference subject recognizable, but render the card as a translucent crystal slab with floating inner layers, refracted pastel light, etched borders, and suspended foil particles around the subject. Add a minimal rarity crest, elegant nameplate, and soft studio reflections. Use icy lavender, pearl, pale gold, blue, and cream. Make it sacred, collectible, and ultra-premium."
+        },
+        {
+          "id": "gacha-07",
+          "title": "MR — Memory Rare",
+          "titleRu": "MR — Редкое воспоминание",
+          "description": "Faded photo texture, pressed-flower corners, sentimental keepsake feel",
+          "descriptionRu": "Выцветшая фото-фактура, прессованные цветы по углам, ощущение памятной вещи",
+          "body": "Transform the attached image into an MR memory rare card. Preserve the pose, outfit silhouette, and iconic details, but design the card like a soft nostalgic keepsake: faded photo texture, translucent vellum overlay, pressed-flower corners, handwritten-style nameplate, and gentle foil only on tiny memory fragments. Use sepia cream, dusty rose, muted sage, pale blue, and warm light leaks. Make it sentimental, delicate, and emotionally rare."
+        },
+        {
+          "id": "gacha-08",
+          "title": "EX — Event Limited",
+          "titleRu": "EX — Лимит ивента",
+          "description": "Seasonal framing, commemorative stamp, holographic confetti, celebratory",
+          "descriptionRu": "Сезонное оформление, памятный штамп, голографическое конфетти, празднично",
+          "body": "Recreate the attached image as an EX limited-event gacha card. Keep the reference subject, pose, outfit shapes, color accents, and details, but add seasonal event framing, a small limited banner ribbon, commemorative stamp, subtle holographic confetti, and a special background prop based on the original image. Use muted festive colors, soft foil, and polished card UI. Make it celebratory, exclusive, and cute without cheap emoji-like decoration."
+        },
+        {
+          "id": "gacha-09",
+          "title": "SP — Secret Parallel",
+          "titleRu": "SP — Тайный параллельный",
+          "description": "Diagonal rainbow foil, micro-pattern background, alternate colorway",
+          "descriptionRu": "Диагональная радужная фольга, микроузор на фоне, альтернативная палитра",
+          "body": "Transform the attached image into an SP secret parallel card. Preserve the subject and pose, but make the entire card feel like a rare alternate print: diagonal rainbow foil sheen, repeated micro-patterns in the background, alternate pastel colorway, delicate border engraving, and a tiny secret rarity mark hidden in one corner. Use soft holographic effects, clean typography spaces, and premium matte- gloss contrast. Make it mysterious and highly collectible."
+        },
+        {
+          "id": "gacha-10",
+          "title": "PR — Promo Gift Card",
+          "titleRu": "PR — Промо-подарок",
+          "description": "Giveaway card with ribbon motif, pastel envelope background, spot-holo",
+          "descriptionRu": "Подарочная карта с лентой, пастельный конверт-фон, точечная голография",
+          "body": "Recreate the attached image as a PR promo gift gacha card. Keep the reference pose, outfit silhouette, colors, and iconic details, but design it as a limited giveaway card with rounded corners, small promo stamp, soft ribbon motif, pastel envelope background, and a gentle spot-holo accent on the subject’s accessory or frame. Use cream, dusty pink, pale blue, and warm tabletop light. Make it charming, sweet, and special but not overpowered."
+        },
+        {
+          "id": "gacha-11",
+          "title": "Common Craft Card",
+          "titleRu": "Обычная крафт-карта",
+          "description": "Recycled paper texture, stitched rarity tab, handmade indie-game charm",
+          "descriptionRu": "Текстура переработанной бумаги, прошитая метка редкости, индии-шарм",
+          "body": "Transform the attached image into a common craft-material gacha card. Preserve the reference pose, outfit shapes, and key details, but make the card look printed on textured recycled paper with soft ink, simple cutout frame, tiny stitched rarity tab, and muted color blocks. Add mild paper grain, rounded corners, and handmade charm. Use beige, sage, dusty blue, and pale pink. Make it simple, cozy, and collectible like a starter card from an indie game."
+        },
+        {
+          "id": "gacha-12",
+          "title": "Rare Sticker Card",
+          "titleRu": "Редкая стикер-карта",
+          "description": "Die-cut sticker on a card frame, white border, glossy spot highlights",
+          "descriptionRu": "Высеченный стикер на карточной рамке, белая кайма, глянцевые блики",
+          "body": "Recreate the attached image as a rare sticker-style gacha card. Keep the main subject, pose, outfit silhouette, and iconic details, but place them as a raised die-cut sticker inside a card frame with white sticker border, soft pastel shadow, small rarity badge, and glossy spot highlights. Use muted rainbow accents, cream background, and clean card layout. Make it cute, tactile, and pull-worthy without looking generic."
+        },
+        {
+          "id": "gacha-13",
+          "title": "Super Rare Velvet Card",
+          "titleRu": "Супер-редкая бархатная карта",
+          "description": "Velvet background, raised flocked border, pearl foil nameplate",
+          "descriptionRu": "Бархатный фон, рельефная флок-кайма, перламутровая табличка имени",
+          "body": "Transform the attached image into a super rare velvet-texture gacha card. Preserve the reference details, pose, outfit shapes, and color accents, but give the card a soft velvet background, raised flocked border, pearl foil nameplate, and gentle dimensional shadow around the subject. Use muted jewel pastels like dusty plum, sage, cream, silver blue, and rose. Make it luxurious, soft-touch, and elegant."
+        },
+        {
+          "id": "gacha-14",
+          "title": "Ultra Rare Liquid Foil",
+          "titleRu": "Ультра-редкая жидкая фольга",
+          "description": "Oil-on-water holographic ribbons behind the figure, luminous rarity seal",
+          "descriptionRu": "Голографические ленты «масло на воде» за фигурой, светящаяся печать редкости",
+          "body": "Recreate the attached image as an ultra rare liquid-foil gacha card. Keep the subject recognizable, but add a premium card layout with flowing holographic foil patterns like soft oil-on-water ribbons behind the figure, raised border texture, luminous rarity seal, and selective shimmer on important details. Use muted opal colors, lavender, mint, pale gold, and deep charcoal accents. Make it fluid, magical, and expensive-looking."
+        },
+        {
+          "id": "gacha-15",
+          "title": "Mythic Rare Relic Card",
+          "titleRu": "Мифический реликвия-карта",
+          "description": "Embossed metal corners, parchment center, enamel rarity gem, museum-worthy",
+          "descriptionRu": "Тиснёные металлические углы, пергаментный центр, эмалевый камень, музейная",
+          "body": "Transform the attached image into a mythic rare relic card. Preserve the pose, outfit silhouette, color accents, and iconic reference details, but design the card as an ancient collectible relic with embossed metal corners, soft parchment center, enamel rarity gem, faint carved symbols, and worn pastel-gold foil. Use ivory, antique gold, dusty blue, faded rose, and sage. Make it legendary, delicate, and museum-worthy rather than dark or aggressive."
+        },
+        {
+          "id": "gacha-16",
+          "title": "Holographic Idol Card",
+          "titleRu": "Голографическая айдол-карта",
+          "description": "Stage-lit pastel lighting, holographic border, performance badge",
+          "descriptionRu": "Сценический пастельный свет, голографическая рамка, значок выступления",
+          "body": "Recreate the attached image as a holographic idol-style gacha card, but keep it non-anime and soft. Preserve the reference subject, pose, outfit shapes, and key details, then place them in a polished vertical card with stage-like pastel lighting, holographic border, tiny performance badge, translucent ribbon graphics, and gentle spotlight glow. Use muted pink, lavender, blue, cream, and silver. Make it cute, premium, and celebratory."
+        },
+        {
+          "id": "gacha-17",
+          "title": "Tiny Plush Summon Card",
+          "titleRu": "Карта призыва плюшки",
+          "description": "Subject reimagined as a kawaii plush, stitched fabric border, embroidered rarity",
+          "descriptionRu": "Объект как кавайная плюшка, прошитая тканевая кайма, вышитая редкость",
+          "body": "Transform the attached image into a tiny plush summon card. Keep the reference pose, outfit silhouette, and iconic details, but reinterpret the subject as a kawaii plush or doll figure displayed on a collectible gacha card with stitched fabric border, embroidered rarity mark, soft felt nameplate, and pastel patchwork background. Use muted creams, dusty pink, sage, lavender, and cozy lighting. Make it huggable, handmade, and rare-card cute."
+        },
+        {
+          "id": "gacha-18",
+          "title": "Dream Aquarium Card",
+          "titleRu": "Карта-аквариум мечты",
+          "description": "Translucent water layers, floating bubbles, pearl rarity icon, serene",
+          "descriptionRu": "Прозрачные слои воды, парящие пузырьки, жемчужная иконка редкости, безмятежно",
+          "body": "Recreate the attached image as a dreamy aquarium gacha card. Preserve the subject, pose, outfit shapes, color accents, and recognizable details, but place them in a vertical card with translucent water layers, floating bubbles, soft holographic wave foil, tiny pearl rarity icon, and pastel aquatic frame. Use muted aqua, cream, lavender, pale pink, and silver shimmer. Make it serene, magical, and collectible."
+        },
+        {
+          "id": "gacha-19",
+          "title": "Moonlit Tarot Card",
+          "titleRu": "Лунная таро-карта",
+          "description": "Arc motifs, moon phases, muted foil linework, mystical and graceful",
+          "descriptionRu": "Дуговые мотивы, фазы луны, приглушённые линии фольги, мистически и грациозно",
+          "body": "Transform the attached image into a moonlit tarot-inspired gacha card. Keep the reference subject recognizable through pose, silhouette, outfit shapes, and iconic details, but frame them with elegant arc motifs, moon phases, muted foil linework, soft paper texture, and a refined rarity symbol. Use cream, midnight blue, dusty lavender, pale gold, and silver. Make it mystical, collectible, and graceful, not occult-horror."
+        },
+        {
+          "id": "gacha-20",
+          "title": "Rainbow God Pull Card",
+          "titleRu": "Радужная божественная карта",
+          "description": "Full-card holographic foil, layered rainbow prism, ultra-premium pull",
+          "descriptionRu": "Голография на всю карту, слои радужной призмы, ультра-премиальный пулл",
+          "body": "Recreate the attached image as a rainbow god-pull gacha card. Preserve the reference pose, outfit silhouette, color accents, and iconic details, but make the card look like the highest-rarity pull: full-card holographic foil, layered rainbow prism refractions, raised UV texture, glowing rarity crest, elegant etched border, and premium card photography. Keep colors muted and pearly rather than neon. Make it breathtaking, magical, and extremely rare."
+        }
+      ]
+    },
+    {
+      "id": "plush-dolls",
+      "name": "Plush & Dolls",
+      "nameRu": "Плюшки и куклы",
+      "description": "56 kawaii plush, chibi, and handmade-doll transforms — bunnies, bears, dragons, and more",
+      "descriptionRu": "56 каваи-плюшек, чиби и кукол ручной работы — зайцы, мишки, драконы и не только",
+      "prompts": [
+        {
+          "id": "plush-01",
+          "title": "Core Chibi Redraw",
+          "titleRu": "Базовая чиби-перерисовка",
+          "description": "Tiny rounded body, oversized head, stubby limbs, expressive cute face",
+          "descriptionRu": "Крошечное круглое тело, большая голова, короткие конечности, милое лицо",
+          "body": "Using the attached image as reference, redraw it as an adorable chibi version. Keep the main subject, pose, outfit, and broad composition recognizable, but transform the proportions into a tiny rounded body, oversized head, stubby limbs, soft cheeks, and a simple expressive face. Use clean gentle linework, muted pastel colors, soft shading, and a cute playful mood. Preserve the most iconic details from the reference as simplified accessories or outfit shapes. Avoid realistic anatomy, harsh shadows, intense drama, ugly distortion, horror, overly glossy anime rendering, or complicated background detail."
+        },
+        {
+          "id": "plush-02",
+          "title": "Soft Watercolor Chibi",
+          "titleRu": "Мягкое акварельное чиби",
+          "description": "Pastel watercolor washes, paper texture, rosy cheeks, tender mood",
+          "descriptionRu": "Пастельные акварельные заливки, фактура бумаги, румяные щёчки, нежно",
+          "body": "Redraw the attached image as a soft watercolor chibi illustration. Keep the subject, pose, outfit, and key visual details recognizable, but simplify them into a tiny rounded chibi form with an oversized head, small body, stubby limbs, and gentle expressive face. Use muted pastel watercolor washes, soft paper texture, delicate ink outlines, rosy cheek accents, and a calm cute mood. Make it feel tender, playful, and handmade rather than glossy or anime-like."
+        },
+        {
+          "id": "plush-03",
+          "title": "Kawaii Soft Doll",
+          "titleRu": "Мягкая каваи-кукла",
+          "description": "Handmade doll with embroidered features, button details, stitched seams",
+          "descriptionRu": "Кукла ручной работы с вышитыми чертами, пуговицами, прошитыми швами",
+          "body": "Using the attached image as reference, transform the subject into a kawaii soft doll. Keep the main pose, outfit silhouette, and most recognizable details from the reference, but reinterpret everything as a small handmade doll with a rounded oversized head, tiny soft body, embroidered facial features, button-like details, stitched seams, and plush fabric texture. Use muted pastel colors, gentle cozy lighting, soft shadows, and a simple pale background. Make it adorable, collectible, and huggable, not glossy or overly anime."
+        },
+        {
+          "id": "plush-04",
+          "title": "Vintage Rag Doll",
+          "titleRu": "Винтажная тряпичная кукла",
+          "description": "Sewn from cloth and lace scraps, faded pastels, hand-stitched charm",
+          "descriptionRu": "Сшита из ткани и кружев, выцветшая пастель, ручные стежки",
+          "body": "Recreate the attached image as a vintage rag doll version. Preserve the broad composition and key features, but make the subject look sewn from soft cloth, lace scraps, tiny ribbons, faded pastel fabric, and hand-stitched details. Use a slightly uneven handmade shape, embroidered eyes, rosy fabric cheeks, floppy limbs, and charming little seams. The mood should be sweet, nostalgic, and kawaii, like a beloved doll found in a cozy attic."
+        },
+        {
+          "id": "plush-05",
+          "title": "Porcelain Chibi Doll",
+          "titleRu": "Фарфоровая чиби-кукла",
+          "description": "Glassy eyes, painted cheeks, display-case lighting, storybook precious",
+          "descriptionRu": "Стеклянные глаза, нарисованные щёчки, свет витрины, сказочная",
+          "body": "Turn the attached image into a porcelain-doll chibi with plush accessories. Keep the subject recognizable, but simplify the proportions into a tiny doll body with a big rounded head, soft painted cheeks, delicate glassy eyes, tiny hands, and carefully styled clothing based on the reference. Add plush bows, stitched accessories, muted pastel colors, and soft display-case lighting. The result should feel precious, cute, and slightly storybook-like, not creepy."
+        },
+        {
+          "id": "plush-06",
+          "title": "Plush Animal Master",
+          "titleRu": "Мастер-плюшевое животное",
+          "description": "Universal animal-plush transform: bunny/cat/bear/fox auto-chosen for the subject",
+          "descriptionRu": "Универсальный плюш: зайчик/кот/мишка/лиса подбираются под объект",
+          "body": "Using the attached image as reference, transform the subject into a kawaii fluffy stitched animal doll. Keep the main pose, outfit silhouette, color accents, and most iconic details recognizable, but reinterpret the subject as a tiny soft plush animal with an oversized round head, small stuffed body, tiny paws, fluffy fabric or wool texture, embroidered facial features, visible stitched seams, soft cheek blush, and cute handmade accessories based on the reference. Choose an animal form that fits the subject naturally, such as a bunny, kitten, bear cub, lamb, fox, puppy, mouse, bat, or small blue alien pet. Use muted pastel colors, cozy soft lighting, gentle shadows, and a simple pale background. Make it adorable, huggable, collectible, and slightly playful. Avoid realistic anatomy, horror, ugly distortion, harsh colors, glossy anime rendering, or overly detailed backgrounds."
+        },
+        {
+          "id": "plush-07",
+          "title": "Bunny Plush",
+          "titleRu": "Зайчик-плюшка",
+          "description": "Long soft ears, rounded paws, fluffy fabric, tiny cotton tail",
+          "descriptionRu": "Длинные мягкие ушки, круглые лапки, пушистая ткань, ватный хвостик",
+          "body": "Transform the attached image into a fluffy bunny version. Keep the main pose, outfit shapes, and recognizable details from the reference, but reinterpret the subject as a tiny kawaii bunny doll with long soft ears, rounded paws, fluffy fabric texture, embroidered face, and a small cotton tail. Preserve the reference colors as muted pastel patches or accessories. Use soft cozy lighting and a pale background, like a handmade bunny plush inspired by the original."
+        },
+        {
+          "id": "plush-08",
+          "title": "Sleepy Kitten Plush",
+          "titleRu": "Сонный котёнок-плюшка",
+          "description": "Rounded ears, soft whisker stitches, embroidered sleepy eyes",
+          "descriptionRu": "Круглые ушки, стежки-усы, вышитые сонные глаза",
+          "body": "Transform the attached image into a sleepy kitten plush version. Preserve the main subject placement, clothing silhouette, and iconic details, but turn the character or object into a small fluffy kitten-like plush with rounded ears, tiny paws, soft whisker stitches, embroidered sleepy eyes, and gentle cheek blush. Use muted cream, dusty pink, soft gray, or pastel tones. Make it sweet, squishy, and funny in a tender way."
+        },
+        {
+          "id": "plush-09",
+          "title": "Tiny Lamb Plush",
+          "titleRu": "Маленький ягнёнок-плюшка",
+          "description": "Curly wool texture, rounded hooves, floppy ears, off-white fluff",
+          "descriptionRu": "Кудрявая шерсть, круглые копытца, висячие ушки, кремовый пушок",
+          "body": "Recreate the attached image as a tiny lamb plush version. Keep the broad composition and key reference details, but reinterpret the subject as a soft lamb doll with curly wool texture, rounded hooves, floppy ears, embroidered features, and a small outfit or accessory matching the original. Use warm off-white wool, muted pastel accents, gentle shadows, and cozy handmade charm. The result should feel fluffy, innocent, and very huggable."
+        },
+        {
+          "id": "plush-10",
+          "title": "Kawaii Bear Cub",
+          "titleRu": "Каваи-медвежонок",
+          "description": "Soft ears, stubby paws, embroidered nose, stitched smile, cozy fur",
+          "descriptionRu": "Мягкие ушки, короткие лапки, вышитый носик, прошитая улыбка",
+          "body": "Turn the attached image into a kawaii bear cub doll. Keep the recognizable pose, outfit, and main silhouette, but transform the subject into a tiny rounded bear plush with soft ears, stubby paws, embroidered nose, stitched smile, and fuzzy fabric texture. Preserve important reference details as tiny accessories, patches, or clothing elements. Use muted pastel browns, creams, dusty rose, or soft blue tones with warm cozy lighting."
+        },
+        {
+          "id": "plush-11",
+          "title": "Puppy Plush",
+          "titleRu": "Щенок-плюшка",
+          "description": "Floppy ears, rounded paws, soft muzzle, embroidered sleepy eyes",
+          "descriptionRu": "Висячие ушки, круглые лапки, мягкая мордочка, вышитые сонные глаза",
+          "body": "Transform the attached image into a fluffy puppy plush version. Keep the main pose, outfit shapes, and recognizable details from the reference, but reinterpret the subject as a tiny kawaii puppy doll with floppy ears, rounded paws, a soft muzzle, embroidered sleepy eyes, a stitched nose, and a little wagging tail. Preserve the reference colors as muted pastel patches, tiny accessories, or clothing details. Use fuzzy plush fabric, warm cozy lighting, gentle shadows, and a pale background. Make it sweet, loyal, squishy, and huggable."
+        },
+        {
+          "id": "plush-12",
+          "title": "Puppy Keychain",
+          "titleRu": "Брелок-щенок",
+          "description": "Mini puppy charm on a tiny ring, glossy stitched body, pocket-cute",
+          "descriptionRu": "Мини-щенок-брелок на колечке, глянцевое тело, карманно-милый",
+          "body": "Recreate the attached image as a tiny puppy-doll keychain. Preserve the broad composition, outfit silhouette, and iconic details, but turn the subject into a small rounded puppy plush with stubby paws, floppy ears, embroidered face, tiny blush marks, and a little fabric loop at the top. Use muted cream, biscuit brown, dusty pink, soft gray, or pastel blue accents. Make it look like adorable handmade bag merch inspired by the reference."
+        },
+        {
+          "id": "plush-13",
+          "title": "Kawaii Fox Plush",
+          "titleRu": "Каваи-лисёнок",
+          "description": "Pointed soft ears, fluffy curled tail, embroidered shy expression",
+          "descriptionRu": "Острые мягкие ушки, пушистый завитый хвост, вышитое застенчивое лицо",
+          "body": "Transform the attached image into a kawaii fox plush version. Keep the recognizable pose, clothing silhouette, and key reference details, but reinterpret the subject as a tiny fluffy fox doll with pointed ears, a rounded muzzle, stubby paws, embroidered eyes, and an oversized soft tail. Preserve the original colors as pastel patches, scarf-like accessories, or little outfit details. Use muted rust, cream, dusty peach, and soft brown tones with cozy handmade texture."
+        },
+        {
+          "id": "plush-14",
+          "title": "Tiny Raccoon Plush",
+          "titleRu": "Малыш-енот-плюшка",
+          "description": "Striped tail, embroidered mask, small paws, mischievous-but-soft",
+          "descriptionRu": "Полосатый хвост, вышитая маска, маленькие лапки, шкодливо-мягкий",
+          "body": "Transform the attached image into a tiny raccoon plush version. Preserve the main subject placement, outfit shapes, and iconic details, but turn the subject into a small kawaii raccoon doll with rounded ears, soft mask markings, tiny paws, a striped plush tail, embroidered face, and gentle cheek blush. Use muted gray, cream, dusty brown, and pastel accent colors. Make it mischievous, sweet, and handmade rather than wild or realistic."
+        },
+        {
+          "id": "plush-15",
+          "title": "Tiny Mouse Plush",
+          "titleRu": "Малыш-мышка-плюшка",
+          "description": "Round ears, thread whiskers, dot eyes, tiny cheese accessory",
+          "descriptionRu": "Круглые ушки, нитки-усы, точки-глаза, крошечный сыр-аксессуар",
+          "body": "Recreate the attached image as a tiny mouse plush version. Keep the broad composition and key reference details, but reinterpret the subject as a small soft mouse doll with oversized round ears, bead-like embroidered eyes, tiny paws, a little stitched nose, and a thin curled fabric tail. Preserve the reference colors through miniature clothing, patches, or accessories. Use muted pastel gray, cream, dusty rose, and cozy soft lighting."
+        },
+        {
+          "id": "plush-16",
+          "title": "Kawaii Bat Plush",
+          "titleRu": "Каваи-летучая мышь",
+          "description": "Velvet wings, round body, embroidered fangs, gently spooky-cute",
+          "descriptionRu": "Бархатные крылья, круглое тело, вышитые клычки, мягко-жутковато-мило",
+          "body": "Transform the attached image into a kawaii bat plush version. Keep the main pose, outfit silhouette, and recognizable details from the reference, but reinterpret the subject as a tiny fluffy bat doll with oversized ears, small rounded fangs, soft fabric wings, stubby paws, embroidered eyes, and a shy stitched smile. Use muted charcoal, lavender, dusty blue, cream, or pastel pink accents. Make it cute, soft, and slightly magical, not spooky."
+        },
+        {
+          "id": "plush-17",
+          "title": "Tiny Fawn Plush",
+          "titleRu": "Маленький оленёнок-плюшка",
+          "description": "Slender legs, embroidered white spots, tiny tail, forest-tender",
+          "descriptionRu": "Тонкие ножки, вышитые белые пятнышки, крошечный хвост, лесной",
+          "body": "Transform the attached image into a tiny fawn plush version. Preserve the main pose, clothing shapes, and iconic details, but turn the subject into a soft kawaii fawn doll with rounded ears, tiny embroidered nose, delicate plush antler nubs if fitting, white fabric spots, slim little hooves, and gentle sleepy eyes. Use muted caramel, cream, dusty rose, and pale sage accents. Make it delicate, innocent, cozy, and very huggable."
+        },
+        {
+          "id": "plush-18",
+          "title": "Kawaii Panda Plush",
+          "titleRu": "Каваи-панда-плюшка",
+          "description": "Round body, black-and-cream patches, embroidered sleepy eyes, bamboo accent",
+          "descriptionRu": "Круглое тело, чёрно-кремовые пятна, вышитые сонные глаза, бамбук",
+          "body": "Transform the attached image into a kawaii panda plush version. Keep the main subject placement, pose, outfit shapes, and recognizable details, but reinterpret the subject as a tiny rounded panda doll with soft black-and-cream fabric patches, stubby paws, embroidered sleepy eyes, a stitched nose, and gentle cheek blush. Preserve the reference colors as little accessories or clothing accents. Use cozy lighting and a simple pale background."
+        },
+        {
+          "id": "plush-19",
+          "title": "Red Panda Plush",
+          "titleRu": "Красная панда-плюшка",
+          "description": "Russet fur, striped tail, perky ears, cozy autumn-toned palette",
+          "descriptionRu": "Рыжеватая шёрстка, полосатый хвост, торчащие ушки, осенняя гамма",
+          "body": "Transform the attached image into a fluffy red panda plush version. Preserve the broad composition and key reference details, but turn the subject into a small kawaii red panda doll with rounded ears, a soft white muzzle, embroidered eyes, tiny paws, and a big striped tail. Use muted cinnamon, cream, dusty brown, and soft pastel accents. Make it warm, cuddly, mischievous, and handmade."
+        },
+        {
+          "id": "plush-20",
+          "title": "Tiny Otter Plush",
+          "titleRu": "Малыш-выдра-плюшка",
+          "description": "Long soft body, tiny paws, embroidered shell, holding-hands-cute",
+          "descriptionRu": "Длинное мягкое тело, крошечные лапки, вышитая ракушка, мило",
+          "body": "Transform the attached image into a tiny otter plush version. Keep the recognizable pose, outfit silhouette, and iconic details, but reinterpret the subject as a small kawaii otter doll with rounded ears, soft muzzle, tiny paws held close, embroidered face, and a little plush tail. Preserve reference colors as small accessories or clothing patches. Use muted brown, cream, dusty blue, and gentle cozy lighting. Make it sweet, curious, and squishy."
+        },
+        {
+          "id": "plush-21",
+          "title": "Baby Seal Plush",
+          "titleRu": "Малыш-тюлень-плюшка",
+          "description": "Round white pup, tiny flippers, embroidered black-dot eyes, snow soft",
+          "descriptionRu": "Круглый белый бельчонок, ласты, чёрные точки-глаза, снежно-мягко",
+          "body": "Recreate the attached image as a baby seal plush version. Preserve the main pose, subject placement, and key reference details, but turn the subject into a rounded seal doll with soft flippers, embroidered sleepy eyes, tiny whisker stitches, a small plush nose, and velvety pale fabric. Use muted cream, soft gray, dusty blue, and pastel accents. Make it tender, sleepy, and extremely huggable."
+        },
+        {
+          "id": "plush-22",
+          "title": "Tiny Duckling Plush",
+          "titleRu": "Утёнок-плюшка",
+          "description": "Round yellow body, tiny orange bill, fluffy down texture, just-hatched",
+          "descriptionRu": "Круглое жёлтое тело, оранжевый клюв, пушок, только что вылупился",
+          "body": "Transform the attached image into a tiny duckling plush version. Keep the broad composition and important reference details, but reinterpret the subject as a small kawaii duckling doll with a rounded beak, stubby wings, soft webbed feet, embroidered eyes, and fuzzy pastel fabric. Preserve the original colors as little clothing details or patches. Use warm cozy lighting, muted yellow, cream, dusty peach, and soft blue accents."
+        },
+        {
+          "id": "plush-23",
+          "title": "Baby Dragon Plush",
+          "titleRu": "Малыш-дракон-плюшка",
+          "description": "Tiny felt wings, embroidered scale dots, plush horns, gently magical",
+          "descriptionRu": "Крошечные фетровые крылья, точки-чешуйки, плюшевые рожки, магия",
+          "body": "Transform the attached image into a baby dragon plush version. Preserve the pose, outfit silhouette, and iconic details from the reference, but turn the subject into a tiny kawaii dragon doll with soft little horns, rounded wings, stubby paws, embroidered eyes, a stitched smile, and a small plush tail. Use muted pastel scales made of fabric patches, fuzzy texture, cozy lighting, and a pale background. Make it magical, sweet, and huggable rather than fierce."
+        },
+        {
+          "id": "plush-24",
+          "title": "Kawaii Axolotl Plush",
+          "titleRu": "Каваи-аксолотль-плюшка",
+          "description": "Pastel pink body, frilled gills, embroidered smile, aquatic-cute",
+          "descriptionRu": "Пастельно-розовое тело, жабры-оборки, вышитая улыбка, водный",
+          "body": "Transform the attached image into a kawaii axolotl plush version. Keep the main subject placement, pose, and recognizable details, but reinterpret the subject as a tiny soft axolotl doll with rounded frilly gills, tiny paws, embroidered sleepy eyes, a gentle stitched smile, and squishy plush fabric. Preserve the reference colors as muted pastel patches or accessories. Use soft pink, cream, lavender, dusty blue, and cozy underwater-dream lighting."
+        },
+        {
+          "id": "plush-25",
+          "title": "Fluffy Moth Plush",
+          "titleRu": "Пушистая моль-плюшка",
+          "description": "Velvet wings, fuzzy body, antennae, dusty pastel night-creature",
+          "descriptionRu": "Бархатные крылья, пушистое тельце, усики, ночное пастельное",
+          "body": "Transform the attached image into a fluffy moth plush version. Preserve the broad composition and key reference details, but turn the subject into a tiny kawaii moth doll with soft fuzzy antennae, rounded wings, embroidered eyes, tiny paws, and gentle fabric patterns based on the reference colors. Use muted cream, dusty brown, pale gold, lavender, or sage accents. Make it delicate, magical, and sweet rather than insect-realistic."
+        },
+        {
+          "id": "plush-26",
+          "title": "Tiny Hedgehog Plush",
+          "titleRu": "Малыш-ёжик-плюшка",
+          "description": "Soft yarn spines, round nose, embroidered eyes, autumn-cozy",
+          "descriptionRu": "Мягкие пряжевые иголки, круглый нос, вышитые глазки, осенне-уютный",
+          "body": "Transform the attached image into a tiny hedgehog plush version. Keep the recognizable pose, outfit shapes, and iconic reference details, but reinterpret the subject as a small kawaii hedgehog doll with a rounded body, soft fabric spines, tiny paws, embroidered nose, sleepy eyes, and gentle cheek blush. Use muted brown, cream, dusty rose, and pastel accessory colors. Make it cozy, shy, and handmade."
+        },
+        {
+          "id": "plush-27",
+          "title": "Kawaii Frog Plush",
+          "titleRu": "Каваи-лягушка-плюшка",
+          "description": "Big round eyes, soft green body, lily-pad accent, sweetly slimy-soft",
+          "descriptionRu": "Большие круглые глаза, мягкое зелёное тельце, лист кувшинки",
+          "body": "Transform the attached image into a kawaii frog plush version. Keep the main pose, outfit silhouette, and recognizable details from the reference, but reinterpret the subject as a tiny soft frog doll with rounded eyes, stubby paws, a gentle stitched smile, embroidered cheeks, and squishy plush fabric. Preserve the reference colors as muted pastel patches, tiny accessories, or clothing details. Use pale green, cream, dusty blue, and cozy soft lighting."
+        },
+        {
+          "id": "plush-28",
+          "title": "Tiny Penguin Plush",
+          "titleRu": "Малыш-пингвин-плюшка",
+          "description": "Round black-and-cream body, tiny flippers, embroidered shy face",
+          "descriptionRu": "Круглое чёрно-кремовое тело, ласты, вышитое застенчивое личико",
+          "body": "Transform the attached image into a tiny penguin plush version. Preserve the broad composition and key reference details, but turn the subject into a rounded kawaii penguin doll with soft flippers, tiny feet, embroidered sleepy eyes, a little stitched beak, and fuzzy fabric texture. Use muted charcoal, cream, dusty blue, pale yellow, and pastel accents. Make it sweet, round, chilly-cute, and huggable."
+        },
+        {
+          "id": "plush-29",
+          "title": "Fluffy Alpaca Plush",
+          "titleRu": "Пушистая альпака-плюшка",
+          "description": "Cloud-like fleece body, long neck, embroidered smile, gentle giant",
+          "descriptionRu": "Облачное руно, длинная шея, вышитая улыбка, нежный гигант",
+          "body": "Transform the attached image into a fluffy alpaca plush version. Keep the reference recognizable through pose, outfit silhouette, and important details, but reinterpret the subject as a tiny kawaii alpaca doll with a long soft neck, rounded muzzle, tiny ears, curly wool texture, stubby hooves, embroidered face, and gentle cheek blush. Use warm cream, dusty beige, pale pink, and muted pastel accents."
+        },
+        {
+          "id": "plush-30",
+          "title": "Alpaca Chewing Clover",
+          "titleRu": "Альпака жуёт клевер",
+          "description": "Same alpaca but mid-chew on a clover sprig, candid pasture moment",
+          "descriptionRu": "Та же альпака, но жуёт клевер, естественный пастбищный момент",
+          "body": "Transform the attached image into a fluffy alpaca plush version. Keep the reference recognizable through pose, outfit silhouette, and important details, but reinterpret the subject as a tiny kawaii alpaca doll with a long soft neck, rounded muzzle, tiny pointed ears, curly wool texture, stubby hooves, embroidered face, and gentle cheek blush. Add a tiny three-leaf clover sprig tucked between its plush lips, as if the alpaca is sleepily chewing on it, with one or two small green leaves peeking from the side of its mouth. Use warm cream, dusty beige, pale pink, soft sage green, and muted pastel accents. Make it cozy, innocent, handmade, and very huggable."
+        },
+        {
+          "id": "plush-31",
+          "title": "White Bison Plush",
+          "titleRu": "Белый бизон-плюшка",
+          "description": "Shaggy white fleece, embroidered horns, gentle mythical heft",
+          "descriptionRu": "Лохматое белое руно, вышитые рожки, мифическая мягкая мощь",
+          "body": "Transform the attached image into a kawaii white bison plush version. Keep the main pose, outfit silhouette, and recognizable details from the reference, but reinterpret the subject as a tiny fluffy white bison doll with a large rounded head, soft shoulder hump, shaggy woolly chest, small curved felt horns, rounded hooves, embroidered sleepy eyes, a stitched nose, and gentle cheek blush. Preserve the reference colors as muted pastel patches, tiny accessories, or clothing details. Use snowy off-white plush fabric, cream wool texture, warm cozy lighting, gentle shadows, and a pale background. Make it sacred-feeling, tender, huggable, and handmade."
+        },
+        {
+          "id": "plush-32",
+          "title": "Grey Bat Plush",
+          "titleRu": "Серая летучая мышь-плюшка",
+          "description": "Soft grey body, folded velvet wings, embroidered round eyes",
+          "descriptionRu": "Мягкое серое тельце, сложенные бархатные крылья, круглые глаза",
+          "body": "Transform the attached image into a grey kawaii bat plush version. Keep the main pose, outfit silhouette, and recognizable details from the reference, but reinterpret the subject as a tiny fluffy grey bat doll with oversized rounded ears, a soft furry body, tiny paws, small felt fangs, embroidered sleepy eyes, a stitched nose, and gentle cheek blush. Add soft fabric wings with scalloped edges, slightly darker grey wing membranes, and visible stitched seams. Preserve the reference colors as muted pastel patches, tiny accessories, or clothing details. Use warm cozy lighting, gentle shadows, and a pale background. Make it cute, shy, magical, and huggable rather than spooky."
+        },
+        {
+          "id": "plush-33",
+          "title": "Grey Bear Plush",
+          "titleRu": "Серый медвежонок-плюшка",
+          "description": "Dove-grey fur, soft round ears, stitched smile, classic cuddle",
+          "descriptionRu": "Голубино-серая шёрстка, круглые ушки, прошитая улыбка",
+          "body": "Transform the attached image into a grey kawaii bear plush version. Keep the main pose, outfit silhouette, and recognizable details from the reference, but reinterpret the subject as a tiny rounded grey bear doll with short soft ears, a plush muzzle, stubby paws, embroidered sleepy eyes, a stitched nose, tiny cheek blush, and a barely visible little tail. Preserve the reference colors as muted pastel patches, tiny accessories, or clothing details. Use fuzzy ash-grey fabric, soft cream muzzle accents, dusty blue or pale pink details, warm cozy lighting, gentle shadows, and a simple pale background. Make it sweet, squishy, handmade, and huggable."
+        },
+        {
+          "id": "plush-34",
+          "title": "Hamster Chewing Clover",
+          "titleRu": "Хомячок жуёт клевер",
+          "description": "Tiny plump hamster mid-nibble on a clover leaf, cheek-pouch full",
+          "descriptionRu": "Крошечный пухлый хомяк грызёт клевер, полные щёчки",
+          "body": "Transform the attached image into a kawaii hamster plush chewing clover. Keep the main pose, outfit silhouette, color accents, and recognizable details from the reference, but reinterpret the subject as a tiny round hamster doll with soft plush fur, tiny rounded ears, stubby paws, a small embroidered nose, sleepy stitched eyes, gentle cheek blush, and extra-puffy cheek pouches. Add a little three-leaf clover sprig tucked between its plush lips, with tiny green leaves peeking out as if the hamster is happily chewing. Preserve reference details as muted pastel patches, miniature accessories, or clothing pieces. Use warm cream, dusty beige, soft gray, pale pink cheeks, muted sage green clover, cozy lighting, and a simple pale background. Make it sweet, squishy, handmade, and tenderly funny."
+        },
+        {
+          "id": "plush-35",
+          "title": "Black Rainbow Cat",
+          "titleRu": "Чёрный радужный кот",
+          "description": "Black plush cat with iridescent rainbow accent threads in the fur",
+          "descriptionRu": "Чёрный плюшевый кот с переливающимися радужными нитями в шерсти",
+          "body": "Transform the attached image into a black rainbow kawaii cat plush version. Keep the main pose, outfit silhouette, color accents, and recognizable details from the reference, but reinterpret the subject as a tiny fluffy black cat doll with pointed ears, rounded paws, a soft muzzle, embroidered sleepy eyes, stitched whiskers, a tiny pink nose, gentle cheek blush, and a curled plush tail. Add subtle pastel rainbow patches or stripes in the fur, especially on the ears, tail, paws, or tiny accessories, while keeping the main body soft black. Use muted rainbow colors, cozy lighting, gentle shadows, and a simple pale background. Make it magical, sweet, squishy, handmade, and huggable."
+        },
+        {
+          "id": "plush-36",
+          "title": "Black Rainbow Kitten",
+          "titleRu": "Чёрный радужный котёнок",
+          "description": "Smaller version: round kitten body, prismatic stitched highlights",
+          "descriptionRu": "Мини-версия: круглый котёнок, призматические прошитые блики",
+          "body": "Recreate the attached image as a tiny black rainbow kitten plush. Preserve the broad composition, pose, outfit shapes, and iconic reference details, but turn the subject into a small kawaii kitten doll with velvety black plush fur, oversized pointed ears, tiny paws, embroidered closed eyes, stitched whiskers, a soft rounded muzzle, and a curled tail. Add delicate pastel rainbow accents like soft stripes on the tail, tiny rainbow paw pads, colored ear tips, and little star-shaped fabric patches. Use muted pink, lavender, blue, mint, and pale yellow against deep charcoal-black fabric. The result should feel cozy, magical, tender, and collectible."
+        },
+        {
+          "id": "plush-37",
+          "title": "Sleepy Snow Fox Plush",
+          "titleRu": "Сонный снежный лис",
+          "description": "Pure-white fluff, pale blue paw pads, embroidered closed eyes",
+          "descriptionRu": "Белоснежный пух, бледно-голубые подушечки, вышитые закрытые глаза",
+          "body": "Transform the attached image into a sleepy snow fox plush version. Keep the main pose, outfit silhouette, color accents, and recognizable details from the reference, but reinterpret the subject as a tiny white fox doll with oversized soft ears, a pointed plush muzzle, embroidered sleepy eyes, stubby paws, and a huge fluffy tail curled around its body. Preserve reference details as muted pastel patches, tiny accessories, or clothing pieces. Use snowy cream fabric, pale gray shadows, dusty blue, soft lavender, and warm cozy lighting. Make it gentle, wintery, handmade, and very huggable."
+        },
+        {
+          "id": "plush-38",
+          "title": "Tiny Sugar Glider Plush",
+          "titleRu": "Малыш-сахарная сумчатая летяга",
+          "description": "Soft grey body, stretched gliding membranes, embroidered big eyes",
+          "descriptionRu": "Мягкое серое тельце, растянутые перепонки, большие глаза",
+          "body": "Transform the attached image into a kawaii sugar glider plush version. Preserve the broad composition, pose, outfit shapes, and iconic reference details, but turn the subject into a tiny soft sugar glider doll with huge rounded ears, big embroidered sleepy eyes, a soft muzzle, tiny paws, and plush gliding membranes tucked like a cape. Use muted gray, cream, dusty rose, pale blue, and pastel accent patches. Make it sweet, shy, pocket-sized, and handmade."
+        },
+        {
+          "id": "plush-39",
+          "title": "Baby Owl Plush",
+          "titleRu": "Малыш-совёнок-плюшка",
+          "description": "Round fluffy body, embroidered round eyes, tiny beak, wise-cute",
+          "descriptionRu": "Круглое пушистое тельце, круглые глаза, клювик, мудро-милый",
+          "body": "Recreate the attached image as a baby owl plush version. Keep the reference recognizable through pose, outfit silhouette, and important details, but reinterpret the subject as a tiny round owl doll with fluffy feather-like fabric, oversized soft eyes, tiny felt beak, stubby wings, embroidered face, and little plush feet. Preserve the reference colors as muted pastel patches or accessories. Use warm cream, taupe, dusty brown, pale gold, and soft blue accents with cozy storybook lighting."
+        },
+        {
+          "id": "plush-40",
+          "title": "Fluffy Ferret Plush",
+          "titleRu": "Пушистый хорёк-плюшка",
+          "description": "Long soft body, embroidered bandit mask, mischievous-tender",
+          "descriptionRu": "Длинное мягкое тельце, вышитая маска бандита, шкодливо-нежно",
+          "body": "Transform the attached image into a fluffy ferret plush version. Keep the main pose, outfit shapes, and recognizable details from the reference, but reinterpret the subject as a long tiny ferret doll with a soft rounded snout, small ears, stubby paws, embroidered sleepy eyes, and a curled plush tail. Preserve the reference colors as tiny clothing pieces, patches, or accessories. Use muted cream, sable brown, dusty beige, pale pink cheeks, and warm cozy shadows. Make it playful, sneaky, sweet, and squishy."
+        },
+        {
+          "id": "plush-41",
+          "title": "Pastel Skunk Plush",
+          "titleRu": "Пастельный скунс-плюшка",
+          "description": "Lavender-and-cream stripe, fluffy tail, embroidered shy face",
+          "descriptionRu": "Лавандово-кремовая полоса, пушистый хвост, застенчивая мордочка",
+          "body": "Transform the attached image into a pastel skunk plush version. Preserve the pose, clothing silhouette, and iconic reference details, but turn the subject into a tiny kawaii skunk doll with rounded ears, soft muzzle, stubby paws, embroidered eyes, and a huge fluffy tail with a pale stripe. Use charcoal gray, cream, dusty lavender, muted pink, and soft blue accents. Make it cute, shy, gentle, and handmade, not smelly or spooky."
+        },
+        {
+          "id": "plush-42",
+          "title": "Cloud Sheep Plush",
+          "titleRu": "Облако-овечка-плюшка",
+          "description": "Cloud-fluff body, tiny embroidered face, pale sky-blue accents",
+          "descriptionRu": "Облачно-пушистое тельце, крошечное вышитое личико, голубые акценты",
+          "body": "Recreate the attached image as a tiny cloud-sheep plush. Keep the broad composition and key reference details, but reinterpret the subject as a soft little sheep doll made of cloud-like wool puffs, with rounded ears, tiny hooves, embroidered sleepy eyes, a stitched nose, and gentle cheek blush. Preserve the original colors as pastel ribbons, patches, or miniature outfit details. Use warm ivory, cream, pale blue, dusty pink, and soft sage accents. Make it dreamy, fluffy, and tender."
+        },
+        {
+          "id": "plush-43",
+          "title": "Moon Bunny Charm",
+          "titleRu": "Лунный кролик-брелок",
+          "description": "Tiny bunny on a moon crescent charm, pearl-and-cream palette",
+          "descriptionRu": "Крошечный кролик на полумесяце-брелке, жемчужно-кремовая гамма",
+          "body": "Transform the attached image into a moon bunny plush charm. Keep the main pose, outfit silhouette, colors, and iconic details recognizable, but reinterpret the subject as a tiny rounded bunny doll with long soft ears, embroidered sleepy eyes, stubby paws, a little cotton tail, and a crescent-moon accessory or patch. Use muted ivory, pale yellow, dusty lavender, soft blue, and gentle warm shadows. Make it magical, bedtime-cute, handmade, and collectible."
+        },
+        {
+          "id": "plush-44",
+          "title": "Strawberry Kitten Plush",
+          "titleRu": "Клубничный котёнок",
+          "description": "Pink-cream body with tiny seed details, strawberry-leaf hat",
+          "descriptionRu": "Розово-кремовое тельце с точками-семечками, шляпка-листик",
+          "body": "Recreate the attached image as a strawberry kitten plush version. Preserve the pose, outfit shapes, and recognizable reference details, but turn the subject into a tiny kitten doll with soft ears, rounded paws, stitched whiskers, embroidered sleepy eyes, and subtle strawberry- inspired details like a tiny leaf collar, berry-shaped patch, or pastel red paw pads. Use cream, dusty pink, muted red, sage green, and warm cozy lighting. Make it sweet, squishy, and handmade."
+        },
+        {
+          "id": "plush-45",
+          "title": "Honey Bear Plush",
+          "titleRu": "Медовый медвежонок",
+          "description": "Warm honey-gold fur, tiny embroidered hive, cozy autumn glow",
+          "descriptionRu": "Тёплый медово-золотой мех, крошечный улей, осеннее тепло",
+          "body": "Transform the attached image into a honey bear plush version. Keep the reference recognizable through pose, outfit silhouette, color accents, and key details, but reinterpret the subject as a tiny rounded bear doll with soft ears, a cream muzzle, stubby paws, embroidered sleepy eyes, a stitched nose, and a small honey-pot accessory or honey-colored patch. Use muted honey gold, warm brown, cream, dusty peach, and pale blue accents. Make it cozy, gentle, and huggable."
+        },
+        {
+          "id": "plush-46",
+          "title": "Tiny Opossum Plush",
+          "titleRu": "Малыш-опоссум-плюшка",
+          "description": "Greyscale fluff, embroidered pointy face, comically endearing",
+          "descriptionRu": "Серый пух, вышитая остренькая мордочка, комично-милый",
+          "body": "Transform the attached image into a tiny opossum plush version. Preserve the broad composition, pose, outfit shapes, and iconic reference details, but turn the subject into a soft opossum doll with rounded gray ears, a pale plush face, tiny paws, embroidered sleepy eyes, a stitched pink nose, and a curled fabric tail. Preserve reference colors as pastel patches or little accessories. Use soft gray, cream, dusty pink, muted lavender, and warm cozy light. Make it shy, silly, and adorable."
+        },
+        {
+          "id": "plush-47",
+          "title": "Kawaii Capybara Plush",
+          "titleRu": "Каваи-капибара-плюшка",
+          "description": "Big round body, tiny ears, embroidered sleepy face, zen vibe",
+          "descriptionRu": "Большое круглое тело, ушки, вышитая сонная мордочка, дзен-вайб",
+          "body": "Recreate the attached image as a kawaii capybara plush version. Keep the main pose, outfit silhouette, and important reference details, but reinterpret the subject as a tiny calm capybara doll with a rounded muzzle, small soft ears, stubby paws, embroidered sleepy eyes, and velvety brown plush fabric. Add a tiny citrus slice, clover, or bath towel accessory if it fits the reference. Use muted caramel, cream, dusty orange, sage green, and cozy soft lighting. Make it peaceful, funny, and huggable."
+        },
+        {
+          "id": "plush-48",
+          "title": "Baby Goat Plush",
+          "titleRu": "Малыш-козлёнок-плюшка",
+          "description": "Tiny embroidered horns, floppy ears, knobbly knees, mountain-soft",
+          "descriptionRu": "Крошечные вышитые рожки, висячие ушки, кривенькие коленки",
+          "body": "Transform the attached image into a baby goat plush version. Preserve the recognizable pose, outfit shapes, colors, and iconic details, but turn the subject into a tiny soft goat doll with floppy ears, little felt horns, rounded hooves, embroidered eyes, stitched nose, and gentle cheek blush. Preserve reference elements as miniature clothing, patches, or accessories. Use warm cream, dusty beige, pale gray, muted pink, and soft sage accents. Make it innocent, bouncy, handmade, and cuddly."
+        },
+        {
+          "id": "plush-49",
+          "title": "Tiny Cow Plush",
+          "titleRu": "Малыш-коровка-плюшка",
+          "description": "Black-and-cream patches, tiny embroidered bell, pasture-tender",
+          "descriptionRu": "Чёрно-кремовые пятна, крошечный колокольчик, пастбищно-нежная",
+          "body": "Recreate the attached image as a tiny kawaii cow plush. Keep the main composition, pose, outfit silhouette, and key reference details, but reinterpret the subject as a small rounded cow doll with soft ears, tiny felt horns, stubby hooves, embroidered sleepy eyes, a plush muzzle, and gentle fabric spots. Preserve reference colors as pastel patches or accessories. Use warm ivory, soft gray, dusty brown, pale pink, and cozy lighting. Make it sweet, sleepy, and handmade."
+        },
+        {
+          "id": "plush-50",
+          "title": "Fluffy Arctic Seal Pup",
+          "titleRu": "Пушистый арктический бельчонок",
+          "description": "White cloud-fur, tiny flippers, embroidered dot eyes, snow-soft",
+          "descriptionRu": "Белый облачный мех, крошечные ласты, точки-глаза, снежно-мягко",
+          "body": "Transform the attached image into a fluffy arctic seal pup plush. Preserve the pose, clothing shapes, color accents, and recognizable details, but reinterpret the subject as a tiny round seal doll with velvety white fur, soft flippers, embroidered sleepy eyes, tiny whisker stitches, a small plush nose, and pale blush cheeks. Use snowy cream, soft gray, dusty blue, lavender, and gentle warm shadows. Make it tender, chilly-cute, and squishable."
+        },
+        {
+          "id": "plush-51",
+          "title": "Kawaii Raven Plush",
+          "titleRu": "Каваи-ворон-плюшка",
+          "description": "Soft black plush, embroidered violet eye-highlights, gently corvid",
+          "descriptionRu": "Мягкий чёрный плюш, вышитые фиолетовые блики в глазах",
+          "body": "Transform the attached image into a kawaii raven plush version. Keep the broad pose, outfit silhouette, and iconic reference details, but turn the subject into a tiny round raven doll with soft black feather-like fabric, a small felt beak, stubby wings, embroidered sleepy eyes, and tiny plush feet. Add subtle muted rainbow or blue-violet sheen patches if fitting. Use charcoal, midnight blue, dusty purple, cream accents, and cozy lighting. Make it mysterious, cute, and collectible rather than ominous."
+        },
+        {
+          "id": "plush-52",
+          "title": "Little Mushroom Mouse",
+          "titleRu": "Маленькая гриб-мышка",
+          "description": "Tiny mouse wearing a mushroom-cap hood, embroidered dot eyes",
+          "descriptionRu": "Крошечная мышка в капюшоне-грибной шляпке, точки-глаза",
+          "body": "Recreate the attached image as a little mushroom mouse plush. Preserve the reference pose, outfit shapes, color accents, and key details, but reinterpret the subject as a tiny mouse doll with oversized round ears, embroidered sleepy eyes, tiny paws, a curled fabric tail, and a small mushroom-cap hood or patch. Use muted cream, dusty red, sage green, beige, and pale pink cheeks. Make it woodland-cute, soft, handmade, and storybook-like."
+        },
+        {
+          "id": "plush-53",
+          "title": "Tiny Sea Bunny Plush",
+          "titleRu": "Малыш-морской зайчик",
+          "description": "Sea-bunny slug as a fluffy round plush, pastel-spotted body",
+          "descriptionRu": "Морской заяц-слизень как пушистая круглая плюшка, пастельные пятна",
+          "body": "Transform the attached image into a tiny sea bunny plush version. Keep the main pose, outfit silhouette, and recognizable details, but reinterpret the subject as a soft sea-slug bunny doll with rounded body, tiny ear-like antennae, stubby plush nubs, embroidered sleepy eyes, and delicate pastel speckles. Preserve reference colors as muted patches or accessories. Use cream, pale yellow, dusty pink, lavender, and soft blue tones. Make it strange, adorable, squishy, and magical."
+        },
+        {
+          "id": "plush-54",
+          "title": "Kawaii Pony Plush",
+          "titleRu": "Каваи-пони-плюшка",
+          "description": "Soft yarn mane, stitched hooves, pastel coat, gentle daydream",
+          "descriptionRu": "Мягкая пряжевая грива, прошитые копытца, пастельная масть",
+          "body": "Recreate the attached image as a kawaii pony plush version. Preserve the pose, outfit shapes, color accents, and iconic details from the reference, but turn the subject into a tiny rounded pony doll with soft ears, stubby hooves, embroidered sleepy eyes, a stitched muzzle, fluffy mane, and a plush tail. Preserve reference details as little accessories or pastel fabric patches. Use muted cream, dusty brown, pale pink, lavender, and warm cozy lighting. Make it gentle, sweet, and collectible."
+        },
+        {
+          "id": "plush-55",
+          "title": "Little Squirrel Plush",
+          "titleRu": "Маленькая белочка-плюшка",
+          "description": "Rounded body, oversized curled fluffy tail, tiny felt acorn",
+          "descriptionRu": "Круглое тельце, большой завитый пушистый хвост, фетровый жёлудь",
+          "body": "Transform the attached image into a little squirrel plush version. Keep the reference recognizable through pose, outfit silhouette, colors, and important details, but reinterpret the subject as a tiny soft squirrel doll with rounded ears, a small muzzle, tiny paws, embroidered sleepy eyes, and an oversized curled fluffy tail. Add a tiny felt acorn or leaf accessory if it fits the scene. Use muted cinnamon, cream, dusty beige, sage green, and pale pink accents. Make it cozy, curious, and huggable."
+        },
+        {
+          "id": "plush-56",
+          "title": "Pastel Jellyfish Plush",
+          "titleRu": "Пастельная медуза-плюшка",
+          "description": "Squishy bell, dangling ribbon tentacles, translucent pastel fabric",
+          "descriptionRu": "Мягкий купол, висячие ленточки-щупальца, прозрачная пастельная ткань",
+          "body": "Transform the attached image into a pastel jellyfish plush version. Preserve the broad composition, color accents, and iconic reference details, but reinterpret the subject as a tiny soft jellyfish doll with a rounded squishy bell, embroidered sleepy eyes, gentle cheek blush, dangling ribbon-like plush tentacles, and tiny accessory details inspired by the reference. Use translucent-looking pastel fabric in lavender, pale blue, cream, dusty pink, and mint. Make it dreamy, floaty, magical, and cuddly rather than realistic."
+        }
+      ]
+    },
+    {
+      "id": "tiny-worlds",
+      "name": "Tiny Worlds",
+      "nameRu": "Крошечные миры",
+      "description": "51 miniature dioramas and tiny-scale fantasies — terrariums, snow globes, paper theaters",
+      "descriptionRu": "51 миниатюрная диорама и крошечная фантазия — террариумы, снежные шары, бумажные театры",
+      "prompts": [
+        {
+          "id": "tiny-01",
+          "title": "Teacup Terrarium",
+          "titleRu": "Террариум в чашке",
+          "description": "Tiny moss-and-felt terrarium inside a porcelain teacup, dewdrops and clover",
+          "descriptionRu": "Крошечный террариум из мха и фетра в фарфоровой чашке, росинки и клевер",
+          "body": "Transform the attached image into a kawaii miniature terrarium inside a porcelain teacup. Preserve the main pose, silhouette, color accents, and iconic reference details, but rebuild the subject as tiny soft shapes made from moss, felt, beads, paper flowers, and pastel clay. Add dewdrops, tiny mushrooms, clover leaves, and a cozy spoon resting nearby. Use muted sage, cream, dusty pink, pale blue, and warm window light. Make it delicate, magical, handmade, and collectible."
+        },
+        {
+          "id": "tiny-02",
+          "title": "Matchbox Theater",
+          "titleRu": "Театр в спичечном коробке",
+          "description": "Layered paper cutouts in an open matchbox, tiny fabric curtains",
+          "descriptionRu": "Многослойные бумажные фигурки в спичечном коробке, тканевые занавески",
+          "body": "Recreate the attached image as a tiny kawaii theater scene inside an open matchbox. Keep the broad composition, pose, outfit shapes, and recognizable details from the reference, but reinterpret everything as layered paper cutouts, little fabric curtains, thread strings, and hand-painted props. Use soft pastel colors, warm miniature stage lighting, gentle paper shadows, and a pale craft-table background. Make it charming, theatrical, secretive, and lovingly handmade."
+        },
+        {
+          "id": "tiny-03",
+          "title": "Pocket Watch World",
+          "titleRu": "Мир в карманных часах",
+          "description": "Tiny sculpted world among gears, pearls, and dried flowers inside a watch",
+          "descriptionRu": "Крошечный мир среди шестерёнок, жемчуга и сухоцветов в часах",
+          "body": "Transform the attached image into a kawaii miniature world inside an antique pocket watch. Preserve the reference pose, silhouette, color accents, and key details, but turn them into tiny sculpted pieces arranged among soft gears, pearls, dried flowers, ribbon scraps, and glowing dust. Use muted gold, ivory, dusty rose, pale lavender, and gentle blue shadows. Make it whimsical, precious, timeworn, and quietly magical."
+        },
+        {
+          "id": "tiny-04",
+          "title": "Glass Snow Globe",
+          "titleRu": "Стеклянный снежный шар",
+          "description": "Tiny plush figures inside a snow globe, floating glitter snow",
+          "descriptionRu": "Крошечные плюшевые фигурки в снежном шаре, парящие блёстки-снег",
+          "body": "Recreate the attached image as a cute snow globe miniature. Keep the subject placement, pose, outfit silhouette, and iconic details recognizable, but reinterpret everything as tiny rounded plush or clay figures inside a glass globe. Add soft floating glitter snow, miniature props, pastel base decoration, and gentle reflections on the glass. Use muted winter colors, warm cozy lighting, cream highlights, and soft shadows. Make it magical, collectible, and tender."
+        },
+        {
+          "id": "tiny-05",
+          "title": "Moon Lantern",
+          "titleRu": "Лунный фонарик",
+          "description": "Softly glowing rice-paper lantern, stitched patches, dangling charms",
+          "descriptionRu": "Мягко светящийся фонарик из рисовой бумаги, нашивки, подвески",
+          "body": "Transform the attached image into a kawaii paper moon lantern. Preserve the main silhouette, pose, color accents, and recognizable details, but reinterpret the subject as a softly glowing handmade lantern made from rice paper, thin wire, stitched paper patches, and tiny dangling charms. Use muted ivory, moon yellow, dusty lavender, pale blue, and warm candle-like light. Make it dreamy, peaceful, handmade, and bedtime-cute."
+        },
+        {
+          "id": "tiny-06",
+          "title": "Book Nook Diorama",
+          "titleRu": "Книжная нора-диорама",
+          "description": "Miniature scene tucked between old books, tiny lamps and lace curtains",
+          "descriptionRu": "Миниатюрная сцена между старыми книгами, маленькие лампы и кружева",
+          "body": "Recreate the attached image as a tiny kawaii book nook scene tucked between old books. Keep the broad reference composition, pose, outfit shapes, and key details, but rebuild the subject as miniature paper, felt, clay, and fabric pieces inside a cozy shelf diorama. Add tiny books, lace curtains, little lamps, and soft dust motes. Use muted pastels, warm lamplight, and gentle shadows. Make it storybook- like, intimate, and magical."
+        },
+        {
+          "id": "tiny-07",
+          "title": "Music Box Carousel",
+          "titleRu": "Музыкальная карусель",
+          "description": "Porcelain-and-plush figurine on a rotating platform, ribbon details",
+          "descriptionRu": "Фарфорово-плюшевая фигурка на вращающейся платформе, ленточки",
+          "body": "Transform the attached image into a tiny kawaii music box carousel figure. Preserve the recognizable pose, outfit silhouette, colors, and iconic details, but reinterpret the subject as a rounded porcelain-and-plush figurine on a small rotating platform. Add pastel painted trim, tiny gold accents, ribbon details, and soft display-case lighting. Make it delicate, nostalgic, collectible, and sweet without becoming creepy."
+        },
+        {
+          "id": "tiny-08",
+          "title": "Porcelain Lucky Charm",
+          "titleRu": "Фарфоровый талисман",
+          "description": "Smooth rounded charm with painted cheeks, gold details, ribbon loop",
+          "descriptionRu": "Гладкий круглый талисман с расписными щёчками, золото, петля-ленточка",
+          "body": "Recreate the attached image as a tiny porcelain lucky charm. Keep the main subject, pose, outfit shapes, and recognizable details, but simplify everything into a smooth rounded charm with soft painted cheeks, tiny gold details, glossy ceramic texture, and a little ribbon loop. Preserve reference colors as muted pastel glaze accents. Use warm ivory, dusty pink, pale blue, and gentle shadows. Make it precious, cute, and handmade."
+        },
+        {
+          "id": "tiny-09",
+          "title": "Candy Box Shrine",
+          "titleRu": "Алтарь в коробке конфет",
+          "description": "Mini shrine inside an open candy box, foil wrappers as offerings",
+          "descriptionRu": "Мини-алтарь в открытой коробке конфет, фольга-обёртки как подношения",
+          "body": "Transform the attached image into a kawaii candy box shrine. Preserve the reference pose, silhouette, colors, and iconic details, but reinterpret the subject as a tiny soft figure arranged inside a pastel candy box with tissue paper, ribbons, foil stars, sugar pearls, and little sweet wrappers. Use muted strawberry pink, cream, butter yellow, mint, and pale lavender. Make it adorable, decorative, collectible, and slightly dreamy."
+        },
+        {
+          "id": "tiny-10",
+          "title": "Strawberry Shortcake Diorama",
+          "titleRu": "Диорама-клубничный шорткейк",
+          "description": "Tiny figures perched on a layered cake, whipped-cream clouds",
+          "descriptionRu": "Крошечные фигурки на многослойном торте, облака взбитых сливок",
+          "body": "Recreate the attached image as a tiny strawberry shortcake diorama. Keep the broad composition, pose, outfit silhouette, and key details recognizable, but rebuild the scene from sponge cake layers, whipped cream, strawberry slices, pastel icing, and tiny edible decorations. Preserve reference colors as icing accents or fruit details. Use soft bakery lighting, warm cream tones, dusty pink, and gentle shadows. Make it sweet, cute, and deliciously miniature."
+        },
+        {
+          "id": "tiny-11",
+          "title": "Milk Carton Mascot",
+          "titleRu": "Маскот из пакета молока",
+          "description": "Subject reimagined as a mascot living inside a tiny milk carton",
+          "descriptionRu": "Объект как маскот, живущий внутри крошечного пакета молока",
+          "body": "Transform the attached image into a kawaii milk carton mascot toy. Preserve the main pose, outfit shapes, color accents, and recognizable details, but reinterpret the subject as a tiny rounded milk-carton character with stubby arms, soft printed details, embroidered expression, and pastel packaging graphics inspired by the reference. Use cream, pale blue, dusty pink, muted mint, and cozy tabletop lighting. Make it funny, cute, collectible, and gentle."
+        },
+        {
+          "id": "tiny-12",
+          "title": "Cloud Pillow Shrine",
+          "titleRu": "Алтарь-облачная подушка",
+          "description": "Plush cloud pillow as a tiny shrine, embroidered stars, gentle glow",
+          "descriptionRu": "Плюшевая подушка-облако как мини-алтарь, вышитые звёзды, мягкое сияние",
+          "body": "Recreate the attached image as a soft cloud pillow shrine. Keep the reference pose, silhouette, outfit shapes, and iconic details, but reinterpret the subject as a fluffy cloud-shaped plush arrangement with embroidered features, stitched stars, tiny felt charms, ribbon bows, and pastel fabric patches. Use ivory, pale blue, lavender, dusty pink, and soft warm shadows. Make it sleepy, magical, huggable, and handmade."
+        },
+        {
+          "id": "tiny-13",
+          "title": "Sleepy Star Cushion",
+          "titleRu": "Сонная звёздная подушечка",
+          "description": "Star-shaped plush cushion with embroidered sleepy face, bedtime cozy",
+          "descriptionRu": "Плюшевая подушка-звезда с вышитым сонным личиком, перед сном",
+          "body": "Transform the attached image into a kawaii sleepy star cushion. Preserve the broad composition, pose, colors, and key reference details, but simplify the subject into a soft star-shaped plush with embroidered sleepy eyes, gentle blush, rounded fabric points, visible seams, and tiny accessories based on the reference. Use muted yellow, cream, dusty lavender, pale blue, and cozy bedtime lighting. Make it soft, dreamy, and adorable."
+        },
+        {
+          "id": "tiny-14",
+          "title": "Tiny Planet Charm",
+          "titleRu": "Малая планета-брелок",
+          "description": "Charm shaped like a tiny planet with rings, pastel cosmic palette",
+          "descriptionRu": "Брелок в форме маленькой планеты с кольцами, космическая пастель",
+          "body": "Recreate the attached image as a tiny kawaii planet charm. Keep the subject recognizable through pose, silhouette, color accents, and iconic details, but reinterpret it as a round plush or clay planet with a soft ring, little embroidered face, tiny orbiting stars, and miniature accessories from the reference. Use muted cosmic pastels, dusty blue, lavender, cream, pale gold, and gentle glow. Make it magical, collectible, and sweet."
+        },
+        {
+          "id": "tiny-15",
+          "title": "Constellation Plush Map",
+          "titleRu": "Плюшевая карта созвездий",
+          "description": "Plush starfield with stitched constellation lines, dreamy navigator feel",
+          "descriptionRu": "Плюшевое звёздное поле с прошитыми линиями созвездий",
+          "body": "Transform the attached image into a kawaii constellation plush map. Preserve the main silhouette, pose, outfit shapes, and iconic details, but reinterpret them as stitched star points, embroidered dotted lines, tiny moon patches, velvet sky fabric, and soft pastel thread. Use midnight blue, dusty lavender, silver cream, pale gold, and gentle fabric texture. Make it poetic, celestial, handmade, and quietly cute."
+        },
+        {
+          "id": "tiny-16",
+          "title": "Pressed Flower Portrait",
+          "titleRu": "Портрет из прессованных цветов",
+          "description": "Subject rebuilt from pressed petals and leaves inside a glass frame",
+          "descriptionRu": "Объект собран из прессованных лепестков и листьев в стеклянной рамке",
+          "body": "Recreate the attached image as a kawaii pressed-flower collage. Keep the reference composition, silhouette, pose, and key details, but form the subject from delicate dried petals, tiny leaves, stems, translucent paper, thread, and pastel labels. Use cream archival paper, muted botanical colors, dusty rose, sage, pale yellow, and soft natural light. Make it fragile, sweet, artsy, and scrapbook-like."
+        },
+        {
+          "id": "tiny-17",
+          "title": "Seed Packet Mascot",
+          "titleRu": "Маскот с пакетика семян",
+          "description": "Vintage seed packet illustration style, paper texture, botanical charm",
+          "descriptionRu": "В стиле винтажного пакетика семян, бумажная фактура, ботанический шарм",
+          "body": "Transform the attached image into a vintage kawaii seed packet illustration. Preserve the subject pose, outfit shapes, color accents, and recognizable details, but reinterpret the subject as a cute rounded garden mascot printed on a pastel paper seed packet. Add tiny flowers, clover, label boxes, soft ink texture, and gentle faded colors. Use cream, sage, dusty pink, pale blue, and warm paper grain. Make it nostalgic, botanical, and adorable."
+        },
+        {
+          "id": "tiny-18",
+          "title": "Mushroom Cottage Toy",
+          "titleRu": "Игрушка-грибной домик",
+          "description": "Tiny cottage shaped like a mushroom, felt-and-clay construction",
+          "descriptionRu": "Крошечный домик в форме гриба, фетр и глина",
+          "body": "Recreate the attached image as a tiny mushroom cottage toy. Keep the broad composition, pose, silhouette, and important reference details, but transform the subject into a soft little figure or house shaped around a mushroom cap, with felt windows, stitched spots, tiny moss, and pastel clay details. Use muted red, cream, sage green, beige, and warm cozy light. Make it woodland-cute, magical, and handmade."
+        },
+        {
+          "id": "tiny-19",
+          "title": "Acorn Keepsake",
+          "titleRu": "Памятный жёлудь",
+          "description": "Subject hidden inside an acorn shell, mossy little secret",
+          "descriptionRu": "Объект спрятан в скорлупе жёлудя, маленький моховой секрет",
+          "body": "Transform the attached image into a kawaii acorn keepsake. Preserve the reference pose, silhouette, color accents, and iconic details, but reinterpret the subject as a tiny plush or carved acorn charm with a textured cap, embroidered face, little felt limbs, and miniature accessories from the reference. Use warm browns, cream, dusty pink, sage, and soft golden light. Make it cozy, autumnal, pocket-sized, and sweet."
+        },
+        {
+          "id": "tiny-20",
+          "title": "Fairy Mailbox",
+          "titleRu": "Почтовый ящик феи",
+          "description": "Tiny mailbox holding miniature letters, fairy-scale woodland post",
+          "descriptionRu": "Крошечный ящик с миниатюрными письмами, лесная фейская почта",
+          "body": "Recreate the attached image as a tiny fairy mailbox scene. Keep the main composition, pose, outfit silhouette, and recognizable details, but rebuild the subject as a miniature mailbox, plush figure, or charm surrounded by letters, stamps, ribbons, clover, and tiny flowers. Use muted pastels, cream paper texture, soft sage, dusty rose, and warm lamplight. Make it whimsical, secretive, cute, and handmade."
+        },
+        {
+          "id": "tiny-21",
+          "title": "Locket Portrait",
+          "titleRu": "Портрет в медальоне",
+          "description": "Subject as a tiny painted portrait inside an open antique locket",
+          "descriptionRu": "Объект как крошечный портрет внутри открытого антикварного медальона",
+          "body": "Transform the attached image into a kawaii locket portrait. Preserve the recognizable pose, silhouette, outfit shapes, and color accents, but reinterpret the subject as a tiny rounded illustration or plush relief inside an open heart-shaped locket. Add pearl trim, ribbon, pressed flowers, soft enamel details, and warm antique lighting. Use muted gold, cream, dusty pink, pale blue, and gentle shadows. Make it sentimental, delicate, and precious."
+        },
+        {
+          "id": "tiny-22",
+          "title": "Button Tin World",
+          "titleRu": "Мир в жестянке с пуговицами",
+          "description": "Tiny scene built from buttons, threads, and tin-box charm",
+          "descriptionRu": "Крошечная сцена из пуговиц, ниток и жестяной коробки",
+          "body": "Recreate the attached image as a tiny kawaii world inside a vintage button tin. Keep the reference composition, pose, colors, and iconic details, but rebuild everything from buttons, thread, felt scraps, fabric patches, lace, beads, and tiny stitched props. Use muted pastel sewing-box colors, warm desk lighting, and soft shadows. Make it handmade, nostalgic, cozy, and full of tiny details."
+        },
+        {
+          "id": "tiny-23",
+          "title": "Spool Doll",
+          "titleRu": "Кукла-катушка",
+          "description": "Wooden thread-spool doll, embroidered face, ribbon dress",
+          "descriptionRu": "Кукла из деревянной катушки, вышитое личико, ленточное платье",
+          "body": "Transform the attached image into a tiny spool doll. Preserve the main pose, outfit silhouette, color accents, and recognizable details, but reinterpret the subject as a little figure built around a wooden thread spool, with fabric clothes, embroidered face, yarn hair or yarn texture where appropriate, ribbon arms, and stitched accessories. Use muted pastels, warm wood tones, and cozy craft-room lighting. Make it cute, tactile, and handmade."
+        },
+        {
+          "id": "tiny-24",
+          "title": "Paper Crane Companion",
+          "titleRu": "Спутник-бумажный журавлик",
+          "description": "Origami paper crane in pastel washi, tiny stitched eyes",
+          "descriptionRu": "Бумажный журавлик из пастельного васи, крошечные прошитые глаза",
+          "body": "Recreate the attached image as a kawaii paper crane companion. Keep the broad silhouette, pose, color accents, and iconic reference details, but reinterpret the subject as folded origami paper with a tiny embroidered expression, soft pastel patterns, miniature accessories, and gentle paper creases. Use muted cream, dusty pink, pale blue, sage, and warm natural light. Make it delicate, peaceful, and charming."
+        },
+        {
+          "id": "tiny-25",
+          "title": "Origami Tea Pet",
+          "titleRu": "Оригами чайный питомец",
+          "description": "Paper-folded creature shaped like a tea pet, warm tabletop scene",
+          "descriptionRu": "Сложенное из бумаги существо как чайный питомец, тёплая сцена",
+          "body": "Transform the attached image into a tiny origami tea pet. Preserve the reference pose, outfit shapes, colors, and key details, but reinterpret everything as folded pastel paper, rounded kawaii proportions, soft creases, little inked facial features, and a small saucer or tea tray. Use muted paper textures, cream, sage, dusty lavender, pale yellow, and soft shadows. Make it calm, cute, and artsy."
+        },
+        {
+          "id": "tiny-26",
+          "title": "Wax Seal Charm",
+          "titleRu": "Брелок-сургучная печать",
+          "description": "Subject as a tiny pressed wax seal, raised embossed detail",
+          "descriptionRu": "Объект как крошечная сургучная печать, выпуклые тиснёные детали",
+          "body": "Recreate the attached image as a kawaii wax seal charm. Keep the subject recognizable through its silhouette, pose, color accents, and iconic details, but compress it into a small raised wax relief with rounded features, tiny stamped lines, ribbon backing, and miniature painted highlights. Use muted rose, burgundy, cream, pale gold, and soft parchment lighting. Make it elegant, adorable, and tactile."
+        },
+        {
+          "id": "tiny-27",
+          "title": "Tiny Postage Stamp",
+          "titleRu": "Крошечная почтовая марка",
+          "description": "Subject illustrated as a perforated stamp, vintage paper texture",
+          "descriptionRu": "Объект как почтовая марка с перфорацией, винтажная бумага",
+          "body": "Transform the attached image into a cute vintage postage stamp. Preserve the main pose, silhouette, outfit shapes, and key details, but reinterpret the subject as a tiny pastel stamp illustration with perforated edges, soft ink texture, miniature printed labels, and delicate decorative borders. Use muted cream paper, dusty blue, rose, sage, and pale gold. Make it collectible, nostalgic, and kawaii."
+        },
+        {
+          "id": "tiny-28",
+          "title": "Toy Vending Capsule",
+          "titleRu": "Капсула из автомата",
+          "description": "Subject as a tiny figure inside a clear gachapon capsule",
+          "descriptionRu": "Объект как крошечная фигурка в прозрачной капсуле гачапона",
+          "body": "Recreate the attached image as a kawaii toy vending capsule prize. Keep the reference pose, outfit silhouette, colors, and iconic details, but turn the subject into a tiny rounded toy inside a clear plastic capsule with pastel base, little paper insert, tiny accessories, and soft reflections. Use muted candy colors, cozy store lighting, and gentle shadows. Make it cute, collectible, and exciting like a mystery toy."
+        },
+        {
+          "id": "tiny-29",
+          "title": "Tiny Vending Machine",
+          "titleRu": "Крошечный торговый автомат",
+          "description": "Mini vending machine stocked with miniatures of the subject",
+          "descriptionRu": "Мини-автомат, наполненный миниатюрами объекта",
+          "body": "Transform the attached image into a miniature kawaii vending machine design. Preserve the reference colors, pose, silhouette, and iconic details as printed panels, tiny mascots, charms, or product windows on a soft rounded vending machine. Add pastel buttons, little glowing display, tiny stickers, and cozy night-shop lighting. Use muted pink, cream, mint, dusty blue, and pale yellow. Make it playful, nostalgic, and adorable."
+        },
+        {
+          "id": "tiny-30",
+          "title": "Kawaii Capsule Hotel Room",
+          "titleRu": "Каваи-комната капсульного отеля",
+          "description": "Subject curled inside a soft pastel capsule-hotel pod, cozy lights",
+          "descriptionRu": "Объект свернулся в мягкой пастельной капсуле отеля, уютный свет",
+          "body": "Recreate the attached image as a tiny cozy capsule hotel room. Keep the subject placement, pose, outfit shapes, and recognizable reference details, but turn the scene into a miniature sleeping pod with soft pillows, plush blankets, tiny lamps, pastel curtains, and cute storage cubbies. Use warm cream, dusty lavender, pale blue, sage, and gentle night lighting. Make it compact, cozy, and sweet."
+        },
+        {
+          "id": "tiny-31",
+          "title": "Dream Bakery Window",
+          "titleRu": "Окно мечтательной пекарни",
+          "description": "Subject as a pastel pastry in a tiny shop window, warm bakery glow",
+          "descriptionRu": "Объект как пастельная выпечка в витрине, тёплое свечение пекарни",
+          "body": "Transform the attached image into a kawaii bakery window display. Preserve the main composition, pose, silhouette, colors, and key reference details, but reinterpret them as tiny pastries, plush dolls, icing signs, paper doilies, ribbons, and pastel decorations arranged behind glass. Use soft reflections, warm bakery light, cream, dusty pink, butter yellow, and mint. Make it charming, sweet, and collectible."
+        },
+        {
+          "id": "tiny-32",
+          "title": "Tiny Picnic Basket",
+          "titleRu": "Маленькая корзинка для пикника",
+          "description": "Subject nestled in a miniature picnic basket, gingham cloth, tiny food",
+          "descriptionRu": "Объект устроился в мини-корзинке для пикника, клетчатая ткань",
+          "body": "Recreate the attached image as a kawaii picnic basket miniature. Keep the reference pose, outfit shapes, color accents, and recognizable details, but reinterpret the subject as tiny plush or clay pieces arranged among gingham cloth, little sandwiches, berries, clover, ribbons, and felt flowers. Use muted cream, sage, dusty red, pale yellow, and warm sunlight. Make it cozy, cheerful, handmade, and cute."
+        },
+        {
+          "id": "tiny-33",
+          "title": "Jelly Dessert Charm",
+          "titleRu": "Желе-десертный брелок",
+          "description": "Subject suspended inside a translucent pastel jelly mold",
+          "descriptionRu": "Объект подвешен в прозрачной пастельной формочке для желе",
+          "body": "Transform the attached image into a kawaii jelly dessert charm. Preserve the broad silhouette, pose, colors, and iconic details, but reinterpret the subject as a translucent pastel jelly shape with tiny embedded fruit, soft sparkles, rounded features, and miniature accessories from the reference. Use muted peach, lavender, cream, pale blue, and gentle glossy highlights. Make it sweet, wobbly, magical, and collectible."
+        },
+        {
+          "id": "tiny-34",
+          "title": "Marshmallow Mascot",
+          "titleRu": "Маршмеллоу-маскот",
+          "description": "Subject reimagined as a soft marshmallow plush with embroidered face",
+          "descriptionRu": "Объект как мягкая маршмеллоу-плюшка с вышитым лицом",
+          "body": "Recreate the attached image as a tiny marshmallow mascot. Keep the main pose, outfit silhouette, color accents, and reference details recognizable, but transform the subject into a soft rounded marshmallow character with little arms, embroidered expression, gentle blush, tiny toasted edges, and pastel accessories. Use cream, dusty pink, pale brown, muted blue, and warm cozy light. Make it squishy, sweet, and funny in a tender way."
+        },
+        {
+          "id": "tiny-35",
+          "title": "Sugar Cube Palace",
+          "titleRu": "Дворец из сахарных кубиков",
+          "description": "Tiny palace built from sugar cubes, subject as the royal resident",
+          "descriptionRu": "Крошечный дворец из сахарных кубиков, объект как королевский житель",
+          "body": "Transform the attached image into a kawaii sugar cube palace scene. Preserve the reference composition, pose, silhouette, and iconic details, but rebuild the subject from tiny sugar cubes, pastel icing, candy pearls, ribbon flags, and soft edible decorations. Use cream, pale pink, mint, butter yellow, and gentle bakery lighting. Make it miniature, whimsical, sweet, and elegant."
+        },
+        {
+          "id": "tiny-36",
+          "title": "Bubble Tea Mascot",
+          "titleRu": "Маскот-бабл-ти",
+          "description": "Subject as a chibi mascot floating in a pastel bubble tea cup",
+          "descriptionRu": "Объект как чиби-маскот в стакане пастельного бабл-ти",
+          "body": "Recreate the attached image as a kawaii bubble tea mascot. Keep the pose, outfit shapes, color accents, and recognizable details, but reinterpret the subject as a rounded cup character with a domed lid, tiny straw, tapioca pearls, embroidered face, stubby arms, and pastel labels inspired by the reference. Use muted milk tea beige, dusty pink, cream, sage, and pale blue. Make it cute, collectible, and cozy."
+        },
+        {
+          "id": "tiny-37",
+          "title": "Tiny Perfume Bottle",
+          "titleRu": "Крошечный флакон духов",
+          "description": "Subject as a charm inside an ornate miniature perfume bottle",
+          "descriptionRu": "Объект как брелок в орнаментном миниатюрном флаконе духов",
+          "body": "Transform the attached image into a kawaii vintage perfume bottle. Preserve the main silhouette, pose, colors, and key reference details, but reinterpret them as a tiny glass bottle with soft rounded shape, pastel liquid, ribbon label, delicate charm, pearl cap, and miniature painted motif from the reference. Use muted rose, lavender, cream, pale gold, and soft vanity-table lighting. Make it precious, elegant, and magical."
+        },
+        {
+          "id": "tiny-38",
+          "title": "Kawaii Candle Figure",
+          "titleRu": "Каваи-фигурная свеча",
+          "description": "Subject sculpted as a soft pastel candle with a tiny embroidered face",
+          "descriptionRu": "Объект как мягкая пастельная свеча с крошечным вышитым личиком",
+          "body": "Recreate the attached image as a cute scented candle figure. Keep the subject recognizable through pose, silhouette, outfit shapes, and color accents, but reinterpret it as a soft wax doll with rounded features, tiny wick detail, pastel wax layers, gentle melted edges, and small dried-flower decorations. Use cream, dusty pink, pale lavender, sage, and warm flame-like glow. Make it cozy, delicate, and handmade."
+        },
+        {
+          "id": "tiny-39",
+          "title": "Soap Sculpture Charm",
+          "titleRu": "Мыльная скульптура-брелок",
+          "description": "Subject carved from pastel artisan soap, smooth glossy finish",
+          "descriptionRu": "Объект вырезан из пастельного крафтового мыла, гладкий блеск",
+          "body": "Transform the attached image into a tiny pastel soap sculpture. Preserve the main pose, outfit silhouette, colors, and iconic details, but carve them into soft rounded soap with creamy texture, translucent edges, tiny flower imprints, and gentle handmade imperfections. Use pale cream, dusty rose, lavender, mint, and bathroom-window light. Make it clean, cute, fragrant-looking, and fragile."
+        },
+        {
+          "id": "tiny-40",
+          "title": "Glass Paperweight",
+          "titleRu": "Стеклянное пресс-папье",
+          "description": "Subject suspended inside a glass paperweight with floating glitter",
+          "descriptionRu": "Объект подвешен в стеклянном пресс-папье с парящими блёстками",
+          "body": "Recreate the attached image as a delicate glass paperweight artwork. Keep the subject, pose, silhouette, and color accents recognizable, but reinterpret them as tiny suspended shapes inside clear rounded glass with bubbles, pastel swirls, miniature flowers, and soft refractions. Use gentle museum-shop lighting, pale background, muted colors, and smooth shadows. Make it precious, magical, and collectible."
+        },
+        {
+          "id": "tiny-41",
+          "title": "Stained Glass Nightlight",
+          "titleRu": "Витражный ночник",
+          "description": "Subject as a stained-glass nightlight panel, warm bulb glow behind",
+          "descriptionRu": "Объект как витражная панель-ночник, тёплое свечение лампы позади",
+          "body": "Transform the attached image into a kawaii stained glass nightlight. Preserve the broad composition, silhouette, color accents, and reference details, but reinterpret everything as rounded glass pieces joined by soft lead lines, glowing from behind with warm light. Use muted lavender, dusty rose, pale blue, cream, and sage glass. Make it cozy, luminous, handmade, and bedtime-magical."
+        },
+        {
+          "id": "tiny-42",
+          "title": "Quilt Square Icon",
+          "titleRu": "Квилт-квадрат-иконка",
+          "description": "Subject stitched as a single patchwork quilt square, hand-quilted",
+          "descriptionRu": "Объект как один лоскутный квадрат стёганого одеяла, ручная стёжка",
+          "body": "Recreate the attached image as a kawaii quilt square. Keep the main pose, outfit shapes, color accents, and iconic details, but rebuild the subject from sewn fabric pieces, soft seams, tiny stitches, patterned cloth, and padded texture. Use muted pastel fabric, cream backing, dusty pink, sage, blue, and warm natural light. Make it cozy, nostalgic, and handmade."
+        },
+        {
+          "id": "tiny-43",
+          "title": "Embroidered Handkerchief",
+          "titleRu": "Вышитый платочек",
+          "description": "Subject embroidered on a soft pastel handkerchief, lace trim",
+          "descriptionRu": "Объект вышит на мягком пастельном платочке, кружевная отделка",
+          "body": "Transform the attached image into a delicate embroidered handkerchief design. Preserve the subject silhouette, pose, outfit shapes, and recognizable details, but reinterpret them as tiny stitched lines, pastel thread fills, lace corners, floral sprigs, and soft fabric folds. Use ivory cotton, dusty rose, sage, pale blue, lavender, and gentle daylight. Make it sweet, heirloom-like, and tender."
+        },
+        {
+          "id": "tiny-44",
+          "title": "Lace Doily Creature",
+          "titleRu": "Существо из кружевной салфетки",
+          "description": "Subject formed from crocheted lace doily layers, pastel threads",
+          "descriptionRu": "Объект из слоёв кружевной салфетки, пастельные нити",
+          "body": "Recreate the attached image as a kawaii lace doily creature. Keep the broad composition, silhouette, pose, and reference details, but reinterpret the subject through delicate lace loops, crocheted edges, tiny embroidered eyes, ribbon accents, and soft cotton texture. Use cream, pale pink, dusty lavender, and warm tabletop lighting. Make it fragile, cute, old-fashioned, and magical."
+        },
+        {
+          "id": "tiny-45",
+          "title": "Knitted Teapot Cozy",
+          "titleRu": "Вязаный чехол для чайника",
+          "description": "Subject as a tiny knitted teapot cozy with embroidered face",
+          "descriptionRu": "Объект как крошечный вязаный чехол для чайника с вышитым лицом",
+          "body": "Transform the attached image into a kawaii knitted teapot cozy design. Preserve the reference colors, outfit silhouette, and iconic details as stitched patterns, tiny buttons, pom-poms, and soft knitted shapes wrapped around a small teapot. Use muted yarn colors, cream, dusty pink, sage, pale blue, and warm kitchen light. Make it cozy, domestic, cute, and handmade."
+        },
+        {
+          "id": "tiny-46",
+          "title": "Tiny Umbrella Charm",
+          "titleRu": "Крошечный зонтик-брелок",
+          "description": "Subject perched under a pastel parasol charm, dollhouse-scale rain",
+          "descriptionRu": "Объект под пастельным зонтиком-брелоком, дождь кукольного масштаба",
+          "body": "Recreate the attached image as a kawaii tiny umbrella charm. Keep the pose, silhouette, color accents, and recognizable reference details, but reinterpret them as a miniature pastel umbrella with stitched panels, dangling charms, soft handle, embroidered face, and little raindrop beads. Use muted lavender, pale blue, cream, dusty pink, and gentle rainy-window light. Make it sweet, protective, and whimsical."
+        },
+        {
+          "id": "tiny-47",
+          "title": "Rain Puddle Reflection",
+          "titleRu": "Отражение в дождевой луже",
+          "description": "Tiny figure mirrored in a pastel puddle, drifting leaves, ripples",
+          "descriptionRu": "Крошечная фигурка в пастельной луже, плывущие листья, рябь",
+          "body": "Transform the attached image into a kawaii rain puddle reflection scene. Preserve the main pose, silhouette, color accents, and iconic details, but reinterpret the subject as a tiny plush or paper figure reflected in a pastel puddle with soft raindrops, little floating leaves, tiny boots, and gentle ripples. Use muted gray-blue, cream, dusty pink, sage, and cozy overcast light. Make it poetic, cute, and calm."
+        },
+        {
+          "id": "tiny-48",
+          "title": "Tiny Aquarium Charm",
+          "titleRu": "Крошечный аквариум-брелок",
+          "description": "Miniature plush pieces floating in a glass aquarium, pebble decor",
+          "descriptionRu": "Миниатюрные плюшевые элементы в стеклянном аквариуме, галька",
+          "body": "Recreate the attached image as a tiny kawaii aquarium charm. Keep the broad composition, pose, outfit shapes, colors, and reference details, but reinterpret the subject as miniature plush or clay pieces floating in a small glass aquarium with pastel pebbles, bubbles, seaweed ribbons, and soft light. Use muted aqua, cream, lavender, pale pink, and gentle reflections. Make it dreamy, collectible, and soothing."
+        },
+        {
+          "id": "tiny-49",
+          "title": "Shell Grotto Miniature",
+          "titleRu": "Миниатюра — ракушечный грот",
+          "description": "Scene built from shells, pearls, soft sand, and ribbon seaweed",
+          "descriptionRu": "Сцена из ракушек, жемчуга, мягкого песка и ленточек-водорослей",
+          "body": "Transform the attached image into a tiny shell grotto miniature. Preserve the reference silhouette, pose, color accents, and iconic details, but rebuild the scene from small seashells, pearls, soft sand, pastel clay, ribbon seaweed, and pearly fabric. Use cream, blush, pale aqua, lavender, and warm beach light. Make it delicate, ocean-cute, magical, and handmade."
+        },
+        {
+          "id": "tiny-50",
+          "title": "Kawaii Fossil Museum",
+          "titleRu": "Каваи-музей окаменелостей",
+          "description": "Tiny museum display: clay fossils, plush bones, pastel exhibit labels",
+          "descriptionRu": "Крошечный музей: глиняные окаменелости, плюшевые кости, пастельные таблички",
+          "body": "Recreate the attached image as a cute tiny fossil museum display. Keep the main composition, pose, silhouette, and key reference details, but reinterpret them as soft clay fossils, plush bones, pastel labels, tiny exhibit lights, and a miniature glass case. Use warm cream, dusty beige, pale gray, muted blue, and gentle museum lighting. Make it educational, adorable, and oddly precious."
+        },
+        {
+          "id": "tiny-51",
+          "title": "Tiny Cloud Train",
+          "titleRu": "Крошечный облачный поезд",
+          "description": "Subject riding a soft cloud-shaped train with embroidered smoke puffs",
+          "descriptionRu": "Объект едет в мягком облачном поезде с вышитыми клубами пара",
+          "body": "Transform the attached image into a kawaii cloud train scene. Preserve the reference pose, silhouette, color accents, and recognizable details, but reinterpret the subject as a tiny plush passenger or charm riding a soft cloud-shaped train with pastel windows, embroidered smoke puffs, star buttons, and ribbon tracks. Use cream, pale blue, dusty lavender, pink, and warm dream lighting. Make it whimsical, gentle, and magical."
+        }
+      ]
+    }
+  ]
+}

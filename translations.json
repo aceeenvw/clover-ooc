@@ -1,0 +1,48 @@
+{
+  "tags": {
+    "architectural": { "en": "architectural", "ru": "архитектурный" },
+    "atmospheric": { "en": "atmospheric", "ru": "атмосферный" },
+    "chaotic": { "en": "chaotic", "ru": "хаотичный" },
+    "cinematic": { "en": "cinematic", "ru": "кинематографичный" },
+    "clinical": { "en": "clinical", "ru": "стерильный" },
+    "cyberpunk": { "en": "cyberpunk", "ru": "киберпанк" },
+    "domestic": { "en": "domestic", "ru": "домашний" },
+    "dreamlike": { "en": "dreamlike", "ru": "сновидческий" },
+    "duo": { "en": "duo", "ru": "дуэт" },
+    "editorial": { "en": "editorial", "ru": "эдиториал" },
+    "gothic": { "en": "gothic", "ru": "готический" },
+    "intimate": { "en": "intimate", "ru": "интимный" },
+    "kinetic": { "en": "kinetic", "ru": "динамичный" },
+    "medieval": { "en": "medieval", "ru": "средневековый" },
+    "melancholic": { "en": "melancholic", "ru": "меланхоличный" },
+    "minimalist": { "en": "minimalist", "ru": "минималистичный" },
+    "nocturnal": { "en": "nocturnal", "ru": "ночной" },
+    "nostalgic": { "en": "nostalgic", "ru": "ностальгический" },
+    "playful": { "en": "playful", "ru": "игривый" },
+    "psychological": { "en": "psychological", "ru": "психологический" },
+    "raw": { "en": "raw", "ru": "необработанный" },
+    "romantic": { "en": "romantic", "ru": "романтичный" },
+    "sacred": { "en": "sacred", "ru": "священный" },
+    "sci-fi": { "en": "sci-fi", "ru": "фантастика" },
+    "solitude": { "en": "solitude", "ru": "одиночество" },
+    "surreal": { "en": "surreal", "ru": "сюрреалистичный" },
+    "tender": { "en": "tender", "ru": "нежный" },
+    "tension": { "en": "tension", "ru": "напряжение" },
+    "tropical": { "en": "tropical", "ru": "тропический" },
+    "voyeuristic": { "en": "voyeuristic", "ru": "подсмотренный" }
+  },
+  "categories": {
+    "Solo Character": { "en": "Solo Character", "ru": "Соло" },
+    "Pair / Two Characters": { "en": "Pair / Two Characters", "ru": "Пара" },
+    "Fantasy Medieval": { "en": "Fantasy Medieval", "ru": "Фэнтези и Средневековье" },
+    "Deep Space": { "en": "Deep Space", "ru": "Открытый космос" },
+    "Tropical Noir": { "en": "Tropical Noir", "ru": "Тропический нуар" },
+    "Gothic Revival": { "en": "Gothic Revival", "ru": "Готика" },
+    "Neon Underground": { "en": "Neon Underground", "ru": "Неон" },
+    "Ancient World": { "en": "Ancient World", "ru": "Древний мир" }
+  },
+  "kind": {
+    "solo": { "en": "Solo", "ru": "Соло" },
+    "pair": { "en": "Pair", "ru": "Пара" }
+  }
+}

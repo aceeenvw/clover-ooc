@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<!-- ═══════════════════════════════════════════════
+     CLOVER OOC — HOME
+     aceenvw
+     ═══════════════════════════════════════════════ -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLOVER OOC — Image Generation Prompts</title>
+  <meta name="description" content="CLOVER OOC — 489 image generation prompts (250 OOC + 112 detailed scenes + 127 image restyles) plus an effects, backgrounds, and overlays toolkit for SillyTavern. Copy, paste, generate.">
+  <meta property="og:title" content="CLOVER OOC — Image Generation Prompts">
+  <meta property="og:description" content="489 prompts (250 OOC + 112 scenes + 127 restyles) plus a 200-keyword toolkit of effects, backgrounds, and overlays for AI image generation in SillyTavern.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ═══ INDEX-SPECIFIC ═══ */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-label {
+      margin-bottom: 24px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.2s forwards;
+    }
+
+    .hero-title {
+      opacity: 0;
+      animation: fadeUp 1s ease 0.4s forwards;
+    }
+
+    .hero-title .accent {
+      font-style: italic;
+    }
+
+    .hero-clover {
+      width: 28px;
+      height: 28px;
+      color: var(--accent);
+      margin: 28px auto;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.6s forwards;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(16px, 2.5vw, 22px);
+      color: var(--text-secondary);
+      max-width: 480px;
+      margin: 0 auto 40px;
+      font-weight: 300;
+      letter-spacing: 0.01em;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.7s forwards;
+    }
+
+    .hero-cta {
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.9s forwards;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ═══ ABOUT GRID ═══ */
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    .about-item {
+      background: var(--bg);
+      padding: 40px 32px;
+    }
+
+    .about-icon {
+      width: 20px;
+      height: 20px;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .about-title {
+      font-family: var(--font-display);
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .about-desc {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .about-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ═══ FEATURED ═══ */
+    .featured-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    .featured-card {
+      background: var(--bg);
+      padding: 40px;
+      transition: background 0.2s;
+      position: relative;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .featured-card:hover {
+      background: var(--bg-surface);
+    }
+
+    .featured-id {
+      display: none;
+    }
+
+    .featured-card:first-child {
+      grid-row: 1 / 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 56px 48px;
+    }
+
+    .featured-num {
+      font-family: var(--font-display);
+      font-size: 64px;
+      color: var(--accent);
+      opacity: 0.12;
+      position: absolute;
+      top: 20px;
+      right: 24px;
+      line-height: 1;
+    }
+
+    .featured-label {
+      margin-bottom: 12px;
+    }
+
+    .featured-title {
+      font-family: var(--font-display);
+      font-size: clamp(20px, 3vw, 32px);
+      margin-bottom: 12px;
+    }
+
+    .featured-text {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.7;
+      display: -webkit-box !important;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-top: 12px;
+    }
+
+    .featured-card:first-child .featured-text {
+      -webkit-line-clamp: 8;
+    }
+
+    .featured-tags {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .featured-grid { grid-template-columns: 1fr; }
+      .featured-card:first-child { grid-row: auto; padding: 40px; }
+    }
+
+    /* ═══ STATS ═══ */
+    .stats {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+      flex-wrap: wrap;
+      padding: 48px 32px;
+    }
+
+    @media (max-width: 900px) {
+      .stats { gap: 28px; }
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 48px;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .stat-dot {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: var(--border);
+    }
+
+    @media (max-width: 640px) {
+      .stats { gap: 24px; }
+      .stat-num { font-size: 36px; }
+      .stat-dot { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#about" class="sr-only">Skip to content</a>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <svg class="nav-logo-icon" viewBox="0 0 200 240" fill="currentColor">
+        <g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(180 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(270 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <path d="M97 108Q92 148 90 190Q89 200 100 200Q111 200 110 190Q108 148 103 108Z" opacity="0.5"/>
+      </svg>
+      <span class="nav-logo-text">CLOVER OOC</span>
+    </a>
+    <div class="nav-center">
+      <a href="index.html" class="nav-link active"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
+      <a href="catalogue.html" class="nav-link"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
+      <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+      <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
+      <a href="tools.html" class="nav-link"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
+      <a href="guide.html" class="nav-link"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
+    </div>
+    <div class="nav-right">
+      <a href="https://janitorai.com/profiles/895c6c07-6a53-4420-bff5-b874db870b32_profile-of-aceenvw" class="nav-author" target="_blank" rel="noopener">aceenvw</a>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en">RU</span>
+        <span class="lang-ru">EN</span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
+    <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
+    <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+    <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
+    <a href="tools.html"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
+    <a href="guide.html"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
+  </div>
+
+  <main class="page-content">
+
+    <!-- HERO -->
+    <section class="hero clover-bg">
+      <p class="t-label hero-label">
+        <span class="lang-en">Image Generation Prompts for SillyTavern</span>
+        <span class="lang-ru">Промпты для генерации изображений в SillyTavern</span>
+      </p>
+      <h1 class="t-display hero-title">CLOVER<br><span class="accent">OOC</span></h1>
+      <svg class="hero-clover" viewBox="0 0 200 240" fill="currentColor">
+        <g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(180 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(270 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <path d="M97 108Q92 148 90 190Q89 200 100 200Q111 200 110 190Q108 148 103 108Z" opacity="0.5"/>
+      </svg>
+      <p class="hero-subtitle">
+        <span class="lang-en">250 OOC prompts, 112 detailed scenes, and 127 image restyles for AI generation — plus a toolkit of effects, backgrounds, and overlays to mix in.</span>
+        <span class="lang-ru">250 OOC-промптов, 112 детальных сцен и 127 рестайлов изображений — плюс набор эффектов, фонов и оверлеев для миксов.</span>
+      </p>
+      <div class="hero-cta">
+        <a href="catalogue.html" class="btn btn--accent">
+          <span class="lang-en">Browse Catalogue</span>
+          <span class="lang-ru">Открыть каталог</span>
+        </a>
+        <a href="scenes.html" class="btn">
+          <span class="lang-en">Browse Scenes</span>
+          <span class="lang-ru">Открыть сцены</span>
+        </a>
+        <a href="restyle.html" class="btn">
+          <span class="lang-en">Browse Restyles</span>
+          <span class="lang-ru">Открыть рестайлы</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section--tight" id="about">
+      <div class="about-grid fade-in">
+        <div class="about-item">
+          <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          <h3 class="about-title"><span class="lang-en">OOC Prompts</span><span class="lang-ru">OOC-промпты</span></h3>
+          <p class="about-desc"><span class="lang-en">Out-of-character instructions that tell the AI exactly how to compose, light, and frame each generated image.</span><span class="lang-ru">Внеигровые инструкции, которые говорят AI как именно скомпоновать, осветить и выстроить кадр.</span></p>
+        </div>
+        <div class="about-item">
+          <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          <h3 class="about-title"><span class="lang-en">Copy & Paste</span><span class="lang-ru">Копируй и вставляй</span></h3>
+          <p class="about-desc"><span class="lang-en">Each prompt is ready to use. Copy it, paste into your SillyTavern chat, and let the model generate.</span><span class="lang-ru">Каждый промпт готов к использованию. Скопируй, вставь в чат SillyTavern, и модель сгенерирует изображение.</span></p>
+        </div>
+        <div class="about-item">
+          <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <h3 class="about-title"><span class="lang-en">Any Character</span><span class="lang-ru">Любой персонаж</span></h3>
+          <p class="about-desc"><span class="lang-en">Universal prompts that adapt to any character, any setting, any story. Solo, duo, or themed worlds.</span><span class="lang-ru">Универсальные промпты, которые подходят к любому персонажу, сеттингу и истории. Соло, дуэт или тематические миры.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="section">
+      <div class="container">
+        <p class="t-label fade-in" style="margin-bottom: 12px;"><span class="lang-en">Showcase</span><span class="lang-ru">Витрина</span></p>
+        <h2 class="t-heading fade-in" style="margin-bottom: 40px;"><span class="lang-en">Featured Prompts</span><span class="lang-ru">Избранные промпты</span></h2>
+      </div>
+      <div class="featured-grid fade-in">
+        <a href="catalogue.html#solo-1" class="featured-card">
+          <span class="featured-num">01</span>
+          <p class="t-label featured-label">
+            <span class="lang-en">Solo / Cinematic</span>
+            <span class="lang-ru">Соло / Кинематограф</span>
+          </p>
+          <h3 class="featured-title">
+            <span class="lang-en">Cinematic Vision</span>
+            <span class="lang-ru">Кинематографичный взгляд</span>
+          </h3>
+          <span class="featured-id">solo-1</span>
+          <p class="featured-text"><span class="lang-en">Image generation — frame the character like a movie still from a film that doesn't exist yet. Full cinematic treatment: depth of field, intentional color grading, rule-of-thirds composition.</span><span class="lang-ru">Генерация — выстрой кадр как стоп-кадр из фильма, которого ещё не существует. Полная кинематографическая обработка: глубина резкости, осознанная цветокоррекция, композиция по правилу третей.</span></p>
+          <div class="featured-tags">
+            <span class="tag">tender</span>
+            <span class="tag">cinematic</span>
+            <span class="tag">intimate</span>
+          </div>
+        </a>
+        <a href="catalogue.html#solo-2" class="featured-card">
+          <span class="featured-num">02</span>
+          <p class="t-label featured-label">
+            <span class="lang-en">Solo / Architectural</span>
+            <span class="lang-ru">Соло / Архитектура</span>
+          </p>
+          <h3 class="featured-title">
+            <span class="lang-en">Space & Scale</span>
+            <span class="lang-ru">Пространство и масштаб</span>
+          </h3>
+          <span class="featured-id">solo-2</span>
+          <p class="featured-text"><span class="lang-en">Image generation — let the space be the main character. The person in the frame should feel small against something vast — a hallway stretching too long, a ceiling too high, an empty room that echoes.</span><span class="lang-ru">Генерация — пусть пространство станет главным героем. Человек в кадре должен казаться маленьким на фоне чего-то огромного — коридор тянется слишком далеко, потолок слишком высок, пустая комната эхом отзывается.</span></p>
+          <div class="featured-tags">
+            <span class="tag">architectural</span>
+            <span class="tag">voyeuristic</span>
+          </div>
+        </a>
+        <a href="catalogue.html#pair-1" class="featured-card">
+          <span class="featured-num">03</span>
+          <p class="t-label featured-label">
+            <span class="lang-en">Pair / Tension</span>
+            <span class="lang-ru">Пара / Напряжение</span>
+          </p>
+          <h3 class="featured-title">
+            <span class="lang-en">Circling Each Other</span>
+            <span class="lang-ru">В орбите друг друга</span>
+          </h3>
+          <span class="featured-id">pair-1</span>
+          <p class="featured-text"><span class="lang-en">Image generation — frame two people who are caught in each other's gravity. They don't have to be touching — in fact, it's more interesting if they aren't. The space between them should hum.</span><span class="lang-ru">Генерация — выстрой двух людей, которые пойманы гравитацией друг друга. Им не обязательно соприкасаться — на самом деле, интереснее если нет. Пространство между ними должно гудеть.</span></p>
+          <div class="featured-tags">
+            <span class="tag">tension</span>
+            <span class="tag">intimate</span>
+            <span class="tag">cinematic</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section--tight">
+      <div class="stats fade-in">
+        <div class="stat">
+          <div class="stat-num">489</div>
+          <div class="stat-label"><span class="lang-en">Prompts</span><span class="lang-ru">Промптов</span></div>
+        </div>
+        <div class="stat-dot"></div>
+        <div class="stat">
+          <div class="stat-num">127</div>
+          <div class="stat-label"><span class="lang-en">Restyles</span><span class="lang-ru">Рестайлов</span></div>
+        </div>
+        <div class="stat-dot"></div>
+        <div class="stat">
+          <div class="stat-num">15</div>
+          <div class="stat-label"><span class="lang-en">Stacks</span><span class="lang-ru">Стеков</span></div>
+        </div>
+        <div class="stat-dot"></div>
+        <div class="stat">
+          <div class="stat-num">75</div>
+          <div class="stat-label"><span class="lang-en">Effects</span><span class="lang-ru">Эффектов</span></div>
+        </div>
+        <div class="stat-dot"></div>
+        <div class="stat">
+          <div class="stat-num">75</div>
+          <div class="stat-label"><span class="lang-en">Backgrounds</span><span class="lang-ru">Фонов</span></div>
+        </div>
+        <div class="stat-dot"></div>
+        <div class="stat">
+          <div class="stat-num">50</div>
+          <div class="stat-label"><span class="lang-en">Overlays</span><span class="lang-ru">Оверлеев</span></div>
+        </div>
+        <div class="stat-dot"></div>
+        <div class="stat">
+          <div class="stat-num">&infin;</div>
+          <div class="stat-label"><span class="lang-en">Characters</span><span class="lang-ru">Персонажей</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section clover-bg" style="text-align: center;">
+      <div class="container fade-in">
+        <h2 class="t-heading" style="margin-bottom: 16px;"><span class="lang-en">Ready to generate?</span><span class="lang-ru">Готовы генерировать?</span></h2>
+        <p class="t-body" style="margin: 0 auto 32px; text-align: center;"><span class="lang-en">Browse the 250 OOC catalogue, the 112 detailed scenes, or the 127 image restyles. Filter, copy, paste into SillyTavern.</span><span class="lang-ru">Просмотри каталог из 250 OOC-промптов, 112 детальных сцен или 127 рестайлов изображений. Фильтруй, копируй, вставляй в SillyTavern.</span></p>
+        <div class="cta-buttons" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+          <a href="catalogue.html" class="btn btn--accent"><span class="lang-en">Open Catalogue</span><span class="lang-ru">Открыть каталог</span></a>
+          <a href="scenes.html" class="btn"><span class="lang-en">Open Scenes</span><span class="lang-ru">Открыть сцены</span></a>
+          <a href="restyle.html" class="btn"><span class="lang-en">Open Restyle</span><span class="lang-ru">Открыть рестайл</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <svg class="footer-clover" viewBox="0 0 200 240" fill="currentColor">
+        <g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(180 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <g transform="rotate(270 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
+        <path d="M97 108Q92 148 90 190Q89 200 100 200Q111 200 110 190Q108 148 103 108Z" opacity="0.5"/>
+      </svg>
+      <p class="footer-text">
+        <a href="https://janitorai.com/profiles/895c6c07-6a53-4420-bff5-b874db870b32_profile-of-aceenvw" target="_blank" rel="noopener">aceenvw</a>
+        ·
+        <a href="https://github.com/aceeenvw?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+        ·
+        <a href="https://t.me/aceeenvw" target="_blank" rel="noopener">Telegram</a>
+      </p>
+    </footer>
+
+  </main>
+
+  <script>
+    // Load prompts data BEFORE main.js so the featured-prompt randomizer
+    // sees window.PROMPTS_DATA immediately and skips the polling fallback.
+    fetch('prompts-data.json')
+      .then(res => { if (!res.ok) throw new Error(res.status); return res.json(); })
+      .then(data => { window.PROMPTS_DATA = data; })
+      .catch(err => console.error('Failed to load prompts data:', err))
+      .finally(() => {
+        const s = document.createElement('script');
+        s.src = 'js/main.js';
+        document.body.appendChild(s);
+      });
+  </script>
+</body>
+</html>
