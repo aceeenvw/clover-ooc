@@ -11,11 +11,13 @@
                           ╚══════════════════════════════════════════════════════╝
 ```
 
-**250 prompts · Example renders · Mix-and-match tools · EN / RU**
+**250 prompts · 265 outfits · 992 wardrobe pieces · Mix-and-match tools · EN / RU**
 
 [![Site](https://img.shields.io/badge/site-aceeenvw.github.io%2Fclover--ooc-7aa?style=flat-square&labelColor=1a1a1a)](https://aceeenvw.github.io/clover-ooc/)
 [![Prompts](https://img.shields.io/badge/prompts-250-c99?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Images](https://img.shields.io/badge/renders-250%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-data-files)
+[![Outfits](https://img.shields.io/badge/outfits-265-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Wardrobe](https://img.shields.io/badge/wardrobe-992_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Images](https://img.shields.io/badge/renders-430+%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-data-files)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-data-files)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
@@ -71,8 +73,25 @@ Restyle prompts — re-render an existing image in a new aesthetic.
 - ✦ Reads from `restyle-data.json`
 - ✦ Categorized by visual style family
 
+### ◈ Outfits — `outfits.html`
+265 curated outfit ideas with `clothes:` lines and reference images.
+
+- ✦ Reads from `outfits-data.json`
+- ✦ 15 accordion sections (everyday → mean-girls pink)
+- ✦ 180 outfits with `.webp` reference images, 85 with placeholder
+- ✦ Click body to copy English `clothes:` line; toggle UI to Russian without changing copy output
+
+### ◈ Wardrobe — `wardrobe.html`
+Outfit constructor — pick top + bottom (or dress) + outerwear + shoes + accessories.
+
+- ✦ Reads from `wardrobe-data.json` (992 unique pieces auto-extracted from the Outfits library + 20 hand-curated shoes)
+- ✦ Two modes: Two-Piece or Dress; tab state persisted in localStorage
+- ✦ Filter by style tag (16) and color bucket (15)
+- ✦ "Surprise me" fills empty slots respecting active filters
+- ✦ Shape C i18n: display Russian, copy English
+
 ### ◈ Tools — `tools.html`
-Mix-and-match builder. The most powerful page.
+Mix-and-match builder.
 
 - ✦ Combines `prompts-data.json`, `effects-curated.json`, `backgrounds-data.json`, `overlays-data.json`
 - ✦ Stacks effects into preset combinations
@@ -102,19 +121,24 @@ clover-ooc/
 ├── catalogue.html              ·  Prompt grid
 ├── scenes.html                 ·  Scene-prompt page
 ├── restyle.html                ·  Restyle-prompt page
+├── outfits.html                ·  265 curated outfits
+├── wardrobe.html               ·  Outfit constructor (mix & match)
 ├── tools.html                  ·  Effects / backgrounds / overlays mixer
 ├── guide.html                  ·  Static usage guide
 │
 ├── prompts-data.json           ·  250 main prompts
 ├── scene-prompts-data.json     ·  Scene prompts (sections)
 ├── restyle-data.json           ·  Restyle prompts (sections)
+├── outfits-data.json           ·  265 outfits in 15 sections (bilingual)
+├── wardrobe-data.json          ·  992 wardrobe pieces (bilingual)
 ├── backgrounds-data.json       ·  Backgrounds (categorized)
 ├── effects-curated.json        ·  Effects (categorized + stacks)
 ├── overlays-data.json          ·  Overlays (categorized)
 ├── translations.json           ·  EN / RU labels for tags & categories
 │
 ├── assets/
-│   └── clover.svg              ·  Favicon
+│   ├── clover.svg              ·  Favicon
+│   └── outfits/                ·  180 × .webp outfit references  (~13 MB)
 │
 ├── css/
 │   ├── style.css               ·  Global tokens, layout, typography
@@ -122,6 +146,8 @@ clover-ooc/
 │   ├── guide.css               ·  Guide page
 │   ├── restyle.css             ·  Restyle page
 │   ├── scenes.css              ·  Scenes page
+│   ├── outfits.css             ·  Outfits page
+│   ├── wardrobe.css            ·  Wardrobe constructor
 │   └── tools.css               ·  Tools page
 │
 ├── js/
@@ -129,12 +155,22 @@ clover-ooc/
 │   ├── catalogue.js            ·  Grid · filters · modal
 │   ├── scenes.js               ·  Scene rendering · copy
 │   ├── restyle.js              ·  Restyle rendering · copy
+│   ├── outfits.js              ·  Outfit cards · modal · bilingual
+│   ├── wardrobe.js             ·  Constructor · slots · picker · filters
 │   └── tools.js                ·  Mix-and-match builder
+│
+├── tools/                      ·  Local data-build & translation pipeline
+│   ├── build-outfits-data.py
+│   ├── build-wardrobe-data.py
+│   ├── convert-outfits.sh
+│   ├── export-translation-tsvs.py
+│   ├── merge-translations.py
+│   ├── merge-wardrobe-translations.py
+│   └── translate-wardrobe.py
 │
 ├── img-source/                 ·  250 × .webp example renders  (~71 MB)
 │
 ├── .gitignore
-├── DESCRIPTION.txt             ·  One-line repo description
 └── README.md                   ·  This file
 ```
 
