@@ -307,9 +307,7 @@
   copyButton.addEventListener('click', async () => {
     if (!outputPrompt.value) return;
 
-    try {
-      await navigator.clipboard.writeText(outputPrompt.value);
-    } catch (err) {
+    if (!(await window.cloverCopy(outputPrompt.value))) {
       outputPrompt.select();
       return;
     }
@@ -447,12 +445,7 @@
         card.appendChild(descRu);
 
         card.addEventListener('click', async () => {
-          try {
-            await navigator.clipboard.writeText(effect.term);
-          } catch (err) {
-            console.error('Failed to copy:', err);
-            return;
-          }
+          if (!(await window.cloverCopy(effect.term))) return;
 
           card.style.borderColor = 'var(--accent)';
           card.classList.add('copied');
@@ -732,12 +725,9 @@
             if (ru) chip.dataset.tip = ru;
             chip.addEventListener('click', async (ev) => {
               ev.stopPropagation();
-              try {
-                await navigator.clipboard.writeText(pterm);
+              if (await window.cloverCopy(pterm)) {
                 chip.classList.add('copied');
                 setTimeout(() => chip.classList.remove('copied'), 900);
-              } catch (err) {
-                console.error('Failed to copy chip:', err);
               }
             });
             pairsRow.appendChild(chip);
@@ -773,12 +763,7 @@
         card.addEventListener('click', async (ev) => {
           // Ignore clicks that originated on chips or the try-this button.
           if (ev.target.closest('.pairs-chip') || ev.target.closest('.try-this-btn')) return;
-          try {
-            await navigator.clipboard.writeText(bg.term);
-          } catch (err) {
-            console.error('Failed to copy:', err);
-            return;
-          }
+          if (!(await window.cloverCopy(bg.term))) return;
 
           card.classList.add('copied');
           const lang = document.documentElement.getAttribute('data-lang') || 'en';
@@ -900,12 +885,7 @@
         card.appendChild(info);
 
         card.addEventListener('click', async () => {
-          try {
-            await navigator.clipboard.writeText(item.term);
-          } catch (err) {
-            console.error('Failed to copy:', err);
-            return;
-          }
+          if (!(await window.cloverCopy(item.term))) return;
 
           card.classList.add('copied');
           var lang = document.documentElement.getAttribute('data-lang') || 'en';

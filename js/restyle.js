@@ -109,13 +109,12 @@
     bodyEl.appendChild(bodyText);
 
     async function copyBody() {
-      try {
-        await navigator.clipboard.writeText(prompt.body);
+      const ok = await window.cloverCopy(prompt.body);
+      if (ok) {
         bodyEl.classList.add('is-copied');
         setTimeout(() => bodyEl.classList.remove('is-copied'), 900);
         showToast('Copied to clipboard', 'Скопировано в буфер');
-      } catch (err) {
-        console.error('Copy failed:', err);
+      } else {
         showToast('Copy failed', 'Не удалось скопировать');
       }
     }

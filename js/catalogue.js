@@ -600,14 +600,7 @@
   async function copyPrompt(promptId) {
     const prompt = allPrompts.find(p => p.id === promptId);
     if (!prompt) return false;
-
-    try {
-      await navigator.clipboard.writeText(prompt.prompt);
-      return true;
-    } catch (e) {
-      console.error('Failed to copy:', e);
-      return false;
-    }
+    return window.cloverCopy(prompt.prompt);
   }
 
   // ═══ EVENT LISTENERS ═══

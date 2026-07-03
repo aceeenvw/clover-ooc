@@ -3,6 +3,36 @@
    aceenvw
    ═══════════════════════════════════════════════ */
 
+/* Shared clipboard write with a textarea/execCommand fallback.
+   Without the fallback, an insecure origin (or a clicked <a href>) can leak a
+   URL to the clipboard where spaces render as %20. Always returns a boolean. */
+window.cloverCopy = function cloverCopy(text) {
+  text = String(text == null ? '' : text);
+  if (navigator.clipboard && window.isSecureContext) {
+    return navigator.clipboard.writeText(text).then(function () { return true; })
+      .catch(function () { return cloverCopyLegacy(text); });
+  }
+  return Promise.resolve(cloverCopyLegacy(text));
+};
+
+function cloverCopyLegacy(text) {
+  try {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.top = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  } catch (err) {
+    console.error('Copy failed:', err);
+    return false;
+  }
+}
+
 function cloverMainInit() {
 
   // ═══ THEME TOGGLE ═══
@@ -177,23 +207,21 @@ function cloverMainInit() {
 
               card.onclick = async (e) => {
                 e.preventDefault();
-                try {
-                  await navigator.clipboard.writeText(prompt.prompt);
-                  // Locally-scoped title refs (prefixed to distinguish from
-                  // the outer titleEn/titleRu used later in this iteration).
-                  const clickTitleEn = card.querySelector('.featured-title .lang-en');
-                  const clickTitleRu = card.querySelector('.featured-title .lang-ru');
-                  const origEn = clickTitleEn ? clickTitleEn.textContent : '';
-                  const origRu = clickTitleRu ? clickTitleRu.textContent : '';
-                  if (clickTitleEn) clickTitleEn.textContent = 'Copied!';
-                  if (clickTitleRu) clickTitleRu.textContent = 'Скопировано!';
-                  setTimeout(() => {
-                    if (clickTitleEn) clickTitleEn.textContent = origEn;
-                    if (clickTitleRu) clickTitleRu.textContent = origRu;
-                  }, 1500);
-                } catch (err) {
-                  console.error('Failed to copy:', err);
-                }
+                e.stopPropagation();
+                const ok = await window.cloverCopy(prompt.prompt);
+                if (!ok) return;
+                // Locally-scoped title refs (prefixed to distinguish from
+                // the outer titleEn/titleRu used later in this iteration).
+                const clickTitleEn = card.querySelector('.featured-title .lang-en');
+                const clickTitleRu = card.querySelector('.featured-title .lang-ru');
+                const origEn = clickTitleEn ? clickTitleEn.textContent : '';
+                const origRu = clickTitleRu ? clickTitleRu.textContent : '';
+                if (clickTitleEn) clickTitleEn.textContent = 'Copied!';
+                if (clickTitleRu) clickTitleRu.textContent = 'Скопировано!';
+                setTimeout(() => {
+                  if (clickTitleEn) clickTitleEn.textContent = origEn;
+                  if (clickTitleRu) clickTitleRu.textContent = origRu;
+                }, 1500);
               };
 
               const num = card.querySelector('.featured-num');

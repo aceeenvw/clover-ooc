@@ -1,0 +1,4211 @@
+{
+  "sections": [
+    {
+      "id": "short",
+      "name": "Short",
+      "nameRu": "Короткие",
+      "description": "Bobs, pixies, crops — jaw-length and up",
+      "descriptionRu": "Bobs, pixies, crops — jaw-length and up",
+      "prompts": [
+        {
+          "id": "hair-1",
+          "number": 1,
+          "title": "Soft French Bob",
+          "body": "hairstyle: chin-length blunt bob with airy ends, soft side part, subtle inward bend, clean campus-cafe finish",
+          "vibes": [
+            "elegant",
+            "cutesy",
+            "preppy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/soft-french-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-2",
+          "number": 2,
+          "title": "Messy Pixie Muse",
+          "body": "hairstyle: textured pixie cut with piecey bangs, lifted crown, tousled artsy movement, effortless finish",
+          "vibes": [
+            "edgy",
+            "stylish",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/messy-pixie-muse.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-3",
+          "number": 3,
+          "title": "Sharp A-Line Bob",
+          "body": "hairstyle: angled A-line bob cut short at the nape and sweeping longer toward the jaw, sharp graphic front line",
+          "vibes": [
+            "minimal",
+            "stylish",
+            "elegant"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sharp-a-line-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-4",
+          "number": 4,
+          "title": "Tousled Tomboy Crop",
+          "body": "hairstyle: short layered crop with messy texture, soft micro-fringe, waxed piecey ends, relaxed sporty feel",
+          "vibes": [
+            "sporty",
+            "edgy",
+            "natural"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/tousled-tomboy-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-5",
+          "number": 5,
+          "title": "Fluffy Round Bob",
+          "body": "hairstyle: rounded cheekbone-length bob with fluffy blowout volume, curtain fringe, bouncy soft finish",
+          "vibes": [
+            "cutesy",
+            "elegant",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/fluffy-round-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-6",
+          "number": 6,
+          "title": "Wet-Look Slick Pixie",
+          "body": "hairstyle: slicked-back pixie with glossy finish, defined sideburn pieces, sharp exposed hairline",
+          "vibes": [
+            "edgy",
+            "glam",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wet-look-slick-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-7",
+          "number": 7,
+          "title": "Coquette Short Waves",
+          "body": "hairstyle: short wavy bob with face-framing curls, soft cheek volume, sweet rounded shape",
+          "vibes": [
+            "coquette",
+            "romantic",
+            "cutesy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/coquette-short-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-8",
+          "number": 8,
+          "title": "Alt Shag Bob",
+          "body": "hairstyle: short shaggy bob with razored layers, choppy bangs, messy piecey crown, undone movement",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "vintage"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/alt-shag-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-9",
+          "number": 9,
+          "title": "Bixie Feathered Crop",
+          "body": "hairstyle: bob-pixie hybrid with feathered layers, wispy neck length, soft side-swept fringe",
+          "vibes": [
+            "stylish",
+            "natural",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bixie-feathered-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-10",
+          "number": 10,
+          "title": "Blunt Bowl Micro Bob",
+          "body": "hairstyle: ultra-blunt bowl-shaped micro bob, heavy straight fringe, geometric one-length line",
+          "vibes": [
+            "edgy",
+            "vintage",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/blunt-bowl-micro-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-11",
+          "number": 11,
+          "title": "Curly Cloud Crop",
+          "body": "hairstyle: short natural coily crop with rounded halo shape, soft defined ringlets, airy volume",
+          "vibes": [
+            "natural",
+            "cutesy",
+            "playful"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/curly-cloud-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-12",
+          "number": 12,
+          "title": "Finger-Wave Vintage Bob",
+          "body": "hairstyle: chin-length bob set in sculpted finger waves, deep side parting, sleek retro ripples",
+          "vibes": [
+            "vintage",
+            "glam",
+            "elegant"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/finger-wave-vintage-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-13",
+          "number": 13,
+          "title": "Wispy Curtain Pixie",
+          "body": "hairstyle: longer pixie with elongated curtain bangs framing the cheeks, soft feathered nape, gentle volume",
+          "vibes": [
+            "cutesy",
+            "romantic",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wispy-curtain-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-14",
+          "number": 14,
+          "title": "Undercut Buzz Fade",
+          "body": "hairstyle: short cropped top with a shaved-side undercut and clean tapered fade, bold sharp contrast",
+          "vibes": [
+            "edgy",
+            "sporty",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/undercut-buzz-fade.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-15",
+          "number": 15,
+          "title": "Micro Baby Bangs Crop",
+          "body": "hairstyle: short blunt crop with ultra-short micro fringe high on the forehead, sharp avant-garde line",
+          "vibes": [
+            "edgy",
+            "vintage",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/micro-baby-bangs-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-16",
+          "number": 16,
+          "title": "Afro Rounded Halo",
+          "body": "hairstyle: short natural afro shaped into a full even rounded halo, dense springy pick-out volume",
+          "vibes": [
+            "natural",
+            "playful",
+            "regal"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/afro-rounded-halo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-17",
+          "number": 17,
+          "title": "Slicked Deep-Part Crop",
+          "body": "hairstyle: short crop combed into a deep dry side part, one side swept flat, smooth polished 1920s lean",
+          "vibes": [
+            "vintage",
+            "stylish",
+            "elegant"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/slicked-deep-part-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-18",
+          "number": 18,
+          "title": "Flat-Twist Tapered Crop",
+          "body": "hairstyle: short natural crop set in neat flat twists hugging the scalp toward a tapered nape",
+          "vibes": [
+            "natural",
+            "sporty",
+            "edgy"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/flat-twist-tapered-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-19",
+          "number": 19,
+          "title": "Choppy Bixie Mullet",
+          "body": "hairstyle: short bixie with a slightly longer choppy nape mullet tail, disconnected piecey layers",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "playful"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/choppy-bixie-mullet.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-160",
+          "number": 20,
+          "title": "Just-Woke-Up Nest",
+          "body": "hairstyle: chin-length cut left sleep-creased and flattened on one side, pillow-bent ends, drowsy undone fold",
+          "vibes": [
+            "natural",
+            "cutesy",
+            "grunge"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/just-woke-up-nest.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-161",
+          "number": 21,
+          "title": "Puffed Dandelion Crop",
+          "body": "hairstyle: short crop brushed out into a soft over-fluffed cloud, weightless standing strands, airy dandelion puff",
+          "vibes": [
+            "playful",
+            "whimsical",
+            "cutesy"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-dandelion-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-162",
+          "number": 22,
+          "title": "Windswept Side Sweep",
+          "body": "hairstyle: short layered cut pushed hard to one side as if caught mid-gust, lifted roots, streaming diagonal flow",
+          "vibes": [
+            "edgy",
+            "sporty",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/windswept-side-sweep.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-163",
+          "number": 23,
+          "title": "Damp Air-Dried Bob",
+          "body": "hairstyle: chin bob left to air-dry into loose uneven kinks, slightly heavy at the roots, natural undone drape",
+          "vibes": [
+            "natural",
+            "coastal",
+            "minimal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/damp-air-dried-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-164",
+          "number": 24,
+          "title": "Static-Halo Fringe",
+          "body": "hairstyle: short blunt cut with a faint static lift sending fine flyaways floating around the crown, feathery halo of loose ends",
+          "vibes": [
+            "whimsical",
+            "playful",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/static-halo-fringe.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-165",
+          "number": 25,
+          "title": "Sweat-Slick Temple Crop",
+          "body": "hairstyle: short crop with damp strands slicked flat against the temples and nape, glossy worked-out sheen, pushed-back top",
+          "vibes": [
+            "sporty",
+            "edgy",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sweat-slick-temple-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-166",
+          "number": 26,
+          "title": "Sun-Faded Straw Shag",
+          "body": "hairstyle: short shag with dry sun-worn straw texture at the ends, brittle wispy tips, coarse beachy roughness",
+          "vibes": [
+            "coastal",
+            "grunge",
+            "boho"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sun-faded-straw-shag.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-167",
+          "number": 27,
+          "title": "Over-Brushed Fluff Bob",
+          "body": "hairstyle: short bob over-brushed into a fine frizzy halo of lifted volume, soft crackle of loose ends",
+          "vibes": [
+            "vintage",
+            "cutesy",
+            "playful"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/over-brushed-fluff-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-168",
+          "number": 28,
+          "title": "Bed-Head Cowlick Pixie",
+          "body": "hairstyle: short pixie with a stubborn cowlick jutting up at the crown, uneven sleep-pressed sides, careless morning shape",
+          "vibes": [
+            "grunge",
+            "playful",
+            "edgy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bed-head-cowlick-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-169",
+          "number": 29,
+          "title": "Rain-Damp Curl Cluster",
+          "body": "hairstyle: short curly crop clumped into heavy rain-damp ringlet groups, defined dripping curls, curly texture drawn tight",
+          "vibes": [
+            "natural",
+            "coastal",
+            "romantic"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/rain-damp-curl-cluster.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-170",
+          "number": 30,
+          "title": "Singed-Tip Choppy Cut",
+          "body": "hairstyle: short choppy cut with wispy over-heat-crisped ends curling slightly inward, dry frazzled tips, reckless texture",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/singed-tip-choppy-cut.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-171",
+          "number": 31,
+          "title": "Puffed Twist-Out Halo",
+          "body": "hairstyle: short coily twist-out fluffed into a full rounded puff, springy defined coils, curly-coily volume all around",
+          "vibes": [
+            "natural",
+            "regal",
+            "playful"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-twist-out-halo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "nameRu": "Средние",
+      "description": "Lobs, shags, shoulder-length shapes",
+      "descriptionRu": "Lobs, shags, shoulder-length shapes",
+      "prompts": [
+        {
+          "id": "hair-20",
+          "number": 32,
+          "title": "Layered Collarbone Lob",
+          "body": "hairstyle: collarbone-grazing lob with soft face-framing layers, middle part, gentle inward flick at the ends",
+          "vibes": [
+            "stylish",
+            "elegant",
+            "natural"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/layered-collarbone-lob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-21",
+          "number": 33,
+          "title": "Blunt Shoulder Cut",
+          "body": "hairstyle: sharp one-length shoulder cut, sleek middle part, straight glassy finish, heavy weighted ends",
+          "vibes": [
+            "minimal",
+            "stylish",
+            "glam"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/blunt-shoulder-cut.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-22",
+          "number": 34,
+          "title": "Textured Wolf Shag",
+          "body": "hairstyle: mid-length wolf cut with heavy choppy layers, shaggy crown volume, wispy curtain fringe",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "playful"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/textured-wolf-shag.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-23",
+          "number": 35,
+          "title": "Beachy Boho Waves",
+          "body": "hairstyle: shoulder-length undone waves with a loose middle part, airy tousled texture, sun-kissed movement",
+          "vibes": [
+            "boho",
+            "natural",
+            "romantic"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beachy-boho-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-24",
+          "number": 36,
+          "title": "Sleek Low Bun",
+          "body": "hairstyle: mid-length hair swept into a smooth low bun, clean center part, sleek gelled edges",
+          "vibes": [
+            "minimal",
+            "elegant",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sleek-low-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-25",
+          "number": 37,
+          "title": "French-Girl Bob",
+          "body": "hairstyle: jaw-to-shoulder French bob with a soft bend, effortless piecey fringe, undone parisian volume",
+          "vibes": [
+            "stylish",
+            "vintage",
+            "cutesy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/french-girl-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-26",
+          "number": 38,
+          "title": "Curly Shoulder Halo",
+          "body": "hairstyle: shoulder-length defined curls with a rounded halo shape, bouncy springy volume, natural crown lift",
+          "vibes": [
+            "natural",
+            "playful",
+            "cutesy"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/curly-shoulder-halo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-27",
+          "number": 39,
+          "title": "Half-Up Bubble Twist",
+          "body": "hairstyle: medium hair in a half-up style with a soft twisted crown, loose flowing lengths beneath",
+          "vibes": [
+            "coquette",
+            "romantic",
+            "cutesy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/half-up-bubble-twist.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-28",
+          "number": 40,
+          "title": "Space Buns Duo",
+          "body": "hairstyle: medium hair parted center into two high rounded buns, wispy face strands, playful symmetrical shape",
+          "vibes": [
+            "playful",
+            "y2k",
+            "cutesy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/space-buns-duo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-29",
+          "number": 41,
+          "title": "Feathered Shag Curtains",
+          "body": "hairstyle: mid-length feathered layers with sweeping curtain bangs, 70s-inspired flippy movement",
+          "vibes": [
+            "vintage",
+            "boho",
+            "stylish"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/feathered-shag-curtains.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-30",
+          "number": 42,
+          "title": "Braided Milkmaid Crown",
+          "body": "hairstyle: medium hair in two braids wrapped over the crown into a milkmaid halo, soft escaped tendrils",
+          "vibes": [
+            "medieval",
+            "fairycore",
+            "romantic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/braided-milkmaid-crown.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-31",
+          "number": 43,
+          "title": "Sleek Middle-Part Tuck",
+          "body": "hairstyle: medium straight hair with a razor-clean middle part, both sides tucked behind the ears, glassy finish",
+          "vibes": [
+            "minimal",
+            "preppy",
+            "elegant"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sleek-middle-part-tuck.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-32",
+          "number": 44,
+          "title": "Messy Bun Undone",
+          "body": "hairstyle: medium hair gathered into a loose messy bun, face-framing pieces pulled free, effortless volume",
+          "vibes": [
+            "natural",
+            "coquette",
+            "playful"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/messy-bun-undone.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-33",
+          "number": 45,
+          "title": "Shoulder Box Braids",
+          "body": "hairstyle: shoulder-length box braids parted into a neat grid, worn loose with a few swept forward",
+          "vibes": [
+            "natural",
+            "stylish",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/shoulder-box-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-34",
+          "number": 46,
+          "title": "Faux-Hawk Pinup Roll",
+          "body": "hairstyle: medium hair with the sides pinned in tight against a raised rolled center ridge, bold retro mohawk shape",
+          "vibes": [
+            "edgy",
+            "vintage",
+            "playful"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/faux-hawk-pinup-roll.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-35",
+          "number": 47,
+          "title": "Halo Twist Updo",
+          "body": "hairstyle: medium hair twisted from the nape upward and tucked into a smooth rolled halo around the crown",
+          "vibes": [
+            "elegant",
+            "regal",
+            "minimal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/halo-twist-updo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-36",
+          "number": 48,
+          "title": "Twin Dutch Pigtails",
+          "body": "hairstyle: medium hair in two raised dutch braids running to low pigtails, neat scalp rows, sporty symmetry",
+          "vibes": [
+            "sporty",
+            "cutesy",
+            "preppy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/twin-dutch-pigtails.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-37",
+          "number": 49,
+          "title": "Voluminous 60s Flip",
+          "body": "hairstyle: shoulder-length hair with a teased bouffant crown and ends flipped sharply outward, retro bombshell shape",
+          "vibes": [
+            "vintage",
+            "glam",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/voluminous-60s-flip.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-38",
+          "number": 50,
+          "title": "Locs Shoulder Bob",
+          "body": "hairstyle: shoulder-length locs shaped into a rounded bob line, neat cylindrical strands, clean even weight",
+          "vibes": [
+            "natural",
+            "stylish",
+            "edgy"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/locs-shoulder-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-172",
+          "number": 51,
+          "title": "Slept-In Braid Crimp",
+          "body": "hairstyle: shoulder-length hair with soft wavy crimp left over from a slept-in braid, loosened kinks, drowsy undone bends",
+          "vibes": [
+            "natural",
+            "coquette",
+            "boho"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/slept-in-braid-crimp.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-173",
+          "number": 52,
+          "title": "Puffed Blow-Dry Dome",
+          "body": "hairstyle: medium hair blown out and puffed into a rounded lifted dome of volume, airy over-teased crown, bouncy fullness",
+          "vibes": [
+            "vintage",
+            "glam",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-blow-dry-dome.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-174",
+          "number": 53,
+          "title": "Windswept Storm Layers",
+          "body": "hairstyle: mid-length layers thrown back and tangled sideways as if walked through wind, streaming strands, restless movement",
+          "vibes": [
+            "edgy",
+            "coastal",
+            "stylish"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/windswept-storm-layers.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-175",
+          "number": 54,
+          "title": "Sweat-Damp Slick-Back",
+          "body": "hairstyle: medium hair raked straight back damp with sweat, glossy flattened crown, a few strands stuck to the neck, worked-out sheen",
+          "vibes": [
+            "sporty",
+            "edgy",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sweat-damp-slick-back.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-176",
+          "number": 55,
+          "title": "Air-Dried Frizz Halo",
+          "body": "hairstyle: medium hair left to air-dry into a soft frizzy halo of undefined waves, matte roots, effortless unstyled body",
+          "vibes": [
+            "natural",
+            "minimal",
+            "boho"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/air-dried-frizz-halo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-177",
+          "number": 56,
+          "title": "Over-Processed Frazzle Shag",
+          "body": "hairstyle: mid shag with dry over-processed frazzled ends and coarse straw-like texture, wispy split tips, reckless roughness",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "vintage"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/over-processed-frazzle-shag.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-178",
+          "number": 57,
+          "title": "Static-Cling Flat Fall",
+          "body": "hairstyle: medium straight hair clinging flat with static, fine strands lifting and sticking to the cheeks, crackly clingy drape",
+          "vibes": [
+            "minimal",
+            "whimsical",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/static-cling-flat-fall.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-179",
+          "number": 58,
+          "title": "Rain-Plastered Curtain",
+          "body": "hairstyle: medium hair soaked and plastered flat to the head in wet ribbons, dripping ends, slicked drenched surface",
+          "vibes": [
+            "edgy",
+            "coastal",
+            "grunge"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/rain-plastered-curtain.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-180",
+          "number": 59,
+          "title": "Bed-Tousled Lazy Bun",
+          "body": "hairstyle: medium hair twisted into a fallen-apart bun after sleep, loops sagging loose, sleep-flattened crown, half-collapsed shape",
+          "vibes": [
+            "natural",
+            "cutesy",
+            "coquette"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bed-tousled-lazy-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-181",
+          "number": 60,
+          "title": "Puffed Pick-Out Fro",
+          "body": "hairstyle: medium coily hair picked out into a big even puffed fro, dense springy volume, curly-coily texture lifted high",
+          "vibes": [
+            "regal",
+            "natural",
+            "playful"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-pick-out-fro.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-182",
+          "number": 61,
+          "title": "Salt-Stiff Beach Texture",
+          "body": "hairstyle: medium hair with dry sun-worn straw ends and salt-stiff waves, coarse gritty texture, wind-roughened body",
+          "vibes": [
+            "coastal",
+            "boho",
+            "grunge"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/salt-stiff-beach-texture.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-183",
+          "number": 62,
+          "title": "Singed-Curl Frizz Cloud",
+          "body": "hairstyle: medium curly hair heat-singed into a dry frizzed cloud, crisp fried tips, defined-but-frazzled curly texture",
+          "vibes": [
+            "grunge",
+            "whimsical",
+            "edgy"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/singed-curl-frizz-cloud.webp",
+          "titleRu": null,
+          "bodyRu": null
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "name": "Long",
+      "nameRu": "Длинные",
+      "description": "Waist-length waves, braids, ponytails",
+      "descriptionRu": "Waist-length waves, braids, ponytails",
+      "prompts": [
+        {
+          "id": "hair-39",
+          "number": 63,
+          "title": "Soft Mermaid Waves",
+          "body": "hairstyle: waist-length loose waves with glossy texture, middle part, face-framing strands, dreamy flowing finish",
+          "vibes": [
+            "coastal",
+            "romantic",
+            "ethereal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/soft-mermaid-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-40",
+          "number": 64,
+          "title": "Sleek High Ponytail",
+          "body": "hairstyle: long straight hair pulled into a high polished ponytail, wrapped base strand, clean sharp edges",
+          "vibes": [
+            "glam",
+            "stylish",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sleek-high-ponytail.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-41",
+          "number": 65,
+          "title": "Blowout Princess",
+          "body": "hairstyle: long bouncy blowout with big rounded layers, curtain bangs, glossy voluminous finish",
+          "vibes": [
+            "glam",
+            "elegant",
+            "preppy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/blowout-princess.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-42",
+          "number": 66,
+          "title": "Loose Side Braid",
+          "body": "hairstyle: long hair gathered into a relaxed side braid, softly pulled-out pieces, gentle undone drape",
+          "vibes": [
+            "boho",
+            "romantic",
+            "natural"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/loose-side-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-43",
+          "number": 67,
+          "title": "Alt Layered Waves",
+          "body": "hairstyle: long layered waves with choppy curtain fringe, messy piecey volume, undone alt movement",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "vintage"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/alt-layered-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-44",
+          "number": 68,
+          "title": "Low Sleek Pony",
+          "body": "hairstyle: long straight hair in a low sleek ponytail, smooth middle part, clean minimal drape",
+          "vibes": [
+            "minimal",
+            "elegant",
+            "preppy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/low-sleek-pony.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-45",
+          "number": 69,
+          "title": "Deep Side-Part Cascade",
+          "body": "hairstyle: long silky straight hair with a dramatic deep side part, one-shoulder sweep, glossy liquid finish",
+          "vibes": [
+            "glam",
+            "stylish",
+            "elegant"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/deep-side-part-cascade.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-46",
+          "number": 70,
+          "title": "Hime Straight Cut",
+          "body": "hairstyle: long straight hair with cheekbone-length face-framing hime sections and a blunt straight fringe",
+          "vibes": [
+            "y2k",
+            "cutesy",
+            "edgy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/hime-straight-cut.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-47",
+          "number": 71,
+          "title": "Crimped Festival Waves",
+          "body": "hairstyle: long hair set in dense zigzag crimped texture from root to tip, center part, voluminous festival lift",
+          "vibes": [
+            "boho",
+            "y2k",
+            "playful"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crimped-festival-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-48",
+          "number": 72,
+          "title": "Curtain-Bang Layers",
+          "body": "hairstyle: long layered length with sweeping curtain bangs, feathered face frame, soft 70s flip",
+          "vibes": [
+            "vintage",
+            "stylish",
+            "romantic"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/curtain-bang-layers.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-49",
+          "number": 73,
+          "title": "Twin Long Braids",
+          "body": "hairstyle: two long even braids parted down the center, tight neat plaiting, sweet symmetrical drape",
+          "vibes": [
+            "cutesy",
+            "preppy",
+            "medieval"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/twin-long-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-50",
+          "number": 74,
+          "title": "Voluminous Ballgown Curls",
+          "body": "hairstyle: long full spiral curls with cascading dramatic volume, soft crown lift, gala-worthy drama",
+          "vibes": [
+            "glam",
+            "regal",
+            "elegant"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/voluminous-ballgown-curls.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-51",
+          "number": 75,
+          "title": "Sleek Middle-Part Curtain",
+          "body": "hairstyle: long glassy straight hair with a razor middle part falling flat and smooth to the waist, sharp clean line",
+          "vibes": [
+            "minimal",
+            "stylish",
+            "elegant"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sleek-middle-part-curtain.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-52",
+          "number": 76,
+          "title": "Wednesday Twin Plaits",
+          "body": "hairstyle: two long tight low braids framing the face, blunt straight fringe, severe gothic drape",
+          "vibes": [
+            "gothic",
+            "edgy",
+            "vintage"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wednesday-twin-plaits.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-53",
+          "number": 77,
+          "title": "Nordic Warrior Braids",
+          "body": "hairstyle: long hair with tight raised cornrow-style braids gathered from the crown into a trailing back plait, shaved-look sides",
+          "vibes": [
+            "medieval",
+            "edgy",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/nordic-warrior-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-54",
+          "number": 78,
+          "title": "Fishtail Rope Braid",
+          "body": "hairstyle: long single fishtail braid with a fine woven herringbone pattern down the back, softly loosened",
+          "vibes": [
+            "romantic",
+            "boho",
+            "stylish"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/fishtail-rope-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-55",
+          "number": 79,
+          "title": "Long Waist Locs",
+          "body": "hairstyle: waist-length locs worn loose down the back, uniform rope-like strands, natural weighty movement",
+          "vibes": [
+            "natural",
+            "regal",
+            "stylish"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/long-waist-locs.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-56",
+          "number": 80,
+          "title": "Deep-Layered V-Cut",
+          "body": "hairstyle: extra-long hair cut into a dramatic pointed V-shape at the back with long face-framing layers, flowing taper",
+          "vibes": [
+            "minimal",
+            "stylish",
+            "glam"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/deep-layered-v-cut.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-57",
+          "number": 81,
+          "title": "Big Bouncy Ringlets",
+          "body": "hairstyle: long tight defined ringlet spirals with dense springy bounce all over, full romantic volume",
+          "vibes": [
+            "romantic",
+            "glam",
+            "playful"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/big-bouncy-ringlets.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-58",
+          "number": 82,
+          "title": "Long Feathered Layers",
+          "body": "hairstyle: long face-framing feathered layers with a flicked 70s shape, airy movement, deep side sweep",
+          "vibes": [
+            "vintage",
+            "boho",
+            "stylish"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/long-feathered-layers.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-184",
+          "number": 83,
+          "title": "Just-Woke-Up Waterfall",
+          "body": "hairstyle: long hair spilling loose and sleep-creased with a flattened panel on one side, drowsy soft bends, undone morning fall",
+          "vibes": [
+            "natural",
+            "coquette",
+            "boho"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/just-woke-up-waterfall.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-185",
+          "number": 84,
+          "title": "Windswept Banner Mane",
+          "body": "hairstyle: long hair streaming out sideways as if caught in a strong gust, lifted flying strands, dramatic diagonal sweep",
+          "vibes": [
+            "edgy",
+            "coastal",
+            "glam"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/windswept-banner-mane.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-186",
+          "number": 85,
+          "title": "Wet-Drenched Sheet Fall",
+          "body": "hairstyle: long hair soaked into heavy dripping sheets clinging down the back, glossy water-dark surface, slicked flat crown",
+          "vibes": [
+            "edgy",
+            "coastal",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wet-drenched-sheet-fall.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-187",
+          "number": 86,
+          "title": "Puffed Mega Volume",
+          "body": "hairstyle: long hair teased and puffed into enormous rounded volume from root to tip, sky-high crown, weightless giant body",
+          "vibes": [
+            "glam",
+            "vintage",
+            "playful"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-mega-volume.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-188",
+          "number": 87,
+          "title": "Air-Dried Undone Length",
+          "body": "hairstyle: long hair left to air-dry into soft irregular natural waves, matte roots, loose unstyled effortless drape",
+          "vibes": [
+            "natural",
+            "minimal",
+            "coastal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/air-dried-undone-length.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-189",
+          "number": 88,
+          "title": "Static Floating Ends",
+          "body": "hairstyle: long straight hair with the lower lengths lifting on static, fine ends floating outward, faint electric halo of strands",
+          "vibes": [
+            "whimsical",
+            "minimal",
+            "ethereal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/static-floating-ends.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-190",
+          "number": 89,
+          "title": "Sweat-Damp Stuck Strands",
+          "body": "hairstyle: long hair pushed back damp with sweat, front pieces stuck to the temples and neck, glossy worked sheen, heavy roots",
+          "vibes": [
+            "sporty",
+            "edgy",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sweat-damp-stuck-strands.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-191",
+          "number": 90,
+          "title": "Over-Brushed Silk Fan",
+          "body": "hairstyle: long hair over-brushed into a fine flyaway silk fan spreading wide across the shoulders, airy crackling body",
+          "vibes": [
+            "vintage",
+            "elegant",
+            "whimsical"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/over-brushed-silk-fan.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-192",
+          "number": 91,
+          "title": "Salt-Rough Mermaid Length",
+          "body": "hairstyle: long hair with dry salt-roughened waves and straw-worn ends, gritty coarse texture, sea-battered drape",
+          "vibes": [
+            "coastal",
+            "boho",
+            "grunge"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/salt-rough-mermaid-length.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-193",
+          "number": 92,
+          "title": "Rain-Soaked Rope Curls",
+          "body": "hairstyle: long curly hair clumped by rain into heavy dripping rope curls, tightly defined wet spirals, curly texture drawn dense",
+          "vibes": [
+            "coastal",
+            "romantic",
+            "natural"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/rain-soaked-rope-curls.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-194",
+          "number": 93,
+          "title": "Singed-Frazzle Cascade",
+          "body": "hairstyle: long hair with heat-singed frazzled lengths and dry brittle tips, wispy fried ends, reckless over-worked texture",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "whimsical"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/singed-frazzle-cascade.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-195",
+          "number": 94,
+          "title": "Puffed Coily Waterfall",
+          "body": "hairstyle: long coily hair picked out into a huge cascading puff falling past the shoulders, dense springy coils, curly-coily volume",
+          "vibes": [
+            "regal",
+            "natural",
+            "playful"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-coily-waterfall.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-196",
+          "number": 95,
+          "title": "Bed-Crushed Loose Twist",
+          "body": "hairstyle: long hair in a half-fallen overnight twist, crushed flat at the back from sleep, loops sliding free, rumpled soft shape",
+          "vibes": [
+            "natural",
+            "cutesy",
+            "coquette"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bed-crushed-loose-twist.webp",
+          "titleRu": null,
+          "bodyRu": null
+        }
+      ]
+    },
+    {
+      "id": "acc-short",
+      "name": "With Accessories — Short",
+      "nameRu": "С аксессуарами — короткие",
+      "description": "Short shapes with clips, pins, bands, beads",
+      "descriptionRu": "Short shapes with clips, pins, bands, beads",
+      "prompts": [
+        {
+          "id": "hair-59",
+          "number": 96,
+          "title": "Pearl-Clip French Bob",
+          "body": "hairstyle: chin-length blunt bob with airy ends, soft side part, small pearl hair clip on one side",
+          "vibes": [
+            "elegant",
+            "coquette",
+            "cutesy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/pearl-clip-french-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-60",
+          "number": 97,
+          "title": "Butterfly-Clip Spiky Bob",
+          "body": "hairstyle: jawline bob with flipped-out ends, zigzag part, mini butterfly clips scattered at the temples",
+          "vibes": [
+            "y2k",
+            "playful",
+            "cutesy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/butterfly-clip-spiky-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-61",
+          "number": 98,
+          "title": "Ribbon Coquette Waves",
+          "body": "hairstyle: short wavy bob with face-framing curls, a satin ribbon bow tied at one side, soft cheek volume",
+          "vibes": [
+            "coquette",
+            "romantic",
+            "cutesy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/ribbon-coquette-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-62",
+          "number": 99,
+          "title": "Snap-Clip Shag Bob",
+          "body": "hairstyle: short shaggy bob with razored layers and choppy bangs, a row of mini snap clips along the fringe",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "y2k"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/snap-clip-shag-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-63",
+          "number": 100,
+          "title": "Silver-Pin Pixie",
+          "body": "hairstyle: textured pixie with piecey bangs and lifted crown, tiny silver pins pinning back one side",
+          "vibes": [
+            "edgy",
+            "stylish",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/silver-pin-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-64",
+          "number": 101,
+          "title": "Claw-Clip Half-Up Bob",
+          "body": "hairstyle: short bob pulled into a tiny half-up twist, mini claw clip at the crown, loose front strands",
+          "vibes": [
+            "cutesy",
+            "natural",
+            "preppy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/claw-clip-half-up-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-65",
+          "number": 102,
+          "title": "Headband Bardot Bob",
+          "body": "hairstyle: chin-length curled bob pushed back with a thin padded headband, soft bump of crown volume",
+          "vibes": [
+            "preppy",
+            "vintage",
+            "elegant"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/headband-bardot-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-66",
+          "number": 103,
+          "title": "Beaded-Braid Crop",
+          "body": "hairstyle: short crop with one thin accent braid at the temple, small wooden beads threaded through it",
+          "vibes": [
+            "boho",
+            "natural",
+            "playful"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beaded-braid-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-67",
+          "number": 104,
+          "title": "Bandana Pin-Up Bob",
+          "body": "hairstyle: short bob rolled and set with a folded tied bandana across the crown, retro pin-up shaping",
+          "vibes": [
+            "vintage",
+            "playful",
+            "edgy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bandana-pin-up-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-68",
+          "number": 105,
+          "title": "Gem-Pin Wet Pixie",
+          "body": "hairstyle: slicked-back glossy pixie with defined sideburn pieces, tiny scattered hair gems along the part",
+          "vibes": [
+            "glam",
+            "edgy",
+            "celestial"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/gem-pin-wet-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-69",
+          "number": 106,
+          "title": "Bow-Barrette Micro Bob",
+          "body": "hairstyle: ultra-blunt micro bob with heavy straight fringe, a single bow barrette clipped above one ear",
+          "vibes": [
+            "cutesy",
+            "coquette",
+            "vintage"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bow-barrette-micro-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-70",
+          "number": 107,
+          "title": "Floral-Pin Curly Crop",
+          "body": "hairstyle: short natural coily crop with a rounded halo shape, tiny floral pins tucked into one side",
+          "vibes": [
+            "fairycore",
+            "natural",
+            "romantic"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/floral-pin-curly-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-71",
+          "number": 108,
+          "title": "Star-Clip Bixie",
+          "body": "hairstyle: bob-pixie hybrid with feathered layers, small star charm clips pinning the side-swept fringe",
+          "vibes": [
+            "celestial",
+            "playful",
+            "cutesy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/star-clip-bixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-72",
+          "number": 109,
+          "title": "Beaded-Loc Short Crop",
+          "body": "hairstyle: short cropped locs with small metal cuffs and beads threaded onto a few strands, neat tapered shape",
+          "vibes": [
+            "natural",
+            "edgy",
+            "stylish"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beaded-loc-short-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-73",
+          "number": 110,
+          "title": "Beret-Set Waved Bob",
+          "body": "hairstyle: chin-length waved bob worn tilted under a soft beret, one curled front piece left loose",
+          "vibes": [
+            "vintage",
+            "coquette",
+            "preppy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beret-set-waved-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-74",
+          "number": 111,
+          "title": "Chain-Cuff Undercut",
+          "body": "hairstyle: short cropped top with a shaved undercut, a fine chain cuff clasped over the exposed side",
+          "vibes": [
+            "edgy",
+            "glam",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/chain-cuff-undercut.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-75",
+          "number": 112,
+          "title": "Bandeau-Band Pixie",
+          "body": "hairstyle: textured pixie pushed up by a wide fabric bandeau band, tousled crown lifting above it",
+          "vibes": [
+            "sporty",
+            "playful",
+            "edgy"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bandeau-band-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-76",
+          "number": 113,
+          "title": "Winged-Clip Finger Waves",
+          "body": "hairstyle: chin-length sculpted finger waves with a decorative art-deco wing clip set at the deep part",
+          "vibes": [
+            "vintage",
+            "glam",
+            "elegant"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/winged-clip-finger-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-77",
+          "number": 114,
+          "title": "Pom-Pom Twist Crop",
+          "body": "hairstyle: short natural crop in tidy two-strand twists finished with tiny fabric pom-poms at the ends",
+          "vibes": [
+            "playful",
+            "cutesy",
+            "natural"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/pom-pom-twist-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-78",
+          "number": 115,
+          "title": "Crescent Brow-Chain Bob",
+          "body": "hairstyle: short bob with a delicate chain hairpiece draped along the parting to a tiny crescent-moon pendant resting on the forehead",
+          "vibes": [
+            "fairycore",
+            "celestial",
+            "ethereal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crescent-brow-chain-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-79",
+          "number": 116,
+          "title": "Pressed-Fern Pixie",
+          "body": "hairstyle: textured pixie pinned with tiny pressed-flower and fern-leaf clips scattered through the crown, dewy woodland feel",
+          "vibes": [
+            "fairycore",
+            "natural",
+            "whimsical"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/pressed-fern-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-80",
+          "number": 117,
+          "title": "Dewdrop-Bead Crop",
+          "body": "hairstyle: short wavy crop threaded with a few fine wire strands of tiny glass dewdrop beads catching the light",
+          "vibes": [
+            "fairycore",
+            "ethereal",
+            "romantic"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/dewdrop-bead-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-197",
+          "number": 118,
+          "title": "Quill-Pierced Twist Bob",
+          "body": "hairstyle: chin bob with a small back twist skewered by a single lacquered hairstick tipped with a trailing quill feather",
+          "vibes": [
+            "boho",
+            "edgy",
+            "whimsical"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/quill-pierced-twist-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-198",
+          "number": 119,
+          "title": "Raw-Quartz Pick Crop",
+          "body": "hairstyle: short crop pinned with a hair pick topped by a raw quartz point, a couple of tiny gem clusters scattered near the temple",
+          "vibes": [
+            "fairycore",
+            "edgy",
+            "celestial"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/raw-quartz-pick-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-199",
+          "number": 120,
+          "title": "Brass-Wire Coil Pixie",
+          "body": "hairstyle: textured pixie with fine brass wire coiled around a few lifted front strands into shining spiral tubes",
+          "vibes": [
+            "edgy",
+            "whimsical",
+            "stylish"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/brass-wire-coil-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-200",
+          "number": 121,
+          "title": "Bone-Pin Sleek Bob",
+          "body": "hairstyle: sleek short bob held back on one side by two carved bone pins crossed in an X, smooth polished surface",
+          "vibes": [
+            "minimal",
+            "edgy",
+            "natural"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bone-pin-sleek-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-201",
+          "number": 122,
+          "title": "Beaded-Cap Crop",
+          "body": "hairstyle: short crop fitted with a snug beaded skullcap of tiny glass rows, a short bead fringe grazing the brow",
+          "vibes": [
+            "boho",
+            "vintage",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beaded-cap-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-202",
+          "number": 123,
+          "title": "Cage-Braid Crown Bob",
+          "body": "hairstyle: chin bob with a woven open cage braid arcing over the crown from ear to ear, sculpted lattice technique, tucked ends",
+          "vibes": [
+            "medieval",
+            "stylish",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/cage-braid-crown-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-203",
+          "number": 124,
+          "title": "Gemstone Comb Waves",
+          "body": "hairstyle: short waved bob swept back with a wide comb encrusted in cut-glass jewels of many colors, glinting tucked side",
+          "vibes": [
+            "glam",
+            "vintage",
+            "regal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/gemstone-comb-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-204",
+          "number": 125,
+          "title": "Suede-Wrap Curl Crop",
+          "body": "hairstyle: short curly crop with a couple of front curls bound in threaded suede cord wraps, curly texture left loose elsewhere",
+          "vibes": [
+            "boho",
+            "natural",
+            "edgy"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/suede-wrap-curl-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-205",
+          "number": 126,
+          "title": "Feather-Tipped Micro Bob",
+          "body": "hairstyle: blunt micro bob with tiny downy feathers glued along the very ends so the hemline looks softly plumed",
+          "vibes": [
+            "whimsical",
+            "coquette",
+            "fairycore"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/feather-tipped-micro-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-206",
+          "number": 127,
+          "title": "Lattice-Weave Tuck Pixie",
+          "body": "hairstyle: longer pixie with the side woven into a flat basket-lattice panel against the scalp, neat interlaced technique",
+          "vibes": [
+            "stylish",
+            "edgy",
+            "minimal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/lattice-weave-tuck-pixie.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-207",
+          "number": 128,
+          "title": "Hairfork Knot Crop",
+          "body": "hairstyle: short crop gathered into a tiny nape knot pinned with an ornate two-prong hair fork dangling small charms",
+          "vibes": [
+            "elegant",
+            "vintage",
+            "boho"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/hairfork-knot-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-208",
+          "number": 129,
+          "title": "Wire-Halo Fluff Crop",
+          "body": "hairstyle: short fluffy crop ringed by a thin bent-wire halo armature holding a few strands into a floating arc",
+          "vibes": [
+            "celestial",
+            "whimsical",
+            "ethereal"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wire-halo-fluff-crop.webp",
+          "titleRu": null,
+          "bodyRu": null
+        }
+      ]
+    },
+    {
+      "id": "acc-medium",
+      "name": "With Accessories — Medium",
+      "nameRu": "С аксессуарами — средние",
+      "description": "Medium shapes with clips, combs, scarves, crowns",
+      "descriptionRu": "Medium shapes with clips, combs, scarves, crowns",
+      "prompts": [
+        {
+          "id": "hair-81",
+          "number": 130,
+          "title": "Velvet-Headband Lob",
+          "body": "hairstyle: collarbone lob with soft layers pushed back by a wide velvet headband, gentle root volume",
+          "vibes": [
+            "preppy",
+            "elegant",
+            "vintage"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/velvet-headband-lob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-82",
+          "number": 131,
+          "title": "Scrunchie Half-Up Waves",
+          "body": "hairstyle: shoulder-length beachy waves in a half-up loop tied with a padded scrunchie, loose front pieces",
+          "vibes": [
+            "coastal",
+            "cutesy",
+            "natural"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/scrunchie-half-up-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-83",
+          "number": 132,
+          "title": "Bow-Tie Space Buns",
+          "body": "hairstyle: medium hair in two high rounded space buns, small ribbon bows tied at each base, wispy face strands",
+          "vibes": [
+            "coquette",
+            "playful",
+            "y2k"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bow-tie-space-buns.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-84",
+          "number": 133,
+          "title": "Pearl-Comb Low Bun",
+          "body": "hairstyle: medium hair swept into a smooth low bun, a decorative pearl comb tucked at one side, clean edges",
+          "vibes": [
+            "elegant",
+            "regal",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/pearl-comb-low-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-85",
+          "number": 134,
+          "title": "Crystal-Barrette Tuck",
+          "body": "hairstyle: medium straight hair with a clean middle part tucked behind the ears, crystal barrette on one side",
+          "vibes": [
+            "minimal",
+            "glam",
+            "celestial"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crystal-barrette-tuck.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-86",
+          "number": 135,
+          "title": "Boho Beaded Half-Braid",
+          "body": "hairstyle: mid-length waves with two thin front braids pulled back, small wooden and pearl beads threaded through",
+          "vibes": [
+            "boho",
+            "natural",
+            "romantic"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/boho-beaded-half-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-87",
+          "number": 136,
+          "title": "Ribbon-Wrapped Braid Crown",
+          "body": "hairstyle: medium milkmaid braids wrapped over the crown with a thin satin ribbon woven through the plaits",
+          "vibes": [
+            "medieval",
+            "fairycore",
+            "romantic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/ribbon-wrapped-braid-crown.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-88",
+          "number": 137,
+          "title": "Claw-Clip Twist Updo",
+          "body": "hairstyle: medium hair twisted up into a loose claw-clip updo, soft falling ends, wispy escaped bangs",
+          "vibes": [
+            "natural",
+            "stylish",
+            "playful"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/claw-clip-twist-updo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-89",
+          "number": 138,
+          "title": "Floral-Crown Waves",
+          "body": "hairstyle: shoulder-length soft waves worn under a small dried-flower crown, loose ethereal face frame",
+          "vibes": [
+            "fairycore",
+            "boho",
+            "ethereal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/floral-crown-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-90",
+          "number": 139,
+          "title": "Snap-Clip Wolf Shag",
+          "body": "hairstyle: mid-length wolf shag with choppy layers, a cluster of colorful snap clips pinning the fringe back",
+          "vibes": [
+            "grunge",
+            "y2k",
+            "edgy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/snap-clip-wolf-shag.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-91",
+          "number": 140,
+          "title": "Gem-Parting Sleek Cut",
+          "body": "hairstyle: blunt shoulder cut with a razor middle part lined with tiny scattered hair gems, glassy finish",
+          "vibes": [
+            "glam",
+            "celestial",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/gem-parting-sleek-cut.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-92",
+          "number": 141,
+          "title": "Handkerchief-Tied Waves",
+          "body": "hairstyle: medium undone waves with a small silk handkerchief tied as a headscarf, front pieces left loose",
+          "vibes": [
+            "vintage",
+            "boho",
+            "coquette"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/handkerchief-tied-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-93",
+          "number": 142,
+          "title": "Charm-Clip French Bob",
+          "body": "hairstyle: medium French bob with a soft bend, small dangling charm clips pinning one side of the fringe",
+          "vibes": [
+            "y2k",
+            "cutesy",
+            "playful"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/charm-clip-french-bob.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-94",
+          "number": 143,
+          "title": "Cuffed Box-Braid Pony",
+          "body": "hairstyle: shoulder box braids gathered into a mid ponytail with metal cuffs sliding along several braids",
+          "vibes": [
+            "natural",
+            "stylish",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/cuffed-box-braid-pony.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-95",
+          "number": 144,
+          "title": "Scarf-Wrapped Bun",
+          "body": "hairstyle: medium hair coiled into a low bun fully wrapped with a printed silk scarf tied in a knot",
+          "vibes": [
+            "vintage",
+            "boho",
+            "elegant"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/scarf-wrapped-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-96",
+          "number": 145,
+          "title": "Chain-Draped Half-Up",
+          "body": "hairstyle: medium hair in a half-up twist with a fine draped face-chain looping across the parting",
+          "vibes": [
+            "edgy",
+            "glam",
+            "celestial"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/chain-draped-half-up.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-97",
+          "number": 146,
+          "title": "Ribbon-Laced Dutch Braids",
+          "body": "hairstyle: two dutch braids with a thin ribbon laced criss-cross through each plait, neat scalp rows",
+          "vibes": [
+            "coquette",
+            "sporty",
+            "cutesy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/ribbon-laced-dutch-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-98",
+          "number": 147,
+          "title": "Feather-Clip Shag",
+          "body": "hairstyle: mid-length shag with airy layers and a small feather clip tucked behind one ear, boho movement",
+          "vibes": [
+            "boho",
+            "natural",
+            "playful"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/feather-clip-shag.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-99",
+          "number": 148,
+          "title": "Comb-Cage Chignon",
+          "body": "hairstyle: medium hair rolled into a low chignon held inside a decorative wire hair cage with a jewelled comb",
+          "vibes": [
+            "regal",
+            "glam",
+            "elegant"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/comb-cage-chignon.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-100",
+          "number": 149,
+          "title": "Moonlit Circlet Waves",
+          "body": "hairstyle: medium soft waves crowned with a fine wire circlet holding a small crescent-moon charm centered on the forehead",
+          "vibes": [
+            "fairycore",
+            "celestial",
+            "ethereal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/moonlit-circlet-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-101",
+          "number": 150,
+          "title": "Butterfly-Vine Half-Up",
+          "body": "hairstyle: medium hair in a loose half-up twist trailing a thin vine hairpiece dotted with tiny enamel butterflies",
+          "vibes": [
+            "fairycore",
+            "whimsical",
+            "romantic"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/butterfly-vine-half-up.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-102",
+          "number": 151,
+          "title": "Acorn-Charm Braid Crown",
+          "body": "hairstyle: medium braided crown wrapped over the head with tiny acorn and leaf charms tucked along the plait, woodland-sprite feel",
+          "vibes": [
+            "fairycore",
+            "natural",
+            "medieval"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/acorn-charm-braid-crown.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-209",
+          "number": 152,
+          "title": "Kokoshnik Crown Waves",
+          "body": "hairstyle: medium waves worn beneath a tall crescent kokoshnik headdress with strings of pearl ryasny drops framing the face",
+          "vibes": [
+            "regal",
+            "vintage",
+            "elegant"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/kokoshnik-crown-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-210",
+          "number": 153,
+          "title": "Hairstick Twin Buns",
+          "body": "hairstyle: medium hair in two low knotted buns each pierced through with a lacquered East-Asian hairstick and a small dangling bead",
+          "vibes": [
+            "stylish",
+            "vintage",
+            "minimal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/hairstick-twin-buns.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-211",
+          "number": 154,
+          "title": "Kanzashi Blossom Twist",
+          "body": "hairstyle: medium side twist pinned with a fabric kanzashi flower pin cascading fine silk petal strands, smooth swept crown",
+          "vibes": [
+            "elegant",
+            "coquette",
+            "vintage"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/kanzashi-blossom-twist.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-212",
+          "number": 155,
+          "title": "Geode-Cluster Chignon",
+          "body": "hairstyle: medium low chignon studded with a cluster of raw geode slices and jagged crystals catching light along one side",
+          "vibes": [
+            "edgy",
+            "glam",
+            "celestial"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/geode-cluster-chignon.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-213",
+          "number": 156,
+          "title": "Macrame-Knot Half-Up",
+          "body": "hairstyle: medium half-up section worked into a row of macrame square-knots down the back, corded textile technique, loose ends",
+          "vibes": [
+            "boho",
+            "natural",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/macrame-knot-half-up.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-214",
+          "number": 157,
+          "title": "Coin-Cap Fringe Bun",
+          "body": "hairstyle: medium hair coiled into a bun under a beaded cap edged with a jingling coin fringe across the forehead",
+          "vibes": [
+            "boho",
+            "vintage",
+            "playful"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/coin-cap-fringe-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-215",
+          "number": 158,
+          "title": "Loom-Woven Panel Waves",
+          "body": "hairstyle: medium waves with a flat loom-woven hair panel of interlaced strands set across the back of the crown, tapestry technique",
+          "vibes": [
+            "stylish",
+            "medieval",
+            "edgy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/loom-woven-panel-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-216",
+          "number": 159,
+          "title": "Feather-Mantle Half-Up",
+          "body": "hairstyle: medium half-up crowned with a fanned mantle of long trailing feathers pinned at the gather, soft plumed spread",
+          "vibes": [
+            "boho",
+            "whimsical",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/feather-mantle-half-up.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-217",
+          "number": 160,
+          "title": "Wire-Wrapped Rope Twist",
+          "body": "hairstyle: medium rope twist bound at intervals with fine silver wire wrapped into neat ribbed bands, sculptural corded length",
+          "vibes": [
+            "edgy",
+            "stylish",
+            "minimal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wire-wrapped-rope-twist.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-218",
+          "number": 161,
+          "title": "Jeweled-Fork Curl Updo",
+          "body": "hairstyle: medium curly updo skewered by an ornate jeweled hair fork, springy pinned curls, curly texture puffed at the crown",
+          "vibes": [
+            "glam",
+            "regal",
+            "romantic"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/jeweled-fork-curl-updo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-219",
+          "number": 162,
+          "title": "Beaded-Net Snood",
+          "body": "hairstyle: medium hair gathered into a beaded net snood at the nape, tiny glass beads over the coiled length, vintage caul technique",
+          "vibes": [
+            "vintage",
+            "elegant",
+            "medieval"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beaded-net-snood.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-220",
+          "number": 163,
+          "title": "Crystal-Threaded Basket Braid",
+          "body": "hairstyle: medium hair woven into a flat basket-braid panel with thin threads of colorful crystals laced through the weave",
+          "vibes": [
+            "fairycore",
+            "celestial",
+            "stylish"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crystal-threaded-basket-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        }
+      ]
+    },
+    {
+      "id": "acc-long",
+      "name": "With Accessories — Long",
+      "nameRu": "С аксессуарами — длинные",
+      "description": "Long shapes with ribbons, chains, gems, nets",
+      "descriptionRu": "Long shapes with ribbons, chains, gems, nets",
+      "prompts": [
+        {
+          "id": "hair-103",
+          "number": 164,
+          "title": "Pearl-Pin Deep Waves",
+          "body": "hairstyle: long glossy waves with a deep side part, scattered pearl pins along one temple, soft face frame",
+          "vibes": [
+            "elegant",
+            "ethereal",
+            "romantic"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/pearl-pin-deep-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-104",
+          "number": 165,
+          "title": "Butterfly-Clip Blowout",
+          "body": "hairstyle: long layered blowout with flipped ends, pastel butterfly clips on both sides, airy curtain bangs",
+          "vibes": [
+            "y2k",
+            "playful",
+            "cutesy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/butterfly-clip-blowout.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-105",
+          "number": 166,
+          "title": "Ribbon-Braid Ponytail",
+          "body": "hairstyle: long high ponytail with a loose braid down the length, a satin ribbon woven through, lifted crown",
+          "vibes": [
+            "coquette",
+            "sporty",
+            "romantic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/ribbon-braid-ponytail.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-106",
+          "number": 167,
+          "title": "Star-Charm Twin Braids",
+          "body": "hairstyle: long loose waves with two thin front braids, tiny silver star charms clipped at the ends, center part",
+          "vibes": [
+            "celestial",
+            "whimsical",
+            "cutesy"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/star-charm-twin-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-107",
+          "number": 168,
+          "title": "Velvet-Headband Curls",
+          "body": "hairstyle: long soft curls pushed back with a wide velvet headband, root volume, loose flowing tendrils",
+          "vibes": [
+            "regal",
+            "elegant",
+            "vintage"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/velvet-headband-curls.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-108",
+          "number": 169,
+          "title": "Crystal Low Pony",
+          "body": "hairstyle: long straight hair in a low sleek ponytail, a crystal barrette clipped above the tie, glassy finish",
+          "vibes": [
+            "glam",
+            "minimal",
+            "celestial"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crystal-low-pony.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-109",
+          "number": 170,
+          "title": "Floral-Pin Side Braid",
+          "body": "hairstyle: long relaxed side braid with tiny floral pins tucked through the plait, softly pulled-out pieces",
+          "vibes": [
+            "fairycore",
+            "romantic",
+            "boho"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/floral-pin-side-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-110",
+          "number": 171,
+          "title": "Pearl Head-Chain Waves",
+          "body": "hairstyle: long smooth waves with a delicate pearl head chain draped over the crown, center part, ethereal drape",
+          "vibes": [
+            "ethereal",
+            "regal",
+            "glam"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/pearl-head-chain-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-111",
+          "number": 172,
+          "title": "Bow Space Braids",
+          "body": "hairstyle: two long loose braids with small ribbon bows tied at the ends, soft flyaways, playful symmetry",
+          "vibes": [
+            "coquette",
+            "playful",
+            "cutesy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bow-space-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-112",
+          "number": 173,
+          "title": "Lace-Ribbon Half-Up",
+          "body": "hairstyle: long curls styled half-up with a lace ribbon bow at the crown, soft volume, curled front strands",
+          "vibes": [
+            "coquette",
+            "romantic",
+            "vintage"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/lace-ribbon-half-up.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-113",
+          "number": 174,
+          "title": "Gem-Parting Sleek Waves",
+          "body": "hairstyle: long glossy waves with tiny hair gems placed along the middle part, smooth roots, sparkly finish",
+          "vibes": [
+            "glam",
+            "celestial",
+            "stylish"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/gem-parting-sleek-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-114",
+          "number": 175,
+          "title": "Charm-Wrap Side Pony",
+          "body": "hairstyle: long hair swept into a low ponytail over one shoulder, a fine charm chain wrapped along the length, soft crown",
+          "vibes": [
+            "glam",
+            "edgy",
+            "whimsical"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/charm-wrap-side-pony.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-115",
+          "number": 176,
+          "title": "Bandana Boho Waves",
+          "body": "hairstyle: long undone waves styled with a folded printed bandana across the crown, front pieces left loose",
+          "vibes": [
+            "boho",
+            "coastal",
+            "vintage"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bandana-boho-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-116",
+          "number": 177,
+          "title": "Tiara Ballroom Curls",
+          "body": "hairstyle: long full curls swept back beneath a delicate tiara, soft crown height, cascading princess volume",
+          "vibes": [
+            "regal",
+            "glam",
+            "elegant"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/tiara-ballroom-curls.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-117",
+          "number": 178,
+          "title": "Coin-Trim Wrapped Braid",
+          "body": "hairstyle: long side braid tightly wrapped in rows of thin cord with small jingling coins fastened down its length",
+          "vibes": [
+            "boho",
+            "whimsical",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/coin-trim-wrapped-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-118",
+          "number": 179,
+          "title": "Beaded Long Braids",
+          "body": "hairstyle: long thin braids all over threaded with rows of colorful beads that clink at the ends, center part",
+          "vibes": [
+            "natural",
+            "playful",
+            "stylish"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beaded-long-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-119",
+          "number": 180,
+          "title": "Flower-Vine Fishtail",
+          "body": "hairstyle: long fishtail braid with tiny fresh flowers and thin vines woven along the plait, garden drape",
+          "vibes": [
+            "fairycore",
+            "romantic",
+            "boho"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/flower-vine-fishtail.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-120",
+          "number": 181,
+          "title": "Nordic Cuffed Warrior Braid",
+          "body": "hairstyle: long trailing back braid fed from tight scalp rows, small metal rings and cuffs clasped along it",
+          "vibes": [
+            "medieval",
+            "edgy",
+            "regal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/nordic-cuffed-warrior-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-121",
+          "number": 182,
+          "title": "Padded Bow Long Pony",
+          "body": "hairstyle: very long high ponytail finished with an oversized padded structured bow at the base, curled tail",
+          "vibes": [
+            "coquette",
+            "glam",
+            "playful"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/padded-bow-long-pony.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-122",
+          "number": 183,
+          "title": "Star-Net Ballgown Curls",
+          "body": "hairstyle: long dramatic curls held under a fine crystal-star hairnet draped over the crown, gala-worthy volume",
+          "vibes": [
+            "celestial",
+            "regal",
+            "glam"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/star-net-ballgown-curls.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-123",
+          "number": 184,
+          "title": "Crescent Forehead Drape",
+          "body": "hairstyle: long ethereal waves with a delicate chain hairpiece parting the crown down to a small crescent-moon pendant on the forehead",
+          "vibes": [
+            "fairycore",
+            "celestial",
+            "ethereal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crescent-forehead-drape.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-124",
+          "number": 185,
+          "title": "Starlight Chain Braid",
+          "body": "hairstyle: long side braid laced with a fine draped chain of tiny star charms glinting along the plait, dreamy trailing wisps",
+          "vibes": [
+            "fairycore",
+            "celestial",
+            "romantic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/starlight-chain-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-125",
+          "number": 186,
+          "title": "Wildflower Meadow Waves",
+          "body": "hairstyle: long loose waves woven with scattered tiny wildflowers and thin trailing grasses across the crown, soft meadow drape",
+          "vibes": [
+            "fairycore",
+            "natural",
+            "whimsical"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wildflower-meadow-waves.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-221",
+          "number": 187,
+          "title": "Pearl-Netted Kokoshnik Fall",
+          "body": "hairstyle: long straight length worn under an arched kokoshnik with a draped pearl net across the forehead and long ryasny strands at the cheeks",
+          "vibes": [
+            "regal",
+            "vintage",
+            "ethereal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/pearl-netted-kokoshnik-fall.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-222",
+          "number": 188,
+          "title": "Hairstick Tower Coil",
+          "body": "hairstyle: long hair wound into a tall stacked coil skewered by two crossed lacquered hairsticks with beaded drop tips",
+          "vibes": [
+            "elegant",
+            "stylish",
+            "regal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/hairstick-tower-coil.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-223",
+          "number": 189,
+          "title": "Quill-Fan Warrior Tail",
+          "body": "hairstyle: long high tail with a spray of tall stiff quills fanned upright from the base, corded wrap at the tie, plumed crest",
+          "vibes": [
+            "edgy",
+            "boho",
+            "medieval"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/quill-fan-warrior-tail.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-224",
+          "number": 190,
+          "title": "Crystal-Vine Wire Cascade",
+          "body": "hairstyle: long waves threaded with a bent-wire vine dripping small colorful crystals winding down one side, sculptural drape",
+          "vibes": [
+            "fairycore",
+            "celestial",
+            "glam"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crystal-vine-wire-cascade.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-225",
+          "number": 191,
+          "title": "Loom-Tapestry Back Panel",
+          "body": "hairstyle: long hair with a wide loom-woven tapestry panel of interlaced strands covering the upper back, intricate textile technique, free ends below",
+          "vibes": [
+            "medieval",
+            "stylish",
+            "boho"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/loom-tapestry-back-panel.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-226",
+          "number": 192,
+          "title": "Coin-Fringe Cap Braids",
+          "body": "hairstyle: long thin braids gathered under a beaded cap with heavy coin fringe swaying at the temples and hairline, folkloric layering",
+          "vibes": [
+            "boho",
+            "vintage",
+            "regal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/coin-fringe-cap-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-227",
+          "number": 193,
+          "title": "Feather-Wrapped Rope Braid",
+          "body": "hairstyle: long rope braid with slim feathers bound in along its length by fine cord wraps, trailing plumed tail",
+          "vibes": [
+            "boho",
+            "whimsical",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/feather-wrapped-rope-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-228",
+          "number": 194,
+          "title": "Gem-Studded Lattice Fall",
+          "body": "hairstyle: long hair with an open lattice-braid net laid over the crown, each crossing pinned with a small colorful gem, loose length beneath",
+          "vibes": [
+            "fairycore",
+            "glam",
+            "stylish"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/gem-studded-lattice-fall.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-229",
+          "number": 195,
+          "title": "Macrame-Rope Long Fall",
+          "body": "hairstyle: long central rope worked into deep macrame knots down the back with corded textile texture, loose fanned ends",
+          "vibes": [
+            "boho",
+            "natural",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/macrame-rope-long-fall.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-230",
+          "number": 196,
+          "title": "Bone-Comb Curl Sweep",
+          "body": "hairstyle: long curly hair swept up on one side by a wide carved bone comb, springy pinned curls, curly texture cascading loose",
+          "vibes": [
+            "natural",
+            "regal",
+            "romantic"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/bone-comb-curl-sweep.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-231",
+          "number": 197,
+          "title": "Wire-Armature Wing Sweep",
+          "body": "hairstyle: long hair drawn over a thin wire armature that lifts one side into a fixed curved wing, sculptural held arc, free lengths",
+          "vibes": [
+            "edgy",
+            "glam",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wire-armature-wing-sweep.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-232",
+          "number": 198,
+          "title": "Beaded-Cap Coil Crown",
+          "body": "hairstyle: long hair coiled high beneath a domed beaded cap of dense glass rows, a short bead veil grazing the brow, ornate cap technique",
+          "vibes": [
+            "regal",
+            "vintage",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/beaded-cap-coil-crown.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-233",
+          "number": 199,
+          "title": "Threaded-Cord Wrap Ponytail",
+          "body": "hairstyle: long ponytail wound top to bottom in spiralling colorful cord wraps into a firm banded staff, sleek pulled crown",
+          "vibes": [
+            "boho",
+            "edgy",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/threaded-cord-wrap-ponytail.webp",
+          "titleRu": null,
+          "bodyRu": null
+        }
+      ]
+    },
+    {
+      "id": "unique",
+      "name": "Unique",
+      "nameRu": "Уникальные",
+      "description": "Fantasy, statement and state-driven silhouettes",
+      "descriptionRu": "Fantasy, statement and state-driven silhouettes",
+      "prompts": [
+        {
+          "id": "hair-126",
+          "number": 200,
+          "title": "Rapunzel Floor Braid",
+          "body": "hairstyle: extra-long floor-grazing single braid trailing past the feet, thick even plaiting, soft crown wisps",
+          "vibes": [
+            "fairycore",
+            "medieval",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/rapunzel-floor-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-127",
+          "number": 201,
+          "title": "Twin Spiral Drills",
+          "body": "hairstyle: two very long ringlet drill twin-tails corkscrewing into perfect spiral tubes, high symmetrical placement",
+          "vibes": [
+            "whimsical",
+            "y2k",
+            "cutesy"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/twin-spiral-drills.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-128",
+          "number": 202,
+          "title": "Heart-Shaped Halo Bun",
+          "body": "hairstyle: hair sculpted into a heart-outline shape framing the crown, sleek smooth surface, gravity-defying loop",
+          "vibes": [
+            "whimsical",
+            "playful",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/heart-shaped-halo-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-129",
+          "number": 203,
+          "title": "Ram-Horn Coil Buns",
+          "body": "hairstyle: two low side buns coiled into tight ram-horn spirals, sleek wrapped bases, bold sculptural shape",
+          "vibes": [
+            "edgy",
+            "medieval",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/ram-horn-coil-buns.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-130",
+          "number": 204,
+          "title": "Living-Vine Fairy Mane",
+          "body": "hairstyle: waist-length loose waves woven with tiny leaves and trailing vine strands, wild ethereal drape",
+          "vibes": [
+            "fairycore",
+            "ethereal",
+            "whimsical"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/living-vine-fairy-mane.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-131",
+          "number": 205,
+          "title": "Crown-Braid Halo",
+          "body": "hairstyle: thick braid wrapped fully around the head like a woven crown, no loose ends, regal seamless ring",
+          "vibes": [
+            "regal",
+            "medieval",
+            "elegant"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crown-braid-halo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-132",
+          "number": 206,
+          "title": "Cascading Waterfall Braid",
+          "body": "hairstyle: half-up waterfall braid sweeping across the back with strands falling through like a cascade, long flowing base",
+          "vibes": [
+            "romantic",
+            "ethereal",
+            "whimsical"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/cascading-waterfall-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-133",
+          "number": 207,
+          "title": "Sculptural Origami Updo",
+          "body": "hairstyle: hair folded into sharp geometric origami-like panels stacked at the back, avant-garde architectural finish",
+          "vibes": [
+            "edgy",
+            "stylish",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sculptural-origami-updo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-134",
+          "number": 208,
+          "title": "Angelic Halo Curls",
+          "body": "hairstyle: extra-voluminous cloud of soft curls forming a wide radiant halo around the face, weightless airy shape",
+          "vibes": [
+            "ethereal",
+            "celestial",
+            "romantic"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/angelic-halo-curls.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-135",
+          "number": 209,
+          "title": "Medieval Maiden Plaits",
+          "body": "hairstyle: two long thick side plaits woven with crossing strands, soft center part, storybook maiden drape",
+          "vibes": [
+            "medieval",
+            "fairycore",
+            "romantic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/medieval-maiden-plaits.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-136",
+          "number": 210,
+          "title": "Butterfly Bun Wings",
+          "body": "hairstyle: looped bun styled to fan out into two wing-like sculpted panels, delicate symmetrical butterfly shape",
+          "vibes": [
+            "whimsical",
+            "fairycore",
+            "cutesy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/butterfly-bun-wings.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-137",
+          "number": 211,
+          "title": "Sky-High Bubble Ponytail",
+          "body": "hairstyle: very long ponytail segmented into stacked bubble sections down the length, bouncy playful tiers",
+          "vibes": [
+            "y2k",
+            "playful",
+            "sporty"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sky-high-bubble-ponytail.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-138",
+          "number": 212,
+          "title": "Serpent Coil Wrap",
+          "body": "hairstyle: long braid coiled around the head and shoulder like a resting serpent, sleek winding sculptural path",
+          "vibes": [
+            "edgy",
+            "gothic",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/serpent-coil-wrap.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-139",
+          "number": 213,
+          "title": "Fountain Top Knot",
+          "body": "hairstyle: very high top knot with long curled lengths bursting upward and spilling over like a fountain, dramatic lift",
+          "vibes": [
+            "whimsical",
+            "glam",
+            "playful"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/fountain-top-knot.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-140",
+          "number": 214,
+          "title": "Elven Half-Crown Weave",
+          "body": "hairstyle: intricate thin braids gathered from both sides into a delicate woven half-crown, long flowing lengths below",
+          "vibes": [
+            "fairycore",
+            "medieval",
+            "ethereal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/elven-half-crown-weave.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-141",
+          "number": 215,
+          "title": "Star-Map Braided Grid",
+          "body": "hairstyle: scalp braided into a geometric grid of tiny connecting rows meeting at the crown, sleek precise pattern",
+          "vibes": [
+            "edgy",
+            "celestial",
+            "stylish"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/star-map-braided-grid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-142",
+          "number": 216,
+          "title": "Baroque Ringlet Tower",
+          "body": "hairstyle: hair piled into a tall stacked tower of sculpted baroque ringlets, ornate powdered-court silhouette",
+          "vibes": [
+            "regal",
+            "vintage",
+            "whimsical"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/baroque-ringlet-tower.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-143",
+          "number": 217,
+          "title": "Snow-Queen Frost Braid",
+          "body": "hairstyle: long loose side braid with crystalline icy-textured strands and frosted flyaways, sharp regal drape",
+          "vibes": [
+            "ethereal",
+            "regal",
+            "gothic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/snow-queen-frost-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-144",
+          "number": 218,
+          "title": "Petal-Bun Blossom",
+          "body": "hairstyle: low bun arranged into overlapping looped petals like a blooming flower, soft rounded floral shape",
+          "vibes": [
+            "fairycore",
+            "cutesy",
+            "romantic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/petal-bun-blossom.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-145",
+          "number": 219,
+          "title": "Comet-Tail Wrap Pony",
+          "body": "hairstyle: sleek high ponytail wrapped tightly at the base then flaring into a long trailing curled comet tail",
+          "vibes": [
+            "celestial",
+            "glam",
+            "whimsical"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/comet-tail-wrap-pony.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-146",
+          "number": 220,
+          "title": "Wet-Look Slick Cascade",
+          "body": "hairstyle: long hair slicked back with a soaked high-gloss wet finish, sharp exposed hairline, water-drip lengths",
+          "vibes": [
+            "glam",
+            "edgy",
+            "minimal"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wet-look-slick-cascade.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-147",
+          "number": 221,
+          "title": "Wet-Look Sculpted Bun",
+          "body": "hairstyle: hair pulled into a low sculpted bun with a wet slicked crown and molded finger-shaped ridges, dripping shine",
+          "vibes": [
+            "glam",
+            "stylish",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wet-look-sculpted-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-148",
+          "number": 222,
+          "title": "Floor-Length Loc Cape",
+          "body": "hairstyle: floor-grazing locs cascading like a heavy cape past the hips, uniform rope strands, dramatic weight",
+          "vibes": [
+            "regal",
+            "natural",
+            "whimsical"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/floor-length-loc-cape.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-149",
+          "number": 223,
+          "title": "Cyber Double Space Buns",
+          "body": "hairstyle: two very high sculpted double-stacked buns with sleek wrapped bases and thin trailing tendrils, futuristic shape",
+          "vibes": [
+            "y2k",
+            "edgy",
+            "playful"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/cyber-double-space-buns.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-150",
+          "number": 224,
+          "title": "Winged Rococo Rolls",
+          "body": "hairstyle: hair swept into two wide horizontal padded rolls flaring out at the sides of the head, small back curls, courtly span",
+          "vibes": [
+            "regal",
+            "vintage",
+            "whimsical"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/winged-rococo-rolls.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-151",
+          "number": 225,
+          "title": "Medusa Micro-Braids",
+          "body": "hairstyle: dozens of thin micro-braids radiating outward and coiling like writhing serpents, wild sculptural spread",
+          "vibes": [
+            "gothic",
+            "edgy",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/medusa-micro-braids.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-152",
+          "number": 226,
+          "title": "Infinity Knot Loops",
+          "body": "hairstyle: hair looped into interlocking figure-eight infinity knots stacked down the back, sleek sculptural links",
+          "vibes": [
+            "whimsical",
+            "stylish",
+            "elegant"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/infinity-knot-loops.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-153",
+          "number": 227,
+          "title": "Chandelier Ringlet Drape",
+          "body": "hairstyle: long ringlets pinned high and cascading in tiered dripping loops like a chandelier, ornate layered shape",
+          "vibes": [
+            "regal",
+            "glam",
+            "whimsical"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/chandelier-ringlet-drape.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-154",
+          "number": 228,
+          "title": "Halo of Tiny Buns",
+          "body": "hairstyle: a full ring of many small even buns encircling the head like a crown, neat repeating pattern",
+          "vibes": [
+            "whimsical",
+            "playful",
+            "medieval"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/halo-of-tiny-buns.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-155",
+          "number": 229,
+          "title": "Mermaid-Scale Braid Net",
+          "body": "hairstyle: back hair woven into an interlocking lattice net resembling overlapping scales, long free lengths beneath",
+          "vibes": [
+            "coastal",
+            "ethereal",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/mermaid-scale-braid-net.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-156",
+          "number": 230,
+          "title": "Cascading Braid Ladder",
+          "body": "hairstyle: a long central braid with many small braids branching off it like rungs of a ladder down the back, intricate woven grid",
+          "vibes": [
+            "romantic",
+            "boho",
+            "fairycore"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/cascading-braid-ladder.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-157",
+          "number": 231,
+          "title": "Twin Loop Antenna Buns",
+          "body": "hairstyle: two tall open loop buns standing up like antennae with wispy escaped ends, quirky playful shape",
+          "vibes": [
+            "whimsical",
+            "y2k",
+            "cutesy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/twin-loop-antenna-buns.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-158",
+          "number": 232,
+          "title": "Nordic Shieldmaiden Weave",
+          "body": "hairstyle: multiple tight braids drawn back and merged into one thick center plait with a knotted crown ridge, warrior drape",
+          "vibes": [
+            "medieval",
+            "edgy",
+            "regal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/nordic-shieldmaiden-weave.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-159",
+          "number": 233,
+          "title": "Gravity-Defying Swirl Updo",
+          "body": "hairstyle: hair swept into a tall spiralling swirl that curves upward and over itself, smooth sculptural twist",
+          "vibes": [
+            "glam",
+            "whimsical",
+            "stylish"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/gravity-defying-swirl-updo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-234",
+          "number": 234,
+          "title": "Storm-Tossed Tangle Mane",
+          "body": "hairstyle: extremely long hair whipped into a chaotic wind-tossed tangle, knotted flying strands, raw untamed storm shape",
+          "vibes": [
+            "grunge",
+            "edgy",
+            "coastal"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/storm-tossed-tangle-mane.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-235",
+          "number": 235,
+          "title": "Static-Levitation Halo",
+          "body": "hairstyle: hair fully lifted and floating outward on static electricity into a spherical suspended halo, every strand standing free",
+          "vibes": [
+            "whimsical",
+            "celestial",
+            "playful"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/static-levitation-halo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-236",
+          "number": 236,
+          "title": "Half-Melted Drip Updo",
+          "body": "hairstyle: sculpted updo that appears to be slowly slumping and dripping downward in soft molten loops, surreal sagging shape",
+          "vibes": [
+            "whimsical",
+            "edgy",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/half-melted-drip-updo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-237",
+          "number": 237,
+          "title": "Rain-Plastered Second Skin",
+          "body": "hairstyle: hair soaked flat against the head and neck like a drenched second skin, sharp exposed hairline, dripping pointed ends",
+          "vibes": [
+            "edgy",
+            "minimal",
+            "gothic"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/rain-plastered-second-skin.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-238",
+          "number": 238,
+          "title": "Puffed Storm-Cloud Crown",
+          "body": "hairstyle: hair over-teased into a vast dark storm-cloud puff swelling above the head, ominous billowing volume, wispy edges",
+          "vibes": [
+            "whimsical",
+            "gothic",
+            "glam"
+          ],
+          "texture": "curly",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-storm-cloud-crown.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-239",
+          "number": 239,
+          "title": "Kokoshnik Pearl-Curtain Regalia",
+          "body": "hairstyle: towering ornate kokoshnik with a full hanging curtain of pearl strands veiling the brow and cheeks, smooth crowned length beneath",
+          "vibes": [
+            "regal",
+            "vintage",
+            "ethereal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/kokoshnik-pearl-curtain-regalia.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-240",
+          "number": 240,
+          "title": "Feather-Mantle Cascade",
+          "body": "hairstyle: hair blended into a sweeping mantle of layered long feathers pouring over the shoulders like plumage, winged silhouette",
+          "vibes": [
+            "boho",
+            "whimsical",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/feather-mantle-cascade.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-241",
+          "number": 241,
+          "title": "Crystal-Geode Cluster Tower",
+          "body": "hairstyle: hair built into a tall tower encrusted with clustered raw geodes and jutting colorful crystals, mineral sculptural crown",
+          "vibes": [
+            "celestial",
+            "glam",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/crystal-geode-cluster-tower.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-242",
+          "number": 242,
+          "title": "Woven Hair-Tapestry Cloak",
+          "body": "hairstyle: the whole back length loom-woven into one broad flat tapestry cloak of interlaced strands, dense textile panel to the waist",
+          "vibes": [
+            "medieval",
+            "stylish",
+            "boho"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/woven-hair-tapestry-cloak.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-243",
+          "number": 243,
+          "title": "Hairstick-Pierced Spire Bun",
+          "body": "hairstyle: a very tall conical spire bun pierced through in every direction by many long lacquered hairsticks, radiating quilled crown",
+          "vibes": [
+            "edgy",
+            "stylish",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/hairstick-pierced-spire-bun.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-244",
+          "number": 244,
+          "title": "Macrame Rope Curtain",
+          "body": "hairstyle: the entire length knotted into a hanging macrame curtain of even corded rows, textile lattice falling like a screen",
+          "vibes": [
+            "boho",
+            "natural",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/macrame-rope-curtain.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-245",
+          "number": 245,
+          "title": "Wire-Caged Impossible Arc",
+          "body": "hairstyle: hair drawn over a hidden wire cage that holds it in one gravity-defying arc curving high overhead, sculptural suspended loop",
+          "vibes": [
+            "whimsical",
+            "glam",
+            "edgy"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wire-caged-impossible-arc.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-246",
+          "number": 246,
+          "title": "Windmill Loop Quartet",
+          "body": "hairstyle: four large stiff hair loops fanned out around the crown like windmill sails, symmetrical rotating pinwheel shape",
+          "vibes": [
+            "whimsical",
+            "playful",
+            "y2k"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/windmill-loop-quartet.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-247",
+          "number": 247,
+          "title": "Sweat-Slicked Boxer Rows",
+          "body": "hairstyle: tight scalp rows raked back damp with sweat into a slick ridged pattern ending in a small drenched tail, arena-worn sheen",
+          "vibes": [
+            "sporty",
+            "edgy",
+            "minimal"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/sweat-slicked-boxer-rows.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-248",
+          "number": 248,
+          "title": "Cocoon-Wrapped Silk Pod",
+          "body": "hairstyle: all the length spiral-wrapped smoothly around itself into a sealed teardrop cocoon pod at the nape, glassy encased shape",
+          "vibes": [
+            "minimal",
+            "ethereal",
+            "stylish"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/cocoon-wrapped-silk-pod.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-249",
+          "number": 249,
+          "title": "Antler-Branch Hair Crown",
+          "body": "hairstyle: hair stiffened and shaped into branching antler-like horns rising from the crown, forked sculptural growth, wild woodland form",
+          "vibes": [
+            "fairycore",
+            "gothic",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/antler-branch-hair-crown.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-250",
+          "number": 250,
+          "title": "Suspended Ribbon-Fall Sculpture",
+          "body": "hairstyle: long ribbons of hair held in mid-fall on thin supports so they hang in staggered floating tiers, kinetic layered drop",
+          "vibes": [
+            "ethereal",
+            "glam",
+            "whimsical"
+          ],
+          "texture": "straight",
+          "hasImage": true,
+          "imgSrc": "assets/hair/suspended-ribbon-fall-sculpture.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-251",
+          "number": 251,
+          "title": "Overgrown Moss Braid",
+          "body": "hairstyle: thick loose braid entwined with trailing moss and tiny curling tendrils as if left to grow wild, damp forest-floor drape",
+          "vibes": [
+            "fairycore",
+            "natural",
+            "whimsical"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/overgrown-moss-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-252",
+          "number": 252,
+          "title": "Just-Woke-Up Chaos Pile",
+          "body": "hairstyle: hair heaped into a lopsided just-woke-up pile skewered by one forgotten pin, creased flat panels, gloriously careless mound",
+          "vibes": [
+            "grunge",
+            "cutesy",
+            "playful"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/just-woke-up-chaos-pile.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-253",
+          "number": 253,
+          "title": "Coiled-Serpent Tower Locs",
+          "body": "hairstyle: long locs stacked and coiled into a tall winding serpent tower balanced on the crown, ridged rope spiral, sculptural height",
+          "vibes": [
+            "regal",
+            "edgy",
+            "natural"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/coiled-serpent-tower-locs.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-254",
+          "number": 254,
+          "title": "Puffed Cotton Sphere",
+          "body": "hairstyle: coily hair picked into a flawless full sphere floating around the head, dense even cotton-soft puff, curly-coily perfection",
+          "vibes": [
+            "regal",
+            "playful",
+            "whimsical"
+          ],
+          "texture": "coily",
+          "hasImage": true,
+          "imgSrc": "assets/hair/puffed-cotton-sphere.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-255",
+          "number": 255,
+          "title": "Shattered-Crystal Spike Updo",
+          "body": "hairstyle: updo bristling with hair spikes tipped in glued shards of colorful cut glass, jagged glittering hazard crown",
+          "vibes": [
+            "edgy",
+            "glam",
+            "gothic"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/shattered-crystal-spike-updo.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-256",
+          "number": 256,
+          "title": "Tidal Wave Crest",
+          "body": "hairstyle: hair sculpted into one enormous curling wave crest arcing forward over the forehead, breaking foam of fine ends, held mid-motion",
+          "vibes": [
+            "coastal",
+            "edgy",
+            "glam"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/tidal-wave-crest.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-257",
+          "number": 257,
+          "title": "Loom-Beaded Curtain Veil",
+          "body": "hairstyle: front sections loom-woven with strung beads into a shimmering curtain veil hanging over the face, threaded textile screen",
+          "vibes": [
+            "boho",
+            "ethereal",
+            "vintage"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/loom-beaded-curtain-veil.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-258",
+          "number": 258,
+          "title": "Overgrown Rapunzel Drag",
+          "body": "hairstyle: absurdly overgrown length pooling and dragging in a heavy trailing train far behind, soft split sun-worn ends, epic sprawl",
+          "vibes": [
+            "whimsical",
+            "fairycore",
+            "romantic"
+          ],
+          "texture": "wavy",
+          "hasImage": true,
+          "imgSrc": "assets/hair/overgrown-rapunzel-drag.webp",
+          "titleRu": null,
+          "bodyRu": null
+        },
+        {
+          "id": "hair-259",
+          "number": 259,
+          "title": "Wind-Caught Motion Braid",
+          "body": "hairstyle: a long braid stiffened to look caught mid-swing in a suspended S-curve held in the air, dynamic mid-motion pose, flying wisps",
+          "vibes": [
+            "whimsical",
+            "edgy",
+            "celestial"
+          ],
+          "texture": "any",
+          "hasImage": true,
+          "imgSrc": "assets/hair/wind-caught-motion-braid.webp",
+          "titleRu": null,
+          "bodyRu": null
+        }
+      ]
+    }
+  ]
+}

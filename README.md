@@ -11,13 +11,14 @@
                           ╚══════════════════════════════════════════════════════╝
 ```
 
-**250 prompts · 265 outfits · 992 wardrobe pieces · Mix-and-match tools · EN / RU**
+**250 prompts · 265 outfits · 259 hairstyles · 992 wardrobe pieces · Mix-and-match tools · EN / RU**
 
 [![Site](https://img.shields.io/badge/site-aceeenvw.github.io%2Fclover--ooc-7aa?style=flat-square&labelColor=1a1a1a)](https://aceeenvw.github.io/clover-ooc/)
 [![Prompts](https://img.shields.io/badge/prompts-250-c99?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Outfits](https://img.shields.io/badge/outfits-265-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Hair](https://img.shields.io/badge/hairstyles-259-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Wardrobe](https://img.shields.io/badge/wardrobe-992_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Images](https://img.shields.io/badge/renders-430+%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-data-files)
+[![Images](https://img.shields.io/badge/renders-690+%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-data-files)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-data-files)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
@@ -73,6 +74,16 @@ Restyle prompts — re-render an existing image in a new aesthetic.
 - ✦ Reads from `restyle-data.json`
 - ✦ Categorized by visual style family
 
+### ◈ Hair — `hair.html`
+259 hairstyle references with `hairstyle:` lines and reference images.
+
+- ✦ Reads from `hair-data.json`
+- ✦ 7 accordion sections (short → unique)
+- ✦ Faceted filtering: vibe (24) + texture (5), plus name search
+- ✦ Random button (respects active filters)
+- ✦ Click body to copy the `hairstyle:` line
+- ✦ EN only for now; RU labels planned
+
 ### ◈ Outfits — `outfits.html`
 265 curated outfit ideas with `clothes:` lines and reference images.
 
@@ -121,6 +132,7 @@ clover-ooc/
 ├── catalogue.html              ·  Prompt grid
 ├── scenes.html                 ·  Scene-prompt page
 ├── restyle.html                ·  Restyle-prompt page
+├── hair.html                   ·  259 hairstyle references
 ├── outfits.html                ·  265 curated outfits
 ├── wardrobe.html               ·  Outfit constructor (mix & match)
 ├── tools.html                  ·  Effects / backgrounds / overlays mixer
@@ -130,6 +142,7 @@ clover-ooc/
 ├── scene-prompts-data.json     ·  Scene prompts (sections)
 ├── restyle-data.json           ·  Restyle prompts (sections)
 ├── outfits-data.json           ·  265 outfits in 15 sections (bilingual)
+├── hair-data.json              ·  259 hairstyles in 7 sections (vibe + texture facets)
 ├── wardrobe-data.json          ·  992 wardrobe pieces (bilingual)
 ├── backgrounds-data.json       ·  Backgrounds (categorized)
 ├── effects-curated.json        ·  Effects (categorized + stacks)
@@ -138,7 +151,8 @@ clover-ooc/
 │
 ├── assets/
 │   ├── clover.svg              ·  Favicon
-│   └── outfits/                ·  180 × .webp outfit references  (~13 MB)
+│   ├── outfits/                ·  180 × .webp outfit references  (~13 MB)
+│   └── hair/                   ·  259 × .webp hairstyle references  (~20 MB)
 │
 ├── css/
 │   ├── style.css               ·  Global tokens, layout, typography
@@ -147,6 +161,7 @@ clover-ooc/
 │   ├── restyle.css             ·  Restyle page
 │   ├── scenes.css              ·  Scenes page
 │   ├── outfits.css             ·  Outfits page
+│   ├── hair.css                ·  Hair page (cards, chips, filter panel)
 │   ├── wardrobe.css            ·  Wardrobe constructor
 │   └── tools.css               ·  Tools page
 │
@@ -156,13 +171,18 @@ clover-ooc/
 │   ├── scenes.js               ·  Scene rendering · copy
 │   ├── restyle.js              ·  Restyle rendering · copy
 │   ├── outfits.js              ·  Outfit cards · modal · bilingual
+│   ├── hair.js                 ·  Hair cards · modal · vibe/texture filters · random
 │   ├── wardrobe.js             ·  Constructor · slots · picker · filters
 │   └── tools.js                ·  Mix-and-match builder
 │
 ├── tools/                      ·  Local data-build & translation pipeline
 │   ├── build-outfits-data.py
+│   ├── build-hair-data.py
 │   ├── build-wardrobe-data.py
 │   ├── convert-outfits.sh
+│   ├── convert-hair.sh
+│   ├── convert-hair-friends.sh
+│   ├── convert-hair-friends.py
 │   ├── export-translation-tsvs.py
 │   ├── merge-translations.py
 │   ├── merge-wardrobe-translations.py
@@ -209,6 +229,25 @@ Flat list. Schema per entry:
 ### ◇ `scene-prompts-data.json` · `restyle-data.json`
 
 Shape: `{ "sections": [ … ] }`. Each section groups related prompts (e.g. all "kitchen" scenes, all "noir" restyles).
+
+### ◇ `hair-data.json` — hairstyle library (259 entries)
+
+Shape: `{ "sections": [ … ] }` across 7 sections. Each entry carries a `hairstyle:` line plus two independent filter facets — `vibes` (array) and `texture` (single) — and a `.webp` reference under `assets/hair/`.
+
+```json
+{
+  "id": "hair-1",
+  "number": 1,
+  "title": "Soft French Bob",
+  "body": "hairstyle: chin-length blunt bob with airy ends, soft side part…",
+  "vibes": ["elegant", "cutesy", "preppy"],
+  "texture": "straight",
+  "hasImage": true,
+  "imgSrc": "assets/hair/soft-french-bob.webp",
+  "titleRu": null,
+  "bodyRu": null
+}
+```
 
 ### ◇ `backgrounds-data.json` · `overlays-data.json`
 

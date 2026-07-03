@@ -12,6 +12,9 @@ Thumbs.db
 .opencode/
 node_modules/
 
+# Local data-build & convert pipeline — not needed to serve the site
+tools/
+
 # Local image masters (originals kept locally, not pushed)
 img-source-original/
 img-sources-leftover*/

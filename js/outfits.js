@@ -78,13 +78,7 @@
   }
 
   async function copyText(text) {
-    try {
-      await navigator.clipboard.writeText(text);
-      return true;
-    } catch (err) {
-      console.error('Copy failed:', err);
-      return false;
-    }
+    return window.cloverCopy(text);
   }
 
   // ═══ PLACEHOLDER (used when an outfit has no image) ═══
