@@ -227,7 +227,7 @@
 
       const pRu = document.createElement('p');
       pRu.className = 'lang-ru';
-      pRu.textContent = 'Попробуй изменить фильтры или поисковый запрос';
+      pRu.textContent = 'Попробуйте изменить фильтры или поисковый запрос';
 
       noResults.appendChild(svg);
       noResults.appendChild(h3En);
@@ -332,6 +332,7 @@
     card.setAttribute('tabindex', '0');
     card.setAttribute('role', 'button');
     card.addEventListener('keydown', function(e) {
+      if (e.target.closest('.copy-btn')) return;
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(prompt.id); }
     });
 
@@ -387,9 +388,12 @@
     preview.className = 'prompt-preview';
     preview.textContent = prompt.prompt.substring(0, 150) + '...';
 
+    const copyBtn = createCopyButton(prompt.id);
+
     content.appendChild(titleRow);
     content.appendChild(tagsDiv);
     content.appendChild(preview);
+    content.appendChild(copyBtn);
 
     card.appendChild(imagePlaceholder);
     card.appendChild(content);
@@ -454,9 +458,25 @@
     fullText.className = 'prompt-full-text';
     fullText.textContent = prompt.prompt;
 
+    const copyBtn = createCopyButton(prompt.id);
+
+    content.appendChild(titleRow);
+    content.appendChild(tagsDiv);
+    content.appendChild(fullText);
+    content.appendChild(copyBtn);
+
+    card.appendChild(imagePlaceholder);
+    card.appendChild(content);
+
+    return card;
+  }
+
+  function createCopyButton(promptId) {
     const copyBtn = document.createElement('button');
+    copyBtn.type = 'button';
     copyBtn.className = 'copy-btn';
-    copyBtn.dataset.promptId = prompt.id;
+    copyBtn.dataset.promptId = promptId;
+    copyBtn.setAttribute('aria-label', 'Copy English prompt');
 
     const copySvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     copySvg.setAttribute('width', '16');
@@ -490,16 +510,7 @@
     copyBtn.appendChild(copySvg);
     copyBtn.appendChild(spanEn);
     copyBtn.appendChild(spanRu);
-
-    content.appendChild(titleRow);
-    content.appendChild(tagsDiv);
-    content.appendChild(fullText);
-    content.appendChild(copyBtn);
-
-    card.appendChild(imagePlaceholder);
-    card.appendChild(content);
-
-    return card;
+    return copyBtn;
   }
 
   function renderGridView() {
@@ -729,6 +740,25 @@
     });
 
     promptsGrid.addEventListener('click', async (e) => {
+      const copyBtn = e.target.closest('.copy-btn');
+      if (copyBtn) {
+        e.stopPropagation();
+        const success = await copyPrompt(copyBtn.dataset.promptId);
+        if (success) {
+          copyBtn.classList.add('copied');
+          copyBtn.querySelector('.lang-en').textContent = 'Copied!';
+          copyBtn.querySelector('.lang-ru').textContent = 'Скопировано!';
+          clearTimeout(copyBtn._copyTimer);
+          copyBtn._copyTimer = setTimeout(() => {
+            copyBtn.classList.remove('copied');
+            copyBtn.querySelector('.lang-en').textContent = 'Copy';
+            copyBtn.querySelector('.lang-ru').textContent = 'Копировать';
+            copyBtn._copyTimer = null;
+          }, 2000);
+        }
+        return;
+      }
+
       if (currentView === 'grid') {
         const card = e.target.closest('.prompt-card');
         if (card) {
@@ -736,22 +766,6 @@
         }
       }
 
-      if (currentView === 'list') {
-        const copyBtn = e.target.closest('.copy-btn');
-        if (copyBtn) {
-          const success = await copyPrompt(copyBtn.dataset.promptId);
-          if (success) {
-            copyBtn.classList.add('copied');
-            copyBtn.querySelector('.lang-en').textContent = 'Copied!';
-            copyBtn.querySelector('.lang-ru').textContent = 'Скопировано!';
-            setTimeout(() => {
-              copyBtn.classList.remove('copied');
-              copyBtn.querySelector('.lang-en').textContent = 'Copy';
-              copyBtn.querySelector('.lang-ru').textContent = 'Копировать';
-            }, 2000);
-          }
-        }
-      }
     });
 
     modalClose.addEventListener('click', closeModal);

@@ -9,9 +9,9 @@
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Outfits — CLOVER OOC</title>
-  <meta name="description" content="265 outfit prompts for AI image generation in SillyTavern — copy any 'clothes:' line and paste into your chat.">
+  <meta name="description" content="383 outfit prompts for AI image generation in SillyTavern — copy any 'clothes:' line and paste into your chat.">
   <meta property="og:title" content="Outfits — CLOVER OOC">
-  <meta property="og:description" content="265 outfit ideas with image references — copy-and-paste 'clothes:' prompts for SillyTavern.">
+  <meta property="og:description" content="383 outfit ideas with image references and prompt-only additions — copy-and-paste 'clothes:' prompts for SillyTavern.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,9 +39,10 @@
       <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
       <a href="catalogue.html" class="nav-link"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
       <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+      <a href="poses.html" class="nav-link"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
       <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
       <a href="hair.html" class="nav-link"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
-      <a href="outfits.html" class="nav-link active"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
+      <a href="outfits.html" class="nav-link active" aria-current="page"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
       <a href="wardrobe.html" class="nav-link"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
       <a href="tools.html" class="nav-link"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
       <a href="guide.html" class="nav-link"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
@@ -67,9 +68,10 @@
     <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
     <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
     <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+    <a href="poses.html"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
     <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
     <a href="hair.html"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
-    <a href="outfits.html"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
+    <a href="outfits.html" class="active" aria-current="page"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
     <a href="wardrobe.html"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
     <a href="tools.html"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
     <a href="guide.html"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
@@ -79,12 +81,12 @@
   <section class="outfits-header">
     <div class="container">
       <h1 class="outfits-title">
-        <span class="lang-en">265 Outfits</span>
-        <span class="lang-ru">265 Образов</span>
+        <span class="lang-en">383 Outfits</span>
+        <span class="lang-ru">383 Образа</span>
       </h1>
       <p class="outfits-subtitle">
         <span class="lang-en">Wearable references for AI image generation — copy the <code>clothes:</code> line and paste into your prompt</span>
-        <span class="lang-ru">Готовые образы для генерации изображений — копируй строку <code>clothes:</code> и вставляй в свой промпт</span>
+        <span class="lang-ru">Готовые образы для генерации изображений: скопируйте строку <code>clothes:</code> и добавьте её в свой промпт</span>
       </p>
 
       <!-- HOW TO USE -->
@@ -96,7 +98,7 @@
         </div>
         <p class="outfits-hint-text">
           <span class="lang-en">Each card carries a single <code>clothes:</code> line ready to drop into your generation prompt. Tap the body to copy. For best results, prefix your prompt with: <em>“everything before · + &lt;character/style&gt; — no footwear”</em>, then paste the outfit line.</span>
-          <span class="lang-ru">Каждая карточка содержит готовую строку <code>clothes:</code> для вставки в промпт. Кликни по тексту — он скопируется. Совет: добавь перед строкой префикс вроде <em>«everything before · + &lt;персонаж/стиль&gt; — no footwear»</em>, затем вставь сам образ.</span>
+          <span class="lang-ru">Каждая карточка содержит готовую строку <code>clothes:</code> для промпта. Нажмите на текст, чтобы скопировать его. При необходимости добавьте перед строкой уточнение, например <em>«everything before · + &lt;персонаж/стиль&gt; — no footwear»</em>, а затем вставьте сам образ.</span>
         </p>
       </div>
 
@@ -110,11 +112,11 @@
         <span class="outfits-promo-text">
           <strong>
             <span class="lang-en">Make your own outfit</span>
-            <span class="lang-ru">Собери свой образ</span>
+            <span class="lang-ru">Соберите свой образ</span>
           </strong>
           <span class="outfits-promo-sub">
-            <span class="lang-en">Mix and match pieces from all 265 looks in the Wardrobe constructor</span>
-            <span class="lang-ru">Смешивай элементы из всех 265 образов в конструкторе Wardrobe</span>
+            <span class="lang-en">Mix pieces from the indexed outfits in the Wardrobe constructor</span>
+            <span class="lang-ru">Сочетайте элементы из проиндексированных образов в конструкторе Wardrobe</span>
           </span>
         </span>
         <span class="outfits-promo-cta">
@@ -211,7 +213,7 @@
       .catch(err => {
         console.error('Failed to load outfits data:', err);
         var el = document.getElementById('outfits-grid');
-        if (el) el.innerHTML = '<p class="outfits-loading-error"><span class="lang-en">Failed to load outfits. Please reload the page.</span><span class="lang-ru">Не удалось загрузить образы. Перезагрузи страницу.</span></p>';
+        if (el) el.innerHTML = '<p class="outfits-loading-error"><span class="lang-en">Failed to load outfits. Please reload the page.</span><span class="lang-ru">Не удалось загрузить образы. Перезагрузите страницу.</span></p>';
       });
   </script>
 </body>

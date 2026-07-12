@@ -9,9 +9,9 @@
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hair — CLOVER OOC</title>
-  <meta name="description" content="259 hairstyle prompts for AI image generation in SillyTavern — copy any 'hairstyle:' line and paste into your chat.">
+  <meta name="description" content="275 hairstyle prompts for AI image generation in SillyTavern — copy any 'hairstyle:' line and paste into your chat.">
   <meta property="og:title" content="Hair — CLOVER OOC">
-  <meta property="og:description" content="259 hairstyle ideas with image references — copy-and-paste 'hairstyle:' prompts for SillyTavern.">
+  <meta property="og:description" content="275 hairstyle ideas with image references and prompt-only additions — copy-and-paste 'hairstyle:' prompts for SillyTavern.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,8 +39,9 @@
       <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
       <a href="catalogue.html" class="nav-link"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
       <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+      <a href="poses.html" class="nav-link"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
       <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
-      <a href="hair.html" class="nav-link active"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
+      <a href="hair.html" class="nav-link active" aria-current="page"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
       <a href="outfits.html" class="nav-link"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
       <a href="wardrobe.html" class="nav-link"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
       <a href="tools.html" class="nav-link"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
@@ -67,8 +68,9 @@
     <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
     <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
     <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+    <a href="poses.html"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
     <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
-    <a href="hair.html" class="active"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
+    <a href="hair.html" class="active" aria-current="page"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
     <a href="outfits.html"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
     <a href="wardrobe.html"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
     <a href="tools.html"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
@@ -79,12 +81,12 @@
   <section class="hair-header">
     <div class="container">
       <h1 class="hair-title">
-        <span class="lang-en">259 Hairstyles</span>
-        <span class="lang-ru">259 Причёсок</span>
+        <span class="lang-en">275 Hairstyles</span>
+        <span class="lang-ru">275 Причёсок</span>
       </h1>
       <p class="hair-subtitle">
         <span class="lang-en">Hair references for AI image generation — copy the <code>hairstyle:</code> line and paste into your prompt</span>
-        <span class="lang-ru">Референсы причёсок для генерации изображений — копируй строку <code>hairstyle:</code> и вставляй в свой промпт</span>
+        <span class="lang-ru">Референсы причёсок для генерации изображений: скопируйте строку <code>hairstyle:</code> и добавьте её в свой промпт</span>
       </p>
 
       <!-- HOW TO USE -->
@@ -96,7 +98,7 @@
         </div>
         <p class="hair-hint-text">
           <span class="lang-en">Each card carries a single <code>hairstyle:</code> line ready to drop into your generation prompt. Tap the body to copy. Filter by <em>vibe</em> and <em>texture</em>, or search by name. Descriptions state no hair color — set that yourself.</span>
-          <span class="lang-ru">Каждая карточка содержит готовую строку <code>hairstyle:</code> для вставки в промпт. Кликни по тексту — он скопируется. Фильтруй по <em>вайбу</em> и <em>текстуре</em> или ищи по названию. Цвет волос не указан — задай его сам.</span>
+          <span class="lang-ru">Каждая карточка содержит готовую строку <code>hairstyle:</code> для вставки в промпт. Нажмите на текст, чтобы скопировать его. Используйте фильтры по <em>вайбу</em> и <em>текстуре</em> или выполните поиск по названию. Цвет волос не указан — задайте его самостоятельно.</span>
         </p>
       </div>
 
@@ -249,7 +251,7 @@
       .catch(err => {
         console.error('Failed to load hair data:', err);
         var el = document.getElementById('hair-grid');
-        if (el) el.innerHTML = '<p class="hair-loading-error"><span class="lang-en">Failed to load hairstyles. Please reload the page.</span><span class="lang-ru">Не удалось загрузить причёски. Перезагрузи страницу.</span></p>';
+        if (el) el.innerHTML = '<p class="hair-loading-error"><span class="lang-en">Failed to load hairstyles. Please reload the page.</span><span class="lang-ru">Не удалось загрузить причёски. Перезагрузите страницу.</span></p>';
       });
   </script>
 </body>

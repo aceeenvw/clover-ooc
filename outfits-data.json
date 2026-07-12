@@ -1463,6 +1463,61 @@
           "gender": "female",
           "titleRu": "Денимовый корсет",
           "bodyRu": "одежда: джинсовый корсет с необработанным краем в стиле пэчворк, свободные выцветшие джинсы-карго, джинсовая сумка на плечо с бахромой, смешанные серебряные цепочки, заколка из джинсового цветка"
+        },
+        {
+          "id": "outfit-131",
+          "number": 131,
+          "title": "Garnet Brocade",
+          "body": "clothes: garnet brocade midi dress with bracelet sleeves, antique-gold belt, dark velvet pumps, gemstone earrings, embossed clutch",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/garnet-brocade.webp",
+          "gender": "female",
+          "titleRu": "Гранатовая парча",
+          "bodyRu": "одежда: гранатовое парчовое платье миди с рукавами до запястья, пояс из состаренного золота, тёмные бархатные туфли, серьги с самоцветами, тиснёный клатч"
+        },
+        {
+          "id": "outfit-132",
+          "number": 132,
+          "title": "Sapphire Panel Suit",
+          "body": "clothes: sapphire-blue collarless longline jacket with curved front panels over an ivory fitted mock-neck top, matching ankle-length A-line skirt with a front box pleat, silver brooch, structured navy handbag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sapphire-panel-suit.webp",
+          "gender": "female",
+          "titleRu": "Сапфировый костюм с панелями",
+          "bodyRu": "одежда: сапфирово-синий удлинённый жакет без воротника с изогнутыми передними панелями поверх приталенного топа цвета слоновой кости с воротником-стойкой, юбка А-силуэта до щиколотки в тон с встречной складкой спереди, серебряная брошь, структурированная тёмно-синяя сумка"
+        },
+        {
+          "id": "outfit-133",
+          "number": 133,
+          "title": "Mahogany One-Shoulder Silk",
+          "body": "clothes: draped mahogany silk one-shoulder top with a modest neckline, dark plum high-waisted tapered trousers, bronze cuff bracelet, amber drop earrings, chocolate leather bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/mahogany-one-shoulder-silk.webp",
+          "gender": "female",
+          "titleRu": "Махагоновый шёлковый топ на одно плечо",
+          "bodyRu": "одежда: драпированный шёлковый топ цвета красного дерева на одно плечо со скромным вырезом, тёмно-сливовые зауженные брюки с высокой посадкой, бронзовый браслет-манжета, янтарные серьги-капли, шоколадная кожаная сумка"
+        },
+        {
+          "id": "outfit-134",
+          "number": 134,
+          "title": "Forest Velvet Wrap",
+          "body": "clothes: forest-green velvet wrap blouse with generous dolman sleeves, espresso tapered trousers, brass watch, top-handle satchel",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/forest-velvet-wrap.webp",
+          "gender": "female",
+          "titleRu": "Лесной бархат с запахом",
+          "bodyRu": "одежда: бархатная блуза лесного зелёного цвета с запахом и просторными рукавами «летучая мышь», зауженные брюки цвета эспрессо, часы под латунь, сумка-сэтчел с верхней ручкой"
+        },
+        {
+          "id": "outfit-135",
+          "number": 135,
+          "title": "Aubergine Jacquard",
+          "body": "clothes: aubergine jacquard coat dress with covered buttons, black leather gloves, amethyst studs, pointed ankle boots, frame handbag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/aubergine-jacquard.webp",
+          "gender": "female",
+          "titleRu": "Баклажановый жаккард",
+          "bodyRu": "одежда: жаккардовое платье-пальто баклажанового цвета с обтянутыми пуговицами, чёрные кожаные перчатки, серьги-гвоздики с аметистами, остроносые ботильоны, сумка с жёсткой рамкой"
         }
       ]
     },
@@ -1474,8 +1529,8 @@
       "descriptionRu": "Аниме, манга, вейпорвейв, киберпанк, скейтерская энергия",
       "prompts": [
         {
-          "id": "outfit-131",
-          "number": 131,
+          "id": "outfit-136",
+          "number": 136,
           "title": "Anime Graphic Baggy",
           "body": "clothes: oversized anime-print graphic tee, baggy carpenter jeans, snapback cap, layered silver chains, crossbody sling bag",
           "hasImage": true,
@@ -1485,8 +1540,8 @@
           "bodyRu": "одежда: оверсайз футболка с аниме-принтом, свободные джинсы-карпентер, снепбэк, многоярусные серебряные цепочки, сумка-слинг кросс-боди"
         },
         {
-          "id": "outfit-132",
-          "number": 132,
+          "id": "outfit-137",
+          "number": 137,
           "title": "Y2K Font Hoodie",
           "body": "clothes: oversized Y2K bubble-font zip hoodie, baggy parachute cargos, beanie, chunky rings, mini messenger bag",
           "hasImage": true,
@@ -1496,8 +1551,8 @@
           "bodyRu": "одежда: оверсайз худи на молнии с Y2K пузырьковым шрифтом, свободные штаны-парашют-карго, шапка-бини, массивные кольца, мини-сумка-мессенджер"
         },
         {
-          "id": "outfit-133",
-          "number": 133,
+          "id": "outfit-138",
+          "number": 138,
           "title": "Manga Panel Set",
           "body": "clothes: manga-panel print baggy button shirt, distressed wide jeans, bucket hat, beaded bracelets, skate backpack",
           "hasImage": true,
@@ -1507,8 +1562,8 @@
           "bodyRu": "одежда: свободная рубашка на пуговицах с принтом манги, рваные широкие джинсы, панама, браслеты с бисером, скейтерский рюкзак"
         },
         {
-          "id": "outfit-134",
-          "number": 134,
+          "id": "outfit-139",
+          "number": 139,
           "title": "Streetwear Layer",
           "body": "clothes: oversized flame-print tee over long-sleeve, baggy black cargos, ear cuffs, carabiner keychain, sling bag",
           "hasImage": true,
@@ -1518,8 +1573,8 @@
           "bodyRu": "одежда: оверсайз футболка с принтом пламени поверх топа с длинным рукавом, свободные чёрные брюки-карго, клипсы на ухо, брелок-карабин, сумка-слинг"
         },
         {
-          "id": "outfit-135",
-          "number": 135,
+          "id": "outfit-140",
+          "number": 140,
           "title": "Gorpcore Mix",
           "body": "clothes: graphic windbreaker, baggy tech cargo pants, beanie, silver chain, utility crossbody",
           "hasImage": true,
@@ -1529,8 +1584,8 @@
           "bodyRu": "одежда: графическая ветровка, свободные техно-брюки-карго, шапка-бини, серебряная цепь, утилитарный кросс-боди"
         },
         {
-          "id": "outfit-136",
-          "number": 136,
+          "id": "outfit-141",
+          "number": 141,
           "title": "Cyber Y2K",
           "body": "clothes: mesh-layered glitch-print tee, baggy low-rise jeans with chains, tinted oval shades, stacked rubber bracelets, mini backpack",
           "hasImage": true,
@@ -1540,8 +1595,8 @@
           "bodyRu": "одежда: футболка с глитч-принтом в слоистой сетке, свободные джинсы с низкой посадкой с цепями, тонированные овальные очки, стопка резиновых браслетов, мини-рюкзак"
         },
         {
-          "id": "outfit-137",
-          "number": 137,
+          "id": "outfit-142",
+          "number": 142,
           "title": "Skater Anime",
           "body": "clothes: oversized chibi-print tee, baggy ripped jeans, wristbands, beanie, canvas tote with pins",
           "hasImage": true,
@@ -1551,8 +1606,8 @@
           "bodyRu": "одежда: оверсайз футболка с чиби-принтом, свободные рваные джинсы, напульсники, шапка-бини, парусиновый тоут с булавками"
         },
         {
-          "id": "outfit-138",
-          "number": 138,
+          "id": "outfit-143",
+          "number": 143,
           "title": "Retro Game Print",
           "body": "clothes: pixel-art graphic baggy sweatshirt, wide corduroy cargos, snapback, beaded chain, crossbody bag",
           "hasImage": true,
@@ -1562,8 +1617,8 @@
           "bodyRu": "одежда: свободный свитшот с пиксельной графикой, вельветовые широкие брюки-карго, снепбэк, бисерная цепочка, кросс-боди"
         },
         {
-          "id": "outfit-139",
-          "number": 139,
+          "id": "outfit-144",
+          "number": 144,
           "title": "Grunge Streetwear",
           "body": "clothes: plaid flannel over band tee, baggy distressed jeans, fingerless gloves, silver chains, messenger bag",
           "hasImage": true,
@@ -1573,8 +1628,8 @@
           "bodyRu": "одежда: клетчатая фланелевая рубашка поверх футболки с принтом группы, свободные рваные джинсы, перчатки без пальцев, серебряные цепочки, сумка-мессенджер"
         },
         {
-          "id": "outfit-140",
-          "number": 140,
+          "id": "outfit-145",
+          "number": 145,
           "title": "Vaporwave Set",
           "body": "clothes: vaporwave-print baggy tee, baggy track pants, bucket hat, layered chains, mini sling bag",
           "hasImage": true,
@@ -1593,8 +1648,8 @@
       "descriptionRu": "Банты, кружево, розовое, кукольная и балетная нежность",
       "prompts": [
         {
-          "id": "outfit-141",
-          "number": 141,
+          "id": "outfit-146",
+          "number": 146,
           "title": "Kawaii Bow Overload",
           "body": "clothes: baby-pink ruffle crop top, pink pleated mini skirt, oversized hair bow, heart-charm choker, plushie crossbody bag",
           "hasImage": true,
@@ -1604,8 +1659,8 @@
           "bodyRu": "одежда: кроп-топ с оборками нежно-розового цвета, розовая плиссированная мини-юбка, объёмный бант для волос, чокер с подвеской-сердечком, сумочка-плюшевая игрушка кросс-боди"
         },
         {
-          "id": "outfit-142",
-          "number": 142,
+          "id": "outfit-147",
+          "number": 147,
           "title": "Sanrio Sweet",
           "body": "clothes: pastel-pink graphic tee, pink tulle layered skirt, strawberry hair clips, beaded charm bracelets, quilted heart bag",
           "hasImage": true,
@@ -1615,8 +1670,8 @@
           "bodyRu": "одежда: пастельно-розовая футболка с принтом, розовая многоярусная юбка из фатина, заколки-клубнички для волос, браслеты с бисерными подвесками, стёганая сумочка-сердечко"
         },
         {
-          "id": "outfit-143",
-          "number": 143,
+          "id": "outfit-148",
+          "number": 148,
           "title": "Coquette Pink Lace",
           "body": "clothes: blush lace-trim camisole, pink satin bow mini skirt, pearl-and-bow choker, ribbon wrist ties, mini bow handbag",
           "hasImage": true,
@@ -1626,8 +1681,8 @@
           "bodyRu": "одежда: нежно-розовая камисоль с кружевной отделкой, розовая атласная мини-юбка с бантом, чокер с жемчугом и бантом, ленточные браслеты на запястье, мини-сумочка с бантом"
         },
         {
-          "id": "outfit-144",
-          "number": 144,
+          "id": "outfit-149",
+          "number": 149,
           "title": "Magical Girl",
           "body": "clothes: pink frilled babydoll dress, star-and-heart hair clips, layered candy-bead necklaces, wand-charm bag, glitter hair ties",
           "hasImage": true,
@@ -1637,8 +1692,8 @@
           "bodyRu": "одежда: розовое платье-бэбидолл с оборками, заколки со звёздочками и сердечками, многоярусные ожерелья из разноцветного бисера, сумочка с подвеской-волшебной палочкой, резинки с блёстками"
         },
         {
-          "id": "outfit-145",
-          "number": 145,
+          "id": "outfit-150",
+          "number": 150,
           "title": "Bubblegum Y2K",
           "body": "clothes: hot-pink baby tee, pink low-rise mini skirt, butterfly clips, jelly bracelets, heart-shaped sunglasses, fluffy bag charm",
           "hasImage": true,
@@ -1648,8 +1703,8 @@
           "bodyRu": "одежда: ярко-розовый бэйби-ти, розовая мини-юбка с низкой посадкой, заколки-бабочки, желейные браслеты, солнцезащитные очки в форме сердца, пушистый брелок для сумки"
         },
         {
-          "id": "outfit-146",
-          "number": 146,
+          "id": "outfit-151",
+          "number": 151,
           "title": "Plush Pink Cozy",
           "body": "clothes: fuzzy pink cropped cardigan, pink ribbed shorts, bow headband, pearl bracelet, fluffy pom-pom bag",
           "hasImage": true,
@@ -1659,8 +1714,8 @@
           "bodyRu": "одежда: пушистый розовый укороченный кардиган, розовые рибана-шорты, ободок с бантом, жемчужный браслет, сумка с помпоном"
         },
         {
-          "id": "outfit-147",
-          "number": 147,
+          "id": "outfit-152",
+          "number": 152,
           "title": "Strawberry Sweet",
           "body": "clothes: strawberry-print pink dress, ruffled ankle socks, bow hair clips, beaded charm necklace, mini woven heart bag",
           "hasImage": true,
@@ -1670,8 +1725,8 @@
           "bodyRu": "одежда: розовое платье с клубничным принтом, носочки с оборками до щиколотки, заколки-банты для волос, ожерелье с бисерными подвесками, мини-плетёная сумочка-сердечко"
         },
         {
-          "id": "outfit-148",
-          "number": 148,
+          "id": "outfit-153",
+          "number": 153,
           "title": "Pink Doll Set",
           "body": "clothes: rose corset top, pink mini skirt, lace gloves, pearl choker with bow, heart-shaped mini bag",
           "hasImage": true,
@@ -1681,8 +1736,8 @@
           "bodyRu": "одежда: розовый топ-корсет, розовая мини-юбка, кружевные перчатки, жемчужный чокер с бантом, мини-сумочка в форме сердца"
         },
         {
-          "id": "outfit-149",
-          "number": 149,
+          "id": "outfit-154",
+          "number": 154,
           "title": "Cotton Candy Layer",
           "body": "clothes: pastel-pink ruffle blouse, baby-blue mini skirt, gradient hair clips, candy bracelets, plushie keychain bag",
           "hasImage": true,
@@ -1692,8 +1747,8 @@
           "bodyRu": "одежда: пастельно-розовая блуза с оборками, нежно-голубая мини-юбка, заколки с градиентом, конфетные браслеты, сумочка-брелок с плюшевой игрушкой"
         },
         {
-          "id": "outfit-150",
-          "number": 150,
+          "id": "outfit-155",
+          "number": 155,
           "title": "Ballerina Coquette",
           "body": "clothes: pink ballet-wrap top, tulle tutu mini skirt, satin ribbon choker, pearl drops, ribbon-tie pointe-style bag charm",
           "hasImage": true,
@@ -1701,6 +1756,72 @@
           "gender": "female",
           "titleRu": "Балерина кокетка",
           "bodyRu": "одежда: розовый балетный топ с запахом, мини-юбка-пачка из фатина, атласный чокер-лента, жемчужные серьги-капли, брелок для сумки в виде завязки пуант"
+        },
+        {
+          "id": "outfit-156",
+          "number": 156,
+          "title": "Lavender Petal Jumpsuit",
+          "body": "clothes: cropped lavender jacket with sculptural petal-shaped sleeves over a high-waisted charcoal tulip jumpsuit with tapered legs, pearl earrings, velvet hair bow, pointed flats",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lavender-petal-jumpsuit.webp",
+          "gender": "female",
+          "titleRu": "Лавандовые лепестки и комбинезон",
+          "bodyRu": "одежда: укороченный лавандовый жакет со скульптурными рукавами в форме лепестков поверх угольного комбинезона-тюльпана с высокой талией и зауженными штанинами, жемчужные серьги, бархатный бант для волос, остроносые балетки"
+        },
+        {
+          "id": "outfit-157",
+          "number": 157,
+          "title": "Dusty Rose Shirt Jacket",
+          "body": "clothes: dusty-rose fitted shirt jacket with bishop sleeves over an ivory handkerchief maxi skirt, bow-trimmed flats, small heart bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dusty-rose-shirt-jacket.webp",
+          "gender": "female",
+          "titleRu": "Пыльно-розовая рубашка-жакет",
+          "bodyRu": "одежда: приталенная пыльно-розовая рубашка-жакет с рукавами-епископ поверх макси-юбки платочного кроя цвета слоновой кости, балетки с бантами, маленькая сумка-сердце"
+        },
+        {
+          "id": "outfit-158",
+          "number": 158,
+          "title": "Powder Blue Ribbon Bodice",
+          "body": "clothes: fitted powder-blue ribbon-laced bodice with a modest square neckline and capelet sleeves over cream wide cropped trousers, satin headband, cameo pendant, pearl-button handbag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/powder-blue-ribbon-bodice.webp",
+          "gender": "female",
+          "titleRu": "Пудрово-голубой лиф с лентами",
+          "bodyRu": "одежда: приталенный пудрово-голубой лиф со шнуровкой из лент, скромным квадратным вырезом и рукавами-пелеринами поверх широких укороченных кремовых брюк, атласный ободок, подвеска-камея, сумка с жемчужной застёжкой"
+        },
+        {
+          "id": "outfit-159",
+          "number": 159,
+          "title": "Strawberry Chore Tailoring",
+          "body": "clothes: strawberry-embroidered cropped chore jacket over an ivory fitted knit top and high-waisted tapered ankle trousers, lace-up ankle boots, red ribbon hair clip, woven handbag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/strawberry-chore-tailoring.webp",
+          "gender": "female",
+          "titleRu": "Клубничная рабочая куртка и брюки",
+          "bodyRu": "одежда: укороченная рабочая куртка с клубничной вышивкой поверх приталенного трикотажного топа цвета слоновой кости и зауженных брюк до щиколотки с высокой посадкой, ботильоны на шнуровке, красная заколка-лента, плетёная сумка"
+        },
+        {
+          "id": "outfit-160",
+          "number": 160,
+          "title": "Ivory Draped Culottes",
+          "body": "clothes: ivory asymmetric draped blouse with one gathered sleeve over blush paper-bag culottes, fitted waist sash, cameo brooch, bow-detail Mary Jane shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ivory-draped-culottes.webp",
+          "gender": "female",
+          "titleRu": "Драпировка цвета слоновой кости",
+          "bodyRu": "одежда: асимметричная драпированная блуза цвета слоновой кости с одним присборенным рукавом поверх пудровых кюлотов с высокой талией и сборкой у пояса, приталенный пояс-кушак, брошь-камея, туфли Мэри Джейн с бантами"
+        },
+        {
+          "id": "outfit-161",
+          "number": 161,
+          "title": "Mint Diagonal-Wrap Coat",
+          "body": "clothes: mint diagonal-wrap coat with split elbow sleeves over a straight cream midi dress, pearl bracelet, cream bow pumps, structured mini bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/mint-diagonal-wrap-coat.webp",
+          "gender": "female",
+          "titleRu": "Мятное пальто с диагональным запахом",
+          "bodyRu": "одежда: мятное пальто с диагональным запахом и разрезными рукавами до локтя поверх прямого кремового платья миди, жемчужный браслет, кремовые туфли с бантами, структурированная мини-сумка"
         }
       ]
     },
@@ -1712,8 +1833,8 @@
       "descriptionRu": "Облегающее, атлас, вырезы — готово для танцпола",
       "prompts": [
         {
-          "id": "outfit-151",
-          "number": 151,
+          "id": "outfit-162",
+          "number": 162,
           "title": "Sleek Black Cutout",
           "body": "clothes: black cutout halter midi dress, layered silver chains, hoop earrings, structured patent clutch, thin waist chain",
           "hasImage": true,
@@ -1723,8 +1844,8 @@
           "bodyRu": "одежда: чёрное миди-платье с вырезами и халтером, многоярусные серебряные цепочки, серьги-кольца, структурированный лакированный клатч, тонкая цепочка на талию"
         },
         {
-          "id": "outfit-152",
-          "number": 152,
+          "id": "outfit-163",
+          "number": 163,
           "title": "Leather Mini Vamp",
           "body": "clothes: black leather corset top, black leather mini skirt, fishnet tights, silver cross chains, studded mini bag",
           "hasImage": true,
@@ -1734,8 +1855,8 @@
           "bodyRu": "одежда: чёрный кожаный топ-корсет, чёрная кожаная мини-юбка, колготки в сетку, серебряные цепочки с крестом, мини-сумка с заклёпками"
         },
         {
-          "id": "outfit-153",
-          "number": 153,
+          "id": "outfit-164",
+          "number": 164,
           "title": "Mesh & Lace",
           "body": "clothes: sheer black mesh long-sleeve top, black satin slip dress over it, choker necklace, drop earrings, velvet clutch",
           "hasImage": true,
@@ -1745,8 +1866,8 @@
           "bodyRu": "одежда: прозрачный чёрный сетчатый топ с длинным рукавом, чёрное атласное платье-комбинация поверх, чокер-ожерелье, серьги-капли, бархатный клатч"
         },
         {
-          "id": "outfit-154",
-          "number": 154,
+          "id": "outfit-165",
+          "number": 165,
           "title": "Backless Satin",
           "body": "clothes: black backless satin maxi dress, body chain, statement earrings, slim clutch, stacked silver rings",
           "hasImage": true,
@@ -1756,8 +1877,8 @@
           "bodyRu": "одежда: чёрное атласное макси-платье с открытой спиной, цепочка на тело, эффектные серьги, тонкий клатч, стопка серебряных колец"
         },
         {
-          "id": "outfit-155",
-          "number": 155,
+          "id": "outfit-166",
+          "number": 166,
           "title": "Bodycon Night",
           "body": "clothes: black ruched bodycon mini dress, layered chokers, hoop earrings, mini shoulder bag, thigh chain",
           "hasImage": true,
@@ -1767,8 +1888,8 @@
           "bodyRu": "одежда: чёрное облегающее мини-платье с драпировкой, многоярусные чокеры, серьги-кольца, мини-сумка на плечо, цепочка на бедро"
         },
         {
-          "id": "outfit-156",
-          "number": 156,
+          "id": "outfit-167",
+          "number": 167,
           "title": "Corset & Trousers",
           "body": "clothes: black satin corset, tailored low-rise trousers, silver chain belt, drop earrings, structured clutch",
           "hasImage": true,
@@ -1778,8 +1899,8 @@
           "bodyRu": "одежда: чёрный атласный корсет, классические брюки с низкой посадкой, серебряный ремень-цепь, серьги-капли, структурированный клатч"
         },
         {
-          "id": "outfit-157",
-          "number": 157,
+          "id": "outfit-168",
+          "number": 168,
           "title": "Lace Slip Sexy",
           "body": "clothes: black lace-trim slip dress, sheer lace gloves, choker, chandelier earrings, beaded evening bag",
           "hasImage": true,
@@ -1789,8 +1910,8 @@
           "bodyRu": "одежда: чёрное платье-комбинация с кружевной отделкой, кружевные перчатки прозрачные, чокер, серьги-люстры, вечерняя сумочка с бисером"
         },
         {
-          "id": "outfit-158",
-          "number": 158,
+          "id": "outfit-169",
+          "number": 169,
           "title": "Cutout Bandage",
           "body": "clothes: black bandage cutout midi dress, layered waist chains, silver cuff, mini patent bag, hoop earrings",
           "hasImage": true,
@@ -1800,8 +1921,8 @@
           "bodyRu": "одежда: чёрное бандажное миди-платье с вырезами, многоярусные цепочки на талию, серебряный браслет-манжета, мини-сумка из лакированной кожи, серьги-кольца"
         },
         {
-          "id": "outfit-159",
-          "number": 159,
+          "id": "outfit-170",
+          "number": 170,
           "title": "Halter & Leather",
           "body": "clothes: black halter top, leather low-rise flares, body chain, hoop earrings, croc clutch",
           "hasImage": true,
@@ -1811,8 +1932,8 @@
           "bodyRu": "одежда: чёрный топ-халтер, кожаные расклёшенные брюки с низкой посадкой, цепочка на тело, серьги-кольца, клатч под крокодила"
         },
         {
-          "id": "outfit-160",
-          "number": 160,
+          "id": "outfit-171",
+          "number": 171,
           "title": "Sheer Maxi Drama",
           "body": "clothes: black sheer panelled maxi dress, bodysuit underneath, statement collar necklace, crystal earrings, satin clutch",
           "hasImage": true,
@@ -1820,6 +1941,61 @@
           "gender": "female",
           "titleRu": "Прозрачное макси",
           "bodyRu": "одежда: чёрное прозрачное макси-платье из контрастных вставок, боди под низом, эффектное колье, кристальные серьги, атласный клатч"
+        },
+        {
+          "id": "outfit-172",
+          "number": 172,
+          "title": "Midnight Velvet Column",
+          "body": "clothes: midnight-blue velvet column dress with a square neckline, crystal drop earrings, silver cuff bracelet, satin box clutch",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/midnight-velvet-column.webp",
+          "gender": "female",
+          "titleRu": "Полуночный бархат",
+          "bodyRu": "одежда: бархатное платье-колонна полуночно-синего цвета с квадратным вырезом, хрустальные серьги-капли, серебряный браслет-манжета, атласный клатч-коробочка"
+        },
+        {
+          "id": "outfit-173",
+          "number": 173,
+          "title": "Copper Satin Drape",
+          "body": "clothes: copper satin midi dress with gathered draping and long sleeves, hammered gold earrings, slim evening bag, pointed pumps",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/copper-satin-drape.webp",
+          "gender": "female",
+          "titleRu": "Медная атласная драпировка",
+          "bodyRu": "одежда: медное атласное платье миди с мягкой драпировкой и длинными рукавами, фактурные золотые серьги, узкая вечерняя сумка, остроносые туфли"
+        },
+        {
+          "id": "outfit-174",
+          "number": 174,
+          "title": "Emerald Satin-Lapel Jumpsuit",
+          "body": "clothes: sleeveless emerald tuxedo jumpsuit with modest wrapped satin lapels, a defined waist and tapered legs, long black gloves, gemstone earrings, patent leather clutch",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/emerald-satin-lapel-jumpsuit.webp",
+          "gender": "female",
+          "titleRu": "Изумрудный комбинезон-смокинг",
+          "bodyRu": "одежда: изумрудный комбинезон-смокинг без рукавов со скромными запахивающимися атласными лацканами, подчёркнутой талией и зауженными брючинами, длинные чёрные перчатки, серьги с самоцветами, клатч из лакированной кожи"
+        },
+        {
+          "id": "outfit-175",
+          "number": 175,
+          "title": "Plum Sculptural Cocoon",
+          "body": "clothes: deep-plum one-shoulder cocoon midi dress with a sculptural side train and integrated overskirt, gold waist clasp, long drop earrings, beaded evening pouch",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/plum-sculptural-cocoon.webp",
+          "gender": "female",
+          "titleRu": "Сливовый скульптурный кокон",
+          "bodyRu": "одежда: тёмно-сливовое платье-кокон миди на одно плечо со скульптурным боковым шлейфом и цельнокроеной верхней юбкой, золотая застёжка на талии, длинные серьги-капли, вечерняя сумочка с бисером"
+        },
+        {
+          "id": "outfit-176",
+          "number": 176,
+          "title": "Silver Jacquard Cocktail",
+          "body": "clothes: silver floral-jacquard cocktail dress with a fitted waist and full midi skirt, pearl ear climbers, metallic pumps, structured clutch",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/silver-jacquard-cocktail.webp",
+          "gender": "female",
+          "titleRu": "Серебряный жаккард",
+          "bodyRu": "одежда: серебристое коктейльное платье из жаккарда с цветочным узором, приталенным лифом и пышной юбкой миди, жемчужные серьги-каффы, туфли металлик, структурированный клатч"
         }
       ]
     },
@@ -1831,8 +2007,8 @@
       "descriptionRu": "Свитера, пальто, шерсть, мех — зимняя многослойность",
       "prompts": [
         {
-          "id": "outfit-161",
-          "number": 161,
+          "id": "outfit-177",
+          "number": 177,
           "title": "Cozy Oversized Knit",
           "body": "clothes: oversized cream cable-knit sweater, baggy wool trousers, chunky scarf, knit beanie, leather gloves, shoulder bag",
           "hasImage": true,
@@ -1842,8 +2018,8 @@
           "bodyRu": "одежда: объёмный кремовый свитер с косами, свободные шерстяные брюки, массивный шарф, вязаная шапка-бини, кожаные перчатки, сумка на плечо"
         },
         {
-          "id": "outfit-162",
-          "number": 162,
+          "id": "outfit-178",
+          "number": 178,
           "title": "Wool Coat Layer",
           "body": "clothes: camel longline wool coat, brown turtleneck, straight dark jeans, leather gloves, cashmere scarf, structured tote",
           "hasImage": true,
@@ -1853,8 +2029,8 @@
           "bodyRu": "одежда: верблюжье удлинённое шерстяное пальто, коричневая водолазка, прямые тёмные джинсы, кожаные перчатки, кашемировый шарф, структурированный тоут"
         },
         {
-          "id": "outfit-163",
-          "number": 163,
+          "id": "outfit-179",
+          "number": 179,
           "title": "Puffer Streetwear",
           "body": "clothes: glossy black cropped puffer jacket, ribbed turtleneck, baggy cargos, beanie, layered chains, crossbody",
           "hasImage": true,
@@ -1864,8 +2040,8 @@
           "bodyRu": "одежда: глянцевый чёрный укороченный пуховик, рибана-водолазка, свободные брюки-карго, шапка-бини, многоярусные цепочки, кросс-боди"
         },
         {
-          "id": "outfit-164",
-          "number": 164,
+          "id": "outfit-180",
+          "number": 180,
           "title": "Shearling Cozy",
           "body": "clothes: caramel shearling-lined jacket, chunky brown knit, corduroy trousers, knit beanie, wool mittens, suede bag",
           "hasImage": true,
@@ -1875,8 +2051,8 @@
           "bodyRu": "одежда: куртка на подкладке из овчины карамельного цвета, объёмный коричневый вязаный свитер, вельветовые брюки, вязаная шапка-бини, шерстяные варежки, замшевая сумка"
         },
         {
-          "id": "outfit-165",
-          "number": 165,
+          "id": "outfit-181",
+          "number": 181,
           "title": "Plaid Winter",
           "body": "clothes: tartan wool blazer, grey ribbed turtleneck, pleated wool midi skirt, thick tights, beret, leather satchel",
           "hasImage": true,
@@ -1886,8 +2062,8 @@
           "bodyRu": "одежда: шерстяной блейзер тартан, серая рибана-водолазка, плиссированная шерстяная миди-юбка, плотные колготки, берет, кожаный сатчел"
         },
         {
-          "id": "outfit-166",
-          "number": 166,
+          "id": "outfit-182",
+          "number": 182,
           "title": "Fair Isle Knit",
           "body": "clothes: cream fair-isle patterned sweater, dark denim, knit scarf, pom-pom beanie, mittens, woven crossbody",
           "hasImage": true,
@@ -1897,8 +2073,8 @@
           "bodyRu": "одежда: кремовый свитер с узором фэйр-айл, тёмные джинсы, вязаный шарф, шапка-бини с помпоном, варежки, плетёный кросс-боди"
         },
         {
-          "id": "outfit-167",
-          "number": 167,
+          "id": "outfit-183",
+          "number": 183,
           "title": "Faux Fur Glam",
           "body": "clothes: chocolate faux-fur coat, black turtleneck, leather leggings, fur earmuffs, gold chains, quilted bag",
           "hasImage": true,
@@ -1908,8 +2084,8 @@
           "bodyRu": "одежда: пальто из искусственного меха шоколадного цвета, чёрная водолазка, кожаные леггинсы, меховые наушники, золотые цепочки, стёганая сумка"
         },
         {
-          "id": "outfit-168",
-          "number": 168,
+          "id": "outfit-184",
+          "number": 184,
           "title": "Quilted Country",
           "body": "clothes: quilted olive jacket, cream cable knit, corduroy trousers, plaid scarf, leather gloves, canvas tote",
           "hasImage": true,
@@ -1919,8 +2095,8 @@
           "bodyRu": "одежда: стёганая оливковая куртка, кремовый вязаный свитер с косами, вельветовые брюки, клетчатый шарф, кожаные перчатки, парусиновый тоут"
         },
         {
-          "id": "outfit-169",
-          "number": 169,
+          "id": "outfit-185",
+          "number": 185,
           "title": "Sweater Dress Cozy",
           "body": "clothes: oatmeal ribbed sweater dress, chunky knit scarf, wool tights, beret, leather gloves, structured bag",
           "hasImage": true,
@@ -1930,8 +2106,8 @@
           "bodyRu": "одежда: рибана-платье-свитер овсяного цвета, массивный вязаный шарф, шерстяные колготки, берет, кожаные перчатки, структурированная сумка"
         },
         {
-          "id": "outfit-170",
-          "number": 170,
+          "id": "outfit-186",
+          "number": 186,
           "title": "Trench & Knit",
           "body": "clothes: beige belted trench coat, burgundy turtleneck, straight trousers, silk scarf, leather gloves, top-handle bag",
           "hasImage": true,
@@ -1939,6 +2115,72 @@
           "gender": "female",
           "titleRu": "Тренч и трикотаж",
           "bodyRu": "одежда: бежевый тренч с поясом, бордовая водолазка, прямые брюки, шёлковый шарф, кожаные перчатки, сумка с верхней ручкой"
+        },
+        {
+          "id": "outfit-187",
+          "number": 187,
+          "title": "Cranberry Cable-Knit Vest",
+          "body": "clothes: cranberry cable-knit cropped vest over a charcoal shirt dress with a sharply pleated ankle-length skirt, suede ankle boots, plaid scarf",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cranberry-cable-knit-vest.webp",
+          "gender": "female",
+          "titleRu": "Клюквенный вязаный жилет",
+          "bodyRu": "одежда: укороченный клюквенный жилет с узором из кос поверх угольного платья-рубашки с резко заложенными складками на юбке до щиколотки, замшевые ботильоны, клетчатый шарф"
+        },
+        {
+          "id": "outfit-188",
+          "number": 188,
+          "title": "Moss Cottage Cardigan",
+          "body": "clothes: cropped moss-green fisherman cardigan over a cream high-neck sleeveless jumpsuit with tapered legs, patterned wool socks, lace-up boots, canvas satchel",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/moss-cottage-cardigan.webp",
+          "gender": "female",
+          "titleRu": "Мшистый деревенский кардиган",
+          "bodyRu": "одежда: укороченный рыбацкий кардиган мшисто-зелёного цвета поверх кремового комбинезона без рукавов с высоким воротником и зауженными штанинами, узорчатые шерстяные носки, ботинки на шнуровке, парусиновая сумка-сэтчел"
+        },
+        {
+          "id": "outfit-189",
+          "number": 189,
+          "title": "Powder Blue Winter Wrap",
+          "body": "clothes: cropped powder-blue wrap jacket over an ivory flared knit jumpsuit, cashmere scarf, pearl-grey gloves, silver clasp handbag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/powder-blue-winter-wrap.webp",
+          "gender": "female",
+          "titleRu": "Пудрово-голубой зимний запах",
+          "bodyRu": "одежда: укороченная пудрово-голубая куртка с запахом поверх трикотажного комбинезона цвета слоновой кости с расклёшенными штанинами, кашемировый шарф, жемчужно-серые перчатки, сумка с серебряной застёжкой"
+        },
+        {
+          "id": "outfit-190",
+          "number": 190,
+          "title": "Toffee Aviator Cape-Vest",
+          "body": "clothes: waist-cropped toffee shearling aviator cape-vest over an oatmeal ribbed turtleneck and a long tobacco-brown A-line corduroy skirt, leather mittens, sturdy ankle boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/toffee-aviator-cape-vest.webp",
+          "gender": "female",
+          "titleRu": "Карамельный авиаторский жилет-накидка",
+          "bodyRu": "одежда: короткий до талии карамельный авиаторский жилет-накидка из овчины поверх овсяной рифлёной водолазки и длинной табачно-коричневой вельветовой юбки А-силуэта, кожаные варежки, прочные ботильоны"
+        },
+        {
+          "id": "outfit-191",
+          "number": 191,
+          "title": "Alpine Fair Isle Cardigan Coat",
+          "body": "clothes: cream Fair Isle longline cardigan coat with a defined belt over a forest-green tapered wool jumpsuit, knitted beret, tall brown lace-up boots, small leather backpack",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/alpine-fair-isle-cardigan-coat.webp",
+          "gender": "female",
+          "titleRu": "Альпийское пальто-кардиган фэйр-айл",
+          "bodyRu": "одежда: кремовое удлинённое пальто-кардиган с узором фэйр-айл и подчёркнутой поясом талией поверх тёмно-зелёного шерстяного комбинезона с зауженными штанинами, вязаный берет, высокие коричневые сапоги на шнуровке, маленький кожаный рюкзак"
+        },
+        {
+          "id": "outfit-192",
+          "number": 192,
+          "title": "Lilac Hooded Poncho Dress",
+          "body": "clothes: lilac hooded knitted poncho dress with deep side slits over slim charcoal trousers, soft leather ankle boots, quilted tote",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lilac-hooded-poncho-dress.webp",
+          "gender": "female",
+          "titleRu": "Лиловое платье-пончо с капюшоном",
+          "bodyRu": "одежда: лиловое вязаное платье-пончо с капюшоном и глубокими боковыми разрезами поверх узких угольных брюк, мягкие кожаные ботильоны, стёганая сумка-тоут"
         }
       ]
     },
@@ -1950,19 +2192,19 @@
       "descriptionRu": "Бикини, монокини, пляжные комплекты",
       "prompts": [
         {
-          "id": "outfit-171",
-          "number": 171,
+          "id": "outfit-193",
+          "number": 193,
           "title": "Triangle Bikini Classic",
           "body": "clothes: red triangle string bikini, gold body chain, oversized sunglasses, straw sun hat, raffia beach tote",
-          "hasImage": false,
-          "imgSrc": null,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/triangle-bikini-classic.webp",
           "gender": "female",
           "titleRu": "Классическое треугольное бикини",
           "bodyRu": "одежда: красное треугольное бикини на завязках, золотая цепочка на тело, объёмные солнцезащитные очки, соломенная шляпа от солнца, пляжный тоут из рафии"
         },
         {
-          "id": "outfit-172",
-          "number": 172,
+          "id": "outfit-194",
+          "number": 194,
           "title": "One-Shoulder Swimsuit",
           "body": "clothes: emerald one-shoulder cut-out one-piece, gold hoops, sarong wrap, shell anklet, woven clutch",
           "hasImage": true,
@@ -1972,8 +2214,8 @@
           "bodyRu": "одежда: изумрудный цельный купальник на одно плечо с вырезом, золотые серьги-кольца, парео, браслет на щиколотку из ракушек, плетёный клатч"
         },
         {
-          "id": "outfit-173",
-          "number": 173,
+          "id": "outfit-195",
+          "number": 195,
           "title": "Ruffle Bandeau Set",
           "body": "clothes: blush ruffle bandeau bikini, beaded waist chain, wide straw hat, layered shell necklaces, mesh tote",
           "hasImage": true,
@@ -1983,19 +2225,19 @@
           "bodyRu": "одежда: бикини-бандо с оборками нежно-розового цвета, бисерная цепочка на талию, широкая соломенная шляпа, многоярусные ожерелья из ракушек, сетчатый тоут"
         },
         {
-          "id": "outfit-174",
-          "number": 174,
+          "id": "outfit-196",
+          "number": 196,
           "title": "Crochet Boho Bikini",
           "body": "clothes: cream crochet triangle bikini, fringed crochet cover-up, beaded anklets, shell hair clips, woven bag",
-          "hasImage": false,
-          "imgSrc": null,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/crochet-boho-bikini.webp",
           "gender": "female",
           "titleRu": "Бохо вязаное бикини",
           "bodyRu": "одежда: кремовое треугольное бикини вязаное крючком, накидка вязаная крючком с бахромой, браслеты на щиколотку с бисером, заколки с ракушками для волос, плетёная сумка"
         },
         {
-          "id": "outfit-175",
-          "number": 175,
+          "id": "outfit-197",
+          "number": 197,
           "title": "High-Waist Retro",
           "body": "clothes: polka-dot high-waist bikini, cat-eye sunglasses, headscarf, gold bangles, round straw bag",
           "hasImage": true,
@@ -2005,8 +2247,8 @@
           "bodyRu": "одежда: бикини в горошек с высокой посадкой, солнцезащитные очки «кошачий глаз», платок, золотые браслеты, круглая соломенная сумка"
         },
         {
-          "id": "outfit-176",
-          "number": 176,
+          "id": "outfit-198",
+          "number": 198,
           "title": "Halter Monokini",
           "body": "clothes: black plunge halter monokini, gold chain belt, oversized shades, sheer black sarong, gold cuff",
           "hasImage": true,
@@ -2016,30 +2258,30 @@
           "bodyRu": "одежда: чёрный монокини-халтер с глубоким вырезом, золотой ремень-цепь, объёмные солнцезащитные очки, прозрачное чёрное парео, золотой браслет-манжета"
         },
         {
-          "id": "outfit-177",
-          "number": 177,
+          "id": "outfit-199",
+          "number": 199,
           "title": "Animal Print Bikini",
           "body": "clothes: leopard-print triangle bikini, gold body chain, tortoiseshell sunglasses, mesh cover-up, raffia tote",
-          "hasImage": false,
-          "imgSrc": null,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/animal-print-bikini.webp",
           "gender": "female",
           "titleRu": "Анималистичный принт бикини",
           "bodyRu": "одежда: треугольное бикини с леопардовым принтом, золотая цепочка на тело, солнцезащитные очки черепаховой расцветки, накидка сетчатая, тоут из рафии"
         },
         {
-          "id": "outfit-178",
-          "number": 178,
+          "id": "outfit-200",
+          "number": 200,
           "title": "Metallic Swim",
           "body": "clothes: bronze metallic bandeau bikini, layered gold anklets, gold hoops, sheer kaftan, beaded clutch",
-          "hasImage": false,
-          "imgSrc": null,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/metallic-swim.webp",
           "gender": "female",
           "titleRu": "Металлик купальник",
           "bodyRu": "одежда: бронзовое металлизированное бикини-бандо, многоярусные золотые браслеты на щиколотку, золотые серьги-кольца, прозрачный кафтан, клатч с бисером"
         },
         {
-          "id": "outfit-179",
-          "number": 179,
+          "id": "outfit-201",
+          "number": 201,
           "title": "Sporty Bikini",
           "body": "clothes: colour-block sporty zip bikini, visor cap, sporty sunglasses, terry cover-up shorts, canvas tote",
           "hasImage": true,
@@ -2049,8 +2291,8 @@
           "bodyRu": "одежда: спортивное бикини с молнией в стиле колор-блок, козырёк, спортивные солнцезащитные очки, шорты-накидка из махровой ткани, сумка-тоут из канваса"
         },
         {
-          "id": "outfit-180",
-          "number": 180,
+          "id": "outfit-202",
+          "number": 202,
           "title": "Tie-Dye Set",
           "body": "clothes: jewel-tone tie-dye bikini, shell-bead body chain, woven sun hat, anklets, fringed beach bag",
           "hasImage": true,
@@ -2069,8 +2311,8 @@
       "descriptionRu": "Комплекты-комбинации, кружево, камисоли, нежные бэбидоллы",
       "prompts": [
         {
-          "id": "outfit-181",
-          "number": 181,
+          "id": "outfit-203",
+          "number": 203,
           "title": "Lace Slip Set",
           "body": "clothes: ivory lace-trim satin slip, matching lace bralette and briefs, sheer robe, delicate gold chain",
           "hasImage": true,
@@ -2080,30 +2322,30 @@
           "bodyRu": "одежда: атласная комбинация с кружевной отделкой цвета слоновой кости, парный кружевной бралетт и трусики, прозрачный халат, изящная золотая цепочка"
         },
         {
-          "id": "outfit-182",
-          "number": 182,
+          "id": "outfit-204",
+          "number": 204,
           "title": "Black Lace Set",
           "body": "clothes: black floral-lace balconette bra, matching high-leg briefs, garter belt, sheer thigh-highs, satin robe",
-          "hasImage": false,
-          "imgSrc": null,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/black-lace-set.webp",
           "gender": "female",
           "titleRu": "Чёрный кружевной сет",
           "bodyRu": "одежда: чёрный бюстгальтер-балконет с цветочным кружевом, парные трусики с высокими вырезами, пояс для чулок, прозрачные чулки-стокинги, атласный халат"
         },
         {
-          "id": "outfit-183",
-          "number": 183,
+          "id": "outfit-205",
+          "number": 205,
           "title": "Soft Pink Babydoll",
           "body": "clothes: blush sheer babydoll with lace cups, matching ruffled briefs, satin ribbon ties, dainty pearl choker",
-          "hasImage": false,
-          "imgSrc": null,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/soft-pink-babydoll.webp",
           "gender": "female",
           "titleRu": "Нежный розовый бэбидолл",
           "bodyRu": "одежда: прозрачный бэбидолл нежно-розового цвета с кружевными чашечками, парные трусики с оборками, атласные ленты, изящный жемчужный чокер"
         },
         {
-          "id": "outfit-184",
-          "number": 184,
+          "id": "outfit-206",
+          "number": 206,
           "title": "Silk Camisole Set",
           "body": "clothes: champagne silk camisole, matching tap shorts, lace-trim kimono robe, thin gold anklet",
           "hasImage": true,
@@ -2122,8 +2364,8 @@
       "descriptionRu": "Свадебные платья — А-силуэт, «рыбка», бохо, бальные, винтажное кружево",
       "prompts": [
         {
-          "id": "outfit-185",
-          "number": 185,
+          "id": "outfit-207",
+          "number": 207,
           "title": "Classic A-Line Bridal",
           "body": "clothes: ivory satin A-line wedding gown, sweetheart neckline, cathedral veil, pearl drop earrings, beaded clutch",
           "hasImage": true,
@@ -2133,8 +2375,8 @@
           "bodyRu": "одежда: свадебное платье А-силуэта из атласа цвета слоновой кости, вырез в форме сердца, соборная вуаль, серьги-капли с жемчугом, клатч с бисером"
         },
         {
-          "id": "outfit-186",
-          "number": 186,
+          "id": "outfit-208",
+          "number": 208,
           "title": "Mermaid Lace Gown",
           "body": "clothes: fitted lace mermaid wedding dress, off-shoulder sleeves, fingertip veil, diamond studs, satin gloves",
           "hasImage": true,
@@ -2144,8 +2386,8 @@
           "bodyRu": "одежда: облегающее свадебное платье с кружевом в силуэте «русалка», рукава с открытыми плечами, вуаль до кончиков пальцев, серьги-гвоздики с бриллиантами, атласные перчатки"
         },
         {
-          "id": "outfit-187",
-          "number": 187,
+          "id": "outfit-209",
+          "number": 209,
           "title": "Boho Bridal",
           "body": "clothes: flowy chiffon boho wedding dress, floral lace bodice, flower crown, layered delicate necklaces, barefoot-style anklet",
           "hasImage": true,
@@ -2155,8 +2397,8 @@
           "bodyRu": "одежда: воздушное шифоновое свадебное платье в стиле бохо, корсаж с цветочным кружевом, венок из цветов, многоярусные изящные ожерелья, браслет на щиколотку в стиле босоногой невесты"
         },
         {
-          "id": "outfit-188",
-          "number": 188,
+          "id": "outfit-210",
+          "number": 210,
           "title": "Ball Gown Princess",
           "body": "clothes: ivory tulle ball-gown with embroidered bodice, long veil, crystal tiara, statement earrings, beaded clutch",
           "hasImage": true,
@@ -2166,8 +2408,8 @@
           "bodyRu": "одежда: пышное платье из фатина цвета слоновой кости с вышитым корсажем, длинная вуаль, хрустальная тиара, эффектные серьги, клатч с бисером"
         },
         {
-          "id": "outfit-189",
-          "number": 189,
+          "id": "outfit-211",
+          "number": 211,
           "title": "Minimalist Slip Bridal",
           "body": "clothes: sleek satin slip wedding gown, thin straps, simple birdcage veil, pearl studs, silk wrap",
           "hasImage": true,
@@ -2177,8 +2419,8 @@
           "bodyRu": "одежда: атласное свадебное платье-комбинация на тонких бретелях, простая вуаль-птичья клетка, серьги-гвоздики с жемчугом, шёлковая накидка"
         },
         {
-          "id": "outfit-190",
-          "number": 190,
+          "id": "outfit-212",
+          "number": 212,
           "title": "Vintage Lace Gown",
           "body": "clothes: high-neck vintage lace long-sleeve wedding gown, mantilla veil, antique pearl earrings, satin gloves",
           "hasImage": true,
@@ -2197,8 +2439,8 @@
       "descriptionRu": "Контрастный неон, фестиваль, кэнди-гранж, голографические эффекты",
       "prompts": [
         {
-          "id": "outfit-191",
-          "number": 191,
+          "id": "outfit-213",
+          "number": 213,
           "title": "Neon Layered Pop",
           "body": "clothes: lime-green baby tee, cobalt baggy cargos, butterfly hair clips, layered beaded chokers, chunky rings, neon crossbody, stacked jelly bracelets",
           "hasImage": true,
@@ -2208,8 +2450,8 @@
           "bodyRu": "одежда: бэйби-ти лаймового цвета, кобальтово-синие мешковатые карго, заколки с бабочками, многоярусные чокеры с бисером, массивные кольца, неоновое кросс-боди, браслеты-желе стопкой"
         },
         {
-          "id": "outfit-192",
-          "number": 192,
+          "id": "outfit-214",
+          "number": 214,
           "title": "Color Clash Y2K",
           "body": "clothes: hot-pink halter top, orange low-rise micro skirt, heart sunglasses, candy-bead necklaces, ear cuffs, mini fluffy bag, charm anklet",
           "hasImage": true,
@@ -2219,8 +2461,8 @@
           "bodyRu": "одежда: топ-халтер ярко-розового цвета, оранжевая микро-юбка с низкой посадкой, солнцезащитные очки в форме сердца, ожерелья из цветного бисера, кафф для ушей, мини-сумка пушистая, браслет на щиколотку с подвесками"
         },
         {
-          "id": "outfit-193",
-          "number": 193,
+          "id": "outfit-215",
+          "number": 215,
           "title": "Indie Sleaze Bright",
           "body": "clothes: tie-dye cropped hoodie, electric-blue parachute pants, beanie, layered silver chains, smiley keychain, sling bag, stacked rings",
           "hasImage": true,
@@ -2230,8 +2472,8 @@
           "bodyRu": "одежда: укороченное худи тай-дай, штаны-парашют цвета электрик, шапка-бини, многоярусные серебряные цепочки, брелок со смайликом, сумка-слинг, кольца стопкой"
         },
         {
-          "id": "outfit-194",
-          "number": 194,
+          "id": "outfit-216",
+          "number": 216,
           "title": "Patchwork Maximal",
           "body": "clothes: patchwork-print baby tee, purple baggy jeans, flower hair clips, beaded charm necklaces, resin bangles, crossbody, scrunchie stack",
           "hasImage": true,
@@ -2241,8 +2483,8 @@
           "bodyRu": "одежда: бэйби-ти с пэчворк-принтом, фиолетовые свободные джинсы, заколки с цветами, ожерелья из бисера с подвесками, браслеты из смолы, кросс-боди, резинки-скранчи стопкой"
         },
         {
-          "id": "outfit-195",
-          "number": 195,
+          "id": "outfit-217",
+          "number": 217,
           "title": "Rave Kawaii",
           "body": "clothes: cyber-pink mesh top, teal pleated mini skirt, star clips, choker, leg garter, holographic mini backpack, jelly bracelets",
           "hasImage": true,
@@ -2252,8 +2494,8 @@
           "bodyRu": "одежда: топ из сетки кибер-розового цвета, плиссированная мини-юбка сине-зелёного цвета, заколки со звёздочками, чокер, подвязка, голографический мини-рюкзак, браслеты-желе"
         },
         {
-          "id": "outfit-196",
-          "number": 196,
+          "id": "outfit-218",
+          "number": 218,
           "title": "Color Block Streetwear",
           "body": "clothes: yellow zip crop hoodie, magenta wide cargos, bucket hat, chunky chain, ear cuffs, utility crossbody, ring stack",
           "hasImage": true,
@@ -2263,8 +2505,8 @@
           "bodyRu": "одежда: жёлтое укороченное худи на молнии, широкие карго маджента, панама, массивная цепь, кафф для ушей, утилитарное кросс-боди, кольца стопкой"
         },
         {
-          "id": "outfit-197",
-          "number": 197,
+          "id": "outfit-219",
+          "number": 219,
           "title": "Pastel Goth Pop",
           "body": "clothes: lavender corset top, mint baggy jeans, butterfly clips, layered crucifix chains, fingerless gloves, mini coffin bag, chokers",
           "hasImage": true,
@@ -2274,8 +2516,8 @@
           "bodyRu": "одежда: топ-корсет лавандового цвета, мятные свободные джинсы, заколки с бабочками, многоярусные цепочки с крестом, перчатки без пальцев, мини-сумка в форме гроба, чокеры"
         },
         {
-          "id": "outfit-198",
-          "number": 198,
+          "id": "outfit-220",
+          "number": 220,
           "title": "Retro Sporty Bright",
           "body": "clothes: orange-and-blue colour-block jersey, baggy track pants, visor, beaded chains, wristbands, sling bag, hoop stack",
           "hasImage": true,
@@ -2285,8 +2527,8 @@
           "bodyRu": "одежда: джерси в стиле колор-блок оранжево-синего цвета, свободные спортивные штаны, козырёк, цепочки с бисером, напульсники, сумка-слинг, серьги-кольца стопкой"
         },
         {
-          "id": "outfit-199",
-          "number": 199,
+          "id": "outfit-221",
+          "number": 221,
           "title": "Festival Glitter",
           "body": "clothes: iridescent halter top, neon-green flared cargos, gem face stickers, layered shell-bead necklaces, body chain, fringe bag",
           "hasImage": true,
@@ -2296,8 +2538,8 @@
           "bodyRu": "одежда: переливающийся топ-халтер, клёш-карго неонового-зелёного цвета, наклейки с камнями для лица, многоярусные ожерелья с ракушками и бисером, цепочка на тело, сумка с бахромой"
         },
         {
-          "id": "outfit-200",
-          "number": 200,
+          "id": "outfit-222",
+          "number": 222,
           "title": "Candy Grunge",
           "body": "clothes: cherry-red plaid skirt, lime baby tee, heart clips, layered chains, arm warmers, mini backpack, jelly rings",
           "hasImage": true,
@@ -2307,8 +2549,8 @@
           "bodyRu": "одежда: клетчатая юбка вишнёвого цвета, бэйби-ти лаймового цвета, заколки в форме сердца, многоярусные цепочки, рукава-грелки, мини-рюкзак, кольца-желе"
         },
         {
-          "id": "outfit-201",
-          "number": 201,
+          "id": "outfit-223",
+          "number": 223,
           "title": "Color Pop Denim",
           "body": "clothes: turquoise corset top, patchwork baggy jeans, daisy clips, beaded chokers, charm bracelets, neon shoulder bag, ear cuffs",
           "hasImage": true,
@@ -2318,8 +2560,8 @@
           "bodyRu": "одежда: топ-корсет бирюзового цвета, свободные джинсы с пэчворком, заколки с ромашками, чокеры из бисера, браслеты с подвесками, неоновая сумка на плечо, кафф для ушей"
         },
         {
-          "id": "outfit-202",
-          "number": 202,
+          "id": "outfit-224",
+          "number": 224,
           "title": "Anime Color Burst",
           "body": "clothes: rainbow anime-print baggy tee, purple cargo skirt, character hair clips, layered chains, pin-covered tote, stacked bracelets",
           "hasImage": true,
@@ -2329,8 +2571,8 @@
           "bodyRu": "одежда: свободная футболка с аниме-принтом в радужных цветах, карго-юбка фиолетового цвета, заколки с персонажами, многоярусные цепочки, сумка-тоут с булавками, браслеты стопкой"
         },
         {
-          "id": "outfit-203",
-          "number": 203,
+          "id": "outfit-225",
+          "number": 225,
           "title": "Bubble Pop Set",
           "body": "clothes: bubblegum-pink crop cardigan, baby-blue mini skirt, bow clips, candy necklaces, jelly bangles, heart sunglasses, plush bag",
           "hasImage": true,
@@ -2340,8 +2582,8 @@
           "bodyRu": "одежда: укороченный кардиган ярко-розового цвета, мини-юбка нежно-голубого цвета, заколки с бантами, ожерелья-конфетки, браслеты-желе, солнцезащитные очки в форме сердца, плюшевая сумка"
         },
         {
-          "id": "outfit-204",
-          "number": 204,
+          "id": "outfit-226",
+          "number": 226,
           "title": "Skater Color Mix",
           "body": "clothes: neon-yellow graphic tee, baggy purple skate jeans, snapback, layered chains, carabiner keychain, crossbody, ring stack",
           "hasImage": true,
@@ -2351,8 +2593,8 @@
           "bodyRu": "одежда: графическая футболка неоново-жёлтого цвета, свободные фиолетовые скейтерские джинсы, снепбэк, многоярусные цепочки, карабин-брелок, кросс-боди, кольца стопкой"
         },
         {
-          "id": "outfit-205",
-          "number": 205,
+          "id": "outfit-227",
+          "number": 227,
           "title": "Holographic Y2K",
           "body": "clothes: holographic halter top, electric-blue low-rise jeans, tinted shades, layered metallic chains, butterfly clips, mini holo bag, anklet",
           "hasImage": true,
@@ -2362,8 +2604,8 @@
           "bodyRu": "одежда: голографический топ-халтер, джинсы с низкой посадкой цвета электрик, тонированные очки, многоярусные металлические цепочки, заколки с бабочками, мини-сумка голо, браслет на щиколотку"
         },
         {
-          "id": "outfit-211",
-          "number": 211,
+          "id": "outfit-228",
+          "number": 228,
           "title": "Citrus Pop Modern",
           "body": "clothes: tangerine knit halter, lime tailored shorts, chunky gold hoops, beaded layered necklaces, structured neon tote, stacked rings",
           "hasImage": true,
@@ -2373,8 +2615,8 @@
           "bodyRu": "одежда: трикотажный топ-халтер мандаринового цвета, классические шорты лаймового цвета, массивные золотые серьги-кольца, многоярусные ожерелья из бисера, структурированная неоновая сумка-тоут, кольца стопкой"
         },
         {
-          "id": "outfit-212",
-          "number": 212,
+          "id": "outfit-229",
+          "number": 229,
           "title": "Color Block Chic",
           "body": "clothes: cobalt cropped blazer, fuchsia mini skirt, white tank, gold statement earrings, color-pop mini bag, slim chain belt",
           "hasImage": true,
@@ -2384,8 +2626,8 @@
           "bodyRu": "одежда: укороченный блейзер кобальтового цвета, мини-юбка фуксии, белая майка, золотые эффектные серьги, мини-сумка с цветовым акцентом, тонкий ремень-цепь"
         },
         {
-          "id": "outfit-213",
-          "number": 213,
+          "id": "outfit-230",
+          "number": 230,
           "title": "Electric Pastel",
           "body": "clothes: baby-blue baby tee, lilac cargo pants, butterfly clips, layered chains, jelly bracelets, holographic crossbody",
           "hasImage": true,
@@ -2395,8 +2637,8 @@
           "bodyRu": "одежда: бэйби-ти нежно-голубого цвета, карго-брюки сиреневого цвета, заколки с бабочками, многоярусные цепочки, браслеты-желе, голографическое кросс-боди"
         },
         {
-          "id": "outfit-214",
-          "number": 214,
+          "id": "outfit-231",
+          "number": 231,
           "title": "Sunshine Set",
           "body": "clothes: yellow ribbed crop, white wide trousers, oversized sunglasses, beaded necklace, raffia bucket bag, gold bangles",
           "hasImage": true,
@@ -2406,8 +2648,8 @@
           "bodyRu": "одежда: жёлтый рифлёный кроп-топ, белые широкие брюки, объёмные солнцезащитные очки, ожерелье из бисера, сумка-бакет из рафии, золотые браслеты"
         },
         {
-          "id": "outfit-215",
-          "number": 215,
+          "id": "outfit-232",
+          "number": 232,
           "title": "Bold Stripe Pop",
           "body": "clothes: red-and-white striped knit, cobalt baggy jeans, gold hoops, beaded charm necklace, mini shoulder bag",
           "hasImage": true,
@@ -2415,6 +2657,94 @@
           "gender": "female",
           "titleRu": "Смелая полоска",
           "bodyRu": "одежда: трикотаж в красно-белую полоску, кобальтово-синие свободные джинсы, золотые серьги-кольца, ожерелье из бисера с подвесками, мини-сумка на плечо"
+        },
+        {
+          "id": "outfit-233",
+          "number": 233,
+          "title": "Lavender Varsity Mix",
+          "body": "clothes: cropped lavender varsity jacket, white fitted tee, grey pleated skirt, lilac leg warmers, platform sneakers, silver star necklace",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lavender-varsity-mix.webp",
+          "gender": "female",
+          "titleRu": "Лавандовый университетский микс",
+          "bodyRu": "одежда: укороченная лавандовая университетская куртка, белая облегающая футболка, серая плиссированная юбка, сиреневые гетры, кроссовки на платформе, серебряное ожерелье со звездой"
+        },
+        {
+          "id": "outfit-234",
+          "number": 234,
+          "title": "Cherry Asymmetric Track Dress",
+          "body": "clothes: cherry-red asymmetric track midi dress with white piping, detached athletic sleeves, knee-high athletic boots, red cap, oval sunglasses, canvas shoulder bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cherry-asymmetric-track-dress.webp",
+          "gender": "female",
+          "titleRu": "Вишнёвое асимметричное спортивное платье",
+          "bodyRu": "одежда: вишнёво-красное асимметричное спортивное платье миди с белой окантовкой, отдельные спортивные рукава, высокие спортивные сапоги до колена, красная кепка, овальные солнцезащитные очки, парусиновая сумка на плечо"
+        },
+        {
+          "id": "outfit-235",
+          "number": 235,
+          "title": "Mint Diagonal Knit",
+          "body": "clothes: mint one-sleeve chunky-knit cropped top with a diagonal hem, charcoal high-waisted cargo palazzo trousers, one matching arm warmer, loose white socks, black platform loafers, chain-detail bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/mint-diagonal-knit.webp",
+          "gender": "female",
+          "titleRu": "Мятный диагональный трикотаж",
+          "bodyRu": "одежда: мятный укороченный топ крупной вязки с одним рукавом и диагональным краем, угольные брюки-карго палаццо с высокой посадкой, один нарукавник в тон, свободные белые носки, чёрные лоферы на платформе, сумка с цепочкой"
+        },
+        {
+          "id": "outfit-236",
+          "number": 236,
+          "title": "Purple Pin Parade",
+          "body": "clothes: purple utility vest covered with colorful pins, striped baby tee, baggy washed jeans, pink arm warmers, beaded necklace, platform shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/purple-pin-parade.webp",
+          "gender": "female",
+          "titleRu": "Фиолетовый парад значков",
+          "bodyRu": "одежда: фиолетовый утилитарный жилет с разноцветными значками, полосатый бэйби-ти, свободные выцветшие джинсы, розовые митенки, бисерное ожерелье, обувь на платформе"
+        },
+        {
+          "id": "outfit-237",
+          "number": 237,
+          "title": "Sky Blue Technical Wrap",
+          "body": "clothes: translucent-look sky-blue technical hooded anorak in opaque layered fabric over a fitted white long-sleeve top, sculptural silver-grey wrap skirt over tapered utility trousers, metallic crossbody bag, chunky sneakers",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sky-blue-technical-wrap.webp",
+          "gender": "female",
+          "titleRu": "Небесно-голубой технологичный запах",
+          "bodyRu": "одежда: небесно-голубой технологичный анорак с капюшоном и эффектом полупрозрачности из многослойной непрозрачной ткани поверх облегающего белого топа с длинными рукавами, скульптурная серебристо-серая юбка с запахом поверх зауженных утилитарных брюк, сумка кросс-боди металлик, массивные кроссовки"
+        },
+        {
+          "id": "outfit-238",
+          "number": 238,
+          "title": "Pink Denim Moto Circle Skirt",
+          "body": "clothes: pink denim moto vest over a white ribbed top and a dark denim circular midi skirt with front buttons, white ankle socks, pink platform sneakers",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pink-denim-moto-circle-skirt.webp",
+          "gender": "female",
+          "titleRu": "Розовый джинсовый мотожилет и юбка-солнце",
+          "bodyRu": "одежда: розовый джинсовый мотожилет поверх белого рифлёного топа и тёмной джинсовой юбки-солнце миди с пуговицами спереди, белые носки до щиколотки, розовые кроссовки на платформе"
+        },
+        {
+          "id": "outfit-239",
+          "number": 239,
+          "title": "Cobalt Bubble Sport",
+          "body": "clothes: cobalt zip hoodie, orange sporty midi skirt, striped knee socks, tinted wraparound glasses, mini nylon backpack, resin bangles",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cobalt-bubble-sport.webp",
+          "gender": "female",
+          "titleRu": "Кобальтовый спортивный поп",
+          "bodyRu": "одежда: кобальтовое худи на молнии, оранжевая спортивная юбка миди, полосатые гольфы, тонированные облегающие очки, мини-рюкзак из нейлона, браслеты из смолы"
+        },
+        {
+          "id": "outfit-240",
+          "number": 240,
+          "title": "Lime Cargo Layer",
+          "body": "clothes: lime short-sleeve shirt over a violet fitted tee, charcoal cargo skirt, striped arm warmers, black platform boots, neon buckle bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lime-cargo-layer.webp",
+          "gender": "female",
+          "titleRu": "Лаймовый карго-слой",
+          "bodyRu": "одежда: лаймовая рубашка с коротким рукавом поверх фиолетовой облегающей футболки, угольная юбка-карго, полосатые митенки, чёрные ботинки на платформе, сумка с неоновой пряжкой"
         }
       ]
     },
@@ -2426,8 +2756,8 @@
       "descriptionRu": "Потёртости, тартан, бархатный гранж, дамаск",
       "prompts": [
         {
-          "id": "outfit-206",
-          "number": 206,
+          "id": "outfit-241",
+          "number": 241,
           "title": "Distressed Goth Layer",
           "body": "clothes: ripped black mesh long-sleeve, distressed band-print tee over it, baggy frayed black cargos, spiked choker, layered chains, studded crossbody, stacked silver rings",
           "hasImage": true,
@@ -2437,8 +2767,8 @@
           "bodyRu": "одежда: рваный чёрный лонгслив из сетки, поверх — футболка с принтом группы с потёртостями, свободные чёрные карго с бахромой, чокер с шипами, многоярусные цепочки, кросс-боди с заклёпками, серебряные кольца стопкой"
         },
         {
-          "id": "outfit-207",
-          "number": 207,
+          "id": "outfit-242",
+          "number": 242,
           "title": "Tartan Punk Mix",
           "body": "clothes: oxblood tartan pleated mini skirt, fishnet layered top, cropped faux-leather moto, safety-pin chokers, fingerless gloves, chained mini bag, ear cuffs",
           "hasImage": true,
@@ -2448,8 +2778,8 @@
           "bodyRu": "одежда: плиссированная мини-юбка тартан цвета бордового, слоёный топ из рыбацкой сетки, укороченная куртка-косуха из экокожи, чокеры на английских булавках, перчатки без пальцев, мини-сумка с цепью, кафф для ушей"
         },
         {
-          "id": "outfit-208",
-          "number": 208,
+          "id": "outfit-243",
+          "number": 243,
           "title": "Velvet Grunge",
           "body": "clothes: crushed-black-velvet corset top, distressed baggy jeans, sheer mesh sleeves, crucifix chains, beaded chokers, studded belt, croc mini bag",
           "hasImage": true,
@@ -2459,8 +2789,8 @@
           "bodyRu": "одежда: топ-корсет из дроблёного чёрного бархата, свободные джинсы с потёртостями, прозрачные рукава из сетки, цепочки с крестом, чокеры из бисера, ремень с заклёпками, мини-сумка под крокодила"
         },
         {
-          "id": "outfit-209",
-          "number": 209,
+          "id": "outfit-244",
+          "number": 244,
           "title": "Snakeskin Dark Y2K",
           "body": "clothes: charcoal snakeskin-print baggy cargos, black ribbed bandeau, faux-fur shrug, layered gunmetal chains, tinted oval shades, chrome mini bag, stacked rings",
           "hasImage": true,
@@ -2470,8 +2800,8 @@
           "bodyRu": "одежда: свободные карго графитового цвета со змеиным принтом, чёрный рифлёный топ-бандо, шраг из искусственного меха, многоярусные цепочки цвета графита, тонированные овальные очки, мини-сумка хромированная, кольца стопкой"
         },
         {
-          "id": "outfit-210",
-          "number": 210,
+          "id": "outfit-245",
+          "number": 245,
           "title": "Damask Goth Romance",
           "body": "clothes: black brocade damask corset, distressed wide-leg jeans, lace choker, layered antique-silver chains, fingerless lace gloves, embossed velvet bag, drop earrings",
           "hasImage": true,
@@ -2490,8 +2820,8 @@
       "descriptionRu": "Цитрусовые оттенки, колор-блок, яркая пастель, лёгкие выходные",
       "prompts": [
         {
-          "id": "outfit-216",
-          "number": 216,
+          "id": "outfit-246",
+          "number": 246,
           "title": "Everyday Denim Casual",
           "body": "clothes: oversized grey tee, baggy mid-wash jeans, baseball cap, layered silver chains, canvas tote, simple studs",
           "hasImage": true,
@@ -2501,8 +2831,8 @@
           "bodyRu": "одежда: серая футболка оверсайз, свободные джинсы средней стирки, бейсболка, многоярусные серебряные цепочки, сумка-тоут из канваса, серьги-гвоздики"
         },
         {
-          "id": "outfit-217",
-          "number": 217,
+          "id": "outfit-247",
+          "number": 247,
           "title": "Cozy Casual Knit",
           "body": "clothes: oatmeal oversized knit, black leggings, scrunchie, gold hoops, crossbody, stacked rings",
           "hasImage": true,
@@ -2512,8 +2842,8 @@
           "bodyRu": "одежда: объёмный трикотаж овсяного цвета, чёрные леггинсы, резинка-скранчи, золотые серьги-кольца, кросс-боди, кольца стопкой"
         },
         {
-          "id": "outfit-218",
-          "number": 218,
+          "id": "outfit-248",
+          "number": 248,
           "title": "Athleisure Easy",
           "body": "clothes: fitted zip athletic top, baggy joggers, cap, simple chain, sling bag, hoop earrings",
           "hasImage": true,
@@ -2523,8 +2853,8 @@
           "bodyRu": "одежда: облегающий спортивный топ на молнии, свободные джоггеры, кепка, простая цепочка, сумка-слинг, серьги-кольца"
         },
         {
-          "id": "outfit-219",
-          "number": 219,
+          "id": "outfit-249",
+          "number": 249,
           "title": "Weekend Layer",
           "body": "clothes: striped long-sleeve, denim overall shorts, beanie, beaded bracelets, woven tote, daisy clips",
           "hasImage": true,
@@ -2534,8 +2864,8 @@
           "bodyRu": "одежда: лонгслив в полоску, джинсовый комбинезон-шорты, шапка-бини, браслеты из бисера, плетёная сумка-тоут, заколки с ромашками"
         },
         {
-          "id": "outfit-220",
-          "number": 220,
+          "id": "outfit-250",
+          "number": 250,
           "title": "Soft Lounge Set",
           "body": "clothes: matching beige ribbed lounge set, oversized cardigan, claw clip, dainty necklace, slipper-style flats, tote",
           "hasImage": true,
@@ -2545,8 +2875,8 @@
           "bodyRu": "одежда: парный бежевый рифлёный лаунж-сет, кардиган оверсайз, крабик, изящное ожерелье, балетки в стиле тапочек, тоут"
         },
         {
-          "id": "outfit-221",
-          "number": 221,
+          "id": "outfit-251",
+          "number": 251,
           "title": "Satin Bar Night",
           "body": "clothes: emerald satin cowl cami, black tailored trousers, gold drop earrings, chain belt, mini clutch, stacked bangles",
           "hasImage": true,
@@ -2556,8 +2886,8 @@
           "bodyRu": "одежда: изумрудный атласный камисоль с воротом-хомутом, чёрные классические брюки, золотые серьги-капли, ремень-цепь, мини-клатч, браслеты стопкой"
         },
         {
-          "id": "outfit-222",
-          "number": 222,
+          "id": "outfit-252",
+          "number": 252,
           "title": "Sparkle Mini",
           "body": "clothes: silver sequin mini dress, hoop earrings, layered body chain, beaded clutch, stacked rings",
           "hasImage": true,
@@ -2567,8 +2897,8 @@
           "bodyRu": "одежда: мини-платье с серебряными пайетками, серьги-кольца, многоярусная цепочка на тело, клатч с бисером, кольца стопкой"
         },
         {
-          "id": "outfit-223",
-          "number": 223,
+          "id": "outfit-253",
+          "number": 253,
           "title": "Leather Night Out",
           "body": "clothes: black leather mini skirt, red satin corset, gold chains, statement earrings, croc clutch",
           "hasImage": true,
@@ -2578,8 +2908,8 @@
           "bodyRu": "одежда: чёрная кожаная мини-юбка, атласный корсет красного цвета, золотые цепочки, эффектные серьги, клатч под крокодила"
         },
         {
-          "id": "outfit-224",
-          "number": 224,
+          "id": "outfit-254",
+          "number": 254,
           "title": "Slip & Heat",
           "body": "clothes: champagne satin slip dress, sheer wrap, crystal earrings, thin waist chain, beaded clutch",
           "hasImage": true,
@@ -2589,8 +2919,8 @@
           "bodyRu": "одежда: атласное платье-комбинация цвета шампань, прозрачная накидка, хрустальные серьги, тонкая цепочка на талию, клатч с бисером"
         },
         {
-          "id": "outfit-225",
-          "number": 225,
+          "id": "outfit-255",
+          "number": 255,
           "title": "Bold Bar Set",
           "body": "clothes: cherry-red halter top, black wide trousers, gold cuff, hoop earrings, mini patent bag",
           "hasImage": true,
@@ -2600,8 +2930,8 @@
           "bodyRu": "одежда: топ-халтер вишнёвого цвета, чёрные широкие брюки, золотой браслет-манжета, серьги-кольца, мини-сумка лакированная"
         },
         {
-          "id": "outfit-226",
-          "number": 226,
+          "id": "outfit-256",
+          "number": 256,
           "title": "Camel Coat Chic",
           "body": "clothes: camel wool coat, cream turtleneck, brown trousers, leather gloves, cashmere scarf, structured tote",
           "hasImage": true,
@@ -2611,8 +2941,8 @@
           "bodyRu": "одежда: верблюжье шерстяное пальто, кремовая водолазка, коричневые брюки, кожаные перчатки, кашемировый шарф, структурированная сумка-тоут"
         },
         {
-          "id": "outfit-227",
-          "number": 227,
+          "id": "outfit-257",
+          "number": 257,
           "title": "Knit & Plaid Warm",
           "body": "clothes: chunky burgundy knit, plaid wool midi skirt, thick tights, beret, leather gloves, satchel",
           "hasImage": true,
@@ -2622,8 +2952,8 @@
           "bodyRu": "одежда: массивный трикотаж бордового цвета, шерстяная юбка-миди в клетку, плотные колготки, берет, кожаные перчатки, сатчел"
         },
         {
-          "id": "outfit-228",
-          "number": 228,
+          "id": "outfit-258",
+          "number": 258,
           "title": "Puffer Casual Warm",
           "body": "clothes: cropped silver puffer, ribbed turtleneck, baggy jeans, beanie, layered chains, crossbody",
           "hasImage": true,
@@ -2633,8 +2963,8 @@
           "bodyRu": "одежда: укороченный пуховик серебристого цвета, рифлёная водолазка, свободные джинсы, шапка-бини, многоярусные цепочки, кросс-боди"
         },
         {
-          "id": "outfit-229",
-          "number": 229,
+          "id": "outfit-259",
+          "number": 259,
           "title": "Shearling Cozy Warm",
           "body": "clothes: caramel shearling jacket, brown cable knit, corduroy trousers, knit scarf, mittens, suede bag",
           "hasImage": true,
@@ -2644,8 +2974,8 @@
           "bodyRu": "одежда: карамельная дублёнка, коричневый свитер с косами, вельветовые брюки, вязаный шарф, варежки, замшевая сумка"
         },
         {
-          "id": "outfit-230",
-          "number": 230,
+          "id": "outfit-260",
+          "number": 260,
           "title": "Trench Layer Warm",
           "body": "clothes: beige trench, grey turtleneck, straight trousers, silk scarf, leather gloves, top-handle bag",
           "hasImage": true,
@@ -2655,8 +2985,8 @@
           "bodyRu": "одежда: бежевый тренч, серая водолазка, прямые брюки, шёлковый шарф, кожаные перчатки, сумка с верхней ручкой"
         },
         {
-          "id": "outfit-231",
-          "number": 231,
+          "id": "outfit-261",
+          "number": 261,
           "title": "Anime Hero Fit",
           "body": "clothes: oversized hero-anime graphic tee, baggy cargos, character keychains, layered chains, snapback, pin-covered backpack",
           "hasImage": true,
@@ -2666,8 +2996,8 @@
           "bodyRu": "одежда: футболка оверсайз с аниме-принтом героя, свободные карго, брелоки с персонажами, многоярусные цепочки, снепбэк, рюкзак с булавками"
         },
         {
-          "id": "outfit-232",
-          "number": 232,
+          "id": "outfit-262",
+          "number": 262,
           "title": "Magical Girl Anime",
           "body": "clothes: pastel anime-print pleated skirt, ruffled crop, star clips, beaded charm necklaces, plush mascot bag, bow",
           "hasImage": true,
@@ -2677,8 +3007,8 @@
           "bodyRu": "одежда: плиссированная юбка с аниме-принтом пастельных тонов, рюшевый кроп-топ, заколки со звёздочками, ожерелья из бисера с подвесками, плюшевая сумка с маскотом, бант"
         },
         {
-          "id": "outfit-233",
-          "number": 233,
+          "id": "outfit-263",
+          "number": 263,
           "title": "Shonen Streetwear",
           "body": "clothes: manga-spread baggy hoodie, ripped jeans, beanie, silver chains, wristbands, messenger bag",
           "hasImage": true,
@@ -2688,8 +3018,8 @@
           "bodyRu": "одежда: свободное худи с принтом манги, рваные джинсы, шапка-бини, серебряные цепочки, напульсники, сумка-мессенджер"
         },
         {
-          "id": "outfit-234",
-          "number": 234,
+          "id": "outfit-264",
+          "number": 264,
           "title": "Soft Anime Pastel",
           "body": "clothes: chibi-print baby tee, lavender cargo skirt, heart clips, layered chains, jelly bracelets, plush crossbody",
           "hasImage": true,
@@ -2699,8 +3029,8 @@
           "bodyRu": "одежда: бэйби-ти с чиби-принтом, карго-юбка лавандового цвета, заколки в форме сердца, многоярусные цепочки, браслеты-желе, плюшевое кросс-боди"
         },
         {
-          "id": "outfit-235",
-          "number": 235,
+          "id": "outfit-265",
+          "number": 265,
           "title": "Cyber Anime",
           "body": "clothes: neon mecha-print mesh top, black baggy techwear pants, tinted shades, chrome chains, utility sling, ear cuffs",
           "hasImage": true,
@@ -2710,8 +3040,8 @@
           "bodyRu": "одежда: топ из сетки с меха-принтом в неоновых тонах, чёрные свободные техно-штаны, тонированные очки, хромированные цепочки, утилитарная сумка-слинг, кафф для ушей"
         },
         {
-          "id": "outfit-236",
-          "number": 236,
+          "id": "outfit-266",
+          "number": 266,
           "title": "Effortless Stylish",
           "body": "clothes: tailored ivory waistcoat, wide pinstripe trousers, gold layered chains, structured tote, sleek hoops",
           "hasImage": true,
@@ -2721,8 +3051,8 @@
           "bodyRu": "одежда: классический жилет цвета слоновой кости, широкие брюки в тонкую полоску, многоярусные золотые цепочки, структурированная сумка-тоут, аккуратные серьги-кольца"
         },
         {
-          "id": "outfit-237",
-          "number": 237,
+          "id": "outfit-267",
+          "number": 267,
           "title": "Monochrome Polish",
           "body": "clothes: camel knit top, matching wide trousers, gold cuff, oversized sunglasses, structured bag",
           "hasImage": true,
@@ -2732,8 +3062,8 @@
           "bodyRu": "одежда: трикотажный топ верблюжьего цвета, парные широкие брюки, золотой браслет-манжета, солнцезащитные очки оверсайз, структурированная сумка"
         },
         {
-          "id": "outfit-238",
-          "number": 238,
+          "id": "outfit-268",
+          "number": 268,
           "title": "Print Mix Stylish",
           "body": "clothes: silk scarf-print blouse, leather midi skirt, gold statement earrings, top-handle bag, slim belt",
           "hasImage": true,
@@ -2743,8 +3073,8 @@
           "bodyRu": "одежда: шёлковая блузка с платочным принтом, кожаная юбка-миди, золотые эффектные серьги, сумка с верхней ручкой, тонкий ремень"
         },
         {
-          "id": "outfit-239",
-          "number": 239,
+          "id": "outfit-269",
+          "number": 269,
           "title": "Evening Elegant",
           "body": "clothes: black off-shoulder satin gown, pearl drop earrings, sleek clutch, thin diamond bracelet, chignon",
           "hasImage": true,
@@ -2754,8 +3084,8 @@
           "bodyRu": "одежда: чёрное атласное платье с открытыми плечами, серьги-капли с жемчугом, элегантный клатч, тонкий бриллиантовый браслет, шиньон"
         },
         {
-          "id": "outfit-240",
-          "number": 240,
+          "id": "outfit-270",
+          "number": 270,
           "title": "Champagne Elegance",
           "body": "clothes: champagne pleated maxi dress, gold statement collar, crystal earrings, beaded clutch, fine bangles",
           "hasImage": true,
@@ -2763,6 +3093,94 @@
           "gender": "female",
           "titleRu": "Шампанская роскошь",
           "bodyRu": "одежда: плиссированное макси-платье цвета шампань, золотое эффектное колье, хрустальные серьги, клатч с бисером, изящные браслеты"
+        },
+        {
+          "id": "outfit-271",
+          "number": 271,
+          "title": "Blue Ribbon Barrel Skirt",
+          "body": "clothes: pale-blue neck-ribbon blouse with gathered elbow sleeves tucked into a sculptural curved barrel midi skirt, fitted short waist belt, dark blue beret, white loafers, structured shoulder bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/blue-ribbon-barrel-skirt.webp",
+          "gender": "female",
+          "titleRu": "Юбка-баллон с голубой лентой",
+          "bodyRu": "одежда: бледно-голубая блуза с лентой на шее и присборенными рукавами до локтя, заправленная в скульптурную изогнутую юбку-баллон миди, короткий приталенный пояс, тёмно-синий берет, белые лоферы, структурированная сумка на плечо"
+        },
+        {
+          "id": "outfit-272",
+          "number": 272,
+          "title": "Red Duster Skort",
+          "body": "clothes: red sleeveless button-front duster worn open over a beige ribbed turtleneck and a knee-length tailored skort, tall red lace-up boots, gold heart pendant, tan crossbody bag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/red-duster-skort.webp",
+          "gender": "female",
+          "titleRu": "Красный пыльник с юбкой-шортами",
+          "bodyRu": "одежда: красный пыльник без рукавов с застёжкой на пуговицы, надетый расстёгнутым поверх бежевой рифлёной водолазки и классической юбки-шортов до колена, высокие красные сапоги на шнуровке, золотая подвеска-сердце, песочная сумка кросс-боди"
+        },
+        {
+          "id": "outfit-273",
+          "number": 273,
+          "title": "Grey Corseted Peplum",
+          "body": "clothes: soft grey corseted peplum blouse with a modest neckline and puff sleeves, ankle-length purple column skirt, violet neck ribbon, black slingback shoes, compact handbag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/grey-corseted-peplum.webp",
+          "gender": "female",
+          "titleRu": "Серая корсетная блуза с баской",
+          "bodyRu": "одежда: мягкая серая корсетная блуза с баской, скромным вырезом и пышными рукавами, фиолетовая юбка-колонна длиной до щиколотки, фиолетовая лента на шее, чёрные туфли с открытой пяткой, компактная сумка"
+        },
+        {
+          "id": "outfit-274",
+          "number": 274,
+          "title": "Green Cardigan Ease",
+          "body": "clothes: sage-green cardigan over a long white lace-trim shirt, relaxed blue jeans, printed headscarf, brown loafers, roomy tote",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/green-cardigan-ease.webp",
+          "gender": "female",
+          "titleRu": "Непринуждённый зелёный кардиган",
+          "bodyRu": "одежда: шалфейно-зелёный кардиган поверх удлинённой белой рубашки с кружевной отделкой, свободные синие джинсы, платок с принтом на голове, коричневые лоферы, вместительный тоут"
+        },
+        {
+          "id": "outfit-275",
+          "number": 275,
+          "title": "Maroon Capelet and Pleats",
+          "body": "clothes: maroon embroidered capelet attached to an ivory sleeveless wrap blouse, calf-length knife-pleated skirt, burgundy ankle pumps, leather handbag",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/maroon-capelet-and-pleats.webp",
+          "gender": "female",
+          "titleRu": "Бордовая пелерина и острые складки",
+          "bodyRu": "одежда: бордовая вышитая пелерина, соединённая с блузой без рукавов цвета слоновой кости с запахом, юбка до середины икры с острыми односторонними складками, винные туфли с ремешком на щиколотке, кожаная сумка"
+        },
+        {
+          "id": "outfit-276",
+          "number": 276,
+          "title": "Striped Denim Boiler Suit",
+          "body": "clothes: rust-and-cream striped mock-neck top beneath a dark denim boiler suit with wide cropped legs, black leather loafers, orange shoulder bag, simple stud earrings",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/striped-denim-boiler-suit.webp",
+          "gender": "female",
+          "titleRu": "Полосатый джинсовый комбинезон рабочего кроя",
+          "bodyRu": "одежда: топ с воротником-стойкой в ржаво-кремовую полоску под тёмным джинсовым комбинезоном рабочего кроя с широкими укороченными брючинами, чёрные кожаные лоферы, оранжевая сумка на плечо, лаконичные серьги-гвоздики"
+        },
+        {
+          "id": "outfit-277",
+          "number": 277,
+          "title": "Pastel Blue Lantern Tailoring",
+          "body": "clothes: pastel-blue fitted knit top with elbow-length lantern sleeves, charcoal tailored balloon trousers, heart pendant, pale-blue handbag, white ankle-strap shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pastel-blue-lantern-tailoring.webp",
+          "gender": "female",
+          "titleRu": "Пастельно-голубой трикотаж с рукавами-фонариками",
+          "bodyRu": "одежда: пастельно-голубой облегающий трикотажный топ с рукавами-фонариками до локтя, угольные классические брюки-баллоны, подвеска-сердце, бледно-голубая сумка, белые туфли с ремешком на щиколотке"
+        },
+        {
+          "id": "outfit-278",
+          "number": 278,
+          "title": "Burgundy Cropped Overshirt and Wrap Skirt",
+          "body": "clothes: burgundy diagonal-button cropped overshirt over a black fitted turtleneck and a long narrow wrap skirt with side pleats, black ribbon necktie, black Mary Jane shoes, felt hat",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/burgundy-cropped-overshirt-and-wrap-skirt.webp",
+          "gender": "female",
+          "titleRu": "Бордовая укороченная рубашка и юбка с запахом",
+          "bodyRu": "одежда: укороченная бордовая верхняя рубашка с диагональной застёжкой на пуговицы поверх облегающей чёрной водолазки и длинной узкой юбки с запахом и боковыми складками, чёрный галстук-лента, чёрные туфли Мэри Джейн, фетровая шляпа"
         }
       ]
     },
@@ -2774,8 +3192,8 @@
       "descriptionRu": "Сплошной ярко-розовый в духе Y2K — соблазнительно, преппи, велюр",
       "prompts": [
         {
-          "id": "outfit-241",
-          "number": 241,
+          "id": "outfit-279",
+          "number": 279,
           "title": "Hot Pink Cutout",
           "body": "clothes: hot-pink cutout halter mini dress, gold body chain, hoop earrings, pink patent mini clutch, thin waist chain",
           "hasImage": true,
@@ -2785,8 +3203,8 @@
           "bodyRu": "одежда: мини-платье-халтер с вырезами ярко-розового цвета, золотая цепочка на тело, серьги-кольца, розовый мини-клатч лакированный, тонкая цепочка на талию"
         },
         {
-          "id": "outfit-242",
-          "number": 242,
+          "id": "outfit-280",
+          "number": 280,
           "title": "Blush Satin Slip",
           "body": "clothes: blush satin backless slip dress, layered pink-stone chains, crystal drops, pink beaded clutch, stacked rings",
           "hasImage": true,
@@ -2796,8 +3214,8 @@
           "bodyRu": "одежда: атласное платье-комбинация с открытой спиной пудрово-розового цвета, многоярусные цепочки с розовыми камнями, хрустальные серьги-капли, розовый клатч с бисером, кольца стопкой"
         },
         {
-          "id": "outfit-243",
-          "number": 243,
+          "id": "outfit-281",
+          "number": 281,
           "title": "Fuchsia Corset Night",
           "body": "clothes: fuchsia satin corset top, pink leather mini skirt, gold chains, statement earrings, pink croc mini bag",
           "hasImage": true,
@@ -2807,8 +3225,8 @@
           "bodyRu": "одежда: атласный топ-корсет фуксии, розовая кожаная мини-юбка, золотые цепочки, эффектные серьги, розовая мини-сумка под крокодила"
         },
         {
-          "id": "outfit-244",
-          "number": 244,
+          "id": "outfit-282",
+          "number": 282,
           "title": "Pink Lace Vamp",
           "body": "clothes: dusty-rose lace bralette top, pink mesh maxi skirt, body chain, drop earrings, pink velvet clutch",
           "hasImage": true,
@@ -2818,8 +3236,8 @@
           "bodyRu": "одежда: топ-бралетт с кружевной отделкой пыльно-розового цвета, розовая юбка-макси из сетки, цепочка на тело, серьги-капли, розовый бархатный клатч"
         },
         {
-          "id": "outfit-245",
-          "number": 245,
+          "id": "outfit-283",
+          "number": 283,
           "title": "Rose Bodycon",
           "body": "clothes: rose ruched bodycon mini dress, layered chokers, hoop earrings, pink mini shoulder bag, thigh chain",
           "hasImage": true,
@@ -2829,8 +3247,8 @@
           "bodyRu": "одежда: мини-платье-бодикон розового цвета с драпировкой, многоярусные чокеры, серьги-кольца, розовая мини-сумка на плечо, цепочка на бедро"
         },
         {
-          "id": "outfit-246",
-          "number": 246,
+          "id": "outfit-284",
+          "number": 284,
           "title": "Bubblegum Bandage",
           "body": "clothes: bubblegum-pink bandage cutout dress, gold waist chain, pink hoops, holographic clutch, stacked bangles",
           "hasImage": true,
@@ -2840,8 +3258,8 @@
           "bodyRu": "одежда: бандажное платье с вырезами ярко-розового цвета, золотая цепочка на талию, розовые серьги-кольца, голографический клатч, браслеты стопкой"
         },
         {
-          "id": "outfit-247",
-          "number": 247,
+          "id": "outfit-285",
+          "number": 285,
           "title": "Pink Leather Set",
           "body": "clothes: pink faux-leather bralette, matching mini skirt, silver chains, ear cuffs, pink patent bag, body chain",
           "hasImage": true,
@@ -2851,8 +3269,8 @@
           "bodyRu": "одежда: бралетт из экокожи розового цвета, парная мини-юбка, серебряные цепочки, кафф для ушей, розовая сумка лакированная, цепочка на тело"
         },
         {
-          "id": "outfit-248",
-          "number": 248,
+          "id": "outfit-286",
+          "number": 286,
           "title": "Sheer Pink Drama",
           "body": "clothes: sheer blush panelled maxi dress, pink bodysuit underneath, crystal collar, drop earrings, satin clutch",
           "hasImage": true,
@@ -2862,8 +3280,8 @@
           "bodyRu": "одежда: прозрачное макси-платье из контрастных вставок пудрово-розового цвета, розовое боди под низом, хрустальное колье, серьги-капли, атласный клатч"
         },
         {
-          "id": "outfit-249",
-          "number": 249,
+          "id": "outfit-287",
+          "number": 287,
           "title": "Magenta Halter Heat",
           "body": "clothes: magenta plunge halter top, pink satin trousers, gold cuff, hoop earrings, pink beaded clutch",
           "hasImage": true,
@@ -2873,8 +3291,8 @@
           "bodyRu": "одежда: топ-халтер маджента с глубоким вырезом, розовые атласные брюки, золотой браслет-манжета, серьги-кольца, розовый клатч с бисером"
         },
         {
-          "id": "outfit-250",
-          "number": 250,
+          "id": "outfit-288",
+          "number": 288,
           "title": "Pink Mesh Mini",
           "body": "clothes: pink mesh long-sleeve over pink mini slip dress, layered chains, choker, pink mini bag, stacked rings",
           "hasImage": true,
@@ -2884,8 +3302,8 @@
           "bodyRu": "одежда: розовый лонгслив из сетки поверх розового мини-платья-комбинации, многоярусные цепочки, чокер, розовая мини-сумка, кольца стопкой"
         },
         {
-          "id": "outfit-251",
-          "number": 251,
+          "id": "outfit-289",
+          "number": 289,
           "title": "Queen Bee Velour",
           "body": "clothes: pink velour zip-up tracksuit jacket, matching low-rise velour pants, rhinestone heart belt, gold hoops, mini logo shoulder bag, tinted sunglasses",
           "hasImage": true,
@@ -2895,8 +3313,8 @@
           "bodyRu": "одежда: розовая велюровая куртка от спортивного костюма на молнии, парные велюровые брюки с низкой посадкой, ремень со стразами в форме сердца, золотые серьги-кольца, мини-сумка на плечо с логотипом, тонированные солнцезащитные очки"
         },
         {
-          "id": "outfit-252",
-          "number": 252,
+          "id": "outfit-290",
+          "number": 290,
           "title": "Pink Halter Diva",
           "body": "clothes: baby-pink halter top, white low-rise mini skirt, beaded belly chain, chunky charm bracelet, rhinestone hoops, pink baguette bag",
           "hasImage": true,
@@ -2906,8 +3324,8 @@
           "bodyRu": "одежда: топ-халтер нежно-розового цвета, белая мини-юбка с низкой посадкой, цепочка на живот из бисера, массивный браслет с подвесками, серьги-кольца со стразами, сумка-багет розовая"
         },
         {
-          "id": "outfit-253",
-          "number": 253,
+          "id": "outfit-291",
+          "number": 291,
           "title": "Cami & Lowrise",
           "body": "clothes: white lace-trim cami, ultra-low-rise bootcut jeans, studded belt, layered gold necklaces, oversized shades, mini handbag",
           "hasImage": true,
@@ -2917,8 +3335,8 @@
           "bodyRu": "одежда: белый камисоль с кружевной отделкой, джинсы-бутлег с ультранизкой посадкой, ремень с заклёпками, многоярусные золотые ожерелья, солнцезащитные очки оверсайз, мини-сумочка"
         },
         {
-          "id": "outfit-254",
-          "number": 254,
+          "id": "outfit-292",
+          "number": 292,
           "title": "Bedazzled Cutout",
           "body": "clothes: rhinestone-studded pink cutout top, white denim mini skirt, jewelled belt, hoop earrings, sequin clutch, butterfly clips",
           "hasImage": true,
@@ -2928,8 +3346,8 @@
           "bodyRu": "одежда: розовый топ с вырезами и стразами, белая джинсовая мини-юбка, ремень с камнями, серьги-кольца, клатч с пайетками, заколки с бабочками"
         },
         {
-          "id": "outfit-255",
-          "number": 255,
+          "id": "outfit-293",
+          "number": 293,
           "title": "Pink Polo Prep",
           "body": "clothes: fitted pink polo (popped collar), pleated white tennis skirt, gold chain belt, pearl studs, mini tote, headband",
           "hasImage": true,
@@ -2939,8 +3357,8 @@
           "bodyRu": "одежда: облегающее розовое поло (с поднятым воротником), белая теннисная юбка плиссированная, золотой ремень-цепь, серьги-гвоздики с жемчугом, мини-тоут, ободок"
         },
         {
-          "id": "outfit-256",
-          "number": 256,
+          "id": "outfit-294",
+          "number": 294,
           "title": "Y2K Bombshell",
           "body": "clothes: plunge halter mini dress in baby pink, beaded body chain, chandelier earrings, rhinestone clutch, strappy detail",
           "hasImage": true,
@@ -2950,8 +3368,8 @@
           "bodyRu": "одежда: мини-платье-халтер с глубоким вырезом нежно-розового цвета, цепочка на тело из бисера, серьги-люстры, клатч со стразами, ремешковые детали"
         },
         {
-          "id": "outfit-257",
-          "number": 257,
+          "id": "outfit-295",
+          "number": 295,
           "title": "Tracksuit Glam",
           "body": "clothes: white velour tracksuit with pink piping, rhinestone trim, gold nameplate necklace, hoops, mini bag, oversized sunglasses",
           "hasImage": true,
@@ -2961,8 +3379,8 @@
           "bodyRu": "одежда: белый велюровый спортивный костюм с розовой окантовкой, отделка стразами, золотое ожерелье с именной табличкой, серьги-кольца, мини-сумка, солнцезащитные очки оверсайз"
         },
         {
-          "id": "outfit-258",
-          "number": 258,
+          "id": "outfit-296",
+          "number": 296,
           "title": "Lowrise Denim Diva",
           "body": "clothes: pink ruched tube top, distressed low-rise flares, jewelled belt, layered gold chains, charm bracelet, mini shoulder bag",
           "hasImage": true,
@@ -2972,8 +3390,8 @@
           "bodyRu": "одежда: розовый укороченный топ-труба с драпировкой, клёш джинсы с потёртостями и низкой посадкой, ремень с камнями, многоярусные золотые цепочки, браслет с подвесками, мини-сумка на плечо"
         },
         {
-          "id": "outfit-259",
-          "number": 259,
+          "id": "outfit-297",
+          "number": 297,
           "title": "Preppy Pink Set",
           "body": "clothes: pink cropped cardigan over white cami, plaid pleated mini skirt, knee-detail, pearl necklace, headband, structured bag",
           "hasImage": true,
@@ -2983,8 +3401,8 @@
           "bodyRu": "одежда: розовый укороченный кардиган поверх белого камисоля, плиссированная мини-юбка в клетку, детали у колена, жемчужное ожерелье, ободок, структурированная сумка"
         },
         {
-          "id": "outfit-260",
-          "number": 260,
+          "id": "outfit-298",
+          "number": 298,
           "title": "Rhinestone Tank",
           "body": "clothes: bedazzled 'A-list' rhinestone tank, white low-rise capris, jewelled belt, hoop earrings, mini clutch, butterfly clips",
           "hasImage": true,
@@ -2994,8 +3412,8 @@
           "bodyRu": "одежда: майка «A-list» со стразами, белые капри с низкой посадкой, ремень с камнями, серьги-кольца, мини-клатч, заколки с бабочками"
         },
         {
-          "id": "outfit-261",
-          "number": 261,
+          "id": "outfit-299",
+          "number": 299,
           "title": "Halter Mini Glam",
           "body": "clothes: silver-pink metallic halter mini dress, beaded belly chain, chandelier earrings, rhinestone clutch, stacked bangles",
           "hasImage": true,
@@ -3005,8 +3423,8 @@
           "bodyRu": "одежда: металлическое мини-платье-халтер серебристо-розового цвета, цепочка на живот из бисера, серьги-люстры, клатч со стразами, браслеты стопкой"
         },
         {
-          "id": "outfit-262",
-          "number": 262,
+          "id": "outfit-300",
+          "number": 300,
           "title": "Pink Power Suit",
           "body": "clothes: pink cropped blazer, matching low-rise mini skirt, white cami, gold chain belt, oversized shades, structured bag",
           "hasImage": true,
@@ -3016,8 +3434,8 @@
           "bodyRu": "одежда: розовый укороченный блейзер, парная мини-юбка с низкой посадкой, белый камисоль, золотой ремень-цепь, солнцезащитные очки оверсайз, структурированная сумка"
         },
         {
-          "id": "outfit-263",
-          "number": 263,
+          "id": "outfit-301",
+          "number": 301,
           "title": "Juicy Cropped",
           "body": "clothes: cropped pink velour hoodie, white low-rise micro shorts, rhinestone belt, gold hoops, mini logo bag, claw clip",
           "hasImage": true,
@@ -3027,8 +3445,8 @@
           "bodyRu": "одежда: укороченное розовое велюровое худи, белые микро-шорты с низкой посадкой, ремень со стразами, золотые серьги-кольца, мини-сумка с логотипом, крабик"
         },
         {
-          "id": "outfit-264",
-          "number": 264,
+          "id": "outfit-302",
+          "number": 302,
           "title": "Bombshell Lace",
           "body": "clothes: pink lace-trim corset top, white denim mini, jewelled belt, layered gold chains, hoop earrings, beaded clutch",
           "hasImage": true,
@@ -3038,8 +3456,8 @@
           "bodyRu": "одежда: розовый топ-корсет с кружевной отделкой, белая джинсовая мини-юбка, ремень с камнями, многоярусные золотые цепочки, серьги-кольца, клатч с бисером"
         },
         {
-          "id": "outfit-265",
-          "number": 265,
+          "id": "outfit-303",
+          "number": 303,
           "title": "Mean Girl Mini",
           "body": "clothes: baby-pink ruffle halter, white pleated mini skirt, pink heart sunglasses, rhinestone hoops, charm bracelet, mini baguette bag",
           "hasImage": true,
@@ -3047,6 +3465,922 @@
           "gender": "female",
           "titleRu": "Мини в стиле Mean Girls",
           "bodyRu": "одежда: топ-халтер с оборками нежно-розового цвета, белая плиссированная мини-юбка, розовые солнцезащитные очки в форме сердца, серьги-кольца со стразами, браслет с подвесками, мини-сумка-багет"
+        }
+      ]
+    },
+    {
+      "id": "medieval",
+      "name": "Medieval & Fantasy",
+      "nameRu": "Средневековье и фэнтези",
+      "description": "Regal gowns, enchanted armor, courtly layers",
+      "descriptionRu": "Королевские платья, зачарованные доспехи, придворные слои",
+      "prompts": [
+        {
+          "id": "outfit-304",
+          "number": 304,
+          "title": "Silver Heraldic Plate",
+          "body": "clothes: full articulated silver plate armor over a split deep-blue heraldic surcoat and fitted under-tunic, sculpted pauldrons, articulated gauntlets, armored sabatons",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/silver-heraldic-plate.webp",
+          "gender": "female",
+          "titleRu": "Серебряные геральдические латы",
+          "bodyRu": "одежда: полный сочленённый серебряный пластинчатый доспех поверх разрезного тёмно-синего геральдического сюрко и облегающей нижней туники, фигурные наплечники, сочленённые латные перчатки, бронированные сабатоны"
+        },
+        {
+          "id": "outfit-305",
+          "number": 305,
+          "title": "Amber Leather Wrap",
+          "body": "clothes: asymmetrical russet leather wrap dress with a fur shoulder mantle, layered utility belt, amber brooch, reinforced bracers, thigh-high strapped boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/amber-leather-wrap.webp",
+          "gender": "female",
+          "titleRu": "Янтарное кожаное платье с запахом",
+          "bodyRu": "одежда: асимметричное рыже-коричневое кожаное платье с запахом и меховой мантией на плечах, многослойный утилитарный пояс, янтарная брошь, укреплённые наручи, сапоги до бедра с ремнями"
+        },
+        {
+          "id": "outfit-306",
+          "number": 306,
+          "title": "Dove-Grey Mantled Tunic",
+          "body": "clothes: dove-grey medieval ensemble with a short structured shoulder mantle attached to a diagonally wrapped knee-length tunic, silver mail sleeves, fitted dark trousers, pointed boots, pearl-and-moonstone clasp",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dove-grey-mantled-tunic.webp",
+          "gender": "female",
+          "titleRu": "Сизая туника с наплечной мантией",
+          "bodyRu": "одежда: сизый средневековый ансамбль с короткой структурированной наплечной мантией, соединённой с диагонально запахнутой туникой до колен, серебряные кольчужные рукава, облегающие тёмные брюки, остроносые сапоги, застёжка с жемчугом и лунным камнем"
+        },
+        {
+          "id": "outfit-307",
+          "number": 307,
+          "title": "Elven Leaf Jacket and Divided Skirt",
+          "body": "clothes: sage elven fitted short jacket with leaf-shaped shoulder panels over a silver pleated divided skirt with culotte construction, slender silver circlet, moonstone earrings, engraved belt, pale boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/elven-leaf-jacket-and-divided-skirt.webp",
+          "gender": "female",
+          "titleRu": "Эльфийский жакет с листьями и юбка-кюлоты",
+          "bodyRu": "одежда: короткий приталенный эльфийский жакет шалфейного цвета с наплечными панелями в форме листьев поверх серебристой плиссированной юбки-кюлотов, тонкий серебряный венец, серьги с лунным камнем, гравированный пояс, светлые сапоги"
+        },
+        {
+          "id": "outfit-308",
+          "number": 308,
+          "title": "Architectural Star Cape",
+          "body": "clothes: narrow black sleeveless column jumpsuit with two clearly separated straight trouser legs under an architectural wine-red cape with rigid standing shoulders, star embroidery and arm slits, ruby throat clasp, silver rings, pointed ankle boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/architectural-star-cape.webp",
+          "gender": "female",
+          "titleRu": "Архитектурный звёздный плащ",
+          "bodyRu": "одежда: узкий чёрный комбинезон-колонна без рукавов с двумя отчётливо разделёнными прямыми штанинами под архитектурным винно-красным плащом с жёсткими приподнятыми плечами, вышитыми звёздами и прорезями для рук, рубиновая застёжка у горла, серебряные кольца, остроносые ботильоны"
+        },
+        {
+          "id": "outfit-309",
+          "number": 309,
+          "title": "Royal Heraldic Chainmail",
+          "body": "clothes: cropped silver chainmail hauberk with an asymmetric navy heraldic shoulder cloak, armored pleated kilt over fitted dark leggings, leather bracers, heraldic belt pouch, short armored boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/royal-heraldic-chainmail.webp",
+          "gender": "female",
+          "titleRu": "Королевская геральдическая кольчуга",
+          "bodyRu": "одежда: укороченный серебряный кольчужный хауберк с асимметричным тёмно-синим геральдическим плащом на одном плече, бронированный плиссированный килт поверх облегающих тёмных легинсов, кожаные наручи, поясная сумка с гербом, короткие бронированные ботинки"
+        },
+        {
+          "id": "outfit-310",
+          "number": 310,
+          "title": "Falconer Princess",
+          "body": "clothes: forest-green split riding gown over fitted brown trousers, embroidered leather bodice, single silver pauldron, feather clasp, suede gloves, knee-high riding boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/falconer-princess.webp",
+          "gender": "female",
+          "titleRu": "Принцесса-сокольничая",
+          "bodyRu": "одежда: тёмно-зелёное разрезное платье для верховой езды поверх облегающих коричневых брюк, вышитый кожаный лиф, один серебряный наплечник, застёжка в форме пера, замшевые перчатки, высокие сапоги для верховой езды"
+        },
+        {
+          "id": "outfit-311",
+          "number": 311,
+          "title": "Dawn Paladin",
+          "body": "clothes: ivory tabard with sunburst embroidery over pale-gold chainmail, filigree chest guard, detachable white sleeves, topaz knee guards, cream cape, armored boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dawn-paladin.webp",
+          "gender": "female",
+          "titleRu": "Паладин рассвета",
+          "bodyRu": "одежда: табард цвета слоновой кости с вышивкой в виде солнечных лучей поверх светло-золотой кольчуги, филигранная нагрудная пластина, съёмные белые рукава, наколенники с топазами, кремовый плащ, бронированные сапоги"
+        },
+        {
+          "id": "outfit-312",
+          "number": 312,
+          "title": "Woodland Envoy",
+          "body": "clothes: moss velvet overdress over a linen undergown, acorn-pattern silver embroidery, wide draped sleeves, garnet earrings, braided belt, leaf-tooled boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/woodland-envoy.webp",
+          "gender": "female",
+          "titleRu": "Лесная посланница",
+          "bodyRu": "одежда: мшистое бархатное верхнее платье поверх льняного нижнего, серебряная вышивка с узором желудей, широкие драпированные рукава, гранатовые серьги, плетёный пояс, сапоги с тиснёными листьями"
+        },
+        {
+          "id": "outfit-313",
+          "number": 313,
+          "title": "Storm Scale Cuirass",
+          "body": "clothes: slate-blue scale cuirass with separate articulated shoulder guards over fitted charcoal trousers, silver wolf brooch, reinforced gloves, weathered armored boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/storm-scale-cuirass.webp",
+          "gender": "female",
+          "titleRu": "Штормовая чешуйчатая кираса",
+          "bodyRu": "одежда: серо-синяя чешуйчатая кираса с отдельными подвижно сочленёнными наплечниками поверх облегающих угольных брюк, серебряная брошь-волк, укреплённые перчатки, потёртые бронированные сапоги"
+        },
+        {
+          "id": "outfit-314",
+          "number": 314,
+          "title": "Tower Jewel Mage",
+          "body": "clothes: midnight-purple robe with a structured high collar, voluminous sleeves gathered at jeweled cuffs, crystal heart choker, silver constellation belt, pointed velvet boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/tower-jewel-mage.webp",
+          "gender": "female",
+          "titleRu": "Маг башни самоцветов",
+          "bodyRu": "одежда: полуночно-фиолетовая мантия с жёстким высоким воротником, объёмные рукава, собранные у украшенных камнями манжет, хрустальный чокер-сердце, серебряный пояс с созвездиями, остроносые бархатные сапоги"
+        },
+        {
+          "id": "outfit-315",
+          "number": 315,
+          "title": "Burgundy Side-Saddle Cape Dress",
+          "body": "clothes: burgundy side-saddle cape dress with a fitted sleeveless bodice, single asymmetric shoulder cape and full circular calf-length skirt, pearl drop earrings, jeweled girdle, low court shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/burgundy-side-saddle-cape-dress.webp",
+          "gender": "female",
+          "titleRu": "Бордовое платье-пелерина для дамского седла",
+          "bodyRu": "одежда: бордовое платье-пелерина для дамского седла с приталенным лифом без рукавов, одной асимметричной наплечной пелериной и пышной юбкой-солнце до середины икры, жемчужные серьги-капли, украшенный камнями пояс, туфли-лодочки на низком каблуке"
+        },
+        {
+          "id": "outfit-316",
+          "number": 316,
+          "title": "Silverwood Archer Coat",
+          "body": "clothes: ash-grey hooded leather archer coat over a short belted teal tunic and fitted charcoal leggings, silver leaf clasps, practical belt pouches, tall field boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/silverwood-archer-coat.webp",
+          "gender": "female",
+          "titleRu": "Лучница Серебряного леса",
+          "bodyRu": "одежда: пепельно-серое кожаное пальто лучницы с капюшоном поверх короткой бирюзовой туники с поясом и облегающих угольных леггинсов, серебряные застёжки-листья, практичные поясные сумки, высокие походные сапоги"
+        },
+        {
+          "id": "outfit-317",
+          "number": 317,
+          "title": "Winter Court Regent",
+          "body": "clothes: ice-blue brocade gown with a white fur-trimmed mantle, silver filigree gorget, detachable bell sleeves, aquamarine earrings, crystal belt clasp, pale boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/winter-court-regent.webp",
+          "gender": "female",
+          "titleRu": "Регент зимнего двора",
+          "bodyRu": "одежда: ледяно-голубое парчовое платье с белой мантией, отделанной мехом, серебряное филигранное оплечье, съёмные рукава-колокола, серьги с аквамаринами, хрустальная пряжка пояса, светлые сапоги"
+        },
+        {
+          "id": "outfit-318",
+          "number": 318,
+          "title": "Azure Farthingale Veil",
+          "body": "clothes: cone-shaped azure farthingale beneath a rigid square-neck bodice, slashed fitted sleeves, pearl-beaded veil, golden circlet, sapphire brooch",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/azure-farthingale-veil.webp",
+          "gender": "female",
+          "titleRu": "Лазурный фартингейл с вуалью",
+          "bodyRu": "одежда: конусообразный лазурный фартингейл под жёстким лифом с квадратным вырезом, облегающие прорезные рукава, расшитая жемчугом вуаль, золотой венец, сапфировая брошь"
+        },
+        {
+          "id": "outfit-319",
+          "number": 319,
+          "title": "Black Gold Riding Jacket",
+          "body": "clothes: fitted asymmetric black-and-gold riding jacket with pagoda shoulders over narrow knee breeches, tall button boots, detachable short back bustle panel, high collar, gold embroidery",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/black-gold-riding-jacket.webp",
+          "gender": "female",
+          "titleRu": "Чёрно-золотой жакет для верховой езды",
+          "bodyRu": "одежда: приталенный асимметричный чёрно-золотой жакет для верховой езды с плечами-пагодами поверх узких бриджей до колена, высокие сапоги на пуговицах, съёмная короткая панель-турнюр сзади, высокий воротник, золотая вышивка"
+        },
+        {
+          "id": "outfit-320",
+          "number": 320,
+          "title": "Hellenic Purple Shawl",
+          "body": "clothes: flowing white Hellenic wrap dress with a floor-length pleated skirt, purple draped shawl fastened by a silver brooch, silver hoop earrings, embroidered sandals",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/hellenic-purple-shawl.webp",
+          "gender": "female",
+          "titleRu": "Эллинская пурпурная шаль",
+          "bodyRu": "одежда: струящееся белое эллинское платье с запахом и плиссированной юбкой в пол, пурпурная драпированная шаль с серебряной брошью, серебряные серьги-кольца, вышитые сандалии"
+        },
+        {
+          "id": "outfit-321",
+          "number": 321,
+          "title": "Burgundian Funnel-Sleeve Gown",
+          "body": "clothes: high-waisted burgundy Burgundian gown with a deep V panel over a modest ivory inset, trailing funnel sleeves, broad gold belt, fine black embroidery",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/burgundian-funnel-sleeve-gown.webp",
+          "gender": "female",
+          "titleRu": "Бургундское платье с воронкообразными рукавами",
+          "bodyRu": "одежда: бордовое бургундское платье с завышенной талией, глубоким V-образным верхним полотнищем поверх скромной вставки цвета слоновой кости, длинными шлейфовыми рукавами-воронками, широким золотым поясом и тонкой чёрной вышивкой"
+        },
+        {
+          "id": "outfit-322",
+          "number": 322,
+          "title": "Blue Victorian Riding Habit",
+          "body": "clothes: Victorian riding habit with a fitted white asymmetric high-low jacket and narrow sleeves over a straight ankle-length blue skirt, small matching hat, blue button boots, lace parasol",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/blue-victorian-riding-habit.webp",
+          "gender": "female",
+          "titleRu": "Синий викторианский костюм для верховой езды",
+          "bodyRu": "одежда: викторианский костюм для верховой езды с приталенным белым асимметричным жакетом разной длины спереди и сзади и узкими рукавами поверх прямой синей юбки до щиколотки, маленькая шляпа в тон, синие ботинки на пуговицах, кружевной зонт"
+        },
+        {
+          "id": "outfit-323",
+          "number": 323,
+          "title": "Midnight Rose Court",
+          "body": "clothes: dark blue fitted court gown with an off-shoulder neckline, black velvet sleeves, layered asymmetrical skirt, white rose appliques, beaded waist chains, sapphire earrings",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/midnight-rose-court.webp",
+          "gender": "female",
+          "titleRu": "Полуночный двор роз",
+          "bodyRu": "одежда: приталенное тёмно-синее придворное платье с открытой линией плеч, чёрные бархатные рукава, многослойная асимметричная юбка, аппликации белых роз, бисерные цепочки на талии, сапфировые серьги"
+        },
+        {
+          "id": "outfit-324",
+          "number": 324,
+          "title": "Ivory Lace Tabard Tailoring",
+          "body": "clothes: ivory lace batwing cape blouse tucked into tailored high-waisted tapered trousers with long sleeveless tabard panels at front and back, pearl earrings, white button boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ivory-lace-tabard-tailoring.webp",
+          "gender": "female",
+          "titleRu": "Кружевной табард с рукавами летучая мышь",
+          "bodyRu": "одежда: кружевная блуза-пелерина цвета слоновой кости с рукавами летучая мышь, заправленная в классические зауженные брюки с высокой посадкой и длинными панелями табарда без рукавов спереди и сзади, жемчужные серьги, белые ботинки на пуговицах"
+        },
+        {
+          "id": "outfit-325",
+          "number": 325,
+          "title": "Cape-Sleeve Blouse and Tailored Culottes",
+          "body": "clothes: white broad cape-sleeve blouse with a structured blue underbust waist belt and asymmetric red-and-black tailored culottes, small top hat, black court shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cape-sleeve-blouse-and-tailored-culottes.webp",
+          "gender": "female",
+          "titleRu": "Блуза с рукавами-пелеринами и классические кюлоты",
+          "bodyRu": "одежда: белая блуза с широкими рукавами-пелеринами, структурированный синий пояс под грудью и асимметричные красно-чёрные классические кюлоты, маленький цилиндр, чёрные придворные туфли"
+        },
+        {
+          "id": "outfit-326",
+          "number": 326,
+          "title": "Pastel Handkerchief Court",
+          "body": "clothes: pastel pink, butter-yellow and lilac satin gown with a jeweled pointed corset bodice, spaghetti straps and a flowing A-line skirt of cascading asymmetrical handkerchief layers over an ivory floral-lace hem, pearl-and-crystal shoulder drapes, layered pearl chokers, crescent pendant, crystal drop earrings",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pastel-handkerchief-court.webp",
+          "gender": "female",
+          "titleRu": "Пастельное придворное платье с платочными ярусами",
+          "bodyRu": "одежда: атласное платье пастельно-розового, сливочно-жёлтого и сиреневого цветов с украшенным камнями корсетным лифом, заострённой талией и тонкими бретелями, струящаяся юбка А-силуэта из каскадных асимметричных платочных ярусов поверх подола из цветочного кружева цвета слоновой кости, жемчужно-хрустальные нити на плечах, многослойные жемчужные чокеры, подвеска-полумесяц, хрустальные серьги-капли"
+        },
+        {
+          "id": "outfit-327",
+          "number": 327,
+          "title": "Blush Wildflower Train",
+          "body": "clothes: blush-pink off-shoulder gown with an embroidered corset bodice, detachable tiered puff sleeves, oversized floral-embroidered chiffon bows and a full translucent A-line skirt with cascading side drapes, a wide gathered ruffle hem and sweeping wildflower-embroidered train",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/blush-wildflower-train.webp",
+          "gender": "female",
+          "titleRu": "Пудровый шлейф с полевыми цветами",
+          "bodyRu": "одежда: пудрово-розовое платье с открытой линией плеч, вышитым корсетным лифом и съёмными многоярусными пышными рукавами, крупные шифоновые банты с цветочной вышивкой, пышная полупрозрачная юбка А-силуэта с каскадными боковыми драпировками, широким присборенным воланом по подолу и длинным шлейфом, расшитым полевыми цветами"
+        },
+        {
+          "id": "outfit-328",
+          "number": 328,
+          "title": "Forest Velvet Wing Cape",
+          "body": "clothes: strapless ivory corset gown with a lace-ruffled neckline, a sculptural multicolored floral garland circling the waist and forming cap sleeves, narrow forest-green velvet column skirt with a flared train, oversized ivory organza wing cape with botanical embroidery, red satin opera gloves, velvet choker, antique-gold necklace, floral earrings, silver hand chain",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/forest-velvet-wing-cape.webp",
+          "gender": "female",
+          "titleRu": "Лесной бархат с крылатой накидкой",
+          "bodyRu": "одежда: платье с корсетным лифом цвета слоновой кости без бретелей и кружевной оборкой у выреза, объёмная разноцветная цветочная гирлянда вокруг талии и на плечах, узкая юбка-колонна из тёмно-зелёного бархата с расклёшенным шлейфом, огромная накидка-крылья из органзы цвета слоновой кости с ботанической вышивкой, красные атласные оперные перчатки, бархатный чокер, ожерелье под старинное золото, цветочные серьги, серебряная цепочка на руку"
+        },
+        {
+          "id": "outfit-329",
+          "number": 329,
+          "title": "Ivory Constellation Petals",
+          "body": "clothes: ivory off-shoulder celestial gown with a fitted illusion bodice, detached draped sleeves and a gold-edged overskirt split into long petal panels and sweeping tails over a full midnight-blue starfield underskirt, gold floral back ornament, celestial choker, star earrings, constellation waist chains, pointed-cuff gloves, trailing gold hairpiece",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ivory-constellation-petals.webp",
+          "gender": "female",
+          "titleRu": "Лепестки цвета слоновой кости с созвездиями",
+          "bodyRu": "одежда: небесное платье цвета слоновой кости с открытой линией плеч, приталенным лифом с прозрачными вставками и отдельными драпированными рукавами, верхняя юбка с золотой окантовкой разделена на длинные лепестковые полотнища и шлейфовые хвосты поверх пышной тёмно-синей юбки со звёздами, золотое цветочное украшение на спине, небесный чокер, серьги-звёзды, поясные цепочки с созвездиями, перчатки с заострёнными манжетами, золотое украшение для волос с подвесками"
+        },
+        {
+          "id": "outfit-330",
+          "number": 330,
+          "title": "Blush Butterfly Side Train",
+          "body": "clothes: blush-pink off-shoulder butterfly gown with a fitted corset bodice, broad organza flutter-ruffle sleeves and an oversized translucent butterfly at one shoulder, softly draped column skirt with diagonal hip pleats and a sheer asymmetrical side train, floral-vine embroidery, crystal butterflies, sheer embroidered opera gloves, butterfly choker, hairpins and earrings",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/blush-butterfly-side-train.webp",
+          "gender": "female",
+          "titleRu": "Пудровая бабочка с боковым шлейфом",
+          "bodyRu": "одежда: пудрово-розовое платье-бабочка с открытой линией плеч, приталенным корсетным лифом и широкими рукавами-крылышками из органзы, крупная полупрозрачная бабочка на одном плече, мягкая юбка-колонна с диагональными складками на бёдрах и прозрачным асимметричным боковым шлейфом, вышитые цветочные лозы и хрустальные бабочки, прозрачные вышитые оперные перчатки, чокер, заколки и серьги с бабочками"
+        },
+        {
+          "id": "outfit-331",
+          "number": 331,
+          "title": "Marigold Flame Mermaid",
+          "body": "clothes: marigold-orange one-shoulder mermaid gown with a densely ruched satin bodice, jeweled thigh slit and fitted hips, sculptural orange-gold flowers cascading from shoulder to hip, extravagant flame-colored chiffon flounces opening below the knees into a cathedral train, amber earrings, gold vine armlet, floral hand chain, gold ankle-strap heels",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/marigold-flame-mermaid.webp",
+          "gender": "female",
+          "titleRu": "Бархатцевое пламя силуэта «русалка»",
+          "bodyRu": "одежда: бархатцево-оранжевое платье силуэта «русалка» на одно плечо с густо задрапированным атласным лифом, облегающими бёдрами и высоким разрезом с камнями, скульптурные оранжево-золотые цветы каскадом от плеча к бедру, пышные шифоновые воланы оттенков пламени раскрываются ниже колен и переходят в соборный шлейф, янтарные серьги, золотой наруч в виде лозы, цветочная цепочка на руку, золотые туфли с ремешками"
+        },
+        {
+          "id": "outfit-332",
+          "number": 332,
+          "title": "Forest Bow Dome",
+          "body": "clothes: ivory-and-forest-green princess gown with a lace-ruffled sweetheart bodice, long translucent bishop sleeves with flared cuffs and an enormous structured green bow at the waist, ultra-wide hoop-supported dome skirt with dense ivory folds beneath sweeping asymmetrical green organza panels and a vast cathedral train, floral-vine embroidery",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/forest-bow-dome.webp",
+          "gender": "female",
+          "titleRu": "Лесной бант и купольная юбка",
+          "bodyRu": "одежда: платье принцессы цвета слоновой кости и тёмной зелени с лифом-сердцем в кружевных оборках, длинными полупрозрачными рукавами-епископ с расклёшенными манжетами и огромным жёстким зелёным бантом на талии, сверхширокая купольная юбка на обручах с густыми складками цвета слоновой кости под асимметричными зелёными полотнищами из органзы и обширным соборным шлейфом, вышитые цветы и лозы"
+        },
+        {
+          "id": "outfit-333",
+          "number": 333,
+          "title": "Periwinkle Ribbon Constellations",
+          "body": "clothes: periwinkle and silver-lilac gown with a sculpted sweetheart corset, cape-draped shoulders and sheer cold-shoulder bishop sleeves, overlapping leaf-shaped waist panels and a crystal-flower centerpiece, weightless ombre A-line skirt with transparent overskirt ribbons curling around the train, floral constellations, crystal crown, layered necklace, star earrings, arm drapes, hand chain, floral heels",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/periwinkle-ribbon-constellations.webp",
+          "gender": "female",
+          "titleRu": "Барвинковые ленты созвездий",
+          "bodyRu": "одежда: барвинково-сиреневое платье с фигурным корсетом и вырезом-сердцем, драпировками-пелеринами на плечах и прозрачными рукавами-епископ с вырезами, перекрывающиеся листовидные панели на талии и хрустальный цветок, невесомая градиентная юбка А-силуэта с прозрачными верхними полотнищами, закрученными лентами вокруг шлейфа, цветочные созвездия, хрустальная корона, многослойное колье, серьги-звёзды, плечевые цепочки, цепочка на руку, туфли с цветочными камнями"
+        },
+        {
+          "id": "outfit-334",
+          "number": 334,
+          "title": "Sapphire Star Slit",
+          "body": "clothes: midnight-blue celestial gown with an off-shoulder plunging corset, sharply pointed basque waist and long translucent sapphire cape sleeves, fitted hips wrapped in asymmetrical folds, fluid gradient skirt with a jeweled thigh slit and semi-sheer starfield train, crescent forehead ornament, crystal face chains, constellation necklace, star earrings, arm chains, hand jewelry",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sapphire-star-slit.webp",
+          "gender": "female",
+          "titleRu": "Сапфировый звёздный разрез",
+          "bodyRu": "одежда: небесное платье полуночно-синего цвета с глубоким корсетным лифом, открытой линией плеч, резко заострённой баскской талией и длинными полупрозрачными сапфировыми рукавами-накидками, облегающие бёдра обёрнуты асимметричными складками, струящаяся градиентная юбка с высоким разрезом, украшенным камнями, и полупрозрачным звёздным шлейфом, налобный полумесяц, хрустальные цепочки для лица, ожерелье-созвездие, серьги-звёзды, цепочки на руки"
+        },
+        {
+          "id": "outfit-335",
+          "number": 335,
+          "title": "Peacock Star Dome",
+          "body": "clothes: peacock-blue fantasy ball gown with a square-neck corset and sharply pointed basque waist, enormous striped leg-of-mutton sleeves tapering into fitted glove sleeves, exceptionally full dome skirt of overlapping midnight, teal, emerald and aqua organza layers, scattered silver starbursts and iridescent sequins",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/peacock-star-dome.webp",
+          "gender": "female",
+          "titleRu": "Павлиний звёздный купол",
+          "bodyRu": "одежда: павлинье-синее бальное платье с корсетным лифом, квадратным вырезом и резко заострённой баскской талией, огромные полосатые рукава-жиго сужаются к длинным облегающим рукавам-перчаткам, исключительно пышная купольная юбка из перекрывающихся слоёв органзы полуночного синего, бирюзового, изумрудного и цвета аква, серебряные звёздные вспышки и переливающиеся пайетки"
+        },
+        {
+          "id": "outfit-336",
+          "number": 336,
+          "title": "Powder Rose Crinoline",
+          "body": "clothes: powder-blue rose-print princess gown with a fitted sweetheart corset, short high-rising organza puff sleeves and an oversized back bow, immense circular cage-crinoline skirt expanding directly from the waist in cloud-like tulle layers, billowing side swags, cascading ruffles, wide gathered hem flounce and a floor-spreading train, petite tiara, floral lace eye mask, rose choker, silver bracelet",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/powder-rose-crinoline.webp",
+          "gender": "female",
+          "titleRu": "Пудрово-голубой кринолин с розами",
+          "bodyRu": "одежда: пудрово-голубое платье принцессы с принтом роз, приталенным корсетом с вырезом-сердцем, короткими высокими рукавами-фонариками из органзы и огромным бантом сзади, необъятная круглая юбка на клеточном кринолине расходится прямо от талии облачными слоями фатина, боковыми буфами, каскадными оборками, широким присборенным воланом и расстилающимся по полу шлейфом, миниатюрная тиара, цветочная кружевная маска, чокер с розой, серебряный браслет"
+        },
+        {
+          "id": "outfit-337",
+          "number": 337,
+          "title": "Apple Green Pickup Gown",
+          "body": "clothes: apple-green satin ankle-length empire gown with a lace-ruffled square neckline, short rounded puff sleeves and a broad ivory sash, full skirt gathered into multiple bow-secured pickups revealing a voluminous tiered ivory flounce underskirt, lace choker, layered pearls, floral hair ribbons, pearl bracelet, ivory ankle socks, pearl-trimmed Mary Jane heels",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/apple-green-pickup-gown.webp",
+          "gender": "female",
+          "titleRu": "Яблочно-зелёное платье с подхватами",
+          "bodyRu": "одежда: яблочно-зелёное атласное платье до щиколотки с завышенной талией, квадратным вырезом в кружевных оборках, короткими округлыми рукавами-фонариками и широким поясом цвета слоновой кости, пышная юбка собрана в нескольких точках маленькими бантами, открывая объёмную нижнюю юбку с многоярусными светлыми воланами, кружевной чокер, многослойный жемчуг, цветочные ленты для волос, жемчужный браслет, светлые носки, туфли Мэри Джейн с жемчужной отделкой"
+        }
+      ]
+    },
+    {
+      "id": "gothic-lolita",
+      "name": "Gothic & Lolita",
+      "nameRu": "Готика и лолита",
+      "description": "Frilled dresses, dark romance, ornate doll styling",
+      "descriptionRu": "Платья с оборками, тёмная романтика, нарядный кукольный стиль",
+      "prompts": [
+        {
+          "id": "outfit-338",
+          "number": 338,
+          "title": "White Sailor Trumpet",
+          "body": "clothes: white sailor-inspired cape blouse with a broad square back collar tucked into a high-waisted navy trumpet midi skirt, ribbon headband, white knee socks, cross-laced shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/white-sailor-trumpet.webp",
+          "gender": "female",
+          "titleRu": "Белый матросский силуэт с юбкой-годе",
+          "bodyRu": "одежда: белая блуза-пелерина в матросском стиле с широким квадратным воротником на спине, заправленная в тёмно-синюю юбку-годе миди с высокой талией, ленточный ободок, белые гольфы, туфли с перекрёстной шнуровкой"
+        },
+        {
+          "id": "outfit-339",
+          "number": 339,
+          "title": "Chestnut Capelet Lolita",
+          "body": "clothes: white blouse with puff sleeves beneath a chestnut frilled capelet, brown pleated skirt with lace trim, cream bows, lace-trimmed leg warmers, heeled boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/chestnut-capelet-lolita.webp",
+          "gender": "female",
+          "titleRu": "Лолита с каштановой пелериной",
+          "bodyRu": "одежда: белая блуза с пышными рукавами под каштановой пелериной с оборками, коричневая плиссированная юбка с кружевной отделкой, кремовые банты, гетры с кружевом, ботинки на каблуке"
+        },
+        {
+          "id": "outfit-340",
+          "number": 340,
+          "title": "Black Rose Empire Overdress",
+          "body": "clothes: sleeveless black empire mourning overdress over narrow fitted lace sleeves, straight ankle-length skirt, short shoulder veil, rose appliques, grey patterned tights, ribboned platform shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/black-rose-empire-overdress.webp",
+          "gender": "female",
+          "titleRu": "Траурное верхнее платье ампир с чёрными розами",
+          "bodyRu": "одежда: чёрное траурное верхнее платье без рукавов в стиле ампир поверх узких облегающих кружевных рукавов, прямая юбка до щиколотки, короткая плечевая вуаль, аппликации роз, серые узорчатые колготки, туфли на платформе с лентами"
+        },
+        {
+          "id": "outfit-341",
+          "number": 341,
+          "title": "Pink Hooded Winter Coat",
+          "body": "clothes: fitted soft-pink knit jumper dress under a long fur-trimmed hooded coat, pom-pom ties, opaque white tights, pink bow boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pink-hooded-winter-coat.webp",
+          "gender": "female",
+          "titleRu": "Розовое зимнее пальто с капюшоном",
+          "bodyRu": "одежда: приталенное нежно-розовое трикотажное платье-джемпер под длинным пальто с меховой отделкой и капюшоном, завязки с помпонами, плотные белые колготки, розовые сапоги с бантами"
+        },
+        {
+          "id": "outfit-342",
+          "number": 342,
+          "title": "Crimson Corset Culottes",
+          "body": "clothes: cropped black corset jacket with fitted crimson sleeves over voluminous knee-length culottes, opaque tights, pointed ankle boots, black gloves, red rose neck ribbon",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/crimson-corset-culottes.webp",
+          "gender": "female",
+          "titleRu": "Багряный корсетный жакет с кюлотами",
+          "bodyRu": "одежда: укороченный чёрный корсетный жакет с облегающими багряными рукавами поверх объёмных кюлотов до колена, плотные колготки, остроносые ботильоны, чёрные перчатки, шейная лента с красной розой"
+        },
+        {
+          "id": "outfit-343",
+          "number": 343,
+          "title": "Rabbit-Eared Bolero and A-Line Dress",
+          "body": "clothes: short sculptural rabbit-eared hooded bolero over a tailored white A-line midi dress with fitted sleeves, ribbon ties, pink knee boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/rabbit-eared-bolero-and-a-line-dress.webp",
+          "gender": "female",
+          "titleRu": "Болеро с кроличьими ушками и платье А-силуэта",
+          "bodyRu": "одежда: короткое скульптурное болеро с капюшоном и кроличьими ушками поверх скроенного по фигуре белого платья миди А-силуэта с облегающими рукавами, ленточные завязки, розовые сапоги до колен"
+        },
+        {
+          "id": "outfit-344",
+          "number": 344,
+          "title": "Crystal Military Bell Skirt",
+          "body": "clothes: cropped black military jacket with structured shoulders over a bell-shaped white suspender skirt, black bow set with a pink crystal, striped tights, platform loafers",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/crystal-military-bell-skirt.webp",
+          "gender": "female",
+          "titleRu": "Военный жакет с юбкой-колоколом и кристаллом",
+          "bodyRu": "одежда: укороченный чёрный военный жакет со структурированными плечами поверх белой юбки-колокола на бретелях, чёрный бант с розовым кристаллом, полосатые колготки, лоферы на платформе"
+        },
+        {
+          "id": "outfit-345",
+          "number": 345,
+          "title": "Monochrome Sailor Jumpsuit",
+          "body": "clothes: one-piece fitted black-and-white sailor jumpsuit with integrated striped bishop sleeves, a square neckline, wide full-length legs and an asymmetric pink waist drape, matching hair ribbon, black platform shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/monochrome-sailor-jumpsuit.webp",
+          "gender": "female",
+          "titleRu": "Монохромный матросский комбинезон",
+          "bodyRu": "одежда: цельнокроеный приталенный чёрно-белый комбинезон в матросском стиле со встроенными полосатыми епископскими рукавами, квадратным вырезом, широкими штанинами полной длины и асимметричной розовой драпировкой на талии, лента для волос в тон, чёрные туфли на платформе"
+        },
+        {
+          "id": "outfit-346",
+          "number": 346,
+          "title": "Violet Witch Lolita",
+          "body": "clothes: dark purple high-neck dress with a full lace-trimmed skirt, star-print capelet, bell-shaped witch hat, striped tights, lace gloves, black lace-up boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/violet-witch-lolita.webp",
+          "gender": "female",
+          "titleRu": "Фиолетовая ведьма-лолита",
+          "bodyRu": "одежда: тёмно-фиолетовое платье с высоким воротником и пышной юбкой с кружевной отделкой, пелерина со звёздным принтом, ведьминская шляпа в форме колокола, полосатые колготки, кружевные перчатки, чёрные ботинки на шнуровке"
+        },
+        {
+          "id": "outfit-347",
+          "number": 347,
+          "title": "Porcelain Mourning Doll",
+          "body": "clothes: charcoal high-collar dress with rows of black pintucks, full calf-length skirt, lace wrist cuffs, cameo brooch, miniature veil headpiece, buttoned ankle boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/porcelain-mourning-doll.webp",
+          "gender": "female",
+          "titleRu": "Фарфоровая траурная кукла",
+          "bodyRu": "одежда: угольное платье с высоким воротником и рядами чёрных защипов, пышная юбка до середины икры, кружевные манжеты, брошь-камея, миниатюрная вуаль, ботильоны на пуговицах"
+        },
+        {
+          "id": "outfit-348",
+          "number": 348,
+          "title": "Emerald Cathedral Waistcoat",
+          "body": "clothes: emerald cathedral-inspired sleeveless fitted waistcoat with an elongated pointed front over a black high-neck blouse with narrow sleeves and a rigid circular knee-length skirt, antique-silver collar chain, rose headband, velvet strap shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/emerald-cathedral-waistcoat.webp",
+          "gender": "female",
+          "titleRu": "Изумрудный жилет в соборном стиле",
+          "bodyRu": "одежда: приталенный изумрудный жилет без рукавов в соборном стиле с удлинённым заострённым передом поверх чёрной блузы с высоким воротником и узкими рукавами, жёсткая круглая юбка до колен, воротниковая цепочка из состаренного серебра, ободок с розами, бархатные туфли с ремешками"
+        },
+        {
+          "id": "outfit-349",
+          "number": 349,
+          "title": "Navy Clockwork Waistcoat Dress",
+          "body": "clothes: navy clockwork waistcoat dress with a bustle back and structured short overskirt over a fitted knee-length underskirt, cream ruffled bib, gear-shaped brooch, decorative mechanical knee braces, lace-up ankle boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/navy-clockwork-waistcoat-dress.webp",
+          "gender": "female",
+          "titleRu": "Тёмно-синее платье-жилет заводной куклы",
+          "bodyRu": "одежда: тёмно-синее платье-жилет в стиле часового механизма с турнюром сзади и структурированной короткой верхней юбкой поверх облегающей нижней юбки до колена, кремовое жабо, брошь в форме шестерёнки, декоративные механические коленные фиксаторы, ботильоны на шнуровке"
+        },
+        {
+          "id": "outfit-350",
+          "number": 350,
+          "title": "Wine Batwing Bubble Dress",
+          "body": "clothes: cropped wine-red batwing jacket over a black bubble-hem knee dress, velvet neck bow, rose brooch, opaque tights, black buckle shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/wine-batwing-bubble-dress.webp",
+          "gender": "female",
+          "titleRu": "Винный жакет с рукавами летучая мышь",
+          "bodyRu": "одежда: укороченный винно-красный жакет с рукавами летучая мышь поверх чёрного платья до колена с подолом-баллоном, бархатный бант на шее, брошь-роза, плотные колготки, чёрные туфли с пряжками"
+        },
+        {
+          "id": "outfit-351",
+          "number": 351,
+          "title": "Moonlit Bolero Sailor Trousers",
+          "body": "clothes: pearl-grey crescent bolero with structured pointed sleeves over a black high-waisted sailor-trouser ensemble, moon hair comb, silver-button boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/moonlit-bolero-sailor-trousers.webp",
+          "gender": "female",
+          "titleRu": "Лунное болеро с матросскими брюками",
+          "bodyRu": "одежда: жемчужно-серое болеро с полумесяцами и структурированными остроконечными рукавами поверх чёрного ансамбля с матросскими брюками с высокой посадкой, гребень для волос с луной, сапоги с серебряными пуговицами"
+        },
+        {
+          "id": "outfit-352",
+          "number": 352,
+          "title": "Ivory Chapel Overcoat",
+          "body": "clothes: sleeveless ivory chapel overcoat worn fully open, with a pointed shoulder-cape yoke framing a black blouse with dramatic bell sleeves and extremely wide floor-length palazzo trousers with two visibly separated legs, black ribbon lattice, black floral bonnet, two-tone Mary Jane shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ivory-chapel-overcoat.webp",
+          "gender": "female",
+          "titleRu": "Накидка-пальто цвета слоновой кости",
+          "bodyRu": "одежда: распахнутое пальто-накидка без рукавов цвета слоновой кости в стиле часовни с остроконечной кокеткой-пелериной на плечах, обрамляющей чёрную блузу с выразительными рукавами-колоколами и очень широкие брюки-палаццо в пол с двумя отчётливо разделёнными штанинами, решётка из чёрных лент, чёрный цветочный чепец, двухцветные туфли Мэри Джейн"
+        }
+      ]
+    },
+    {
+      "id": "ethereal",
+      "name": "Ethereal & Fairy",
+      "nameRu": "Эфирное и сказочное",
+      "description": "Wings, starlight, butterflies, enchanted color",
+      "descriptionRu": "Крылья, звёздный свет, бабочки, волшебные оттенки",
+      "prompts": [
+        {
+          "id": "outfit-353",
+          "number": 353,
+          "title": "Twilight Butterfly",
+          "body": "clothes: white off-shoulder blouse with layered flared sleeves and embroidered butterflies, floor-length dark purple skirt, ornamental silver belt, violet gloves, floral hair comb",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/twilight-butterfly.webp",
+          "gender": "female",
+          "titleRu": "Сумеречная бабочка",
+          "bodyRu": "одежда: белая блуза с открытой линией плеч, многослойными расклёшенными рукавами и вышитыми бабочками, тёмно-фиолетовая юбка в пол, декоративный серебряный пояс, фиолетовые перчатки, цветочный гребень для волос"
+        },
+        {
+          "id": "outfit-354",
+          "number": 354,
+          "title": "Midnight Dragon-Scale Cuirass",
+          "body": "clothes: cropped dark-blue dragon-scale cuirass with sculptural hip plates over midnight balloon trousers, separate floor-length cape, gold embroidery, black horned floral headpiece, blue tassel earrings, armored knee boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/midnight-dragon-scale-cuirass.webp",
+          "gender": "female",
+          "titleRu": "Полуночная кираса из драконьей чешуи",
+          "bodyRu": "одежда: укороченная тёмно-синяя кираса из драконьей чешуи со скульптурными набедренными пластинами поверх полуночных брюк-баллонов, отдельный плащ в пол, золотая вышивка, чёрный рогатый головной убор с мелкими цветами, синие серьги-кисти, бронированные сапоги до колена"
+        },
+        {
+          "id": "outfit-355",
+          "number": 355,
+          "title": "Pearl Celestial Jumpsuit",
+          "body": "clothes: pearl-white one-legged draped celestial jumpsuit with a modest fitted bodice, pale-blue star embroidery, floating sleeve panels, layered star necklace, silver slippers",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pearl-celestial-jumpsuit.webp",
+          "gender": "female",
+          "titleRu": "Жемчужный небесный комбинезон",
+          "bodyRu": "одежда: жемчужно-белый драпированный небесный комбинезон с одной штаниной и скромным приталенным лифом, бледно-голубая вышивка звёзд, парящие полотнища рукавов, многослойное ожерелье со звёздами, серебряные туфли"
+        },
+        {
+          "id": "outfit-356",
+          "number": 356,
+          "title": "Orchid Petal Tailcoat",
+          "body": "clothes: short structured dark-blue petal bodice over wide opaque midnight palazzo trousers, long split back train, pale-blue orchid appliques, star brooch, gold-trimmed shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/orchid-petal-tailcoat.webp",
+          "gender": "female",
+          "titleRu": "Орхидейный лиф-лепесток со шлейфом",
+          "bodyRu": "одежда: короткий структурированный тёмно-синий лиф-лепесток поверх широких непрозрачных брюк-палаццо полуночного цвета, длинный раздвоенный задний шлейф, аппликации бледно-голубых орхидей, брошь-звезда, туфли с золотой отделкой"
+        },
+        {
+          "id": "outfit-357",
+          "number": 357,
+          "title": "Violet Ribbon Dance Tunic",
+          "body": "clothes: asymmetric white-and-violet dance tunic with gold trim over fitted opaque leggings, pale-blue sash, floating shoulder panels, golden collar necklace, ribbon-wrapped violet boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/violet-ribbon-dance-tunic.webp",
+          "gender": "female",
+          "titleRu": "Фиолетовая танцевальная туника с лентами",
+          "bodyRu": "одежда: асимметричная бело-фиолетовая танцевальная туника с золотой отделкой поверх облегающих непрозрачных леггинсов, бледно-голубой пояс, парящие наплечные полотнища, золотое воротниковое ожерелье, фиолетовые сапоги, обвитые лентами"
+        },
+        {
+          "id": "outfit-358",
+          "number": 358,
+          "title": "Rose and Azure Pleated Tabard",
+          "body": "clothes: rose-pink sleeveless asymmetric tabard with a silver high collar over extremely wide gradient-blue pleated palazzo trousers, long silver gloves, pointed shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/rose-and-azure-pleated-tabard.webp",
+          "gender": "female",
+          "titleRu": "Розово-лазурный плиссированный табард",
+          "bodyRu": "одежда: асимметричный розовый табард без рукавов с высоким серебряным воротником поверх очень широких градиентно-синих плиссированных брюк-палаццо, длинные серебряные перчатки, остроносые туфли"
+        },
+        {
+          "id": "outfit-359",
+          "number": 359,
+          "title": "Golden Star Herald",
+          "body": "clothes: warm yellow lace-up bodice over an ivory blouse with detached puff sleeves, white tailored shorts beneath a long constellation-print tailcoat, star-shaped belt clasp, gold boots, blue gem earrings",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/golden-star-herald.webp",
+          "gender": "female",
+          "titleRu": "Золотая вестница звёзд",
+          "bodyRu": "одежда: тёплый жёлтый лиф на шнуровке поверх блузы цвета слоновой кости со съёмными пышными рукавами, белые классические шорты под длинным фраком с принтом созвездий, пряжка пояса в форме звезды, золотые сапоги, серьги с синими камнями"
+        },
+        {
+          "id": "outfit-360",
+          "number": 360,
+          "title": "Iridescent Fairy Jacket and Harem Trousers",
+          "body": "clothes: orange cropped fitted jacket with embroidered cuffs, pale-blue high-waisted harem trousers gathered at the ankles, iridescent pale-blue fairy wings, floral tiara, pearl ankle boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/iridescent-fairy-jacket-and-harem-trousers.webp",
+          "gender": "female",
+          "titleRu": "Переливчатая фея в жакете и шароварах",
+          "bodyRu": "одежда: укороченный приталенный оранжевый жакет с вышитыми манжетами, бледно-голубые шаровары с высокой посадкой и сборкой у щиколоток, переливчатые бледно-голубые крылья феи, цветочная тиара, жемчужные ботильоны"
+        },
+        {
+          "id": "outfit-361",
+          "number": 361,
+          "title": "Bluebell Fairy Court",
+          "body": "clothes: pale-blue high-neck dress with a petal-layered midi skirt, long fitted gloves, silver tiara, translucent blue fairy wings, crystal belt, silver platform shoes",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bluebell-fairy-court.webp",
+          "gender": "female",
+          "titleRu": "Фея двора колокольчиков",
+          "bodyRu": "одежда: бледно-голубое платье с высоким воротником и юбкой миди из слоёв-лепестков, длинные облегающие перчатки, серебряная тиара, полупрозрачные голубые крылья феи, хрустальный пояс, серебряные туфли на платформе"
+        },
+        {
+          "id": "outfit-362",
+          "number": 362,
+          "title": "Celestial High-Low",
+          "body": "clothes: white high-neck dress with a flowing high-low skirt and midnight-blue starfield lining, frilled sleeves, white choker, crystal star hairpins, silver knee boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/celestial-high-low.webp",
+          "gender": "female",
+          "titleRu": "Небесное платье с перепадом длины",
+          "bodyRu": "одежда: белое платье с высоким воротником и струящейся юбкой с перепадом длины, подкладка цвета полуночного неба со звёздами, рукава с оборками, белый чокер, хрустальные заколки-звёзды, серебряные сапоги до колена"
+        }
+      ]
+    },
+    {
+      "id": "sporty",
+      "name": "Sporty",
+      "nameRu": "Спортивное",
+      "description": "Track layers, studio sets, varsity shapes",
+      "descriptionRu": "Олимпийки, студийные комплекты, университетские силуэты",
+      "prompts": [
+        {
+          "id": "outfit-363",
+          "number": 363,
+          "title": "Navy Funnel Track",
+          "body": "clothes: fitted white short-sleeve athletic top with side ruching, oversized navy-and-beige color-block track jacket with a funnel collar and elasticated cuffs, navy high-waisted running shorts with curved white side panels, scrunched white ribbed crew socks, cream canvas tote with navy straps and a blue bookshop graphic",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/navy-funnel-track.webp",
+          "gender": "female",
+          "titleRu": "Трековый комплект с воротником-воронкой",
+          "bodyRu": "одежда: облегающий белый спортивный топ с короткими рукавами и боковой сборкой, объёмная тёмно-сине-бежевая олимпийка с воротником-воронкой и эластичными манжетами, тёмно-синие беговые шорты с высокой посадкой и фигурными белыми вставками, присборенные белые носки в рубчик, кремовый парусиновый тоут с тёмно-синими ручками и синим книжным принтом"
+        },
+        {
+          "id": "outfit-364",
+          "number": 364,
+          "title": "Olive Piped Parachutes",
+          "body": "clothes: fitted black short-sleeve athletic top with a tapered waist, oversized olive low-rise parachute track pants with a drawstring waistband, wide legs, white contrast piping, zippered side pockets and adjustable zippered hems, cream baseball cap with an olive brim, delicate gold bow-pendant chain, chunky intertwined gold hoops",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/olive-piped-parachutes.webp",
+          "gender": "female",
+          "titleRu": "Оливковые парашюты с кантом",
+          "bodyRu": "одежда: облегающий чёрный спортивный топ с короткими рукавами и акцентом на талии, объёмные оливковые брюки-парашюты с низкой посадкой, кулиской на поясе, широкими штанинами, белым контрастным кантом, боковыми карманами на молнии и регулируемым низом, кремовая бейсболка с оливковым козырьком, тонкая золотая цепочка с бантом, массивные переплетённые серьги-кольца"
+        },
+        {
+          "id": "outfit-365",
+          "number": 365,
+          "title": "Romper Cardigan Reset",
+          "body": "clothes: fitted black sleeveless scoop-neck athletic romper with close-fitting mid-thigh shorts, cropped white knit cardigan with a deep V-neck, ribbed trim, long sleeves and a two-button closure, chunky white-and-navy sneakers with sculpted soles and metallic-silver panels, wide white fabric headband",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/romper-cardigan-reset.webp",
+          "gender": "female",
+          "titleRu": "Спортивный ромпер с кардиганом",
+          "bodyRu": "одежда: облегающий чёрный спортивный ромпер без рукавов с округлым вырезом и шортами до середины бедра, укороченный белый вязаный кардиган с глубоким V-образным вырезом, отделкой в рубчик, длинными рукавами и двумя пуговицами, массивные бело-синие кроссовки со скульптурной подошвой и серебристыми вставками, широкий белый тканевый ободок"
+        },
+        {
+          "id": "outfit-366",
+          "number": 366,
+          "title": "Pink Bandeau Warm-Up",
+          "body": "clothes: fitted pink strapless bandeau crop top, light-grey ultra-cropped pullover hoodie with dropped shoulders, long sleeves and ribbed cuffs, oversized light-grey wide-leg sweatpants with a high drawstring waist, black cylindrical duffel with mint-and-white webbing handles and contrast piping",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pink-bandeau-warm-up.webp",
+          "gender": "female",
+          "titleRu": "Розовое бандо для разминки",
+          "bodyRu": "одежда: облегающий розовый кроп-топ бандо без бретелей, ультракороткое светло-серое худи с приспущенными плечами, длинными рукавами и манжетами в рубчик, объёмные светло-серые спортивные брюки с высокой посадкой, кулиской и широкими штанинами, чёрная цилиндрическая спортивная сумка с мятно-белыми текстильными ручками и контрастным кантом"
+        },
+        {
+          "id": "outfit-367",
+          "number": 367,
+          "title": "Powder Blue Bow Track",
+          "body": "clothes: powder-blue cropped track jacket with a stand collar, raglan sleeves, dark racing bands and bow-tied side drawstrings, matching high-waisted athletic shorts with dark side panels and bow-tied hem drawstrings, slouchy black shoulder bag with a wide strap",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/powder-blue-bow-track.webp",
+          "gender": "female",
+          "titleRu": "Голубой трековый комплект с бантами",
+          "bodyRu": "одежда: укороченная пудрово-голубая олимпийка с воротником-стойкой, рукавами реглан, тёмными динамичными полосами и боковыми кулисками, завязанными бантами, спортивные шорты с высокой посадкой в тон, тёмными боковыми вставками и бантами на внешних краях, мягкая чёрная сумка на плечо с широким ремнём"
+        },
+        {
+          "id": "outfit-368",
+          "number": 368,
+          "title": "Scarlet Pleat Motion",
+          "body": "clothes: fitted white camisole-style athletic bodysuit with a scoop neck and slim straps, red ultra-cropped open-front shrug with fitted long sleeves, red high-waisted flared tennis skort with soft box pleats and concealed fitted shorts, layered delicate gold necklaces, small gold hoops, wide red fabric headband",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/scarlet-pleat-motion.webp",
+          "gender": "female",
+          "titleRu": "Алая плиссировка в движении",
+          "bodyRu": "одежда: облегающее белое спортивное боди на тонких бретелях с округлым вырезом, ультракороткий красный шраг с открытым передом и длинными узкими рукавами, красная расклёшенная юбка-шорты с высокой посадкой, мягкими встречными складками и скрытыми облегающими шортами, несколько тонких золотых цепочек, небольшие серьги-кольца, широкий красный тканевый ободок"
+        },
+        {
+          "id": "outfit-369",
+          "number": 369,
+          "title": "Burgundy Varsity Track",
+          "body": "clothes: oversized white long-sleeve varsity jersey with a black-trimmed V-neck and burgundy ribbed cuffs and hem, burgundy wide-leg track pants with a high elasticated waist, curved white piping and adjustable drawcord hems, chunky black-and-white sneakers, washed dark baseball cap, red cat-eye sunglasses, silver hoops, slouchy black shoulder bag with a knotted strap and dangling charms",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/burgundy-varsity-track.webp",
+          "gender": "female",
+          "titleRu": "Бордовый университетский трековый комплект",
+          "bodyRu": "одежда: объёмный белый университетский джерси с длинными рукавами, V-образным вырезом в чёрной окантовке и бордовыми манжетами и поясом в рубчик, бордовые спортивные брюки с высокой эластичной посадкой, широкими штанинами, фигурным белым кантом и кулисками по низу, массивные чёрно-белые кроссовки, тёмная выстиранная бейсболка, красные очки «кошачий глаз», серебряные серьги-кольца, мягкая чёрная сумка с узлом на ремне и подвесками"
+        },
+        {
+          "id": "outfit-370",
+          "number": 370,
+          "title": "Burnt Orange Lounge",
+          "body": "clothes: burnt-orange three-piece lounge set with an ultra-cropped boxy sweatshirt featuring a raw hem and long sleeves, fitted scoop-neck sports bra with a wide underband, matching high-waisted joggers with a broad ribbed waistband, rope drawstring, slanted pockets and raised front seams, delicate gold rectangular-pendant necklace",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/burnt-orange-lounge.webp",
+          "gender": "female",
+          "titleRu": "Лаунж в оттенке жжёного апельсина",
+          "bodyRu": "одежда: тройной комплект оттенка жжёного апельсина — ультракороткий свободный свитшот с необработанным краем и длинными рукавами, облегающий спортивный бра с округлым вырезом и широким поясом, джоггеры с высокой посадкой, широким поясом в рубчик, шнуром с узлами, косыми карманами и рельефными передними швами, тонкая золотая цепочка с прямоугольной подвеской"
+        },
+        {
+          "id": "outfit-371",
+          "number": 371,
+          "title": "Neon Corset Zip",
+          "body": "clothes: fitted neon-yellow long-sleeve athletic jacket with a corset-like silhouette, full front zipper, curved panel seams, high neck and discreet zippered side pockets, fitted black scoop-neck tank, black high-waisted sculpting leggings with a wide waistband",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/neon-corset-zip.webp",
+          "gender": "female",
+          "titleRu": "Неоновая куртка корсетного кроя",
+          "bodyRu": "одежда: облегающая неоново-жёлтая спортивная куртка корсетного силуэта с длинными рукавами, сквозной молнией, фигурными рельефными швами, высоким воротником и незаметными боковыми карманами на молнии, чёрная облегающая майка с округлым вырезом, моделирующие чёрные легинсы с высокой посадкой и широким поясом"
+        },
+        {
+          "id": "outfit-372",
+          "number": 372,
+          "title": "Off-Shoulder Rehearsal",
+          "body": "clothes: loose light-grey off-shoulder dance T-shirt with a wide draped neckline, relaxed batwing sleeves, ruched sides and a long fitted hem, black racerback sports bra underneath, black low-rise wide-leg dance sweatpants with a broad shirred waistband, grey-and-white suede low-top sneakers with cream rubber soles",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/off-shoulder-rehearsal.webp",
+          "gender": "female",
+          "titleRu": "Репетиция с открытым плечом",
+          "bodyRu": "одежда: свободная светло-серая танцевальная футболка с открытым плечом, широким драпированным вырезом, короткими рукавами «летучая мышь», боковой сборкой и удлинённым облегающим краем, чёрный спортивный бра с борцовской спинкой, чёрные танцевальные брюки с низкой посадкой, широким присборенным поясом и свободными штанинами в пол, серо-белые замшевые кеды на кремовой резиновой подошве"
+        },
+        {
+          "id": "outfit-373",
+          "number": 373,
+          "title": "Primary Color Windbreaker",
+          "body": "clothes: cropped color-block windbreaker with a black front, white shoulders, vivid-red side panels and sleeves, high funnel collar, half-zip front and elasticated hem, matching bright-red high-waisted running shorts with a gathered waistband, oversized rope drawstring and curved legs",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/primary-color-windbreaker.webp",
+          "gender": "female",
+          "titleRu": "Ветровка в основных цветах",
+          "bodyRu": "одежда: укороченная ветровка колор-блок с чёрной передней панелью, белыми плечами, ярко-красными боковыми вставками и рукавами, высоким воротником-воронкой, короткой молнией и эластичным поясом, ярко-красные беговые шорты с высокой посадкой, присборенным поясом, объёмным шнуром и округлым кроем брючин"
+        },
+        {
+          "id": "outfit-374",
+          "number": 374,
+          "title": "Pink Glitter Varsity",
+          "body": "clothes: oversized white long-sleeve V-neck varsity sweatshirt with pink-and-black striped sleeves and hem, glittering flame and star motifs, pastel-pink high-waisted wide-leg cargo parachute pants with a gathered waist, oversized flap pockets, articulated knees, elasticated cuffs and iridescent shimmer, glitter-dusted pastel-pink baseball cap, narrow black cat-eye sunglasses, small black shoulder bag with a sparkling pink star applique",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pink-glitter-varsity.webp",
+          "gender": "female",
+          "titleRu": "Розовый университетский глиттер",
+          "bodyRu": "одежда: объёмный белый университетский свитшот с длинными рукавами, V-образным вырезом, розово-чёрными полосатыми рукавами и поясом, мерцающими мотивами пламени и звёзд, пастельно-розовые брюки-парашюты карго с высокой присборенной посадкой, широкими штанинами, крупными накладными карманами, рельефными коленями, эластичными манжетами и переливчатым блеском, пастельно-розовая бейсболка с глиттером, узкие чёрные очки «кошачий глаз», маленькая чёрная сумка с сияющей розовой звездой"
+        },
+        {
+          "id": "outfit-375",
+          "number": 375,
+          "title": "Pink Collar Polo Romper",
+          "body": "clothes: fitted black short-sleeve polo romper with a structured pastel-pink pointed collar, matching half-button placket, pink-trimmed cuffs, defined waist, close-fitting shorts and pastel-pink turn-ups, black lace-up platform combat boots with chunky soles and silver side zippers, silver hoops, black cord necklace with a faceted silver teardrop pendant",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pink-collar-polo-romper.webp",
+          "gender": "female",
+          "titleRu": "Комбинезон-поло с розовым воротником",
+          "bodyRu": "одежда: облегающий чёрный комбинезон-поло с короткими рукавами, жёстким пастельно-розовым отложным воротником, планкой на пуговицах в тон, розовой окантовкой манжет, подчёркнутой талией и шортами с розовыми отворотами, чёрные армейские ботинки на массивной платформе со шнуровкой и серебристыми боковыми молниями, серебряные серьги-кольца, чёрный шнурок с гранёной серебристой подвеской-каплей"
+        },
+        {
+          "id": "outfit-376",
+          "number": 376,
+          "title": "Puffer Vest Errands",
+          "body": "clothes: oversized grey ribbed crew-neck sweatshirt with dropped shoulders, balloon sleeves and long fitted cuffs, navy sleeveless hooded puffer vest with a high padded collar, horizontal quilting, front zipper and discreet side pockets, fitted black high-waisted full-length leggings, chunky silver chain bracelet, delicate silver rings",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/puffer-vest-errands.webp",
+          "gender": "female",
+          "titleRu": "Дутый жилет для городских дел",
+          "bodyRu": "одежда: объёмный серый свитшот с круглым вырезом, приспущенными плечами, рукавами-баллонами и длинными облегающими манжетами в рубчик, тёмно-синий дутый жилет с капюшоном, высоким мягким воротником, горизонтальной стёжкой, молнией и незаметными боковыми карманами, чёрные облегающие легинсы полной длины с высокой посадкой, массивный серебряный браслет-цепь, тонкие серебряные кольца"
+        },
+        {
+          "id": "outfit-377",
+          "number": 377,
+          "title": "Beach Graphic Wide-Leg",
+          "body": "clothes: oversized pastel-yellow crew-neck T-shirt with vivid turquoise, hot-pink, orange, lavender and lime beach illustrations, light-wash high-waisted ultra-wide-leg jeans with a loose floor-length silhouette, chunky gold hoops with glittering pink heart charms, layered gold necklaces with a miniature padlock pendant, stacked multicolored beaded bracelets",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/beach-graphic-wide-leg.webp",
+          "gender": "female",
+          "titleRu": "Пляжная графика и широкий деним",
+          "bodyRu": "одежда: объёмная пастельно-жёлтая футболка с круглым вырезом и яркими бирюзовыми, розовыми, оранжевыми, лавандовыми и лаймовыми пляжными иллюстрациями, ультраширокие светлые джинсы с высокой посадкой и свободными штанинами в пол, массивные золотые серьги-кольца с мерцающими розовыми сердцами, несколько золотых цепочек с миниатюрным замочком, стопка разноцветных бисерных браслетов"
+        },
+        {
+          "id": "outfit-378",
+          "number": 378,
+          "title": "Dopamine Running Set",
+          "body": "clothes: color-block sports bra with slim straps, a curved neckline, hot-pink main panels, pastel-yellow bust panel, lavender side panel, wide underband and gathered center seam, matching high-waisted nylon running shorts with a gathered waist, multicolored drawstring, curved legs, asymmetrical panels, slate-blue zippered patch pocket and lavender piping, delicate silver chain bracelet",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dopamine-running-set.webp",
+          "gender": "female",
+          "titleRu": "Дофаминовый беговой комплект",
+          "bodyRu": "одежда: спортивный бра колор-блок на тонких бретелях с плавным вырезом, ярко-розовыми основными панелями, пастельно-жёлтой вставкой на груди, лавандовой боковой деталью, широким поясом и центральной сборкой, беговые шорты из нейлона в тон с высокой присборенной посадкой, разноцветным шнуром, округлым кроем, асимметричными вставками, серо-синим накладным карманом на молнии и лавандовым кантом, тонкий серебряный браслет-цепочка"
+        },
+        {
+          "id": "outfit-379",
+          "number": 379,
+          "title": "Pastel Cloud Joggers",
+          "body": "clothes: cropped pastel tie-dye pullover hoodie with a relaxed boxy fit, dropped shoulders, long sleeves, ribbed cuffs, white drawstrings and a raw hem, matching high-waisted relaxed joggers with a gathered waist, side pockets and tapered legs in cotton-candy pink, powder blue, lavender, pale yellow and mint, large silver hoops",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pastel-cloud-joggers.webp",
+          "gender": "female",
+          "titleRu": "Пастельные облака",
+          "bodyRu": "одежда: укороченное худи тай-дай свободного прямоугольного кроя с приспущенными плечами, длинными рукавами, манжетами в рубчик, белыми шнурами и необработанным краем, джоггеры в тон с высокой присборенной посадкой, боковыми карманами и зауженными штанинами в оттенках сахарно-розового, пудрово-голубого, лавандового, бледно-жёлтого и мятного, крупные серебряные серьги-кольца"
+        },
+        {
+          "id": "outfit-380",
+          "number": 380,
+          "title": "Sky Blue Studio Set",
+          "body": "clothes: sky-blue racerback yoga sports bra with a wide supportive underband, white contrast piping and white mesh cutout panels across the upper back, matching sky-blue high-waisted fitted biker shorts with a broad seamless waistband and mid-thigh length, white ribbed crew socks",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sky-blue-studio-set.webp",
+          "gender": "female",
+          "titleRu": "Небесно-голубой студийный комплект",
+          "bodyRu": "одежда: небесно-голубой спортивный бра для йоги с борцовской спинкой, широким поддерживающим поясом, белым контрастным кантом и сетчатыми фигурными вставками в верхней части спины, облегающие велосипедки в тон с высокой посадкой, широким бесшовным поясом и длиной до середины бедра, белые носки в рубчик"
+        },
+        {
+          "id": "outfit-381",
+          "number": 381,
+          "title": "Periwinkle Court Set",
+          "body": "clothes: cropped fitted track jacket with a periwinkle-blue body, dusty-pink stand collar and long sleeves, white piping along the raglan seams and a full front zipper, matching periwinkle high-waisted tennis skort with a broad gathered waistband, fitted inner shorts and a flared pleated hem",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/periwinkle-court-set.webp",
+          "gender": "female",
+          "titleRu": "Барвинковый комплект для корта",
+          "bodyRu": "одежда: укороченная приталенная олимпийка с барвинково-синим корпусом, пыльно-розовым воротником-стойкой и длинными рукавами, белым кантом вдоль швов реглана и сквозной молнией, теннисная юбка-шорты в тон с высокой посадкой, широким присборенным поясом, облегающими внутренними шортами и расклёшенным плиссированным краем"
+        },
+        {
+          "id": "outfit-382",
+          "number": 382,
+          "title": "Sunset Racing Layers",
+          "body": "clothes: cream color-block track jacket with black collar and cuffs, an asymmetrical black side panel, curved turquoise, golden-yellow and burnt-orange racing stripes and a yellow front zipper, black high-waisted leggings with a white waistband, black-and-cream cropped sports bra with wavy sunset stripes, cream high-waisted running shorts with an orange waistband, turquoise drawstring, orange side panels and curved piping, black-and-cream canvas high-top sneakers with white toe caps, silver aviator sunglasses",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sunset-racing-layers.webp",
+          "gender": "female",
+          "titleRu": "Гоночные слои на закате",
+          "bodyRu": "одежда: кремовая олимпийка колор-блок с чёрными воротником и манжетами, асимметричной чёрной боковой вставкой, изогнутыми бирюзовыми, золотисто-жёлтыми и жжёно-оранжевыми полосами и жёлтой молнией, чёрные легинсы с высокой посадкой и белым поясом, укороченный чёрно-кремовый спортивный бра с волнистыми закатными полосами, кремовые беговые шорты с высокой посадкой, оранжевым поясом, бирюзовым шнуром, оранжевыми боковыми вставками и фигурным кантом, чёрно-кремовые высокие парусиновые кеды с белыми мысами, серебристые очки-авиаторы"
+        },
+        {
+          "id": "outfit-383",
+          "number": 383,
+          "title": "Cobalt Orange Run",
+          "body": "clothes: vivid cobalt-blue fitted long-sleeve athletic top with a crew neck, raglan seam detailing, sculpting side panels and a cropped hem, bright-orange high-waisted running shorts with a broad smooth waistband, overlapping dolphin hems and fitted inner shorts, sky-blue mesh running sneakers with orange eyelets, blue laces, orange midsoles, white cushioned platform soles and hot-pink accents",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cobalt-orange-run.webp",
+          "gender": "female",
+          "titleRu": "Кобальтово-оранжевый забег",
+          "bodyRu": "одежда: облегающий спортивный лонгслив яркого кобальтово-синего цвета с круглым вырезом, рельефными швами реглана, моделирующими боковыми панелями и укороченным краем, ярко-оранжевые беговые шорты с высокой посадкой, широким гладким поясом, перекрывающимися округлыми краями и облегающими внутренними шортами, небесно-голубые сетчатые беговые кроссовки с оранжевыми люверсами, синими шнурками, оранжевой промежуточной и белой амортизирующей платформенной подошвой, ярко-розовые акценты"
         }
       ]
     }

@@ -38,7 +38,8 @@
       <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
       <a href="catalogue.html" class="nav-link"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
       <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
-      <a href="restyle.html" class="nav-link active"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
+      <a href="poses.html" class="nav-link"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
+      <a href="restyle.html" class="nav-link active" aria-current="page"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
       <a href="hair.html" class="nav-link"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
       <a href="outfits.html" class="nav-link"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
       <a href="wardrobe.html" class="nav-link"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
@@ -68,7 +69,8 @@
     <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
     <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
     <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
-    <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
+    <a href="poses.html"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
+    <a href="restyle.html" class="active" aria-current="page"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
     <a href="hair.html"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
     <a href="outfits.html"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
     <a href="wardrobe.html"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
@@ -87,7 +89,7 @@
       </h1>
       <p class="t-body">
         <span class="lang-en">127 image-transform prompts — feed any reference photo and get back a chibi plush, a gacha card, or a tiny world</span>
-        <span class="lang-ru">127 промптов-трансформов — закинь любое референс-фото и получи каваи-плюшку, гача-карту или крошечный мир</span>
+        <span class="lang-ru">127 промптов для преобразования изображений: прикрепите референс и создайте плюшевого персонажа, гача-карту или миниатюрный мир</span>
       </p>
     </header>
 
@@ -111,7 +113,7 @@
       </div>
       <p class="scenes-hint-text">
         <span class="lang-en">Each restyle expects an <strong>attached reference image</strong>. Tap <strong>Read full</strong> to expand, click the body to copy, then paste into your chat alongside an image.</span>
-        <span class="lang-ru">Каждый рестайл требует <strong>прикреплённое референс-фото</strong>. Жми <strong>Развернуть</strong>, кликни по тексту, чтобы скопировать, и вставь в чат вместе с картинкой.</span>
+        <span class="lang-ru">Для каждого рестайла требуется <strong>прикреплённое референс-изображение</strong>. Нажмите <strong>Развернуть</strong>, скопируйте текст и вставьте его в чат вместе с изображением.</span>
       </p>
     </div>
 
@@ -156,7 +158,7 @@
       .catch(err => {
         console.error('Failed to load restyle data:', err);
         var el = document.getElementById('restyle-sections');
-        if (el) el.innerHTML = '<p class="scenes-loading-error"><span class="lang-en">Failed to load restyles. Please reload the page.</span><span class="lang-ru">Не удалось загрузить рестайлы. Перезагрузи страницу.</span></p>';
+        if (el) el.innerHTML = '<p class="scenes-loading-error"><span class="lang-en">Failed to load restyles. Please reload the page.</span><span class="lang-ru">Не удалось загрузить рестайлы. Перезагрузите страницу.</span></p>';
       });
   </script>
 </body>

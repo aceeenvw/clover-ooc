@@ -16,12 +16,14 @@
   const effectsData = window.EFFECTS_DATA;
   const backgroundsData = window.BACKGROUNDS_DATA;
   const overlaysData = window.OVERLAYS_DATA;
+  const cameraData = window.CAMERA_DATA || { categories: [] };
 
   // ═══ TERM → nameRu LOOKUP (for pairsWith chip tooltips) ═══
   const termGlossary = {};
   effectsData.categories.forEach(c => c.effects.forEach(e => { termGlossary[e.term] = e.nameRu; }));
   overlaysData.categories.forEach(c => c.items.forEach(i => { termGlossary[i.term] = i.nameRu; }));
   backgroundsData.categories.forEach(c => c.backgrounds.forEach(b => { termGlossary[b.term] = b.nameRu; }));
+  cameraData.categories.forEach(c => c.terms.forEach(t => { termGlossary[t.term] = t.nameRu; }));
 
   const loadingState = document.getElementById('loading-state');
   if (loadingState) loadingState.remove();
@@ -31,13 +33,11 @@
   let selectedEffects = [];
   let selectedAspectRatio = '';
   let currentTab = 'constructor';
+  let copyOutputValue = '';
   // Custom hook injected by "Try this" — { en, ru } or null.
   let customHook = null;
 
   // ═══ DOM ═══
-  const tabButtons = document.querySelectorAll('.tab-button');
-  const tabContents = document.querySelectorAll('.tab-content');
-
   const constructorSearch = document.getElementById('constructor-search');
   const promptsList = document.getElementById('constructor-prompts');
   const aspectButtons = document.querySelectorAll('.aspect-btn');
@@ -48,6 +48,19 @@
 
   const effectsSearch = document.getElementById('effects-search');
   const effectsLibrary = document.getElementById('effects-library');
+  const cameraSearch = document.getElementById('camera-search');
+  const cameraLibrary = document.getElementById('camera-library');
+  const hasCameraData = cameraData.categories.length > 0;
+
+  if (!hasCameraData) {
+    document.getElementById('camera-tab-button')?.remove();
+    document.getElementById('camera-tab')?.remove();
+    document.getElementById('constructor-camera-tab')?.remove();
+    document.getElementById('subtab-camera')?.remove();
+  }
+
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-content');
 
   // ═══ TAB SWITCHING ═══
   tabButtons.forEach(button => {
@@ -57,12 +70,29 @@
     });
   });
 
+  document.querySelector('.tabs')?.addEventListener('keydown', event => {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    const buttons = Array.from(tabButtons);
+    const current = buttons.indexOf(document.activeElement);
+    if (current < 0) return;
+
+    event.preventDefault();
+    let next = current;
+    if (event.key === 'ArrowRight') next = (current + 1) % buttons.length;
+    if (event.key === 'ArrowLeft') next = (current - 1 + buttons.length) % buttons.length;
+    if (event.key === 'Home') next = 0;
+    if (event.key === 'End') next = buttons.length - 1;
+    buttons[next].focus();
+    buttons[next].click();
+  });
+
   function switchTab(tab) {
     currentTab = tab;
 
     tabButtons.forEach(btn => {
       btn.classList.toggle('active', btn.dataset.tab === tab);
       btn.setAttribute('aria-selected', btn.dataset.tab === tab);
+      btn.tabIndex = btn.dataset.tab === tab ? 0 : -1;
     });
 
     tabContents.forEach(content => {
@@ -83,9 +113,12 @@
     });
 
     filtered.forEach(prompt => {
-      const item = document.createElement('div');
+      const item = document.createElement('button');
+      item.type = 'button';
       item.className = 'prompt-item';
-      if (selectedPrompt && selectedPrompt.id === prompt.id) {
+      const isSelected = selectedPrompt && selectedPrompt.id === prompt.id;
+      item.setAttribute('aria-pressed', String(Boolean(isSelected)));
+      if (isSelected) {
         item.classList.add('selected');
       }
 
@@ -102,6 +135,9 @@
       preview.className = 'prompt-item-preview';
       const promptText = prompt.prompt.replace(/\[OOC:Image generation — /i, '').replace(/\]$/, '');
       preview.textContent = promptText.substring(0, 60) + (promptText.length > 60 ? '...' : '');
+
+      const promptTitle = lang === 'ru' && prompt.titleRu ? prompt.titleRu : prompt.title;
+      item.setAttribute('aria-label', lang === 'ru' ? `Выбрать базовый промпт: ${promptTitle}` : `Select base prompt: ${promptTitle}`);
 
       item.appendChild(title);
       item.appendChild(id);
@@ -126,19 +162,31 @@
   // ═══ CONSTRUCTOR: RENDER EFFECTS ═══
   const constructorBgAvailable = document.getElementById('constructor-bg-available');
   const constructorOvAvailable = document.getElementById('constructor-ov-available');
+  const constructorCameraAvailable = document.getElementById('constructor-camera-available');
 
   function renderConstructorEffects() {
     effectsAvailable.textContent = '';
     effectsSelected.textContent = '';
     if (constructorBgAvailable) constructorBgAvailable.textContent = '';
     if (constructorOvAvailable) constructorOvAvailable.textContent = '';
+    if (constructorCameraAvailable) constructorCameraAvailable.textContent = '';
 
     function makeTag(term, nameRu, container) {
       var tag = document.createElement('button');
       tag.className = 'effect-tag';
-      tag.textContent = term;
+      const termText = document.createElement('span');
+      termText.textContent = term;
+      tag.appendChild(termText);
+      if (container === constructorCameraAvailable && nameRu) {
+        const translation = document.createElement('span');
+        translation.className = 'effect-tag-translation lang-ru';
+        translation.textContent = nameRu;
+        tag.appendChild(translation);
+      }
       if (nameRu) tag.dataset.tip = nameRu;
-      if (selectedEffects.includes(term)) tag.classList.add('selected');
+      const isSelected = selectedEffects.includes(term);
+      tag.setAttribute('aria-pressed', String(isSelected));
+      if (isSelected) tag.classList.add('selected');
       tag.addEventListener('click', () => toggleEffect(term));
       container.appendChild(tag);
     }
@@ -159,11 +207,18 @@
       });
     }
 
+    if (constructorCameraAvailable) {
+      cameraData.categories.forEach(cat => {
+        cat.terms.forEach(item => makeTag(item.term, item.nameRu, constructorCameraAvailable));
+      });
+    }
+
     if (selectedEffects.length > 0) {
       selectedEffects.forEach(term => {
         var tag = document.createElement('button');
         tag.className = 'effect-tag selected';
         tag.textContent = term;
+        tag.setAttribute('aria-pressed', 'true');
         tag.addEventListener('click', () => toggleEffect(term));
         effectsSelected.appendChild(tag);
       });
@@ -174,12 +229,39 @@
   var subtabBtns = document.querySelectorAll('.constructor-subtab');
   subtabBtns.forEach(function(btn) {
     btn.addEventListener('click', function() {
-      subtabBtns.forEach(function(b) { b.classList.remove('active'); });
+      subtabBtns.forEach(function(b) {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+        b.tabIndex = -1;
+      });
       btn.classList.add('active');
-      document.querySelectorAll('.constructor-subtab-content').forEach(function(c) { c.classList.remove('active'); });
+      btn.setAttribute('aria-selected', 'true');
+      btn.tabIndex = 0;
+      document.querySelectorAll('.constructor-subtab-content').forEach(function(c) {
+        c.classList.remove('active');
+        c.hidden = true;
+      });
       var target = document.getElementById('subtab-' + btn.dataset.subtab);
-      if (target) target.classList.add('active');
+      if (target) {
+        target.classList.add('active');
+        target.hidden = false;
+      }
     });
+  });
+
+  document.querySelector('.constructor-subtabs')?.addEventListener('keydown', function(event) {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    const buttons = Array.from(document.querySelectorAll('.constructor-subtab'));
+    const current = buttons.indexOf(document.activeElement);
+    if (current < 0) return;
+    event.preventDefault();
+    let next = current;
+    if (event.key === 'ArrowRight') next = (current + 1) % buttons.length;
+    if (event.key === 'ArrowLeft') next = (current - 1 + buttons.length) % buttons.length;
+    if (event.key === 'Home') next = 0;
+    if (event.key === 'End') next = buttons.length - 1;
+    buttons[next].focus();
+    buttons[next].click();
   });
 
   // ═══ CONSTRUCTOR: TOGGLE EFFECT ═══
@@ -192,6 +274,7 @@
     }
     renderConstructorEffects();
     updateOutput();
+    if (copyButton) copyButton.disabled = !(selectedPrompt || customHook || selectedEffects.length || selectedAspectRatio);
   }
 
   // ═══ CONSTRUCTOR: UPDATE OUTPUT ═══
@@ -201,9 +284,13 @@
     // Pick the hook text in the active language (EN fallback) and normalize
     // its trailing punctuation so we never produce e.g. "..]" or "?.]".
     let hookText = customHook ? (lang === 'ru' && customHook.ru ? customHook.ru : customHook.en) : '';
+    let englishHookText = customHook ? customHook.en : '';
     if (hookText) {
       // Drop any existing terminal punctuation; we always add a single ".".
       hookText = hookText.replace(/[.!?…]+\s*$/u, '').trim();
+    }
+    if (englishHookText) {
+      englishHookText = englishHookText.replace(/[.!?…]+\s*$/u, '').trim();
     }
 
     // Additions list = effects + aspect ratio.
@@ -212,32 +299,37 @@
     if (selectedEffects.length > 0) additions.push(selectedEffects.join(', '));
     const additionsString = additions.join(', ');
 
+    function composeOutput(hook, prefix) {
+      if (selectedPrompt) {
+        let value = selectedPrompt.prompt;
+        if (hook) value = value.replace(/\]$/, ` ${hook}.]`);
+        if (additionsString) value = value.replace(/\]$/, ` ${additionsString}]`);
+        return value;
+      }
+      const parts = [];
+      if (hook) parts.push(hook + '.');
+      if (additionsString) parts.push(additionsString);
+      return parts.length ? prefix + parts.join(' ') + ']' : '';
+    }
+
     let output;
     if (selectedPrompt) {
-      // Inject hook (if any) and additions just before the closing OOC bracket.
-      output = selectedPrompt.prompt;
-      if (hookText) {
-        output = output.replace(/\]$/, ` ${hookText}.]`);
-      }
-      if (additionsString) {
-        output = output.replace(/\]$/, ` ${additionsString}]`);
-      }
+      output = composeOutput(hookText, '[OOC:Image generation — ');
+      copyOutputValue = composeOutput(englishHookText, '[OOC:Image generation — ');
       outputPrompt.value = output;
       outputPrompt.placeholder = '';
     } else if (hookText || additionsString) {
-      // Ad-hoc mode: no base prompt, hook/effects came in via "Try this".
       const prefix = lang === 'ru'
         ? '[OOC:Генерация изображения — '
         : '[OOC:Image generation — ';
-      const parts = [];
-      if (hookText) parts.push(hookText + '.');
-      if (additionsString) parts.push(additionsString);
-      output = prefix + parts.join(' ') + ']';
+      output = composeOutput(hookText, prefix);
+      copyOutputValue = composeOutput(englishHookText, '[OOC:Image generation — ');
       outputPrompt.value = output;
       outputPrompt.placeholder = '';
     } else {
+      copyOutputValue = '';
       outputPrompt.value = '';
-      outputPrompt.placeholder = lang === 'en' ? 'Select a base prompt to start...' : 'Выбери базовый промпт...';
+      outputPrompt.placeholder = lang === 'en' ? 'Select a base prompt to start...' : 'Выберите базовый промпт...';
     }
   }
 
@@ -291,14 +383,20 @@
 
   // ═══ CONSTRUCTOR: ASPECT RATIO ═══
   aspectButtons.forEach(btn => {
+    btn.setAttribute('aria-pressed', 'false');
     btn.addEventListener('click', () => {
       const ratio = btn.dataset.ratio;
 
-      aspectButtons.forEach(b => b.classList.remove('selected'));
+      aspectButtons.forEach(b => {
+        b.classList.remove('selected');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('selected');
+      btn.setAttribute('aria-pressed', 'true');
 
       selectedAspectRatio = ratio;
       updateOutput();
+      if (copyButton) copyButton.disabled = !(selectedPrompt || customHook || selectedEffects.length || selectedAspectRatio);
     });
   });
 
@@ -307,7 +405,7 @@
   copyButton.addEventListener('click', async () => {
     if (!outputPrompt.value) return;
 
-    if (!(await window.cloverCopy(outputPrompt.value))) {
+    if (!(await window.cloverCopy(copyOutputValue))) {
       outputPrompt.select();
       return;
     }
@@ -384,6 +482,23 @@
     renderPrompts(e.target.value);
   });
 
+  function showCopyFeedback(target, badgeContainer = target) {
+    target.querySelector('.copy-badge')?.remove();
+    if (target._copyTimer) clearTimeout(target._copyTimer);
+    target.classList.add('copied');
+    const badge = document.createElement('span');
+    badge.className = 'copy-badge';
+    badge.setAttribute('role', 'status');
+    badge.setAttribute('aria-live', 'polite');
+    badge.textContent = document.documentElement.dataset.lang === 'ru' ? 'Скопировано!' : 'Copied!';
+    badgeContainer.appendChild(badge);
+    target._copyTimer = setTimeout(() => {
+      target.classList.remove('copied');
+      badge.remove();
+      target._copyTimer = null;
+    }, 1200);
+  }
+
   // ═══ EFFECTS LIBRARY: RENDER ═══
   function renderEffectsLibrary(filter = '') {
     effectsLibrary.textContent = '';
@@ -427,6 +542,10 @@
       filtered.forEach(effect => {
         const card = document.createElement('div');
         card.className = 'effect-card';
+        card.tabIndex = 0;
+        card.setAttribute('role', 'button');
+        const lang = document.documentElement.dataset.lang || 'en';
+        card.setAttribute('aria-label', lang === 'ru' ? `Копировать эффект: ${effect.term}` : `Copy effect: ${effect.term}`);
 
         const term = document.createElement('div');
         term.className = 'effect-term';
@@ -444,23 +563,16 @@
         card.appendChild(descEn);
         card.appendChild(descRu);
 
-        card.addEventListener('click', async () => {
+        const copyEffect = async () => {
           if (!(await window.cloverCopy(effect.term))) return;
-
-          card.style.borderColor = 'var(--accent)';
-          card.classList.add('copied');
-
-          const lang = document.documentElement.getAttribute('data-lang') || 'en';
-          const badge = document.createElement('span');
-          badge.className = 'copy-badge';
-          badge.textContent = lang === 'en' ? 'Copied!' : 'Скопировано!';
-          card.appendChild(badge);
-
-          setTimeout(() => {
-            card.style.borderColor = '';
-            card.classList.remove('copied');
-            badge.remove();
-          }, 1200);
+          showCopyFeedback(card);
+        };
+        card.addEventListener('click', copyEffect);
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            copyEffect();
+          }
         });
 
         list.appendChild(card);
@@ -476,6 +588,102 @@
   effectsSearch.addEventListener('input', (e) => {
     renderEffectsLibrary(e.target.value);
   });
+
+  // ═══ CAMERA & COMPOSITION LIBRARY ═══
+  function renderCameraLibrary(filter = '') {
+    if (!cameraLibrary) return;
+    cameraLibrary.textContent = '';
+
+    cameraData.categories.forEach(category => {
+      const searchText = filter.toLowerCase();
+      const filtered = category.terms.filter(item =>
+        item.term.toLowerCase().includes(searchText) ||
+        item.nameRu.toLowerCase().includes(searchText) ||
+        item.description.toLowerCase().includes(searchText) ||
+        item.descriptionRu.toLowerCase().includes(searchText)
+      );
+
+      if (filtered.length === 0) return;
+
+      const categoryDiv = document.createElement('div');
+      categoryDiv.className = 'effect-category';
+
+      const header = document.createElement('div');
+      header.className = 'category-header';
+
+      const nameEn = document.createElement('h2');
+      nameEn.className = 'category-name lang-en';
+      nameEn.textContent = category.name;
+
+      const nameRu = document.createElement('h2');
+      nameRu.className = 'category-name lang-ru';
+      nameRu.textContent = category.nameRu;
+
+      const count = document.createElement('span');
+      count.className = 'category-count';
+      count.textContent = filtered.length;
+
+      header.appendChild(nameEn);
+      header.appendChild(nameRu);
+      header.appendChild(count);
+
+      const list = document.createElement('div');
+      list.className = 'effects-list';
+
+      filtered.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'effect-card camera-card';
+        card.tabIndex = 0;
+        card.setAttribute('role', 'button');
+        const lang = document.documentElement.dataset.lang || 'en';
+        card.setAttribute('aria-label', lang === 'ru' ? `Копировать термин камеры: ${item.term}` : `Copy camera term: ${item.term}`);
+
+        const term = document.createElement('div');
+        term.className = 'effect-term';
+        term.textContent = item.term;
+
+        const name = document.createElement('div');
+        name.className = 'camera-name lang-ru';
+        name.textContent = item.nameRu;
+
+        const descEn = document.createElement('div');
+        descEn.className = 'effect-description lang-en';
+        descEn.textContent = item.description;
+
+        const descRu = document.createElement('div');
+        descRu.className = 'effect-description lang-ru';
+        descRu.textContent = item.descriptionRu;
+
+        card.appendChild(term);
+        card.appendChild(name);
+        card.appendChild(descEn);
+        card.appendChild(descRu);
+
+        const copyTerm = async () => {
+          if (!(await window.cloverCopy(item.term))) return;
+          showCopyFeedback(card);
+        };
+
+        card.addEventListener('click', copyTerm);
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            copyTerm();
+          }
+        });
+
+        list.appendChild(card);
+      });
+
+      categoryDiv.appendChild(header);
+      categoryDiv.appendChild(list);
+      cameraLibrary.appendChild(categoryDiv);
+    });
+  }
+
+  if (cameraSearch) {
+    cameraSearch.addEventListener('input', event => renderCameraLibrary(event.target.value));
+  }
 
   // ═══ EFFECT STACKS: RENDER ═══
   const stacksGrid = document.getElementById('stacks-grid');
@@ -575,7 +783,8 @@
       tryRu.textContent = 'Попробовать →';
       tryBtn.appendChild(tryEn);
       tryBtn.appendChild(tryRu);
-      tryBtn.setAttribute('aria-label', 'Load this stack into the constructor');
+      const lang = document.documentElement.dataset.lang || 'en';
+      tryBtn.setAttribute('aria-label', lang === 'ru' ? `Загрузить стек «${stack.nameRu}» в конструктор` : `Load ${stack.name} stack into the constructor`);
       tryBtn.addEventListener('click', () => applyEffectStack(stack));
 
       card.appendChild(title);
@@ -723,11 +932,16 @@
             chip.textContent = pterm;
             const ru = termGlossary[pterm];
             if (ru) chip.dataset.tip = ru;
+            chip.setAttribute('aria-label', (document.documentElement.dataset.lang || 'en') === 'ru' ? `Копировать термин: ${pterm}` : `Copy term: ${pterm}`);
             chip.addEventListener('click', async (ev) => {
               ev.stopPropagation();
               if (await window.cloverCopy(pterm)) {
+                if (chip._copyTimer) clearTimeout(chip._copyTimer);
                 chip.classList.add('copied');
-                setTimeout(() => chip.classList.remove('copied'), 900);
+                chip._copyTimer = setTimeout(() => {
+                  chip.classList.remove('copied');
+                  chip._copyTimer = null;
+                }, 900);
               }
             });
             pairsRow.appendChild(chip);
@@ -735,6 +949,25 @@
 
           info.appendChild(pairsRow);
         }
+
+        const copyBtn = document.createElement('button');
+        copyBtn.type = 'button';
+        copyBtn.className = 'background-copy-btn';
+        const copyEn = document.createElement('span');
+        copyEn.className = 'lang-en';
+        copyEn.textContent = 'Copy';
+        const copyRu = document.createElement('span');
+        copyRu.className = 'lang-ru';
+        copyRu.textContent = 'Копировать';
+        copyBtn.appendChild(copyEn);
+        copyBtn.appendChild(copyRu);
+        const lang = document.documentElement.dataset.lang || 'en';
+        copyBtn.setAttribute('aria-label', lang === 'ru' ? `Копировать фон: ${bg.term}` : `Copy background: ${bg.term}`);
+        copyBtn.addEventListener('click', async () => {
+          if (!(await window.cloverCopy(bg.term))) return;
+          showCopyFeedback(copyBtn);
+        });
+        info.appendChild(copyBtn);
 
         // ─── "Try this" button (new entries only) ───
         if (bg.sampleHookEn && bg.sampleHookRu) {
@@ -749,7 +982,8 @@
           tryRu.textContent = 'Попробовать →';
           tryBtn.appendChild(tryEn);
           tryBtn.appendChild(tryRu);
-          tryBtn.setAttribute('aria-label', 'Load this background and suggested effects into the constructor');
+          const lang = document.documentElement.dataset.lang || 'en';
+          tryBtn.setAttribute('aria-label', lang === 'ru' ? `Загрузить фон «${bg.nameRu}» и предложенные эффекты в конструктор` : `Load ${bg.term} background and suggested effects into the constructor`);
           tryBtn.addEventListener('click', (ev) => {
             ev.stopPropagation();
             applyBackgroundRecipe(bg);
@@ -759,24 +993,6 @@
 
         card.appendChild(swatch);
         card.appendChild(info);
-
-        card.addEventListener('click', async (ev) => {
-          // Ignore clicks that originated on chips or the try-this button.
-          if (ev.target.closest('.pairs-chip') || ev.target.closest('.try-this-btn')) return;
-          if (!(await window.cloverCopy(bg.term))) return;
-
-          card.classList.add('copied');
-          const lang = document.documentElement.getAttribute('data-lang') || 'en';
-          const badge = document.createElement('span');
-          badge.className = 'copy-badge';
-          badge.textContent = lang === 'en' ? 'Copied!' : 'Скопировано!';
-          info.appendChild(badge);
-
-          setTimeout(() => {
-            card.classList.remove('copied');
-            badge.remove();
-          }, 1200);
-        });
 
         list.appendChild(card);
       });
@@ -857,6 +1073,10 @@
       filtered.forEach(item => {
         var card = document.createElement('div');
         card.className = 'overlay-card';
+        card.tabIndex = 0;
+        card.setAttribute('role', 'button');
+        var lang = document.documentElement.dataset.lang || 'en';
+        card.setAttribute('aria-label', lang === 'ru' ? `Копировать оверлей: ${item.term}` : `Copy overlay: ${item.term}`);
 
         var swatch = document.createElement('div');
         swatch.className = 'bg-swatch';
@@ -884,20 +1104,16 @@
         card.appendChild(swatch);
         card.appendChild(info);
 
-        card.addEventListener('click', async () => {
+        const copyOverlay = async () => {
           if (!(await window.cloverCopy(item.term))) return;
-
-          card.classList.add('copied');
-          var lang = document.documentElement.getAttribute('data-lang') || 'en';
-          var badge = document.createElement('span');
-          badge.className = 'copy-badge';
-          badge.textContent = lang === 'en' ? 'Copied!' : 'Скопировано!';
-          info.appendChild(badge);
-
-          setTimeout(() => {
-            card.classList.remove('copied');
-            badge.remove();
-          }, 1200);
+          showCopyFeedback(card, info);
+        };
+        card.addEventListener('click', copyOverlay);
+        card.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            copyOverlay();
+          }
         });
 
         list.appendChild(card);
@@ -920,15 +1136,23 @@
     const lang = document.documentElement.dataset.lang || 'en';
     if (constructorSearch) {
       constructorSearch.placeholder = lang === 'en' ? 'Search prompts...' : 'Поиск промптов...';
+      constructorSearch.setAttribute('aria-label', lang === 'en' ? 'Search prompts' : 'Поиск промптов');
     }
     if (effectsSearch) {
       effectsSearch.placeholder = lang === 'en' ? 'Search effects...' : 'Поиск эффектов...';
+      effectsSearch.setAttribute('aria-label', lang === 'en' ? 'Search effects' : 'Поиск эффектов');
     }
     if (backgroundsSearch) {
       backgroundsSearch.placeholder = lang === 'en' ? 'Search backgrounds...' : 'Поиск фонов...';
+      backgroundsSearch.setAttribute('aria-label', lang === 'en' ? 'Search backgrounds' : 'Поиск фонов');
     }
     if (overlaysSearch) {
       overlaysSearch.placeholder = lang === 'en' ? 'Search overlays...' : 'Поиск оверлеев...';
+      overlaysSearch.setAttribute('aria-label', lang === 'en' ? 'Search overlays' : 'Поиск оверлеев');
+    }
+    if (cameraSearch) {
+      cameraSearch.placeholder = lang === 'en' ? 'Search camera terms...' : 'Поиск по камере и композиции...';
+      cameraSearch.setAttribute('aria-label', lang === 'en' ? 'Search camera and composition terms' : 'Поиск по терминам камеры и композиции');
     }
   }
 
@@ -937,6 +1161,12 @@
     updateSearchPlaceholders();
     if (!selectedPrompt) updateOutput();
     renderPrompts(constructorSearch.value);
+    renderConstructorEffects();
+    renderEffectsLibrary(effectsSearch.value);
+    renderCameraLibrary(cameraSearch ? cameraSearch.value : '');
+    renderEffectStacks();
+    renderBackgroundsLibrary(backgroundsSearch ? backgroundsSearch.value : '');
+    renderOverlaysLibrary(overlaysSearch ? overlaysSearch.value : '');
   });
 
   observer.observe(document.documentElement, {
@@ -948,6 +1178,7 @@
   renderPrompts();
   renderConstructorEffects();
   renderEffectsLibrary();
+  renderCameraLibrary();
   renderEffectStacks();
   renderBackgroundsLibrary();
   renderOverlaysLibrary();

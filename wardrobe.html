@@ -9,7 +9,7 @@
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wardrobe — CLOVER OOC</title>
-  <meta name="description" content="Build your own outfit from 990+ pieces — pick top, bottom (or dress), shoes, and accessories. Copy the clothes: line into SillyTavern.">
+  <meta name="description" content="Build your own outfit from 1,395 pieces — pick top, bottom (or dress), shoes, and accessories. Copy the clothes: line into SillyTavern.">
   <meta property="og:title" content="Wardrobe — CLOVER OOC">
   <meta property="og:description" content="Outfit constructor — mix and match top, bottom, dress, shoes, and accessories.">
   <meta property="og:type" content="website">
@@ -39,10 +39,11 @@
       <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
       <a href="catalogue.html" class="nav-link"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
       <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+      <a href="poses.html" class="nav-link"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
       <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
       <a href="hair.html" class="nav-link"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
       <a href="outfits.html" class="nav-link"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
-      <a href="wardrobe.html" class="nav-link active"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
+      <a href="wardrobe.html" class="nav-link active" aria-current="page"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
       <a href="tools.html" class="nav-link"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
       <a href="guide.html" class="nav-link"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
     </div>
@@ -67,10 +68,11 @@
     <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
     <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
     <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+    <a href="poses.html"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
     <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
     <a href="hair.html"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
     <a href="outfits.html"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
-    <a href="wardrobe.html"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
+    <a href="wardrobe.html" class="active" aria-current="page"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
     <a href="tools.html"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
     <a href="guide.html"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
   </div>
@@ -83,8 +85,8 @@
         <span class="lang-ru">Гардероб</span>
       </h1>
       <p class="wardrobe-subtitle">
-        <span class="lang-en">Build your own outfit — pick pieces from <strong>990+</strong> fragments curated from the Outfits library. Copy the <code>clothes:</code> line.</span>
-        <span class="lang-ru">Собери свой образ — выбирай элементы из <strong>990+</strong> фрагментов, собранных из библиотеки Outfits. Копируй строку <code>clothes:</code>.</span>
+        <span class="lang-en">Build your own outfit — pick pieces from <strong>1,395</strong> fragments curated from the Outfits library. Copy the <code>clothes:</code> line.</span>
+        <span class="lang-ru">Соберите свой образ: выберите элементы из <strong>1 395</strong> фрагментов библиотеки Outfits и скопируйте строку <code>clothes:</code>.</span>
       </p>
 
       <!-- HOW TO USE -->
@@ -96,7 +98,7 @@
         </div>
         <p class="wardrobe-hint-text">
           <span class="lang-en">Pick a mode (<strong>Two-Piece</strong> or <strong>Dress</strong>), tap a slot to open the picker below, filter by style or color, then click an item to fill the slot. Use <strong>Surprise me</strong> to fill empty slots randomly. Copy the live preview when ready.</span>
-          <span class="lang-ru">Выбери режим (<strong>Two-Piece</strong> или <strong>Dress</strong>), нажми на слот чтобы открыть список ниже, фильтруй по стилю или цвету, кликни по элементу — он встанет в слот. <strong>Surprise me</strong> заполнит пустые слоты случайно. Копируй превью когда готов.</span>
+          <span class="lang-ru">Выберите режим (<strong>Two-Piece</strong> или <strong>Dress</strong>), нажмите на слот и откройте список ниже. Используйте фильтры по стилю или цвету, затем выберите нужный элемент. <strong>Surprise me</strong> заполнит пустые слоты случайно. Когда образ будет готов, скопируйте итоговую строку.</span>
         </p>
       </div>
     </div>
@@ -128,7 +130,7 @@
           </button>
           <button id="surprise-btn" class="btn-secondary" type="button">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="m15 15 6 6"/><path d="M4 4l5 5"/></svg>
-            <span class="lang-en">Surprise me</span><span class="lang-ru">Удиви меня</span>
+            <span class="lang-en">Surprise me</span><span class="lang-ru">Удивите меня</span>
           </button>
           <button id="clear-btn" class="btn-ghost" type="button">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M19 6 18 20a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>
@@ -174,7 +176,7 @@
         <div class="picker-grid" id="picker-grid">
           <p class="picker-empty">
             <span class="lang-en">Tap a slot above to start browsing.</span>
-            <span class="lang-ru">Нажми на слот сверху чтобы начать.</span>
+            <span class="lang-ru">Нажмите на слот выше, чтобы начать.</span>
           </p>
         </div>
       </section>
@@ -218,7 +220,7 @@
       .catch(err => {
         console.error('Failed to load wardrobe data:', err);
         var el = document.getElementById('picker-grid');
-        if (el) el.innerHTML = '<p class="picker-empty"><span class="lang-en">Failed to load wardrobe data. Please reload the page.</span><span class="lang-ru">Не удалось загрузить данные. Перезагрузи страницу.</span></p>';
+        if (el) el.innerHTML = '<p class="picker-empty"><span class="lang-en">Failed to load wardrobe data. Please reload the page.</span><span class="lang-ru">Не удалось загрузить данные. Перезагрузите страницу.</span></p>';
       });
   </script>
 </body>

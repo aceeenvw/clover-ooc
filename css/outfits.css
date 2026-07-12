@@ -430,7 +430,7 @@
   line-height: 1.55;
   color: var(--text);
   background: var(--code-bg);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 6px;
   padding: 0.65rem 0.8rem;
   white-space: pre-wrap;
@@ -591,11 +591,11 @@
   flex: 1;
   padding: 0.85rem 1.4rem;
   background: var(--bg);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 8px;
   font-family: var(--font-body);
   font-size: 0.95rem;
-  color: var(--text);
+  color: var(--accent);
   cursor: pointer;
   transition: all 0.2s;
   display: flex;

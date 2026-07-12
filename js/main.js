@@ -3,9 +3,8 @@
    aceenvw
    ═══════════════════════════════════════════════ */
 
-/* Shared clipboard write with a textarea/execCommand fallback.
-   Without the fallback, an insecure origin (or a clicked <a href>) can leak a
-   URL to the clipboard where spaces render as %20. Always returns a boolean. */
+/* Shared raw-text clipboard write with an iOS-compatible legacy fallback.
+   Always returns a boolean. */
 window.cloverCopy = function cloverCopy(text) {
   text = String(text == null ? '' : text);
   if (navigator.clipboard && window.isSecureContext) {
@@ -16,27 +15,47 @@ window.cloverCopy = function cloverCopy(text) {
 };
 
 function cloverCopyLegacy(text) {
+  var active = document.activeElement;
+  var ta = null;
   try {
-    var ta = document.createElement('textarea');
+    ta = document.createElement('textarea');
     ta.value = text;
     ta.setAttribute('readonly', '');
     ta.style.position = 'fixed';
-    ta.style.top = '-9999px';
+    ta.style.inset = '0 auto auto 0';
+    ta.style.width = '1px';
+    ta.style.height = '1px';
+    ta.style.opacity = '0.01';
+    ta.style.fontSize = '16px';
     document.body.appendChild(ta);
+    ta.focus({ preventScroll: true });
     ta.select();
+    ta.setSelectionRange(0, text.length);
     var ok = document.execCommand('copy');
-    document.body.removeChild(ta);
     return ok;
   } catch (err) {
     console.error('Copy failed:', err);
     return false;
+  } finally {
+    if (ta && ta.parentNode) ta.parentNode.removeChild(ta);
+    if (active && typeof active.focus === 'function') {
+      try { active.focus({ preventScroll: true }); } catch (err) { active.focus(); }
+    }
   }
 }
 
 function cloverMainInit() {
 
+  function readPreference(key) {
+    try { return localStorage.getItem(key); } catch (err) { return null; }
+  }
+
+  function writePreference(key, value) {
+    try { localStorage.setItem(key, value); } catch (err) {}
+  }
+
   // ═══ THEME TOGGLE ═══
-  const saved = localStorage.getItem('clover-theme');
+  const saved = readPreference('clover-theme');
   if (saved) {
     document.documentElement.setAttribute('data-theme', saved);
   } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -49,7 +68,7 @@ function cloverMainInit() {
       const current = document.documentElement.getAttribute('data-theme');
       const next = current === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('clover-theme', next);
+      writePreference('clover-theme', next);
     });
   }
 
@@ -73,6 +92,18 @@ function cloverMainInit() {
         burger.setAttribute('aria-expanded', 'false');
       }
     });
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 700 && mobileNav.classList.contains('open')) {
+        mobileNav.classList.remove('open');
+        burger.setAttribute('aria-expanded', 'false');
+      }
+    }, { passive: true });
+    window.addEventListener('scroll', () => {
+      if (mobileNav.classList.contains('open')) {
+        mobileNav.classList.remove('open');
+        burger.setAttribute('aria-expanded', 'false');
+      }
+    }, { passive: true });
   }
 
   // ═══ FADE IN ON SCROLL ═══
@@ -92,13 +123,15 @@ function cloverMainInit() {
       const target = document.querySelector(this.getAttribute('href'));
       if (target) {
         e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+        if (this.classList.contains('sr-only')) target.focus({ preventScroll: true });
       }
     });
   });
 
   // ═══ LANGUAGE TOGGLE ═══
-  const savedLang = localStorage.getItem('clover-lang') || 'en';
+  const savedLang = readPreference('clover-lang') || 'en';
   setLang(savedLang);
 
   const langBtn = document.getElementById('langToggle');
@@ -107,7 +140,7 @@ function cloverMainInit() {
       const current = document.documentElement.getAttribute('data-lang') || 'en';
       const next = current === 'en' ? 'ru' : 'en';
       setLang(next);
-      localStorage.setItem('clover-lang', next);
+      writePreference('clover-lang', next);
 
       const searchInput = document.getElementById('search-input');
       if (searchInput) {
@@ -142,7 +175,10 @@ function cloverMainInit() {
     var titles = {
       'index': { en: 'CLOVER OOC — Image Generation Prompts', ru: 'CLOVER OOC — Промпты для генерации изображений' },
       'catalogue': { en: 'Catalogue — CLOVER OOC', ru: 'Каталог — CLOVER OOC' },
+      'hair': { en: 'Hair — CLOVER OOC', ru: 'Причёски — CLOVER OOC' },
+      'outfits': { en: 'Outfits — CLOVER OOC', ru: 'Образы — CLOVER OOC' },
       'tools': { en: 'Tools — CLOVER OOC', ru: 'Инструменты — CLOVER OOC' },
+      'poses': { en: 'Poses & Expressions — CLOVER OOC', ru: 'Позы и эмоции — CLOVER OOC' },
       'guide': { en: 'Guide — CLOVER OOC', ru: 'Гайд — CLOVER OOC' }
     };
     var page = location.pathname.replace(/.*\//, '').replace('.html', '') || 'index';
@@ -162,9 +198,9 @@ function cloverMainInit() {
   function getCategoryKey(id) {
     if (id.startsWith('solo-')) return 'Solo Character';
     if (id.startsWith('pair-')) return 'Pair / Two Characters';
-    if (id.startsWith('china-') || id.startsWith('egypt-') || id.startsWith('greece-')) return 'Ancient World';
-    if (id.startsWith('medieval-')) return 'Fantasy Medieval';
-    if (id.startsWith('space-')) return 'Deep Space';
+    if (id.startsWith('ancient-') || id.startsWith('china-') || id.startsWith('egypt-') || id.startsWith('greece-')) return 'Ancient World';
+    if (id.startsWith('fantasy-medieval-') || id.startsWith('medieval-')) return 'Fantasy Medieval';
+    if (id.startsWith('deepspace-') || id.startsWith('space-')) return 'Deep Space';
     if (id.startsWith('tropical-')) return 'Tropical Noir';
     if (id.startsWith('gothic-')) return 'Gothic Revival';
     if (id.startsWith('neon-')) return 'Neon Underground';
@@ -202,7 +238,9 @@ function cloverMainInit() {
             if (featuredLinks[index]) {
               const card = featuredLinks[index];
 
-              card.href = '#';
+              card.removeAttribute('href');
+              card.setAttribute('role', 'button');
+              card.tabIndex = 0;
               card.dataset.promptId = prompt.id;
 
               card.onclick = async (e) => {
@@ -222,6 +260,11 @@ function cloverMainInit() {
                   if (clickTitleEn) clickTitleEn.textContent = origEn;
                   if (clickTitleRu) clickTitleRu.textContent = origRu;
                 }, 1500);
+              };
+              card.onkeydown = (e) => {
+                if (e.key !== 'Enter' && e.key !== ' ') return;
+                e.preventDefault();
+                card.click();
               };
 
               const num = card.querySelector('.featured-num');
@@ -288,19 +331,11 @@ function cloverMainInit() {
     }
   }
 
+  window.cloverRandomizeFeatured = randomizeFeaturedPrompts;
+
   if (window.location.pathname.includes('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('/clover-ooc/')) {
     if (window.PROMPTS_DATA) {
       randomizeFeaturedPrompts();
-    } else {
-      // Poll for PROMPTS_DATA, bail after 3s.
-      const checkData = setInterval(() => {
-        if (window.PROMPTS_DATA) {
-          randomizeFeaturedPrompts();
-          clearInterval(checkData);
-        }
-      }, 100);
-
-      setTimeout(() => clearInterval(checkData), 3000);
     }
 
     // Exposed for the language toggle in setLang().

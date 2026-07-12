@@ -9,7 +9,7 @@
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tools — CLOVER OOC</title>
-  <meta name="description" content="Build custom prompts with the Constructor and explore 49 photography effects for AI image generation.">
+  <meta name="description" content="Build custom prompts with the Constructor and explore effects, backgrounds, overlays, camera, and composition terms for AI image generation.">
   <meta property="og:title" content="Tools — CLOVER OOC">
   <meta property="og:description" content="Prompt constructor and photography effects library for SillyTavern image generation.">
   <meta property="og:type" content="website">
@@ -38,11 +38,12 @@
       <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
       <a href="catalogue.html" class="nav-link"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
       <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+      <a href="poses.html" class="nav-link"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
       <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
       <a href="hair.html" class="nav-link"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
       <a href="outfits.html" class="nav-link"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
       <a href="wardrobe.html" class="nav-link"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
-      <a href="tools.html" class="nav-link active"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
+      <a href="tools.html" class="nav-link active" aria-current="page"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
       <a href="guide.html" class="nav-link"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
     </div>
     <div class="nav-right">
@@ -68,11 +69,12 @@
     <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
     <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
     <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+    <a href="poses.html"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
     <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
     <a href="hair.html"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
     <a href="outfits.html"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
     <a href="wardrobe.html"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
-    <a href="tools.html"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
+    <a href="tools.html" class="active" aria-current="page"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
     <a href="guide.html"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
   </div>
 
@@ -87,32 +89,36 @@
       </h1>
       <p class="t-body">
         <span class="lang-en">Build custom prompts and explore photography effects</span>
-        <span class="lang-ru">Создавай кастомные промпты и изучай фото-эффекты</span>
+        <span class="lang-ru">Создавайте собственные промпты и изучайте фотоэффекты</span>
       </p>
     </header>
 
     <!-- TABS -->
     <div class="tabs" role="tablist">
-      <button class="tab-button active" data-tab="constructor" role="tab" aria-selected="true" aria-controls="constructor-tab">
+      <button class="tab-button active" id="constructor-tab-button" data-tab="constructor" role="tab" aria-selected="true" aria-controls="constructor-tab">
         <span class="lang-en">Constructor</span>
         <span class="lang-ru">Конструктор</span>
       </button>
-      <button class="tab-button" data-tab="effects" role="tab" aria-selected="false" aria-controls="effects-tab">
+      <button class="tab-button" id="effects-tab-button" data-tab="effects" role="tab" aria-selected="false" aria-controls="effects-tab" tabindex="-1">
         <span class="lang-en">Effects Library</span>
         <span class="lang-ru">Библиотека эффектов</span>
       </button>
-      <button class="tab-button" data-tab="backgrounds" role="tab" aria-selected="false" aria-controls="backgrounds-tab">
+      <button class="tab-button" id="camera-tab-button" data-tab="camera" role="tab" aria-selected="false" aria-controls="camera-tab" tabindex="-1">
+        <span class="lang-en">Camera & Composition</span>
+        <span class="lang-ru">Камера и композиция</span>
+      </button>
+      <button class="tab-button" id="backgrounds-tab-button" data-tab="backgrounds" role="tab" aria-selected="false" aria-controls="backgrounds-tab" tabindex="-1">
         <span class="lang-en">Backgrounds</span>
         <span class="lang-ru">Фоны</span>
       </button>
-      <button class="tab-button" data-tab="overlays" role="tab" aria-selected="false" aria-controls="overlays-tab">
+      <button class="tab-button" id="overlays-tab-button" data-tab="overlays" role="tab" aria-selected="false" aria-controls="overlays-tab" tabindex="-1">
         <span class="lang-en">Overlays & Textures</span>
         <span class="lang-ru">Оверлеи и текстуры</span>
       </button>
     </div>
 
     <!-- CONSTRUCTOR TAB -->
-    <section class="tab-content active" id="constructor-tab" role="tabpanel">
+    <section class="tab-content active" id="constructor-tab" role="tabpanel" aria-labelledby="constructor-tab-button">
       <div class="constructor-grid">
         <div class="loading-state" id="loading-state">
           <p class="lang-en">Loading data...</p>
@@ -123,16 +129,16 @@
         <div class="constructor-section">
           <h2 class="section-title">
             <span class="lang-en">Step 1: Choose Base Prompt</span>
-            <span class="lang-ru">Шаг 1: Выбери базовый промпт</span>
+            <span class="lang-ru">Шаг 1: Выберите базовый промпт</span>
           </h2>
           <p class="section-description">
             <span class="lang-en">Select one of 250 prompts as your starting point</span>
-            <span class="lang-ru">Выбери один из 250 промптов как основу</span>
+            <span class="lang-ru">Выберите один из 250 промптов в качестве основы</span>
           </p>
 
           <div class="search-box">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input type="text" id="constructor-search" placeholder="Search prompts...">
+            <input type="text" id="constructor-search" placeholder="Search prompts..." aria-label="Search prompts">
           </div>
 
           <div class="prompts-list" id="constructor-prompts"></div>
@@ -142,11 +148,11 @@
         <div class="constructor-section">
           <h2 class="section-title">
             <span class="lang-en">Step 2: Customize (optional)</span>
-            <span class="lang-ru">Шаг 2: Кастомизируй (опционально)</span>
+            <span class="lang-ru">Шаг 2: Настройте промпт (необязательно)</span>
           </h2>
           <p class="section-description">
             <span class="lang-en">Aspect ratio, effects, backgrounds, overlays — mix and match</span>
-            <span class="lang-ru">Соотношение сторон, эффекты, фоны, оверлеи — миксуй как хочешь</span>
+            <span class="lang-ru">Выберите соотношение сторон, эффекты, фоны и оверлеи по своему вкусу</span>
           </p>
 
           <div class="aspect-ratio-selector">
@@ -168,31 +174,39 @@
             </div>
           </div>
 
-          <div class="constructor-subtabs">
-            <button class="constructor-subtab active" data-subtab="effects">
+          <div class="constructor-subtabs" role="tablist" aria-label="Prompt additions">
+            <button class="constructor-subtab active" id="constructor-effects-tab" data-subtab="effects" role="tab" aria-selected="true" aria-controls="subtab-effects">
               <span class="lang-en">Effects</span>
               <span class="lang-ru">Эффекты</span>
             </button>
-            <button class="constructor-subtab" data-subtab="backgrounds">
+            <button class="constructor-subtab" id="constructor-backgrounds-tab" data-subtab="backgrounds" role="tab" aria-selected="false" aria-controls="subtab-backgrounds" tabindex="-1">
               <span class="lang-en">Backgrounds</span>
               <span class="lang-ru">Фоны</span>
             </button>
-            <button class="constructor-subtab" data-subtab="overlays">
+            <button class="constructor-subtab" id="constructor-overlays-tab" data-subtab="overlays" role="tab" aria-selected="false" aria-controls="subtab-overlays" tabindex="-1">
               <span class="lang-en">Overlays</span>
               <span class="lang-ru">Оверлеи</span>
             </button>
+            <button class="constructor-subtab" id="constructor-camera-tab" data-subtab="camera" role="tab" aria-selected="false" aria-controls="subtab-camera" tabindex="-1">
+              <span class="lang-en">Camera</span>
+              <span class="lang-ru">Камера</span>
+            </button>
           </div>
 
-          <div class="constructor-subtab-content active" id="subtab-effects">
+          <div class="constructor-subtab-content active" id="subtab-effects" role="tabpanel" aria-labelledby="constructor-effects-tab">
             <div id="constructor-effects-available"></div>
           </div>
 
-          <div class="constructor-subtab-content" id="subtab-backgrounds">
+          <div class="constructor-subtab-content" id="subtab-backgrounds" role="tabpanel" aria-labelledby="constructor-backgrounds-tab" hidden>
             <div id="constructor-bg-available"></div>
           </div>
 
-          <div class="constructor-subtab-content" id="subtab-overlays">
+          <div class="constructor-subtab-content" id="subtab-overlays" role="tabpanel" aria-labelledby="constructor-overlays-tab" hidden>
             <div id="constructor-ov-available"></div>
+          </div>
+
+          <div class="constructor-subtab-content" id="subtab-camera" role="tabpanel" aria-labelledby="constructor-camera-tab" hidden>
+            <div id="constructor-camera-available"></div>
           </div>
 
           <label class="section-label" style="margin-top: 1rem;">
@@ -207,11 +221,11 @@
         <div class="constructor-section">
           <h2 class="section-title">
             <span class="lang-en">Step 3: Copy Your Prompt</span>
-            <span class="lang-ru">Шаг 3: Скопируй свой промпт</span>
+            <span class="lang-ru">Шаг 3: Скопируйте свой промпт</span>
           </h2>
           <p class="section-description">
             <span class="lang-en">Your customized prompt is ready to use</span>
-            <span class="lang-ru">Твой кастомный промпт готов к использованию</span>
+            <span class="lang-ru">Настроенный вами промпт готов к использованию</span>
           </p>
 
           <div class="output-box">
@@ -228,12 +242,12 @@
     </section>
 
     <!-- EFFECTS LIBRARY TAB -->
-    <section class="tab-content" id="effects-tab" role="tabpanel">
+    <section class="tab-content" id="effects-tab" role="tabpanel" aria-labelledby="effects-tab-button">
 
       <div class="effects-header">
         <p class="effects-intro">
           <span class="lang-en">75 curated photography effects that work well with AI image generation. Click any effect to copy — or pick a <strong>Stack</strong> below to load a whole curated combo into the constructor.</span>
-          <span class="lang-ru">75 отобранных фото-эффектов, которые хорошо работают с AI генерацией изображений. Нажми на эффект, чтобы скопировать — или выбери <strong>Стек</strong> ниже, чтобы загрузить готовое сочетание в конструктор.</span>
+          <span class="lang-ru">75 отобранных фотоэффектов для генерации изображений с помощью ИИ. Нажмите на эффект, чтобы скопировать его, или выберите <strong>Стек</strong> ниже, чтобы загрузить готовое сочетание в конструктор.</span>
         </p>
 
         <div class="effects-hint">
@@ -244,7 +258,7 @@
           </div>
           <p class="effects-hint-text">
             <span class="lang-en">Add effects as keywords at the end of your OOC prompt, before the closing bracket:</span>
-            <span class="lang-ru">Добавляй эффекты как ключевые слова в конец OOC промпта, перед закрывающей скобкой:</span>
+            <span class="lang-ru">Добавляйте эффекты как ключевые слова в конец OOC-промпта перед закрывающей скобкой:</span>
           </p>
           <div class="effects-hint-example">
             <code>[OOC:Image generation — think like a director who just got full creative control. This image should feel alive, caught mid-breath. Shoot through rain-streaked glass, catch someone in a mirror they didn't know was there. Let the light bleed soft. <mark>lens flare</mark>, <mark>film grain</mark>, <mark>bokeh</mark>]</code>
@@ -260,7 +274,7 @@
             </h3>
             <p class="stacks-subtitle">
               <span class="lang-en">Pre-mixed combos — one click loads effects + background into the constructor</span>
-              <span class="lang-ru">Готовые сочетания — один клик загружает эффекты + фон в конструктор</span>
+              <span class="lang-ru">Готовые сочетания эффектов и фона для быстрой загрузки в конструктор</span>
             </p>
           </div>
           <div class="stacks-grid" id="stacks-grid"></div>
@@ -268,7 +282,7 @@
 
         <div class="search-box">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-          <input type="text" id="effects-search" placeholder="Search effects...">
+          <input type="text" id="effects-search" placeholder="Search effects..." aria-label="Search effects">
         </div>
       </div>
 
@@ -276,13 +290,45 @@
 
     </section>
 
+    <!-- CAMERA & COMPOSITION TAB -->
+    <section class="tab-content" id="camera-tab" role="tabpanel" aria-labelledby="camera-tab-button">
+      <div class="effects-header">
+        <p class="effects-intro">
+          <span class="lang-en">50 practical camera, framing, composition, perspective, and light-direction terms. Click any card to copy it into your prompt.</span>
+          <span class="lang-ru">50 практичных терминов для ракурса, кадрирования, композиции, перспективы и направления света. Нажмите на карточку, чтобы скопировать термин в промпт.</span>
+        </p>
+
+        <div class="effects-hint">
+          <div class="effects-hint-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            <span class="lang-en">How to use</span>
+            <span class="lang-ru">Как использовать</span>
+          </div>
+          <p class="effects-hint-text">
+            <span class="lang-en">Combine one framing term with one angle or perspective term. Add composition and light direction only when they support the shot.</span>
+            <span class="lang-ru">Сочетайте один вариант кадрирования с одним ракурсом или типом перспективы. Добавляйте композицию и направление света, когда они поддерживают задумку кадра.</span>
+          </p>
+          <div class="effects-hint-example">
+            <code>[OOC:Image generation — <mark>cowboy shot</mark>, <mark>three-quarter view</mark>, <mark>leading lines</mark>, <mark>side lighting</mark>]</code>
+          </div>
+        </div>
+
+        <div class="search-box">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input type="text" id="camera-search" placeholder="Search camera terms..." aria-label="Search camera and composition terms">
+        </div>
+      </div>
+
+      <div class="effects-grid" id="camera-library"></div>
+    </section>
+
     <!-- BACKGROUNDS TAB -->
-    <section class="tab-content" id="backgrounds-tab" role="tabpanel">
+    <section class="tab-content" id="backgrounds-tab" role="tabpanel" aria-labelledby="backgrounds-tab-button">
 
       <div class="effects-header">
         <p class="effects-intro">
-          <span class="lang-en">Background keywords to control the scene behind your character. Click any card to copy — or hit <strong>Try this</strong> to load it into the constructor with matched effects.</span>
-          <span class="lang-ru">Ключевые слова для фонов, чтобы управлять сценой за персонажем. Нажми на карточку, чтобы скопировать — или жми <strong>Попробовать</strong>, чтобы загрузить её в конструктор с подобранными эффектами.</span>
+          <span class="lang-en">Background keywords to control the scene behind your character. Use the <strong>Copy</strong> button on a card — or hit <strong>Try this</strong> to load it into the constructor with matched effects.</span>
+          <span class="lang-ru">Ключевые слова для управления фоном и окружением персонажа. Нажмите <strong>Копировать</strong> на карточке или выберите <strong>Попробовать</strong>, чтобы загрузить фон в конструктор вместе с подобранными эффектами.</span>
         </p>
 
         <div class="effects-hint">
@@ -293,7 +339,7 @@
           </div>
           <p class="effects-hint-text">
             <span class="lang-en">Add a background keyword anywhere in your OOC — it tells the model what's behind the character. Mix with effects for layered results:</span>
-            <span class="lang-ru">Добавь ключевое слово фона в любое место OOC — оно говорит модели что за персонажем. Миксуй с эффектами для сложных результатов:</span>
+            <span class="lang-ru">Добавьте ключевое слово фона в любое место OOC-промпта, чтобы указать модели окружение за персонажем. Сочетайте его с эффектами для многослойного результата:</span>
           </p>
           <div class="effects-hint-example">
             <code>[OOC:Image generation — think like a director. Shoot through rain-streaked glass, catch someone in a mirror they didn't know was there. Let the light bleed soft. <mark>rainy window background</mark>, <mark>bloom</mark>, <mark>film grain</mark>]</code>
@@ -302,7 +348,7 @@
 
         <div class="search-box">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-          <input type="text" id="backgrounds-search" placeholder="Search backgrounds...">
+          <input type="text" id="backgrounds-search" placeholder="Search backgrounds..." aria-label="Search backgrounds">
         </div>
       </div>
 
@@ -311,12 +357,12 @@
     </section>
 
     <!-- OVERLAYS TAB -->
-    <section class="tab-content" id="overlays-tab" role="tabpanel">
+    <section class="tab-content" id="overlays-tab" role="tabpanel" aria-labelledby="overlays-tab-button">
 
       <div class="effects-header">
         <p class="effects-intro">
           <span class="lang-en">Decorative overlays and textures that layer on top of the image. Scribbles, stickers, glitches, organic elements — things that make a clean render feel lived-in. Click any to copy.</span>
-          <span class="lang-ru">Декоративные оверлеи и текстуры, которые накладываются поверх изображения. Каракули, стикеры, глитчи, природные элементы — вещи, которые делают чистый рендер живым. Нажми на любой, чтобы скопировать.</span>
+          <span class="lang-ru">Декоративные оверлеи и текстуры, которые накладываются поверх изображения. Каракули, стикеры, глитчи и природные элементы делают чистый рендер живым. Нажмите на любую карточку, чтобы скопировать термин.</span>
         </p>
 
         <div class="effects-hint">
@@ -327,7 +373,7 @@
           </div>
           <p class="effects-hint-text">
             <span class="lang-en">Drop an overlay keyword into your OOC and the model will layer it over the render. Stack with effects and backgrounds for maximum chaos:</span>
-            <span class="lang-ru">Добавь ключевое слово оверлея в OOC и модель наложит его поверх рендера. Стакай с эффектами и фонами для максимального хаоса:</span>
+            <span class="lang-ru">Добавьте ключевое слово оверлея в OOC, чтобы модель наложила его поверх изображения. Сочетайте оверлеи с эффектами и фонами:</span>
           </p>
           <div class="effects-hint-example">
             <code>[OOC:Image generation — polaroid snapshot, candid angle, caught mid-laugh. <mark>torn paper edges</mark>, <mark>pen doodles overlay</mark>, <mark>film grain</mark>]</code>
@@ -336,7 +382,7 @@
 
         <div class="search-box">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-          <input type="text" id="overlays-search" placeholder="Search overlays...">
+          <input type="text" id="overlays-search" placeholder="Search overlays..." aria-label="Search overlays">
         </div>
       </div>
 
@@ -370,17 +416,19 @@
       fetch('prompts-data.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
       fetch('effects-curated.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
       fetch('backgrounds-data.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-      fetch('overlays-data.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    ]).then(([prompts, effects, backgrounds, overlays]) => {
+      fetch('overlays-data.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch('camera-data.json').then(r => r.ok ? r.json() : { categories: [] }).catch(() => ({ categories: [] }))
+    ]).then(([prompts, effects, backgrounds, overlays, camera]) => {
       window.PROMPTS_DATA = prompts;
       window.EFFECTS_DATA = effects;
       window.BACKGROUNDS_DATA = backgrounds;
       window.OVERLAYS_DATA = overlays;
+      window.CAMERA_DATA = camera;
       const s = document.createElement('script'); s.src = 'js/tools.js'; document.body.appendChild(s);
     }).catch(err => {
       console.error('Failed to load data:', err);
       var el = document.getElementById('loading-state');
-      if (el) el.innerHTML = '<p class="lang-en">Failed to load data. Please reload the page.</p><p class="lang-ru">Не удалось загрузить данные. Перезагрузи страницу.</p>';
+      if (el) el.innerHTML = '<p class="lang-en">Failed to load data. Please reload the page.</p><p class="lang-ru">Не удалось загрузить данные. Перезагрузите страницу.</p>';
     });
   </script>
 </body>

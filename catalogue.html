@@ -36,8 +36,9 @@
     </a>
     <div class="nav-center">
       <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
-      <a href="catalogue.html" class="nav-link active"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
+      <a href="catalogue.html" class="nav-link active" aria-current="page"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
       <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+      <a href="poses.html" class="nav-link"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
       <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
       <a href="hair.html" class="nav-link"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
       <a href="outfits.html" class="nav-link"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
@@ -66,8 +67,9 @@
   <!-- MOBILE NAV -->
   <div class="nav-mobile" id="navMobile">
     <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
-    <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
+    <a href="catalogue.html" class="active" aria-current="page"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
     <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
+    <a href="poses.html"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
     <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
     <a href="hair.html"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
     <a href="outfits.html"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
@@ -297,7 +299,7 @@
       .catch(err => {
         console.error('Failed to load prompts:', err);
         var el = document.getElementById('loading-state');
-        if (el) el.innerHTML = '<p class="lang-en">Failed to load prompts. Please reload the page.</p><p class="lang-ru">Не удалось загрузить промпты. Перезагрузи страницу.</p>';
+        if (el) el.innerHTML = '<p class="lang-en">Failed to load prompts. Please reload the page.</p><p class="lang-ru">Не удалось загрузить промпты. Перезагрузите страницу.</p>';
       });
   </script>
 </body>

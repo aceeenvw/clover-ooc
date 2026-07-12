@@ -747,6 +747,228 @@
           "sampleHookRu": "Там, наверху — ответ. Здесь, внизу — тот, кто задаёт вопрос"
         }
       ]
+    },
+    {
+      "name": "Fantasy & Medieval",
+      "nameRu": "Фэнтези и средневековье",
+      "backgrounds": [
+        {
+          "term": "floating soil islands above fog background",
+          "nameRu": "парящие острова над туманом",
+          "description": "Grassy islands of exposed earth hover above a milky fog sea, receding into open sky",
+          "descriptionRu": "Покрытые травой острова с обнажёнными пластами земли парят над молочным морем тумана, растворяясь в небесной дали",
+          "preview": "linear-gradient(to bottom, #9fcbd1, #d9e1d8 52%, #87a96b 53%, #8a6848 72%, #eef0e8)"
+        },
+        {
+          "term": "enclosed castle fountain court background",
+          "nameRu": "замкнутый замковый двор с фонтаном",
+          "description": "An octagonal fountain anchors a geometric courtyard divided by clipped hedges and enclosed by arcaded walls, with castle towers rising around the perimeter",
+          "descriptionRu": "В центре геометрического двора стоит восьмиугольный фонтан; подстриженные изгороди делят пространство на четыре части, аркады замыкают его со всех сторон, а по периметру возвышаются замковые башни",
+          "preview": "radial-gradient(circle at 50% 55%, #d8f0ef 0 8%, #568fa0 9% 15%, #d7c79d 16% 23%, transparent 24%), linear-gradient(90deg, #48683f 0 24%, #c9b98f 25% 34%, #527246 35% 65%, #c9b98f 66% 75%, #405c3b 76%)"
+        },
+        {
+          "term": "moonlit blue rose crystal grotto background",
+          "nameRu": "лунный кристальный грот с голубыми розами",
+          "description": "Blue roses fill a moonlit cavern where crystal walls scatter cold diamond-like reflections",
+          "descriptionRu": "Голубые розы заполняют залитый лунным светом грот, а кристаллические стены рассеивают холодные блики, сверкающие подобно алмазам",
+          "preview": "radial-gradient(circle at 72% 22%, #dceeff 0 9%, transparent 10%), radial-gradient(ellipse at 38% 72%, #4979b8, #172850 58%, #0a1028)"
+        },
+        {
+          "term": "moonlit pine garden pond background",
+          "nameRu": "лунный пруд в саду с соснами",
+          "description": "A still moonlit pond reflects a red moon gate on the bank, framed by twisted pines, flowering azaleas, and stepping stones",
+          "descriptionRu": "Неподвижный пруд в лунном свете отражает красные лунные ворота на берегу; вокруг пруда растут искривлённые сосны и цветущие азалии, а вдоль воды лежат камни дорожки",
+          "preview": "radial-gradient(circle at 68% 30%, transparent 0 9%, #9f302d 10% 15%, transparent 16%), radial-gradient(ellipse at 48% 72%, #64798d 0 25%, #172936 52%, transparent 53%), linear-gradient(145deg, #19293a, #243a32 56%, #111a21)"
+        },
+        {
+          "term": "snowy Scandinavian castle courtyard background",
+          "nameRu": "заснеженный двор скандинавского замка",
+          "description": "Steep stone towers enclose a snow-covered courtyard, their windows glowing at winter dawn",
+          "descriptionRu": "Островерхие каменные башни окружают заснеженный двор, а их окна светятся в лучах зимнего рассвета",
+          "preview": "linear-gradient(to bottom, #b8c7d8, #e5c7a4 34%, #66717b 35% 67%, #e8edf1 68%)"
+        },
+        {
+          "term": "Scandinavian castle winter hall background",
+          "nameRu": "зимний зал скандинавского замка",
+          "description": "Carved timber beams and a long hearth warm a castle hall beside tall windows filled with snow",
+          "descriptionRu": "Резные деревянные балки и длинный очаг согревают замковый зал с высокими окнами, за которыми падает снег",
+          "preview": "radial-gradient(circle at 28% 72%, #e9a54a, #6c3c24 32%, transparent 33%), linear-gradient(110deg, #35251f 0 58%, #b9d0dc 59% 78%, #26384a 79%)"
+        },
+        {
+          "term": "medieval castle kitchen at dawn background",
+          "nameRu": "замковая кухня на рассвете",
+          "description": "A broad stone hearth, copper pots, and a flour-dusted worktable catch the first light of dawn",
+          "descriptionRu": "Первые лучи рассвета освещают широкий каменный очаг, медные котлы и присыпанный мукой рабочий стол",
+          "preview": "radial-gradient(circle at 24% 68%, #f3ad4f, #7a3d22 25%, transparent 26%), linear-gradient(135deg, #3c3027, #8f7556 62%, #e8c99b)"
+        },
+        {
+          "term": "vine-covered ancient city background",
+          "nameRu": "древний город, увитый лозами",
+          "description": "Terraced stone houses and empty arcades disappear beneath thick vines in warm evening light",
+          "descriptionRu": "В тёплом вечернем свете каменные дома, ярусами поднимающиеся по склону, и пустые аркады исчезают под густыми лозами",
+          "preview": "linear-gradient(150deg, #d59a62 0 28%, #8a7656 29% 48%, #45643b 49% 72%, #283d2c 73%)"
+        },
+        {
+          "term": "glowing seaweed seabed background",
+          "nameRu": "морское дно со светящимися водорослями",
+          "description": "Luminous seaweed rises from a sandy seabed among pearls, small fish, and ascending bubbles",
+          "descriptionRu": "Светящиеся водоросли тянутся вверх с песчаного дна среди жемчужин, мелких рыб и верениц пузырьков",
+          "preview": "radial-gradient(circle at 30% 72%, #4de0b5 0 5%, transparent 22%), radial-gradient(circle at 72% 58%, #78d8cf 0 4%, transparent 18%), linear-gradient(to bottom, #071a3a, #0b4b63 58%, #907a55)"
+        },
+        {
+          "term": "misty mountain switchback at sunrise background",
+          "nameRu": "горный серпантин на рассвете",
+          "description": "A narrow switchback climbs a pine-dark slope above a fog-filled valley and rose-gold peaks",
+          "descriptionRu": "Узкий серпантин взбирается по склону среди тёмных сосен; внизу лежит затянутая туманом долина, а вдали виднеются розово-золотые вершины",
+          "preview": "linear-gradient(155deg, #efb17a 0 24%, #bd7b82 25% 38%, #d7d9d4 39% 56%, #344b45 57% 74%, #9a8267 75%)"
+        },
+        {
+          "term": "rain-dark aqueduct ruins background",
+          "nameRu": "потемневшие от дождя руины акведука",
+          "description": "Towering broken aqueduct arches stride across a fern-filled ravine, their rain-dark masonry split by a waterfall pouring through one breach",
+          "descriptionRu": "Высокие разрушенные арки акведука пересекают поросшее папоротниками ущелье; потемневшую от дождя кладку рассекает водопад, льющийся сквозь один из проломов",
+          "preview": "linear-gradient(105deg, #263b32 0 18%, #687168 19% 27%, transparent 28% 38%, #59645d 39% 49%, transparent 50% 62%, #4f5a54 63% 72%, #b7d7da 73% 78%, #274234 79%)"
+        },
+        {
+          "term": "split-level moonlit ocean background",
+          "nameRu": "лунный океан: вид над и под водой",
+          "description": "A split-level view cuts across the waterline, with a full moon and rolling waves above and angelfish drifting over coral below",
+          "descriptionRu": "Композиция проходит точно по ватерлинии: над ней полная луна освещает волны, а под водой рыбы-ангелы плывут над кораллами",
+          "preview": "radial-gradient(circle at 72% 18%, #edf2df 0 8%, transparent 9%), linear-gradient(to bottom, #17284b 0 34%, #c4d7df 35% 38%, #17628a 39% 62%, #083b61 63% 79%, #a05d53 80%)"
+        },
+        {
+          "term": "cliffside monastery above clouds background",
+          "nameRu": "монастырь на утёсе над облаками",
+          "description": "A stone monastery carved into a sheer cliff rises above a sea of clouds, reached by a switchback stair beneath its bell tower",
+          "descriptionRu": "Каменный монастырь, высеченный в отвесной скале, возвышается над морем облаков; к нему ведёт зигзагообразная лестница, проходящая под колокольней",
+          "preview": "linear-gradient(150deg, #93b2c5 0 24%, #e8e3d6 25% 47%, #726753 48% 58%, #b9aa8b 59% 68%, #51483e 69% 82%, #d9dde0 83%)"
+        },
+        {
+          "term": "palace sculpture terrace background",
+          "nameRu": "дворцовая терраса со скульптурами",
+          "description": "An open-air marble terrace overlooks a broad valley, with statues, balustrades, and large flower urns arranged around a central reflecting basin",
+          "descriptionRu": "Открытая мраморная терраса выходит на просторную долину; статуи, балюстрады и большие урны с цветами окружают центральный зеркальный бассейн",
+          "preview": "radial-gradient(ellipse at 50% 66%, #b8d8df 0 14%, #e8dfca 15% 24%, transparent 25%), linear-gradient(to bottom, #9fc6df 0 34%, #708b68 35% 52%, #ded5c3 53% 76%, #ae8d70 77%)"
+        },
+        {
+          "term": "stained-glass academy corridor background",
+          "nameRu": "коридор академии с витражами",
+          "description": "A vaulted academy passage lined with carved doors glows beneath stained-glass windows threaded with living vines",
+          "descriptionRu": "Сводчатый коридор академии с резными дверями озарён светом витражей, оплетённых вьющимися растениями",
+          "preview": "linear-gradient(135deg, #243149 0 28%, #7d3e68 29% 39%, #d6a443 40% 50%, #3d795c 51% 61%, #30273f 62%)"
+        }
+      ]
+    },
+    {
+      "name": "Cozy & Seasonal",
+      "nameRu": "Уют и времена года",
+      "backgrounds": [
+        {
+          "term": "old pier at scarlet sunset background",
+          "nameRu": "старый пирс на алом закате",
+          "description": "Weathered boards reach across a calm lake reflecting a scarlet-and-peach sunset",
+          "descriptionRu": "Истёртые временем доски пирса тянутся над спокойным озером, в котором отражается ало-персиковый закат",
+          "preview": "linear-gradient(to bottom, #8f2745, #ed7050 38%, #f2ad77 50%, #8f4f55 51% 72%, #3b2b34 73%)"
+        },
+        {
+          "term": "rain-lit bakery window background",
+          "nameRu": "окно пекарни под дождём",
+          "description": "A striped awning shelters a bright bakery window while puddles scatter warm reflections across the street",
+          "descriptionRu": "Полосатый навес укрывает ярко освещённое окно пекарни, а в лужах по всей улице дрожат тёплые отражения",
+          "preview": "radial-gradient(ellipse at 60% 45%, #ffd889 0 22%, #a45f3f 23% 35%, transparent 36%), linear-gradient(145deg, #344957, #182c3b 58%, #576b72)"
+        },
+        {
+          "term": "quiet lantern garden at dusk background",
+          "nameRu": "тихий сад с фонариками в сумерках",
+          "description": "Tiny lanterns mark winding paths beneath ancient trees, ferns, and a deepening dusk sky",
+          "descriptionRu": "Маленькие фонари отмечают извилистые дорожки среди вековых деревьев и папоротников под темнеющим сумеречным небом",
+          "preview": "radial-gradient(circle at 25% 66%, #ffd36a 0 2%, transparent 12%), radial-gradient(circle at 68% 58%, #ffd36a 0 2%, transparent 11%), linear-gradient(to bottom, #354366, #253f43 50%, #142a23)"
+        },
+        {
+          "term": "grass-reclaimed railway station background",
+          "nameRu": "вокзал, заросший травой",
+          "description": "Rusty tracks vanish through grass beneath a vast arched station roof and rows of faded timetables",
+          "descriptionRu": "Ржавые рельсы исчезают в траве под огромным арочным сводом вокзала, вдоль которого тянутся ряды выцветших табло с расписанием",
+          "preview": "linear-gradient(160deg, #91a0a0 0 28%, #4d5550 29% 49%, #76935c 50% 69%, #704a36 70% 76%, #405b3d 77%)"
+        },
+        {
+          "term": "flower meadow staircase village background",
+          "nameRu": "лестница через цветущий луг к деревне",
+          "description": "A white staircase climbs through purple meadow flowers toward a cluster of red-roofed houses",
+          "descriptionRu": "Белая лестница поднимается через луг, усыпанный фиолетовыми цветами, к деревне с красными крышами",
+          "preview": "linear-gradient(150deg, #78bce0 0 32%, #80ad5f 33% 57%, #8c6bb0 58% 70%, #f0ede2 71% 80%, #a5483f 81%)"
+        },
+        {
+          "term": "rainbow storm field background",
+          "nameRu": "поле под грозой и радугой",
+          "description": "Wind bends a broad field beneath retreating storm clouds, rain, flying leaves, and a clear rainbow",
+          "descriptionRu": "Ветер пригибает траву на просторном поле; грозовые тучи отступают, сквозь дождь летят листья, а в небе проступает яркая радуга",
+          "preview": "radial-gradient(ellipse at 56% 42%, transparent 0 30%, #d67b7b 31% 34%, #e3c862 35% 38%, #66a67b 39% 42%, transparent 43%), linear-gradient(to bottom, #3d4859, #8a969d 56%, #637947 57%)"
+        },
+        {
+          "term": "fogbound lighthouse island background",
+          "nameRu": "остров с маяком в тумане",
+          "description": "A lone lighthouse crowns a rocky island as its beam cuts through fog and breaking dark waves",
+          "descriptionRu": "Одинокий маяк венчает скалистый остров, а его луч прорезает туман над разбивающимися тёмными волнами",
+          "preview": "linear-gradient(165deg, #bec8c9 0 34%, #e9dc9a 35% 38%, #6f7774 39% 52%, #233f52 53% 72%, #172a37 73%)"
+        },
+        {
+          "term": "domed mosaic bathhouse background",
+          "nameRu": "мозаичная купальня под куполом",
+          "description": "A large circular communal pool is sunk beneath a patterned dome, ringed by marble steps, mosaic walls, rising steam, and perimeter lanterns",
+          "descriptionRu": "Под узорчатым куполом расположен большой круглый общий бассейн, окружённый мраморными ступенями и мозаичными стенами; над водой клубится пар, а по периметру горят фонари",
+          "preview": "radial-gradient(circle at 50% 66%, #71aeb2 0 23%, #d9cfba 24% 34%, #927f68 35% 39%, transparent 40%), radial-gradient(ellipse at 50% 8%, #d8b76e, #54747b 48%, #263f48 72%)"
+        },
+        {
+          "term": "snowy candlelit bare tree background",
+          "nameRu": "заснеженное дерево в свете свечей",
+          "description": "A bare tree stands in fresh snow beneath the full moon, surrounded by small sheltered candles",
+          "descriptionRu": "Голое дерево стоит в свежем снегу под полной луной, окружённое маленькими свечами, укрытыми от ветра",
+          "preview": "radial-gradient(circle at 72% 20%, #edf1e8 0 9%, transparent 10%), radial-gradient(circle at 32% 74%, #f4b85a 0 2%, transparent 10%), linear-gradient(to bottom, #182845, #40516b 58%, #dce3e8 59%)"
+        },
+        {
+          "term": "warm kitchen breakfast nook at dawn background",
+          "nameRu": "уютная кухня на рассвете",
+          "description": "Sheer curtains stir beside a breakfast nook, a flowerpot, and a sunlit counter in the quiet dawn",
+          "descriptionRu": "В тихом рассветном свете прозрачные занавески колышутся у обеденного уголка, горшка с цветами и залитой солнцем столешницы",
+          "preview": "linear-gradient(115deg, #f5d9ba 0 34%, #f0a990 35% 48%, #d9e6d3 49% 64%, #aa7b55 65% 82%, #6f4d3b 83%)"
+        },
+        {
+          "term": "cottage sewing room background",
+          "nameRu": "швейная комната в коттедже",
+          "description": "A low cottage room holds a dress form, sewing table, folded fabrics, and a basket of thread beside a small window overlooking the garden",
+          "descriptionRu": "В комнате коттеджа с низким потолком стоят портновский манекен и швейный стол, рядом лежат сложенные ткани и корзина с нитками, а маленькое окно выходит в сад",
+          "preview": "linear-gradient(115deg, #b9d6ad 0 18%, #e8d8b8 19% 34%, #8b624c 35% 52%, #b66f78 53% 64%, #d5b77d 65% 79%, #5f493b 80%)"
+        },
+        {
+          "term": "spring meadow stream background",
+          "nameRu": "весенний луг с ручьём",
+          "description": "A clear stream curves through dew-bright grass and meadow flowers beneath distant mountains",
+          "descriptionRu": "Прозрачный ручей изгибается среди сверкающей от росы травы и луговых цветов на фоне далёких гор",
+          "preview": "linear-gradient(160deg, #b9d9e4 0 29%, #819d89 30% 42%, #78ab57 43% 63%, #5aa6b8 64% 73%, #a7ca6d 74%)"
+        },
+        {
+          "term": "autumn orchard harvest background",
+          "nameRu": "осенний сбор урожая в саду",
+          "description": "Orderly rows of apple trees glow in low afternoon sun, with a wooden ladder, fruit-filled baskets, and fallen leaves between them",
+          "descriptionRu": "Ровные ряды яблонь светятся в низких лучах послеобеденного солнца; между деревьями стоят деревянная лестница и корзины с плодами, а землю устилают опавшие листья",
+          "preview": "radial-gradient(circle at 82% 24%, #f6c46a 0 9%, transparent 28%), linear-gradient(155deg, #758542 0 26%, #a9472f 27% 34%, #6f7d38 35% 52%, #c48b45 53% 67%, #784530 68%)"
+        },
+        {
+          "term": "shadowed old bookshop reading room background",
+          "nameRu": "читальный зал старого книжного магазина",
+          "description": "A cramped back room of mismatched shelves, book piles, and one green-shaded reading lamp surrounds a worn armchair",
+          "descriptionRu": "В тесной задней комнате среди разномастных полок и стопок книг стоит потёртое кресло, освещённое единственной лампой под зелёным абажуром",
+          "preview": "radial-gradient(circle at 48% 52%, #c9a85d 0 13%, #47613d 14% 23%, transparent 35%), linear-gradient(135deg, #241a16, #4b3528 58%, #17110f)"
+        },
+        {
+          "term": "snowbound window seat bedroom background",
+          "nameRu": "спальня с подоконником-диваном в снежном плену",
+          "description": "A deep cushioned window seat layered with knitted blankets rests beside a small bedside lamp, while frost patterns veil the panes and snowdrifts rise outside",
+          "descriptionRu": "Глубокий подоконник-диван с мягкими подушками укрыт вязаными пледами; рядом горит небольшая прикроватная лампа, морозные узоры покрывают стёкла, а снаружи громоздятся сугробы",
+          "preview": "radial-gradient(circle at 24% 68%, #efc77a 0 8%, transparent 24%), linear-gradient(105deg, #38475b 0 28%, #d9e5e8 29% 48%, #a9c3cf 49% 63%, #b78476 64% 78%, #5c4c52 79%)"
+        }
+      ]
     }
   ]
 }

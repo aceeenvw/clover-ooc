@@ -167,7 +167,7 @@
     hintEn.textContent = 'click body to copy';
     const hintRu = document.createElement('span');
     hintRu.className = 'lang-ru';
-    hintRu.textContent = 'клик по тексту = копировать';
+    hintRu.textContent = 'Нажмите на текст, чтобы скопировать';
     hint.appendChild(hintEn);
     hint.appendChild(hintRu);
     controls.appendChild(hint);
@@ -261,7 +261,7 @@
       emEn.textContent = 'No matches in this section.';
       const emRu = document.createElement('span');
       emRu.className = 'lang-ru';
-      emRu.textContent = 'В этой секции совпадений нет.';
+      emRu.textContent = 'В этом разделе совпадений нет.';
       empty.appendChild(emEn);
       empty.appendChild(emRu);
       body.appendChild(empty);

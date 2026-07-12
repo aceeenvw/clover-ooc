@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════
    CLOVER OOC — OUTFITS JS
-   265 outfits across 15 sections. Click card body to copy,
+   383 outfits across 19 sections. Click card body to copy,
    click card to open modal with full image + body.
    Mirrors the restyle.js / catalogue.js patterns.
    aceenvw
@@ -178,7 +178,7 @@
     hintEn.textContent = 'click text to copy · click card for full view';
     const hintRu = document.createElement('span');
     hintRu.className = 'lang-ru';
-    hintRu.textContent = 'клик по тексту = копия · клик по карточке = полный вид';
+    hintRu.textContent = 'Нажмите на текст, чтобы скопировать · нажмите на карточку, чтобы открыть полностью';
     hint.appendChild(hintEn);
     hint.appendChild(hintRu);
     content.appendChild(hint);
@@ -280,7 +280,7 @@
       emEn.textContent = 'No matches in this section.';
       const emRu = document.createElement('span');
       emRu.className = 'lang-ru';
-      emRu.textContent = 'В этой секции совпадений нет.';
+      emRu.textContent = 'В этом разделе совпадений нет.';
       empty.appendChild(emEn);
       empty.appendChild(emRu);
       body.appendChild(empty);

@@ -466,6 +466,30 @@
   margin-top: auto;
 }
 
+.copy-btn {
+  min-height: 44px;
+  margin-top: 1rem;
+  padding: 0.625rem 1.25rem;
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  align-self: flex-start;
+}
+
+.copy-btn:hover,
+.copy-btn.copied {
+  background: var(--accent-faint);
+}
+
 /* ═══ LIST VIEW (vertical stack) ═══ */
 .prompts-grid[data-view="list"] .prompt-card {
   cursor: default;
@@ -521,28 +545,14 @@
 }
 
 .prompts-grid[data-view="list"] .copy-btn {
-  padding: 0.625rem 1.25rem;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  font-family: var(--font-body);
-  font-size: 0.875rem;
-  color: var(--text);
-  cursor: pointer;
-  transition: all 0.2s;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
   align-self: flex-start;
 }
 
 .prompts-grid[data-view="list"] .copy-btn:hover {
-  border-color: var(--accent);
   color: var(--accent);
 }
 
 .prompts-grid[data-view="list"] .copy-btn.copied {
-  border-color: var(--accent);
   color: var(--accent);
 }
 
@@ -693,11 +703,11 @@
   flex: 1;
   padding: 0.875rem 1.5rem;
   background: var(--bg);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 8px;
   font-family: var(--font-body);
   font-size: 0.95rem;
-  color: var(--text);
+  color: var(--accent);
   cursor: pointer;
   transition: all 0.2s;
   display: flex;

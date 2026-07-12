@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════
    CLOVER OOC — HAIR JS
-   259 hairstyles across 7 sections. Click card body to copy
+   275 hairstyles across 8 sections. Click card body to copy
    the 'hairstyle:' line; click card for full image + body.
    Two filter facets: vibe (multi) + texture (single-per-item, multi-select).
    Mirrors the outfits.js pattern.
@@ -240,7 +240,7 @@
     hintEn.textContent = 'click text to copy · click card for full view';
     const hintRu = document.createElement('span');
     hintRu.className = 'lang-ru';
-    hintRu.textContent = 'клик по тексту = копия · клик по карточке = полный вид';
+    hintRu.textContent = 'Нажмите на текст, чтобы скопировать · нажмите на карточку, чтобы открыть полностью';
     hint.appendChild(hintEn);
     hint.appendChild(hintRu);
     content.appendChild(hint);
@@ -343,7 +343,7 @@
       emEn.textContent = 'No matches in this section.';
       const emRu = document.createElement('span');
       emRu.className = 'lang-ru';
-      emRu.textContent = 'В этой секции совпадений нет.';
+      emRu.textContent = 'В этом разделе совпадений нет.';
       empty.appendChild(emEn);
       empty.appendChild(emRu);
       body.appendChild(empty);

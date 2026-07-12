@@ -1,0 +1,349 @@
+{
+  "categories": [
+    {
+      "id": "angle",
+      "name": "Angle",
+      "nameRu": "Ракурс",
+      "description": "Controls the camera's orientation and position relative to the subject, without changing how tightly the scene is cropped.",
+      "descriptionRu": "Определяет положение и наклон камеры относительно объекта, не задавая крупность кадра.",
+      "terms": [
+        {
+          "term": "dutch angle",
+          "nameRu": "Голландский угол",
+          "description": "Tilts the horizon to create tension, instability, or dynamic motion.",
+          "descriptionRu": "Наклоняет линию горизонта, добавляя напряжение, неустойчивость или ощущение движения."
+        },
+        {
+          "term": "from above",
+          "nameRu": "Ракурс сверху",
+          "description": "Places the camera above the subject for a downward view that emphasizes layout and vulnerability.",
+          "descriptionRu": "Располагает камеру над объектом и направляет взгляд вниз, подчёркивая пространственную организацию сцены или уязвимость героя."
+        },
+        {
+          "term": "from behind",
+          "nameRu": "Вид со спины",
+          "description": "Shows the subject from the back, directing attention toward what lies ahead of them.",
+          "descriptionRu": "Показывает объект со спины и переводит внимание на пространство перед ним."
+        },
+        {
+          "term": "from below",
+          "nameRu": "Ракурс снизу",
+          "description": "Places the camera below the subject to increase scale, dominance, or monumentality.",
+          "descriptionRu": "Располагает камеру ниже объекта, усиливая ощущение масштаба, превосходства или монументальности."
+        },
+        {
+          "term": "from side",
+          "nameRu": "Вид сбоку",
+          "description": "Views the subject laterally, clarifying silhouette, posture, and direction of movement.",
+          "descriptionRu": "Показывает объект сбоку, чётко раскрывая силуэт, позу и направление движения."
+        },
+        {
+          "term": "bird's-eye view",
+          "nameRu": "Вид с высоты птичьего полёта",
+          "description": "Looks steeply down from high above to reveal spatial patterns and the subject's place in the scene.",
+          "descriptionRu": "Показывает сцену почти отвесно с большой высоты, раскрывая её структуру и положение объекта в пространстве."
+        },
+        {
+          "term": "three-quarter view",
+          "nameRu": "Ракурс в три четверти",
+          "description": "Turns the subject partly away from the camera to show both front and side planes with natural depth.",
+          "descriptionRu": "Разворачивает объект к камере под углом, одновременно показывая переднюю и боковую плоскости и создавая естественный объём."
+        },
+        {
+          "term": "straight-on view",
+          "nameRu": "Фронтальный ракурс",
+          "description": "Faces the subject directly at eye level for a clear, stable, and confrontational view.",
+          "descriptionRu": "Показывает объект прямо и на уровне глаз, создавая ясный, устойчивый образ и ощущение прямого противостояния."
+        },
+        {
+          "term": "upside-down angle",
+          "nameRu": "Перевёрнутый ракурс",
+          "description": "Rotates the camera fully upside down for deliberate disorientation or surreal visual tension.",
+          "descriptionRu": "Полностью переворачивает камеру, создавая намеренную дезориентацию или сюрреалистическое напряжение."
+        }
+      ]
+    },
+    {
+      "id": "framing",
+      "name": "Framing",
+      "nameRu": "Кадрирование",
+      "description": "Defines how much of the subject and surroundings appear inside the frame, from intimate details to expansive scenes.",
+      "descriptionRu": "Определяет, какая часть объекта и окружения входит в кадр: от отдельной детали до общего плана сцены.",
+      "terms": [
+        {
+          "term": "extreme close-up",
+          "nameRu": "Сверхкрупный план",
+          "description": "Fills the frame with a small detail such as the eyes or lips for maximum intensity.",
+          "descriptionRu": "Заполняет кадр небольшой деталью, например глазами или губами, для предельной выразительности."
+        },
+        {
+          "term": "close-up",
+          "nameRu": "Крупный план",
+          "description": "Frames the face or another key detail closely to emphasize expression and emotion.",
+          "descriptionRu": "Крупно показывает лицо или важную деталь, акцентируя мимику и эмоции."
+        },
+        {
+          "term": "headshot",
+          "nameRu": "Плечевой портрет",
+          "description": "Frames the head and shoulders for a direct portrait focused on identity and expression.",
+          "descriptionRu": "Включает голову и плечи, создавая портрет с акцентом на внешность и выражение лица."
+        },
+        {
+          "term": "bust shot",
+          "nameRu": "Погрудный план",
+          "description": "Frames the subject from the chest upward, balancing facial expression with posture and clothing.",
+          "descriptionRu": "Показывает героя по грудь, сочетая акцент на лице с позой и деталями одежды."
+        },
+        {
+          "term": "upper body shot",
+          "nameRu": "Поясной план",
+          "description": "Frames the subject from the waist upward to include gestures while retaining portrait detail.",
+          "descriptionRu": "Показывает героя по пояс, сохраняя портретную выразительность и включая жесты рук."
+        },
+        {
+          "term": "cowboy shot",
+          "nameRu": "Американский план",
+          "description": "Frames the subject from mid-thigh upward, leaving room for hands, props, and an active stance.",
+          "descriptionRu": "Показывает героя от середины бёдер и выше, оставляя в кадре руки, реквизит и выразительную стойку."
+        },
+        {
+          "term": "three-quarter body shot",
+          "nameRu": "План в три четверти роста",
+          "description": "Frames most of the body, usually from the knees upward, for pose-focused portraits.",
+          "descriptionRu": "Показывает большую часть фигуры, обычно от колен, и подходит для портретов с акцентом на позу."
+        },
+        {
+          "term": "full body shot",
+          "nameRu": "Ростовой план",
+          "description": "Includes the entire figure from head to toe with enough space to read the complete pose.",
+          "descriptionRu": "Полностью включает фигуру с головы до ног, позволяя целиком увидеть позу."
+        },
+        {
+          "term": "wide shot",
+          "nameRu": "Общий план",
+          "description": "Shows the full subject within a clearly visible environment to establish action and setting.",
+          "descriptionRu": "Показывает объект целиком в хорошо читаемом окружении, раскрывая действие и обстановку."
+        },
+        {
+          "term": "extreme wide shot",
+          "nameRu": "Дальний план",
+          "description": "Makes the environment dominant and the subject small, emphasizing scale, distance, or isolation.",
+          "descriptionRu": "Отдаёт основную часть кадра окружению, уменьшая фигуру и подчёркивая масштаб, расстояние или одиночество."
+        },
+        {
+          "term": "lower body shot",
+          "nameRu": "План нижней части тела",
+          "description": "Frames the subject from the waist downward to emphasize stance, movement, footwear, or costume details.",
+          "descriptionRu": "Показывает фигуру от пояса вниз, акцентируя стойку, движение, обувь или детали костюма."
+        },
+        {
+          "term": "detail shot",
+          "nameRu": "Детальный план",
+          "description": "Isolates a meaningful object, costume element, hand gesture, or texture without filling the frame as tightly as an extreme close-up.",
+          "descriptionRu": "Выделяет значимый предмет, элемент костюма, жест руки или фактуру, не заполняя кадр так плотно, как сверхкрупный план."
+        },
+        {
+          "term": "over-the-shoulder shot",
+          "nameRu": "План через плечо",
+          "description": "Frames the main subject past another person's shoulder to establish dialogue, attention, or spatial relation.",
+          "descriptionRu": "Показывает главного героя через плечо другого персонажа, обозначая диалог, направление взгляда и пространственную связь между ними."
+        },
+        {
+          "term": "split framing",
+          "nameRu": "Разделённый кадр",
+          "description": "Divides the frame into distinct areas for two subjects or simultaneous visual threads.",
+          "descriptionRu": "Делит кадр на отдельные зоны для двух объектов или параллельных визуальных сюжетов."
+        }
+      ]
+    },
+    {
+      "id": "composition",
+      "name": "Composition",
+      "nameRu": "Композиция",
+      "description": "Organizes subjects, shapes, and visual paths within the frame to control balance, emphasis, and storytelling.",
+      "descriptionRu": "Организует объекты, формы и направления внутри кадра, управляя балансом, акцентами и визуальным повествованием.",
+      "terms": [
+        {
+          "term": "centered composition",
+          "nameRu": "Центральная композиция",
+          "description": "Places the main subject at the visual center for immediate emphasis and formal clarity.",
+          "descriptionRu": "Располагает главный объект в центре кадра, подчёркивая его и придавая композиции ясность и строгость."
+        },
+        {
+          "term": "symmetrical composition",
+          "nameRu": "Симметричная композиция",
+          "description": "Balances mirrored or equivalent elements across an axis for order, calm, or monumentality.",
+          "descriptionRu": "Уравновешивает зеркальные или равноценные элементы по обе стороны оси, создавая ощущение порядка, спокойствия или монументальности."
+        },
+        {
+          "term": "asymmetrical composition",
+          "nameRu": "Асимметричная композиция",
+          "description": "Balances unequal visual weights to produce energy, tension, and a less formal arrangement.",
+          "descriptionRu": "Уравновешивает неравные визуальные массы, придавая кадру динамику, напряжение и свободу."
+        },
+        {
+          "term": "negative space",
+          "nameRu": "Негативное пространство",
+          "description": "Surrounds the subject with intentional empty space to create focus, scale, or quiet atmosphere.",
+          "descriptionRu": "Окружает объект намеренно свободным пространством, усиливая акцент, ощущение масштаба или тишины."
+        },
+        {
+          "term": "rule of thirds",
+          "nameRu": "Правило третей",
+          "description": "Places key elements along a three-by-three grid for balanced, natural-looking emphasis.",
+          "descriptionRu": "Размещает важные элементы вдоль линий и в точках пересечения сетки третей, создавая естественный баланс."
+        },
+        {
+          "term": "leading lines",
+          "nameRu": "Направляющие линии",
+          "description": "Uses roads, edges, shadows, or other lines to guide the eye toward the focal point.",
+          "descriptionRu": "Использует дороги, границы, тени и другие линии, чтобы направить взгляд к смысловому центру."
+        },
+        {
+          "term": "diagonal composition",
+          "nameRu": "Диагональная композиция",
+          "description": "Arranges dominant forms along diagonals to add movement, depth, and visual tension.",
+          "descriptionRu": "Выстраивает основные формы по диагонали, добавляя движение, глубину и визуальное напряжение."
+        },
+        {
+          "term": "triangular composition",
+          "nameRu": "Треугольная композиция",
+          "description": "Groups key elements into a triangular structure for stability and a clear visual hierarchy.",
+          "descriptionRu": "Объединяет ключевые элементы в треугольную схему, создавая устойчивость и ясную иерархию."
+        },
+        {
+          "term": "frame within a frame",
+          "nameRu": "Кадр в кадре",
+          "description": "Uses a doorway, window, or similar boundary to enclose the subject and concentrate attention.",
+          "descriptionRu": "Использует дверной проём, окно или другую внутреннюю рамку для обрамления объекта и концентрации внимания на нём."
+        },
+        {
+          "term": "foreground framing",
+          "nameRu": "Обрамление объектами переднего плана",
+          "description": "Places nearby elements around the subject to add depth, context, and a sense of observation.",
+          "descriptionRu": "Размещает близкие объекты по краям кадра, добавляя глубину, контекст и эффект наблюдения."
+        },
+        {
+          "term": "layered composition",
+          "nameRu": "Многоплановая композиция",
+          "description": "Distributes meaningful elements across foreground, middle ground, and background for a richer scene.",
+          "descriptionRu": "Распределяет значимые элементы между передним, средним и дальним планами, делая сцену насыщеннее."
+        },
+        {
+          "term": "depth composition",
+          "nameRu": "Глубинная композиция",
+          "description": "Arranges subjects along the viewing axis to lead the eye from near space into the distance.",
+          "descriptionRu": "Располагает объекты вдоль зрительной оси, направляя взгляд от ближнего плана в глубину кадра."
+        },
+        {
+          "term": "partially underwater shot",
+          "nameRu": "Кадр на границе воды",
+          "description": "Splits the scene at the waterline to show above-water and underwater spaces at once.",
+          "descriptionRu": "Разделяет сцену линией воды, одновременно показывая пространство над поверхностью и под ней."
+        },
+        {
+          "term": "point-of-view composition",
+          "nameRu": "Субъективная композиция",
+          "description": "Builds the image around what a character sees, often including hands or nearby objects for immersion.",
+          "descriptionRu": "Строит изображение как взгляд персонажа, часто включая руки или близкие предметы для эффекта присутствия."
+        },
+        {
+          "term": "character lineup",
+          "nameRu": "Линейка персонажей",
+          "description": "Arranges multiple characters side by side for clear comparison of scale, design, or role.",
+          "descriptionRu": "Выстраивает нескольких персонажей рядом для наглядного сравнения роста, дизайна или роли."
+        },
+        {
+          "term": "reference sheet",
+          "nameRu": "Модельный лист",
+          "description": "Organizes consistent views, poses, expressions, or details of a subject on one presentation sheet.",
+          "descriptionRu": "Собирает на одном листе единообразные изображения объекта: ракурсы, позы, выражения и характерные детали."
+        },
+        {
+          "term": "projected inset",
+          "nameRu": "Выносное изображение",
+          "description": "Adds a separate enlarged or alternate view within the main image to clarify a detail or parallel moment.",
+          "descriptionRu": "Добавляет к основному изображению отдельный увеличенный фрагмент или альтернативный вид, поясняющий деталь либо параллельный эпизод."
+        }
+      ]
+    },
+    {
+      "id": "perspective",
+      "name": "Perspective",
+      "nameRu": "Перспектива",
+      "description": "Controls how spatial depth, scale, and parallel lines are represented, independently of camera angle and crop.",
+      "descriptionRu": "Определяет передачу глубины, масштаба и параллельных линий независимо от ракурса камеры и границ кадра.",
+      "terms": [
+        {
+          "term": "atmospheric perspective",
+          "nameRu": "Воздушная перспектива",
+          "description": "Reduces contrast, saturation, and detail with distance to create convincing atmospheric depth.",
+          "descriptionRu": "Ослабляет контраст, насыщенность и детализацию по мере удаления, создавая убедительную глубину пространства."
+        },
+        {
+          "term": "forced perspective",
+          "nameRu": "Форсированная перспектива",
+          "description": "Manipulates relative size and distance so subjects appear unusually large, small, near, or far.",
+          "descriptionRu": "Манипулирует соотношением размеров и расстояний, заставляя объекты казаться необычно большими, маленькими, близкими или далёкими."
+        },
+        {
+          "term": "isometric perspective",
+          "nameRu": "Изометрическая проекция",
+          "description": "Shows three spatial axes at equal scale without vanishing points, useful for clear diagram-like scenes.",
+          "descriptionRu": "Показывает три пространственные оси в едином масштабе без точек схода, что удобно для наглядных схем и окружений."
+        },
+        {
+          "term": "one-point perspective",
+          "nameRu": "Одноточечная перспектива",
+          "description": "Converges receding lines toward one vanishing point for strong frontal depth and visual focus.",
+          "descriptionRu": "Сводит уходящие линии к одной точке схода, создавая выраженную фронтальную глубину и чёткий композиционный акцент."
+        },
+        {
+          "term": "two-point perspective",
+          "nameRu": "Двухточечная перспектива",
+          "description": "Converges horizontal edges toward two vanishing points to show dimensional corners and architecture naturally.",
+          "descriptionRu": "Направляет горизонтальные рёбра к двум точкам схода, естественно передавая объём предметов и архитектуры при взгляде на угол."
+        }
+      ]
+    },
+    {
+      "id": "light-direction",
+      "name": "Light Direction",
+      "nameRu": "Направление света",
+      "description": "Specifies where the main light comes from relative to the subject, shaping which surfaces are lit and where shadows fall.",
+      "descriptionRu": "Задаёт положение основного источника относительно объекта, определяя освещённые плоскости и направление теней.",
+      "terms": [
+        {
+          "term": "light from behind",
+          "nameRu": "Контровой свет",
+          "description": "Places the main light behind the subject, leaving front-facing surfaces darker and directing shadows toward the camera.",
+          "descriptionRu": "Располагает основной источник позади объекта, затемняя обращённые к камере плоскости и направляя тени в сторону камеры."
+        },
+        {
+          "term": "light from below",
+          "nameRu": "Свет снизу",
+          "description": "Directs light upward from below the subject, reversing familiar facial and object shadow patterns.",
+          "descriptionRu": "Направляет свет снизу вверх, изменяя привычный рисунок теней на лице и предметах."
+        },
+        {
+          "term": "side lighting",
+          "nameRu": "Боковой свет",
+          "description": "Illuminates the subject from one side, revealing volume through a clear light-to-shadow transition.",
+          "descriptionRu": "Освещает объект сбоку, подчёркивая объём отчётливым переходом от света к тени."
+        },
+        {
+          "term": "top lighting",
+          "nameRu": "Верхний свет",
+          "description": "Directs light downward from above, brightening upper planes and casting shadows beneath features and objects.",
+          "descriptionRu": "Направляет свет сверху вниз, освещая верхние плоскости и создавая тени под выступающими деталями."
+        },
+        {
+          "term": "front lighting",
+          "nameRu": "Фронтальный свет",
+          "description": "Lights the subject from near the camera axis, minimizing visible shadows and presenting details clearly.",
+          "descriptionRu": "Освещает объект со стороны камеры, уменьшая видимые тени и ясно показывая детали."
+        }
+      ]
+    }
+  ]
+}

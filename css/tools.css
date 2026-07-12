@@ -170,7 +170,8 @@ body:has(.tools-header)::before {
 }
 
 #constructor-bg-available,
-#constructor-ov-available {
+#constructor-ov-available,
+#constructor-camera-available {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -278,6 +279,7 @@ body:has(.tools-header)::before {
 }
 
 .prompt-item {
+  width: 100%;
   padding: 1rem;
   background: var(--bg);
   border: 2px solid var(--border);
@@ -285,6 +287,7 @@ body:has(.tools-header)::before {
   cursor: pointer;
   transition: all 0.2s;
   text-align: left;
+  font-family: inherit;
 }
 
 .prompt-item:hover {
@@ -384,12 +387,23 @@ body:has(.tools-header)::before {
   color: #fff;
 }
 
+.effect-tag-translation {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 0.8;
+}
+
 /* Tooltip: RU translation on hover (only in Russian mode) */
 [data-lang="ru"] .effect-tag[data-tip] {
   position: relative;
 }
 
-[data-lang="ru"] .effect-tag[data-tip]:hover::after {
+[data-lang="ru"] .effect-tag[data-tip]:hover::after,
+[data-lang="ru"] .effect-tag[data-tip]:focus-visible::after {
   content: attr(data-tip);
   position: absolute;
   bottom: calc(100% + 6px);
@@ -456,7 +470,7 @@ body:has(.tools-header)::before {
   gap: 0.5rem;
   padding: 0.875rem 1.5rem;
   background: var(--accent);
-  border: none;
+  border: 1px solid var(--accent);
   border-radius: 8px;
   font-family: var(--font-body);
   font-size: 0.9375rem;
@@ -597,7 +611,7 @@ body:has(.tools-header)::before {
 .effect-card {
   padding: 1.25rem;
   background: var(--bg-surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 8px;
   transition: all 0.2s;
   cursor: pointer;
@@ -620,6 +634,22 @@ body:has(.tools-header)::before {
   font-size: 0.875rem;
   line-height: 1.5;
   color: var(--text-secondary);
+}
+
+.camera-name {
+  margin: -0.25rem 0 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.effect-card:focus-visible,
+.overlay-card:focus-visible,
+.prompt-item:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-color: var(--accent);
+  background: var(--bg-elevated);
 }
 
 .effect-card.copied {
@@ -647,7 +677,7 @@ body:has(.tools-header)::before {
   gap: 1rem;
   padding: 1rem;
   background: var(--bg-surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 8px;
   transition: all 0.2s;
   cursor: pointer;
@@ -674,10 +704,9 @@ body:has(.tools-header)::before {
   gap: 1rem;
   padding: 1rem;
   background: var(--bg-surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 8px;
   transition: all 0.2s;
-  cursor: pointer;
   align-items: flex-start;
 }
 
@@ -735,7 +764,7 @@ body:has(.tools-header)::before {
   line-height: 1.4;
   color: var(--text-secondary);
   background: var(--bg-elevated);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 999px;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -760,7 +789,8 @@ body:has(.tools-header)::before {
 [data-lang="ru"] .pairs-chip[data-tip] {
   position: relative;
 }
-[data-lang="ru"] .pairs-chip[data-tip]:hover::after {
+[data-lang="ru"] .pairs-chip[data-tip]:hover::after,
+[data-lang="ru"] .pairs-chip[data-tip]:focus-visible::after {
   content: attr(data-tip);
   position: absolute;
   bottom: calc(100% + 6px);
@@ -776,6 +806,49 @@ body:has(.tools-header)::before {
   white-space: nowrap;
   pointer-events: none;
   z-index: 10;
+}
+
+.background-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.75rem;
+  padding: 0.4rem 0.85rem;
+  font: 500 0.78rem var(--font-body);
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.background-copy-btn:hover,
+.background-copy-btn.copied {
+  color: #fff;
+  background: var(--accent);
+}
+
+.background-copy-btn .copy-badge {
+  display: inline;
+  margin: 0;
+  color: inherit;
+}
+
+.background-copy-btn.copied > .lang-en,
+.background-copy-btn.copied > .lang-ru {
+  display: none;
+}
+
+.tab-button:focus-visible,
+.constructor-subtab:focus-visible,
+.aspect-btn:focus-visible,
+.effect-tag:focus-visible,
+.pairs-chip:focus-visible,
+.try-this-btn:focus-visible,
+.background-copy-btn:focus-visible,
+.copy-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 /* ═══ "TRY THIS" BUTTON ═══ */
@@ -1010,6 +1083,16 @@ body:has(.tools-header)::before {
 
   .tab-button {
     padding: 0.875rem 1.5rem;
+    white-space: nowrap;
+  }
+
+  .constructor-subtabs {
+    overflow-x: auto;
+  }
+
+  .constructor-subtab {
+    flex: 0 0 auto;
+    min-width: 7.5rem;
     white-space: nowrap;
   }
 }

@@ -180,7 +180,7 @@
         const opt = document.createElement('span');
         opt.className = 'slot-optional';
         const oEn = document.createElement('span'); oEn.className = 'lang-en'; oEn.textContent = 'optional';
-        const oRu = document.createElement('span'); oRu.className = 'lang-ru'; oRu.textContent = 'опц.';
+        const oRu = document.createElement('span'); oRu.className = 'lang-ru'; oRu.textContent = 'необязательно';
         opt.appendChild(oEn); opt.appendChild(oRu);
         head.appendChild(opt);
       }
@@ -236,7 +236,7 @@
         const aEn = document.createElement('span'); aEn.className = 'lang-en';
         aEn.textContent = arr.length === 0 ? '+ pick' : '+ add another';
         const aRu = document.createElement('span'); aRu.className = 'lang-ru';
-        aRu.textContent = arr.length === 0 ? '+ выбрать' : '+ ещё';
+        aRu.textContent = arr.length === 0 ? '+ выбрать' : '+ добавить';
         addBtn.appendChild(aEn); addBtn.appendChild(aRu);
         addBtn.addEventListener('click', () => activateSlot(cat, null));
         body.appendChild(addBtn);
@@ -317,7 +317,7 @@
       const en = document.createElement('span'); en.className = 'lang-en';
       en.textContent = 'Tap a slot above to start browsing.';
       const ru = document.createElement('span'); ru.className = 'lang-ru';
-      ru.textContent = 'Нажми на слот сверху чтобы начать.';
+      ru.textContent = 'Нажмите на слот выше, чтобы начать.';
       p.appendChild(en); p.appendChild(ru);
       $pickerGrid.appendChild(p);
       $pickerCount.textContent = '';
@@ -329,7 +329,7 @@
       const p = document.createElement('p');
       p.className = 'picker-empty';
       const en = document.createElement('span'); en.className = 'lang-en'; en.textContent = 'No items match these filters.';
-      const ru = document.createElement('span'); ru.className = 'lang-ru'; ru.textContent = 'Нет элементов под эти фильтры.';
+      const ru = document.createElement('span'); ru.className = 'lang-ru'; ru.textContent = 'Нет элементов, соответствующих фильтрам.';
       p.appendChild(en); p.appendChild(ru);
       $pickerGrid.appendChild(p);
       return;
@@ -473,7 +473,7 @@
   $copyBtn.addEventListener('click', async () => {
     const line = composedClothesLine();
     if (line === 'clothes: …') {
-      showToast('Pick at least one piece first', 'Сначала выбери хотя бы один элемент');
+      showToast('Pick at least one piece first', 'Сначала выберите хотя бы один элемент');
       return;
     }
     const ok = await copyToClipboard(line);

@@ -11,14 +11,14 @@
                           ╚══════════════════════════════════════════════════════╝
 ```
 
-**250 prompts · 265 outfits · 259 hairstyles · 992 wardrobe pieces · Mix-and-match tools · EN / RU**
+**250 prompts · 112 scenes · 127 restyles · 110 poses · 383 outfits · 275 hairstyles · 1,395 wardrobe pieces · EN / RU**
 
 [![Site](https://img.shields.io/badge/site-aceeenvw.github.io%2Fclover--ooc-7aa?style=flat-square&labelColor=1a1a1a)](https://aceeenvw.github.io/clover-ooc/)
 [![Prompts](https://img.shields.io/badge/prompts-250-c99?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Outfits](https://img.shields.io/badge/outfits-265-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Hair](https://img.shields.io/badge/hairstyles-259-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Wardrobe](https://img.shields.io/badge/wardrobe-992_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Images](https://img.shields.io/badge/renders-690+%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-data-files)
+[![Outfits](https://img.shields.io/badge/outfits-383-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Hair](https://img.shields.io/badge/hairstyles-275-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Wardrobe](https://img.shields.io/badge/wardrobe-1%2C395_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Images](https://img.shields.io/badge/renders-1%2C018%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-data-files)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-data-files)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
@@ -32,9 +32,9 @@
 
 "OOC" (out of character) prompts are bracketed instructions like `[OOC:Image generation — …]` that you drop into a roleplay chat to ask an LLM-with-image-tools — or a separate image model — to render a specific moment from the scene.
 
-The catalogue holds **250 prompts** across themes such as *Ancient*, *Deep Space*, *Fantasy Medieval*, *Gothic*, *Neon*, *Pair*, *Tropical*, and more. Every entry ships with a bilingual title (English + Russian) and most include a `.webp` example render so you can see what the prompt actually produces.
+The catalogue holds **250 prompts** across themes such as *Ancient*, *Deep Space*, *Fantasy Medieval*, *Gothic*, *Neon*, *Pair*, *Tropical*, and more. Every entry ships with a bilingual title (English + Russian) and a `.webp` example render so you can see what the prompt actually produces.
 
-Beyond the catalogue, the site includes **mix-and-match tools** — pages that let you assemble custom prompt blocks by combining scenes, restyles, backgrounds, effects, and overlays.
+Beyond the catalogue, the site includes reusable poses, outfits, hairstyles, detailed scenes, image-restyle prompts, and construction tools for combining wardrobe pieces, backgrounds, effects, overlays, camera terms, and composition.
 
 ---
 
@@ -60,7 +60,7 @@ The full grid of all 250 prompts.
 - ✦ Lazy-loaded `.webp` thumbnails
 
 ### ◇ Scenes — `scenes.html`
-Situational scene prompts grouped by section.
+112 situational scene prompts grouped by section.
 
 - ✦ Reads from `scene-prompts-data.json`
 - ✦ Copy-to-clipboard per entry
@@ -69,33 +69,42 @@ Situational scene prompts grouped by section.
 <td width="50%" valign="top">
 
 ### ◈ Restyle — `restyle.html`
-Restyle prompts — re-render an existing image in a new aesthetic.
+127 prompts for re-rendering an existing image in a new aesthetic.
 
 - ✦ Reads from `restyle-data.json`
 - ✦ Categorized by visual style family
 
+### ◈ Poses — `poses.html`
+110 reusable poses, expressions, reactions, interactions, and movement prompts.
+
+- ✦ Reads from `poses-data.json`
+- ✦ 7 accordion sections with bilingual search
+- ✦ Complete `.webp` reference coverage
+- ✦ Displays localized text while copying canonical English
+
 ### ◈ Hair — `hair.html`
-259 hairstyle references with `hairstyle:` lines and reference images.
+275 bilingual hairstyle references with `hairstyle:` lines and reference images.
 
 - ✦ Reads from `hair-data.json`
-- ✦ 7 accordion sections (short → unique)
+- ✦ 8 accordion sections, including Medieval & Regal
 - ✦ Faceted filtering: vibe (24) + texture (5), plus name search
 - ✦ Random button (respects active filters)
 - ✦ Click body to copy the `hairstyle:` line
-- ✦ EN only for now; RU labels planned
+- ✦ Complete `.webp` reference coverage
+- ✦ Russian titles, bodies, section descriptions, and interface labels
 
 ### ◈ Outfits — `outfits.html`
-265 curated outfit ideas with `clothes:` lines and reference images.
+383 bilingual outfit ideas with `clothes:` lines and reference images.
 
 - ✦ Reads from `outfits-data.json`
-- ✦ 15 accordion sections (everyday → mean-girls pink)
-- ✦ 180 outfits with `.webp` reference images, 85 with placeholder
+- ✦ 19 accordion sections, including Medieval & Fantasy, Gothic & Lolita, Ethereal & Fairy, and Sporty
+- ✦ Complete `.webp` reference coverage
 - ✦ Click body to copy English `clothes:` line; toggle UI to Russian without changing copy output
 
 ### ◈ Wardrobe — `wardrobe.html`
 Outfit constructor — pick top + bottom (or dress) + outerwear + shoes + accessories.
 
-- ✦ Reads from `wardrobe-data.json` (992 unique pieces auto-extracted from the Outfits library + 20 hand-curated shoes)
+- ✦ Reads from `wardrobe-data.json` (1,395 unique pieces curated independently from the outfit collection, including hand-curated shoes)
 - ✦ Two modes: Two-Piece or Dress; tab state persisted in localStorage
 - ✦ Filter by style tag (16) and color bucket (15)
 - ✦ "Surprise me" fills empty slots respecting active filters
@@ -104,7 +113,7 @@ Outfit constructor — pick top + bottom (or dress) + outerwear + shoes + access
 ### ◈ Tools — `tools.html`
 Mix-and-match builder.
 
-- ✦ Combines `prompts-data.json`, `effects-curated.json`, `backgrounds-data.json`, `overlays-data.json`
+- ✦ Combines `prompts-data.json`, `effects-curated.json`, `backgrounds-data.json`, `overlays-data.json`, and `camera-data.json`
 - ✦ Stacks effects into preset combinations
 - ✦ Outputs a single composable OOC block
 
@@ -132,34 +141,40 @@ clover-ooc/
 ├── catalogue.html              ·  Prompt grid
 ├── scenes.html                 ·  Scene-prompt page
 ├── restyle.html                ·  Restyle-prompt page
-├── hair.html                   ·  259 hairstyle references
-├── outfits.html                ·  265 curated outfits
+├── poses.html                   ·  Poses and expressions
+├── hair.html                   ·  275 hairstyle references
+├── outfits.html                ·  383 curated outfits
 ├── wardrobe.html               ·  Outfit constructor (mix & match)
 ├── tools.html                  ·  Effects / backgrounds / overlays mixer
 ├── guide.html                  ·  Static usage guide
 │
 ├── prompts-data.json           ·  250 main prompts
-├── scene-prompts-data.json     ·  Scene prompts (sections)
-├── restyle-data.json           ·  Restyle prompts (sections)
-├── outfits-data.json           ·  265 outfits in 15 sections (bilingual)
-├── hair-data.json              ·  259 hairstyles in 7 sections (vibe + texture facets)
-├── wardrobe-data.json          ·  992 wardrobe pieces (bilingual)
+├── scene-prompts-data.json     ·  112 scene prompts
+├── restyle-data.json           ·  127 restyle prompts
+├── poses-data.json             ·  110 poses and expressions
+├── outfits-data.json           ·  383 outfits in 19 sections (bilingual)
+├── hair-data.json              ·  275 hairstyles in 8 sections (vibe + texture facets)
+├── wardrobe-data.json          ·  1,395 wardrobe pieces (bilingual)
 ├── backgrounds-data.json       ·  Backgrounds (categorized)
 ├── effects-curated.json        ·  Effects (categorized + stacks)
 ├── overlays-data.json          ·  Overlays (categorized)
+├── camera-data.json            ·  Camera and composition terms
 ├── translations.json           ·  EN / RU labels for tags & categories
 │
 ├── assets/
 │   ├── clover.svg              ·  Favicon
-│   ├── outfits/                ·  180 × .webp outfit references  (~13 MB)
-│   └── hair/                   ·  259 × .webp hairstyle references  (~20 MB)
+│   ├── outfits/                ·  383 × .webp outfit references
+│   ├── hair/                   ·  275 × .webp hairstyle references
+│   └── poses-*.webp            ·  110 pose references
 │
 ├── css/
 │   ├── style.css               ·  Global tokens, layout, typography
+│   ├── index.css               ·  Homepage archive index
 │   ├── catalogue.css           ·  Grid + modal
 │   ├── guide.css               ·  Guide page
 │   ├── restyle.css             ·  Restyle page
 │   ├── scenes.css              ·  Scenes page
+│   ├── poses.css               ·  Poses page
 │   ├── outfits.css             ·  Outfits page
 │   ├── hair.css                ·  Hair page (cards, chips, filter panel)
 │   ├── wardrobe.css            ·  Wardrobe constructor
@@ -170,27 +185,13 @@ clover-ooc/
 │   ├── catalogue.js            ·  Grid · filters · modal
 │   ├── scenes.js               ·  Scene rendering · copy
 │   ├── restyle.js              ·  Restyle rendering · copy
+│   ├── poses.js                ·  Pose rendering · search · copy
 │   ├── outfits.js              ·  Outfit cards · modal · bilingual
 │   ├── hair.js                 ·  Hair cards · modal · vibe/texture filters · random
 │   ├── wardrobe.js             ·  Constructor · slots · picker · filters
 │   └── tools.js                ·  Mix-and-match builder
+├── img-source/                 ·  250 × .webp catalogue renders
 │
-├── tools/                      ·  Local data-build & translation pipeline
-│   ├── build-outfits-data.py
-│   ├── build-hair-data.py
-│   ├── build-wardrobe-data.py
-│   ├── convert-outfits.sh
-│   ├── convert-hair.sh
-│   ├── convert-hair-friends.sh
-│   ├── convert-hair-friends.py
-│   ├── export-translation-tsvs.py
-│   ├── merge-translations.py
-│   ├── merge-wardrobe-translations.py
-│   └── translate-wardrobe.py
-│
-├── img-source/                 ·  250 × .webp example renders  (~71 MB)
-│
-├── .gitignore
 └── README.md                   ·  This file
 ```
 
@@ -230,9 +231,9 @@ Flat list. Schema per entry:
 
 Shape: `{ "sections": [ … ] }`. Each section groups related prompts (e.g. all "kitchen" scenes, all "noir" restyles).
 
-### ◇ `hair-data.json` — hairstyle library (259 entries)
+### ◇ `hair-data.json` — hairstyle library (275 entries)
 
-Shape: `{ "sections": [ … ] }` across 7 sections. Each entry carries a `hairstyle:` line plus two independent filter facets — `vibes` (array) and `texture` (single) — and a `.webp` reference under `assets/hair/`.
+Shape: `{ "sections": [ … ] }` across 8 sections. Each entry carries bilingual titles and `hairstyle:` lines, two independent filter facets — `vibes` (array) and `texture` (single) — and a `.webp` reference under `assets/hair/`.
 
 ```json
 {
@@ -244,8 +245,8 @@ Shape: `{ "sections": [ … ] }` across 7 sections. Each entry carries a `hairst
   "texture": "straight",
   "hasImage": true,
   "imgSrc": "assets/hair/soft-french-bob.webp",
-  "titleRu": null,
-  "bodyRu": null
+  "titleRu": "Мягкий французский боб",
+  "bodyRu": "причёска: ровный боб до подбородка с воздушными концами, мягкий боковой пробор…"
 }
 ```
 
