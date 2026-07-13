@@ -25,6 +25,8 @@
   const promptsGrid = document.getElementById('prompts-grid');
   const searchInput = document.getElementById('search-input');
   const tagsFilter = document.getElementById('tags-filter');
+  const filtersToggle = document.getElementById('filters-toggle');
+  const filtersToggleCount = document.getElementById('filters-toggle-count');
   const viewToggles = document.querySelectorAll('.view-toggle');
   const clearFiltersBtn = document.getElementById('clear-filters');
   const resultsCount = document.getElementById('results-count');
@@ -58,7 +60,18 @@
     renderPrompts();
     attachEventListeners();
     updateSearchPlaceholder();
-    initStickyFilters();
+    updateFiltersCount();
+  }
+
+  // ═══ FILTERS DISCLOSURE ═══
+  function setFiltersOpen(open) {
+    filtersToggle.setAttribute('aria-expanded', String(open));
+    tagsFilter.hidden = !open;
+  }
+
+  function updateFiltersCount() {
+    const n = activeTags.size;
+    filtersToggleCount.textContent = n ? String(n) : '';
   }
 
   // ═══ SEARCH PLACEHOLDER (lang-aware) ═══
@@ -704,7 +717,12 @@
         tagBtn.setAttribute('aria-pressed', 'true');
       }
 
+      updateFiltersCount();
       filterPrompts();
+    });
+
+    filtersToggle.addEventListener('click', () => {
+      setFiltersOpen(filtersToggle.getAttribute('aria-expanded') !== 'true');
     });
 
     viewToggles.forEach(toggle => {
@@ -736,6 +754,7 @@
         pill.setAttribute('aria-pressed', 'false');
       });
 
+      updateFiltersCount();
       filterPrompts();
     });
 
@@ -786,21 +805,6 @@
         }, 2000);
       }
     });
-  }
-
-  // ═══ STICKY FILTER BAR SHADOW ═══
-  function initStickyFilters() {
-    const strip = document.querySelector('.filters-strip');
-    if (!strip) return;
-    const sentinel = document.createElement('div');
-    sentinel.style.cssText = 'height:1px;width:1px;position:absolute;top:0;left:0;pointer-events:none;';
-    strip.parentNode.insertBefore(sentinel, strip);
-
-    const stickyObs = new IntersectionObserver(([entry]) => {
-      strip.classList.toggle('stuck', !entry.isIntersecting);
-    }, { threshold: 0, rootMargin: `-${parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 56}px 0px 0px 0px` });
-
-    stickyObs.observe(sentinel);
   }
 
   // ═══ BOOT ═══

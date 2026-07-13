@@ -153,10 +153,17 @@
   border-bottom-color: var(--border);
 }
 
+.outfits-search-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
 .search-box {
   position: relative;
   display: flex;
   align-items: center;
+  flex: 1;
   gap: 0.5rem;
   padding: 0.7rem 1rem;
   background: var(--bg-surface);
@@ -187,6 +194,35 @@
 
 .search-box input::placeholder {
   color: var(--text-dim);
+}
+
+.outfits-random-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 44px;
+  padding: 0.65rem 0.9rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.18s, background-color 0.18s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.outfits-random-btn:hover { border-color: var(--accent); }
+.outfits-random-btn:active { background: var(--accent-faint); }
+.outfits-random-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+.outfits-random-btn.is-spun svg { animation: outfitsDiceSpin 0.4s ease; }
+
+@keyframes outfitsDiceSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(180deg); }
 }
 
 .outfits-meta {
@@ -685,6 +721,8 @@
 
 @media (max-width: 480px) {
   .outfits-header { padding: 100px 0 20px; }
+  .outfits-search-row { align-items: stretch; }
+  .outfits-random-btn { padding-inline: 0.7rem; }
   .outfit-section-header { padding: 0.85rem 0.9rem; }
   .outfit-section-body { padding: 0 0.7rem 0.9rem; }
   .outfit-card-content { padding: 0.85rem 0.9rem 0.95rem; }

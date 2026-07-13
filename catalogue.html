@@ -131,6 +131,12 @@
           </div>
 
           <div class="view-controls">
+            <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="tags-filter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+              <span class="lang-en">Filters</span>
+              <span class="lang-ru">Фильтры</span>
+              <span class="filters-toggle-count" id="filters-toggle-count"></span>
+            </button>
             <button class="view-toggle active" data-view="grid" aria-label="Grid view">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="3" y="3" width="7" height="7"></rect>
@@ -162,8 +168,8 @@
           </div>
         </div>
 
-        <div class="tags-filter" id="tags-filter">
-      
+        <div class="tags-filter" id="tags-filter" hidden>
+
         </div>
       </div>
 

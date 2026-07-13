@@ -19,6 +19,7 @@
   const searchInput = document.getElementById('outfits-search');
   const resultCount = document.getElementById('outfits-result-count');
   const searchWrap = document.querySelector('.outfits-search-wrap');
+  const randomBtn = document.getElementById('outfits-random');
   const modal = document.getElementById('outfit-modal');
   const modalOverlay = modal.querySelector('.modal-overlay');
   const modalClose = modal.querySelector('.modal-close');
@@ -33,6 +34,7 @@
   data.sections.forEach((s, i) => { openState[s.id] = (i === 0); });
 
   let currentFilter = '';
+  let lastRandomId = null;
 
   // ═══ HELPERS ═══
   function getLang() {
@@ -404,6 +406,28 @@
       searchDebounce = setTimeout(render, 120);
     });
   }
+
+  function pickRandom() {
+    const filterLower = currentFilter.trim().toLowerCase();
+    const matched = allOutfits.filter(outfit => matchesFilter(outfit, filterLower));
+    if (!matched.length) {
+      showToast('No outfits match your search', 'По вашему запросу ничего не найдено');
+      return;
+    }
+
+    const pool = matched.length > 1
+      ? matched.filter(outfit => outfit.id !== lastRandomId)
+      : matched;
+    const choice = pool[Math.floor(Math.random() * pool.length)];
+    lastRandomId = choice.id;
+
+    randomBtn.classList.remove('is-spun');
+    void randomBtn.offsetWidth;
+    randomBtn.classList.add('is-spun');
+    openModal(choice.id);
+  }
+
+  if (randomBtn) randomBtn.addEventListener('click', pickRandom);
 
   function updatePlaceholders() {
     if (!searchInput) return;
