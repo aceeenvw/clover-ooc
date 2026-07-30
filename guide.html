@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ═══════════════════════════════════════════════
-     CLOVER OOC — GUIDE
+     CLOVER OOC - GUIDE
      aceenvw
      ═══════════════════════════════════════════════ -->
 <html lang="en">
@@ -8,9 +8,9 @@
   <meta charset="UTF-8">
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guide — CLOVER OOC</title>
-  <meta name="description" content="How to use OOC prompts in SillyTavern — setup, references, tips and tricks from aceenvw.">
-  <meta property="og:title" content="Guide — CLOVER OOC">
+  <title>Guide - CLOVER OOC</title>
+  <meta name="description" content="How to use OOC prompts in SillyTavern - setup, references, tips and tricks from aceenvw.">
+  <meta property="og:title" content="Guide - CLOVER OOC">
   <meta property="og:description" content="Everything you need to know about OOC image generation prompts for SillyTavern.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
@@ -133,7 +133,7 @@
               <p><span class="lang-en">Use an image-generation integration connected to your chosen provider or model. I recommend my extension, <a href="https://github.com/aceeenvw/notsosillynotsoimages" target="_blank" rel="noopener">notsosillynotsoimages</a>, but Clover prompts are not tied to one extension.</span><span class="lang-ru">Используйте расширение для генерации изображений, подключённое к выбранному провайдеру или модели. Я рекомендую своё расширение <a href="https://github.com/aceeenvw/notsosillynotsoimages" target="_blank" rel="noopener">notsosillynotsoimages</a>, однако промпты Clover не привязаны к одному расширению.</span></p>
               <ol class="route-steps">
                 <li><span class="lang-en">Choose a complete prompt in the <a href="catalogue.html">Catalogue</a>, <a href="scenes.html">Scenes</a>, or <a href="restyle.html">Restyle</a>.</span><span class="lang-ru">Выберите готовый промпт в <a href="catalogue.html">Каталоге</a>, <a href="scenes.html">Сценах</a> или разделе <a href="restyle.html">Рестайл</a>.</span></li>
-                <li><span class="lang-en">Copy the English prompt unchanged, including the square brackets and <code>OOC:Image generation</code> prefix.</span><span class="lang-ru">Скопируйте английский промпт без изменений, включая квадратные скобки и префикс <code>OOC:Image generation</code>.</span></li>
+                <li><span class="lang-en">Copy the English prompt unchanged, including the opening and closing <code>&lt;ooc&gt;</code> tags.</span><span class="lang-ru">Скопируйте английский промпт без изменений, включая открывающий и закрывающий теги <code>&lt;ooc&gt;</code>.</span></li>
                 <li><span class="lang-en">Paste it as a standalone chat message or append it to your message. A standalone message is easier to troubleshoot if the model ignores the instruction.</span><span class="lang-ru">Вставьте его отдельным сообщением в чат или добавьте в конец своей реплики. Отдельное сообщение проще проверить, если модель игнорирует инструкцию.</span></li>
               </ol>
             </div>
@@ -147,8 +147,8 @@
               <p><span class="lang-en">If the app can generate images directly, no SillyTavern extension or preset instruction is required. Copy a Clover prompt, remove the OOC wrapper, and send the creative direction as a normal image request.</span><span class="lang-ru">Если приложение умеет создавать изображения напрямую, расширение SillyTavern и OOC-инструкция в пресете не нужны. Скопируйте промпт Clover, удалите OOC-оболочку и отправьте творческое задание как обычный запрос на генерацию изображения.</span></p>
               <div class="wrapper-example">
                 <p><span class="lang-en">Remove</span><span class="lang-ru">Удалите</span></p>
-                <code>[OOC:Image generation —</code>
-                <code class="wrapper-end">]</code>
+                <code>&lt;ooc&gt;</code>
+                <code class="wrapper-end">&lt;/ooc&gt;</code>
               </div>
               <p class="route-note"><span class="lang-en">Keep everything between them. That remaining text is the actual visual direction.</span><span class="lang-ru">Сохраните весь текст между ними: это и есть основное визуальное задание.</span></p>
             </div>
@@ -187,7 +187,7 @@
             <div class="setup-status"><span>03</span><strong><span class="lang-en">Required</span><span class="lang-ru">Обязательно</span></strong></div>
             <div class="setup-copy">
               <h3><span class="lang-en">OOC-aware preset instruction</span><span class="lang-ru">Инструкция для обработки OOC</span></h3>
-              <p><span class="lang-en">Your chat preset must tell the language model to recognize and process <code>[OOC:Image generation — …]</code> blocks instead of treating them as roleplay text. I publish the prompt I use in my <a href="https://t.me/aceeenvw" target="_blank" rel="noopener">Telegram channel</a>.</span><span class="lang-ru">В пресете чата должна быть инструкция, которая заставляет языковую модель распознавать и обрабатывать блоки <code>[OOC:Image generation — …]</code>, а не воспринимать их как часть ролевого текста. Промпт, которым пользуюсь я, опубликован в моём <a href="https://t.me/aceeenvw" target="_blank" rel="noopener">Telegram-канале</a>.</span></p>
+              <p><span class="lang-en">Your chat preset must tell the language model to recognize and process <code>&lt;ooc&gt;...&lt;/ooc&gt;</code> blocks instead of treating them as roleplay text. I publish the prompt I use in my <a href="https://t.me/aceeenvw" target="_blank" rel="noopener">Telegram channel</a>.</span><span class="lang-ru">В пресете чата должна быть инструкция, которая заставляет языковую модель распознавать и обрабатывать блоки <code>&lt;ooc&gt;...&lt;/ooc&gt;</code>, а не воспринимать их как часть ролевого текста. Промпт, которым пользуюсь я, опубликован в моём <a href="https://t.me/aceeenvw" target="_blank" rel="noopener">Telegram-канале</a>.</span></p>
             </div>
           </article>
 
@@ -202,7 +202,7 @@
 
         <aside class="setup-verification">
           <p class="setup-verification-label"><span class="lang-en">Verify before continuing</span><span class="lang-ru">Проверьте перед продолжением</span></p>
-          <p><span class="lang-en">Send one short standalone test such as <code>[OOC:Image generation — a red apple on a wooden table.]</code>. If no image appears, fix the integration or preset first; a longer Clover prompt will not solve a broken setup.</span><span class="lang-ru">Отправьте короткий отдельный тест, например <code>[OOC:Image generation — a red apple on a wooden table.]</code>. Если изображение не появилось, сначала проверьте расширение и пресет: более длинный промпт Clover не исправит неработающую настройку.</span></p>
+          <p><span class="lang-en">Send one short standalone test such as <code>&lt;ooc&gt;<br>Image generation: a red apple on a wooden table.<br>&lt;/ooc&gt;</code>. If no image appears, fix the integration or preset first; a longer Clover prompt will not solve a broken setup.</span><span class="lang-ru">Отправьте короткий отдельный тест, например <code>&lt;ooc&gt;<br>Image generation: a red apple on a wooden table.<br>&lt;/ooc&gt;</code>. Если изображение не появилось, сначала проверьте расширение и пресет: более длинный промпт Clover не исправит неработающую настройку.</span></p>
         </aside>
       </div>
     </section>
@@ -213,7 +213,7 @@
         <div class="manual-heading">
           <p class="manual-section-number">03 · MAP</p>
           <h2 class="section-heading"><span class="lang-en">Know what you are copying</span><span class="lang-ru">Выберите подходящий раздел</span></h2>
-          <p class="section-sub"><span class="lang-en">Some Clover pages provide complete generation prompts. Others provide fragments designed to be added to a prompt. The distinction matters.</span><span class="lang-ru">Одни разделы Clover содержат готовые промпты для генерации, другие — фрагменты, которые нужно добавить к основному промпту. Это важное различие.</span></p>
+          <p class="section-sub"><span class="lang-en">Some Clover pages provide complete generation prompts. Others provide fragments designed to be added to a prompt. The distinction matters.</span><span class="lang-ru">Одни разделы Clover содержат готовые промпты для генерации, другие - фрагменты, которые нужно добавить к основному промпту. Это важное различие.</span></p>
         </div>
 
         <div class="collection-group">
@@ -365,41 +365,43 @@
         </div>
 
         <div class="anatomy-block">
-          <div class="anatomy-code"><code><span class="a-bracket">[</span><span class="a-prefix">OOC:Image generation</span> <span class="a-separator">—</span> <span class="a-body">a quiet cinematic portrait through rain-streaked glass, soft side light, shallow depth of field.</span> <span class="a-fragment">hands resting on the windowsill, distant expression.</span> <span class="a-effects">film grain, subtle bloom, --ar 2:3</span><span class="a-bracket">]</span></code></div>
+          <div class="anatomy-code"><code><span class="a-bracket">&lt;ooc&gt;</span>
+<span class="a-prefix">Image generation</span><span class="a-separator">:</span> <span class="a-body">a quiet cinematic portrait through rain-streaked glass, soft side light, shallow depth of field.</span> <span class="a-fragment">hands resting on the windowsill, distant expression.</span> <span class="a-effects">film grain, subtle bloom, --ar 2:3</span>
+<span class="a-bracket">&lt;/ooc&gt;</span></code></div>
           <div class="anatomy-legend">
             <div class="legend-item">
               <span class="legend-dot" style="background: var(--a-bracket)"></span>
               <span>
-                <span class="lang-en"><strong>Wrapper</strong> — the square brackets keep the instruction together as one OOC block in SillyTavern. Preserve both brackets there.</span>
-                <span class="lang-ru"><strong>Оболочка</strong> — квадратные скобки объединяют инструкцию в один блок OOC в SillyTavern. Сохраняйте обе скобки.</span>
+                <span class="lang-en"><strong>Wrapper</strong> - the opening and closing XML tags keep the instruction together as one OOC block in SillyTavern. Preserve both tags there.</span>
+                <span class="lang-ru"><strong>Оболочка</strong> - открывающий и закрывающий XML-теги объединяют инструкцию в один блок OOC в SillyTavern. Сохраняйте оба тега.</span>
               </span>
             </div>
             <div class="legend-item">
               <span class="legend-dot" style="background: var(--a-prefix)"></span>
               <span>
-                <span class="lang-en"><strong>Command prefix</strong> — <code>OOC:Image generation</code> identifies the block for an OOC-aware preset. Remove the prefix and wrapper in direct image apps.</span>
-                <span class="lang-ru"><strong>Командный префикс</strong> — <code>OOC:Image generation</code> обозначает блок для пресета, который обрабатывает OOC. В приложениях с прямой генерацией удалите префикс и оболочку.</span>
+                <span class="lang-en"><strong>Command</strong> - <code>Image generation</code> identifies the requested action inside the OOC block. Remove the command and wrapper in direct image apps.</span>
+                <span class="lang-ru"><strong>Команда</strong> - <code>Image generation</code> обозначает нужное действие внутри блока OOC. В приложениях с прямой генерацией удалите команду и оболочку.</span>
               </span>
             </div>
             <div class="legend-item">
               <span class="legend-dot" style="background: var(--a-body)"></span>
               <span>
-                <span class="lang-en"><strong>Creative direction</strong> — the complete base instruction: subject, mood, setting, framing, light, and visual treatment. Keep one clear visual idea here.</span>
-                <span class="lang-ru"><strong>Творческое задание</strong> — основная инструкция: объект, настроение, окружение, кадрирование, свет и визуальная подача. Сохраняйте здесь одну понятную идею.</span>
+                <span class="lang-en"><strong>Creative direction</strong> - the complete base instruction: subject, mood, setting, framing, light, and visual treatment. Keep one clear visual idea here.</span>
+                <span class="lang-ru"><strong>Творческое задание</strong> - основная инструкция: объект, настроение, окружение, кадрирование, свет и визуальная подача. Сохраняйте здесь одну понятную идею.</span>
               </span>
             </div>
             <div class="legend-item">
               <span class="legend-dot" style="background: var(--a-fragment)"></span>
               <span>
-                <span class="lang-en"><strong>Reusable fragment</strong> — an optional pose, expression, outfit, or hairstyle detail. Add it after the base direction and assign it clearly when several characters are present.</span>
-                <span class="lang-ru"><strong>Универсальный фрагмент</strong> — дополнительная поза, эмоция, одежда или причёска. Добавляйте его после основной инструкции и точно указывайте персонажа, если их несколько.</span>
+                <span class="lang-en"><strong>Reusable fragment</strong> - an optional pose, expression, outfit, or hairstyle detail. Add it after the base direction and assign it clearly when several characters are present.</span>
+                <span class="lang-ru"><strong>Универсальный фрагмент</strong> - дополнительная поза, эмоция, одежда или причёска. Добавляйте его после основной инструкции и точно указывайте персонажа, если их несколько.</span>
               </span>
             </div>
             <div class="legend-item">
               <span class="legend-dot" style="background: var(--a-effects)"></span>
               <span>
-                <span class="lang-en"><strong>Finish</strong> — effects, camera terms, and aspect ratio belong at the end. Begin with two or three deliberate additions; expand only when each term has a clear job.</span>
-                <span class="lang-ru"><strong>Финальные параметры</strong> — эффекты, параметры камеры и соотношение сторон размещаются в конце. Начните с двух или трёх осмысленных дополнений и расширяйте список только при необходимости.</span>
+                <span class="lang-en"><strong>Finish</strong> - effects, camera terms, and aspect ratio belong at the end. Begin with two or three deliberate additions; expand only when each term has a clear job.</span>
+                <span class="lang-ru"><strong>Финальные параметры</strong> - эффекты, параметры камеры и соотношение сторон размещаются в конце. Начните с двух или трёх осмысленных дополнений и расширяйте список только при необходимости.</span>
               </span>
             </div>
           </div>
@@ -445,9 +447,9 @@
             <div class="lang-ru">
               <p>По результатам моих тестов наиболее надёжно работают:</p>
               <ol>
-                <li><strong>Портреты в стиле Midjourney</strong> — для аккуратных и стабильных черт персонажа;</li>
-                <li><strong>Аниме-портреты</strong> — для стилизованных персонажей и иллюстративной подачи;</li>
-                <li><strong>Портреты в три четверти с мягким боке</strong> — для хорошо различимого лица и отделённого от фона силуэта.</li>
+                <li><strong>Портреты в стиле Midjourney</strong> - для аккуратных и стабильных черт персонажа;</li>
+                <li><strong>Аниме-портреты</strong> - для стилизованных персонажей и иллюстративной подачи;</li>
+                <li><strong>Портреты в три четверти с мягким боке</strong> - для хорошо различимого лица и отделённого от фона силуэта.</li>
               </ol>
               <p>По возможности я избегаю однотонного белого фона: в моём процессе он давал менее стабильные результаты. Это личное наблюдение, а не универсальное правило для всех моделей.</p>
             </div>
@@ -534,7 +536,7 @@
 
           <article class="diagnostic-row">
             <h3><span class="lang-en">The image generates but ignores the OOC</span><span class="lang-ru">Изображение создаётся, но OOC игнорируется</span></h3>
-            <div><b><span class="lang-en">Check</span><span class="lang-ru">Проверка</span></b><p><span class="lang-en">Both square brackets, the exact <code>OOC:Image generation</code> prefix, and the preset instruction that processes OOC blocks.</span><span class="lang-ru">Обе квадратные скобки, точный префикс <code>OOC:Image generation</code> и инструкция в пресете для обработки блоков OOC.</span></p></div>
+            <div><b><span class="lang-en">Check</span><span class="lang-ru">Проверка</span></b><p><span class="lang-en">Both <code>&lt;ooc&gt;</code> tags, the <code>Image generation</code> command, and the preset instruction that processes OOC blocks.</span><span class="lang-ru">Оба тега <code>&lt;ooc&gt;</code>, команда <code>Image generation</code> и инструкция в пресете для обработки блоков OOC.</span></p></div>
             <div><b><span class="lang-en">Action</span><span class="lang-ru">Действие</span></b><p><span class="lang-en">Send the prompt as a standalone message. Remove unrelated roleplay context and test one clear visual instruction.</span><span class="lang-ru">Отправьте промпт отдельным сообщением. Уберите посторонний ролевой контекст и проверьте одну понятную визуальную инструкцию.</span></p></div>
           </article>
 
@@ -572,7 +574,7 @@
           <article class="practice-note">
             <span class="practice-number">01</span>
             <h3><span class="lang-en">Treat collections as mood boards</span><span class="lang-ru">Используйте коллекции как мудборды</span></h3>
-            <p><span class="lang-en">Ancient World, Neon Underground, Tropical Noir, and the other themes are visual languages, not only folders. Borrow the mood from one and the framing logic from another. Many of my strongest prompts began that way.</span><span class="lang-ru">Ancient World, Neon Underground, Tropical Noir и другие темы — это визуальные языки, а не только папки. Возьмите настроение из одной коллекции, а логику кадра — из другой. Именно так появились многие мои любимые промпты.</span></p>
+            <p><span class="lang-en">Ancient World, Neon Underground, Tropical Noir, and the other themes are visual languages, not only folders. Borrow the mood from one and the framing logic from another. Many of my strongest prompts began that way.</span><span class="lang-ru">Ancient World, Neon Underground, Tropical Noir и другие темы - это визуальные языки, а не только папки. Возьмите настроение из одной коллекции, а логику кадра - из другой. Именно так появились многие мои любимые промпты.</span></p>
           </article>
 
           <article class="practice-note">
@@ -584,7 +586,7 @@
           <article class="practice-note">
             <span class="practice-number">03</span>
             <h3><span class="lang-en">Generate a small contact sheet</span><span class="lang-ru">Сделайте небольшую серию вариантов</span></h3>
-            <p><span class="lang-en">The same setup can produce materially different images. I usually compare three to five generations before rewriting a prompt. Variation is part of the process, not evidence that the prompt failed.</span><span class="lang-ru">Одинаковая настройка может давать заметно разные изображения. Обычно я сравниваю от трёх до пяти генераций и только затем переписываю промпт. Вариативность — часть процесса, а не признак ошибки.</span></p>
+            <p><span class="lang-en">The same setup can produce materially different images. I usually compare three to five generations before rewriting a prompt. Variation is part of the process, not evidence that the prompt failed.</span><span class="lang-ru">Одинаковая настройка может давать заметно разные изображения. Обычно я сравниваю от трёх до пяти генераций и только затем переписываю промпт. Вариативность - часть процесса, а не признак ошибки.</span></p>
           </article>
 
           <article class="practice-note practice-note-ratios">

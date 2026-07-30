@@ -4,7 +4,7 @@
       "id": "short",
       "name": "Short",
       "nameRu": "Короткие",
-      "description": "Bobs, pixies, crops — jaw-length and up",
+      "description": "Bobs, pixies, crops - jaw-length and up",
       "descriptionRu": "Бобы, пикси и короткие стрижки длиной до линии челюсти",
       "prompts": [
         {
@@ -1549,8 +1549,8 @@
     },
     {
       "id": "acc-short",
-      "name": "With Accessories — Short",
-      "nameRu": "С аксессуарами — короткие",
+      "name": "With Accessories - Short",
+      "nameRu": "С аксессуарами - короткие",
       "description": "Short shapes with clips, pins, bands, beads",
       "descriptionRu": "Короткие стрижки с заколками, шпильками, ободками и бусинами",
       "prompts": [
@@ -2102,8 +2102,8 @@
     },
     {
       "id": "acc-medium",
-      "name": "With Accessories — Medium",
-      "nameRu": "С аксессуарами — средние",
+      "name": "With Accessories - Medium",
+      "nameRu": "С аксессуарами - средние",
       "description": "Medium shapes with clips, combs, scarves, crowns",
       "descriptionRu": "Стрижки средней длины с заколками, гребнями, платками и венцами",
       "prompts": [
@@ -2473,7 +2473,7 @@
           "hasImage": true,
           "imgSrc": "assets/hair/kokoshnik-crown-waves.webp",
           "titleRu": "Волны под кокошником с жемчужными ряснами",
-          "bodyRu": "причёска: волны средней длины под высоким кокошником в форме полумесяца, лицо обрамляют нити жемчужных рясен — длинных височных подвесок"
+          "bodyRu": "причёска: волны средней длины под высоким кокошником в форме полумесяца, лицо обрамляют нити жемчужных рясен - длинных височных подвесок"
         },
         {
           "id": "hair-210",
@@ -2655,8 +2655,8 @@
     },
     {
       "id": "acc-long",
-      "name": "With Accessories — Long",
-      "nameRu": "С аксессуарами — длинные",
+      "name": "With Accessories - Long",
+      "nameRu": "С аксессуарами - длинные",
       "description": "Long shapes with ribbons, chains, gems, nets",
       "descriptionRu": "Длинные волосы с лентами, цепочками, кристаллами и сетками",
       "prompts": [

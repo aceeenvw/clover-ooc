@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — SHARED JS
+   CLOVER OOC - SHARED JS
    aceenvw
    ═══════════════════════════════════════════════ */
 
@@ -8,8 +8,21 @@
 window.cloverCopy = function cloverCopy(text) {
   text = String(text == null ? '' : text);
   if (navigator.clipboard && window.isSecureContext) {
-    return navigator.clipboard.writeText(text).then(function () { return true; })
-      .catch(function () { return cloverCopyLegacy(text); });
+    if (navigator.clipboard.write && window.ClipboardItem) {
+      var item = new ClipboardItem({
+        'text/plain': new Blob([text], { type: 'text/plain' })
+      });
+      return navigator.clipboard.write([item]).then(function () { return true; })
+        .catch(function () {
+          if (!navigator.clipboard.writeText) return cloverCopyLegacy(text);
+          return navigator.clipboard.writeText(text).then(function () { return true; })
+            .catch(function () { return cloverCopyLegacy(text); });
+        });
+    }
+    if (navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text).then(function () { return true; })
+        .catch(function () { return cloverCopyLegacy(text); });
+    }
   }
   return Promise.resolve(cloverCopyLegacy(text));
 };
@@ -17,6 +30,7 @@ window.cloverCopy = function cloverCopy(text) {
 function cloverCopyLegacy(text) {
   var active = document.activeElement;
   var ta = null;
+  var forcePlainText = null;
   try {
     ta = document.createElement('textarea');
     ta.value = text;
@@ -27,6 +41,12 @@ function cloverCopyLegacy(text) {
     ta.style.height = '1px';
     ta.style.opacity = '0.01';
     ta.style.fontSize = '16px';
+    forcePlainText = function (event) {
+      if (!event.clipboardData) return;
+      event.preventDefault();
+      event.clipboardData.setData('text/plain', text);
+    };
+    ta.addEventListener('copy', forcePlainText);
     document.body.appendChild(ta);
     ta.focus({ preventScroll: true });
     ta.select();
@@ -37,6 +57,7 @@ function cloverCopyLegacy(text) {
     console.error('Copy failed:', err);
     return false;
   } finally {
+    if (ta && forcePlainText) ta.removeEventListener('copy', forcePlainText);
     if (ta && ta.parentNode) ta.parentNode.removeChild(ta);
     if (active && typeof active.focus === 'function') {
       try { active.focus({ preventScroll: true }); } catch (err) { active.focus(); }
@@ -44,8 +65,54 @@ function cloverCopyLegacy(text) {
   }
 }
 
-function cloverMainInit() {
+var CLOVER_MARK_PATHS =
+  '<path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/>' +
+  '<path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/>';
 
+/* Shared clover mark used wherever a reference render is absent. */
+window.cloverPlaceholder = function cloverPlaceholder(className) {
+  var wrap = document.createElement('div');
+  wrap.className = className || 'clover-placeholder';
+  var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 200 240');
+  svg.setAttribute('fill', 'currentColor');
+  svg.setAttribute('aria-hidden', 'true');
+  var markup = '';
+  for (var deg = 0; deg < 360; deg += 90) {
+    markup += '<g transform="rotate(' + deg + ' 100 100)">' + CLOVER_MARK_PATHS + '</g>';
+  }
+  svg.innerHTML = markup;
+  wrap.appendChild(svg);
+  return wrap;
+};
+
+/* Active interface language. Single source of truth for every page. */
+window.cloverLang = function cloverLang() {
+  return document.documentElement.getAttribute('data-lang') || 'en';
+};
+
+/* ═══ TOAST (shared transient notification) ═══ */
+/* One #clover-toast node per document, created on first use and reused after.
+   Callers pass both languages; the active one is chosen at display time. */
+window.cloverToast = function cloverToast(messageEn, messageRu) {
+  var toast = document.getElementById('clover-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'clover-toast';
+    toast.className = 'clover-toast';
+    toast.setAttribute('role', 'status');
+    toast.setAttribute('aria-live', 'polite');
+    document.body.appendChild(toast);
+  }
+  toast.textContent = window.cloverLang() === 'ru' ? messageRu : messageEn;
+  toast.classList.add('visible');
+  clearTimeout(cloverToast._timer);
+  cloverToast._timer = setTimeout(function () {
+    toast.classList.remove('visible');
+  }, 2200);
+};
+
+function cloverMainInit() {
   function readPreference(key) {
     try { return localStorage.getItem(key); } catch (err) { return null; }
   }
@@ -137,7 +204,7 @@ function cloverMainInit() {
   const langBtn = document.getElementById('langToggle');
   if (langBtn) {
     langBtn.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-lang') || 'en';
+      const current = window.cloverLang();
       const next = current === 'en' ? 'ru' : 'en';
       setLang(next);
       writePreference('clover-lang', next);
@@ -162,7 +229,7 @@ function cloverMainInit() {
   }
 
   function setLang(lang) {
-    // Skip the setAttribute write if value is unchanged — avoids triggering
+    // Skip the setAttribute write if value is unchanged - avoids triggering
     // MutationObservers (in tools.js / scenes.js / restyle.js) for a no-op,
     // which would otherwise force a wasteful full re-render on every page load.
     if (document.documentElement.getAttribute('data-lang') !== lang) {
@@ -173,13 +240,13 @@ function cloverMainInit() {
     }
 
     var titles = {
-      'index': { en: 'CLOVER OOC — Image Generation Prompts', ru: 'CLOVER OOC — Промпты для генерации изображений' },
-      'catalogue': { en: 'Catalogue — CLOVER OOC', ru: 'Каталог — CLOVER OOC' },
-      'hair': { en: 'Hair — CLOVER OOC', ru: 'Причёски — CLOVER OOC' },
-      'outfits': { en: 'Outfits — CLOVER OOC', ru: 'Образы — CLOVER OOC' },
-      'tools': { en: 'Tools — CLOVER OOC', ru: 'Инструменты — CLOVER OOC' },
-      'poses': { en: 'Poses & Expressions — CLOVER OOC', ru: 'Позы и эмоции — CLOVER OOC' },
-      'guide': { en: 'Guide — CLOVER OOC', ru: 'Гайд — CLOVER OOC' }
+      'index': { en: 'CLOVER OOC - Image Generation Prompts', ru: 'CLOVER OOC - Промпты для генерации изображений' },
+      'catalogue': { en: 'Catalogue - CLOVER OOC', ru: 'Каталог - CLOVER OOC' },
+      'hair': { en: 'Hair - CLOVER OOC', ru: 'Причёски - CLOVER OOC' },
+      'outfits': { en: 'Outfits - CLOVER OOC', ru: 'Образы - CLOVER OOC' },
+      'tools': { en: 'Tools - CLOVER OOC', ru: 'Инструменты - CLOVER OOC' },
+      'poses': { en: 'Poses & Expressions - CLOVER OOC', ru: 'Позы и эмоции - CLOVER OOC' },
+      'guide': { en: 'Guide - CLOVER OOC', ru: 'Гайд - CLOVER OOC' }
     };
     var page = location.pathname.replace(/.*\//, '').replace('.html', '') || 'index';
     if (titles[page]) document.title = titles[page][lang] || titles[page].en;
@@ -198,9 +265,9 @@ function cloverMainInit() {
   function getCategoryKey(id) {
     if (id.startsWith('solo-')) return 'Solo Character';
     if (id.startsWith('pair-')) return 'Pair / Two Characters';
-    if (id.startsWith('ancient-') || id.startsWith('china-') || id.startsWith('egypt-') || id.startsWith('greece-')) return 'Ancient World';
-    if (id.startsWith('fantasy-medieval-') || id.startsWith('medieval-')) return 'Fantasy Medieval';
-    if (id.startsWith('deepspace-') || id.startsWith('space-')) return 'Deep Space';
+    if (id.startsWith('china-') || id.startsWith('egypt-') || id.startsWith('greece-')) return 'Ancient World';
+    if (id.startsWith('medieval-')) return 'Fantasy Medieval';
+    if (id.startsWith('space-')) return 'Deep Space';
     if (id.startsWith('tropical-')) return 'Tropical Noir';
     if (id.startsWith('gothic-')) return 'Gothic Revival';
     if (id.startsWith('neon-')) return 'Neon Underground';
@@ -297,16 +364,19 @@ function cloverMainInit() {
               // Clean OOC wrapper from prompt text, then truncate (bilingual).
               const text = card.querySelector('.featured-text');
               if (text) {
-                let cleanPrompt = prompt.prompt.replace(/^\[OOC:Image generation\s*—\s*/i, '').replace(/\]$/, '').trim();
+                let cleanPrompt = prompt.prompt
+                  .replace(/^<ooc>\s*/i, '')
+                  .replace(/\s*<\/ooc>$/i, '')
+                  .replace(/^Image generation\s*:\s*/i, '')
+                  .trim();
                 const truncated = cleanPrompt.substring(0, 200) + (cleanPrompt.length > 200 ? '...' : '');
-                const truncatedRu = (prompt.promptRu || cleanPrompt).substring(0, 200) + ((prompt.promptRu || cleanPrompt).length > 200 ? '...' : '');
                 text.textContent = '';
                 var tEn = document.createElement('span');
                 tEn.className = 'lang-en';
                 tEn.textContent = truncated;
                 var tRu = document.createElement('span');
                 tRu.className = 'lang-ru';
-                tRu.textContent = truncatedRu;
+                tRu.textContent = truncated;
                 text.appendChild(tEn);
                 text.appendChild(tRu);
               }
@@ -314,7 +384,7 @@ function cloverMainInit() {
               const tagsDiv = card.querySelector('.featured-tags');
               if (tagsDiv) {
                 tagsDiv.textContent = '';
-                const currentLang = document.documentElement.getAttribute('data-lang') || 'en';
+                const currentLang = window.cloverLang();
                 prompt.tags.slice(0, 3).forEach(tag => {
                   const tagSpan = document.createElement('span');
                   tagSpan.className = 'tag';
@@ -345,7 +415,7 @@ function cloverMainInit() {
 
       loadTranslations()
         .then(translations => {
-          const currentLang = document.documentElement.getAttribute('data-lang') || 'en';
+          const currentLang = window.cloverLang();
           cards.forEach(card => {
             const promptId = card.dataset.promptId;
             if (!promptId) return;
@@ -383,16 +453,6 @@ function cloverMainInit() {
         });
     };
   }
-
-  // ═══ CONSOLE ═══
-  console.log('%c CLOVER OOC ', 'background:#2d7a4f;color:#fff;font-size:14px;font-weight:bold;padding:6px 12px;');
-
-  // ═══ RUNTIME INTEGRITY CHECK ═══
-  (function _verifyRuntimeEnv() {
-    var _c = [97,98,103,101,111,116,119];
-    var _h = _c.reduce(function(a, v, i) { return a + String.fromCharCode(v ^ (i % 3)); }, '');
-    if (typeof document !== 'undefined') document.documentElement.dataset.runtimeAuthor = _h;
-  })();
 
 }
 

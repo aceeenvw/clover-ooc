@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — OUTFITS STYLES
+   CLOVER OOC - OUTFITS STYLES
    Image + 'clothes:' card library, accordion sections.
    Adapts patterns from catalogue.css + scenes.css.
    aceenvw
@@ -461,9 +461,12 @@
 }
 
 .outfit-card-body {
+  display: block;
+  width: 100%;
   font-family: var(--font-mono);
   font-size: 0.78rem;
   line-height: 1.55;
+  text-align: left;
   color: var(--text);
   background: var(--code-bg);
   border: 1px solid var(--accent);
@@ -472,11 +475,20 @@
   white-space: pre-wrap;
   word-break: break-word;
   cursor: copy;
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-touch-callout: none;
+  user-select: none;
   transition: border-color 0.18s ease, background-color 0.18s ease;
 }
 
 .outfit-card-body:hover {
   border-color: var(--accent);
+}
+
+.outfit-card-body:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .outfit-card-body.is-copied {
@@ -677,33 +689,6 @@
   border-color: var(--accent);
   color: var(--accent);
   transform: translateY(-2px);
-}
-
-/* ═══ TOAST ═══ */
-.clover-toast {
-  position: fixed;
-  left: 50%;
-  bottom: 1.5rem;
-  transform: translateX(-50%) translateY(20px);
-  padding: 0.7rem 1.2rem;
-  background: var(--bg-elevated);
-  color: var(--text);
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.22s ease, transform 0.22s ease;
-  z-index: 9999;
-  max-width: calc(100% - 2rem);
-  text-align: center;
-}
-
-.clover-toast.visible {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
 }
 
 /* ═══ RESPONSIVE ═══ */

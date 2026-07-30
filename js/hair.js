@@ -1,9 +1,8 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — HAIR JS
+   CLOVER OOC - HAIR JS
    275 hairstyles across 8 sections. Click card body to copy
    the 'hairstyle:' line; click card for full image + body.
    Two filter facets: vibe (multi) + texture (single-per-item, multi-select).
-   Mirrors the outfits.js pattern.
    aceenvw
    ═══════════════════════════════════════════════ */
 
@@ -29,12 +28,12 @@
   const allHair = [];
   data.sections.forEach(sec => sec.prompts.forEach(p => allHair.push(p)));
 
-  // Open/closed state per section ID — first section open by default.
+  // Open/closed state per section ID - first section open by default.
   const openState = {};
   data.sections.forEach((s, i) => { openState[s.id] = (i === 0); });
 
   let currentFilter = '';
-  // Faceted filters — vibe (multi) AND texture (multi). Both OR within a group.
+  // Faceted filters - vibe (multi) AND texture (multi). Both OR within a group.
   const selectedVibes = new Set();
   const selectedTextures = new Set();
 
@@ -48,12 +47,10 @@
   let lastRandomId = null;
 
   // ═══ HELPERS ═══
-  function getLang() {
-    return document.documentElement.getAttribute('data-lang') || 'en';
-  }
+  const getLang = window.cloverLang;
 
   // i18n: display Russian when lang=ru AND a translation exists.
-  // Copy always returns English (Shape C: display RU, copy EN — matches wardrobe).
+  // Copy always returns English, so the model receives a stable instruction.
   function hairTitle(o) {
     return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
   }
@@ -71,7 +68,7 @@
     if (selectedTextures.size) {
       if (!selectedTextures.has(item.texture)) return false;
     }
-    // Text search — haystack includes title/body/vibes/texture.
+    // Text search - haystack includes title/body/vibes/texture.
     if (!filterLower) return true;
     const hay = (
       item.title + ' ' +
@@ -92,22 +89,7 @@
   }
 
   // ═══ TOAST ═══
-  let toastTimer = null;
-  function showToast(msgEn, msgRu) {
-    let toast = document.getElementById('clover-toast');
-    if (!toast) {
-      toast = document.createElement('div');
-      toast.id = 'clover-toast';
-      toast.className = 'clover-toast';
-      toast.setAttribute('role', 'status');
-      toast.setAttribute('aria-live', 'polite');
-      document.body.appendChild(toast);
-    }
-    toast.textContent = getLang() === 'ru' ? msgRu : msgEn;
-    toast.classList.add('visible');
-    if (toastTimer) clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove('visible'), 2200);
-  }
+  const showToast = window.cloverToast;
 
   // Delegates to the shared hardened helper (textarea/execCommand fallback).
   async function copyText(text) {
@@ -122,7 +104,7 @@
     svg.setAttribute('viewBox', '0 0 200 240');
     svg.setAttribute('fill', 'currentColor');
     svg.setAttribute('aria-hidden', 'true');
-    // Mini clover mark (matches site iconography).
+    // Mini clover mark.
     svg.innerHTML =
       '<g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>' +
       '<g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>' +
@@ -200,17 +182,16 @@
     head.appendChild(title);
     content.appendChild(head);
 
-    // Tag chips — vibe (multi) + one texture chip (distinct accent).
+    // Tag chips - vibe (multi) + one texture chip (distinct accent).
     const chips = buildTagChips(outfit);
     if (chips) content.appendChild(chips);
 
-    // Body — click to copy.
+    // Body - click to copy.
     // DISPLAY uses hairBody() (RU when lang=ru); COPY always uses outfit.body
     // (English) so the model receives the canonical "hairstyle: …" line.
-    const bodyEl = document.createElement('div');
+    const bodyEl = document.createElement('button');
+    bodyEl.type = 'button';
     bodyEl.className = 'hair-card-body';
-    bodyEl.setAttribute('role', 'button');
-    bodyEl.setAttribute('tabindex', '0');
     bodyEl.setAttribute('aria-label',
       getLang() === 'ru' ? 'Скопировать строку hairstyle' : 'Copy hairstyle line');
     bodyEl.textContent = hairBody(outfit);
@@ -227,9 +208,6 @@
       }
     }
     bodyEl.addEventListener('click', doCopy);
-    bodyEl.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); doCopy(e); }
-    });
     content.appendChild(bodyEl);
 
     // Hint row
@@ -405,8 +383,8 @@
       if (chips) tagHost.appendChild(chips);
     }
 
-    // Modal prompt area: DISPLAY uses hairBody() (RU when lang=ru);
-    // the Copy button below still copies o.body (English, Shape C).
+    // Display uses hairBody() (RU when lang=ru); the Copy button below
+    // still copies o.body (English).
     modal.querySelector('.modal-prompt-text code').textContent = hairBody(o);
 
     modal.classList.add('active');

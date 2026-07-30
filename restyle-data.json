@@ -4,85 +4,85 @@
       "id": "gacha-cards",
       "name": "Gacha Cards",
       "nameRu": "Гача-карты",
-      "description": "20 collectible card aesthetics — from plain summon to god pull, every rarity tier",
-      "descriptionRu": "20 коллекционных стилей карт — от обычного призыва до божественного пулла",
+      "description": "20 collectible card aesthetics - from plain summon to god pull, every rarity tier",
+      "descriptionRu": "20 коллекционных стилей карт - от обычного призыва до божественного пулла",
       "prompts": [
         {
           "id": "gacha-01",
-          "title": "N — Plain Summon",
-          "titleRu": "N — Простой призыв",
+          "title": "N - Plain Summon",
+          "titleRu": "N - Простой призыв",
           "description": "Starter-tier card: matte paper, thin cream border, humble and simple",
           "descriptionRu": "Карта стартового уровня: матовая бумага, тонкая кремовая рамка, скромно и просто",
           "body": "Transform the attached image into a simple N-tier gacha character card. Preserve the subject, pose, outfit silhouette, color accents, and iconic details, but place them in a clean vertical card layout with a matte paper finish, thin cream border, tiny rarity mark, simple nameplate, and soft muted background gradient. Use gentle natural lighting, minimal decoration, and readable negative space. Make it humble, cute, collectible, and starter-card simple, not flashy."
         },
         {
           "id": "gacha-02",
-          "title": "R — Soft Foil",
-          "titleRu": "R — Мягкая фольга",
+          "title": "R - Soft Foil",
+          "titleRu": "R - Мягкая фольга",
           "description": "Pearlescent shimmer on the border, muted pastels, lightly special",
           "descriptionRu": "Перламутровый отблеск на рамке, приглушённая пастель, легко особенная",
           "body": "Recreate the attached image as an R-tier gacha card with a subtle foil accent. Keep the reference subject, pose, outfit shapes, and recognizable details intact, but frame them inside a polished card layout with a pale metallic border, small rarity badge, delicate corner ornaments, and faint pearlescent shimmer only on the border and nameplate. Use muted pastels, soft shadows, and a simple magical backdrop. Make it cute, clean, and lightly special."
         },
         {
           "id": "gacha-03",
-          "title": "SR — Pearl Holographic",
-          "titleRu": "SR — Жемчужная голограмма",
+          "title": "SR - Pearl Holographic",
+          "titleRu": "SR - Жемчужная голограмма",
           "description": "Pearl foil edges, translucent pastel overlays, soft bokeh particles",
           "descriptionRu": "Жемчужные грани, прозрачные пастельные слои, мягкие частицы боке",
           "body": "Transform the attached image into an SR-tier pearl holographic gacha card. Preserve the main pose, outfit silhouette, color accents, and iconic reference details, but add a refined card frame with pearl foil edges, translucent pastel overlays, soft bokeh particles, and a small embossed rarity emblem. Use lavender, cream, pale blue, dusty rose, and gentle iridescent highlights. Make it elegant, rare-feeling, and collectible without becoming noisy."
         },
         {
           "id": "gacha-04",
-          "title": "SSR — Full Art Dream Foil",
-          "titleRu": "SSR — Полно-арт мечта",
+          "title": "SSR - Full Art Dream Foil",
+          "titleRu": "SSR - Полно-арт мечта",
           "description": "Full-bleed dreamy background, holographic foil highlights, premium feel",
           "descriptionRu": "Мечтательный фон во весь кадр, голографические блики, премиальное ощущение",
           "body": "Recreate the attached image as an SSR full-art gacha card. Keep the subject recognizable through pose, outfit, silhouette, and key details, but expand the art to fill the whole card with a dreamy illustrated background, layered pastel lighting, holographic foil across selected highlights, and ornate but readable UI elements. Add a luminous rarity crest, delicate border etching, and soft dimensional glow. Make it premium, magical, and beautiful, not cluttered."
         },
         {
           "id": "gacha-05",
-          "title": "UR — Etched Celestial Foil",
-          "titleRu": "UR — Гравированная небесная фольга",
+          "title": "UR - Etched Celestial Foil",
+          "titleRu": "UR - Гравированная небесная фольга",
           "description": "Silver-gold etched foil lines, moonlit gradients, tiny constellations",
           "descriptionRu": "Гравированные серебряно-золотые линии, лунные градиенты, крошечные созвездия",
           "body": "Transform the attached image into a UR-tier celestial foil card. Preserve the reference pose, clothing shapes, color accents, and iconic details, but present the subject as a premium full-art card with etched silver-gold foil lines, moonlit pastel gradients, raised texture on the border, tiny constellation marks, and a refined rarity seal. Use muted cosmic colors, soft glow, and crisp card photography. Make it luxurious, rare, and quietly breathtaking."
         },
         {
           "id": "gacha-06",
-          "title": "LR — Legendary Glass Card",
-          "titleRu": "LR — Легендарная стеклянная карта",
+          "title": "LR - Legendary Glass Card",
+          "titleRu": "LR - Легендарная стеклянная карта",
           "description": "Translucent crystal slab, refracted pastel light, suspended foil particles",
           "descriptionRu": "Прозрачная хрустальная плита, преломлённый пастельный свет, парящие частицы",
           "body": "Recreate the attached image as an LR legendary glass-style gacha card. Keep the reference subject recognizable, but render the card as a translucent crystal slab with floating inner layers, refracted pastel light, etched borders, and suspended foil particles around the subject. Add a minimal rarity crest, elegant nameplate, and soft studio reflections. Use icy lavender, pearl, pale gold, blue, and cream. Make it sacred, collectible, and ultra-premium."
         },
         {
           "id": "gacha-07",
-          "title": "MR — Memory Rare",
-          "titleRu": "MR — Редкое воспоминание",
+          "title": "MR - Memory Rare",
+          "titleRu": "MR - Редкое воспоминание",
           "description": "Faded photo texture, pressed-flower corners, sentimental keepsake feel",
           "descriptionRu": "Выцветшая фото-фактура, прессованные цветы по углам, ощущение памятной вещи",
           "body": "Transform the attached image into an MR memory rare card. Preserve the pose, outfit silhouette, and iconic details, but design the card like a soft nostalgic keepsake: faded photo texture, translucent vellum overlay, pressed-flower corners, handwritten-style nameplate, and gentle foil only on tiny memory fragments. Use sepia cream, dusty rose, muted sage, pale blue, and warm light leaks. Make it sentimental, delicate, and emotionally rare."
         },
         {
           "id": "gacha-08",
-          "title": "EX — Event Limited",
-          "titleRu": "EX — Лимит ивента",
+          "title": "EX - Event Limited",
+          "titleRu": "EX - Лимит ивента",
           "description": "Seasonal framing, commemorative stamp, holographic confetti, celebratory",
           "descriptionRu": "Сезонное оформление, памятный штамп, голографическое конфетти, празднично",
           "body": "Recreate the attached image as an EX limited-event gacha card. Keep the reference subject, pose, outfit shapes, color accents, and details, but add seasonal event framing, a small limited banner ribbon, commemorative stamp, subtle holographic confetti, and a special background prop based on the original image. Use muted festive colors, soft foil, and polished card UI. Make it celebratory, exclusive, and cute without cheap emoji-like decoration."
         },
         {
           "id": "gacha-09",
-          "title": "SP — Secret Parallel",
-          "titleRu": "SP — Тайный параллельный",
+          "title": "SP - Secret Parallel",
+          "titleRu": "SP - Тайный параллельный",
           "description": "Diagonal rainbow foil, micro-pattern background, alternate colorway",
           "descriptionRu": "Диагональная радужная фольга, микроузор на фоне, альтернативная палитра",
           "body": "Transform the attached image into an SP secret parallel card. Preserve the subject and pose, but make the entire card feel like a rare alternate print: diagonal rainbow foil sheen, repeated micro-patterns in the background, alternate pastel colorway, delicate border engraving, and a tiny secret rarity mark hidden in one corner. Use soft holographic effects, clean typography spaces, and premium matte- gloss contrast. Make it mysterious and highly collectible."
         },
         {
           "id": "gacha-10",
-          "title": "PR — Promo Gift Card",
-          "titleRu": "PR — Промо-подарок",
+          "title": "PR - Promo Gift Card",
+          "titleRu": "PR - Промо-подарок",
           "description": "Giveaway card with ribbon motif, pastel envelope background, spot-holo",
           "descriptionRu": "Подарочная карта с лентой, пастельный конверт-фон, точечная голография",
           "body": "Recreate the attached image as a PR promo gift gacha card. Keep the reference pose, outfit silhouette, colors, and iconic details, but design it as a limited giveaway card with rounded corners, small promo stamp, soft ribbon motif, pastel envelope background, and a gentle spot-holo accent on the subject’s accessory or frame. Use cream, dusty pink, pale blue, and warm tabletop light. Make it charming, sweet, and special but not overpowered."
@@ -173,8 +173,8 @@
       "id": "plush-dolls",
       "name": "Plush & Dolls",
       "nameRu": "Плюшки и куклы",
-      "description": "56 kawaii plush, chibi, and handmade-doll transforms — bunnies, bears, dragons, and more",
-      "descriptionRu": "56 каваи-плюшек, чиби и кукол ручной работы — зайцы, мишки, драконы и не только",
+      "description": "56 kawaii plush, chibi, and handmade-doll transforms - bunnies, bears, dragons, and more",
+      "descriptionRu": "56 каваи-плюшек, чиби и кукол ручной работы - зайцы, мишки, драконы и не только",
       "prompts": [
         {
           "id": "plush-01",
@@ -630,8 +630,8 @@
       "id": "tiny-worlds",
       "name": "Tiny Worlds",
       "nameRu": "Крошечные миры",
-      "description": "51 miniature dioramas and tiny-scale fantasies — terrariums, snow globes, paper theaters",
-      "descriptionRu": "51 миниатюрная диорама и крошечная фантазия — террариумы, снежные шары, бумажные театры",
+      "description": "51 miniature dioramas and tiny-scale fantasies - terrariums, snow globes, paper theaters",
+      "descriptionRu": "51 миниатюрная диорама и крошечная фантазия - террариумы, снежные шары, бумажные театры",
       "prompts": [
         {
           "id": "tiny-01",
@@ -1020,7 +1020,7 @@
         {
           "id": "tiny-49",
           "title": "Shell Grotto Miniature",
-          "titleRu": "Миниатюра — ракушечный грот",
+          "titleRu": "Миниатюра - ракушечный грот",
           "description": "Scene built from shells, pearls, soft sand, and ribbon seaweed",
           "descriptionRu": "Сцена из ракушек, жемчуга, мягкого песка и ленточек-водорослей",
           "body": "Transform the attached image into a tiny shell grotto miniature. Preserve the reference silhouette, pose, color accents, and iconic details, but rebuild the scene from small seashells, pearls, soft sand, pastel clay, ribbon seaweed, and pearly fabric. Use cream, blush, pale aqua, lavender, and warm beach light. Make it delicate, ocean-cute, magical, and handmade."

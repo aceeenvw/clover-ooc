@@ -4,8 +4,8 @@
       "id": "everyday",
       "name": "Everyday & Casual",
       "nameRu": "Повседневное",
-      "description": "Daytime staples — denim, tanks, soft layering",
-      "descriptionRu": "Дневная база — джинсы, майки, мягкая многослойность",
+      "description": "Daytime staples - denim, tanks, soft layering",
+      "descriptionRu": "Дневная база - джинсы, майки, мягкая многослойность",
       "prompts": [
         {
           "id": "outfit-1",
@@ -1131,8 +1131,8 @@
       "id": "rich-tones",
       "name": "Rich Tones & Texture",
       "nameRu": "Глубокие оттенки и фактуры",
-      "description": "Burgundy, plum, chocolate, suede, leather — moody luxe",
-      "descriptionRu": "Бордовый, сливовый, шоколадный, замша, кожа — глубокий люкс",
+      "description": "Burgundy, plum, chocolate, suede, leather - moody luxe",
+      "descriptionRu": "Бордовый, сливовый, шоколадный, замша, кожа - глубокий люкс",
       "prompts": [
         {
           "id": "outfit-101",
@@ -1830,7 +1830,7 @@
       "name": "Cocktail & Night Out",
       "nameRu": "Коктейль и вечер",
       "description": "Bodycon, satin, cutouts, dance-floor ready",
-      "descriptionRu": "Облегающее, атлас, вырезы — готово для танцпола",
+      "descriptionRu": "Облегающее, атлас, вырезы - готово для танцпола",
       "prompts": [
         {
           "id": "outfit-162",
@@ -2003,8 +2003,8 @@
       "id": "cozy",
       "name": "Cozy & Knitwear",
       "nameRu": "Уют и трикотаж",
-      "description": "Sweaters, coats, wool, fur — winter layering",
-      "descriptionRu": "Свитера, пальто, шерсть, мех — зимняя многослойность",
+      "description": "Sweaters, coats, wool, fur - winter layering",
+      "descriptionRu": "Свитера, пальто, шерсть, мех - зимняя многослойность",
       "prompts": [
         {
           "id": "outfit-177",
@@ -2360,8 +2360,8 @@
       "id": "bridal",
       "name": "Bridal",
       "nameRu": "Свадебное",
-      "description": "Wedding gowns — A-line, mermaid, boho, ballgown, vintage lace",
-      "descriptionRu": "Свадебные платья — А-силуэт, «рыбка», бохо, бальные, винтажное кружево",
+      "description": "Wedding gowns - A-line, mermaid, boho, ballgown, vintage lace",
+      "descriptionRu": "Свадебные платья - А-силуэт, «рыбка», бохо, бальные, винтажное кружево",
       "prompts": [
         {
           "id": "outfit-207",
@@ -2764,7 +2764,7 @@
           "imgSrc": "assets/outfits/distressed-goth-layer.webp",
           "gender": "female",
           "titleRu": "Дистресс-гот в слоях",
-          "bodyRu": "одежда: рваный чёрный лонгслив из сетки, поверх — футболка с принтом группы с потёртостями, свободные чёрные карго с бахромой, чокер с шипами, многоярусные цепочки, кросс-боди с заклёпками, серебряные кольца стопкой"
+          "bodyRu": "одежда: рваный чёрный лонгслив из сетки, поверх - футболка с принтом группы с потёртостями, свободные чёрные карго с бахромой, чокер с шипами, многоярусные цепочки, кросс-боди с заклёпками, серебряные кольца стопкой"
         },
         {
           "id": "outfit-242",
@@ -3188,8 +3188,8 @@
       "id": "pink-y2k",
       "name": "Mean Girls Pink",
       "nameRu": "Розовый гламур",
-      "description": "Y2K hot-pink everything — bombshell, preppy, velour",
-      "descriptionRu": "Сплошной ярко-розовый в духе Y2K — соблазнительно, преппи, велюр",
+      "description": "Y2K hot-pink everything - bombshell, preppy, velour",
+      "descriptionRu": "Сплошной ярко-розовый в духе Y2K - соблазнительно, преппи, велюр",
       "prompts": [
         {
           "id": "outfit-279",
@@ -4237,7 +4237,7 @@
           "imgSrc": "assets/outfits/burnt-orange-lounge.webp",
           "gender": "female",
           "titleRu": "Лаунж в оттенке жжёного апельсина",
-          "bodyRu": "одежда: тройной комплект оттенка жжёного апельсина — ультракороткий свободный свитшот с необработанным краем и длинными рукавами, облегающий спортивный бра с округлым вырезом и широким поясом, джоггеры с высокой посадкой, широким поясом в рубчик, шнуром с узлами, косыми карманами и рельефными передними швами, тонкая золотая цепочка с прямоугольной подвеской"
+          "bodyRu": "одежда: тройной комплект оттенка жжёного апельсина - ультракороткий свободный свитшот с необработанным краем и длинными рукавами, облегающий спортивный бра с округлым вырезом и широким поясом, джоггеры с высокой посадкой, широким поясом в рубчик, шнуром с узлами, косыми карманами и рельефными передними швами, тонкая золотая цепочка с прямоугольной подвеской"
         },
         {
           "id": "outfit-371",

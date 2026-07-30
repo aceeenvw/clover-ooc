@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — SHARED STYLES
+   CLOVER OOC - SHARED STYLES
    aceenvw
    ═══════════════════════════════════════════════ */
 
@@ -117,6 +117,7 @@ body::after {
     transform: none;
     transition: none;
   }
+  .clover-toast { transition: none; }
 }
 
 /* ═══ CLOVER PATTERN (optional, add .clover-bg to sections) ═══ */
@@ -151,17 +152,6 @@ h1, h2, h3 {
   letter-spacing: -0.02em;
 }
 
-.t-heading {
-  font-family: var(--font-display);
-  font-size: clamp(28px, 5vw, 52px);
-  line-height: 1.05;
-}
-
-.t-subheading {
-  font-family: var(--font-display);
-  font-size: clamp(20px, 3vw, 32px);
-}
-
 .t-label {
   font-family: var(--font-body);
   font-size: 11px;
@@ -178,24 +168,9 @@ h1, h2, h3 {
   max-width: 560px;
 }
 
-.t-mono {
-  font-family: var(--font-mono);
-  font-size: 14px;
-}
-
-.t-dim {
-  color: var(--text-dim);
-}
-
 /* ═══ LAYOUT ═══ */
 .container {
   max-width: var(--max-wide);
-  margin: 0 auto;
-  padding: 0 32px;
-}
-
-.container--narrow {
-  max-width: var(--max-content);
   margin: 0 auto;
   padding: 0 32px;
 }
@@ -474,11 +449,6 @@ h1, h2, h3 {
   color: #111;
 }
 
-.btn--small {
-  padding: 6px 14px;
-  font-size: 12px;
-}
-
 /* ═══ TAGS ═══ */
 .tag {
   display: inline-block;
@@ -508,20 +478,8 @@ h1, h2, h3 {
   padding: 80px 0;
 }
 
-.section--tight {
-  padding: 48px 0;
-}
-
 .section + .section {
   border-top: 1px solid var(--border);
-}
-
-/* ═══ DIVIDER ═══ */
-.divider {
-  width: 100%;
-  height: 1px;
-  background: var(--border);
-  margin: 48px 0;
 }
 
 /* ═══ FADE IN ═══ */
@@ -565,8 +523,34 @@ h1, h2, h3 {
   z-index: 9999;
 }
 
-.text-center { text-align: center; }
-.text-accent { color: var(--accent-text); }
+/* ═══ TOAST (shared transient notification) ═══ */
+/* Single definition for every page; the node is created on demand by
+   window.cloverToast in main.js. */
+.clover-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%) translateY(20px);
+  padding: 0.7rem 1.2rem;
+  background: var(--bg-elevated);
+  color: var(--text);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+  z-index: 9999;
+  max-width: calc(100% - 2rem);
+  text-align: center;
+}
+
+.clover-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 
 /* ═══ FOCUS-VISIBLE ═══ */
 :focus-visible {
@@ -601,8 +585,7 @@ button:focus-visible,
 
 /* ═══ RESPONSIVE ═══ */
 @media (max-width: 640px) {
-  .container,
-  .container--narrow {
+  .container {
     padding: 0 20px;
   }
 

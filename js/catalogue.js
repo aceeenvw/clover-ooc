@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — CATALOGUE JS
+   CLOVER OOC - CATALOGUE JS
    Search, filters, grid/list views, modal.
    aceenvw
    ═══════════════════════════════════════════════ */
@@ -9,7 +9,7 @@
 
   // ═══ HELPERS ═══
   function getTitle(prompt) {
-    const lang = document.documentElement.getAttribute('data-lang') || 'en';
+    const lang = window.cloverLang();
     return (lang === 'ru' && prompt.titleRu) ? prompt.titleRu : prompt.title;
   }
 
@@ -76,7 +76,7 @@
 
   // ═══ SEARCH PLACEHOLDER (lang-aware) ═══
   function updateSearchPlaceholder() {
-    const currentLang = document.documentElement.getAttribute('data-lang') || 'en';
+    const currentLang = window.cloverLang();
     if (currentLang === 'en') {
       searchInput.placeholder = 'Search prompts...';
     } else {
@@ -96,7 +96,6 @@
   function renderTagsFilter() {
     const tags = getAllTags();
     tagsFilter.textContent = '';
-    const currentLang = document.documentElement.getAttribute('data-lang') || 'en';
 
     tags.forEach(tag => {
       const btn = document.createElement('button');
@@ -184,7 +183,7 @@
     ]);
 
     const span = document.createElement('span');
-    const lang = document.documentElement.getAttribute('data-lang') || 'en';
+    const lang = window.cloverLang();
     span.textContent = lang === 'en' ? 'image coming soon' : 'скоро будет';
 
     div.appendChild(svg);
@@ -206,7 +205,7 @@
     const span = document.createElement('span');
     span.className = `prompt-kind-badge prompt-kind-${kind}`;
 
-    const lang = document.documentElement.getAttribute('data-lang') || 'en';
+    const lang = window.cloverLang();
     const labels = translations.kind?.[kind];
     span.textContent = (labels && labels[lang]) || (kind === 'solo' ? 'Solo' : 'Pair');
 
@@ -391,7 +390,7 @@
       const tagSpan = document.createElement('span');
       tagSpan.className = 'prompt-tag';
 
-      const currentLang = document.documentElement.getAttribute('data-lang') || 'en';
+      const currentLang = window.cloverLang();
       tagSpan.textContent = translations.tags?.[tag]?.[currentLang] || tag;
 
       tagsDiv.appendChild(tagSpan);
@@ -461,7 +460,7 @@
       const tagSpan = document.createElement('span');
       tagSpan.className = 'prompt-tag';
 
-      const currentLang = document.documentElement.getAttribute('data-lang') || 'en';
+      const currentLang = window.cloverLang();
       tagSpan.textContent = translations.tags?.[tag]?.[currentLang] || tag;
 
       tagsDiv.appendChild(tagSpan);
@@ -582,7 +581,7 @@
       const span = document.createElement('span');
       span.className = 'prompt-tag';
 
-      const currentLang = document.documentElement.getAttribute('data-lang') || 'en';
+      const currentLang = window.cloverLang();
       span.textContent = translations.tags?.[tag]?.[currentLang] || tag;
 
       modalTags.appendChild(span);

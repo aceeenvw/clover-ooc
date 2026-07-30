@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- ═══════════════════════════════════════════════
-     CLOVER OOC — RESTYLE
+     CLOVER OOC - RESTYLE
      aceenvw
      ═══════════════════════════════════════════════ -->
 <html lang="en">
@@ -8,9 +8,9 @@
   <meta charset="UTF-8">
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restyle — CLOVER OOC</title>
+  <title>Restyle - CLOVER OOC</title>
   <meta name="description" content="127 restyle prompts that transform a reference image into kawaii plushies, gacha cards, and tiny worlds.">
-  <meta property="og:title" content="Restyle — CLOVER OOC">
+  <meta property="og:title" content="Restyle - CLOVER OOC">
   <meta property="og:description" content="127 image-transform prompts: gacha cards, kawaii plush, tiny worlds.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
@@ -18,7 +18,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/restyle.css">
+  <!-- Restyle reuses the Scenes stylesheet verbatim (same scene-* class names). -->
+  <link rel="stylesheet" href="css/scenes.css">
 </head>
 <body>
   <a href="#restyle-main" class="sr-only">Skip to content</a>
@@ -88,7 +89,7 @@
         <span class="lang-ru">Рестайл</span>
       </h1>
       <p class="t-body">
-        <span class="lang-en">127 image-transform prompts — feed any reference photo and get back a chibi plush, a gacha card, or a tiny world</span>
+        <span class="lang-en">127 image-transform prompts - feed any reference photo and get back a chibi plush, a gacha card, or a tiny world</span>
         <span class="lang-ru">127 промптов для преобразования изображений: прикрепите референс и создайте плюшевого персонажа, гача-карту или миниатюрный мир</span>
       </p>
     </header>
@@ -146,6 +147,7 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/accordion-page.js"></script>
   <script>
     fetch('restyle-data.json')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })

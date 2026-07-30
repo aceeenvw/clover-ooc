@@ -13,8 +13,8 @@
         "film grain"
       ],
       "background": "rooftop at golden hour",
-      "sampleHookEn": "A film still — but for a movie that never got made",
-      "sampleHookRu": "Кадр из фильма — который так и не сняли",
+      "sampleHookEn": "A film still - but for a movie that never got made",
+      "sampleHookRu": "Кадр из фильма - который так и не сняли",
       "overlays": [
         "film strip border overlay"
       ]
@@ -23,8 +23,8 @@
       "id": "vintage-polaroid",
       "name": "Vintage Polaroid",
       "nameRu": "Винтажный полароид",
-      "description": "Faded instant film — warm, soft, slightly nostalgic",
-      "descriptionRu": "Выцветшая мгновенная плёнка — тёплая, мягкая, слегка ностальгическая",
+      "description": "Faded instant film - warm, soft, slightly nostalgic",
+      "descriptionRu": "Выцветшая мгновенная плёнка - тёплая, мягкая, слегка ностальгическая",
       "effects": [
         "polaroid",
         "light leak",
@@ -53,7 +53,7 @@
       ],
       "background": "wet asphalt background",
       "sampleHookEn": "The city is awake and it knows what you did",
-      "sampleHookRu": "Город не спит — и знает, что ты сделал",
+      "sampleHookRu": "Город не спит - и знает, что ты сделал",
       "overlays": [
         "glitch distortion overlay",
         "scan lines overlay"
@@ -63,8 +63,8 @@
       "id": "dreamy-memory",
       "name": "Dreamy Memory",
       "nameRu": "Сновидческая память",
-      "description": "Soft-edged recollection — gentle, blurred, almost a feeling",
-      "descriptionRu": "Воспоминание с мягкими краями — нежное, размытое, почти ощущение",
+      "description": "Soft-edged recollection - gentle, blurred, almost a feeling",
+      "descriptionRu": "Воспоминание с мягкими краями - нежное, размытое, почти ощущение",
       "effects": [
         "soft focus",
         "bloom",
@@ -73,7 +73,7 @@
       ],
       "background": "cherry blossoms falling background",
       "sampleHookEn": "You can't remember if this actually happened or you just wanted it to",
-      "sampleHookRu": "Уже не помнишь — это было на самом деле или просто очень хотелось",
+      "sampleHookRu": "Уже не помнишь - это было на самом деле или просто очень хотелось",
       "overlays": [
         "double exposure overlay",
         "falling petals overlay"
@@ -83,8 +83,8 @@
       "id": "hard-documentary",
       "name": "Hard Documentary",
       "nameRu": "Жёсткий документализм",
-      "description": "No softness, no apology — raw, declarative, true",
-      "descriptionRu": "Никакой мягкости, никаких извинений — сырое, декларативное, правдивое",
+      "description": "No softness, no apology - raw, declarative, true",
+      "descriptionRu": "Никакой мягкости, никаких извинений - сырое, декларативное, правдивое",
       "effects": [
         "high contrast",
         "black and white",
@@ -93,7 +93,7 @@
       ],
       "background": "concrete wall background",
       "sampleHookEn": "Whatever you're looking at, it happened",
-      "sampleHookRu": "На что бы ты ни смотрел — это случилось",
+      "sampleHookRu": "На что бы ты ни смотрел - это случилось",
       "overlays": [
         "newspaper headline overlay"
       ]
@@ -112,7 +112,7 @@
       ],
       "background": "rooftop at golden hour",
       "sampleHookEn": "Twenty minutes of light, then it's over",
-      "sampleHookRu": "Двадцать минут света — а потом всё",
+      "sampleHookRu": "Двадцать минут света - а потом всё",
       "overlays": [
         "sun rays through blinds"
       ]
@@ -121,8 +121,8 @@
       "id": "gothic-candlelight",
       "name": "Gothic Candlelight",
       "nameRu": "Готический канделябр",
-      "description": "Single flame in deep darkness — ritual, intimacy, ancient grief",
-      "descriptionRu": "Одно пламя в глубокой тьме — ритуал, интимность, древняя скорбь",
+      "description": "Single flame in deep darkness - ritual, intimacy, ancient grief",
+      "descriptionRu": "Одно пламя в глубокой тьме - ритуал, интимность, древняя скорбь",
       "effects": [
         "candlelight",
         "chiaroscuro",
@@ -131,7 +131,7 @@
       ],
       "background": "candlelit room background",
       "sampleHookEn": "Whatever prayer is being said, the saints heard it",
-      "sampleHookRu": "Какая бы молитва ни произносилась — святые её услышали",
+      "sampleHookRu": "Какая бы молитва ни произносилась - святые её услышали",
       "overlays": [
         "wax seal overlay",
         "lace veil overlay"
@@ -161,8 +161,8 @@
       "id": "scrapbook-confession",
       "name": "Scrapbook Confession",
       "nameRu": "Дневниковая исповедь",
-      "description": "Pressed flowers, taped photos, handwriting — a love letter that survived",
-      "descriptionRu": "Прессованные цветы, приклеенные фото, почерк — любовное письмо, которое выжило",
+      "description": "Pressed flowers, taped photos, handwriting - a love letter that survived",
+      "descriptionRu": "Прессованные цветы, приклеенные фото, почерк - любовное письмо, которое выжило",
       "effects": [
         "sepia tone",
         "soft focus",
@@ -175,7 +175,7 @@
         "taped photograph"
       ],
       "sampleHookEn": "Whatever you wanted to say, the paper kept it for you",
-      "sampleHookRu": "Что бы ты ни хотел сказать — бумага сохранила это за тебя"
+      "sampleHookRu": "Что бы ты ни хотел сказать - бумага сохранила это за тебя"
     },
     {
       "id": "vhs-90s-bedroom",
@@ -201,8 +201,8 @@
       "id": "zine-collage",
       "name": "Zine Collage",
       "nameRu": "Зин-коллаж",
-      "description": "Cut-and-paste DIY chaos — markers, ripped magazine, riot grrrl energy",
-      "descriptionRu": "Вырезанный и склеенный DIY-хаос — маркеры, рваный журнал, энергия riot grrrl",
+      "description": "Cut-and-paste DIY chaos - markers, ripped magazine, riot grrrl energy",
+      "descriptionRu": "Вырезанный и склеенный DIY-хаос - маркеры, рваный журнал, энергия riot grrrl",
       "effects": [
         "risograph",
         "halftone print",
@@ -240,8 +240,8 @@
       "id": "evidence-board",
       "name": "Evidence Board",
       "nameRu": "Доска улик",
-      "description": "Red string, surveillance photos, redacted text — somebody knows something",
-      "descriptionRu": "Красная нить, фото слежки, зачёркнутый текст — кто-то что-то знает",
+      "description": "Red string, surveillance photos, redacted text - somebody knows something",
+      "descriptionRu": "Красная нить, фото слежки, зачёркнутый текст - кто-то что-то знает",
       "effects": [
         "desaturated",
         "grainy texture",
@@ -253,8 +253,8 @@
         "newspaper headline overlay",
         "taped photograph"
       ],
-      "sampleHookEn": "All the pieces are here — somebody just needs to admit which one matters",
-      "sampleHookRu": "Все части здесь — кому-то просто нужно признать, какая из них важнее"
+      "sampleHookEn": "All the pieces are here - somebody just needs to admit which one matters",
+      "sampleHookRu": "Все части здесь - кому-то просто нужно признать, какая из них важнее"
     },
     {
       "id": "summer-garden-daydream",
@@ -294,7 +294,7 @@
         "broken screen cracks overlay"
       ],
       "sampleHookEn": "The render is breaking but it's the most honest thing you've seen all day",
-      "sampleHookRu": "Рендер ломается — но это самое честное, что ты сегодня видел"
+      "sampleHookRu": "Рендер ломается - но это самое честное, что ты сегодня видел"
     }
   ],
   "categories": [
@@ -365,32 +365,32 @@
         {
           "term": "hard sunlight",
           "nameRu": "жёсткое солнце",
-          "description": "Direct overhead sun — sharp shadows, blown highlights, summer heat in the frame",
-          "descriptionRu": "Прямое солнце сверху — резкие тени, выбитые блики, летняя жара в кадре"
+          "description": "Direct overhead sun - sharp shadows, blown highlights, summer heat in the frame",
+          "descriptionRu": "Прямое солнце сверху - резкие тени, выбитые блики, летняя жара в кадре"
         },
         {
           "term": "candlelight",
           "nameRu": "свет свечей",
-          "description": "Warm orange flicker from below — intimate, sacred, slightly unstable",
-          "descriptionRu": "Тёплое оранжевое мерцание снизу — интимное, сакральное, слегка нестабильное"
+          "description": "Warm orange flicker from below - intimate, sacred, slightly unstable",
+          "descriptionRu": "Тёплое оранжевое мерцание снизу - интимное, сакральное, слегка нестабильное"
         },
         {
           "term": "neon glow",
           "nameRu": "неоновое свечение",
-          "description": "Saturated pink/cyan light wash — colors bleed onto skin and surfaces",
-          "descriptionRu": "Насыщенный розово-голубой свет — цвета растекаются по коже и поверхностям"
+          "description": "Saturated pink/cyan light wash - colors bleed onto skin and surfaces",
+          "descriptionRu": "Насыщенный розово-голубой свет - цвета растекаются по коже и поверхностям"
         },
         {
           "term": "catchlight",
           "nameRu": "блик в глазу",
-          "description": "Bright reflection in the subject's eyes — adds life and direction to a portrait",
-          "descriptionRu": "Яркое отражение в глазах — добавляет жизнь и направление взгляду в портрете"
+          "description": "Bright reflection in the subject's eyes - adds life and direction to a portrait",
+          "descriptionRu": "Яркое отражение в глазах - добавляет жизнь и направление взгляду в портрете"
         },
         {
           "term": "dappled light",
           "nameRu": "пятнистый свет",
-          "description": "Sunlight filtered through leaves — scattered bright patches across the scene",
-          "descriptionRu": "Солнечный свет сквозь листву — россыпь ярких пятен по сцене"
+          "description": "Sunlight filtered through leaves - scattered bright patches across the scene",
+          "descriptionRu": "Солнечный свет сквозь листву - россыпь ярких пятен по сцене"
         }
       ]
     },
@@ -431,14 +431,14 @@
         {
           "term": "deep focus",
           "nameRu": "глубокий фокус",
-          "description": "Everything sharp from foreground to horizon — Citizen-Kane technique, full clarity",
-          "descriptionRu": "Всё резко от переднего плана до горизонта — техника «Гражданина Кейна», полная чёткость"
+          "description": "Everything sharp from foreground to horizon - Citizen-Kane technique, full clarity",
+          "descriptionRu": "Всё резко от переднего плана до горизонта - техника «Гражданина Кейна», полная чёткость"
         },
         {
           "term": "macro detail",
           "nameRu": "макро",
-          "description": "Extreme close-up — pores, eyelashes, fabric weave, water droplets fill the frame",
-          "descriptionRu": "Сверхкрупный план — поры, ресницы, плетение ткани, капли воды заполняют кадр"
+          "description": "Extreme close-up - pores, eyelashes, fabric weave, water droplets fill the frame",
+          "descriptionRu": "Сверхкрупный план - поры, ресницы, плетение ткани, капли воды заполняют кадр"
         }
       ]
     },
@@ -473,20 +473,20 @@
         {
           "term": "super 8 film",
           "nameRu": "плёнка super 8",
-          "description": "Soft grainy 8mm home-movie look — washed colors, slight gate weave, 70s nostalgia",
-          "descriptionRu": "Мягкая зернистая эстетика домашнего кино на 8мм — выцветшие цвета, лёгкое дрожание, ностальгия по 70-м"
+          "description": "Soft grainy 8mm home-movie look - washed colors, slight gate weave, 70s nostalgia",
+          "descriptionRu": "Мягкая зернистая эстетика домашнего кино на 8мм - выцветшие цвета, лёгкое дрожание, ностальгия по 70-м"
         },
         {
           "term": "halftone print",
           "nameRu": "полутоновая печать",
-          "description": "Visible dot pattern like newspaper or comic-book printing — graphic, retro",
-          "descriptionRu": "Видимый растровый узор как в газете или комиксе — графично, ретро"
+          "description": "Visible dot pattern like newspaper or comic-book printing - graphic, retro",
+          "descriptionRu": "Видимый растровый узор как в газете или комиксе - графично, ретро"
         },
         {
           "term": "paper texture",
           "nameRu": "текстура бумаги",
-          "description": "Subtle fiber-grain overlay — image feels like it was printed on rough paper",
-          "descriptionRu": "Лёгкая фактура бумажных волокон — изображение будто напечатано на шершавой бумаге"
+          "description": "Subtle fiber-grain overlay - image feels like it was printed on rough paper",
+          "descriptionRu": "Лёгкая фактура бумажных волокон - изображение будто напечатано на шершавой бумаге"
         }
       ]
     },
@@ -551,26 +551,26 @@
         {
           "term": "teal and orange",
           "nameRu": "бирюза и оранж",
-          "description": "Blockbuster color grade — cool shadows, warm skin tones, Hollywood contrast",
-          "descriptionRu": "Блокбастерная цветокоррекция — холодные тени, тёплая кожа, голливудский контраст"
+          "description": "Blockbuster color grade - cool shadows, warm skin tones, Hollywood contrast",
+          "descriptionRu": "Блокбастерная цветокоррекция - холодные тени, тёплая кожа, голливудский контраст"
         },
         {
           "term": "pastel palette",
           "nameRu": "пастельная палитра",
-          "description": "Soft muted pinks, blues, creams — dreamy, tender, Sofia-Coppola mood",
-          "descriptionRu": "Мягкие приглушённые розовые, голубые, кремовые — мечтательно, нежно, в духе Софии Копполы"
+          "description": "Soft muted pinks, blues, creams - dreamy, tender, Sofia-Coppola mood",
+          "descriptionRu": "Мягкие приглушённые розовые, голубые, кремовые - мечтательно, нежно, в духе Софии Копполы"
         },
         {
           "term": "split-toning",
           "nameRu": "сплит-тонирование",
-          "description": "Two color casts — one in shadows, one in highlights. Stylized, editorial",
-          "descriptionRu": "Два цветовых оттенка — один в тенях, другой в светах. Стилизованно, эдиториал"
+          "description": "Two color casts - one in shadows, one in highlights. Stylized, editorial",
+          "descriptionRu": "Два цветовых оттенка - один в тенях, другой в светах. Стилизованно, эдиториал"
         },
         {
           "term": "bleach bypass",
           "nameRu": "обход отбеливания",
-          "description": "Silver-retention film process — desaturated, high contrast, gritty newsreel look",
-          "descriptionRu": "Серебросодержащий киноэффект — обесцвечено, высокий контраст, грубая хроникальная эстетика"
+          "description": "Silver-retention film process - desaturated, high contrast, gritty newsreel look",
+          "descriptionRu": "Серебросодержащий киноэффект - обесцвечено, высокий контраст, грубая хроникальная эстетика"
         }
       ]
     },
@@ -617,20 +617,20 @@
         {
           "term": "light painting",
           "nameRu": "световая живопись",
-          "description": "Long-exposure trails drawn with moving light sources — magical, ghostly streaks",
-          "descriptionRu": "Длинная выдержка с движущимся источником света — магические призрачные следы"
+          "description": "Long-exposure trails drawn with moving light sources - magical, ghostly streaks",
+          "descriptionRu": "Длинная выдержка с движущимся источником света - магические призрачные следы"
         },
         {
           "term": "zoom burst",
           "nameRu": "зум-блюр",
-          "description": "Radial motion blur expanding from the center — explosive energy, focal pull",
-          "descriptionRu": "Радиальное размытие от центра наружу — взрывная энергия, эффект втягивания"
+          "description": "Radial motion blur expanding from the center - explosive energy, focal pull",
+          "descriptionRu": "Радиальное размытие от центра наружу - взрывная энергия, эффект втягивания"
         },
         {
           "term": "motion trails",
           "nameRu": "следы движения",
-          "description": "Light streaks following moving subjects — speed, kinetic blur, after-image",
-          "descriptionRu": "Световые следы за движущимися объектами — скорость, кинетическое размытие, послеобраз"
+          "description": "Light streaks following moving subjects - speed, kinetic blur, after-image",
+          "descriptionRu": "Световые следы за движущимися объектами - скорость, кинетическое размытие, послеобраз"
         }
       ]
     },
@@ -671,14 +671,14 @@
         {
           "term": "barrel distortion",
           "nameRu": "бочкообразная дисторсия",
-          "description": "Image bulges outward at the edges — GoPro look, wide-angle exaggeration",
-          "descriptionRu": "Изображение выпирает по краям — эффект GoPro, широкоугольное преувеличение"
+          "description": "Image bulges outward at the edges - GoPro look, wide-angle exaggeration",
+          "descriptionRu": "Изображение выпирает по краям - эффект GoPro, широкоугольное преувеличение"
         },
         {
           "term": "kaleidoscope effect",
           "nameRu": "калейдоскоп",
-          "description": "Mirrored geometric repetition — fractal symmetry, psychedelic patterning",
-          "descriptionRu": "Зеркально повторённая геометрия — фрактальная симметрия, психоделический узор"
+          "description": "Mirrored geometric repetition - fractal symmetry, psychedelic patterning",
+          "descriptionRu": "Зеркально повторённая геометрия - фрактальная симметрия, психоделический узор"
         }
       ]
     },
@@ -719,20 +719,20 @@
         {
           "term": "dust motes",
           "nameRu": "пылинки в воздухе",
-          "description": "Tiny particles drifting in a beam of light — slow, sacred, almost still",
-          "descriptionRu": "Крошечные частицы парят в луче света — медленно, сакрально, почти неподвижно"
+          "description": "Tiny particles drifting in a beam of light - slow, sacred, almost still",
+          "descriptionRu": "Крошечные частицы парят в луче света - медленно, сакрально, почти неподвижно"
         },
         {
           "term": "falling snow",
           "nameRu": "падающий снег",
-          "description": "Soft white flakes filling the air — winter quiet, atmospheric depth",
-          "descriptionRu": "Мягкие белые хлопья заполняют воздух — зимняя тишина, атмосферная глубина"
+          "description": "Soft white flakes filling the air - winter quiet, atmospheric depth",
+          "descriptionRu": "Мягкие белые хлопья заполняют воздух - зимняя тишина, атмосферная глубина"
         },
         {
           "term": "steam",
           "nameRu": "пар",
-          "description": "Volumetric vapor rising — bathhouse, kitchen, breath in cold air, soft diffusion",
-          "descriptionRu": "Объёмный пар поднимается — баня, кухня, дыхание на морозе, мягкое рассеивание"
+          "description": "Volumetric vapor rising - bathhouse, kitchen, breath in cold air, soft diffusion",
+          "descriptionRu": "Объёмный пар поднимается - баня, кухня, дыхание на морозе, мягкое рассеивание"
         }
       ]
     },
@@ -773,26 +773,26 @@
         {
           "term": "tintype",
           "nameRu": "тинтайп",
-          "description": "Wet-plate 1800s photo process — silver tones, slight blur, antique solemnity",
-          "descriptionRu": "Мокроколлодийный процесс XIX века — серебристые тона, лёгкая размытость, антикварная торжественность"
+          "description": "Wet-plate 1800s photo process - silver tones, slight blur, antique solemnity",
+          "descriptionRu": "Мокроколлодийный процесс XIX века - серебристые тона, лёгкая размытость, антикварная торжественность"
         },
         {
           "term": "daguerreotype",
           "nameRu": "дагерротип",
-          "description": "Earliest photographic process — mirror-silver surface, ghostly tones, fragile detail",
-          "descriptionRu": "Первый фотопроцесс — зеркально-серебристая поверхность, призрачные тона, хрупкая детализация"
+          "description": "Earliest photographic process - mirror-silver surface, ghostly tones, fragile detail",
+          "descriptionRu": "Первый фотопроцесс - зеркально-серебристая поверхность, призрачные тона, хрупкая детализация"
         },
         {
           "term": "risograph",
           "nameRu": "ризограф",
-          "description": "Spot-color print process with slight misregistration — zine aesthetic, limited palette",
-          "descriptionRu": "Печать спот-цветами с лёгким смещением слоёв — эстетика зина, ограниченная палитра"
+          "description": "Spot-color print process with slight misregistration - zine aesthetic, limited palette",
+          "descriptionRu": "Печать спот-цветами с лёгким смещением слоёв - эстетика зина, ограниченная палитра"
         },
         {
           "term": "technicolor",
           "nameRu": "техниколор",
-          "description": "Hyper-saturated mid-century film stock — Wizard-of-Oz reds and emerald greens",
-          "descriptionRu": "Сверхнасыщенная плёнка середины века — красные «Волшебника страны Оз» и изумрудные зелёные"
+          "description": "Hyper-saturated mid-century film stock - Wizard-of-Oz reds and emerald greens",
+          "descriptionRu": "Сверхнасыщенная плёнка середины века - красные «Волшебника страны Оз» и изумрудные зелёные"
         }
       ]
     }

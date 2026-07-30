@@ -1,8 +1,7 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — OUTFITS JS
+   CLOVER OOC - OUTFITS JS
    383 outfits across 19 sections. Click card body to copy,
    click card to open modal with full image + body.
-   Mirrors the restyle.js / catalogue.js patterns.
    aceenvw
    ═══════════════════════════════════════════════ */
 
@@ -29,7 +28,7 @@
   const allOutfits = [];
   data.sections.forEach(sec => sec.prompts.forEach(p => allOutfits.push(p)));
 
-  // Open/closed state per section ID — first section open by default.
+  // Open/closed state per section ID - first section open by default.
   const openState = {};
   data.sections.forEach((s, i) => { openState[s.id] = (i === 0); });
 
@@ -37,12 +36,10 @@
   let lastRandomId = null;
 
   // ═══ HELPERS ═══
-  function getLang() {
-    return document.documentElement.getAttribute('data-lang') || 'en';
-  }
+  const getLang = window.cloverLang;
 
   // i18n: display Russian when lang=ru AND a translation exists.
-  // Copy always returns English (Shape C: display RU, copy EN — matches wardrobe).
+  // Copy always returns English, so the model receives a stable instruction.
   function outfitTitle(o) {
     return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
   }
@@ -62,22 +59,7 @@
   }
 
   // ═══ TOAST ═══
-  let toastTimer = null;
-  function showToast(msgEn, msgRu) {
-    let toast = document.getElementById('clover-toast');
-    if (!toast) {
-      toast = document.createElement('div');
-      toast.id = 'clover-toast';
-      toast.className = 'clover-toast';
-      toast.setAttribute('role', 'status');
-      toast.setAttribute('aria-live', 'polite');
-      document.body.appendChild(toast);
-    }
-    toast.textContent = getLang() === 'ru' ? msgRu : msgEn;
-    toast.classList.add('visible');
-    if (toastTimer) clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove('visible'), 2200);
-  }
+  const showToast = window.cloverToast;
 
   async function copyText(text) {
     return window.cloverCopy(text);
@@ -91,7 +73,7 @@
     svg.setAttribute('viewBox', '0 0 200 240');
     svg.setAttribute('fill', 'currentColor');
     svg.setAttribute('aria-hidden', 'true');
-    // Mini clover mark (matches site iconography).
+    // Mini clover mark.
     svg.innerHTML =
       '<g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>' +
       '<g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>' +
@@ -144,13 +126,12 @@
     head.appendChild(title);
     content.appendChild(head);
 
-    // Body — click to copy.
+    // Body - click to copy.
     // DISPLAY uses outfitBody() (RU when lang=ru); COPY always uses outfit.body
     // (English) so the model receives the canonical "clothes: …" line.
-    const bodyEl = document.createElement('div');
+    const bodyEl = document.createElement('button');
+    bodyEl.type = 'button';
     bodyEl.className = 'outfit-card-body';
-    bodyEl.setAttribute('role', 'button');
-    bodyEl.setAttribute('tabindex', '0');
     bodyEl.setAttribute('aria-label',
       getLang() === 'ru' ? 'Скопировать строку clothes' : 'Copy clothes line');
     bodyEl.textContent = outfitBody(outfit);
@@ -167,9 +148,6 @@
       }
     }
     bodyEl.addEventListener('click', doCopy);
-    bodyEl.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); doCopy(e); }
-    });
     content.appendChild(bodyEl);
 
     // Hint row
@@ -336,8 +314,8 @@
       imageContainer.appendChild(createPlaceholder());
     }
 
-    // Modal prompt area: DISPLAY uses outfitBody() (RU when lang=ru);
-    // the Copy button below still copies o.body (English, Shape C).
+    // Display uses outfitBody() (RU when lang=ru); the Copy button below
+    // still copies o.body (English).
     modal.querySelector('.modal-prompt-text code').textContent = outfitBody(o);
 
     modal.classList.add('active');

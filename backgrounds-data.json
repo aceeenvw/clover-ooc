@@ -99,8 +99,8 @@
             "soft focus",
             "35mm film"
           ],
-          "sampleHookEn": "Quiet shot — the kind of light that makes you whisper",
-          "sampleHookRu": "Тихий кадр — такой свет, при котором хочется шептать"
+          "sampleHookEn": "Quiet shot - the kind of light that makes you whisper",
+          "sampleHookRu": "Тихий кадр - такой свет, при котором хочется шептать"
         }
       ]
     },
@@ -183,7 +183,7 @@
             "vignette"
           ],
           "sampleHookEn": "Whatever is about to happen, the candles already know",
-          "sampleHookRu": "Что бы ни случилось дальше — свечи уже знают"
+          "sampleHookRu": "Что бы ни случилось дальше - свечи уже знают"
         }
       ]
     },
@@ -238,7 +238,7 @@
             "haze"
           ],
           "sampleHookEn": "Whatever pact was made tonight, the sky already signed it",
-          "sampleHookRu": "Какой бы договор сегодня ни заключили — небо его уже подписало"
+          "sampleHookRu": "Какой бы договор сегодня ни заключили - небо его уже подписало"
         },
         {
           "term": "rolling fog background",
@@ -252,7 +252,7 @@
             "desaturated"
           ],
           "sampleHookEn": "Two steps further and the world stops existing",
-          "sampleHookRu": "Ещё два шага — и мира больше нет"
+          "sampleHookRu": "Ещё два шага - и мира больше нет"
         },
         {
           "term": "electric storm background",
@@ -266,7 +266,7 @@
             "cinematic color grading"
           ],
           "sampleHookEn": "The storm is the loudest thing here, but not the most dangerous",
-          "sampleHookRu": "Шторм здесь самый громкий — но не самый опасный"
+          "sampleHookRu": "Шторм здесь самый громкий - но не самый опасный"
         }
       ]
     },
@@ -335,7 +335,7 @@
             "rain"
           ],
           "sampleHookEn": "The city after midnight, when even the lights look tired",
-          "sampleHookRu": "Город после полуночи — даже огни выглядят уставшими"
+          "sampleHookRu": "Город после полуночи - даже огни выглядят уставшими"
         },
         {
           "term": "peeling wallpaper background",
@@ -363,7 +363,7 @@
             "bloom"
           ],
           "sampleHookEn": "Reality is malfunctioning in a really pretty way",
-          "sampleHookRu": "Реальность глючит — но как-то очень красиво"
+          "sampleHookRu": "Реальность глючит - но как-то очень красиво"
         }
       ]
     },
@@ -550,7 +550,7 @@
             "warm tones"
           ],
           "sampleHookEn": "Everyone here is keeping a secret, including the piano player",
-          "sampleHookRu": "Здесь у каждого свой секрет — даже у пианиста"
+          "sampleHookRu": "Здесь у каждого свой секрет - даже у пианиста"
         },
         {
           "term": "victorian parlor background",
@@ -578,7 +578,7 @@
             "HDR"
           ],
           "sampleHookEn": "Whatever is in the jar is the most interesting thing in the room",
-          "sampleHookRu": "Что бы ни было в банке — это самое интересное, что есть в комнате"
+          "sampleHookRu": "Что бы ни было в банке - это самое интересное, что есть в комнате"
         },
         {
           "term": "ruined castle background",
@@ -591,8 +591,8 @@
             "desaturated",
             "haze"
           ],
-          "sampleHookEn": "The crown is still here somewhere — but nobody's looking",
-          "sampleHookRu": "Корона всё ещё где-то здесь — но её никто не ищет"
+          "sampleHookEn": "The crown is still here somewhere - but nobody's looking",
+          "sampleHookRu": "Корона всё ещё где-то здесь - но её никто не ищет"
         }
       ]
     },
@@ -624,8 +624,8 @@
         {
           "term": "melting clock landscape",
           "nameRu": "пейзаж с тающими часами",
-          "description": "Dalí-esque surrealism — warped horizon, impossible shadows, dream logic",
-          "descriptionRu": "Дали-подобный сюрреализм — искривлённый горизонт, невозможные тени, логика сна",
+          "description": "Dalí-esque surrealism - warped horizon, impossible shadows, dream logic",
+          "descriptionRu": "Дали-подобный сюрреализм - искривлённый горизонт, невозможные тени, логика сна",
           "preview": "linear-gradient(to bottom, #e8c870, #c08040, #5a3020)"
         },
         {
@@ -640,7 +640,7 @@
             "scan lines overlay"
           ],
           "sampleHookEn": "The render is breaking and somehow that's the truest thing in the frame",
-          "sampleHookRu": "Рендер ломается — и почему-то это самая правдивая часть кадра"
+          "sampleHookRu": "Рендер ломается - и почему-то это самая правдивая часть кадра"
         },
         {
           "term": "paper-cutout world background",
@@ -668,7 +668,7 @@
             "chromatic aberration"
           ],
           "sampleHookEn": "Look at one of you and see six of you looking back",
-          "sampleHookRu": "Посмотри на одного из себя — и увидь шестерых, смотрящих в ответ"
+          "sampleHookRu": "Посмотри на одного из себя - и увидь шестерых, смотрящих в ответ"
         }
       ]
     },
@@ -716,7 +716,7 @@
             "warm tones"
           ],
           "sampleHookEn": "Everything anyone forgot, the attic kept",
-          "sampleHookRu": "Всё, что кто-то забыл — чердак сохранил"
+          "sampleHookRu": "Всё, что кто-то забыл - чердак сохранил"
         },
         {
           "term": "abandoned theater background",
@@ -729,8 +729,8 @@
             "warm tones",
             "dust particles in light beam"
           ],
-          "sampleHookEn": "The play is still running — there's just nobody left to watch",
-          "sampleHookRu": "Спектакль всё ещё идёт — просто его больше некому смотреть"
+          "sampleHookEn": "The play is still running - there's just nobody left to watch",
+          "sampleHookRu": "Спектакль всё ещё идёт - просто его больше некому смотреть"
         },
         {
           "term": "observatory dome background",
@@ -744,7 +744,7 @@
             "long exposure"
           ],
           "sampleHookEn": "Up there is the answer. Down here is the person asking",
-          "sampleHookRu": "Там, наверху — ответ. Здесь, внизу — тот, кто задаёт вопрос"
+          "sampleHookRu": "Там, наверху - ответ. Здесь, внизу - тот, кто задаёт вопрос"
         }
       ]
     },

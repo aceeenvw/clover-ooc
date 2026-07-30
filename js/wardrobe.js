@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — WARDROBE JS (outfit constructor)
+   CLOVER OOC - WARDROBE JS (outfit constructor)
    Mode tabs (two-piece / dress), slot picker, live preview,
    filter strip (search + tags + colors), surprise me.
    Stateless except for tab-state in localStorage.
@@ -23,17 +23,17 @@
 
   // ─── i18n HELPERS ────────────────────────────────────────────────────────
   // Display sites use Russian when lang=ru AND a translation exists.
-  // Copy sites always use English (Shape C: display RU, copy EN).
+  // Copy sites always use English, so the model receives a stable instruction.
   function itemText(it) {
-    return (document.documentElement.getAttribute('data-lang') === 'ru' && it && it.textRu)
+    return (window.cloverLang() === 'ru' && it && it.textRu)
       ? it.textRu : (it ? it.text : '');
   }
   function tagLabel(t) {
-    return (document.documentElement.getAttribute('data-lang') === 'ru' && tagsRu[t])
+    return (window.cloverLang() === 'ru' && tagsRu[t])
       ? tagsRu[t] : t;
   }
   function colorLabel(c) {
-    return (document.documentElement.getAttribute('data-lang') === 'ru' && colorsRu[c])
+    return (window.cloverLang() === 'ru' && colorsRu[c])
       ? colorsRu[c] : c;
   }
 
@@ -98,30 +98,15 @@
     // slot → itemId (string) or null; for accessory, an array of itemIds
     slots: { top: null, bottom: null, dress: null, outer: null, shoes: null, accessory: [] },
     activeSlot: null,      // which category the picker is currently showing
-    activeAccIndex: null,  // when active slot is 'accessory', which index we're filling (null = append)
     filters: { search: '', tags: new Set(), colors: new Set() },
   };
 
   // ─── HELPERS ─────────────────────────────────────────────────────────────
-  const getLang = () => document.documentElement.getAttribute('data-lang') || 'en';
+  const getLang = window.cloverLang;
   const itemById = (id) => items.find(it => it.id === id);
   const currentSlots = () => mode === 'two-piece' ? SLOTS_TWO_PIECE : SLOTS_DRESS;
 
-  function showToast(en, ru) {
-    let t = document.getElementById('clover-toast');
-    if (!t) {
-      t = document.createElement('div');
-      t.id = 'clover-toast';
-      t.className = 'clover-toast';
-      t.setAttribute('role', 'status');
-      t.setAttribute('aria-live', 'polite');
-      document.body.appendChild(t);
-    }
-    t.textContent = getLang() === 'ru' ? ru : en;
-    t.classList.add('visible');
-    clearTimeout(showToast._t);
-    showToast._t = setTimeout(() => t.classList.remove('visible'), 2000);
-  }
+  const showToast = window.cloverToast;
 
   async function copyToClipboard(text) {
     return window.cloverCopy(text);
@@ -238,7 +223,7 @@
         const aRu = document.createElement('span'); aRu.className = 'lang-ru';
         aRu.textContent = arr.length === 0 ? '+ выбрать' : '+ добавить';
         addBtn.appendChild(aEn); addBtn.appendChild(aRu);
-        addBtn.addEventListener('click', () => activateSlot(cat, null));
+        addBtn.addEventListener('click', () => activateSlot(cat));
         body.appendChild(addBtn);
       } else if (v) {
         const ch = renderChip(v, null);
@@ -268,9 +253,8 @@
   }
 
   // ─── ACTIVATE SLOT → POPULATE PICKER ─────────────────────────────────────
-  function activateSlot(cat, accIndex) {
+  function activateSlot(cat) {
     state.activeSlot = cat;
-    state.activeAccIndex = (typeof accIndex === 'number') ? accIndex : null;
     renderSlots();
     renderPickerHeader();
     renderPickerGrid();
@@ -522,7 +506,7 @@
       renderPreview();
       if (state.activeSlot) renderPickerGrid();
     } else {
-      showToast('Nothing to fill — all slots already chosen', 'Нечего заполнять — все слоты уже выбраны');
+      showToast('Nothing to fill - all slots already chosen', 'Нечего заполнять - все слоты уже выбраны');
     }
   });
 

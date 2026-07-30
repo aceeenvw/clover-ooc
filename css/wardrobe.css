@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   CLOVER OOC — WARDROBE STYLES
+   CLOVER OOC - WARDROBE STYLES
    Outfit constructor: mode tabs, slot strip, sticky preview,
    filterable picker grid, color swatches.
    Self-contained; layered on css/style.css.
@@ -642,32 +642,6 @@
   border-color: var(--accent);
   color: var(--accent);
   transform: translateY(-2px);
-}
-
-/* ═══ TOAST ═══ */
-.clover-toast {
-  position: fixed;
-  left: 50%;
-  bottom: 1.5rem;
-  transform: translateX(-50%) translateY(20px);
-  padding: 0.7rem 1.2rem;
-  background: var(--bg-elevated);
-  color: var(--text);
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.22s ease, transform 0.22s ease;
-  z-index: 9999;
-  max-width: calc(100% - 2rem);
-  text-align: center;
-}
-.clover-toast.visible {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
 }
 
 /* ═══ RESPONSIVE ═══ */

@@ -15,16 +15,13 @@
   const expandedBodies = new Set();
   const copiedTimers = new WeakMap();
   let currentFilter = '';
-  let toastTimer = null;
   let searchTimer = null;
 
   data.sections.forEach((section, index) => {
     openState[section.id] = index === 0;
   });
 
-  function getLang() {
-    return document.documentElement.getAttribute('data-lang') || 'en';
-  }
+  const getLang = window.cloverLang;
 
   function matchesFilter(prompt, filter) {
     if (!filter) return true;
@@ -39,21 +36,7 @@
     ].some(value => String(value || '').toLowerCase().includes(filter));
   }
 
-  function showToast(messageEn, messageRu) {
-    let toast = document.getElementById('poses-toast');
-    if (!toast) {
-      toast = document.createElement('div');
-      toast.id = 'poses-toast';
-      toast.className = 'poses-toast';
-      toast.setAttribute('role', 'status');
-      toast.setAttribute('aria-live', 'polite');
-      document.body.appendChild(toast);
-    }
-    toast.textContent = getLang() === 'ru' ? messageRu : messageEn;
-    toast.classList.add('visible');
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove('visible'), 2200);
-  }
+  const showToast = window.cloverToast;
 
   function markCopied(body) {
     body.classList.add('is-copied');
