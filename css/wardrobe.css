@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════
    CLOVER OOC - WARDROBE STYLES
-   Outfit constructor: mode tabs, slot strip, sticky preview,
+   Outfit constructor: mode + gender tabs, slot strip, sticky preview,
    filterable picker grid, color swatches.
    Self-contained; layered on css/style.css.
    aceenvw
@@ -69,6 +69,20 @@
 }
 
 /* ═══ MODE TABS ═══ */
+/* The two strips sit side by side. .mode-tabs keeps its own bottom margin for
+   any page that uses it alone; inside the row the wrapper owns the spacing. */
+.wardrobe-tab-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 1rem;
+}
+
+.wardrobe-tab-row .mode-tabs {
+  margin: 0;
+}
+
 .mode-tabs {
   display: inline-flex;
   gap: 0;
@@ -101,6 +115,49 @@
 }
 
 .mode-tab.is-active {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* ═══ GENDER TABS ═══ */
+/* Same pill control as .mode-tabs above, kept as its own selector so the two
+   strips can diverge later without one silently restyling the other. */
+.wardrobe-gender-tabs {
+  display: inline-flex;
+  gap: 0;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px;
+  width: max-content;
+  max-width: 100%;
+}
+
+/* Required: display:inline-flex would otherwise beat the [hidden] attribute. */
+.wardrobe-gender-tabs[hidden] {
+  display: none;
+}
+
+.wardrobe-gender-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 0.55rem 1.15rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.18s, color 0.18s;
+  white-space: nowrap;
+}
+
+.wardrobe-gender-tab:hover {
+  color: var(--text);
+}
+
+.wardrobe-gender-tab.is-active {
   background: var(--accent);
   color: var(--bg);
 }
@@ -681,5 +738,6 @@
   .slots {
     grid-template-columns: 1fr;
   }
-  .mode-tab { padding: 0.5rem 0.95rem; font-size: 0.85rem; }
+  .mode-tab,
+  .wardrobe-gender-tab { padding: 0.5rem 0.95rem; font-size: 0.85rem; }
 }

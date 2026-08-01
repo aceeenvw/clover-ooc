@@ -9,7 +9,7 @@
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wardrobe - CLOVER OOC</title>
-  <meta name="description" content="Build your own outfit from 1,395 pieces - pick top, bottom (or dress), shoes, and accessories. Copy the clothes: line into SillyTavern.">
+  <meta name="description" content="Build your own outfit from 3,092 pieces - pick top, bottom (or dress), shoes, and accessories. Copy the clothes: line into SillyTavern.">
   <meta property="og:title" content="Wardrobe - CLOVER OOC">
   <meta property="og:description" content="Outfit constructor - mix and match top, bottom, dress, shoes, and accessories.">
   <meta property="og:type" content="website">
@@ -85,8 +85,8 @@
         <span class="lang-ru">Гардероб</span>
       </h1>
       <p class="wardrobe-subtitle">
-        <span class="lang-en">Build your own outfit - pick pieces from <strong>1,395</strong> fragments curated from the Outfits library. Copy the <code>clothes:</code> line.</span>
-        <span class="lang-ru">Соберите свой образ: выберите элементы из <strong>1 395</strong> фрагментов библиотеки Outfits и скопируйте строку <code>clothes:</code>.</span>
+        <span class="lang-en">Build your own outfit - pick pieces from <strong>3,092</strong> fragments curated from the Outfits library. Copy the <code>clothes:</code> line.</span>
+        <span class="lang-ru">Соберите свой образ: выберите элементы из <strong>3 092</strong> фрагмента библиотеки Outfits и скопируйте строку <code>clothes:</code>.</span>
       </p>
 
       <!-- HOW TO USE -->
@@ -108,14 +108,26 @@
   <main id="wardrobe-main">
     <div class="container">
 
-      <!-- MODE TABS -->
-      <div class="mode-tabs" role="tablist" aria-label="Outfit mode">
-        <button class="mode-tab is-active" role="tab" data-mode="two-piece" aria-selected="true">
-          <span class="lang-en">Two-Piece</span><span class="lang-ru">Top + Bottom</span>
-        </button>
-        <button class="mode-tab" role="tab" data-mode="dress" aria-selected="false">
-          <span class="lang-en">Dress / One-Piece</span><span class="lang-ru">Платье</span>
-        </button>
+      <!-- MODE + GENDER TABS -->
+      <div class="wardrobe-tab-row">
+        <div class="mode-tabs" role="tablist" aria-label="Outfit mode">
+          <button class="mode-tab is-active" role="tab" data-mode="two-piece" aria-selected="true">
+            <span class="lang-en">Two-Piece</span><span class="lang-ru">Top + Bottom</span>
+          </button>
+          <button class="mode-tab" role="tab" data-mode="dress" aria-selected="false">
+            <span class="lang-en">Dress / One-Piece</span><span class="lang-ru">Платье</span>
+          </button>
+        </div>
+
+        <!-- GENDER TABS (revealed by js/wardrobe.js once both genders have data) -->
+        <div class="wardrobe-gender-tabs" id="wardrobe-gender-tabs" role="tablist" aria-label="Wardrobe gender" hidden>
+          <button class="wardrobe-gender-tab is-active" role="tab" data-gender="female" aria-selected="true">
+            <span class="lang-en">Female</span><span class="lang-ru">Женские</span>
+          </button>
+          <button class="wardrobe-gender-tab" role="tab" data-gender="male" aria-selected="false">
+            <span class="lang-en">Male</span><span class="lang-ru">Мужские</span>
+          </button>
+        </div>
       </div>
 
       <!-- STICKY PREVIEW BAR -->

@@ -11,13 +11,13 @@
                           ╚══════════════════════════════════════════════════════╝
 ```
 
-**250 prompts · 112 scenes · 127 restyles · 110 poses · 820 outfits · 275 hairstyles · 1,395 wardrobe pieces · 100 overlays · EN / RU**
+**250 prompts · 112 scenes · 127 restyles · 110 poses · 820 outfits · 275 hairstyles · 3,092 wardrobe pieces · 100 overlays · EN / RU**
 
 [![Site](https://img.shields.io/badge/site-aceeenvw.github.io%2Fclover--ooc-7aa?style=flat-square&labelColor=1a1a1a)](https://aceeenvw.github.io/clover-ooc/)
 [![Prompts](https://img.shields.io/badge/prompts-250-c99?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Outfits](https://img.shields.io/badge/outfits-820-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Hair](https://img.shields.io/badge/hairstyles-275-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Wardrobe](https://img.shields.io/badge/wardrobe-1%2C395_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Wardrobe](https://img.shields.io/badge/wardrobe-3%2C092_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Images](https://img.shields.io/badge/renders-1%2C194%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
@@ -69,7 +69,7 @@ All 250 prompts in one grid - filter by category and tag, open any entry for the
 820 outfits across 19 sections - everyday, coastal, y2k, fantasy, gothic lolita, sporty and more - 695 with a render. Switch between 560 female and 260 male looks.
 
 ### ◈ Wardrobe
-Build an outfit piece by piece from 1,395 items: top + bottom (or a dress), outerwear, shoes, accessories. Filter by style and colour, or let "Surprise me" fill the gaps.
+Build an outfit piece by piece from 3,092 items: top + bottom (or a dress), outerwear, shoes, accessories. Filter by style and colour, or let "Surprise me" fill the gaps.
 
 ### ◈ Tools
 The mix-and-match builder.

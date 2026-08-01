@@ -1,7 +1,8 @@
 /* ═══════════════════════════════════════════════
    CLOVER OOC - WARDROBE JS (outfit constructor)
-   Mode tabs (two-piece / dress), slot picker, live preview,
-   filter strip (search + tags + colors), surprise me.
+   Mode tabs (two-piece / dress), gender tabs (female / male),
+   slot picker, live preview, filter strip (search + tags + colors),
+   surprise me. 3,092 pieces.
    Stateless except for tab-state in localStorage.
    aceenvw
    ═══════════════════════════════════════════════ */
@@ -53,6 +54,10 @@
   const $clearBtn      = document.getElementById('clear-btn');
   const $modeTabs      = document.querySelectorAll('.mode-tab');
   const $scrollTopBtn  = document.getElementById('scroll-to-top');
+  const $genderTabsWrap = document.getElementById('wardrobe-gender-tabs');
+  const $genderTabs     = $genderTabsWrap
+    ? $genderTabsWrap.querySelectorAll('.wardrobe-gender-tab')
+    : [];
 
   // ─── CATEGORY METADATA ───────────────────────────────────────────────────
   // Slot order per mode. Accessory is multi-pick; everything else is single.
@@ -94,6 +99,26 @@
     if (saved === 'two-piece' || saved === 'dress') mode = saved;
   } catch (e) {}
 
+  // Which genders the data actually carries. Derived by union over item.gender
+  // rather than assumed, so the strip hides itself again if the data ever
+  // narrows to one. gender is an ARRAY - a crossover piece belongs to both.
+  const availableGenders = [];
+  items.forEach(it => {
+    (it.gender || []).forEach(g => {
+      if (!availableGenders.includes(g)) availableGenders.push(g);
+    });
+  });
+
+  let currentGender = availableGenders.includes('female')
+    ? 'female'
+    : (availableGenders[0] || 'female');
+  try {
+    const savedGender = localStorage.getItem('clover-wardrobe-gender');
+    if (savedGender && availableGenders.includes(savedGender)) {
+      currentGender = savedGender;
+    }
+  } catch (e) {}
+
   const state = {
     // slot → itemId (string) or null; for accessory, an array of itemIds
     slots: { top: null, bottom: null, dress: null, outer: null, shoes: null, accessory: [] },
@@ -105,6 +130,10 @@
   const getLang = window.cloverLang;
   const itemById = (id) => items.find(it => it.id === id);
   const currentSlots = () => mode === 'two-piece' ? SLOTS_TWO_PIECE : SLOTS_DRESS;
+  // With a single gender in the data there is no tab strip, so nothing is
+  // filtered out - matching how the outfits page treats its own facet.
+  const inCurrentGender = (it) =>
+    availableGenders.length < 2 || (it.gender || []).includes(currentGender);
 
   const showToast = window.cloverToast;
 
@@ -275,22 +304,34 @@
   }
 
   // ─── PICKER GRID (filter + render items for active category) ─────────────
+  // Single filter predicate, shared by the picker grid and Surprise me. These
+  // two used to carry separate copies of the same conditions, which is how the
+  // gender facet could have reached one and not the other. Keep it that way.
+  function matchesFilters(it, cat) {
+    if (it.category !== cat) return false;
+    // Gender facet first. it.gender is an array, so a crossover piece passes
+    // on both tabs - that is what the derived array is for.
+    if (!inCurrentGender(it)) return false;
+    const q = state.filters.search.trim().toLowerCase();
+    if (q) {
+      const hay = (it.text + ' ' + (it.textRu || '')).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    if (state.filters.colors.size > 0 && !state.filters.colors.has(it.color)) return false;
+    if (state.filters.tags.size > 0 && !it.tags.some(t => state.filters.tags.has(t))) return false;
+    return true;
+  }
+
+  // Items of a category in the active gender, ignoring the other filters.
+  // Used as the picker count denominator so the total never includes the
+  // other gender - mirrors genderPrompts() on the outfits page.
+  function genderItems(cat) {
+    return items.filter(it => it.category === cat && inCurrentGender(it));
+  }
+
   function pickerFilteredItems() {
     if (!state.activeSlot) return [];
-    const cat = state.activeSlot;
-    const q = state.filters.search.trim().toLowerCase();
-    const activeTags = state.filters.tags;
-    const activeColors = state.filters.colors;
-    return items.filter(it => {
-      if (it.category !== cat) return false;
-      if (q) {
-        const hay = (it.text + ' ' + (it.textRu || '')).toLowerCase();
-        if (!hay.includes(q)) return false;
-      }
-      if (activeColors.size > 0 && !activeColors.has(it.color)) return false;
-      if (activeTags.size > 0 && !it.tags.some(t => activeTags.has(t))) return false;
-      return true;
-    });
+    return items.filter(it => matchesFilters(it, state.activeSlot));
   }
 
   function renderPickerGrid() {
@@ -308,7 +349,7 @@
       return;
     }
     const filtered = pickerFilteredItems();
-    $pickerCount.textContent = filtered.length + ' / ' + items.filter(it => it.category === state.activeSlot).length;
+    $pickerCount.textContent = filtered.length + ' / ' + genderItems(state.activeSlot).length;
     if (filtered.length === 0) {
       const p = document.createElement('p');
       p.className = 'picker-empty';
@@ -478,20 +519,9 @@
       const v = state.slots[cat];
       const isEmpty = Array.isArray(v) ? v.length === 0 : !v;
       if (!isEmpty) return;
-      // Build candidate pool: items in this category respecting active filters
-      const q = state.filters.search.trim().toLowerCase();
-      const activeTags = state.filters.tags;
-      const activeColors = state.filters.colors;
-      const pool = items.filter(it => {
-        if (it.category !== cat) return false;
-        if (q) {
-          const hay = (it.text + ' ' + (it.textRu || '')).toLowerCase();
-          if (!hay.includes(q)) return false;
-        }
-        if (activeColors.size > 0 && !activeColors.has(it.color)) return false;
-        if (activeTags.size > 0 && !it.tags.some(t => activeTags.has(t))) return false;
-        return true;
-      });
+      // Candidate pool via the shared predicate, so the active gender, search,
+      // colour and tag filters all apply here exactly as they do in the grid.
+      const pool = items.filter(it => matchesFilters(it, cat));
       if (pool.length === 0) return;
       const pick = pool[Math.floor(Math.random() * pool.length)];
       if (SLOT_META[cat].multi) {
@@ -553,6 +583,55 @@
     t.classList.toggle('is-active', isActive);
     t.setAttribute('aria-selected', String(isActive));
   });
+
+  // ─── GENDER TABS ─────────────────────────────────────────────────────────
+  function syncGenderTabs() {
+    $genderTabs.forEach(t => {
+      const isActive = t.dataset.gender === currentGender;
+      t.classList.toggle('is-active', isActive);
+      t.setAttribute('aria-selected', String(isActive));
+      t.tabIndex = isActive ? 0 : -1;
+    });
+  }
+
+  function setGender(next) {
+    if (next === currentGender || !availableGenders.includes(next)) return;
+    currentGender = next;
+    try { localStorage.setItem('clover-wardrobe-gender', next); } catch (e) {}
+    syncGenderTabs();
+    // Deliberately does NOT clear the slots, unlike setMode above: a garment
+    // already chosen stays a valid part of the outfit whichever tab is shown.
+    renderPickerGrid();
+  }
+
+  $genderTabs.forEach(t => {
+    t.addEventListener('click', () => setGender(t.dataset.gender));
+  });
+
+  // Arrow/Home/End navigation, matching the strip on the outfits page.
+  if ($genderTabsWrap) {
+    $genderTabsWrap.addEventListener('keydown', (e) => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
+      const buttons = Array.from($genderTabs);
+      const current = buttons.indexOf(document.activeElement);
+      if (current < 0) return;
+      e.preventDefault();
+      let next = current;
+      if (e.key === 'ArrowRight') next = (current + 1) % buttons.length;
+      if (e.key === 'ArrowLeft') next = (current - 1 + buttons.length) % buttons.length;
+      if (e.key === 'Home') next = 0;
+      if (e.key === 'End') next = buttons.length - 1;
+      buttons[next].focus();
+      buttons[next].click();
+    });
+
+    // Reveal the strip only when there is a real choice to make.
+    if (availableGenders.length > 1) {
+      $genderTabsWrap.hidden = false;
+    }
+  }
+
+  syncGenderTabs();
 
   // ─── LANGUAGE OBSERVER ───────────────────────────────────────────────────
   // On lang flip, re-render every surface whose text is i18n-dependent:
