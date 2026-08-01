@@ -137,8 +137,8 @@
 }
 
 /* ═══ GENDER TABS ═══ */
-/* Pill segmented control, adapted from wardrobe.css .mode-tabs.
-   Hidden via the [hidden] attribute until more than one gender has data. */
+/* Pill segmented control, matching wardrobe.css .mode-tabs.
+   The [hidden] attribute governs visibility; see the rule below. */
 .outfits-gender-tabs {
   display: inline-flex;
   gap: 0;

@@ -39,8 +39,8 @@
   let currentFilter = '';
   let lastRandomId = null;
 
-  // Which genders actually have outfits. The tab strip only appears once more
-  // than one is present, so it stays hidden until male outfits are ingested.
+  // Which genders actually have outfits. The tab strip only appears when more
+  // than one is present.
   const availableGenders = [];
   allOutfits.forEach(o => {
     const g = o.gender || 'female';
@@ -454,8 +454,7 @@
       buttons[next].click();
     });
 
-    // Reveal the strip only when there is a real choice to make. Once male
-    // outfits are ingested this turns itself on with no further changes.
+    // Reveal the strip only when there is a real choice to make.
     if (availableGenders.length > 1) {
       genderTabsWrap.hidden = false;
     }

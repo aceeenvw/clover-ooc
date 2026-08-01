@@ -304,13 +304,11 @@
   }
 
   // ─── PICKER GRID (filter + render items for active category) ─────────────
-  // Single filter predicate, shared by the picker grid and Surprise me. These
-  // two used to carry separate copies of the same conditions, which is how the
-  // gender facet could have reached one and not the other. Keep it that way.
+  // Shared by the picker grid and Surprise me, so both apply the same
+  // conditions to the same category.
   function matchesFilters(it, cat) {
     if (it.category !== cat) return false;
-    // Gender facet first. it.gender is an array, so a crossover piece passes
-    // on both tabs - that is what the derived array is for.
+    // it.gender is an array: a piece worn by both shows on both tabs.
     if (!inCurrentGender(it)) return false;
     const q = state.filters.search.trim().toLowerCase();
     if (q) {
@@ -511,7 +509,7 @@
     }
   });
 
-  // ─── SURPRISE ME (E2: fill only empty slots, respect active filters) ─────
+  // ─── SURPRISE ME (fill only empty slots, respect active filters) ─────────
   $surpriseBtn.addEventListener('click', () => {
     const order = currentSlots();
     let filledAny = false;
@@ -599,8 +597,8 @@
     currentGender = next;
     try { localStorage.setItem('clover-wardrobe-gender', next); } catch (e) {}
     syncGenderTabs();
-    // Deliberately does NOT clear the slots, unlike setMode above: a garment
-    // already chosen stays a valid part of the outfit whichever tab is shown.
+    // Slots are kept, unlike setMode above: a garment already chosen stays a
+    // valid part of the outfit whichever tab is shown.
     renderPickerGrid();
   }
 

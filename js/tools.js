@@ -1049,7 +1049,7 @@
         info.appendChild(descEn);
         info.appendChild(descRu);
 
-        // ─── pairsWith chip row (new entries only) ───
+        // ─── pairsWith chip row (when the entry defines pairings) ───
         if (Array.isArray(bg.pairsWith) && bg.pairsWith.length > 0) {
           const pairsRow = document.createElement('div');
           pairsRow.className = 'pairs-with';
@@ -1110,7 +1110,7 @@
         });
         info.appendChild(copyBtn);
 
-        // ─── "Try this" button (new entries only) ───
+        // ─── "Try this" button (when the entry defines a sample hook) ───
         if (bg.sampleHookEn) {
           const tryBtn = document.createElement('button');
           tryBtn.type = 'button';
