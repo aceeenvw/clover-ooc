@@ -136,6 +136,49 @@
   .outfits-promo-cta { width: 100%; text-align: right; }
 }
 
+/* ═══ GENDER TABS ═══ */
+/* Pill segmented control, adapted from wardrobe.css .mode-tabs.
+   Hidden via the [hidden] attribute until more than one gender has data. */
+.outfits-gender-tabs {
+  display: inline-flex;
+  gap: 0;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px;
+  margin: 0 auto 0.25rem;
+  width: max-content;
+  max-width: 100%;
+}
+
+.outfits-gender-tabs[hidden] {
+  display: none;
+}
+
+.outfits-gender-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 0.55rem 1.15rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.18s, color 0.18s;
+  white-space: nowrap;
+}
+
+.outfits-gender-tab:hover {
+  color: var(--text);
+}
+
+.outfits-gender-tab.is-active {
+  background: var(--accent);
+  color: var(--bg);
+}
+
 /* ═══ SEARCH BAR (sticky) ═══ */
 .outfits-search-wrap {
   position: sticky;
@@ -706,6 +749,7 @@
 
 @media (max-width: 480px) {
   .outfits-header { padding: 100px 0 20px; }
+  .outfits-gender-tab { padding: 0.5rem 0.95rem; font-size: 0.85rem; }
   .outfits-search-row { align-items: stretch; }
   .outfits-random-btn { padding-inline: 0.7rem; }
   .outfit-section-header { padding: 0.85rem 0.9rem; }

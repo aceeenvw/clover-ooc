@@ -9,7 +9,6 @@
       "placement": "foreground",
       "centerClear": false,
       "block": "treat the whole frame as a page pulled from an evidence folder: crushed photocopy tone with dirty platen shadows along two edges, a purple date stamp struck twice at an angle near the upper corner, one solid black redaction bar laid across a strip of the image, a narrow typed slip taped down near the lower edge, faint toner speckle throughout",
-      "blockRu": "оформи весь кадр как лист из архивного дела: контрастная серая фотокопия со следами копировального стекла вдоль двух краёв, два лиловых оттиска штампа с датой под углом у верхнего угла, одна сплошная чёрная полоса цензуры поперёк части изображения, узкая машинописная полоска бумаги у нижнего края и мелкие точки тонера по всему кадру",
       "componentTerms": [
         "photocopy degradation overlay",
         "library date stamp overlay",
@@ -28,7 +27,6 @@
       "placement": "background",
       "centerClear": true,
       "block": "set the subject against a deep cyanotype blue wall covered in white draughting linework - straight rules, dimension arrows, small annotated circles - keeping the figure entirely clear of it, then lay a light pass of biro crosshatching across the outer thirds of the frame only",
-      "blockRu": "расположи персонажа на фоне глубокой синей стены в стиле цианотипии, покрытой белыми чертёжными линиями - прямыми направляющими, размерными стрелками и небольшими окружностями с пометками; не перекрывай ими фигуру, а лёгкую штриховку шариковой ручкой добавь только по краям кадра",
       "componentTerms": [
         "blueprint linework overlay",
         "ballpoint crosshatch overlay",
@@ -46,7 +44,6 @@
       "placement": "background",
       "centerClear": true,
       "block": "place a mechanical split-flap departure board deep behind the subject with several letters frozen mid-rotation, warm out-of-focus bulb orbs strung in loops further back, a single torn ticket stub held low in the near foreground, everything behind the figure softened so she reads cleanly against it",
-      "blockRu": "размести далеко позади персонажа механическое перекидное табло отправлений, на котором несколько букв застыли в момент смены; ещё дальше добавь петли гирлянд с тёплыми расфокусированными огнями, а внизу на переднем плане - один надорванный корешок билета; смягчи все детали фона, чтобы персонаж отчётливо выделялся на их фоне",
       "componentTerms": [
         "departure board split-flap overlay",
         "bokeh string lights overlay",
@@ -64,7 +61,6 @@
       "placement": "full-frame",
       "centerClear": false,
       "block": "throw rippling pool-light patterns up across the subject from below so they crawl over skin and fabric, put slow dark carp shapes gliding beneath a rippling surface far behind her, add a few bright droplets clinging to the lens itself, cool blue-green cast throughout",
-      "blockRu": "направь снизу на персонажа колышущиеся блики от воды, чтобы они скользили по коже и ткани; далеко на фоне добавь медленно плывущие тёмные силуэты карпов под рябью, а на объективе оставь несколько ярких капель; выдержи весь кадр в холодной сине-зелёной гамме",
       "componentTerms": [
         "water caustics on skin overlay",
         "koi shadows under water overlay",
@@ -82,7 +78,6 @@
       "placement": "border",
       "centerClear": true,
       "block": "let long lilac flower chains dangle down from the top edge and just into the upper corners, held slightly out of focus, place flat dark fern shapes pressed against the backdrop behind the subject, and drift a scatter of backlit parachute seeds slowly through the middle distance, centre of the frame kept open",
-      "blockRu": "пусть длинные сиреневые кисти цветов свисают с верхнего края и слегка заходят в верхние углы, оставаясь немного не в фокусе; на фоне позади персонажа размести плоские тёмные силуэты папоротника, а на среднем плане - редкие семена-парашютики в контровом свете; центр кадра оставь свободным",
       "componentTerms": [
         "hanging wisteria racemes overlay",
         "fern frond silhouettes overlay",
@@ -100,7 +95,6 @@
       "placement": "background",
       "centerClear": true,
       "block": "fill the wall behind the subject with rows of wooden drawers fronted by typed index cards, run one hard shaft of light across the upper frame with dust turning slowly inside it, add a faint purple date stamp on the nearest drawer face, the figure left completely unobstructed",
-      "blockRu": "заполни стену позади персонажа рядами деревянных каталожных ящиков с машинописными карточками; через верхнюю часть кадра направь один резкий луч света с медленно кружащейся в нём пылью, а на передней панели ближайшего ящика поставь бледный лиловый штамп с датой; персонажа ничем не перекрывай",
       "componentTerms": [
         "library card catalogue overlay",
         "dust particles in light beam",
@@ -118,7 +112,6 @@
       "placement": "foreground",
       "centerClear": false,
       "block": "shoot the subject through obstruction: galvanised diamond mesh pressed close to the lens across one half of the frame, thrown so far out of focus it reads as a soft lattice, vertical strings of glass beads crossing the other half catching small hard glints, the subject sharp behind both",
-      "blockRu": "сними персонажа сквозь две преграды: на одной половине кадра размести вплотную к объективу оцинкованную сетку-рабицу, размытую до мягкого ромбовидного узора; другую половину должны пересекать вертикальные нити стеклянных бусин с мелкими резкими бликами; персонаж за обеими преградами остаётся в фокусе",
       "componentTerms": [
         "chain-link fence overlay",
         "beaded curtain strands overlay",
@@ -136,7 +129,6 @@
       "placement": "background",
       "centerClear": true,
       "block": "crowd the space behind the subject with hand-painted cardboard signs raised at different heights, paint running down their letters, spray tags layered on the wall between them, pressed palm impressions set into a grey slab along the lower background, the figure clear of all of it",
-      "blockRu": "заполни пространство позади персонажа картонными плакатами с надписями от руки, поднятыми на разную высоту; пусть краска стекает с букв, а на стене между плакатами наслаиваются граффити-теги; вдоль нижней части фона добавь вдавленные отпечатки ладоней на серой бетонной плите, не перекрывая ими персонажа",
       "componentTerms": [
         "protest placard slogans overlay",
         "graffiti tags overlay",
@@ -154,7 +146,6 @@
       "placement": "full-frame",
       "centerClear": false,
       "block": "sink the entire image into redscale - oranges, rust and deep reds with the blues gone completely - then rake hard parallel light bars across the subject and the wall behind, and burn one soft bloom of overexposure into a single upper corner",
-      "blockRu": "переведи всё изображение в палитру redscale - оранжевые, ржавые и глубокие красные тона без синего; затем наложи жёсткие параллельные полосы света на персонажа и стену позади, а в одном верхнем углу добавь мягкое пятно плёночной засветки",
       "componentTerms": [
         "redscale film inversion overlay",
         "venetian blind slat shadows overlay",
@@ -172,7 +163,6 @@
       "placement": "background",
       "centerClear": true,
       "block": "map a green vector wireframe topology onto the space behind the subject like a calibration grid, give the whole frame a curved-tube phosphor glow with a soft green bloom, and float a short block of monospace console lines with a blinking cursor low in one corner",
-      "blockRu": "размести в пространстве позади персонажа зелёную векторную каркасную сетку, похожую на калибровочную решётку; покрой весь кадр мягким зелёным свечением старого кинескопа, а в одном из нижних углов выведи небольшой блок моноширинных консольных строк с мигающим курсором",
       "componentTerms": [
         "wireframe mesh overlay",
         "CRT phosphor glow overlay",
@@ -190,7 +180,6 @@
       "placement": "full-frame",
       "centerClear": false,
       "block": "eat into the emulsion with irregular chemical tide-lines blooming inward from two edges, split the frame down the middle with a raw sprocket seam so the halves sit slightly mismatched, and scatter coarse grain and hairline scratches across everything",
-      "blockRu": "добавь на эмульсию неровные следы химической обработки, проступающие внутрь от двух краёв; раздели кадр посередине грубым швом с плёночной перфорацией и слегка смести половины относительно друг друга; покрой всё изображение крупным зерном и тонкими волосными царапинами",
       "componentTerms": [
         "spilled developer chemistry overlay",
         "half-frame split exposure overlay",
@@ -208,7 +197,6 @@
       "placement": "foreground",
       "centerClear": true,
       "block": "hang a small stack of punched airline destination tags into one side of the frame with their edges curling, stick one peeling adhesive slip with printed serial digits near the opposite corner, tape the lower edge of the image down with two strips of masking tape, keep the subject's face clear of all of it",
-      "blockRu": "размести с одной стороны кадра небольшую связку авиабагажных бирок с пробитыми отверстиями и загнутыми краями; у противоположного угла приклей отходящий от поверхности талон с напечатанным серийным номером, а нижний край изображения закрепи двумя полосками малярной ленты; не перекрывай лицо персонажа",
       "componentTerms": [
         "luggage tag stack overlay",
         "parking ticket adhesive overlay",
@@ -226,7 +214,6 @@
       "placement": "border",
       "centerClear": true,
       "block": "treat the image as a herbarium sheet: soft feathered paper borders on all four sides with one folded seam, two or three pressed flat blooms laid over the outer edges with their petals slightly translucent, heavy vellum grain and faint foxing spots washed through, centre left clear",
-      "blockRu": "оформи изображение как гербарный лист: обрами его со всех четырёх сторон мягкими бумажными краями ручного отлива и добавь один заметный сгиб; разложи по внешним краям два-три плоских засушенных цветка со слегка прозрачными лепестками; наложи выраженную фактуру веленевой бумаги и редкие бурые пятна старения, оставив центр свободным",
       "componentTerms": [
         "deckled envelope edges overlay",
         "pressed flowers overlay",
@@ -244,7 +231,6 @@
       "placement": "full-frame",
       "centerClear": false,
       "block": "put a pane between viewer and subject: tempered glass crazed into thousands of pebble fragments still holding together across most of the frame, feathered frost crystals creeping in from the corners, one roughly circular patch wiped clear so the subject's face reads through it sharply",
-      "blockRu": "помести между зрителем и персонажем лист закалённого стекла, растрескавшийся на тысячи мелких фрагментов, которые всё ещё держатся вместе и закрывают большую часть кадра; из углов наползают перистые кристаллы инея, а одно неровное круглое пятно протёрто начисто, чтобы лицо персонажа было видно чётко",
       "componentTerms": [
         "smashed safety glass overlay",
         "frost crystals on glass overlay",

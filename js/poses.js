@@ -31,7 +31,6 @@
       prompt.description,
       prompt.descriptionRu,
       prompt.body,
-      prompt.bodyRu,
       prompt.id,
     ].some(value => String(value || '').toLowerCase().includes(filter));
   }
@@ -51,7 +50,9 @@
     const lang = getLang();
     const isRu = lang === 'ru';
     const key = sectionId + '|' + prompt.id;
-    const displayText = isRu ? prompt.bodyRu : prompt.body;
+    // The pose line is the canonical English prompt in both languages - it is
+    // what gets copied, so showing a translation would misrepresent it.
+    const displayText = prompt.body;
     const card = document.createElement('article');
     card.className = 'pose-card';
     card.dataset.promptId = prompt.id;

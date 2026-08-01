@@ -49,13 +49,15 @@
   // ═══ HELPERS ═══
   const getLang = window.cloverLang;
 
-  // i18n: display Russian when lang=ru AND a translation exists.
-  // Copy always returns English, so the model receives a stable instruction.
+  // i18n: titles localize when lang=ru AND a translation exists.
+  // Bodies never localize - see hairBody below.
   function hairTitle(o) {
     return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
   }
+  // The hairstyle: line stays English in both languages - it is the canonical
+  // prompt that gets copied, and the title plus image already carry the intent.
   function hairBody(o) {
-    return (getLang() === 'ru' && o && o.bodyRu) ? o.bodyRu : (o ? o.body : '');
+    return o ? o.body : '';
   }
 
   function matchesFilter(item, filterLower) {
@@ -74,7 +76,6 @@
       item.title + ' ' +
       (item.titleRu || '') + ' ' +
       item.body + ' ' +
-      (item.bodyRu || '') + ' ' +
       (item.vibes || []).join(' ') + ' ' +
       (item.texture || '')
     ).toLowerCase();

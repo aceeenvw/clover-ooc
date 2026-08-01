@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════
    CLOVER OOC - OUTFITS JS
-   383 outfits across 19 sections. Click card body to copy,
+   820 outfits across 19 sections (560 female, 260 male). Click card body to copy,
    click card to open modal with full image + body.
    aceenvw
    ═══════════════════════════════════════════════ */
@@ -23,6 +23,10 @@
   const modalOverlay = modal.querySelector('.modal-overlay');
   const modalClose = modal.querySelector('.modal-close');
   const scrollToTopBtn = document.getElementById('scroll-to-top');
+  const genderTabsWrap = document.getElementById('outfits-gender-tabs');
+  const genderTabs = genderTabsWrap
+    ? genderTabsWrap.querySelectorAll('.outfits-gender-tab')
+    : [];
 
   // Flatten for modal lookup by id.
   const allOutfits = [];
@@ -35,25 +39,48 @@
   let currentFilter = '';
   let lastRandomId = null;
 
+  // Which genders actually have outfits. The tab strip only appears once more
+  // than one is present, so it stays hidden until male outfits are ingested.
+  const availableGenders = [];
+  allOutfits.forEach(o => {
+    const g = o.gender || 'female';
+    if (!availableGenders.includes(g)) availableGenders.push(g);
+  });
+
+  let currentGender = availableGenders.includes('female')
+    ? 'female'
+    : (availableGenders[0] || 'female');
+  try {
+    const savedGender = localStorage.getItem('clover-outfits-gender');
+    if (savedGender && availableGenders.includes(savedGender)) {
+      currentGender = savedGender;
+    }
+  } catch (e) {}
+
   // ═══ HELPERS ═══
   const getLang = window.cloverLang;
 
-  // i18n: display Russian when lang=ru AND a translation exists.
-  // Copy always returns English, so the model receives a stable instruction.
+  // i18n: titles localize when lang=ru AND a translation exists.
+  // Bodies never localize - see outfitBody below.
   function outfitTitle(o) {
     return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
   }
+  // The clothes: line stays English in both languages - it is the canonical
+  // prompt that gets copied, and the title plus image already carry the intent.
   function outfitBody(o) {
-    return (getLang() === 'ru' && o && o.bodyRu) ? o.bodyRu : (o ? o.body : '');
+    return o ? o.body : '';
   }
 
   function matchesFilter(outfit, filterLower) {
+    // Gender facet first, so Random and the result count inherit it for free.
+    if (availableGenders.length > 1 && (outfit.gender || 'female') !== currentGender) {
+      return false;
+    }
     if (!filterLower) return true;
     const hay = (
       outfit.title + ' ' +
       (outfit.titleRu || '') + ' ' +
-      outfit.body + ' ' +
-      (outfit.bodyRu || '')
+      outfit.body
     ).toLowerCase();
     return hay.includes(filterLower) || String(outfit.number).includes(filterLower);
   }
@@ -180,10 +207,18 @@
     return card;
   }
 
+  // Prompts in a section belonging to the active gender, ignoring text search.
+  // Used as the count denominator so totals never include the other gender.
+  function genderPrompts(section) {
+    if (availableGenders.length < 2) return section.prompts;
+    return section.prompts.filter(p => (p.gender || 'female') === currentGender);
+  }
+
   // ═══ SECTION ═══
   function buildSection(section) {
     const filterLower = currentFilter.trim().toLowerCase();
     const matched = section.prompts.filter(p => matchesFilter(p, filterLower));
+    const inGender = genderPrompts(section);
 
     const wrap = document.createElement('section');
     wrap.className = 'outfit-section';
@@ -233,10 +268,10 @@
     const count = document.createElement('span');
     count.className = 'outfit-section-count';
     if (filterLower) {
-      count.textContent = matched.length + '/' + section.prompts.length;
+      count.textContent = matched.length + '/' + inGender.length;
       if (matched.length > 0) count.classList.add('has-matches');
     } else {
-      count.textContent = String(section.prompts.length);
+      count.textContent = String(inGender.length);
     }
     header.appendChild(count);
 
@@ -280,14 +315,19 @@
     root.textContent = '';
     const filterLower = currentFilter.trim().toLowerCase();
     let totalMatched = 0;
+    let totalInGender = 0;
     data.sections.forEach(section => {
+      const inGender = genderPrompts(section);
+      totalInGender += inGender.length;
+      // Skip sections with nothing in the active gender, so switching tabs
+      // never leaves a wall of empty accordions.
+      if (!inGender.length) return;
       const el = buildSection(section);
       root.appendChild(el);
       totalMatched += section.prompts.filter(p => matchesFilter(p, filterLower)).length;
     });
     if (filterLower) {
-      const total = data.sections.reduce((s, sec) => s + sec.prompts.length, 0);
-      resultCount.textContent = totalMatched + ' / ' + total;
+      resultCount.textContent = totalMatched + ' / ' + totalInGender;
     } else {
       resultCount.textContent = '';
     }
@@ -374,6 +414,54 @@
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     }
   });
+
+  // ═══ GENDER TABS ═══
+  function syncGenderTabs() {
+    genderTabs.forEach(t => {
+      const isActive = t.dataset.gender === currentGender;
+      t.classList.toggle('is-active', isActive);
+      t.setAttribute('aria-selected', String(isActive));
+      t.tabIndex = isActive ? 0 : -1;
+    });
+  }
+
+  function setGender(next) {
+    if (next === currentGender || !availableGenders.includes(next)) return;
+    currentGender = next;
+    try { localStorage.setItem('clover-outfits-gender', next); } catch (e) {}
+    syncGenderTabs();
+    render();
+  }
+
+  genderTabs.forEach(t => {
+    t.addEventListener('click', () => setGender(t.dataset.gender));
+  });
+
+  // Arrow/Home/End navigation, matching the tab pattern used in tools.js.
+  if (genderTabsWrap) {
+    genderTabsWrap.addEventListener('keydown', (e) => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
+      const buttons = Array.from(genderTabs);
+      const current = buttons.indexOf(document.activeElement);
+      if (current < 0) return;
+      e.preventDefault();
+      let next = current;
+      if (e.key === 'ArrowRight') next = (current + 1) % buttons.length;
+      if (e.key === 'ArrowLeft') next = (current - 1 + buttons.length) % buttons.length;
+      if (e.key === 'Home') next = 0;
+      if (e.key === 'End') next = buttons.length - 1;
+      buttons[next].focus();
+      buttons[next].click();
+    });
+
+    // Reveal the strip only when there is a real choice to make. Once male
+    // outfits are ingested this turns itself on with no further changes.
+    if (availableGenders.length > 1) {
+      genderTabsWrap.hidden = false;
+    }
+  }
+
+  syncGenderTabs();
 
   // ═══ SEARCH ═══
   let searchDebounce = null;
