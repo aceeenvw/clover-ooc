@@ -462,7 +462,8 @@
           "number": 46,
           "title": "Deerstalker Errand",
           "body": "clothes: fawn checked wool cape-jacket with a buttoned shoulder yoke over a cream band-collar shirt, dark olive pleated culottes belted with tan leather, ribbed brown knee socks, brass magnifier pendant, laced walking boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/deerstalker-errand.webp",
           "gender": "female",
           "titleRu": "Клетчатая накидка охотника"
         },
@@ -471,7 +472,8 @@
           "number": 47,
           "title": "Bolo Tie Bookshop",
           "body": "clothes: crisp white cotton shirt worn half-tucked with the cuffs turned back, slate pleated midi skirt with a deep front pleat, braided black bolo tie set with agate, red-framed rectangular glasses, ivory over-knee socks, low-heeled leather derbies",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bolo-tie-bookshop.webp",
           "gender": "female",
           "titleRu": "Белая рубашка с подвёрнутыми манжетами"
         },
@@ -600,7 +602,8 @@
           "number": 13,
           "title": "Ushanka Workshop Rig",
           "body": "clothes: worn brown canvas shirt with the sleeves pushed past the elbow and a frayed shoulder seam, dark denim work trousers held by a wide leather belt, fur-flap winter cap with brass goggles strapped across the front, strapped work gloves, thick-soled boots with buckled gaiters",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ushanka-workshop-rig.webp",
           "gender": "male",
           "titleRu": "Потёртая холщовая рубашка мастерового"
         },
@@ -609,7 +612,8 @@
           "number": 14,
           "title": "Night Rank Driver Jacket",
           "body": "clothes: black wool jacket with a standing collar, chest flap pocket and a small enamel star at the lapel, charcoal roll-neck underneath, straight grey trousers, flat-topped peaked cap, fingerless driving gloves, plain black service shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/night-rank-driver-jacket.webp",
           "gender": "male",
           "titleRu": "Ночная водительская куртка"
         }
@@ -987,7 +991,8 @@
           "number": 84,
           "title": "Scalloped Orchard Set",
           "body": "clothes: white short-sleeve blouse with a wavy scalloped placket beneath a fern-green laced capelet, long moss linen skirt slit at the front over an ivory petticoat, wide beige straw hat with a green ribbon, cream cuff sleeves, woven flat sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/scalloped-orchard-set.webp",
           "gender": "female",
           "titleRu": "Блузка с фестонами под кейпом"
         },
@@ -996,7 +1001,8 @@
           "number": 85,
           "title": "Goldfish Festival Wrap",
           "body": "clothes: coral cotton wrap top with wide folded sleeves knotted at the hip, cropped indigo culottes, turquoise scaled sash belt, lacquered fish hair pin, netted drawstring pouch, wooden platform sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/goldfish-festival-wrap.webp",
           "gender": "female",
           "titleRu": "Узел на бедре у золотой рыбки"
         },
@@ -1125,7 +1131,8 @@
           "number": 27,
           "title": "Harbour Rope Shirt",
           "body": "clothes: loose white cotton shirt with the top buttons undone and short cuffed sleeves, faded brown drawstring trousers rolled at the ankle, red bandana knotted at the neck, braided rope bracelet, fingerless deck gloves, scuffed leather boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/harbour-rope-shirt.webp",
           "gender": "male",
           "titleRu": "Свободная рубашка из гаванских канатов"
         },
@@ -1134,7 +1141,8 @@
           "number": 28,
           "title": "Reef Flag Camp Set",
           "body": "clothes: sun-bleached coral linen camp shirt worn open over a fitted white ribbed tank, sand quick-dry shorts with a webbing belt, carved shell pendant on a cord, canvas dive-flag holdall, woven leather sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/reef-flag-camp-set.webp",
           "gender": "male",
           "titleRu": "Рубашка с рифовым флагом нараспашку"
         }
@@ -1622,7 +1630,8 @@
           "number": 133,
           "title": "Motley Mismatch Playsuit",
           "body": "clothes: tailored playsuit split into cobalt and marigold halves with a stiff scalloped collar and puffed short sleeves, deliberately mismatched striped stockings in cherry and cream, pompom belt clips, enamel diamond brooch, curled-toe flat shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/motley-mismatch-playsuit.webp",
           "gender": "female",
           "titleRu": "Пёстрый несочетаемый плейсьют"
         },
@@ -1740,7 +1749,8 @@
           "number": 40,
           "title": "Signal Block Windbreaker",
           "body": "clothes: boxy colour-blocked windbreaker in red, amber and green with a half-zip funnel neck, white technical shorts over black compression leggings, reflective webbing belt, tinted wraparound glasses, chunky trail sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/signal-block-windbreaker.webp",
           "gender": "male",
           "titleRu": "Сигнальная блочная ветровка"
         },
@@ -1749,7 +1759,8 @@
           "number": 41,
           "title": "Yellow Stripe Boiler Suit",
           "body": "clothes: short-sleeved cobalt boiler suit with bright yellow buttons, sewn-in chest pockets and reinforced knee patches, thin yellow-striped shirt beneath, matching denim cap, pink-striped crew socks, white-laced yellow sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/yellow-stripe-boiler-suit.webp",
           "gender": "male",
           "titleRu": "Жёлто-пуговичный комбинезон"
         },
@@ -1758,7 +1769,8 @@
           "number": 42,
           "title": "Ringmaster Scarlet Coat",
           "body": "clothes: fitted scarlet tailcoat with gold frogging and short puffed shoulders over a white wing-collar shirt, red bow at the throat, black high-waisted breeches, black-and-white striped stockings, tall silk top hat, short white gloves, polished dress shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ringmaster-scarlet-coat.webp",
           "gender": "male",
           "titleRu": "Алый плащ шпрехшталмейстера"
         }
@@ -2196,7 +2208,8 @@
           "number": 176,
           "title": "Brass Gear Conservatory",
           "body": "clothes: cream high-neck blouse with a maroon silk cravat under a fitted olive waistcoat, mustard A-line skirt with working brass gear buttons and patch pockets, cocoa striped over-knee socks, buckled boots with metal eyelets",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/brass-gear-conservatory.webp",
           "gender": "female",
           "titleRu": "Оранжерейный жилет с шейным платком"
         },
@@ -2205,7 +2218,8 @@
           "number": 177,
           "title": "Peacock Pinstripe Bustle",
           "body": "clothes: teal puff-sleeve blouse with ruffled cuffs beneath a laced charcoal waistcoat, high-waisted grey pinstripe trousers, plumed layered overskirt with faux-feather hip trim, jeweled jabot brooch, lace-trimmed ankle boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/peacock-pinstripe-bustle.webp",
           "gender": "female",
           "titleRu": "Павлинья блуза с оборками"
         },
@@ -2214,7 +2228,8 @@
           "number": 178,
           "title": "Amber Beekeeper Coat",
           "body": "clothes: honey-toned waxed cotton coat with a buttoned storm flap and deep hip pockets, ochre knit turtleneck, chocolate wide-leg trousers, mesh-veiled wide-brim hat resting at the back, leather gauntlet gloves, oiled work boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/amber-beekeeper-coat.webp",
           "gender": "female",
           "titleRu": "Янтарное вощёное пальто пчеловода"
         },
@@ -2332,7 +2347,8 @@
           "number": 54,
           "title": "Cogwork Foundry Vest",
           "body": "clothes: heavy oxblood leather waistcoat fitted with exposed cogs and a chain fob over a smoke-grey collarless shirt with rolled sleeves, tan canvas breeches, riveted forearm bracers, brass-rimmed goggles slung at the neck, hobnailed boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cogwork-foundry-vest.webp",
           "gender": "male",
           "titleRu": "Механический жилет литейной"
         },
@@ -2341,7 +2357,8 @@
           "number": 55,
           "title": "Maple Umbrella Hakama",
           "body": "clothes: brown short jacket printed with maple leaves over a white collared shirt with a black neck cord, wide black pleated hakama trousers with side buckles, red printed scarf, folded oil-paper umbrella carried at the side, split-toe socks with lacquered clogs",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/maple-umbrella-hakama.webp",
           "gender": "male",
           "titleRu": "Куртка с кленовым принтом и чёрным шнурком"
         },
@@ -2350,7 +2367,8 @@
           "number": 56,
           "title": "Ivory Fur Sovereign Coat",
           "body": "clothes: long soft ivory fur coat worn open over a bare chest, loose cream wool trousers with a draped fold at the waist, hammered gold arm bands, thin gold browband, white boots with gilded soles",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ivory-fur-sovereign-coat.webp",
           "gender": "male",
           "titleRu": "Царственная меховая шуба нараспашку"
         }
@@ -2488,7 +2506,8 @@
           "number": 191,
           "title": "Loose Tie Gyaru",
           "body": "clothes: white oversized shirt untucked with rolled sleeves under a lilac cropped cardigan, loosened violet necktie, pleated grape mini skirt, slouched white loose socks, layered beaded cross necklaces, platform loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/loose-tie-gyaru.webp",
           "gender": "female",
           "titleRu": "Расслабленный гяру-образ"
         },
@@ -2497,7 +2516,8 @@
           "number": 192,
           "title": "Frog Pocket Overalls",
           "body": "clothes: pale-green corduroy overalls with a rounded bib and oversized frog-shaped patch pockets over a pink long-sleeve tee with sleeves past the fingers, sideways washed cap, mint knee pads, striped cotton socks, multicolor chunky sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/frog-pocket-overalls.webp",
           "gender": "female",
           "titleRu": "Комбинезон с лягушачьими карманами"
         },
@@ -2506,7 +2526,8 @@
           "number": 193,
           "title": "Hall Locker Layer",
           "body": "clothes: charcoal pleated skirt worn low with a chain-linked belt, cropped grey hoodie over a black ribbed long-sleeve, plaid scarf looped twice, phone charm strap at the hip, ribbed slouch socks, scuffed platform loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/hall-locker-layer.webp",
           "gender": "female",
           "titleRu": "Школьная юбка с цепочкой на бёдрах"
         },
@@ -2515,7 +2536,8 @@
           "number": 194,
           "title": "Fish Market Zip Rig",
           "body": "clothes: cropped white technical jacket left unzipped over a black scoop bodysuit, black cargo shorts with a thigh strap, turquoise scale-print collar linked to the strap, teal shoulder wrap, orange-laced heeled boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/fish-market-zip-rig.webp",
           "gender": "female",
           "titleRu": "Расстёгнутая куртка с рынка"
         },
@@ -2633,7 +2655,8 @@
           "number": 68,
           "title": "Knee Chain Uniform Break",
           "body": "clothes: white button-up shirt left untucked and open below the waist, thin black tie pulled loose, baggy black trousers with strap detailing and a chain looped across one knee, single fingerless glove, wide belt, black platform boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/knee-chain-uniform-break.webp",
           "gender": "male",
           "titleRu": "Расстёгнутая школьная форма с галстуком"
         },
@@ -2642,7 +2665,8 @@
           "number": 69,
           "title": "Skeleton Print Open Layer",
           "body": "clothes: unbuttoned black jacket over a skeleton-print black shirt, loose black trousers with a hanging hip belt and zip pulls, layered silver chains, studded cuff, black chunky sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/skeleton-print-open-layer.webp",
           "gender": "male",
           "titleRu": "Скелетный принт нараспашку"
         },
@@ -2651,7 +2675,8 @@
           "number": 70,
           "title": "Earflap Harness Layer",
           "body": "clothes: black hooded jacket worn over a striped short-sleeve tee, flat black chest harness across the front, cropped grey trousers, earflap beanie with pom-pom ties, striped calf warmers, canvas high-tops",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/earflap-harness-layer.webp",
           "gender": "male",
           "titleRu": "Капюшон с наушниками поверх футболки"
         }
@@ -2979,7 +3004,8 @@
           "number": 226,
           "title": "Raspberry Pinafore Apron",
           "body": "clothes: dusty-pink floral-print blouse with wide folded sleeves, ruffled white pinafore apron tied in a broad bow, long pleated plum skirt, frilled bonnet with berry ornaments, lace half-gloves, strapped platform sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/raspberry-pinafore-apron.webp",
           "gender": "female",
           "titleRu": "Блуза с широкими рукавами и цветочным принтом"
         },
@@ -2988,7 +3014,8 @@
           "number": 227,
           "title": "Acorn Grove Knit",
           "body": "clothes: soft pistachio cable-knit jumper worn slightly oversized, high-rise russet split skirt with sheer mesh insets and a pale-green underveil, carved acorn pendant, ribbed cream tights, round-toe brown loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/acorn-grove-knit.webp",
           "gender": "female",
           "titleRu": "Оверсайз-джемпер цвета фисташки"
         },
@@ -2997,7 +3024,8 @@
           "number": 228,
           "title": "Peach Ribbon Turtleneck",
           "body": "clothes: apricot turtleneck with puffed layered sleeves and frilled cuffs printed with small fruit motifs, cream corduroy pinafore skirt, wide tangerine hair ribbon, ruffled ankle socks, buckled cream Mary Janes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/peach-ribbon-turtleneck.webp",
           "gender": "female",
           "titleRu": "Персиковая водолазка с оборками"
         },
@@ -3105,7 +3133,8 @@
           "number": 81,
           "title": "Chestnut Knit Waistcoat",
           "body": "clothes: brown knitted V-neck waistcoat over a white stand-collar shirt with softly puffed long sleeves, matching brown tailored trousers, tan leather belt, ribbed cream socks, brown buckled shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/chestnut-knit-waistcoat.webp",
           "gender": "male",
           "titleRu": "Вязаный жилет с V-образным вырезом"
         },
@@ -3114,7 +3143,8 @@
           "number": 82,
           "title": "Meadow Cardigan Layers",
           "body": "clothes: sage-green open cardigan over a fine white crew sweater, pale yellow pleated trousers, white cotton headband pushed back, thin gold collar chain, white canvas shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/meadow-cardigan-layers.webp",
           "gender": "male",
           "titleRu": "Кардиган поверх свитера с брюками в складку"
         },
@@ -3123,7 +3153,8 @@
           "number": 83,
           "title": "Chapel Garden Blazer",
           "body": "clothes: unstructured ivory linen blazer with patch pockets over a pale sage knit polo, oatmeal pleated trousers, woven leather belt, pressed-flower lapel pin, cream canvas sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/chapel-garden-blazer.webp",
           "gender": "male",
           "titleRu": "Льняной блейзер в церковном саду"
         },
@@ -3132,7 +3163,8 @@
           "number": 84,
           "title": "Wisteria Ribbon Prep",
           "body": "clothes: lilac fine-gauge sweater with a soft ribbed collar over a white shirt, wide violet ribbon tied at the throat in place of a tie, grey flannel trousers, pearl-backed cuff studs, lavender socks, grey suede loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/wisteria-ribbon-prep.webp",
           "gender": "male",
           "titleRu": "Свитер с лентой поверх рубашки"
         }
@@ -3330,7 +3362,8 @@
           "number": 247,
           "title": "Lacquered Column Dress",
           "body": "clothes: glossy oxblood lacquered-vinyl column dress with a bateau neck, seamed bodice and a knee-length hem, opaque black tights, sculptural silver collar, cropped shrug in matching lacquer, pointed patent pumps",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lacquered-column-dress.webp",
           "gender": "female",
           "titleRu": "Лакированное платье-колонна"
         },
@@ -3339,7 +3372,8 @@
           "number": 248,
           "title": "Domino Masquerade Gown",
           "body": "clothes: deep teal silk-faille gown with an off-shoulder band, boned bodice and a full floor-sweeping skirt, matching hand-held domino mask on a lacquered stick, elbow satin gloves, jet drop earrings, embroidered court heels",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/domino-masquerade-gown.webp",
           "gender": "female",
           "titleRu": "Платье с открытым плечом «Домино»"
         },
@@ -3348,7 +3382,8 @@
           "number": 249,
           "title": "Piano Key Cocktail",
           "body": "clothes: ivory silk blouse with flared elbow sleeves and a loosened black keyboard-print tie, two-tone wrap skirt panelled in black and cream, patent wide belt, jet stud earrings, block-heeled slingbacks",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/piano-key-cocktail.webp",
           "gender": "female",
           "titleRu": "Блуза с галстуком в клавиши пианино"
         },
@@ -3466,7 +3501,8 @@
           "number": 96,
           "title": "Ascot Midnight Cloak",
           "body": "clothes: floor-length black collared cloak fastened at the throat over a black tailcoat, white dress shirt with a deep blue ascot, black sash at the waist, tailored black trousers, white gloves, polished dress shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ascot-midnight-cloak.webp",
           "gender": "male",
           "titleRu": "Плащ-накидка с эскотом"
         },
@@ -3475,7 +3511,8 @@
           "number": 97,
           "title": "Masked Burgundy Dinner Suit",
           "body": "clothes: burgundy velvet dinner jacket with satin peak lapels, matching narrow trousers, black wing-collar shirt with a hand-tied bow, slim eye mask held on a lacquered stick, garnet studs, patent opera slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/masked-burgundy-dinner-suit.webp",
           "gender": "male",
           "titleRu": "Бордовый смокинг для маскарада"
         },
@@ -3484,7 +3521,8 @@
           "number": 98,
           "title": "Slate Plaid Evening Set",
           "body": "clothes: grey plaid dinner jacket with a shawl collar over a charcoal silk roll-neck, tapered black trousers with a satin side stripe, thin silver tie bar worn on the lapel, smoked-glass ring, black chelsea boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/slate-plaid-evening-set.webp",
           "gender": "male",
           "titleRu": "Клетчатый пиджак с шалевым воротником"
         }
@@ -3862,7 +3900,8 @@
           "number": 286,
           "title": "Lemon Grove Cardigan",
           "body": "clothes: cornflower-blue chunky cardigan patterned with embroidered lemons and trimmed pockets, ivory ribbed camisole, charcoal tailored shorts, white ribbed gaiters over the calf, sage lace-up boots, enamel fruit brooch",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lemon-grove-cardigan.webp",
           "gender": "female",
           "titleRu": "Кардиган с вышитыми лимонами"
         },
@@ -3871,7 +3910,8 @@
           "number": 287,
           "title": "Bear Hood Snow Cape",
           "body": "clothes: dusty-rose fleece hooded cape with rounded bear ears and cream fur trim over a fitted white long-sleeve dress with puffed shoulders, wide crimson waist ribbon, ivory ribbed leg warmers, quilted snow boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bear-hood-snow-cape.webp",
           "gender": "female",
           "titleRu": "Медвежий капюшон в снежной пелерине"
         },
@@ -3880,7 +3920,8 @@
           "number": 288,
           "title": "Star Collar Pullover",
           "body": "clothes: petrol-blue lambswool pullover with a scattered star jacquard worn over a white collared shirt with the hem left visible, chocolate straight-leg trousers, rolled cuffs, navy ribbed socks, dark blue ankle boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/star-collar-pullover.webp",
           "gender": "female",
           "titleRu": "Пуловер со звёздным жаккардом"
         },
@@ -3999,7 +4040,8 @@
           "number": 110,
           "title": "Deep Forest Shawl Knit",
           "body": "clothes: pine-green shawl-collar cardigan with a chunky cable front over a charcoal waffle henley, oatmeal wool trousers, leather-buttoned cuffs, thick ribbed boot socks, suede chukka boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/deep-forest-shawl-knit.webp",
           "gender": "male",
           "titleRu": "Кардиган-шаль цвета глубокого леса"
         },
@@ -4008,7 +4050,8 @@
           "number": 111,
           "title": "Fox Hood Trail Knit",
           "body": "clothes: burnt-orange hooded knit with pointed ears set into the crown and cream fur trim, fitted rust long-sleeve beneath, black denim shorts over thermal leggings, orange-and-white striped calf warmers, wide-soled orange sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/fox-hood-trail-knit.webp",
           "gender": "male",
           "titleRu": "Лисий капюшон с ушками"
         },
@@ -4017,7 +4060,8 @@
           "number": 112,
           "title": "Maple Scarf Wool Set",
           "body": "clothes: cream brushed turtleneck sweater with dropped shoulders, chocolate wool trousers with a soft pleat, very long russet scarf wound twice and left trailing, ribbed ivory calf warmers, black leather boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/maple-scarf-wool-set.webp",
           "gender": "male",
           "titleRu": "Кленовая водолазка с опущенными плечами"
         }
@@ -4165,7 +4209,8 @@
           "number": 302,
           "title": "Constellation Halter Suit",
           "body": "clothes: navy one-piece halter swimsuit printed with a fine silver constellation map, frilled bust panel and cross-laced back, matching hip sarong knotted at one side, tortoiseshell sunglasses, woven slides",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/constellation-halter-suit.webp",
           "gender": "female",
           "titleRu": "Купальник со звёздной картой"
         },
@@ -4174,7 +4219,8 @@
           "number": 303,
           "title": "Rockpool Sailor Suit",
           "body": "clothes: sky-blue one-piece with a white frilled sailor collar and small shell embroidery, pink neck ribbon, high-cut leg line, gauzy white cover-up shirt worn open, straw visor, jelly beach sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/rockpool-sailor-suit.webp",
           "gender": "female",
           "titleRu": "Матросский купальник у заводи"
         },
@@ -4183,7 +4229,8 @@
           "number": 304,
           "title": "Camo Shrug Bikini",
           "body": "clothes: black high-neck bikini with an O-ring bust seam, faded denim micro shorts left unbuttoned at the fly, cropped sage camouflage shrug jacket, goggles pushed up on the head, canvas belt, laced water shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/camo-shrug-bikini.webp",
           "gender": "female",
           "titleRu": "Камуфляжное бикини с кольцом"
         },
@@ -4192,7 +4239,8 @@
           "number": 305,
           "title": "Cocoa Ruffle Swim Dress",
           "body": "clothes: warm caramel swim dress with a sweetheart neckline, tiered ruffled skirt and a polka-dot bow at the waist, heart-shaped sunglasses, coral hip wrap, strawberry hair clip, flat espadrille sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cocoa-ruffle-swim-dress.webp",
           "gender": "female",
           "titleRu": "Купальное платье цвета какао"
         },
@@ -4311,7 +4359,8 @@
           "number": 124,
           "title": "Tide Chart Board Shorts",
           "body": "clothes: slate board shorts printed with a faint tide chart and a lace-through waist cord, white ribbed swim tank, zip rash shrug pushed to the elbows, cord-strung sun visor, rubber reef shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/tide-chart-board-shorts.webp",
           "gender": "male",
           "titleRu": "Бордшорты с картой приливов"
         },
@@ -4320,7 +4369,8 @@
           "number": 125,
           "title": "Dive Flag Rash Set",
           "body": "clothes: black high-neck rash guard cropped at the waist with red flag panels at the ribs, sage camouflage swim shorts with an open snap fly, mesh utility belt, goggles pushed up on the head, laced water shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dive-flag-rash-set.webp",
           "gender": "male",
           "titleRu": "Рашгард с флагом дайвера"
         }
@@ -4408,7 +4458,8 @@
           "number": 313,
           "title": "Blossom Petal Set",
           "body": "clothes: blush silk bralette shaped from overlapping petal panels with matching briefs, sheer ivory robe with a trailing hem, satin hair ribbon, soft pink mules",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/blossom-petal-set.webp",
           "gender": "female",
           "titleRu": "Комплект «Лепестки цветка»"
         },
@@ -4417,7 +4468,8 @@
           "number": 314,
           "title": "Pom Ribbon Nightdress",
           "body": "clothes: white cotton nightdress with ruffled straps, a gathered bodice and small pom-pom trim along the hem, mint quilted sleep mask pushed up on the brow, ribbon bow at the waist, slipper socks with fabric bows",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pom-ribbon-nightdress.webp",
           "gender": "female",
           "titleRu": "Ночная сорочка с оборками на бретелях"
         },
@@ -4426,7 +4478,8 @@
           "number": 315,
           "title": "Sleeve Cuff Lounge Set",
           "body": "clothes: oatmeal ribbed lounge top with sleeves falling past the wrists and a wide boat neck, matching soft shorts with a folded waistband, long knit socks bunched at the ankle, oversized cardigan slipping off one shoulder",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sleeve-cuff-lounge-set.webp",
           "gender": "female",
           "titleRu": "Домашний топ с длинными манжетами"
         },
@@ -4435,7 +4488,8 @@
           "number": 316,
           "title": "Bed Jacket Tea Rose",
           "body": "clothes: rose quilted satin bed jacket with bracelet sleeves over an ivory bias-cut slip with lace at the bust, matching tap shorts, pearl earrings, marabou-trimmed slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bed-jacket-tea-rose.webp",
           "gender": "female",
           "titleRu": "Ночная кофта «Чайная роза»"
         },
@@ -4444,7 +4498,8 @@
           "number": 317,
           "title": "Nordic Sleep Cabin",
           "body": "clothes: heather-grey brushed flannel pajama set with piped edges and a chest pocket, oversized fair-isle knit cardigan, thick cream bed socks, knitted headband, felted house slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/nordic-sleep-cabin.webp",
           "gender": "female",
           "titleRu": "Фланелевая пижама в клетку"
         },
@@ -4513,7 +4568,8 @@
           "number": 132,
           "title": "Sage Piped Sleep Set",
           "body": "clothes: sage cotton sleep shirt with contrast cream piping and a single chest pocket, matching loose sleep shorts with a folded waistband, soft knit robe left untied, ribbed ankle socks, leather-soled slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sage-piped-sleep-set.webp",
           "gender": "male",
           "titleRu": "Пижамная рубашка с кантом цвета шалфея"
         },
@@ -4522,7 +4578,8 @@
           "number": 133,
           "title": "Star Chart Pajamas",
           "body": "clothes: midnight-blue brushed cotton pajama set printed with fine star charts and piped in cream, patch chest pocket, knitted sleep cap, thick ribbed bed socks, felted house slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/star-chart-pajamas.webp",
           "gender": "male",
           "titleRu": "Пижама «Звёздная карта»"
         },
@@ -4531,7 +4588,8 @@
           "number": 134,
           "title": "Quilted Smoking Robe",
           "body": "clothes: bottle-green quilted satin smoking robe with a shawl collar and a corded tie belt, cream jersey undershirt, charcoal lounge trousers, monogrammed velvet slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/quilted-smoking-robe.webp",
           "gender": "male",
           "titleRu": "Стёганый смокинг-халат"
         },
@@ -4540,7 +4598,8 @@
           "number": 135,
           "title": "Waffle Cabin Lounge",
           "body": "clothes: oatmeal waffle-knit henley with the placket buttons open, matching relaxed drawstring lounge trousers, chunky shawl-collar cardigan, thick wool bed socks, felted slip-on slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/waffle-cabin-lounge.webp",
           "gender": "male",
           "titleRu": "Расстёгнутый вафельный лонгслив"
         },
@@ -4549,7 +4608,8 @@
           "number": 136,
           "title": "Ink Wave Sleep Shirt",
           "body": "clothes: long indigo cotton sleep shirt with a wave-print hem and dropped shoulders, plain white under-shorts, loose fabric belt tied at the side, wooden bead wrist cord, flat woven slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ink-wave-sleep-shirt.webp",
           "gender": "male",
           "titleRu": "Ночная рубашка с волнами"
         },
@@ -4558,7 +4618,8 @@
           "number": 137,
           "title": "Cedar Lounge Henley",
           "body": "clothes: warm cedar-brown ribbed henley with sleeves falling past the wrists, matching soft jersey trousers gathered at the ankle, open oversized knit throw worn around the shoulders, thick cream socks, suede house shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cedar-lounge-henley.webp",
           "gender": "male",
           "titleRu": "Кедровый лонгслив для дома"
         }
@@ -4666,7 +4727,8 @@
           "number": 327,
           "title": "Lace Corset Chapel Gown",
           "body": "clothes: ivory corset-bodice gown with cross-lacing at the back, long fitted lace sleeves and a full satin skirt, cathedral veil with scalloped lace edging, pearl choker, embroidered silk flats",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lace-corset-chapel-gown.webp",
           "gender": "female",
           "titleRu": "Корсетное платье со шнуровкой для часовни"
         },
@@ -4675,7 +4737,8 @@
           "number": 328,
           "title": "Sea Glass Ceremony",
           "body": "clothes: pale aqua chiffon gown with a draped one-shoulder bodice and a gently trailing hem, silver-beaded sash, translucent shoulder wrap, moonstone drop earrings, crystal-strap sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sea-glass-ceremony.webp",
           "gender": "female",
           "titleRu": "Платье «Морское стекло» для церемонии"
         },
@@ -4684,7 +4747,8 @@
           "number": 329,
           "title": "Winter Fur Trim Bride",
           "body": "clothes: white velvet floor-length gown with a high collar, long fitted sleeves and a fur-trimmed hooded cape fastened by a crystal clasp, snowflake hair comb, muff carried at the wrist, white leather knee boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/winter-fur-trim-bride.webp",
           "gender": "female",
           "titleRu": "Бархатное платье невесты с высоким воротником"
         },
@@ -4693,7 +4757,8 @@
           "number": 330,
           "title": "Botanical Vine Bride",
           "body": "clothes: ivory silk column gown with embroidered climbing vines and a detachable floral shoulder piece, lace-up back, trailing organza train, leaf-shaped hair vine, satin platform sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/botanical-vine-bride.webp",
           "gender": "female",
           "titleRu": "Платье невесты с вышитыми лозами"
         },
@@ -4702,7 +4767,8 @@
           "number": 331,
           "title": "Gold Thread Reception Set",
           "body": "clothes: cream fitted bodice with fine gold thread embroidery and open-cut shoulders, long pleated ivory skirt with a wide gold sash, beaded belt detail, layered gold necklaces, gilded flat sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/gold-thread-reception-set.webp",
           "gender": "female",
           "titleRu": "Топ для приёма с золотой нитью"
         },
@@ -4821,7 +4887,8 @@
           "number": 149,
           "title": "Vine Embroidered Groom",
           "body": "clothes: ivory silk three-piece suit with climbing vine embroidery along one lapel and across the waistcoat hem, detachable floral shoulder piece, leaf-shaped lapel pin, cream silk cravat, polished ivory boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/vine-embroidered-groom.webp",
           "gender": "male",
           "titleRu": "Костюм жениха с вышитыми лозами"
         },
@@ -4830,7 +4897,8 @@
           "number": 150,
           "title": "Aqua Linen Vow Suit",
           "body": "clothes: pale aqua linen suit with a soft unstructured shoulder and patch pockets, white grandad-collar shirt, silver-beaded sash knotted at the waist, moonstone tie pin, woven cream loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/aqua-linen-vow-suit.webp",
           "gender": "male",
           "titleRu": "Льняной костюм для церемонии у воды"
         }
@@ -5158,7 +5226,8 @@
           "number": 363,
           "title": "Pumpkin Beret Ribbed Set",
           "body": "clothes: tangerine ribbed tank with a small O-ring at the centre front, dark navy ribbed mini skirt, pumpkin-shaped orange beret with a green stem tail, white knitted arm warmers, ribbon wrapped along the calves, white sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/pumpkin-beret-ribbed-set.webp",
           "gender": "female",
           "titleRu": "Тыквенный топ в рубчик с мини-юбкой"
         },
@@ -5167,7 +5236,8 @@
           "number": 364,
           "title": "Dalmatian Crop Coat",
           "body": "clothes: cropped spotted faux-fur coat in cream and black over a plain white tee, black tailored shorts, matching padded headband, chain-handled shoulder bag, tall white boots with black soles",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dalmatian-crop-coat.webp",
           "gender": "female",
           "titleRu": "Далматиновое укороченное пальто"
         },
@@ -5176,7 +5246,8 @@
           "number": 365,
           "title": "Telephone Cord Playsuit",
           "body": "clothes: bubblegum-pink zip playsuit with contrast piping and a boxy collar, aqua mesh long-sleeve underneath, coiled cord necklace, butterfly hair clips, translucent hip pouch, chunky wedge sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/telephone-cord-playsuit.webp",
           "gender": "female",
           "titleRu": "Плейсьют «Телефонный провод»"
         },
@@ -5285,7 +5356,8 @@
           "number": 161,
           "title": "Citrus Stripe Skate Set",
           "body": "clothes: tangerine ribbed sleeveless top with a small ring at the centre front, dark navy nylon shorts with snap sides, white knitted arm warmers, green stem-tipped orange bucket hat, ribbon wrapped along the calves, white skate sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/citrus-stripe-skate-set.webp",
           "gender": "male",
           "titleRu": "Цитрусовый топ для скейтборда"
         },
@@ -5294,7 +5366,8 @@
           "number": 162,
           "title": "Checker Fleece Half Zip",
           "body": "clothes: cream-and-black checkerboard fleece half-zip with a chunky pull tab, plain white tee beneath, black cargo shorts, padded headband, chain-handled sling bag, tall white boots with black soles",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/checker-fleece-half-zip.webp",
           "gender": "male",
           "titleRu": "Клетчатый флисовый полузамок"
         },
@@ -5303,7 +5376,8 @@
           "number": 163,
           "title": "Arcade Token Tracksuit",
           "body": "clothes: violet velour tracksuit jacket with white racing stripes down the raglan sleeves and a zipped funnel neck, mustard ringer tee beneath, matching flared track trousers with popper seams, arcade token pendant on a ball chain, wristbands, grey suede runners",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/arcade-token-tracksuit.webp",
           "gender": "male",
           "titleRu": "Фиолетовый велюровый костюм с рагланами-гонками"
         },
@@ -5312,7 +5386,8 @@
           "number": 164,
           "title": "Bubble Visor Cargo Set",
           "body": "clothes: lime green cargo shorts with oversized bellows pockets over black leggings, silver foil-laminate tee with printed control panels, tinted bubble visor, spring-coil wrist cuffs, transparent lunch pouch, segmented plastic trainers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bubble-visor-cargo-set.webp",
           "gender": "male",
           "titleRu": "Карго-шорты с пузырьковыми карманами"
         }
@@ -5440,7 +5515,8 @@
           "number": 377,
           "title": "Web Lace Witch Coat",
           "body": "clothes: black high-neck dress with layered ruffled sleeves under an open web-lace duster coat, wide brimmed pointed hat, bandaged calf wraps, silver charm choker, buckled platform boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/web-lace-witch-coat.webp",
           "gender": "female",
           "titleRu": "Ведьмино пальто из паутинного кружева"
         },
@@ -5449,7 +5525,8 @@
           "number": 378,
           "title": "Bullet Belt Cardigan",
           "body": "clothes: fitted black high-collar tee under a slouched grey oversized cardigan worn off the hands, black micro shorts, two stacked studded belts at the hip, over-knee grey socks with fluffy black gaiters, thick-soled boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bullet-belt-cardigan.webp",
           "gender": "female",
           "titleRu": "Кардиган с патронташем"
         },
@@ -5458,7 +5535,8 @@
           "number": 379,
           "title": "Torn Fishnet Ripper",
           "body": "clothes: white sleeveless graphic-print tee cinched by a loose white belt, black pleated mini skirt, laddered black tights, fingerless leather gloves, small structured shoulder bag, platform sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/torn-fishnet-ripper.webp",
           "gender": "female",
           "titleRu": "Разорванная сетка-потрошитель"
         },
@@ -5467,7 +5545,8 @@
           "number": 380,
           "title": "Heart Chain Plaid Coat",
           "body": "clothes: oversized black plaid coat with rose lining over a black skull-print top, thin pink tie, layered waist chains, black skirt with heart-studded straps, opaque tights, tall leather boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/heart-chain-plaid-coat.webp",
           "gender": "female",
           "titleRu": "Клетчатое пальто с сердечной цепью"
         },
@@ -5476,7 +5555,8 @@
           "number": 381,
           "title": "Spiked Collar Mesh Layer",
           "body": "clothes: sheer black mesh long-sleeve over a structured strapless bodice, cross-laced black corset belt, tiered plaid midi skirt, spiked leather choker, chain-detail boots, plaid bow headband",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/spiked-collar-mesh-layer.webp",
           "gender": "female",
           "titleRu": "Сетчатый слой с шипованным воротником"
         },
@@ -5585,7 +5665,8 @@
           "number": 175,
           "title": "Bandolier Flannel Layer",
           "body": "clothes: faded red flannel shirt worn open over a black band tee, two stacked studded belts crossing at the hip, ripped black jeans, leather wrist cuff, chain wallet, worn engineer boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bandolier-flannel-layer.webp",
           "gender": "male",
           "titleRu": "Слой из фланели с патронташем"
         },
@@ -5594,7 +5675,8 @@
           "number": 176,
           "title": "Bandaged Cloak Ripper",
           "body": "clothes: torn charcoal hooded cloak over a cropped black sleeveless top, black shorts with frayed hems, mesh under-leggings, elbow-length fingerless gloves, cloth half-mask pulled to the chin, laced combat boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bandaged-cloak-ripper.webp",
           "gender": "male",
           "titleRu": "Забинтованный плащ-потрошитель"
         },
@@ -5603,7 +5685,8 @@
           "number": 177,
           "title": "Chain Yoke Denim Vest",
           "body": "clothes: cut-off raw denim vest covered in enamel pins over a long black thermal shirt, chain looped across the shoulder yoke, black tapered jeans, spiked leather choker, tall buckled boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/chain-yoke-denim-vest.webp",
           "gender": "male",
           "titleRu": "Джинсовый жилет с цепочным ярмом"
         },
@@ -5612,7 +5695,8 @@
           "number": 178,
           "title": "Amp Room Sleeveless",
           "body": "clothes: black sleeveless tee with a screen-printed graphic and a knotted hem, olive military trousers with suspenders hanging at the thigh, wide canvas belt, fingerless gloves, wrapped forearm tape, thick-soled black boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/amp-room-sleeveless.webp",
           "gender": "male",
           "titleRu": "Футболка с узлом на подоле"
         }
@@ -6020,7 +6104,8 @@
           "number": 421,
           "title": "Newsprint Cap Commute",
           "body": "clothes: brown wool newsboy cap with a small leaf pin, cream collared shirt under a russet cropped jacket, black wide-leg trousers, red printed scarf knotted at the throat, structured satchel, black loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/newsprint-cap-commute.webp",
           "gender": "female",
           "titleRu": "Газетная кепка для поездок"
         },
@@ -6139,7 +6224,8 @@
           "number": 190,
           "title": "Bistro Apron Shift",
           "body": "clothes: crisp white shirt with the sleeves folded back twice, long black bistro apron tied at the waist, slim black trousers, thin black tie, folded order pad in the apron pocket, polished service boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bistro-apron-shift.webp",
           "gender": "male",
           "titleRu": "Бистро-фартук на смену"
         },
@@ -6148,7 +6234,8 @@
           "number": 191,
           "title": "Suspender Long Coat",
           "body": "clothes: black knee-length open coat over a white collared shirt with a black tie, white suspenders worn over the shirt, wide white trousers, black leather belt, black lace-up boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/suspender-long-coat.webp",
           "gender": "male",
           "titleRu": "Длинное пальто с подтяжками"
         }
@@ -6446,7 +6533,8 @@
           "number": 450,
           "title": "Strawberry Vest Prep",
           "body": "clothes: white puff-sleeve blouse with a black slim tie, fitted rose vest with covered buttons, matching pink pencil mini skirt, sheer black tights, berry hair clip, pink platform heels",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/strawberry-vest-prep.webp",
           "gender": "female",
           "titleRu": "Клубничный жилет в стиле преппи"
         },
@@ -6455,7 +6543,8 @@
           "number": 451,
           "title": "Sugar Frost Blazer",
           "body": "clothes: fluffy white boucle blazer worn open over a textured layered pink dress with a bow at one hip, thin patent waist belt, pink shoulder bag, satin head ribbon, tall white boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sugar-frost-blazer.webp",
           "gender": "female",
           "titleRu": "Сахарно-морозный блейзер"
         },
@@ -6464,7 +6553,8 @@
           "number": 452,
           "title": "Bubblegum Locker Set",
           "body": "clothes: cropped pink zip hoodie over a white sports bra top, sky-blue micro shorts with a folded waistband, sheer arm shrug, heart-charm anklet, ribbed white socks, pink running sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bubblegum-locker-set.webp",
           "gender": "female",
           "titleRu": "Комплект для раздевалки цвета жвачки"
         },
@@ -6573,7 +6663,8 @@
           "number": 202,
           "title": "Varsity Rose Cardigan",
           "body": "clothes: rose knitted varsity cardigan with cream sleeve stripes and a chenille letter patch, white collared shirt underneath, cream pleated chinos, braided belt, white ribbed socks, pink-soled trainers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/varsity-rose-cardigan.webp",
           "gender": "male",
           "titleRu": "Университетский кардиган цвета розы"
         },
@@ -6582,7 +6673,8 @@
           "number": 203,
           "title": "Vanilla Fleece Varsity",
           "body": "clothes: cream fleece varsity jacket with soft pink leather sleeves and snap fastenings, pale grey knit polo, tailored grey trousers, patent belt, satin headband pushed back, tall white boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/vanilla-fleece-varsity.webp",
           "gender": "male",
           "titleRu": "Ванильная университетская куртка"
         },
@@ -6591,7 +6683,8 @@
           "number": 204,
           "title": "Court Side Warmup",
           "body": "clothes: sky-blue quarter-zip warmup top with a raised collar over a white ribbed tank, pink mesh basketball shorts with a folded waistband, terry wristbands, charm chain at the neck, ribbed white socks, pink running sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/court-side-warmup.webp",
           "gender": "male",
           "titleRu": "Разминка у корта"
         },
@@ -6600,7 +6693,8 @@
           "number": 205,
           "title": "Diamond Argyle Captain",
           "body": "clothes: cream argyle sweater vest with rose and grey diamonds over a pink oxford shirt, navy pleated chinos, braided leather belt, club-crest pin, white ribbed socks, saddle shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/diamond-argyle-captain.webp",
           "gender": "male",
           "titleRu": "Капитан в ромбовидном узоре"
         }
@@ -7008,7 +7102,8 @@
           "number": 492,
           "title": "Storm Court Sovereign",
           "body": "clothes: deep indigo court robe with gold embroidered lightning tracery, detached floating sleeves suspended at the shoulder, high-slit skirt over narrow trousers, wide brocade sash, jeweled circlet, lacquered court sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/storm-court-sovereign.webp",
           "gender": "female",
           "titleRu": "Повелительница грозового двора"
         },
@@ -7017,7 +7112,8 @@
           "number": 493,
           "title": "Vine Glass Dryad",
           "body": "clothes: translucent moss-green layered gown with leaf-shaped appliques and climbing vine embroidery, bare shoulders, twisted bark-textured belt, vine anklets, sheer trailing sleeves, woven grass slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/vine-glass-dryad.webp",
           "gender": "female",
           "titleRu": "Дриада в стеклянных лозах"
         },
@@ -7146,7 +7242,8 @@
           "number": 218,
           "title": "Black Robe Soul Warden",
           "body": "clothes: long black layered robe with wide folded sleeves over a fitted dark under-tunic, white sash wound at the waist, pleated hakama trousers, pale captain's overcoat hung from the shoulders, cord-bound scabbard, split-toe boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/black-robe-soul-warden.webp",
           "gender": "male",
           "titleRu": "Страж душ в чёрной мантии"
         },
@@ -7155,7 +7252,8 @@
           "number": 219,
           "title": "Sunlit Tunic Wanderer",
           "body": "clothes: short loose snow-white tunic with wide open sleeves belted by tooled brown leather, thin gold chain draped across the chest, gold cuffs at the wrists, woven arm bands, brown leather sandals laced to the calf",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sunlit-tunic-wanderer.webp",
           "gender": "male",
           "titleRu": "Странник в солнечной тунике"
         },
@@ -7164,7 +7262,8 @@
           "number": 220,
           "title": "Jade River Traveler",
           "body": "clothes: blue-green cross-front robe with a wide brown sash and folded cuffs, moss green loose trousers gathered at the ankle, rope-strung shoulder bag, jade ring at the belt, pale blue cloth shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/jade-river-traveler.webp",
           "gender": "male",
           "titleRu": "Путник нефритовой реки"
         }
@@ -7362,7 +7461,8 @@
           "number": 512,
           "title": "Diamond Frost Lolita",
           "body": "clothes: pastel-blue lolita dress with a closed lace collar, tiered frilled skirt and small crystal bows, long bell sleeves tied with ribbon, matching lace headdress, patterned white tights, buckled frilled shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/diamond-frost-lolita.webp",
           "gender": "female",
           "titleRu": "Лолита «Алмазный иней»"
         },
@@ -7371,7 +7471,8 @@
           "number": 513,
           "title": "Talisman Brocade Dress",
           "body": "clothes: rose mandarin-collar short dress with floral brocade panels and detachable ruffled sleeves, paper charm hair ornament, twin buns wrapped in cord, black fishnet tights, platform Mary Janes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/talisman-brocade-dress.webp",
           "gender": "female",
           "titleRu": "Платье с парчой-талисманом"
         },
@@ -7380,7 +7481,8 @@
           "number": 514,
           "title": "Mourning Bonnet Doll",
           "body": "clothes: charcoal high-neck dress with rows of pintucks, a ruffled bib and elbow puff sleeves, black frilled bonnet tied under the chin, lace wrist cuffs, cameo choker, grey patterned tights, buttoned boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/mourning-bonnet-doll.webp",
           "gender": "female",
           "titleRu": "Кукла в траурном чепце"
         },
@@ -7389,7 +7491,8 @@
           "number": 515,
           "title": "Jester Bell Lolita",
           "body": "clothes: black-and-cream diamond-panelled lolita bodice with a stiff ruffled collar and bell-tipped puff sleeves, layered knee-length skirt in matching harlequin panels, two-tone striped tights, pompom hair ties, curled platform shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/jester-bell-lolita.webp",
           "gender": "female",
           "titleRu": "Лолита «Шутовской колокольчик»"
         },
@@ -7498,7 +7601,8 @@
           "number": 231,
           "title": "Mourning Pintuck Frock",
           "body": "clothes: charcoal high-neck frock coat with rows of fine pintucks and a ruffled bib front, black elbow-puff undershirt, narrow striped trousers, cameo throat pin, buttoned spat boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/mourning-pintuck-frock.webp",
           "gender": "male",
           "titleRu": "Траурный сюртук со складками"
         },
@@ -7507,7 +7611,8 @@
           "number": 232,
           "title": "Horned Cleric Vestment",
           "body": "clothes: black form-fitting cassock buttoned to the throat with pale banded cuffs, a long flowing skirt split high at one side, sheer black panel beneath, silver rivet trim along the bodice, short veiled headpiece with small pointed horns, black gloves, pointed boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/horned-cleric-vestment.webp",
           "gender": "male",
           "titleRu": "Облачение рогатого клирика"
         },
@@ -7516,7 +7621,8 @@
           "number": 233,
           "title": "Plague Physician White",
           "body": "clothes: long white frock coat with paired buttons and a chain across the chest, white high-collar shirt, white belted trousers with hip straps, beaked white mask with visible seams, white fingerless gloves, tall white boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/plague-physician-white.webp",
           "gender": "male",
           "titleRu": "Белый чумной доктор"
         },
@@ -7525,7 +7631,8 @@
           "number": 234,
           "title": "Bandage Mask Trench",
           "body": "clothes: black leather trench coat with a broad collar over a dark skin-fitting body layer with thin red seams, layered bandage wraps at the forearms and throat, plain white half-mask, narrow black trousers, heavy urban boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bandage-mask-trench.webp",
           "gender": "male",
           "titleRu": "Плащ с бинтами и маской"
         }
@@ -7653,7 +7760,8 @@
           "number": 527,
           "title": "Crescent Veil Drape",
           "body": "clothes: sky-blue sleeveless crop bodice with a crescent print, long white pleated skirt with a side slit, floor-length gauze shawl draped from both arms, small feathered back wings, silver moon collar, wrapped sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/crescent-veil-drape.webp",
           "gender": "female",
           "titleRu": "Драпировка «Полумесяц под вуалью»"
         },
@@ -7662,7 +7770,8 @@
           "number": 528,
           "title": "Moon Jelly Drift",
           "body": "clothes: translucent lilac bell-shaped overdress with trailing ribbon filaments over a fitted pearl bodysuit, gradient sheer tights, iridescent throat disc, bubble-bead belt, clear low platform shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/moon-jelly-drift.webp",
           "gender": "female",
           "titleRu": "Дрейф медузы"
         },
@@ -7671,7 +7780,8 @@
           "number": 529,
           "title": "Halo Vine Seraph",
           "body": "clothes: ivory draped gown with a single bare shoulder and a gold-threaded hem, layered feathered shoulder mantle, gilded halo hairpiece set with a pale gem, vine-wrapped upper-arm cuffs, gold ribbon sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/halo-vine-seraph.webp",
           "gender": "female",
           "titleRu": "Серафим с лозой и нимбом"
         },
@@ -7680,7 +7790,8 @@
           "number": 530,
           "title": "Lantern Poppy Sprite",
           "body": "clothes: scarlet petal-shaped bolero over a black stem-textured cincher, loose green gauze trousers gathered into petal cuffs, glowing seed-pod pendant, pollen-dusted veil, lacquered red flats",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/lantern-poppy-sprite.webp",
           "gender": "female",
           "titleRu": "Дух мака-фонарика"
         },
@@ -7779,7 +7890,8 @@
           "number": 244,
           "title": "Wayfarer Vision Kimono",
           "body": "clothes: pale celestial-blue short kimono jacket with floating detached sleeves and fine silver embroidery, fitted grey under-layer, dark tapered trousers, short star-patterned cape at one shoulder, glowing pendant stone, knee-high traveler boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/wayfarer-vision-kimono.webp",
           "gender": "male",
           "titleRu": "Кимоно небесного странника"
         },
@@ -7788,7 +7900,8 @@
           "number": 245,
           "title": "Dawn Feather Envoy",
           "body": "clothes: ivory draped one-shoulder tunic with a gold-threaded hem, layered white feathered shoulder mantle, gilded browband set with a pale gem, narrow cream trousers, gold cord wound at the forearms, gold-laced sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dawn-feather-envoy.webp",
           "gender": "male",
           "titleRu": "Посланник рассветного пера"
         },
@@ -7797,7 +7910,8 @@
           "number": 246,
           "title": "Aurora Glass Diviner",
           "body": "clothes: translucent gradient cowl spiralling over a fitted silver sleeveless top, asymmetric pale trousers with crystalline pleats along one leg, prism shoulder plate, frost-glass gloves, icicle waist chain, clear wedge boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/aurora-glass-diviner.webp",
           "gender": "male",
           "titleRu": "Прорицатель стеклянного сияния"
         },
@@ -7806,7 +7920,8 @@
           "number": 247,
           "title": "Reed Pond Spirit",
           "body": "clothes: sheer moss-green layered wrap top with reed-print panels and open sides, fitted bronze body layer beneath, wide gauze trousers gathered at the ankle, woven reed circlet, dragonfly shoulder pin, bare woven grass slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/reed-pond-spirit.webp",
           "gender": "male",
           "titleRu": "Дух тростникового пруда"
         }
@@ -8094,7 +8209,8 @@
           "number": 558,
           "title": "Powder Rink Skater",
           "body": "clothes: pale-pink figure-skating dress with a crystal-scattered bodice, sheer long sleeves and a short flared skirt, blush tights, matching wrist warmers, ribbon-tied braid clasp, white lace-up skates",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/powder-rink-skater.webp",
           "gender": "female",
           "titleRu": "Пудровая фигуристка"
         },
@@ -8103,7 +8219,8 @@
           "number": 559,
           "title": "Court Pleat Tennis Set",
           "body": "clothes: white ribbed sleeveless polo with contrast tipping, pleated white tennis skirt with a hidden ball pocket, cropped sky-blue zip warm-up, visored white cap, sweat wristbands, low ankle socks, court sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/court-pleat-tennis-set.webp",
           "gender": "female",
           "titleRu": "Теннисный комплект со складками"
         },
@@ -8112,7 +8229,8 @@
           "number": 560,
           "title": "Rollerway Diner Set",
           "body": "clothes: mint short-sleeve collared dress with a frilled white apron pocket and a fish-shaped hair clip, ribbed knee socks with contrast stripes, padded knee guards, order pad pouch at the hip, white lace-up inline skates",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/rollerway-diner-set.webp",
           "gender": "female",
           "titleRu": "Платье официантки с роллердрома"
         },
@@ -8231,7 +8349,8 @@
           "number": 259,
           "title": "Boardwalk Skate Kit",
           "body": "clothes: mint short-sleeve collared shirt with a contrast placket, white ribbed shorts, striped knee socks, padded knee and elbow guards, cross-body tool pouch, white lace-up inline skates",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/boardwalk-skate-kit.webp",
           "gender": "male",
           "titleRu": "Скейт-комплект на набережной"
         },
@@ -8240,7 +8359,8 @@
           "number": 260,
           "title": "Ridge Rigger Harness Set",
           "body": "clothes: fitted brown jacket with reinforced shoulders over a fern-green hooded cloak clipped at the throat, white strap harness crossing the chest and thighs, slim charcoal trousers, leather forearm guards, canvas gear pouches at the hip, bladed-sole climbing boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ridge-rigger-harness-set.webp",
           "gender": "male",
           "titleRu": "Коричневая куртка с капюшоном-накидкой"
         }

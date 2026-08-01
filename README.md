@@ -18,7 +18,7 @@
 [![Outfits](https://img.shields.io/badge/outfits-820-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Hair](https://img.shields.io/badge/hairstyles-275-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Wardrobe](https://img.shields.io/badge/wardrobe-3%2C092_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Images](https://img.shields.io/badge/renders-1%2C194%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Images](https://img.shields.io/badge/renders-1%2C314%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
@@ -66,7 +66,7 @@ All 250 prompts in one grid - filter by category and tag, open any entry for the
 275 hairstyles with reference renders. Filter by vibe (24) and texture (5), search by name, or hit Random.
 
 ### ◈ Outfits
-820 outfits across 19 sections - everyday, coastal, y2k, fantasy, gothic lolita, sporty and more - 695 with a render. Switch between 560 female and 260 male looks.
+820 outfits across 19 sections - everyday, coastal, y2k, fantasy, gothic lolita, sporty and more - 815 with a render. Switch between 560 female and 260 male looks.
 
 ### ◈ Wardrobe
 Build an outfit piece by piece from 3,092 items: top + bottom (or a dress), outerwear, shoes, accessories. Filter by style and colour, or let "Surprise me" fill the gaps.
