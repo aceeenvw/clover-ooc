@@ -1642,7 +1642,8 @@
           "number": 29,
           "title": "Cobalt Monolith",
           "body": "clothes: cobalt wool-gabardine double-breasted overcoat over a black silk mock-neck and narrow black trousers, silver collar pin, geometric wrist cuff, structured leather portfolio, polished boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cobalt-monolith.webp",
           "gender": "male",
           "titleRu": "Кобальтовый монолит"
         },
@@ -1651,7 +1652,8 @@
           "number": 30,
           "title": "Scarlet Boiler Flash",
           "body": "clothes: scarlet cotton-twill boiler suit with a half-zip front and set-in sleeves, white ribbed tee beneath, black webbing belt, steel diver watch, embroidered patch cap, canvas tool roll, tan work boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/scarlet-boiler-flash.webp",
           "gender": "male",
           "titleRu": "Алый комбинезон-вспышка"
         },
@@ -1690,7 +1692,8 @@
           "number": 34,
           "title": "Prism Accordion Suit",
           "body": "clothes: rainbow-gradient accordion-pleated longline vest in matte technical faille, white sleeveless shirt beneath, straight canary trousers with a pressed crease, mirrored collar bars, slim document case, white leather derbies",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/prism-accordion-suit.webp",
           "gender": "male",
           "titleRu": "Радужный жилет-гармошка"
         },
@@ -1709,7 +1712,8 @@
           "number": 36,
           "title": "Kinetic Fringe Jacket",
           "body": "clothes: vermilion suede jacket hung with long tonal fringe across the back and sleeves, black ribbed crewneck beneath, slim plum leather trousers, oxidized silver cuff, rigid cylinder shoulder bag, crimson leather boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/kinetic-fringe-jacket.webp",
           "gender": "male",
           "titleRu": "Кинетическая бахромчатая куртка"
         },
@@ -1718,7 +1722,8 @@
           "number": 37,
           "title": "Checkerboard Opera Coat",
           "body": "clothes: floor-length lime-and-black checkerboard faille opera coat with a standing collar, black fine-gauge roll-neck, tailored black trousers, oversized cube lapel pin, slim black briefcase, polished creepers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/checkerboard-opera-coat.webp",
           "gender": "male",
           "titleRu": "Шахматное оперное пальто"
         },
@@ -1727,7 +1732,8 @@
           "number": 38,
           "title": "Inflatable Club Armor",
           "body": "clothes: electric-blue quilted air-channel gilet with rounded padded ribs, black technical long-sleeve beneath, tapered white ripstop trousers, translucent utility belt, mirrored wraparound shades, molded rubber sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/inflatable-club-armor.webp",
           "gender": "male",
           "titleRu": "Надувная клубная броня"
         },
@@ -1766,7 +1772,8 @@
           "number": 42,
           "title": "Ringmaster Scarlet Coat",
           "body": "clothes: scarlet wool tailcoat with gold frogging and squared shoulders over a white wing-collar shirt, black silk cravat with a gold pin, high-waisted black breeches, brass-buttoned belt, black leather gloves, tall polished riding boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ringmaster-scarlet-coat.webp",
           "gender": "male",
           "titleRu": "Алый плащ шпрехшталмейстера"
         }
@@ -2234,7 +2241,8 @@
           "number": 43,
           "title": "Oxblood Suede Officer",
           "body": "clothes: oxblood suede officer jacket with braided black trim over a charcoal merino turtleneck, black cavalry trousers, antique-brass watch, leather gloves, structured satchel, tall riding boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/oxblood-suede-officer.webp",
           "gender": "male",
           "titleRu": "Замшевый офицерский жакет цвета бычьей крови"
         },
@@ -2303,7 +2311,8 @@
           "number": 50,
           "title": "Peacock Mohair Salon",
           "body": "clothes: teal mohair single-breasted jacket with a soft shoulder over a bronze satin shirt open at the throat, narrow black trousers, peacock-eye embroidered collar tips, bronze signet ring, velvet document pouch, burnished leather loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/peacock-mohair-salon.webp",
           "gender": "male",
           "titleRu": "Павлиний мохеровый жилет-фрак"
         },
@@ -2312,7 +2321,8 @@
           "number": 51,
           "title": "Cinnabar Lacquer Suit",
           "body": "clothes: cinnabar lacquered-linen mandarin jacket with frog closures and a straight hem, black cotton shirt beneath, matching wide-leg cinnabar trousers, carved jade collar disk, folding fan case, glossy leather slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cinnabar-lacquer-suit.webp",
           "gender": "male",
           "titleRu": "Киноварный лаковый жакет"
         },
@@ -2361,7 +2371,8 @@
           "number": 56,
           "title": "Ivory Fur Sovereign Coat",
           "body": "clothes: long ivory shearling coat worn open over a cream ribbed roll-neck, loose oatmeal wool trousers with a single pleat, hammered gold signet, tortoiseshell sunglasses, brown leather holdall, white leather boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ivory-fur-sovereign-coat.webp",
           "gender": "male",
           "titleRu": "Царственная меховая шуба нараспашку"
         }
@@ -2539,7 +2550,8 @@
           "number": 57,
           "title": "Mecha Transit",
           "body": "clothes: silver mecha-panel nylon jacket over a black mesh long-sleeve top, baggy graphite technical jeans with articulated knees, chrome wraparound sunglasses, carabiner chain, modular sling bag, platform trainers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/mecha-transit.webp",
           "gender": "male",
           "titleRu": "Механический транзит"
         },
@@ -2618,7 +2630,8 @@
           "number": 65,
           "title": "Graffiti Kendo Mix",
           "body": "clothes: spray-painted padded kendo jacket belted at the waist over a white compression tee, wide raw-denim jeans with dropped patch pockets, brush-holder belt, taped forearms, roll-top art tube, rubber-toe tabi sneakers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/graffiti-kendo-mix.webp",
           "gender": "male",
           "titleRu": "Кендо-куртка с граффити"
         },
@@ -2637,7 +2650,8 @@
           "number": 67,
           "title": "Techno Fisher Vest",
           "body": "clothes: translucent smoke-grey multi-pocket fishing vest over a sleeveless red hooded jersey, black technical cargo trousers with strapped thighs, coiled cable necklace, flat-brim mesh cap, hard-shell waist pod, mesh aqua trainers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/techno-fisher-vest.webp",
           "gender": "male",
           "titleRu": "Техно-рыбацкий жилет"
         },
@@ -2666,7 +2680,8 @@
           "number": 70,
           "title": "Earflap Harness Layer",
           "body": "clothes: black hooded jacket over a striped short-sleeve tee, flat webbing chest harness, cropped grey ripstop trousers, earflap beanie, enamel pin cluster at the chest, ribbed boot socks, canvas high-tops",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/earflap-harness-layer.webp",
           "gender": "male",
           "titleRu": "Капюшон с наушниками поверх футболки"
         }
@@ -3028,7 +3043,8 @@
           "number": 71,
           "title": "Ribbon-Collar Dandy",
           "body": "clothes: powder-blue men's dress shirt with a narrow ruffled bib, stiff spread collar and navy velvet ribbon tie, high-waisted cream double-pleat trousers with side adjusters, silver cameo tie pin, enamel cufflinks, navy velvet loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ribbon-collar-dandy.webp",
           "gender": "male",
           "titleRu": "Мужская рубашка с оборкой на груди"
         },
@@ -3037,7 +3053,8 @@
           "number": 72,
           "title": "Clover Cardigan Prep",
           "body": "clothes: sage fine-knit cardigan with cream tipping over a white rounded-collar polo, tailored dove-grey trousers with turned cuffs, striped ribbon watchband, argyle socks, green suede loafers, structured book bag",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/clover-cardigan-prep.webp",
           "gender": "male",
           "titleRu": "Кардиган-преппи цвета шалфея"
         },
@@ -3385,7 +3402,8 @@
           "number": 85,
           "title": "Midnight Harness Tuxedo",
           "body": "clothes: black wool tuxedo with satin peak lapels over a sheer charcoal silk shirt, slim trousers with satin side stripes, leather chest harness, silver ear cuff, patent clutch, polished dress shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/midnight-harness-tuxedo.webp",
           "gender": "male",
           "titleRu": "Смокинг с прозрачной рубашкой"
         },
@@ -3414,7 +3432,8 @@
           "number": 88,
           "title": "Emerald Sequin Tunic",
           "body": "clothes: emerald micro-sequin short-sleeve shirt with a rigid open collar, narrow black satin trousers, crystal lapel pin, slim silver watch, onyx ring, black pointed loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/emerald-sequin-tunic.webp",
           "gender": "male",
           "titleRu": "Изумрудная туника с пайетками"
         },
@@ -3443,7 +3462,8 @@
           "number": 91,
           "title": "Sapphire Draped Jumpsuit",
           "body": "clothes: sapphire crepe shirt-jacket with a sharp notch collar over a black silk tee, matching sapphire trousers with a knife pleat, silver collar chain, thin steel bracelet, mirrored card case, black patent loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sapphire-draped-jumpsuit.webp",
           "gender": "male",
           "titleRu": "Сапфировый комбинезон с шарфом на плече"
         },
@@ -3452,7 +3472,8 @@
           "number": 92,
           "title": "Absinthe Dinner Cape",
           "body": "clothes: acid-green satin evening cape falling to the hip over a black high-neck knit, narrow charcoal trousers, antique beetle brooch at the throat, black leather gloves, silver-topped cane, dark green velvet loafers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/absinthe-dinner-cape.webp",
           "gender": "male",
           "titleRu": "Абсентовая накидка поверх корсетного жилета"
         },
@@ -3471,7 +3492,8 @@
           "number": 94,
           "title": "Rouge Faille Blazer",
           "body": "clothes: fitted rouge faille dinner jacket with a squared shoulder and covered buttons over a black fine-gauge roll-neck, straight black trousers, jet-bead lapel chain, garnet cufflinks, lacquered card case, black Chelsea boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/rouge-faille-blazer.webp",
           "gender": "male",
           "titleRu": "Румяный фалевый блейзер"
         },
@@ -3490,7 +3512,8 @@
           "number": 96,
           "title": "Ascot Midnight Cloak",
           "body": "clothes: floor-length midnight cloak with a standing collar fastened at the throat over a black satin shirt with a deep blue ascot, tailored black trousers, black waist sash, silver shirt studs, black silk top hat, polished dress boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ascot-midnight-cloak.webp",
           "gender": "male",
           "titleRu": "Плащ-накидка с эскотом"
         },
@@ -4018,7 +4041,8 @@
           "number": 109,
           "title": "Quilted Tea-House Knit",
           "body": "clothes: indigo quilted cotton haori jacket with sashiko stitching crossing over a high-neck oatmeal jersey, loose brushed-wool trousers, sash belt with a wooden toggle, knitted flask carrier, split-toe socks, suede house shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/quilted-tea-house-knit.webp",
           "gender": "male",
           "titleRu": "Стёганое кимоно-кардиган для чайной церемонии"
         },
@@ -4037,7 +4061,8 @@
           "number": 111,
           "title": "Fox Hood Trail Knit",
           "body": "clothes: burnt-orange hooded wool anorak with cream shearling trim at the hood, rust waffle long-sleeve beneath, charcoal insulated trousers, wool trail gloves, ribbed boot socks, wide-soled orange trail shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/fox-hood-trail-knit.webp",
           "gender": "male",
           "titleRu": "Лисий капюшон с ушками"
         },
@@ -4288,7 +4313,8 @@
           "number": 118,
           "title": "Deco Bathing Strongman",
           "body": "clothes: black-and-gold striped sleeveless swim tank with a scooped neck over matching high-cut swim trunks, canvas weightlifting belt, round swim goggles, terry wristbands, waxed handlebar comb, rubber bathing shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/deco-bathing-strongman.webp",
           "gender": "male",
           "titleRu": "Полосатый купальник силача в стиле ар-деко"
         },
@@ -4297,7 +4323,8 @@
           "number": 119,
           "title": "Fisherman Rash Set",
           "body": "clothes: close-fitting teal sleeveless rash top, knee-length navy board shorts with a lace-through cord, knotted cord shell harness, mesh hood scarf, woven rope bracelet, cylindrical tackle bag, molded water shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/fisherman-rash-set.webp",
           "gender": "male",
           "titleRu": "Рашгард рыбака"
         },
@@ -4326,7 +4353,8 @@
           "number": 122,
           "title": "Desert Springs Drapery",
           "body": "clothes: bronze swim trunks with a wrapped hip panel beneath a sheer sand hooded caftan open to the chest, hammered arm cuff, leather water-flask harness, tinted glasses, woven straw sun hat, woven pool mules",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/desert-springs-drapery.webp",
           "gender": "male",
           "titleRu": "Драпированные плавки под кафтаном"
         },
@@ -4335,7 +4363,8 @@
           "number": 123,
           "title": "Racing Fin Suit",
           "body": "clothes: cobalt sleeveless swim skin with silver side fins and a zippered high neck, matching mid-thigh jammers, streamlined goggles, silicone racing cap, waterproof gloves, molded equipment pod, aqua trainers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/racing-fin-suit.webp",
           "gender": "male",
           "titleRu": "Гоночный купальный костюм с плавниками"
         },
@@ -4517,7 +4546,8 @@
           "number": 128,
           "title": "Black Mesh Harness Brief",
           "body": "clothes: black power-mesh boxer briefs with velvet binding, fitted mesh tank, black silk robe draped from the shoulders, silver cuff, signet ring, thin leather neck cord, leather-soled slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/black-mesh-harness-brief.webp",
           "gender": "male",
           "titleRu": "Чёрные сетчатые брифы с бархатной отделкой"
         },
@@ -4536,7 +4566,8 @@
           "number": 130,
           "title": "Art Deco Lounge Jacket",
           "body": "clothes: cropped black silk lounge jacket with gold quilted sunburst panels over a close-cut jersey singlet, high-waisted satin lounge shorts, onyx pendant, gold-cased pocket watch, leather-soled boudoir mules",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/art-deco-lounge-jacket.webp",
           "gender": "male",
           "titleRu": "Домашний жакет в стиле ар-деко"
         },
@@ -4545,7 +4576,8 @@
           "number": 131,
           "title": "Sheer Union Suit",
           "body": "clothes: smoke-grey ribbed union suit with a deep buttoned placket and long fitted legs, contrast charcoal panels at the chest and hips, silver waist chain, soft knit eye mask, wool bed socks, velvet house slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sheer-union-suit.webp",
           "gender": "male",
           "titleRu": "Прозрачный комбинезон-юнион"
         },
@@ -4866,7 +4898,8 @@
           "number": 148,
           "title": "Winter Mantle Groom",
           "body": "clothes: silver-white ceremonial tunic with a high collar and concealed placket beneath a knee-length quilted mantle fastened at one shoulder, narrow wool trousers, crystal snowflake clasp, grey leather gloves, white leather boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/winter-mantle-groom.webp",
           "gender": "male",
           "titleRu": "Туника жениха под зимней мантией"
         },
@@ -5264,7 +5297,8 @@
           "number": 153,
           "title": "Hologram Denim Raver",
           "body": "clothes: iridescent holographic zip hoodie worn open over a plain white ribbed tank, electric-blue flared denim with reflective side lacing, oval tinted shades, beaded neck cord, foil crossbody pouch, chunky white runners",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/hologram-denim-raver.webp",
           "gender": "male",
           "titleRu": "Голограммное худи джинсового рейвера"
         },
@@ -5293,7 +5327,8 @@
           "number": 156,
           "title": "Gumball Space Cadet",
           "body": "clothes: glossy bubblegum-pink cropped flight jacket with molded elbow pads and mission patches over a turquoise mock-neck, white kick-flare vinyl trousers, bead dog tags, tinted headset, capsule backpack, color-block moon boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/gumball-space-cadet.webp",
           "gender": "male",
           "titleRu": "Космическая куртка цвета жвачки"
         },
@@ -5322,7 +5357,8 @@
           "number": 159,
           "title": "Toy Robot Raver",
           "body": "clothes: boxy silver foil-laminate bomber with printed control panels over a violet ringer tee, lime nylon track trousers with popper seams, spring-coil wrist cuffs, pixel visor, antenna beanie, segmented plastic trainers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/toy-robot-raver.webp",
           "gender": "male",
           "titleRu": "Игрушечный робот-рейвер"
         },
@@ -5371,7 +5407,8 @@
           "number": 164,
           "title": "Bubble Visor Cargo Set",
           "body": "clothes: lime green cargo shorts with oversized bellows pockets, black cotton long-sleeve beneath a cropped grey utility gilet, tinted bubble visor, carabiner keychain, nylon shoulder pouch, chunky white trainers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bubble-visor-cargo-set.webp",
           "gender": "male",
           "titleRu": "Карго-шорты с пузырьковыми карманами"
         }
@@ -5601,7 +5638,8 @@
           "number": 170,
           "title": "Glam Serpent Frontman",
           "body": "clothes: emerald snakeskin-print lamé shirt unbuttoned to the sternum with flared cuffs, black leather trousers, studded hip belt with long metal fringe, stacked silver necklaces, serpent signet rings, towering platform boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/glam-serpent-frontman.webp",
           "gender": "male",
           "titleRu": "Гламурный змеиный фронтмен"
         },
@@ -5630,7 +5668,8 @@
           "number": 173,
           "title": "Doom-Metal Pilgrim",
           "body": "clothes: floor-length charcoal sleeveless coat in distressed canvas over a chain-knit long-sleeve shirt, black heavy trousers, broad leather kidney belt, iron censer pendant, studded bracers, amplifier-shaped satchel, steel-toe boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/doom-metal-pilgrim.webp",
           "gender": "male",
           "titleRu": "Дум-метал пилигрим"
         },
@@ -5659,7 +5698,8 @@
           "number": 176,
           "title": "Bandaged Cloak Ripper",
           "body": "clothes: torn charcoal hooded cloak over a black sleeveless tee, black cargo trousers with frayed hems, elbow-length fingerless gloves, cloth half-mask pulled to the chin, wrapped chain at the waist, laced combat boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bandaged-cloak-ripper.webp",
           "gender": "male",
           "titleRu": "Забинтованный плащ-потрошитель"
         },
@@ -7121,7 +7161,8 @@
           "number": 207,
           "title": "Emerald Elven Prince",
           "body": "clothes: emerald velvet high-collar tunic with leaf-shaped brocade panels over silver-grey fitted trousers, short chiffon shoulder cape, moonstone circlet, engraved belt, silver vambraces, pale riding boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/emerald-elven-prince.webp",
           "gender": "male",
           "titleRu": "Изумрудный эльфийский принц"
         },
@@ -7130,7 +7171,8 @@
           "number": 208,
           "title": "Desert Spellblade",
           "body": "clothes: sand linen wrap tunic beneath a bronze scale-leather cuirass, loose rust trousers wrapped at the calf, turquoise sash, etched bracers, indigo head wrap, amulet pouch, strapped desert boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/desert-spellblade.webp",
           "gender": "male",
           "titleRu": "Пустынный клинок-заклинатель"
         },
@@ -7139,7 +7181,8 @@
           "number": 209,
           "title": "Winter Wolf Regent",
           "body": "clothes: ice-blue brocade greatcoat with a heavy white fur collar over a riveted mail hauberk, charcoal breeches strapped at the knee, wolf-head clasp, fur-lined gauntlets, studded war belt, tall shearling boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/winter-wolf-regent.webp",
           "gender": "male",
           "titleRu": "Регент зимних волков"
         },
@@ -7158,7 +7201,8 @@
           "number": 211,
           "title": "Orchid Cloud Knight",
           "body": "clothes: pale-lilac sculpted leather breastplate with orchid etching over a white quilted arming coat, slim grey trousers, short chiffon shoulder mantle, opal clasp, silver gauntlets, engraved sword belt, pale leather boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/orchid-cloud-knight.webp",
           "gender": "male",
           "titleRu": "Рыцарь орхидейного облака"
         },
@@ -7167,7 +7211,8 @@
           "number": 212,
           "title": "Peacock Sky Vizier",
           "body": "clothes: aqua brocade court coat with a high winged collar over a pale-gold tunic, straight aqua trousers tucked into curled boots, peacock-plume epaulettes, jeweled armlets, embroidered sash, turquoise-set turban pin",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/peacock-sky-vizier.webp",
           "gender": "male",
           "titleRu": "Визирь павлиньего неба"
         },
@@ -7176,7 +7221,8 @@
           "number": 213,
           "title": "Coral Reef Paladin",
           "body": "clothes: sculpted coral-pink shell cuirass with branching pauldrons over a sea-green scale-knit underlayer, fitted teal trousers, pearl gorget, coral-crested helm, conch shield harness, webbed gauntlets, barnacle-textured greaves",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/coral-reef-paladin.webp",
           "gender": "male",
           "titleRu": "Паладин кораллового рифа"
         },
@@ -7185,7 +7231,8 @@
           "number": 214,
           "title": "Glass Orchard Alchemist",
           "body": "clothes: smoke-grey sleeveless leather doublet fitted with vial loops over a moss high-neck shirt, plum wool breeches, glass fruit charms, brass eye-loupe on a chain, specimen satchel, crystal finger guards, green buckle boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/glass-orchard-alchemist.webp",
           "gender": "male",
           "titleRu": "Алхимик стеклянного сада"
         },
@@ -7194,7 +7241,8 @@
           "number": 215,
           "title": "Sunken Moon Ronin",
           "body": "clothes: indigo lamellar cuirass of overlapping crescent plates over a silver wrap tunic, broad hakama trousers, braided moon cord, pearl half-mask, lacquered wide-brim jingasa, scroll case, armored split-toe boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/sunken-moon-ronin.webp",
           "gender": "male",
           "titleRu": "Ронин затонувшей луны"
         },
@@ -7203,7 +7251,8 @@
           "number": 216,
           "title": "Ember Stag Warden",
           "body": "clothes: rust boiled-leather chest harness beneath a sweeping blackened-wool antler mantle, fitted ochre jerkin, heavy riding trousers, carved stag torque, ember-glass bracers, fur map pouch, armored boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/ember-stag-warden.webp",
           "gender": "male",
           "titleRu": "Страж-олень с угольями"
         },
@@ -7212,7 +7261,8 @@
           "number": 217,
           "title": "Cloud Harp Oracle",
           "body": "clothes: white pleated tunic with a structured gold chest band and wide open sleeves, sky-grey draped trousers, harp-string collar chain, cloudstone circlet, gold arm torque, gold-laced sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/cloud-harp-oracle.webp",
           "gender": "male",
           "titleRu": "Оракул небесной арфы"
         },
@@ -7504,7 +7554,8 @@
           "number": 223,
           "title": "Moonlit Funeral Sailor",
           "body": "clothes: pearl-grey caped greatcoat with black ribbon lattice at the shoulders over a black double-breasted tunic, wide black trousers, crescent collar chain, leather gloves, peaked officer cap, platform boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/moonlit-funeral-sailor.webp",
           "gender": "male",
           "titleRu": "Лунный траурный матрос"
         },
@@ -7523,7 +7574,8 @@
           "number": 225,
           "title": "Violet Witch Baron",
           "body": "clothes: dark-violet velvet capelet buckled at one shoulder above a black high-neck tunic with deep turned cuffs, slim charcoal trousers, silver star embroidery, wide-brim witch hat, onyx rings, pointed platform boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/violet-witch-baron.webp",
           "gender": "male",
           "titleRu": "Фиолетовый ведьмин барон"
         },
@@ -7552,7 +7604,8 @@
           "number": 228,
           "title": "Porcelain Crypt Revenant",
           "body": "clothes: cracked-porcelain-print satin frock coat with a rigid standing collar, black waistcoat and knee breeches beneath, jointed leather elbow cuffs, tiny key at the throat, cracked-glaze half mask, round trunk case, buckled platform boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/porcelain-crypt-revenant.webp",
           "gender": "male",
           "titleRu": "Фарфоровый призрак склепа"
         },
@@ -7591,7 +7644,8 @@
           "number": 232,
           "title": "Horned Cleric Vestment",
           "body": "clothes: black form-fitting cassock buttoned to the throat with pale banded cuffs and a long back vent, narrow black trousers, silver rivet trim down the placket, short horned headpiece, censer chain at the hip, black gloves, pointed boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/horned-cleric-vestment.webp",
           "gender": "male",
           "titleRu": "Облачение рогатого клирика"
         },
@@ -7779,7 +7833,8 @@
           "number": 235,
           "title": "Starlight Wing Prince",
           "body": "clothes: pearl-white fitted tailcoat with translucent organza wing panels set into the back, pale-blue tapered trousers, silver star embroidery, crystal circlet, constellation brooch, silver cuff studs, metallic boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/starlight-wing-prince.webp",
           "gender": "male",
           "titleRu": "Принц звёздных крыльев"
         },
@@ -7788,7 +7843,8 @@
           "number": 236,
           "title": "Bluebell Forest Herald",
           "body": "clothes: periwinkle layered tunic with petal-cut hems over a sage fitted shirt and slim trousers, translucent blue wings at the back, leaf-beaded shoulder trim, moonstone belt, carved horn hunting whistle, soft lace-up boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/bluebell-forest-herald.webp",
           "gender": "male",
           "titleRu": "Вестник колокольчикового леса"
         },
@@ -7797,7 +7853,8 @@
           "number": 237,
           "title": "Solar Moth Dancer",
           "body": "clothes: golden-yellow silk shirt with wing-cut pleated sleeves, ivory tapered trousers, iridescent moth-wing half cape, amber arm cuff, sun-disc pendant, woven gold waist cord, ribbon-wrapped sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/solar-moth-dancer.webp",
           "gender": "male",
           "titleRu": "Танцор солнечных крыльев"
         },
@@ -7806,7 +7863,8 @@
           "number": 238,
           "title": "Twilight Comet Tailcoat",
           "body": "clothes: midnight-purple velvet tailcoat with a gradient chiffon comet train at the back, silver fitted mock-neck, wide black trousers, crystal shoulder chains, star ear cuff, pointed shoes",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/twilight-comet-tailcoat.webp",
           "gender": "male",
           "titleRu": "Фрак сумеречной кометы"
         },
@@ -7815,7 +7873,8 @@
           "number": 239,
           "title": "Moon Jelly Envoy",
           "body": "clothes: translucent opal dome cape with drifting ribbon filaments over a fitted pearl shirt and pale-grey trousers, iridescent throat disk, bubble-bead belt, pearl-inlaid wrist cuffs, softly glowing ankle boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/moon-jelly-envoy.webp",
           "gender": "male",
           "titleRu": "Посланник медузы-луны"
         },
@@ -7824,7 +7883,8 @@
           "number": 240,
           "title": "Dandelion Wind Boy",
           "body": "clothes: ivory gauze wrap jacket with a seed-head shoulder halo over a cream linen shirt, wheat-colored pleated trousers, drifting filament arm streamers, seed-pod collar pin, woven wind pouch, soft suede foot wraps",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dandelion-wind-boy.webp",
           "gender": "male",
           "titleRu": "Мальчик одуванчикового ветра"
         },
@@ -7833,7 +7893,8 @@
           "number": 241,
           "title": "Dragonfly Reed Prince",
           "body": "clothes: emerald segmented chest corslet over a bronze sleeveless tunic, narrow reed-print trousers, four angular dragonfly wings, faceted eye circlet, jointed arm cuffs, bronze reed flute at the belt, metallic split-toe slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dragonfly-reed-prince.webp",
           "gender": "male",
           "titleRu": "Принц стрекоз и тростника"
         },
@@ -7842,7 +7903,8 @@
           "number": 242,
           "title": "Aurora Ice Sylph",
           "body": "clothes: translucent aurora-gradient cloak over a fitted silver roll-neck, white trousers with crystalline pleats at the outseam, prism shoulder fins, icicle waist chain, frost-glass gloves, rime-etched circlet, clear wedge boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/aurora-ice-sylph.webp",
           "gender": "male",
           "titleRu": "Сильф северного сияния"
         },
@@ -7851,7 +7913,8 @@
           "number": 243,
           "title": "Poppy Lantern Fae",
           "body": "clothes: scarlet petal-cut bolero over a black high-neck shirt with a stem-textured belt, loose green trousers gathered into petal cuffs, glowing lantern-pod necklace, pollen-dusted veil, iron lantern hook at the hip, lacquered red sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/poppy-lantern-fae.webp",
           "gender": "male",
           "titleRu": "Хранитель макового огня"
         },
@@ -7870,7 +7933,8 @@
           "number": 245,
           "title": "Dawn Feather Envoy",
           "body": "clothes: ivory draped tunic with a gold-threaded hem and layered white feathered shoulder mantle, narrow cream trousers, gilded browband set with a pale gem, gold cord at the forearms, feathered gauntlet, gold-laced sandals",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/dawn-feather-envoy.webp",
           "gender": "male",
           "titleRu": "Посланник рассветного пера"
         },
@@ -7879,7 +7943,8 @@
           "number": 246,
           "title": "Aurora Glass Diviner",
           "body": "clothes: smoked-glass diviner coat with faceted lens plates at the lapels over a charcoal high-neck shirt, straight slate trousers, orrery pendant, brass-rimmed monocle on a chain, star-chart cuff wrap, dark leather ankle boots",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/aurora-glass-diviner.webp",
           "gender": "male",
           "titleRu": "Прорицатель стеклянного сияния"
         },
@@ -7888,7 +7953,8 @@
           "number": 247,
           "title": "Reed Pond Spirit",
           "body": "clothes: sheer moss-green layered overshirt with reed-print panels over a fitted bronze base layer, wide gauze trousers gathered at the ankle, woven reed circlet, dragonfly shoulder pin, knotted rush belt, woven grass slippers",
-          "hasImage": false,
+          "hasImage": true,
+          "imgSrc": "assets/outfits/reed-pond-spirit.webp",
           "gender": "male",
           "titleRu": "Дух тростникового пруда"
         }
