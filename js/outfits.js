@@ -214,6 +214,14 @@
     return section.prompts.filter(p => (p.gender || 'female') === currentGender);
   }
 
+  // Some sections carry a male-specific label where the female wording does
+  // not fit the male outfits. Falls back to the shared field when absent, and
+  // resolves the gender before language so both lang spans still get emitted.
+  function sectionLabel(section, field, maleField) {
+    const male = section[maleField];
+    return (currentGender === 'male' && male) ? male : section[field];
+  }
+
   // ═══ SECTION ═══
   function buildSection(section) {
     const filterLower = currentFilter.trim().toLowerCase();
@@ -249,18 +257,18 @@
     titleBlock.className = 'outfit-section-title';
     const nameEn = document.createElement('span');
     nameEn.className = 'outfit-section-name lang-en';
-    nameEn.textContent = section.name;
+    nameEn.textContent = sectionLabel(section, 'name', 'nameMale');
     const nameRu = document.createElement('span');
     nameRu.className = 'outfit-section-name lang-ru';
-    nameRu.textContent = section.nameRu;
+    nameRu.textContent = sectionLabel(section, 'nameRu', 'nameMaleRu');
     titleBlock.appendChild(nameEn);
     titleBlock.appendChild(nameRu);
     const descEn = document.createElement('span');
     descEn.className = 'outfit-section-desc lang-en';
-    descEn.textContent = section.description;
+    descEn.textContent = sectionLabel(section, 'description', 'descriptionMale');
     const descRu = document.createElement('span');
     descRu.className = 'outfit-section-desc lang-ru';
-    descRu.textContent = section.descriptionRu;
+    descRu.textContent = sectionLabel(section, 'descriptionRu', 'descriptionMaleRu');
     titleBlock.appendChild(descEn);
     titleBlock.appendChild(descRu);
     header.appendChild(titleBlock);
