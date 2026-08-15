@@ -79,8 +79,10 @@
     const currentLang = window.cloverLang();
     if (currentLang === 'en') {
       searchInput.placeholder = 'Search prompts...';
+      searchInput.setAttribute('aria-label', 'Search prompts');
     } else {
       searchInput.placeholder = 'Поиск промптов...';
+      searchInput.setAttribute('aria-label', 'Поиск промптов');
     }
   }
 

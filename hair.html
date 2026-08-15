@@ -9,9 +9,9 @@
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hair - CLOVER OOC</title>
-  <meta name="description" content="275 hairstyle prompts for AI image generation in SillyTavern - copy any 'hairstyle:' line and paste into your chat.">
+  <meta name="description" content="230 female and male hairstyle prompts for AI image generation in SillyTavern - copy any 'hairstyle:' line and paste into your chat.">
   <meta property="og:title" content="Hair - CLOVER OOC">
-  <meta property="og:description" content="275 hairstyle ideas with image references and prompt-only additions - copy-and-paste 'hairstyle:' prompts for SillyTavern.">
+  <meta property="og:description" content="230 female and male hairstyle ideas with references and copy-and-paste 'hairstyle:' prompts for SillyTavern.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,8 +81,8 @@
   <section class="hair-header">
     <div class="container">
       <h1 class="hair-title">
-        <span class="lang-en">275 Hairstyles</span>
-        <span class="lang-ru">275 Причёсок</span>
+        <span class="lang-en">230 Hairstyles</span>
+        <span class="lang-ru">230 причёсок</span>
       </h1>
       <p class="hair-subtitle">
         <span class="lang-en">Hair references for AI image generation - copy the <code>hairstyle:</code> line and paste into your prompt</span>
@@ -128,6 +128,15 @@
         </div>
       </details>
 
+      <div class="hair-gender-tabs" id="hair-gender-tabs" role="tablist" aria-label="Hairstyle gender">
+        <button class="hair-gender-tab is-active" id="hair-tab-female" type="button" role="tab" data-gender="female" aria-selected="true" aria-controls="hair-grid">
+          <span class="lang-en">Female · <span data-gender-count="female">195</span></span><span class="lang-ru">Женские · <span data-gender-count="female">195</span></span>
+        </button>
+        <button class="hair-gender-tab" id="hair-tab-male" type="button" role="tab" data-gender="male" aria-selected="false" aria-controls="hair-grid">
+          <span class="lang-en">Male · <span data-gender-count="male">35</span></span><span class="lang-ru">Мужские · <span data-gender-count="male">35</span></span>
+        </button>
+      </div>
+
       <!-- SEARCH -->
       <div class="hair-search-wrap">
         <div class="search-box">
@@ -159,6 +168,14 @@
               <span class="hair-filter-group-label"><span class="lang-en">Texture</span><span class="lang-ru">Текстура</span></span>
               <div class="hair-filter-chips" id="hair-texture-chips"></div>
             </div>
+            <div class="hair-filter-group">
+              <span class="hair-filter-group-label"><span class="lang-en">Length</span><span class="lang-ru">Длина</span></span>
+              <div class="hair-filter-chips" id="hair-length-chips"></div>
+            </div>
+            <div class="hair-filter-group" id="hair-accessory-group">
+              <span class="hair-filter-group-label"><span class="lang-en">Accessories</span><span class="lang-ru">Аксессуары</span></span>
+              <div class="hair-filter-chips" id="hair-accessory-chips"></div>
+            </div>
             <div class="hair-filter-footer">
               <button type="button" class="hair-filter-clear" id="hair-filter-clear" disabled>
                 <span class="lang-en">Clear filters</span>
@@ -178,7 +195,7 @@
   <!-- SECTIONS RENDER ROOT -->
   <section class="hair-section-wrap">
     <div class="container">
-      <div id="hair-grid" class="hair-sections">
+      <div id="hair-grid" class="hair-sections" role="tabpanel">
         <div class="hair-loading">
           <span class="lang-en">Loading hairstyles…</span>
           <span class="lang-ru">Загрузка причёсок…</span>

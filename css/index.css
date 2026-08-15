@@ -80,6 +80,64 @@
 
 .archive-text-link:hover { color: var(--accent-text); border-color: var(--accent); }
 
+.archive-extension-link {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.8rem;
+  max-width: 610px;
+  margin-top: 1.25rem;
+  padding: 0.8rem 0.9rem;
+  color: var(--text);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: border-color 0.18s, background-color 0.18s, transform 0.18s;
+}
+
+.archive-extension-link:hover {
+  background: var(--accent-faint);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.archive-extension-icon {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+  background: var(--accent-faint);
+  border-radius: 8px;
+}
+
+.archive-extension-icon svg { width: 20px; height: 20px; }
+
+.archive-extension-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.archive-extension-copy strong {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.archive-extension-copy small {
+  color: var(--text-secondary);
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.archive-extension-arrow {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
 .archive-hero-figure {
   position: relative;
   width: min(100%, 470px);
@@ -422,6 +480,8 @@
 @media (width <= 420px) {
   .archive-actions { align-items: stretch; flex-direction: column; }
   .archive-actions .btn, .archive-text-link { justify-content: center; }
+  .archive-extension-link { grid-template-columns: 32px minmax(0, 1fr) auto; padding: 0.75rem; }
+  .archive-extension-icon { width: 32px; height: 32px; }
   .archive-hero-figure figcaption, .visual-plate figcaption { align-items: flex-start; flex-direction: column; gap: 0.25rem; }
   .archive-hero-figure figcaption strong, .visual-plate figcaption strong { text-align: left; }
   .holdings-list a { grid-template-columns: 22px minmax(0, 1fr) auto; }
@@ -429,7 +489,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .archive-text-link, .archive-index a, .holdings-list a, .visual-plate img, .featured-card, .workflow-formula > a { transition: none; }
+  .archive-text-link, .archive-extension-link, .archive-index a, .holdings-list a, .visual-plate img, .featured-card, .workflow-formula > a { transition: none; }
+  .archive-extension-link:hover { transform: none; }
 }
 
 @media (prefers-contrast: more) {

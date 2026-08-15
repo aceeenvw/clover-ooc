@@ -239,9 +239,27 @@ function cloverMainInit() {
       document.documentElement.lang = lang;
     }
 
+    var labels = lang === 'ru'
+      ? { language: 'Сменить язык', theme: 'Сменить тему', menu: 'Меню', close: 'Закрыть', top: 'Наверх' }
+      : { language: 'Switch language', theme: 'Toggle theme', menu: 'Menu', close: 'Close', top: 'Scroll to top' };
+    var labelTargets = [
+      ['#langToggle', labels.language],
+      ['#themeToggle', labels.theme],
+      ['#navBurger', labels.menu],
+      ['.modal-close', labels.close],
+      ['.scroll-to-top', labels.top],
+    ];
+    labelTargets.forEach(function(entry) {
+      document.querySelectorAll(entry[0]).forEach(function(element) {
+        element.setAttribute('aria-label', entry[1]);
+      });
+    });
+
     var titles = {
       'index': { en: 'CLOVER OOC - Image Generation Prompts', ru: 'CLOVER OOC - Промпты для генерации изображений' },
       'catalogue': { en: 'Catalogue - CLOVER OOC', ru: 'Каталог - CLOVER OOC' },
+      'scenes': { en: 'Scenes - CLOVER OOC', ru: 'Сцены - CLOVER OOC' },
+      'restyle': { en: 'Restyle - CLOVER OOC', ru: 'Рестайл - CLOVER OOC' },
       'hair': { en: 'Hair - CLOVER OOC', ru: 'Причёски - CLOVER OOC' },
       'outfits': { en: 'Outfits - CLOVER OOC', ru: 'Образы - CLOVER OOC' },
       'tools': { en: 'Tools - CLOVER OOC', ru: 'Инструменты - CLOVER OOC' },

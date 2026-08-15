@@ -67,6 +67,51 @@
   color: var(--text-secondary);
 }
 
+/* ═══ GENDER TABS ═══ */
+.hair-gender-tabs {
+  display: inline-flex;
+  gap: 0;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px;
+  margin: 1.25rem auto 0.25rem;
+  width: max-content;
+  max-width: 100%;
+}
+
+.hair-gender-tabs[hidden] {
+  display: none;
+}
+
+.hair-filter-group[hidden] {
+  display: none;
+}
+
+.hair-gender-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 0.55rem 1.15rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.18s, color 0.18s;
+  white-space: nowrap;
+}
+
+.hair-gender-tab:hover {
+  color: var(--text);
+}
+
+.hair-gender-tab.is-active {
+  background: var(--accent);
+  color: var(--bg);
+}
+
 /* ═══ SEARCH BAR (sticky) ═══ */
 .hair-search-wrap {
   position: sticky;
@@ -637,6 +682,14 @@
   color: var(--accent);
   border-color: var(--accent);
   background: var(--accent-faint);
+  text-transform: capitalize;
+}
+
+/* Length shares the texture accent but stays outline-only, so the two
+   structural facets read as a pair without competing for attention. */
+.hair-tag--length {
+  color: var(--accent);
+  border-color: var(--accent);
   text-transform: capitalize;
 }
 

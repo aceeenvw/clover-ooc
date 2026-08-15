@@ -48,6 +48,7 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
   // ═══ CARD BUILDER ═══
   function buildCard(prompt, sectionId) {
     const key = sectionId + '|' + prompt.id;
+    const bodyId = config.rootId + '-' + sectionId + '-' + prompt.id + '-body';
 
     const card = document.createElement('article');
     card.className = 'scene-card';
@@ -77,6 +78,7 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
     const isExpanded = expandedBodies.has(key);
     const bodyEl = document.createElement('div');
     bodyEl.className = 'scene-card-body' + (isExpanded ? '' : ' is-collapsed');
+    bodyEl.id = bodyId;
     bodyEl.setAttribute('role', 'button');
     bodyEl.setAttribute('tabindex', '0');
     bodyEl.setAttribute('aria-label',
@@ -114,6 +116,8 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
     const toggle = document.createElement('button');
     toggle.type = 'button';
     toggle.className = 'scene-card-toggle';
+    toggle.setAttribute('aria-controls', bodyId);
+    toggle.setAttribute('aria-expanded', String(isExpanded));
     const toggleEn = document.createElement('span');
     toggleEn.className = 'lang-en';
     toggleEn.textContent = isExpanded ? 'Collapse' : 'Read full';
@@ -126,6 +130,7 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
     toggle.addEventListener('click', (e) => {
       e.stopPropagation();
       const nowExpanded = bodyEl.classList.toggle('is-collapsed') === false;
+      toggle.setAttribute('aria-expanded', String(nowExpanded));
       if (nowExpanded) {
         expandedBodies.add(key);
         toggleEn.textContent = 'Collapse';
@@ -160,6 +165,7 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
   function buildSection(section) {
     const filterLower = currentFilter.trim().toLowerCase();
     const matched = section.prompts.filter(p => matchesFilter(p, filterLower));
+    const bodyId = config.rootId + '-' + section.id + '-section-body';
 
     const wrap = document.createElement('section');
     wrap.className = 'scene-section';
@@ -175,6 +181,7 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
     header.type = 'button';
     header.className = 'scene-section-header';
     header.setAttribute('aria-expanded', String(shouldOpen));
+    header.setAttribute('aria-controls', bodyId);
 
     const chev = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     chev.setAttribute('class', 'scene-section-chevron');
@@ -231,6 +238,7 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
 
     const body = document.createElement('div');
     body.className = 'scene-section-body';
+    body.id = bodyId;
 
     if (matched.length === 0) {
       body.classList.add('is-empty');
@@ -288,9 +296,11 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
   // ═══ SEARCH PLACEHOLDER + LANGUAGE SYNC ═══
   function updatePlaceholders() {
     if (!searchInput) return;
-    searchInput.placeholder = getLang() === 'ru'
+    const label = getLang() === 'ru'
       ? config.searchPlaceholder.ru
       : config.searchPlaceholder.en;
+    searchInput.placeholder = label;
+    searchInput.setAttribute('aria-label', label.replace(/\.{3}$|…$/u, ''));
   }
 
   // Re-render so JS-built nodes pick up the active language for title/desc.

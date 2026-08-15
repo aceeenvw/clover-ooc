@@ -1,8 +1,9 @@
 /* ═══════════════════════════════════════════════
    CLOVER OOC - HAIR JS
-   275 hairstyles across 8 sections. Click card body to copy
+   230 hairstyles across female and male tabs. Click card body to copy
    the 'hairstyle:' line; click card for full image + body.
-   Two filter facets: vibe (multi) + texture (single-per-item, multi-select).
+   Four filter facets: vibe, texture, length (multi-select, OR within
+   each group) and accessory (a single on/off chip).
    aceenvw
    ═══════════════════════════════════════════════ */
 
@@ -33,15 +34,32 @@
   data.sections.forEach((s, i) => { openState[s.id] = (i === 0); });
 
   let currentFilter = '';
-  // Faceted filters - vibe (multi) AND texture (multi). Both OR within a group.
+  const genderTabs = Array.from(document.querySelectorAll('.hair-gender-tab'));
+  const availableGenders = Array.from(new Set(allHair.map(p => p.gender)));
+  document.querySelectorAll('[data-gender-count]').forEach(count => {
+    count.textContent = String(allHair.filter(p => p.gender === count.dataset.genderCount).length);
+  });
+  let currentGender = 'female';
+  try {
+    const savedGender = localStorage.getItem('clover-hair-gender');
+    if (availableGenders.includes(savedGender)) currentGender = savedGender;
+  } catch (e) {}
+  // Faceted filters - vibe, texture and length are multi-select and OR
+  // within their own group; the groups then AND together. Accessory is a
+  // single chip: on means "must carry an accessory", off means no opinion.
   const selectedVibes = new Set();
   const selectedTextures = new Set();
+  const selectedLengths = new Set();
+  let accessoryOnly = false;
 
   const filterEl = document.getElementById('hair-filter');
   const filterToggle = document.getElementById('hair-filter-toggle');
   const filterCount = document.getElementById('hair-filter-toggle-count');
   const vibeChipsWrap = document.getElementById('hair-vibe-chips');
   const textureChipsWrap = document.getElementById('hair-texture-chips');
+  const lengthChipsWrap = document.getElementById('hair-length-chips');
+  const accessoryChipsWrap = document.getElementById('hair-accessory-chips');
+  const accessoryGroup = document.getElementById('hair-accessory-group');
   const clearBtn = document.getElementById('hair-filter-clear');
   const randomBtn = document.getElementById('hair-random');
   let lastRandomId = null;
@@ -61,6 +79,7 @@
   }
 
   function matchesFilter(item, filterLower) {
+    if (item.gender !== currentGender) return false;
     // Facet: vibe (OR within group). Empty selection = pass.
     if (selectedVibes.size) {
       const vibes = item.vibes || [];
@@ -70,20 +89,28 @@
     if (selectedTextures.size) {
       if (!selectedTextures.has(item.texture)) return false;
     }
-    // Text search - haystack includes title/body/vibes/texture.
+    // Facet: length (OR within group). Empty selection = pass.
+    if (selectedLengths.size) {
+      if (!selectedLengths.has(item.length)) return false;
+    }
+    // Facet: accessory. Only filters when switched on.
+    if (accessoryOnly && !item.accessory) return false;
+    // Text search - haystack includes title/body/vibes/texture/length.
     if (!filterLower) return true;
     const hay = (
       item.title + ' ' +
       (item.titleRu || '') + ' ' +
       item.body + ' ' +
       (item.vibes || []).join(' ') + ' ' +
-      (item.texture || '')
+      (item.texture || '') + ' ' +
+      (item.length || '')
     ).toLowerCase();
     return hay.includes(filterLower) || String(item.number).includes(filterLower);
   }
 
   function activeFilterCount() {
-    return selectedVibes.size + selectedTextures.size;
+    return selectedVibes.size + selectedTextures.size
+      + selectedLengths.size + (accessoryOnly ? 1 : 0);
   }
   function hasAnyFilter() {
     return currentFilter.trim() !== '' || activeFilterCount() > 0;
@@ -115,11 +142,14 @@
     return wrap;
   }
 
-  // ═══ TAG CHIPS (vibe + texture) ═══
+  // ═══ TAG CHIPS (vibe + texture + length) ═══
+  // 'any' is shown for neither texture nor length: it means "does not
+  // apply", which is worth filtering on but not worth a chip on a card.
   function buildTagChips(item) {
     const vibes = item.vibes || [];
     const texture = item.texture;
-    if (!vibes.length && !texture) return null;
+    const length = item.length;
+    if (!vibes.length && !texture && !length) return null;
     const wrap = document.createElement('div');
     wrap.className = 'hair-card-tags';
     vibes.forEach(v => {
@@ -133,6 +163,12 @@
       t.className = 'hair-tag hair-tag--texture';
       t.textContent = texture;
       wrap.appendChild(t);
+    }
+    if (length && length !== 'any') {
+      const l = document.createElement('span');
+      l.className = 'hair-tag hair-tag--length';
+      l.textContent = length;
+      wrap.appendChild(l);
     }
     return wrap.children.length ? wrap : null;
   }
@@ -158,7 +194,7 @@
       img.loading = 'lazy';
       img.decoding = 'async';
       img.width = 928;
-      img.height = 1160;
+      img.height = 1152;
       img.draggable = false;
       img.oncontextmenu = () => false;
       imgWrap.appendChild(img);
@@ -188,8 +224,7 @@
     if (chips) content.appendChild(chips);
 
     // Body - click to copy.
-    // DISPLAY uses hairBody() (RU when lang=ru); COPY always uses outfit.body
-    // (English) so the model receives the canonical "hairstyle: …" line.
+    // Display and copy both use the canonical English "hairstyle: …" line.
     const bodyEl = document.createElement('button');
     bodyEl.type = 'button';
     bodyEl.className = 'hair-card-body';
@@ -244,7 +279,8 @@
   // ═══ SECTION ═══
   function buildSection(section) {
     const filterLower = currentFilter.trim().toLowerCase();
-    const matched = section.prompts.filter(p => matchesFilter(p, filterLower));
+    const genderPrompts = section.prompts.filter(p => p.gender === currentGender);
+    const matched = genderPrompts.filter(p => matchesFilter(p, filterLower));
 
     const wrap = document.createElement('section');
     wrap.className = 'hair-section';
@@ -279,7 +315,7 @@
     nameEn.textContent = section.name;
     const nameRu = document.createElement('span');
     nameRu.className = 'hair-section-name lang-ru';
-    nameRu.textContent = section.nameRu;
+    nameRu.textContent = section.nameRu || section.name;
     titleBlock.appendChild(nameEn);
     titleBlock.appendChild(nameRu);
     const descEn = document.createElement('span');
@@ -287,7 +323,7 @@
     descEn.textContent = section.description;
     const descRu = document.createElement('span');
     descRu.className = 'hair-section-desc lang-ru';
-    descRu.textContent = section.descriptionRu;
+    descRu.textContent = section.descriptionRu || section.description;
     titleBlock.appendChild(descEn);
     titleBlock.appendChild(descRu);
     header.appendChild(titleBlock);
@@ -295,10 +331,10 @@
     const count = document.createElement('span');
     count.className = 'hair-section-count';
     if (filtering) {
-      count.textContent = matched.length + '/' + section.prompts.length;
+      count.textContent = matched.length + '/' + genderPrompts.length;
       if (matched.length > 0) count.classList.add('has-matches');
     } else {
-      count.textContent = String(section.prompts.length);
+      count.textContent = String(genderPrompts.length);
     }
     header.appendChild(count);
 
@@ -343,12 +379,13 @@
     const filterLower = currentFilter.trim().toLowerCase();
     let totalMatched = 0;
     data.sections.forEach(section => {
+      if (!section.prompts.some(p => p.gender === currentGender)) return;
       const el = buildSection(section);
       root.appendChild(el);
       totalMatched += section.prompts.filter(p => matchesFilter(p, filterLower)).length;
     });
     if (hasAnyFilter()) {
-      const total = data.sections.reduce((s, sec) => s + sec.prompts.length, 0);
+      const total = allHair.filter(p => p.gender === currentGender).length;
       resultCount.textContent = totalMatched + ' / ' + total;
     } else {
       resultCount.textContent = '';
@@ -384,8 +421,7 @@
       if (chips) tagHost.appendChild(chips);
     }
 
-    // Display uses hairBody() (RU when lang=ru); the Copy button below
-    // still copies o.body (English).
+    // Display and copy both use the canonical English prompt body.
     modal.querySelector('.modal-prompt-text code').textContent = hairBody(o);
 
     modal.classList.add('active');
@@ -396,13 +432,17 @@
   }
 
   function closeModal() {
+    const triggerId = modal.querySelector('.modal-content').dataset.hairId;
     modal.classList.remove('active');
     modal.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
-    if (modal._trigger) {
+    if (modal._trigger && modal._trigger.isConnected) {
       modal._trigger.focus();
-      modal._trigger = null;
+    } else if (triggerId) {
+      const replacement = root.querySelector(`[data-hair-id="${triggerId}"]`);
+      if (replacement) replacement.focus();
     }
+    modal._trigger = null;
   }
 
   modalClose.addEventListener('click', closeModal);
@@ -429,7 +469,8 @@
   // ═══ KEYBOARD ═══
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
-    if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) {
+    if (e.key === '/' && !modal.classList.contains('active') &&
+        !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) {
       if (searchInput) { e.preventDefault(); searchInput.focus(); }
     }
     // focus trap
@@ -458,6 +499,8 @@
   function updatePlaceholders() {
     if (!searchInput) return;
     searchInput.placeholder = getLang() === 'ru' ? 'Поиск причёсок...' : 'Search hairstyles...';
+    const tabList = document.getElementById('hair-gender-tabs');
+    if (tabList) tabList.setAttribute('aria-label', getLang() === 'ru' ? 'Категория причёсок' : 'Hairstyle gender');
   }
 
   // Re-render on language change. Also refresh an open modal so its title +
@@ -503,18 +546,26 @@
     });
   }
 
-  // ═══ FILTER PANEL (vibe + texture facets) ═══
-  // Fixed texture order; vibes come from the data (union, sorted).
+  // ═══ FILTER PANEL (vibe + texture + length + accessory) ═══
+  // Fixed texture and length order; vibes come from the data (union, sorted).
   const TEXTURE_ORDER = ['straight', 'wavy', 'curly', 'coily', 'any'];
+  // 'any' is a real answer here, not a fallback: some constructions have
+  // no meaningful length.
+  const LENGTH_ORDER = ['short', 'mid', 'long', 'any'];
 
   function collectVibes() {
     const set = new Set();
-    allHair.forEach(p => (p.vibes || []).forEach(v => set.add(v)));
+    allHair.filter(p => p.gender === currentGender)
+      .forEach(p => (p.vibes || []).forEach(v => set.add(v)));
     return Array.from(set).sort();
   }
   function collectTextures() {
-    const present = new Set(allHair.map(p => p.texture).filter(Boolean));
+    const present = new Set(allHair.filter(p => p.gender === currentGender).map(p => p.texture).filter(Boolean));
     return TEXTURE_ORDER.filter(t => present.has(t));
+  }
+  function collectLengths() {
+    const present = new Set(allHair.filter(p => p.gender === currentGender).map(p => p.length).filter(Boolean));
+    return LENGTH_ORDER.filter(l => present.has(l));
   }
 
   function makeFilterChip(value, selectedSet) {
@@ -522,7 +573,9 @@
     chip.type = 'button';
     chip.className = 'hair-filter-chip';
     chip.textContent = value;
-    chip.setAttribute('aria-pressed', 'false');
+    const selected = selectedSet.has(value);
+    chip.classList.toggle('is-active', selected);
+    chip.setAttribute('aria-pressed', String(selected));
     chip.addEventListener('click', () => {
       if (selectedSet.has(value)) {
         selectedSet.delete(value);
@@ -539,6 +592,33 @@
     return chip;
   }
 
+  // Accessory is a boolean, so it gets one chip rather than a group.
+  // Pressed = "only styles with something worn in the hair".
+  function makeAccessoryChip() {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'hair-filter-chip';
+    chip.dataset.accessoryChip = '1';
+    chip.classList.toggle('is-active', accessoryOnly);
+    chip.setAttribute('aria-pressed', String(accessoryOnly));
+    const en = document.createElement('span');
+    en.className = 'lang-en';
+    en.textContent = 'With accessories';
+    const ru = document.createElement('span');
+    ru.className = 'lang-ru';
+    ru.textContent = 'С аксессуарами';
+    chip.appendChild(en);
+    chip.appendChild(ru);
+    chip.addEventListener('click', () => {
+      accessoryOnly = !accessoryOnly;
+      chip.classList.toggle('is-active', accessoryOnly);
+      chip.setAttribute('aria-pressed', String(accessoryOnly));
+      updateFilterUI();
+      render();
+    });
+    return chip;
+  }
+
   function updateFilterUI() {
     const n = activeFilterCount();
     if (filterCount) filterCount.textContent = n ? String(n) : '';
@@ -547,12 +627,7 @@
 
   function buildFilterPanel() {
     if (!filterEl) return;
-    if (vibeChipsWrap) {
-      collectVibes().forEach(v => vibeChipsWrap.appendChild(makeFilterChip(v, selectedVibes)));
-    }
-    if (textureChipsWrap) {
-      collectTextures().forEach(t => textureChipsWrap.appendChild(makeFilterChip(t, selectedTextures)));
-    }
+    rebuildFacetChips();
     if (filterToggle) {
       filterToggle.addEventListener('click', () => {
         filterEl.classList.toggle('is-open');
@@ -564,16 +639,81 @@
       clearBtn.addEventListener('click', () => {
         selectedVibes.clear();
         selectedTextures.clear();
-        filterEl.querySelectorAll('.hair-filter-chip.is-active').forEach(c => {
-          c.classList.remove('is-active');
-          c.setAttribute('aria-pressed', 'false');
-        });
+        selectedLengths.clear();
+        accessoryOnly = false;
+        rebuildFacetChips();
         updateFilterUI();
         render();
       });
     }
     updateFilterUI();
   }
+
+  function rebuildFacetChips() {
+    if (vibeChipsWrap) {
+      vibeChipsWrap.textContent = '';
+      collectVibes().forEach(v => vibeChipsWrap.appendChild(makeFilterChip(v, selectedVibes)));
+    }
+    if (textureChipsWrap) {
+      textureChipsWrap.textContent = '';
+      collectTextures().forEach(t => textureChipsWrap.appendChild(makeFilterChip(t, selectedTextures)));
+    }
+    if (lengthChipsWrap) {
+      lengthChipsWrap.textContent = '';
+      collectLengths().forEach(l => lengthChipsWrap.appendChild(makeFilterChip(l, selectedLengths)));
+    }
+    if (accessoryChipsWrap) {
+      accessoryChipsWrap.textContent = '';
+      const hasAccessories = allHair.some(p => p.gender === currentGender && p.accessory);
+      if (accessoryGroup) accessoryGroup.hidden = !hasAccessories;
+      if (hasAccessories) accessoryChipsWrap.appendChild(makeAccessoryChip());
+    }
+  }
+
+  function selectGender(gender, focusTab) {
+    if (!availableGenders.includes(gender)) return;
+    const changed = currentGender !== gender;
+    currentGender = gender;
+    lastRandomId = null;
+    if (changed) {
+      selectedVibes.clear();
+      selectedTextures.clear();
+      selectedLengths.clear();
+      accessoryOnly = false;
+    }
+    const visibleSections = data.sections.filter(section =>
+      section.prompts.some(prompt => prompt.gender === gender));
+    if (visibleSections.length && !visibleSections.some(section => openState[section.id])) {
+      openState[visibleSections[0].id] = true;
+    }
+    genderTabs.forEach(tab => {
+      const selected = tab.dataset.gender === gender;
+      tab.classList.toggle('is-active', selected);
+      tab.setAttribute('aria-selected', String(selected));
+      tab.tabIndex = selected ? 0 : -1;
+      if (selected && focusTab) tab.focus();
+    });
+    const activeTab = genderTabs.find(tab => tab.dataset.gender === gender);
+    if (activeTab) root.setAttribute('aria-labelledby', activeTab.id);
+    try { localStorage.setItem('clover-hair-gender', gender); } catch (e) {}
+    rebuildFacetChips();
+    updateFilterUI();
+    render();
+  }
+
+  genderTabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => selectGender(tab.dataset.gender, false));
+    tab.addEventListener('keydown', event => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+      event.preventDefault();
+      let next = index;
+      if (event.key === 'ArrowLeft') next = (index - 1 + genderTabs.length) % genderTabs.length;
+      if (event.key === 'ArrowRight') next = (index + 1) % genderTabs.length;
+      if (event.key === 'Home') next = 0;
+      if (event.key === 'End') next = genderTabs.length - 1;
+      selectGender(genderTabs[next].dataset.gender, true);
+    });
+  });
 
   // ═══ RANDOM ═══
   // Picks from the currently-matched set (respects search + facet filters),
@@ -585,10 +725,8 @@
       showToast('No hairstyles match your filters', 'Нет причёсок по фильтрам');
       return;
     }
-    let choice = pool[Math.floor(Math.random() * pool.length)];
-    if (pool.length > 1 && choice.id === lastRandomId) {
-      choice = pool[Math.floor(Math.random() * pool.length)];
-    }
+    const choices = pool.length > 1 ? pool.filter(p => p.id !== lastRandomId) : pool;
+    const choice = choices[Math.floor(Math.random() * choices.length)];
     lastRandomId = choice.id;
     if (randomBtn) {
       randomBtn.classList.remove('is-spun');
@@ -602,6 +740,6 @@
 
   // ═══ INIT ═══
   buildFilterPanel();
+  selectGender(currentGender, false);
   updatePlaceholders();
-  render();
 })();

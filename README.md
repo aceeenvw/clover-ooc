@@ -11,14 +11,14 @@
                           ╚══════════════════════════════════════════════════════╝
 ```
 
-**250 prompts · 112 scenes · 127 restyles · 110 poses · 820 outfits · 275 hairstyles · 3,092 wardrobe pieces · 100 overlays · EN / RU**
+**250 prompts · 112 scenes · 127 restyles · 110 poses · 820 outfits · 230 hairstyles · 3,092 wardrobe pieces · 100 overlays · EN / RU**
 
 [![Site](https://img.shields.io/badge/site-aceeenvw.github.io%2Fclover--ooc-7aa?style=flat-square&labelColor=1a1a1a)](https://aceeenvw.github.io/clover-ooc/)
 [![Prompts](https://img.shields.io/badge/prompts-250-c99?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Outfits](https://img.shields.io/badge/outfits-820-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Hair](https://img.shields.io/badge/hairstyles-275-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Hair](https://img.shields.io/badge/hairstyles-230-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Wardrobe](https://img.shields.io/badge/wardrobe-3%2C092_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Images](https://img.shields.io/badge/renders-1%2C569%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Images](https://img.shields.io/badge/renders-1%2C524%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
@@ -63,7 +63,7 @@ All 250 prompts in one grid - filter by category and tag, open any entry for the
 <td width="50%" valign="top">
 
 ### ◈ Hair
-275 hairstyles with reference renders. Filter by vibe (24) and texture (5), search by name, or hit Random.
+230 hairstyles across female and male tabs, each with a reference render. Filter the active tab by vibe, texture, length and accessories, search by name, or hit Random. Descriptions state no hair color, so you set that yourself.
 
 ### ◈ Outfits
 820 outfits across 19 sections - everyday, coastal, y2k, fantasy, gothic lolita, sporty and more - every one with a render. Switch between 560 female and 260 male looks.

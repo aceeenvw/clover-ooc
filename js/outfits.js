@@ -46,6 +46,10 @@
     const g = o.gender || 'female';
     if (!availableGenders.includes(g)) availableGenders.push(g);
   });
+  document.querySelectorAll('#outfits-gender-tabs [data-gender-count]').forEach(count => {
+    count.textContent = String(allOutfits.filter(o =>
+      (o.gender || 'female') === count.dataset.genderCount).length);
+  });
 
   let currentGender = availableGenders.includes('female')
     ? 'female'
