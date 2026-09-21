@@ -19,7 +19,7 @@
 [![Hair](https://img.shields.io/badge/hairstyles-230-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Makeup](https://img.shields.io/badge/makeup-45-e9a?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Wardrobe](https://img.shields.io/badge/wardrobe-3%2C092_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Images](https://img.shields.io/badge/renders-1%2C675%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Images](https://img.shields.io/badge/renders-1%2C717%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
@@ -70,7 +70,7 @@ All 250 prompts in one grid - filter by category and tag, open any entry for the
 45 practical makeup looks across five sections, each with a rendered reference, bilingual title, and copy-ready `makeup:` line.
 
 ### ◈ Outfits
-1,100 outfits across 34 sections - everyday, historical, fantasy, sci-fi and more - with 926 renders and 174 prompt-only placeholders. Switch between 680 female and 420 male looks.
+1,100 outfits across 34 sections - everyday, historical, fantasy, sci-fi and more - with 968 renders and 132 prompt-only placeholders. Switch between 680 female and 420 male looks.
 
 ### ◈ Wardrobe
 Build an outfit piece by piece from 3,092 items: top + bottom (or a dress), outerwear, shoes, accessories. Filter by style and colour, or let "Surprise me" fill the gaps.
