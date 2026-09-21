@@ -34,8 +34,6 @@
   let currentFilter = '';
   let lastRandomId = null;
 
-  // Which genders actually have outfits. The tab strip only appears when more
-  // than one is present.
   const availableGenders = [];
   allOutfits.forEach(o => {
     const g = o.gender || 'female';
@@ -59,13 +57,11 @@
   // ═══ HELPERS ═══
   const getLang = window.cloverLang;
 
-  // Titles localize when a Russian translation exists.
   function outfitTitle(o) {
     return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
   }
 
   function matchesFilter(outfit, filterLower) {
-    // Gender facet first, so Random and the result count inherit it for free.
     if (availableGenders.length > 1 && (outfit.gender || 'female') !== currentGender) {
       return false;
     }
@@ -117,7 +113,6 @@
     const imgWrap = document.createElement('div');
     imgWrap.className = 'outfit-card-image';
     if (outfit.hasImage && outfit.imgSrc) {
-      imgWrap.classList.add('has-image');
       const img = document.createElement('img');
       img.src = outfit.imgSrc;
       img.alt = outfitTitle(outfit);
@@ -205,16 +200,12 @@
     return card;
   }
 
-  // Prompts in a section belonging to the active gender, ignoring text search.
-  // Used as the count denominator so totals never include the other gender.
+  // Section totals exclude the other gender but ignore text search.
   function genderPrompts(section) {
     if (availableGenders.length < 2) return section.prompts;
     return section.prompts.filter(p => (p.gender || 'female') === currentGender);
   }
 
-  // Some sections carry a male-specific label where the female wording does
-  // not fit the male outfits. Falls back to the shared field when absent, and
-  // resolves the gender before language so both lang spans still get emitted.
   function sectionLabel(section, field, maleField) {
     const male = section[maleField];
     return (currentGender === 'male' && male) ? male : section[field];
@@ -325,8 +316,6 @@
     data.sections.forEach(section => {
       const inGender = genderPrompts(section);
       totalInGender += inGender.length;
-      // Skip sections with nothing in the active gender, so switching tabs
-      // never leaves a wall of empty accordions.
       if (!inGender.length) return;
       const el = buildSection(section);
       root.appendChild(el);
@@ -372,10 +361,14 @@
     modal.classList.remove('active');
     modal.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
-    if (modal._trigger) {
+    if (modal._trigger && modal._trigger.isConnected) {
       modal._trigger.focus();
-      modal._trigger = null;
+    } else {
+      const id = modal.querySelector('.modal-content').dataset.outfitId;
+      const trigger = root.querySelector(`[data-outfit-id="${id}"] .outfit-card-open`);
+      (trigger || searchInput)?.focus();
     }
+    modal._trigger = null;
   }
 
   modalClose.addEventListener('click', closeModal);
@@ -402,7 +395,10 @@
   // ═══ KEYBOARD ═══
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
-    if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) {
+    if (e.key === '/' && !modal.classList.contains('active') &&
+        !e.ctrlKey && !e.metaKey && !e.altKey &&
+        !document.activeElement.isContentEditable &&
+        !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) {
       if (searchInput) { e.preventDefault(); searchInput.focus(); }
     }
     // focus trap
@@ -413,7 +409,11 @@
       if (!focusable.length) return;
       const first = focusable[0];
       const last = focusable[focusable.length - 1];
-      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      if (!modal.contains(document.activeElement)) {
+        e.preventDefault();
+        (e.shiftKey ? last : first).focus();
+      }
+      else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     }
   });
@@ -440,7 +440,6 @@
     t.addEventListener('click', () => setGender(t.dataset.gender));
   });
 
-  // Arrow/Home/End navigation, matching the tab pattern used in tools.js.
   if (genderTabsWrap) {
     genderTabsWrap.addEventListener('keydown', (e) => {
       if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
@@ -457,7 +456,6 @@
       buttons[next].click();
     });
 
-    // Reveal the strip only when there is a real choice to make.
     if (availableGenders.length > 1) {
       genderTabsWrap.hidden = false;
     }
@@ -498,8 +496,14 @@
   if (randomBtn) randomBtn.addEventListener('click', pickRandom);
 
   function updatePlaceholders() {
+    const isRu = getLang() === 'ru';
+    if (genderTabsWrap) {
+      genderTabsWrap.setAttribute('aria-label', isRu ? 'Пол персонажа' : 'Outfit gender');
+    }
     if (!searchInput) return;
-    searchInput.placeholder = getLang() === 'ru' ? 'Поиск образов...' : 'Search outfits...';
+    const searchLabel = isRu ? 'Поиск образов' : 'Search outfits';
+    searchInput.placeholder = searchLabel + '...';
+    searchInput.setAttribute('aria-label', searchLabel);
   }
 
   // Re-render localized titles and labels after a language change.
@@ -540,7 +544,7 @@
       scrollToTopBtn.classList.toggle('visible', window.scrollY > 300);
     });
     scrollToTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'auto' });
     });
   }
 
