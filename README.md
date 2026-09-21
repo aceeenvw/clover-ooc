@@ -11,14 +11,15 @@
                           ╚══════════════════════════════════════════════════════╝
 ```
 
-**250 prompts · 112 scenes · 127 restyles · 110 poses · 1,100 outfits · 230 hairstyles · 3,092 wardrobe pieces · 100 overlays · EN / RU**
+**250 prompts · 112 scenes · 127 restyles · 110 poses · 1,100 outfits · 230 hairstyles · 45 makeup looks · 3,092 wardrobe pieces · 100 overlays · EN / RU**
 
 [![Site](https://img.shields.io/badge/site-aceeenvw.github.io%2Fclover--ooc-7aa?style=flat-square&labelColor=1a1a1a)](https://aceeenvw.github.io/clover-ooc/)
 [![Prompts](https://img.shields.io/badge/prompts-250-c99?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Outfits](https://img.shields.io/badge/outfits-1100-d8a?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Hair](https://img.shields.io/badge/hairstyles-230-9d8?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Makeup](https://img.shields.io/badge/makeup-45-e9a?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Wardrobe](https://img.shields.io/badge/wardrobe-3%2C092_pieces-a9d?style=flat-square&labelColor=1a1a1a)](#-pages)
-[![Images](https://img.shields.io/badge/renders-1%2C630%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
+[![Images](https://img.shields.io/badge/renders-1%2C675%20webp-b9b?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20RU-aaf?style=flat-square&labelColor=1a1a1a)](#-pages)
 [![Author](https://img.shields.io/badge/author-aceenvw-9c9?style=flat-square&labelColor=1a1a1a)](https://github.com/aceeenvw)
 
@@ -34,7 +35,7 @@
 
 The catalogue holds **250 prompts** across themes such as *Ancient*, *Deep Space*, *Fantasy Medieval*, *Gothic*, *Neon*, *Pair*, *Tropical*, and more. Every entry ships with a bilingual title (English + Russian) and a `.webp` example render so you can see what the prompt actually produces.
 
-Beyond the catalogue, the site includes reusable poses, outfits, hairstyles, detailed scenes, image-restyle prompts, and construction tools for combining wardrobe pieces, backgrounds, effects, overlays, camera terms, and composition.
+Beyond the catalogue, the site includes reusable poses, outfits, hairstyles, makeup looks, detailed scenes, image-restyle prompts, and construction tools for combining wardrobe pieces, backgrounds, effects, overlays, camera terms, and composition.
 
 ---
 
@@ -64,6 +65,9 @@ All 250 prompts in one grid - filter by category and tag, open any entry for the
 
 ### ◈ Hair
 230 hairstyles across female and male tabs, each with a reference render. Filter the active tab by vibe, texture, length and accessories, search by name, or hit Random. Descriptions state no hair color, so you set that yourself.
+
+### ◈ Makeup
+45 practical makeup looks across five sections, each with a rendered reference, bilingual title, and copy-ready `makeup:` line.
 
 ### ◈ Outfits
 1,100 outfits across 34 sections - everyday, historical, fantasy, sci-fi and more - with 926 renders and 174 prompt-only placeholders. Switch between 680 female and 420 male looks.

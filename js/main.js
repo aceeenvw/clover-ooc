@@ -247,6 +247,7 @@ function cloverMainInit() {
       ['#themeToggle', labels.theme],
       ['#navBurger', labels.menu],
       ['.modal-close', labels.close],
+      ['.makeup-modal-close', labels.close],
       ['.scroll-to-top', labels.top],
     ];
     labelTargets.forEach(function(entry) {
@@ -261,6 +262,7 @@ function cloverMainInit() {
       'scenes': { en: 'Scenes - CLOVER OOC', ru: 'Сцены - CLOVER OOC' },
       'restyle': { en: 'Restyle - CLOVER OOC', ru: 'Рестайл - CLOVER OOC' },
       'hair': { en: 'Hair - CLOVER OOC', ru: 'Причёски - CLOVER OOC' },
+      'makeup': { en: 'Makeup - CLOVER OOC', ru: 'Макияж - CLOVER OOC' },
       'outfits': { en: 'Outfits - CLOVER OOC', ru: 'Образы - CLOVER OOC' },
       'tools': { en: 'Tools - CLOVER OOC', ru: 'Инструменты - CLOVER OOC' },
       'poses': { en: 'Poses & Expressions - CLOVER OOC', ru: 'Позы и эмоции - CLOVER OOC' },

@@ -628,6 +628,16 @@
           "titleRu": "Ночная водительская куртка"
         },
         {
+          "id": "outfit-m-181",
+          "number": 181,
+          "title": "Blue Modular Weekend",
+          "body": "clothes: sky-blue modular vest over a navy striped poplin shirt, loose ecru jeans with detachable utility pockets, enamel pin, canvas cap, compact crossbody bag, blue trainers",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/blue-modular-weekend.webp",
+          "gender": "male",
+          "titleRu": "Голубые модульные выходные"
+        },
+        {
           "id": "outfit-m-186",
           "number": 186,
           "title": "Ceramics Studio Uniform",
@@ -636,6 +646,16 @@
           "imgSrc": "assets/outfits/ceramics-studio-uniform.webp",
           "gender": "male",
           "titleRu": "Униформа керамической студии"
+        },
+        {
+          "id": "outfit-m-187",
+          "number": 187,
+          "title": "Gallery Installation Day",
+          "body": "clothes: asymmetric white poplin overshirt with snap-off lower panels over a fitted grey tee, black knee-length culottes with multiple ruler pockets, pencil ear cuff, cotton work gloves, blueprint tube, minimalist split-toe sneakers",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/gallery-installation-day.webp",
+          "gender": "male",
+          "titleRu": "День инсталляции в галерее"
         },
         {
           "id": "outfit-m-189",
@@ -1027,16 +1047,6 @@
           "titleRu": "Цитрусовый офис-кэжуал"
         },
         {
-          "id": "outfit-m-181",
-          "number": 181,
-          "title": "Blue Modular Weekend",
-          "body": "clothes: sky-blue modular vest over a navy striped poplin shirt, loose ecru jeans with detachable utility pockets, enamel pin, canvas cap, compact crossbody bag, blue trainers",
-          "hasImage": true,
-          "imgSrc": "assets/outfits/blue-modular-weekend.webp",
-          "gender": "male",
-          "titleRu": "Голубые модульные выходные"
-        },
-        {
           "id": "outfit-m-182",
           "number": 182,
           "title": "Coffee Knit Tailoring",
@@ -1055,16 +1065,6 @@
           "imgSrc": "assets/outfits/airport-pleat-traveler.webp",
           "gender": "male",
           "titleRu": "Аэропортовый плиссированный путешественник"
-        },
-        {
-          "id": "outfit-m-187",
-          "number": 187,
-          "title": "Gallery Installation Day",
-          "body": "clothes: asymmetric white poplin overshirt with snap-off lower panels over a fitted grey tee, black knee-length culottes with multiple ruler pockets, pencil ear cuff, cotton work gloves, blueprint tube, minimalist split-toe sneakers",
-          "hasImage": true,
-          "imgSrc": "assets/outfits/gallery-installation-day.webp",
-          "gender": "male",
-          "titleRu": "День инсталляции в галерее"
         },
         {
           "id": "outfit-m-188",
@@ -1353,6 +1353,16 @@
           "imgSrc": "assets/outfits/rainy-record-collector.webp",
           "gender": "male",
           "titleRu": "Дождевой плащ коллекционера пластинок"
+        },
+        {
+          "id": "outfit-m-103",
+          "number": 103,
+          "title": "Snowfield Puffer Layer",
+          "body": "clothes: pearl-grey quilted down parka over a cobalt fleece half-zip, black insulated cargo trousers with reflective piping, ribbed balaclava, technical gloves, nylon crossbody, snow boots",
+          "hasImage": true,
+          "imgSrc": "assets/outfits/snowfield-puffer-layer.webp",
+          "gender": "male",
+          "titleRu": "Пуховая парка с флисовым слоем"
         },
         {
           "id": "outfit-m-184",
@@ -1892,16 +1902,6 @@
           "imgSrc": "assets/outfits/shearling-aviator-knit.webp",
           "gender": "male",
           "titleRu": "Дублёнка-авиатор"
-        },
-        {
-          "id": "outfit-m-103",
-          "number": 103,
-          "title": "Snowfield Puffer Layer",
-          "body": "clothes: pearl-grey quilted down parka over a cobalt fleece half-zip, black insulated cargo trousers with reflective piping, ribbed balaclava, technical gloves, nylon crossbody, snow boots",
-          "hasImage": true,
-          "imgSrc": "assets/outfits/snowfield-puffer-layer.webp",
-          "gender": "male",
-          "titleRu": "Пуховая парка с флисовым слоем"
         },
         {
           "id": "outfit-m-104",

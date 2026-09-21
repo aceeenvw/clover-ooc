@@ -1,0 +1,410 @@
+{
+  "viewKey": "YWNlZW52dw==",
+  "sections": [
+    {
+      "id": "everyday-soft",
+      "name": "Everyday & Soft",
+      "nameRu": "Повседневный и нежный макияж",
+      "description": "Wearable looks with gentle definition, muted colors and natural lip tones.",
+      "descriptionRu": "Универсальные образы с мягкими линиями, приглушёнными тонами и естественными оттенками губ.",
+      "prompts": [
+        {
+          "id": "makeup-1",
+          "title": "Rosewood Kitten Liner",
+          "titleRu": "Тонкие стрелки и губы цвета розового дерева",
+          "body": "makeup: fine espresso-brown kitten eyeliner, matte rose-beige eyeshadow, softly separated lashes, satin rosewood lips, and muted pink blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/rosewood-kitten-liner.webp"
+        },
+        {
+          "id": "makeup-2",
+          "title": "Soft Taupe Veil",
+          "titleRu": "Мягкая дымка в оттенках тауп",
+          "body": "makeup: softly smudged taupe-brown eyeliner, matte oatmeal eyeshadow, satin beige-pink lips, and pale peach blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/soft-taupe-veil.webp"
+        },
+        {
+          "id": "makeup-3",
+          "title": "Peach Haze",
+          "titleRu": "Персиковая дымка",
+          "body": "makeup: thin warm-brown eyeliner, soft peach-beige eyeshadow, creamy muted coral lips, and peach blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/peach-haze.webp"
+        },
+        {
+          "id": "makeup-4",
+          "title": "Dusty Mauve Tightline",
+          "titleRu": "Пыльно-лиловые тени и межресничная подводка",
+          "body": "makeup: deep plum-brown tightline, dusty mauve eyeshadow, satin muted berry lips, and cool rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/dusty-mauve-tightline.webp"
+        },
+        {
+          "id": "makeup-5",
+          "title": "Caramel Soft Wing",
+          "titleRu": "Мягкие стрелки в карамельных тонах",
+          "body": "makeup: short chocolate-brown winged eyeliner, matte caramel-taupe eyeshadow, cinnamon-nude lips, and warm rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/caramel-soft-wing.webp"
+        },
+        {
+          "id": "makeup-6",
+          "title": "Muted Olive Line",
+          "titleRu": "Приглушённая оливковая подводка",
+          "body": "makeup: muted olive eyeliner along the upper lash line, soft beige eyeshadow, satin apricot-rose lips, and subdued coral blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/muted-olive-line.webp"
+        },
+        {
+          "id": "makeup-7",
+          "title": "Grey Lilac Smudge",
+          "titleRu": "Серо-сиреневая дымка",
+          "body": "makeup: softly smudged slate-grey eyeliner, pale grey-lilac eyeshadow, cool pink-mauve lips, and muted rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/grey-lilac-smudge.webp"
+        },
+        {
+          "id": "makeup-8",
+          "title": "Apricot Satin",
+          "titleRu": "Сатиновый макияж в абрикосовых тонах",
+          "body": "makeup: bronze-brown tightline, satin apricot-beige eyeshadow, peach-rose lips, and apricot blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/apricot-satin.webp"
+        },
+        {
+          "id": "makeup-31",
+          "title": "Pistachio Demi Lashes",
+          "titleRu": "Фисташковые тени и коричневые ресницы-уголки",
+          "body": "makeup: soft brown tightline, sheer pistachio eyeshadow, medium-length brown false lashes in a tapered demi shape at the outer halves, satin peach-nude lips, and pale apricot blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/pistachio-demi-lashes.webp"
+        },
+        {
+          "id": "makeup-32",
+          "title": "Cornflower Lash Clusters",
+          "titleRu": "Васильковые тени и воздушные пучки ресниц",
+          "body": "makeup: fine navy eyeliner, washed cornflower-blue eyeshadow, airy black false lashes arranged in spaced clusters across the upper lash lines with extra outer length, and glossy pink-beige lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/cornflower-lash-clusters.webp"
+        },
+        {
+          "id": "makeup-33",
+          "title": "Honey Auburn Fan",
+          "titleRu": "Медовые тени и рыжевато-коричневые ресницы",
+          "body": "makeup: cinnamon-brown eyeliner, honey-beige eyeshadow, softly fanned auburn false lashes with light density and medium length, satin warm-rose lips, and muted peach blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/honey-auburn-fan.webp"
+        }
+      ]
+    },
+    {
+      "id": "classic-polished",
+      "name": "Classic & Polished",
+      "nameRu": "Классический и элегантный макияж",
+      "description": "Balanced, precise looks with clean eyeliner, refined eyeshadow and polished lip color.",
+      "descriptionRu": "Сбалансированные образы с чёткими стрелками, аккуратной растушёвкой и тщательно подобранными оттенками губ.",
+      "prompts": [
+        {
+          "id": "makeup-9",
+          "title": "Red Lip Precision",
+          "titleRu": "Чёткие стрелки и красные губы",
+          "body": "makeup: precise black winged eyeliner, satin champagne eyeshadow, neatly fanned lashes, classic satin red lips, and soft rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/red-lip-precision.webp"
+        },
+        {
+          "id": "makeup-10",
+          "title": "Tailored Mocha",
+          "titleRu": "Элегантный макияж в оттенках мокко",
+          "body": "makeup: dark brown eyeliner with a tapered wing, structured matte taupe eyeshadow, polished mocha-rose lips, and neutral rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/tailored-mocha.webp"
+        },
+        {
+          "id": "makeup-11",
+          "title": "Navy Raspberry",
+          "titleRu": "Тёмно-синие стрелки и малиновые губы",
+          "body": "makeup: crisp navy eyeliner, pearl-grey eyeshadow, satin raspberry-red lips, and cool pink blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/navy-raspberry.webp"
+        },
+        {
+          "id": "makeup-12",
+          "title": "Espresso Cut Crease",
+          "titleRu": "Мягко очерченная складка века",
+          "body": "makeup: espresso eyeliner, softly sculpted medium-brown cut-crease eyeshadow, full but tidy lashes, satin caramel-nude lips, and muted peach blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/espresso-cut-crease.webp"
+        },
+        {
+          "id": "makeup-13",
+          "title": "Vintage Berry Flick",
+          "titleRu": "Винтажные стрелки и ягодные губы",
+          "body": "makeup: slim black kitten eyeliner, matte shell-pink eyeshadow, satin berry-rose lips, and restrained rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/vintage-berry-flick.webp"
+        },
+        {
+          "id": "makeup-14",
+          "title": "Plum Copper Polish",
+          "titleRu": "Сливовая подводка и медные тени",
+          "body": "makeup: precise deep-plum eyeliner, satin copper-taupe eyeshadow, polished plum-nude lips, and muted mauve blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/plum-copper-polish.webp"
+        },
+        {
+          "id": "makeup-34",
+          "title": "Ivory Fig Fan",
+          "titleRu": "Тени цвета слоновой кости, подводка оттенка инжира и веерные ресницы",
+          "body": "makeup: precise fig-brown eyeliner, matte ivory eyeshadow, evenly fanned dark-brown false lashes with medium density and length, satin fig-rose lips, and soft rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/ivory-fig-fan.webp"
+        },
+        {
+          "id": "makeup-35",
+          "title": "Mushroom Doll Lashes",
+          "titleRu": "Дымчато-бежевые тени и кукольные ресницы",
+          "body": "makeup: charcoal-brown tightline, matte mushroom-beige eyeshadow, rounded black false lashes with separated doll-like spikes and medium length, and satin mauve-nude lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/mushroom-doll-lashes.webp"
+        },
+        {
+          "id": "makeup-36",
+          "title": "Porcelain Sable Sweep",
+          "titleRu": "Фарфоровые тени и тёмно-коричневые ресницы",
+          "body": "makeup: tapered sable eyeliner, porcelain-beige eyeshadow, long dark-brown false lashes swept toward the outer corners with refined density, satin muted-red lips, and neutral rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/porcelain-sable-sweep.webp"
+        }
+      ]
+    },
+    {
+      "id": "bright-night-out",
+      "name": "Bright Night Out",
+      "nameRu": "Яркий вечерний макияж",
+      "description": "Saturated evening looks with vivid color, controlled placement and balanced lips.",
+      "descriptionRu": "Насыщенные вечерние образы с яркими цветовыми акцентами, аккуратным нанесением и гармоничными оттенками губ.",
+      "prompts": [
+        {
+          "id": "makeup-15",
+          "title": "Cobalt Coral",
+          "titleRu": "Кобальтовые стрелки и коралловые губы",
+          "body": "makeup: bold cobalt winged eyeliner, soft bronze eyeshadow, lifted outer lashes, vivid coral-red lips, and coral blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/cobalt-coral.webp"
+        },
+        {
+          "id": "makeup-16",
+          "title": "Emerald Ruby",
+          "titleRu": "Изумрудные стрелки и рубиновые губы",
+          "body": "makeup: saturated emerald eyeliner, smoky olive-gold eyeshadow, satin ruby-red lips, and muted warm rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/emerald-ruby.webp"
+        },
+        {
+          "id": "makeup-17",
+          "title": "Violet Halo",
+          "titleRu": "Фиолетовый ореол",
+          "body": "makeup: black tightline, saturated violet halo eyeshadow with a bright lavender center, full rounded lashes, and vivid magenta-rose lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/violet-halo.webp"
+        },
+        {
+          "id": "makeup-18",
+          "title": "Fuchsia Silver Star",
+          "titleRu": "Фуксия и серебряная звезда",
+          "body": "makeup: crisp black winged eyeliner, vivid fuchsia eyeshadow concentrated on the outer lids, glossy berry-pink lips, and a single tiny silver star sticker beside one outer eye",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/fuchsia-silver-star.webp"
+        },
+        {
+          "id": "makeup-19",
+          "title": "Teal Copper",
+          "titleRu": "Бирюзовые стрелки и медные тени",
+          "body": "makeup: sharp teal eyeliner, burnished copper eyeshadow, satin brick-red lips, and warm terracotta blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/teal-copper.webp"
+        },
+        {
+          "id": "makeup-20",
+          "title": "Electric Lilac",
+          "titleRu": "Неоново-сиреневая дымка",
+          "body": "makeup: saturated violet eyeliner, electric lilac eyeshadow, lengthened lower lashes, glossy orchid-pink lips, and cool rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/electric-lilac.webp"
+        },
+        {
+          "id": "makeup-37",
+          "title": "Tangerine Cobalt Fringe",
+          "titleRu": "Мандариновые тени и кобальтовые ресницы",
+          "body": "makeup: sharp cobalt winged eyeliner, vivid tangerine eyeshadow, dense cobalt-blue false lashes in a long outer-fringe shape, satin coral lips, and warm peach blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/tangerine-cobalt-fringe.webp"
+        },
+        {
+          "id": "makeup-38",
+          "title": "Lime Plum Voltage",
+          "titleRu": "Лаймовые тени и сливовые ресницы",
+          "body": "makeup: deep plum eyeliner, electric lime eyeshadow, long plum false lashes with alternating clustered lengths across the upper lash lines, glossy berry lips, and cool pink blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/lime-plum-voltage.webp"
+        },
+        {
+          "id": "makeup-39",
+          "title": "Indigo Ruby Fringe",
+          "titleRu": "Тени индиго и рубиновые ресницы",
+          "body": "makeup: black tightline, saturated indigo eyeshadow, vivid ruby false lashes with a dense straight fringe and the longest fibers at the centers, and satin cherry-red lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/indigo-ruby-fringe.webp"
+        }
+      ]
+    },
+    {
+      "id": "glitter-metallic",
+      "name": "Glitter & Metallic",
+      "nameRu": "Глиттер и металлик",
+      "description": "Foiled, shimmering and glittered eyes balanced by deliberate eyeliner and complementary lips.",
+      "descriptionRu": "Сияющие тени с эффектом фольги, металлика или глиттера, дополненные чёткой подводкой и гармоничным оттенком губ.",
+      "prompts": [
+        {
+          "id": "makeup-21",
+          "title": "Antique Gold Foil",
+          "titleRu": "Тени с эффектом фольги в оттенке античного золота",
+          "body": "makeup: fine black winged eyeliner, antique-gold metallic eyeshadow covering the lids, satin oxblood lips, and muted brick-rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/antique-gold-foil.webp"
+        },
+        {
+          "id": "makeup-22",
+          "title": "Silver Smoke",
+          "titleRu": "Серебряная дымка",
+          "body": "makeup: charcoal eyeliner, metallic silver eyeshadow smoked with graphite at the outer corners, satin muted-plum lips, and cool mauve blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/silver-smoke.webp"
+        },
+        {
+          "id": "makeup-23",
+          "title": "Copper Glitter Halo",
+          "titleRu": "Медное сияние с глиттером",
+          "body": "makeup: espresso eyeliner, copper glitter eyeshadow centered on the lids and diffused into matte brown, satin terracotta-red lips, and warm peach blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/copper-glitter-halo.webp"
+        },
+        {
+          "id": "makeup-24",
+          "title": "Rose Gold Halo",
+          "titleRu": "Сияние розового золота",
+          "body": "makeup: burgundy eyeliner, rose-gold metallic halo eyeshadow, satin dusty-rose lips, and muted rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/rose-gold-halo.webp"
+        },
+        {
+          "id": "makeup-25",
+          "title": "Emerald Foil Gem",
+          "titleRu": "Изумрудный металлик и кристалл",
+          "body": "makeup: deep green eyeliner, emerald metallic eyeshadow, satin blackberry-rose lips, and a single tiny clear gem beneath one outer eye",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/emerald-foil-gem.webp"
+        },
+        {
+          "id": "makeup-40",
+          "title": "Sapphire Tinsel Lashes",
+          "titleRu": "Сапфировые тени и ресницы с серебристыми кончиками",
+          "body": "makeup: navy eyeliner, sapphire metallic eyeshadow, long black false lashes with fine silver-tipped fibers concentrated at the outer corners, and satin blackberry lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/sapphire-tinsel-lashes.webp"
+        },
+        {
+          "id": "makeup-41",
+          "title": "Opal Violet Spikes",
+          "titleRu": "Опаловые тени и фиолетовые ресницы",
+          "body": "makeup: violet eyeliner, opal shimmer eyeshadow, sparse violet false lashes with sharp separated spikes and graduated outer length, glossy lilac-pink lips, and cool rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/opal-violet-spikes.webp"
+        },
+        {
+          "id": "makeup-42",
+          "title": "Pewter Bronze Fringe",
+          "titleRu": "Глиттер оловянного оттенка и бронзовые ресницы",
+          "body": "makeup: bronze-brown eyeliner, pewter glitter eyeshadow, full bronze false lashes with a short dense fringe across the upper lash lines, and satin brick-rose lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/pewter-bronze-fringe.webp"
+        }
+      ]
+    },
+    {
+      "id": "gothic-dark",
+      "name": "Gothic & Dark",
+      "nameRu": "Готический и тёмный макияж",
+      "description": "Dark, controlled looks built from smoked eyes, elongated liner and deep lip colors.",
+      "descriptionRu": "Тёмные выразительные образы с дымчатыми тенями, вытянутыми стрелками и глубокими оттенками губ.",
+      "prompts": [
+        {
+          "id": "makeup-26",
+          "title": "Black Cherry Smoke",
+          "titleRu": "Угольная дымка и губы цвета чёрной вишни",
+          "body": "makeup: elongated black eyeliner, matte charcoal eyeshadow deepened to black at the outer corners, dense upper and lower lashes, and matte black-cherry lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/black-cherry-smoke.webp"
+        },
+        {
+          "id": "makeup-27",
+          "title": "Burgundy Gothic Wing",
+          "titleRu": "Готические стрелки и бордовые тени",
+          "body": "makeup: sharp black winged eyeliner, deep burgundy eyeshadow, pointed outer lashes, matte crimson lips, and muted wine blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/burgundy-gothic-wing.webp"
+        },
+        {
+          "id": "makeup-28",
+          "title": "Aubergine Nocturne",
+          "titleRu": "Баклажановая дымка",
+          "body": "makeup: black tightline, smoky aubergine eyeshadow, satin dark-plum lips, and cool mauve blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/aubergine-nocturne.webp"
+        },
+        {
+          "id": "makeup-29",
+          "title": "Obsidian Taupe",
+          "titleRu": "Чёрные стрелки и холодный тауп",
+          "body": "makeup: precise elongated black eyeliner, matte cool-taupe eyeshadow, sharply defined upper and lower lashes, and matte black lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/obsidian-taupe.webp"
+        },
+        {
+          "id": "makeup-30",
+          "title": "Smoked Rose Noir",
+          "titleRu": "Угольная дымка с пыльной розой",
+          "body": "makeup: smudged black eyeliner, charcoal eyeshadow with a dusty-rose center, wispy pointed lashes, satin oxblood lips, and muted mauve blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/smoked-rose-noir.webp"
+        },
+        {
+          "id": "makeup-43",
+          "title": "Moss Needle Lashes",
+          "titleRu": "Тени цвета мха и ресницы с тонкими острыми пучками",
+          "body": "makeup: smudged moss-black eyeliner, matte deep-moss eyeshadow, sparse black false lashes with long needle-thin spikes at the outer corners, and matte olive-brown lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/moss-needle-lashes.webp"
+        },
+        {
+          "id": "makeup-44",
+          "title": "Bone Wine Fringe",
+          "titleRu": "Светлые тени и винные ресницы",
+          "body": "makeup: sharp wine eyeliner, matte bone eyeshadow, dense wine-red false lashes with a jagged medium-length fringe across the upper lash lines, matte oxblood lips, and muted wine blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/bone-wine-fringe.webp"
+        },
+        {
+          "id": "makeup-45",
+          "title": "Midnight Lower Clusters",
+          "titleRu": "Полуночная дымка и нижние пучки ресниц",
+          "body": "makeup: black winged eyeliner, midnight-blue smoky eyeshadow, short black false lashes arranged in clusters along the lower lash lines, and matte deep-plum lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/midnight-lower-clusters.webp"
+        }
+      ]
+    }
+  ]
+}

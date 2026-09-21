@@ -42,6 +42,7 @@
       <a href="poses.html" class="nav-link"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
       <a href="restyle.html" class="nav-link"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
       <a href="hair.html" class="nav-link"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
+      <a href="makeup.html" class="nav-link"><span class="lang-en">Makeup</span><span class="lang-ru">Макияж</span></a>
       <a href="outfits.html" class="nav-link"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
       <a href="wardrobe.html" class="nav-link"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
       <a href="tools.html" class="nav-link"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
@@ -71,6 +72,7 @@
     <a href="poses.html"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
     <a href="restyle.html"><span class="lang-en">Restyle</span><span class="lang-ru">Рестайл</span></a>
     <a href="hair.html"><span class="lang-en">Hair</span><span class="lang-ru">Причёски</span></a>
+    <a href="makeup.html"><span class="lang-en">Makeup</span><span class="lang-ru">Макияж</span></a>
     <a href="outfits.html"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></a>
     <a href="wardrobe.html"><span class="lang-en">Wardrobe</span><span class="lang-ru">Гардероб</span></a>
     <a href="tools.html"><span class="lang-en">Tools</span><span class="lang-ru">Инструменты</span></a>
@@ -256,6 +258,11 @@
               <span class="collection-entry-count">230</span>
               <span class="collection-entry-desc"><span class="lang-en">Ready-made <code>hairstyle:</code> lines with structure, texture, and styling details.</span><span class="lang-ru">Готовые строки <code>hairstyle:</code> со структурой, текстурой и деталями укладки.</span></span>
             </a>
+            <a href="makeup.html" class="collection-entry">
+              <span class="collection-entry-name"><span class="lang-en">Makeup</span><span class="lang-ru">Макияж</span></span>
+              <span class="collection-entry-count">45</span>
+              <span class="collection-entry-desc"><span class="lang-en">Copy-ready <code>makeup:</code> lines for eyes, lips, blush, and restrained accents.</span><span class="lang-ru">Готовые строки <code>makeup:</code> для глаз, губ, румян и аккуратных акцентов.</span></span>
+            </a>
             <a href="outfits.html" class="collection-entry">
               <span class="collection-entry-name"><span class="lang-en">Outfits</span><span class="lang-ru">Образы</span></span>
               <span class="collection-entry-count">1,100</span>
@@ -321,11 +328,11 @@
           <article class="recipe-entry">
             <header class="recipe-head">
               <span class="recipe-index">03</span>
-              <div><p class="recipe-type"><span class="lang-en">Character styling</span><span class="lang-ru">Оформление персонажа</span></p><h3><span class="lang-en">Base prompt, outfit, and hair</span><span class="lang-ru">Основной промпт, образ и причёска</span></h3></div>
+              <div><p class="recipe-type"><span class="lang-en">Character styling</span><span class="lang-ru">Оформление персонажа</span></p><h3><span class="lang-en">Base prompt and styling</span><span class="lang-ru">Основной промпт и детали образа</span></h3></div>
             </header>
             <div class="recipe-body">
-              <p><span class="lang-en">Use one complete OOC for direction, then append a single <code>clothes:</code> line and a single <code>hairstyle:</code> line. The Wardrobe is useful when no ready-made outfit matches the character.</span><span class="lang-ru">Используйте один готовый OOC для общей постановки, затем добавьте одну строку <code>clothes:</code> и одну строку <code>hairstyle:</code>. Если среди готовых образов нет подходящего, соберите свой в Гардеробе.</span></p>
-              <div class="recipe-formula"><span><span class="lang-en">Complete OOC</span><span class="lang-ru">Готовый OOC</span></span><span>+</span><a href="outfits.html"><code>clothes:</code></a><span>+</span><a href="hair.html"><code>hairstyle:</code></a></div>
+              <p><span class="lang-en">Use one complete OOC for direction, then add any relevant outfit, hairstyle, and makeup lines before <code>&lt;/ooc&gt;</code>. Use no more than one line of each type. The Wardrobe is useful when no ready-made outfit matches the character.</span><span class="lang-ru">Используйте один готовый OOC для общей постановки, затем перед <code>&lt;/ooc&gt;</code> добавьте нужные строки одежды, причёски и макияжа — не более одной строки каждого типа. Если среди готовых образов нет подходящего, соберите свой в Гардеробе.</span></p>
+              <div class="recipe-formula"><span><span class="lang-en">Complete OOC</span><span class="lang-ru">Готовый OOC</span></span><span>+</span><a href="outfits.html"><code>clothes:</code></a><span>+</span><a href="hair.html"><code>hairstyle:</code></a><span>+</span><a href="makeup.html"><code>makeup:</code></a></div>
               <p class="recipe-alternative"><span class="lang-en">Alternative:</span><span class="lang-ru">Альтернатива:</span> <a href="wardrobe.html"><span class="lang-en">build a custom outfit in Wardrobe</span><span class="lang-ru">соберите собственный образ в Гардеробе</span></a>.</p>
             </div>
           </article>
@@ -393,8 +400,8 @@
             <div class="legend-item">
               <span class="legend-dot" style="background: var(--a-fragment)"></span>
               <span>
-                <span class="lang-en"><strong>Reusable fragment</strong> - an optional pose, expression, outfit, or hairstyle detail. Add it after the base direction and assign it clearly when several characters are present.</span>
-                <span class="lang-ru"><strong>Универсальный фрагмент</strong> - дополнительная поза, эмоция, одежда или причёска. Добавляйте его после основной инструкции и точно указывайте персонажа, если их несколько.</span>
+                <span class="lang-en"><strong>Reusable fragment</strong> - an optional pose, expression, outfit, hairstyle, or makeup detail. Add it after the base direction and assign it clearly when several characters are present.</span>
+                <span class="lang-ru"><strong>Универсальный фрагмент</strong> - дополнительная поза, эмоция, одежда, причёска или макияж. Добавляйте его после основной инструкции и точно указывайте персонажа, если их несколько.</span>
               </span>
             </div>
             <div class="legend-item">
