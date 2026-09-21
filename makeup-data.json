@@ -176,6 +176,14 @@
           "body": "makeup: tapered sable eyeliner, porcelain-beige eyeshadow, long dark-brown false lashes swept toward the outer corners with refined density, satin muted-red lips, and neutral rose blush",
           "hasImage": true,
           "imgSrc": "assets/makeup/porcelain-sable-sweep.webp"
+        },
+        {
+          "id": "makeup-68",
+          "title": "Cashmere Wine Flick",
+          "titleRu": "Кашемировые тени и винные стрелки",
+          "body": "makeup: precise wine-red kitten eyeliner, matte cashmere-beige eyeshadow, softly fanned brown lashes, satin muted-wine lips, and restrained rose blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/cashmere-wine-flick.webp"
         }
       ]
     },
@@ -330,6 +338,14 @@
           "body": "makeup: bronze-brown eyeliner, pewter glitter eyeshadow, full bronze false lashes with a short dense fringe across the upper lash lines, and satin brick-rose lips",
           "hasImage": true,
           "imgSrc": "assets/makeup/pewter-bronze-fringe.webp"
+        },
+        {
+          "id": "makeup-69",
+          "title": "Moonstone Chrome Veil",
+          "titleRu": "Лунный хром и жемчужное сияние",
+          "body": "makeup: graphite eyeliner, moonstone chrome eyeshadow shifting from icy blue to pearl-lilac across the lids, fine black lashes, cool luminous blush, and metallic mauve-nude lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/moonstone-chrome-veil.webp"
         }
       ]
     },
@@ -403,6 +419,208 @@
           "body": "makeup: black winged eyeliner, midnight-blue smoky eyeshadow, short black false lashes arranged in clusters along the lower lash lines, and matte deep-plum lips",
           "hasImage": true,
           "imgSrc": "assets/makeup/midnight-lower-clusters.webp"
+        },
+        {
+          "id": "makeup-70",
+          "title": "Crimson Thorn Halo",
+          "titleRu": "Багровый ореол и терновые стрелки",
+          "body": "makeup: blackened-crimson halo eyeshadow, sharp black eyeliner branching into fine thorn-like points at the outer corners, sparse spiked upper and lower lashes, matte dark-crimson lips, and muted wine blush",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/crimson-thorn-halo.webp"
+        }
+      ]
+    },
+    {
+      "id": "fantasy-ethereal",
+      "name": "Fantasy & Ethereal",
+      "nameRu": "Фэнтези и неземные образы",
+      "description": "Mythic face designs, painted symbols and sculptural lashes inspired by celestial, elemental and legendary forms.",
+      "descriptionRu": "Мифические узоры, нарисованные символы и необычные ресницы, вдохновлённые небесными, стихийными и легендарными образами.",
+      "prompts": [
+        {
+          "id": "makeup-46",
+          "title": "Moonvine Filigree",
+          "titleRu": "Лунные лозы и золотая филигрань",
+          "body": "makeup: pearl-sage eyeshadow, ivory tightline, softly defined natural lashes, fine metallic-gold vines curling from the outer eyes across the temples with tiny crescent-shaped leaves, and opalescent nude lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/moonvine-filigree.webp"
+        },
+        {
+          "id": "makeup-47",
+          "title": "Dragonfire Sigil",
+          "titleRu": "Печать драконьего пламени",
+          "body": "makeup: molten copper-to-crimson eyeshadow, sharp black eyeliner drawn into a dragon-head silhouette at one outer eye, branching ember-red flame patterns sweeping across both temples, smoked natural lashes, and lacquered garnet lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/dragonfire-sigil.webp"
+        },
+        {
+          "id": "makeup-48",
+          "title": "Constellation Veil",
+          "titleRu": "Вуаль созвездий",
+          "body": "makeup: midnight-indigo eyeshadow diffused into a translucent blue veil across the upper cheeks, fine silver constellation lines and pinprick stars scattered asymmetrically around the eyes, silver inner-corner highlights, softly lengthened lashes, and cool berry lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/constellation-veil.webp"
+        },
+        {
+          "id": "makeup-49",
+          "title": "Angelic Gilded Wings",
+          "titleRu": "Ангельские крылья в золотой росписи",
+          "body": "makeup: luminous ivory-gold eyeshadow, symmetrical feathered wings painted in white and pale gold from the outer eyes toward the temples, fine champagne eyeliner, delicate natural lashes, a slender gold halo arc above each brow, and pearlescent rose lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/angelic-gilded-wings.webp"
+        },
+        {
+          "id": "makeup-50",
+          "title": "Frost Rune Lace",
+          "titleRu": "Морозные руны и ледяное кружево",
+          "body": "makeup: icy blue-silver eyeshadow, pale blue eyeliner, white runic glyphs linked by frost-lace filigree around the eyes and over the bridge of the nose, crystal shimmer tears beneath the lower lash lines, fine natural lashes, and muted lilac lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/frost-rune-lace.webp"
+        },
+        {
+          "id": "makeup-51",
+          "title": "Mermaid Scale Aurora",
+          "titleRu": "Русалочья чешуя и сияние авроры",
+          "body": "makeup: seafoam eyeliner, teal-to-violet aurora eyeshadow, overlapping iridescent scale patterns painted from the temples onto the cheekbones with scattered pearl highlights, softly curled natural lashes, and glossy blue-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/mermaid-scale-aurora.webp"
+        },
+        {
+          "id": "makeup-52",
+          "title": "Seraphim Feather Fans",
+          "titleRu": "Перья серафима и веерные ресницы",
+          "body": "makeup: luminous white-gold eyeshadow, fine metallic-gold eyeliner, oversized white false lashes formed as layered feather fans above and below the eyes with the longest fibers at the outer corners and brushed-gold tips, faint halo rings painted around the eyes, and pearl-nude lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/seraphim-feather-fans.webp"
+        },
+        {
+          "id": "makeup-53",
+          "title": "Infernal Flame Lashes",
+          "titleRu": "Ресницы адского пламени",
+          "body": "makeup: black-to-ember smoky eyeshadow, molten-gold eyeliner, oversized red-orange false lashes with long curved fibers arranged like rising flames in dense upper fans and sparse lower sparks, glowing ember dots beneath the eyes, and lacquered black-cherry lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/infernal-flame-lashes.webp"
+        },
+        {
+          "id": "makeup-54",
+          "title": "Emerald Dragonwing Lashes",
+          "titleRu": "Изумрудные ресницы-крылья дракона",
+          "body": "makeup: blackened emerald eyeshadow, sharp obsidian eyeliner, oversized emerald false lashes shaped like segmented dragon wings with black-veined panels and rigid pointed spines extending past the outer corners, fine gold scales at the temples, and deep forest-green lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/emerald-dragonwing-lashes.webp"
+        },
+        {
+          "id": "makeup-55",
+          "title": "Starlight Moth Lashes",
+          "titleRu": "Ресницы-крылья звёздного мотылька",
+          "body": "makeup: dusky violet-blue eyeshadow, silver tightline, oversized iridescent false lashes shaped like luna moth wings with broad patterned upper fans and long delicate lower tails, scattered starlight glitter across the temples, and translucent lavender lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/starlight-moth-lashes.webp"
+        }
+      ]
+    },
+    {
+      "id": "pink-glam",
+      "name": "Pink Glam",
+      "nameRu": "Розовый гламур",
+      "description": "Glossy pink statements ranging from polished queen-bee makeup to playful doll-like glamour.",
+      "descriptionRu": "Глянцевые розовые образы: от безупречного макияжа королевы школы до игривого кукольного гламура.",
+      "prompts": [
+        {
+          "id": "makeup-56",
+          "title": "Bubblegum Bombshell",
+          "titleRu": "Гламур цвета розовой жвачки",
+          "body": "makeup: bubblegum-pink cut-crease eyeshadow, sharp jet-black winged eyeliner, dense flared black false lashes, high doll-pink blush, and dramatically overlined high-shine pale-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/bubblegum-bombshell.webp"
+        },
+        {
+          "id": "makeup-57",
+          "title": "Queen Bee Blush",
+          "titleRu": "Румяна королевы школы",
+          "body": "makeup: matte petal-pink eyeshadow, precise chocolate-brown kitten eyeliner, neatly separated upper lashes, cool rose blush swept high along the cheekbones, and lacquered raspberry-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/queen-bee-blush.webp"
+        },
+        {
+          "id": "makeup-58",
+          "title": "Frosted Flip-Phone",
+          "titleRu": "Розовый иней в стиле нулевых",
+          "body": "makeup: frosted baby-pink eyeshadow with an icy lilac sheen, silver-white inner-corner highlights, thin charcoal eyeliner, spiky Y2K lashes, pale pink blush, and pearly bubblegum lip gloss",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/frosted-flip-phone.webp"
+        },
+        {
+          "id": "makeup-59",
+          "title": "Rhinestone Cat-Eye",
+          "titleRu": "Розовые стрелки со стразами",
+          "body": "makeup: sharp hot-pink cat-eye eyeliner over soft nude-pink eyeshadow, lifted black outer-corner lashes, a neat line of three clear rhinestones beneath each outer eye, sculpted pink blush, and glassy nude-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/rhinestone-cat-eye.webp"
+        },
+        {
+          "id": "makeup-60",
+          "title": "Cherry Gloss Clique",
+          "titleRu": "Вишнёвый блеск и розовая дымка",
+          "body": "makeup: softly smoked rosy-mauve eyeliner, satin blush-pink eyeshadow, feathered black lashes, sheer strawberry blush, and plump cherry-pink glossy lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/cherry-gloss-clique.webp"
+        },
+        {
+          "id": "makeup-61",
+          "title": "Cotton-Candy Cut Crease",
+          "titleRu": "Розово-голубой макияж с чёткой складкой",
+          "body": "makeup: pastel-pink cut-crease eyeshadow edged with powder-blue eyeliner, white shimmer across the lids, full rounded lashes, cotton-candy pink blush, and creamy cool-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/cotton-candy-cut-crease.webp"
+        },
+        {
+          "id": "makeup-62",
+          "title": "Dollhouse Pink Halo",
+          "titleRu": "Кукольный розовый ореол",
+          "body": "makeup: bright doll-pink halo eyeshadow, white waterline, painted lower doll lashes, oversized rounded black false lashes, circular baby-pink blush, and glossy porcelain-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/dollhouse-pink-halo.webp"
+        },
+        {
+          "id": "makeup-63",
+          "title": "Flamingo Pink Glow",
+          "titleRu": "Сияющий гламур в оттенках фламинго",
+          "body": "makeup: vivid flamingo-pink winged eyeliner, metallic rose-pink eyeshadow blended into narrow bronze outer corners, long flared brown false lashes, saturated hot-pink blush swept over warm bronzed cheeks, and lacquered watermelon-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/flamingo-pink-glow.webp"
+        },
+        {
+          "id": "makeup-64",
+          "title": "Prom Queen Sparkle",
+          "titleRu": "Сияние королевы бала",
+          "body": "makeup: sparkling hot-pink eyeshadow fading into pale rose at the brow bones, crisp fuchsia winged eyeliner, long lifted black false lashes, luminous candy-pink blush, glossy magenta-pink lips, and a single heart-shaped pink crystal beneath one eye",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/prom-queen-sparkle.webp"
+        },
+        {
+          "id": "makeup-65",
+          "title": "Black Bow Pink Wing",
+          "titleRu": "Розовые стрелки с чёрными бантиками",
+          "body": "makeup: graphic black-and-pink double-wing eyeliner, pale pink eyeshadow, sharp cat-eye lashes, tiny black bow accents at the outer corners, cool pink blush, and glossy fuchsia lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/black-bow-pink-wing.webp"
+        },
+        {
+          "id": "makeup-66",
+          "title": "Cloud Nine White Lashes",
+          "titleRu": "Белые ресницы и розовое облако",
+          "body": "makeup: soft bubblegum-pink halo eyeshadow, crisp white eyeliner, oversized snowy-white false lashes with dense feathered upper fans and fine lower clusters, luminous cool-pink blush, and glossy marshmallow-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/cloud-nine-white-lashes.webp"
+        },
+        {
+          "id": "makeup-67",
+          "title": "Candy Ribbon Lashes",
+          "titleRu": "Ресницы-ленты в розовых оттенках",
+          "body": "makeup: glossy candy-pink eyeshadow, deep fuchsia eyeliner, oversized false lashes layered in alternating baby-pink, hot-pink and coral-pink fibers with curled ribbon-like outer tips, bright strawberry blush, and lacquered raspberry-pink lips",
+          "hasImage": true,
+          "imgSrc": "assets/makeup/candy-ribbon-lashes.webp"
         }
       ]
     }
