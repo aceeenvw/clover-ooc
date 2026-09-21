@@ -1,9 +1,4 @@
-/* ═══════════════════════════════════════════════
-   CLOVER OOC - OUTFITS JS
-   820 outfits across 19 sections (560 female, 260 male). Click card body to copy,
-   click card to open modal with full image + body.
-   aceenvw
-   ═══════════════════════════════════════════════ */
+/* CLOVER OOC - OUTFITS */
 
 (function() {
   'use strict';
@@ -64,15 +59,9 @@
   // ═══ HELPERS ═══
   const getLang = window.cloverLang;
 
-  // i18n: titles localize when lang=ru AND a translation exists.
-  // Bodies never localize - see outfitBody below.
+  // Titles localize when a Russian translation exists.
   function outfitTitle(o) {
     return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
-  }
-  // The clothes: line stays English in both languages - it is the canonical
-  // prompt that gets copied, and the title plus image already carry the intent.
-  function outfitBody(o) {
-    return o ? o.body : '';
   }
 
   function matchesFilter(outfit, filterLower) {
@@ -86,15 +75,11 @@
       (outfit.titleRu || '') + ' ' +
       outfit.body
     ).toLowerCase();
-    return hay.includes(filterLower) || String(outfit.number).includes(filterLower);
+    return hay.includes(filterLower);
   }
 
   // ═══ TOAST ═══
   const showToast = window.cloverToast;
-
-  async function copyText(text) {
-    return window.cloverCopy(text);
-  }
 
   // ═══ PLACEHOLDER (used when an outfit has no image) ═══
   function createPlaceholder() {
@@ -119,10 +104,14 @@
     const card = document.createElement('article');
     card.className = 'outfit-card';
     card.setAttribute('data-outfit-id', outfit.id);
-    card.setAttribute('tabindex', '0');
-    card.setAttribute('role', 'button');
-    card.setAttribute('aria-label',
+
+    const open = document.createElement('button');
+    open.type = 'button';
+    open.className = 'outfit-card-open';
+    open.setAttribute('aria-label',
       (getLang() === 'ru' ? 'Открыть образ ' : 'Open outfit ') + outfitTitle(outfit));
+    open.addEventListener('click', () => openModal(outfit.id));
+    card.appendChild(open);
 
     // Image / placeholder
     const imgWrap = document.createElement('div');
@@ -145,31 +134,61 @@
     const content = document.createElement('div');
     content.className = 'outfit-card-content';
 
-    const head = document.createElement('div');
-    head.className = 'outfit-card-head';
-    const num = document.createElement('span');
-    num.className = 'outfit-card-num';
-    num.textContent = '#' + outfit.number;
+    const heading = document.createElement('div');
+    heading.className = 'outfit-card-heading';
+
     const title = document.createElement('h3');
     title.className = 'outfit-card-title';
     title.textContent = outfitTitle(outfit);
-    head.appendChild(num);
-    head.appendChild(title);
-    content.appendChild(head);
+    heading.appendChild(title);
 
-    // Body - click to copy.
-    // DISPLAY uses outfitBody() (RU when lang=ru); COPY always uses outfit.body
-    // (English) so the model receives the canonical "clothes: …" line.
+    const expand = document.createElement('button');
+    expand.type = 'button';
+    expand.className = 'outfit-card-expand';
+    expand.setAttribute('aria-expanded', 'false');
+    expand.setAttribute('aria-label',
+      getLang() === 'ru' ? 'Показать описание образа' : 'Show outfit description');
+
+    const expandIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    expandIcon.setAttribute('viewBox', '0 0 24 24');
+    expandIcon.setAttribute('fill', 'none');
+    expandIcon.setAttribute('stroke', 'currentColor');
+    expandIcon.setAttribute('stroke-width', '2');
+    expandIcon.setAttribute('stroke-linecap', 'round');
+    expandIcon.setAttribute('stroke-linejoin', 'round');
+    expandIcon.setAttribute('aria-hidden', 'true');
+    const expandPath = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+    expandPath.setAttribute('points', '6 9 12 15 18 9');
+    expandIcon.appendChild(expandPath);
+    expand.appendChild(expandIcon);
+
+    heading.appendChild(expand);
+    content.appendChild(heading);
+
+    // Prompt bodies remain canonical English in both interface languages.
     const bodyEl = document.createElement('button');
     bodyEl.type = 'button';
     bodyEl.className = 'outfit-card-body';
+    bodyEl.id = `outfit-body-${outfit.id}`;
+    bodyEl.hidden = true;
     bodyEl.setAttribute('aria-label',
       getLang() === 'ru' ? 'Скопировать строку clothes' : 'Copy clothes line');
-    bodyEl.textContent = outfitBody(outfit);
+    bodyEl.textContent = outfit.body;
+    expand.setAttribute('aria-controls', bodyEl.id);
+
+    expand.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const willExpand = bodyEl.hidden;
+      bodyEl.hidden = !willExpand;
+      expand.setAttribute('aria-expanded', String(willExpand));
+      expand.setAttribute('aria-label', getLang() === 'ru'
+        ? (willExpand ? 'Скрыть описание образа' : 'Показать описание образа')
+        : (willExpand ? 'Hide outfit description' : 'Show outfit description'));
+    });
 
     async function doCopy(e) {
       if (e) e.stopPropagation();
-      const ok = await copyText(outfit.body);
+      const ok = await window.cloverCopy(outfit.body);
       if (ok) {
         bodyEl.classList.add('is-copied');
         setTimeout(() => bodyEl.classList.remove('is-copied'), 900);
@@ -181,32 +200,7 @@
     bodyEl.addEventListener('click', doCopy);
     content.appendChild(bodyEl);
 
-    // Hint row
-    const hint = document.createElement('div');
-    hint.className = 'outfit-card-hint';
-    const hintEn = document.createElement('span');
-    hintEn.className = 'lang-en';
-    hintEn.textContent = 'click text to copy · click card for full view';
-    const hintRu = document.createElement('span');
-    hintRu.className = 'lang-ru';
-    hintRu.textContent = 'Нажмите на текст, чтобы скопировать · нажмите на карточку, чтобы открыть полностью';
-    hint.appendChild(hintEn);
-    hint.appendChild(hintRu);
-    content.appendChild(hint);
-
     card.appendChild(content);
-
-    // Card click (anywhere except the body) → open modal
-    card.addEventListener('click', (e) => {
-      if (e.target.closest('.outfit-card-body')) return;
-      openModal(outfit.id);
-    });
-    card.addEventListener('keydown', (e) => {
-      if ((e.key === 'Enter' || e.key === ' ') && !e.target.closest('.outfit-card-body')) {
-        e.preventDefault();
-        openModal(outfit.id);
-      }
-    });
 
     return card;
   }
@@ -350,7 +344,6 @@
     const o = allOutfits.find(p => p.id === outfitId);
     if (!o) return;
     modal.querySelector('.modal-content').dataset.outfitId = o.id;
-    modal.querySelector('.modal-number').textContent = '#' + o.number;
     modal.querySelector('.modal-title').textContent = outfitTitle(o);
 
     const imageContainer = modal.querySelector('.modal-image-container');
@@ -366,9 +359,7 @@
       imageContainer.appendChild(createPlaceholder());
     }
 
-    // Display uses outfitBody() (RU when lang=ru); the Copy button below
-    // still copies o.body (English).
-    modal.querySelector('.modal-prompt-text code').textContent = outfitBody(o);
+    modal.querySelector('.modal-prompt-text code').textContent = o.body;
 
     modal.classList.add('active');
     modal.setAttribute('aria-hidden', 'false');
@@ -393,7 +384,7 @@
     const id = modal.querySelector('.modal-content').dataset.outfitId;
     const o = allOutfits.find(p => p.id === id);
     if (!o) return;
-    const ok = await copyText(o.body);
+    const ok = await window.cloverCopy(o.body);
     if (ok) {
       const btn = modal.querySelector('.modal-copy-btn');
       const en = btn.querySelector('.lang-en');
@@ -511,8 +502,7 @@
     searchInput.placeholder = getLang() === 'ru' ? 'Поиск образов...' : 'Search outfits...';
   }
 
-  // Re-render on language change. Also refresh an open modal so its title +
-  // body swap immediately (otherwise stale text lingers until close+reopen).
+  // Re-render localized titles and labels after a language change.
   const langObserver = new MutationObserver(() => {
     updatePlaceholders();
     render();
@@ -521,7 +511,7 @@
       const o = allOutfits.find(p => p.id === openId);
       if (o) {
         modal.querySelector('.modal-title').textContent = outfitTitle(o);
-        modal.querySelector('.modal-prompt-text code').textContent = outfitBody(o);
+        modal.querySelector('.modal-prompt-text code').textContent = o.body;
         const modalImg = modal.querySelector('.modal-image-container img');
         if (modalImg) modalImg.alt = outfitTitle(o);
       }

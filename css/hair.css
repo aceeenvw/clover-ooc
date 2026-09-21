@@ -298,11 +298,13 @@
 .hair-cards {
   display: grid;
   grid-template-columns: 1fr;
+  align-items: start;
   gap: 1rem;
   padding-top: 0.95rem;
 }
 
 .hair-card {
+  position: relative;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -319,9 +321,20 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
 }
 
-.hair-card:focus-visible {
+.hair-card-open {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hair-card-open:focus-visible {
   outline: 2px solid var(--accent);
-  outline-offset: 2px;
+  outline-offset: -3px;
 }
 
 /* ─ Image area ─ */
@@ -375,9 +388,8 @@
 
 .hair-card-head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.55rem;
-  flex-wrap: wrap;
 }
 
 .hair-card-num {
@@ -391,6 +403,8 @@
 }
 
 .hair-card-title {
+  flex: 1;
+  min-width: 0;
   margin: 0;
   font-family: var(--font-display);
   font-size: 1.1rem;
@@ -400,7 +414,47 @@
   word-break: break-word;
 }
 
+.hair-card-expand {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  flex: 0 0 2.15rem;
+  width: 2.15rem;
+  height: 2.15rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--accent-faint);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease, color 0.18s ease;
+}
+
+.hair-card-expand:hover {
+  border-color: var(--accent);
+  background: var(--bg-surface);
+  color: var(--accent);
+}
+
+.hair-card-expand:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.hair-card-expand svg {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.18s ease;
+}
+
+.hair-card-expand[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
 .hair-card-body {
+  position: relative;
+  z-index: 2;
   display: block;
   width: 100%;
   font-family: var(--font-mono);
@@ -422,6 +476,10 @@
   transition: border-color 0.18s ease, background-color 0.18s ease;
 }
 
+.hair-card-body[hidden] {
+  display: none;
+}
+
 .hair-card-body:hover {
   border-color: var(--accent);
 }
@@ -434,12 +492,6 @@
 .hair-card-body.is-copied {
   background: var(--accent-faint);
   border-color: var(--accent);
-}
-
-.hair-card-hint {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--text-dim);
 }
 
 /* ═══ MODAL (lifted from catalogue.css) ═══ */
@@ -640,8 +692,12 @@
   .hair-cards { grid-template-columns: repeat(3, 1fr); }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1100px) {
   .hair-cards { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hair-card-expand svg { transition: none; }
 }
 
 @media (max-width: 480px) {

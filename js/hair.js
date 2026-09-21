@@ -68,14 +68,8 @@
   const getLang = window.cloverLang;
 
   // i18n: titles localize when lang=ru AND a translation exists.
-  // Bodies never localize - see hairBody below.
   function hairTitle(o) {
     return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
-  }
-  // The hairstyle: line stays English in both languages - it is the canonical
-  // prompt that gets copied, and the title plus image already carry the intent.
-  function hairBody(o) {
-    return o ? o.body : '';
   }
 
   function matchesFilter(item, filterLower) {
@@ -118,11 +112,6 @@
 
   // ═══ TOAST ═══
   const showToast = window.cloverToast;
-
-  // Delegates to the shared hardened helper (textarea/execCommand fallback).
-  async function copyText(text) {
-    return window.cloverCopy(text);
-  }
 
   // ═══ PLACEHOLDER (used when a hairstyle has no image) ═══
   function createPlaceholder() {
@@ -178,10 +167,14 @@
     const card = document.createElement('article');
     card.className = 'hair-card';
     card.setAttribute('data-hair-id', outfit.id);
-    card.setAttribute('tabindex', '0');
-    card.setAttribute('role', 'button');
-    card.setAttribute('aria-label',
+
+    const open = document.createElement('button');
+    open.type = 'button';
+    open.className = 'hair-card-open';
+    open.setAttribute('aria-label',
       (getLang() === 'ru' ? 'Открыть причёску ' : 'Open hairstyle ') + hairTitle(outfit));
+    open.addEventListener('click', () => openModal(outfit.id));
+    card.appendChild(open);
 
     // Image / placeholder
     const imgWrap = document.createElement('div');
@@ -217,6 +210,28 @@
     title.textContent = hairTitle(outfit);
     head.appendChild(num);
     head.appendChild(title);
+
+    const expand = document.createElement('button');
+    expand.type = 'button';
+    expand.className = 'hair-card-expand';
+    expand.setAttribute('aria-expanded', 'false');
+    expand.setAttribute('aria-label',
+      getLang() === 'ru' ? 'Показать описание причёски' : 'Show hairstyle description');
+
+    const expandIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    expandIcon.setAttribute('viewBox', '0 0 24 24');
+    expandIcon.setAttribute('fill', 'none');
+    expandIcon.setAttribute('stroke', 'currentColor');
+    expandIcon.setAttribute('stroke-width', '2');
+    expandIcon.setAttribute('stroke-linecap', 'round');
+    expandIcon.setAttribute('stroke-linejoin', 'round');
+    expandIcon.setAttribute('aria-hidden', 'true');
+    const expandPath = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+    expandPath.setAttribute('points', '6 9 12 15 18 9');
+    expandIcon.appendChild(expandPath);
+    expand.appendChild(expandIcon);
+    head.appendChild(expand);
+
     content.appendChild(head);
 
     // Tag chips - vibe (multi) + one texture chip (distinct accent).
@@ -228,13 +243,26 @@
     const bodyEl = document.createElement('button');
     bodyEl.type = 'button';
     bodyEl.className = 'hair-card-body';
+    bodyEl.id = `hair-body-${outfit.id}`;
+    bodyEl.hidden = true;
     bodyEl.setAttribute('aria-label',
       getLang() === 'ru' ? 'Скопировать строку hairstyle' : 'Copy hairstyle line');
-    bodyEl.textContent = hairBody(outfit);
+    bodyEl.textContent = outfit.body;
+    expand.setAttribute('aria-controls', bodyEl.id);
+
+    expand.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const willExpand = bodyEl.hidden;
+      bodyEl.hidden = !willExpand;
+      expand.setAttribute('aria-expanded', String(willExpand));
+      expand.setAttribute('aria-label', getLang() === 'ru'
+        ? (willExpand ? 'Скрыть описание причёски' : 'Показать описание причёски')
+        : (willExpand ? 'Hide hairstyle description' : 'Show hairstyle description'));
+    });
 
     async function doCopy(e) {
       if (e) e.stopPropagation();
-      const ok = await copyText(outfit.body);
+      const ok = await window.cloverCopy(outfit.body);
       if (ok) {
         bodyEl.classList.add('is-copied');
         setTimeout(() => bodyEl.classList.remove('is-copied'), 900);
@@ -246,32 +274,7 @@
     bodyEl.addEventListener('click', doCopy);
     content.appendChild(bodyEl);
 
-    // Hint row
-    const hint = document.createElement('div');
-    hint.className = 'hair-card-hint';
-    const hintEn = document.createElement('span');
-    hintEn.className = 'lang-en';
-    hintEn.textContent = 'click text to copy · click card for full view';
-    const hintRu = document.createElement('span');
-    hintRu.className = 'lang-ru';
-    hintRu.textContent = 'Нажмите на текст, чтобы скопировать · нажмите на карточку, чтобы открыть полностью';
-    hint.appendChild(hintEn);
-    hint.appendChild(hintRu);
-    content.appendChild(hint);
-
     card.appendChild(content);
-
-    // Card click (anywhere except the body) → open modal
-    card.addEventListener('click', (e) => {
-      if (e.target.closest('.hair-card-body')) return;
-      openModal(outfit.id);
-    });
-    card.addEventListener('keydown', (e) => {
-      if ((e.key === 'Enter' || e.key === ' ') && !e.target.closest('.hair-card-body')) {
-        e.preventDefault();
-        openModal(outfit.id);
-      }
-    });
 
     return card;
   }
@@ -422,7 +425,7 @@
     }
 
     // Display and copy both use the canonical English prompt body.
-    modal.querySelector('.modal-prompt-text code').textContent = hairBody(o);
+    modal.querySelector('.modal-prompt-text code').textContent = o.body;
 
     modal.classList.add('active');
     modal.setAttribute('aria-hidden', 'false');
@@ -439,7 +442,7 @@
     if (modal._trigger && modal._trigger.isConnected) {
       modal._trigger.focus();
     } else if (triggerId) {
-      const replacement = root.querySelector(`[data-hair-id="${triggerId}"]`);
+      const replacement = root.querySelector(`[data-hair-id="${triggerId}"] .hair-card-open`);
       if (replacement) replacement.focus();
     }
     modal._trigger = null;
@@ -451,7 +454,7 @@
     const id = modal.querySelector('.modal-content').dataset.hairId;
     const o = allHair.find(p => p.id === id);
     if (!o) return;
-    const ok = await copyText(o.body);
+    const ok = await window.cloverCopy(o.body);
     if (ok) {
       const btn = modal.querySelector('.modal-copy-btn');
       const en = btn.querySelector('.lang-en');
@@ -503,8 +506,7 @@
     if (tabList) tabList.setAttribute('aria-label', getLang() === 'ru' ? 'Категория причёсок' : 'Hairstyle gender');
   }
 
-  // Re-render on language change. Also refresh an open modal so its title +
-  // body swap immediately (otherwise stale text lingers until close+reopen).
+  // Re-render on language change and refresh localized modal content.
   const langObserver = new MutationObserver(() => {
     updatePlaceholders();
     render();
@@ -513,7 +515,7 @@
       const o = allHair.find(p => p.id === openId);
       if (o) {
         modal.querySelector('.modal-title').textContent = hairTitle(o);
-        modal.querySelector('.modal-prompt-text code').textContent = hairBody(o);
+        modal.querySelector('.modal-prompt-text code').textContent = o.body;
         const modalImg = modal.querySelector('.modal-image-container img');
         if (modalImg) modalImg.alt = hairTitle(o);
       }
