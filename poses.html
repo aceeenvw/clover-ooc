@@ -21,7 +21,7 @@
   <a href="#poses-main" class="sr-only">Skip to content</a>
 
   <nav class="nav">
-    <a href="index.html" class="nav-logo">
+    <a href="index.html" class="nav-logo" aria-label="CLOVER — start page">
       <svg class="nav-logo-icon" viewBox="0 0 200 240" fill="currentColor">
         <g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
         <g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
@@ -29,10 +29,9 @@
         <g transform="rotate(270 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>
         <path d="M97 108Q92 148 90 190Q89 200 100 200Q111 200 110 190Q108 148 103 108Z" opacity="0.5"/>
       </svg>
-      <span class="nav-logo-text">CLOVER OOC</span>
+      <span class="nav-logo-text">CLOVER</span>
     </a>
     <div class="nav-center">
-      <a href="index.html" class="nav-link"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
       <a href="catalogue.html" class="nav-link"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
       <a href="scenes.html" class="nav-link"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
       <a href="poses.html" class="nav-link active" aria-current="page"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>
@@ -45,8 +44,7 @@
       <a href="guide.html" class="nav-link"><span class="lang-en">Guide</span><span class="lang-ru">Гайд</span></a>
     </div>
     <div class="nav-right">
-      <a href="https://janitorai.com/profiles/895c6c07-6a53-4420-bff5-b874db870b32_profile-of-aceenvw" class="nav-author" target="_blank" rel="noopener">aceenvw</a>
-      <button class="lang-toggle" id="langToggle" aria-label="Switch language"><span class="lang-en">RU</span><span class="lang-ru">EN</span></button>
+      <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch to Russian"><span class="lang-option" data-language="en" aria-hidden="true">EN</span><span class="lang-option" data-language="ru" aria-hidden="true">RU</span></button>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
         <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
         <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -56,7 +54,6 @@
   </nav>
 
   <div class="nav-mobile" id="navMobile">
-    <a href="index.html"><span class="lang-en">Home</span><span class="lang-ru">Главная</span></a>
     <a href="catalogue.html"><span class="lang-en">Catalogue</span><span class="lang-ru">Каталог</span></a>
     <a href="scenes.html"><span class="lang-en">Scenes</span><span class="lang-ru">Сцены</span></a>
     <a href="poses.html" class="active" aria-current="page"><span class="lang-en">Poses</span><span class="lang-ru">Позы</span></a>

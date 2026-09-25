@@ -130,12 +130,14 @@ function cloverMainInit() {
   }
 
   const toggle = document.getElementById('themeToggle');
+  const langBtn = document.getElementById('langToggle');
   if (toggle) {
     toggle.addEventListener('click', () => {
       const current = document.documentElement.getAttribute('data-theme');
       const next = current === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', next);
       writePreference('clover-theme', next);
+      updatePreferenceLabels();
     });
   }
 
@@ -201,7 +203,6 @@ function cloverMainInit() {
   const savedLang = readPreference('clover-lang') || 'en';
   setLang(savedLang);
 
-  const langBtn = document.getElementById('langToggle');
   if (langBtn) {
     langBtn.addEventListener('click', () => {
       const current = window.cloverLang();
@@ -221,11 +222,24 @@ function cloverMainInit() {
       if (typeof window.catalogueRerender === 'function') {
         window.catalogueRerender();
       }
-
-      if (typeof window.rerenderFeaturedTags === 'function') {
-        window.rerenderFeaturedTags();
-      }
     });
+  }
+
+  function updatePreferenceLabels() {
+    const isRu = window.cloverLang() === 'ru';
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (toggle) {
+      const label = isRu
+        ? (isDark ? 'Включить светлую тему' : 'Включить тёмную тему')
+        : (isDark ? 'Switch to light theme' : 'Switch to dark theme');
+      toggle.setAttribute('aria-label', label);
+      toggle.title = label;
+    }
+    if (langBtn) {
+      const label = isRu ? 'EN / RU — Переключить на английский' : 'EN / RU — Switch to Russian';
+      langBtn.setAttribute('aria-label', label);
+      langBtn.title = label;
+    }
   }
 
   function setLang(lang) {
@@ -240,11 +254,10 @@ function cloverMainInit() {
     }
 
     var labels = lang === 'ru'
-      ? { language: 'Сменить язык', theme: 'Сменить тему', menu: 'Меню', close: 'Закрыть', top: 'Наверх' }
-      : { language: 'Switch language', theme: 'Toggle theme', menu: 'Menu', close: 'Close', top: 'Scroll to top' };
+      ? { start: 'CLOVER — Главная', menu: 'Меню', close: 'Закрыть', top: 'Наверх' }
+      : { start: 'CLOVER — start page', menu: 'Menu', close: 'Close', top: 'Scroll to top' };
     var labelTargets = [
-      ['#langToggle', labels.language],
-      ['#themeToggle', labels.theme],
+      ['.nav-logo', labels.start],
       ['#navBurger', labels.menu],
       ['.modal-close', labels.close],
       ['.makeup-modal-close', labels.close],
@@ -255,6 +268,7 @@ function cloverMainInit() {
         element.setAttribute('aria-label', entry[1]);
       });
     });
+    updatePreferenceLabels();
 
     var titles = {
       'index': { en: 'CLOVER OOC - Image Generation Prompts', ru: 'CLOVER OOC - Промпты для генерации изображений' },
@@ -271,209 +285,6 @@ function cloverMainInit() {
     var page = location.pathname.replace(/.*\//, '').replace('.html', '') || 'index';
     if (titles[page]) document.title = titles[page][lang] || titles[page].en;
   }
-
-  // ═══ CATEGORY HELPER ═══
-  var _translationsCache = null;
-  function loadTranslations() {
-    if (_translationsCache) return Promise.resolve(_translationsCache);
-    return fetch('translations.json').then(function(r) { return r.json(); }).then(function(data) {
-      _translationsCache = data;
-      return data;
-    });
-  }
-
-  function getCategoryKey(id) {
-    if (id.startsWith('solo-')) return 'Solo Character';
-    if (id.startsWith('pair-')) return 'Pair / Two Characters';
-    if (id.startsWith('china-') || id.startsWith('egypt-') || id.startsWith('greece-')) return 'Ancient World';
-    if (id.startsWith('medieval-')) return 'Fantasy Medieval';
-    if (id.startsWith('space-')) return 'Deep Space';
-    if (id.startsWith('tropical-')) return 'Tropical Noir';
-    if (id.startsWith('gothic-')) return 'Gothic Revival';
-    if (id.startsWith('neon-')) return 'Neon Underground';
-    return 'Unknown';
-  }
-
-  // ═══ RANDOMIZE FEATURED PROMPTS (index.html only) ═══
-  function randomizeFeaturedPrompts() {
-    const featuredLinks = document.querySelectorAll('.featured-grid .featured-card');
-
-    if (featuredLinks.length === 3 && window.PROMPTS_DATA) {
-      // Pick 3 random prompts using proper randomization.
-      // Guard against the (astronomically unlikely) case of Math.random
-      // repeatedly producing duplicate indices by bounding the loop and
-      // checking the unique-set size, not the selected array length.
-      const allPrompts = window.PROMPTS_DATA;
-      const selected = [];
-      const usedIndices = new Set();
-      const target = Math.min(3, allPrompts.length);
-      const maxAttempts = target * 50;
-      let attempts = 0;
-
-      while (usedIndices.size < target && attempts < maxAttempts) {
-        const randomIndex = Math.floor(Math.random() * allPrompts.length);
-        if (!usedIndices.has(randomIndex)) {
-          usedIndices.add(randomIndex);
-          selected.push(allPrompts[randomIndex]);
-        }
-        attempts++;
-      }
-
-      loadTranslations()
-        .then(translations => {
-          selected.forEach((prompt, index) => {
-            if (featuredLinks[index]) {
-              const card = featuredLinks[index];
-
-              card.removeAttribute('href');
-              card.setAttribute('role', 'button');
-              card.tabIndex = 0;
-              card.dataset.promptId = prompt.id;
-
-              card.onclick = async (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                const ok = await window.cloverCopy(prompt.prompt);
-                if (!ok) return;
-                // Locally-scoped title refs (prefixed to distinguish from
-                // the outer titleEn/titleRu used later in this iteration).
-                const clickTitleEn = card.querySelector('.featured-title .lang-en');
-                const clickTitleRu = card.querySelector('.featured-title .lang-ru');
-                const origEn = clickTitleEn ? clickTitleEn.textContent : '';
-                const origRu = clickTitleRu ? clickTitleRu.textContent : '';
-                if (clickTitleEn) clickTitleEn.textContent = 'Copied!';
-                if (clickTitleRu) clickTitleRu.textContent = 'Скопировано!';
-                setTimeout(() => {
-                  if (clickTitleEn) clickTitleEn.textContent = origEn;
-                  if (clickTitleRu) clickTitleRu.textContent = origRu;
-                }, 1500);
-              };
-              card.onkeydown = (e) => {
-                if (e.key !== 'Enter' && e.key !== ' ') return;
-                e.preventDefault();
-                card.click();
-              };
-
-              const num = card.querySelector('.featured-num');
-              if (num) num.textContent = String(index + 1).padStart(2, '0');
-
-              const labelEn = card.querySelector('.featured-label .lang-en');
-              const labelRu = card.querySelector('.featured-label .lang-ru');
-              if (labelEn && labelRu) {
-                const catKey = getCategoryKey(prompt.id);
-                const catEn = translations.categories?.[catKey]?.en || catKey;
-                const catRu = translations.categories?.[catKey]?.ru || catKey;
-                const tagEn = translations.tags?.[prompt.tags[0]]?.en || prompt.tags[0] || '';
-                const tagRu = translations.tags?.[prompt.tags[0]]?.ru || prompt.tags[0] || '';
-                labelEn.textContent = tagEn ? catEn + ' / ' + tagEn.charAt(0).toUpperCase() + tagEn.slice(1) : catEn;
-                labelRu.textContent = tagRu ? catRu + ' / ' + tagRu.charAt(0).toUpperCase() + tagRu.slice(1) : catRu;
-              }
-
-              const titleEn = card.querySelector('.featured-title .lang-en');
-              const titleRu = card.querySelector('.featured-title .lang-ru');
-              if (titleEn) {
-                titleEn.textContent = prompt.title;
-              }
-              if (titleRu) {
-                titleRu.textContent = prompt.titleRu || prompt.title;
-              }
-
-              const id = card.querySelector('.featured-id');
-              if (id) id.textContent = prompt.id;
-
-              // Clean OOC wrapper from prompt text, then truncate (bilingual).
-              const text = card.querySelector('.featured-text');
-              if (text) {
-                let cleanPrompt = prompt.prompt
-                  .replace(/^<ooc>\s*/i, '')
-                  .replace(/\s*<\/ooc>$/i, '')
-                  .replace(/^Image generation\s*:\s*/i, '')
-                  .trim();
-                const truncated = cleanPrompt.substring(0, 200) + (cleanPrompt.length > 200 ? '...' : '');
-                text.textContent = '';
-                var tEn = document.createElement('span');
-                tEn.className = 'lang-en';
-                tEn.textContent = truncated;
-                var tRu = document.createElement('span');
-                tRu.className = 'lang-ru';
-                tRu.textContent = truncated;
-                text.appendChild(tEn);
-                text.appendChild(tRu);
-              }
-
-              const tagsDiv = card.querySelector('.featured-tags');
-              if (tagsDiv) {
-                tagsDiv.textContent = '';
-                const currentLang = window.cloverLang();
-                prompt.tags.slice(0, 3).forEach(tag => {
-                  const tagSpan = document.createElement('span');
-                  tagSpan.className = 'tag';
-                  tagSpan.textContent = translations.tags?.[tag]?.[currentLang] || tag;
-                  tagsDiv.appendChild(tagSpan);
-                });
-              }
-            }
-          });
-        })
-        .catch(err => {
-          console.error('Failed to load translations:', err);
-        });
-    }
-  }
-
-  window.cloverRandomizeFeatured = randomizeFeaturedPrompts;
-
-  if (window.location.pathname.includes('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('/clover-ooc/')) {
-    if (window.PROMPTS_DATA) {
-      randomizeFeaturedPrompts();
-    }
-
-    // Exposed for the language toggle in setLang().
-    window.rerenderFeaturedTags = function() {
-      const cards = document.querySelectorAll('.featured-grid .featured-card');
-      if (!cards.length || !window.PROMPTS_DATA) return;
-
-      loadTranslations()
-        .then(translations => {
-          const currentLang = window.cloverLang();
-          cards.forEach(card => {
-            const promptId = card.dataset.promptId;
-            if (!promptId) return;
-            const prompt = window.PROMPTS_DATA.find(p => p.id === promptId);
-            if (!prompt) return;
-
-            const labelEn = card.querySelector('.featured-label .lang-en');
-            const labelRu = card.querySelector('.featured-label .lang-ru');
-            if (labelEn && labelRu) {
-              const catKey = getCategoryKey(prompt.id);
-              const catEn = translations.categories?.[catKey]?.en || catKey;
-              const catRu = translations.categories?.[catKey]?.ru || catKey;
-              const tagEn = translations.tags?.[prompt.tags[0]]?.en || prompt.tags[0] || '';
-              const tagRu = translations.tags?.[prompt.tags[0]]?.ru || prompt.tags[0] || '';
-              labelEn.textContent = tagEn ? catEn + ' / ' + tagEn.charAt(0).toUpperCase() + tagEn.slice(1) : catEn;
-              labelRu.textContent = tagRu ? catRu + ' / ' + tagRu.charAt(0).toUpperCase() + tagRu.slice(1) : catRu;
-            }
-
-            const titleEn = card.querySelector('.featured-title .lang-en');
-            const titleRu = card.querySelector('.featured-title .lang-ru');
-            if (titleEn) titleEn.textContent = prompt.title;
-            if (titleRu) titleRu.textContent = prompt.titleRu || prompt.title;
-
-            const tagsDiv = card.querySelector('.featured-tags');
-            if (tagsDiv) {
-              tagsDiv.textContent = '';
-              prompt.tags.slice(0, 3).forEach(tag => {
-                const tagSpan = document.createElement('span');
-                tagSpan.className = 'tag';
-                tagSpan.textContent = translations.tags?.[tag]?.[currentLang] || tag;
-                tagsDiv.appendChild(tagSpan);
-              });
-            }
-          });
-        });
-    };
-  }
-
 }
 
 // Run immediately if DOM is already ready, otherwise wait for DOMContentLoaded.
