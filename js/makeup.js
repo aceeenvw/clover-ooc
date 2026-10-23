@@ -153,6 +153,7 @@
     header.appendChild(count);
     header.addEventListener('click', () => {
       const next = !sectionEl.classList.contains('is-open');
+      if (next) renderBody();
       sectionEl.classList.toggle('is-open', next);
       header.setAttribute('aria-expanded', String(next));
       openState[section.id] = next;
@@ -163,15 +164,19 @@
     const sectionBody = document.createElement('div');
     sectionBody.className = 'makeup-section-body';
     sectionBody.id = bodyId;
-    if (matched.length) {
-      const grid = document.createElement('div');
-      grid.className = 'makeup-cards';
-      matched.forEach(item => grid.appendChild(buildCard(item)));
-      sectionBody.appendChild(grid);
-    } else {
-      sectionBody.classList.add('is-empty');
-      sectionBody.innerHTML = '<span class="lang-en">No matches in this section.</span><span class="lang-ru">В этом разделе ничего не найдено.</span>';
+    function renderBody() {
+      if (sectionBody.childNodes.length) return;
+      if (matched.length) {
+        const grid = document.createElement('div');
+        grid.className = 'makeup-cards';
+        matched.forEach(item => grid.appendChild(buildCard(item)));
+        sectionBody.appendChild(grid);
+      } else {
+        sectionBody.classList.add('is-empty');
+        sectionBody.innerHTML = '<span class="lang-en">No matches in this section.</span><span class="lang-ru">В этом разделе ничего не найдено.</span>';
+      }
     }
+    if (isOpen) renderBody();
     sectionEl.appendChild(sectionBody);
     return sectionEl;
   }

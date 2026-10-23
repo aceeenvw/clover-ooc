@@ -199,6 +199,7 @@
     header.append(chevron, titleBlock, count);
     header.addEventListener('click', () => {
       const willOpen = !sectionElement.classList.contains('is-open');
+      if (willOpen) renderBody();
       sectionElement.classList.toggle('is-open', willOpen);
       header.setAttribute('aria-expanded', String(willOpen));
       openState[section.id] = willOpen;
@@ -209,15 +210,19 @@
     const sectionBody = document.createElement('div');
     sectionBody.id = sectionBodyId;
     sectionBody.className = 'pose-section-body';
-    if (!matched.length) {
-      sectionBody.classList.add('is-empty');
-      sectionBody.innerHTML = '<span class="lang-en">No matches in this section.</span><span class="lang-ru">В этом разделе совпадений нет.</span>';
-    } else {
-      const grid = document.createElement('div');
-      grid.className = 'pose-cards';
-      matched.forEach(prompt => grid.appendChild(buildCard(prompt, section.id)));
-      sectionBody.appendChild(grid);
+    function renderBody() {
+      if (sectionBody.childNodes.length) return;
+      if (!matched.length) {
+        sectionBody.classList.add('is-empty');
+        sectionBody.innerHTML = '<span class="lang-en">No matches in this section.</span><span class="lang-ru">В этом разделе совпадений нет.</span>';
+      } else {
+        const grid = document.createElement('div');
+        grid.className = 'pose-cards';
+        matched.forEach(prompt => grid.appendChild(buildCard(prompt, section.id)));
+        sectionBody.appendChild(grid);
+      }
     }
+    if (shouldOpen) renderBody();
     sectionElement.appendChild(sectionBody);
     return sectionElement;
   }

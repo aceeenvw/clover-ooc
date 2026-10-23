@@ -229,6 +229,7 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
 
     header.addEventListener('click', () => {
       const willOpen = !wrap.classList.contains('is-open');
+      if (willOpen) renderBody();
       wrap.classList.toggle('is-open', willOpen);
       header.setAttribute('aria-expanded', String(willOpen));
       openState[section.id] = willOpen;
@@ -240,24 +241,28 @@ window.cloverAccordionPage = function cloverAccordionPage(config) {
     body.className = 'scene-section-body';
     body.id = bodyId;
 
-    if (matched.length === 0) {
-      body.classList.add('is-empty');
-      const empty = document.createElement('span');
-      const emEn = document.createElement('span');
-      emEn.className = 'lang-en';
-      emEn.textContent = 'No matches in this section.';
-      const emRu = document.createElement('span');
-      emRu.className = 'lang-ru';
-      emRu.textContent = 'В этом разделе совпадений нет.';
-      empty.appendChild(emEn);
-      empty.appendChild(emRu);
-      body.appendChild(empty);
-    } else {
-      const grid = document.createElement('div');
-      grid.className = 'scene-cards';
-      matched.forEach(p => grid.appendChild(buildCard(p, section.id)));
-      body.appendChild(grid);
+    function renderBody() {
+      if (body.childNodes.length) return;
+      if (matched.length === 0) {
+        body.classList.add('is-empty');
+        const empty = document.createElement('span');
+        const emEn = document.createElement('span');
+        emEn.className = 'lang-en';
+        emEn.textContent = 'No matches in this section.';
+        const emRu = document.createElement('span');
+        emRu.className = 'lang-ru';
+        emRu.textContent = 'В этом разделе совпадений нет.';
+        empty.appendChild(emEn);
+        empty.appendChild(emRu);
+        body.appendChild(empty);
+      } else {
+        const grid = document.createElement('div');
+        grid.className = 'scene-cards';
+        matched.forEach(p => grid.appendChild(buildCard(p, section.id)));
+        body.appendChild(grid);
+      }
     }
+    if (shouldOpen) renderBody();
 
     wrap.appendChild(body);
     return wrap;

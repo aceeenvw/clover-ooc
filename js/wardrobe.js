@@ -370,6 +370,7 @@
     card.type = 'button';
     card.className = 'item-card' + (isSelected ? ' is-selected' : '');
     card.dataset.itemId = it.id;
+    card.setAttribute('aria-pressed', String(isSelected));
 
     const sw = document.createElement('span');
     sw.className = 'swatch';
@@ -422,7 +423,12 @@
     }
     renderSlots();
     renderPreview();
-    renderPickerGrid(); // refresh selected styling
+    const value = state.slots[cat];
+    $pickerGrid.querySelectorAll('.item-card.is-selected, [data-item-id="' + it.id + '"]').forEach(card => {
+      const selected = Array.isArray(value) ? value.includes(card.dataset.itemId) : value === card.dataset.itemId;
+      card.classList.toggle('is-selected', selected);
+      card.setAttribute('aria-pressed', String(selected));
+    });
   }
 
   // ─── FILTERS (search / colors / tags) ────────────────────────────────────

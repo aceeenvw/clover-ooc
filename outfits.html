@@ -9,9 +9,9 @@
   <script>(function(){var t,l;try{t=localStorage.getItem('clover-theme')}catch(e){}if(!t){try{t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}catch(e){t='light'}}document.documentElement.setAttribute('data-theme',t);try{l=localStorage.getItem('clover-lang')}catch(e){}if(!l)l='en';document.documentElement.setAttribute('data-lang',l);document.documentElement.lang=l})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Outfits - CLOVER OOC</title>
-  <meta name="description" content="1,100 outfit prompts for AI image generation in SillyTavern - copy any 'clothes:' line and paste into your chat.">
+  <meta name="description" content="1,345 outfit prompts for AI image generation in SillyTavern - copy a complete outfit description and paste it into your chat.">
   <meta property="og:title" content="Outfits - CLOVER OOC">
-  <meta property="og:description" content="1,100 outfit ideas with image references and copy-ready 'clothes:' prompts for SillyTavern.">
+  <meta property="og:description" content="1,345 outfit ideas with image references and complete, copy-ready outfit descriptions for SillyTavern.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/clover.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="css/outfits.css">
 </head>
 <body>
-  <a href="#outfits-grid" class="sr-only">Skip to content</a>
+  <a href="#outfits-results" class="sr-only"><span class="lang-en">Skip to outfits</span><span class="lang-ru">Перейти к образам</span></a>
 
   <!-- NAV -->
   <nav class="nav">
@@ -78,103 +78,150 @@
 
   <!-- HEADER -->
   <section class="outfits-header">
-    <div class="container">
-      <h1 class="outfits-title">
-        <span class="lang-en">1,100 Outfits</span>
-        <span class="lang-ru">1 100 образов</span>
-      </h1>
-      <p class="outfits-subtitle">
-        <span class="lang-en">Wearable references for AI image generation - copy the <code>clothes:</code> line and paste into your prompt</span>
-        <span class="lang-ru">Готовые образы для генерации изображений: скопируйте строку <code>clothes:</code> и добавьте её в свой промпт</span>
-      </p>
-
-      <!-- HOW TO USE -->
-      <div class="outfits-hint">
-        <div class="outfits-hint-title">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-          <span class="lang-en">How to use</span>
-          <span class="lang-ru">Как использовать</span>
-        </div>
-        <p class="outfits-hint-text">
-          <span class="lang-en">Open a card for its image and copy button, or expand the description with the arrow and tap the text to copy the <code>clothes:</code> line.</span>
-          <span class="lang-ru">Откройте карточку, чтобы увидеть изображение и кнопку копирования. Или разверните описание стрелкой и нажмите на текст, чтобы скопировать строку <code>clothes:</code>.</span>
+    <div class="container outfits-header-layout">
+      <div class="outfits-intro">
+        <h1 class="outfits-title">
+          <span class="lang-en">1,345 Outfits</span>
+          <span class="lang-ru">1 345 образов</span>
+        </h1>
+        <p class="outfits-subtitle">
+          <span class="lang-en">Wearable references for AI image generation — copy a complete outfit into your prompt</span>
+          <span class="lang-ru">Готовые образы для генерации изображений — скопируйте полное описание в свой промпт</span>
         </p>
       </div>
 
-      <!-- WARDROBE CROSS-LINK -->
-      <a class="outfits-promo" href="wardrobe.html">
-        <span class="outfits-promo-icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2v20"/><path d="M2 12h20"/><circle cx="6" cy="6" r="1"/><circle cx="18" cy="6" r="1"/><circle cx="6" cy="18" r="1"/><circle cx="18" cy="18" r="1"/>
-          </svg>
-        </span>
-        <span class="outfits-promo-text">
-          <strong>
-            <span class="lang-en">Make your own outfit</span>
-            <span class="lang-ru">Соберите свой образ</span>
-          </strong>
-          <span class="outfits-promo-sub">
-            <span class="lang-en">Mix pieces from the indexed outfits in the Wardrobe constructor</span>
-            <span class="lang-ru">Сочетайте элементы из проиндексированных образов в конструкторе Wardrobe</span>
+      <div class="outfits-header-help">
+        <div class="outfits-hint">
+          <div class="outfits-hint-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            <span class="lang-en">How to use</span>
+            <span class="lang-ru">Как использовать</span>
+          </div>
+          <p class="outfits-hint-text">
+            <span class="lang-en">Choose Modern, Historical, Fantasy or Future, then select categories and browse or pick Random. Open a card to copy the full outfit, or expand its arrow and tap the description.</span>
+            <span class="lang-ru">Выберите мир: современность, прошлое, фэнтези или будущее. Отметьте категории и просматривайте подборку или нажмите «Случайный». Откройте карточку, чтобы скопировать образ целиком, или разверните описание стрелкой и нажмите на текст.</span>
+          </p>
+        </div>
+
+        <a class="outfits-promo" href="wardrobe.html">
+          <span class="outfits-promo-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20"/><path d="M2 12h20"/><circle cx="6" cy="6" r="1"/><circle cx="18" cy="6" r="1"/><circle cx="6" cy="18" r="1"/><circle cx="18" cy="18" r="1"/>
+            </svg>
           </span>
-        </span>
-        <span class="outfits-promo-cta">
-          <span class="lang-en">Open Wardrobe →</span>
-          <span class="lang-ru">Открыть →</span>
-        </span>
-      </a>
+          <span class="outfits-promo-text">
+            <strong>
+              <span class="lang-en">Make your own outfit</span>
+              <span class="lang-ru">Соберите свой образ</span>
+            </strong>
+            <span class="outfits-promo-sub">
+              <span class="lang-en">Mix pieces from the indexed outfits in the Wardrobe constructor</span>
+              <span class="lang-ru">Сочетайте элементы из проиндексированных образов в конструкторе Wardrobe</span>
+            </span>
+          </span>
+          <span class="outfits-promo-cta">
+            <span class="lang-en">Open Wardrobe →</span>
+            <span class="lang-ru">Открыть →</span>
+          </span>
+        </a>
+      </div>
 
       <!-- GENDER TABS -->
       <div class="outfits-gender-tabs" id="outfits-gender-tabs" role="tablist" aria-label="Outfit gender" hidden>
-        <button class="outfits-gender-tab is-active" role="tab" data-gender="female" aria-selected="true">
-          <span class="lang-en">Female · <span data-gender-count="female">680</span></span><span class="lang-ru">Женские · <span data-gender-count="female">680</span></span>
+        <button class="outfits-gender-tab is-active" id="outfits-female-tab" role="tab" data-gender="female" aria-controls="outfits-results" aria-selected="true">
+          <span class="lang-en">Female · <span data-gender-count="female">925</span></span><span class="lang-ru">Женские · <span data-gender-count="female">925</span></span>
         </button>
-        <button class="outfits-gender-tab" role="tab" data-gender="male" aria-selected="false">
+        <button class="outfits-gender-tab" id="outfits-male-tab" role="tab" data-gender="male" aria-controls="outfits-results" aria-selected="false" tabindex="-1">
           <span class="lang-en">Male · <span data-gender-count="male">420</span></span><span class="lang-ru">Мужские · <span data-gender-count="male">420</span></span>
         </button>
       </div>
 
-      <!-- SEARCH -->
-      <div class="outfits-search-wrap">
-        <div class="outfits-search-row">
-          <div class="search-box">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input type="text" id="outfits-search" placeholder="Search outfits..." aria-label="Search outfits">
-          </div>
-          <button type="button" class="outfits-random-btn" id="outfits-random">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><g fill="currentColor" stroke="none"><circle cx="8" cy="8" r="1.25"/><circle cx="16" cy="8" r="1.25"/><circle cx="12" cy="12" r="1.25"/><circle cx="8" cy="16" r="1.25"/><circle cx="16" cy="16" r="1.25"/></g></svg>
-            <span class="lang-en">Random</span>
-            <span class="lang-ru">Случайный образ</span>
-          </button>
-        </div>
-        <div class="outfits-meta">
-          <span id="outfits-result-count" class="outfits-result-count" aria-live="polite"></span>
-        </div>
-      </div>
     </div>
   </section>
 
-  <!-- SECTIONS RENDER ROOT -->
-  <section class="outfits-section">
-    <div class="container">
-      <div id="outfits-grid" class="outfits-sections">
+  <main class="outfits-browser container">
+    <aside class="outfits-sidebar" id="outfits-sidebar" aria-labelledby="outfits-categories-title"></aside>
+    <section class="outfits-results" id="outfits-results" role="tabpanel" aria-labelledby="outfits-female-tab" tabindex="0">
+      <div class="outfits-search-wrap">
+        <div class="outfits-view-controls" id="outfits-view-controls" hidden>
+          <div class="outfits-search-field" id="outfits-search-field">
+            <button type="button" class="outfits-search-toggle" id="outfits-search-toggle" aria-expanded="true" aria-controls="outfits-search-box outfits-search-controls">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              <span class="lang-en">Search</span><span class="lang-ru">Поиск</span>
+              <svg class="outfits-search-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+              <svg class="outfits-search-close" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg>
+            </button>
+          </div>
+          <button type="button" class="outfits-random-btn" id="outfits-random" aria-describedby="outfits-pool-count" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><g fill="currentColor" stroke="none"><circle cx="8" cy="8" r="1.25"/><circle cx="16" cy="8" r="1.25"/><circle cx="12" cy="12" r="1.25"/><circle cx="8" cy="16" r="1.25"/><circle cx="16" cy="16" r="1.25"/></g></svg>
+            <span class="lang-en">Random</span><span class="lang-ru">Случайный</span>
+          </button>
+          <fieldset class="outfits-grid-choice" id="outfits-grid-choice">
+            <legend class="sr-only"><span class="lang-en">Outfits per row</span><span class="lang-ru">Образов в ряду</span></legend>
+            <span class="outfits-grid-label" aria-hidden="true"><span class="lang-en">Per row</span><span class="lang-ru">В ряду</span></span>
+            <label class="outfits-column-option"><input type="radio" name="outfits-columns" value="1" checked><span>1</span></label>
+            <label class="outfits-column-option"><input type="radio" name="outfits-columns" value="2"><span>2</span></label>
+          </fieldset>
+        </div>
+        <div id="outfits-search-controls">
+          <div class="search-box" id="outfits-search-box">
+            <label class="sr-only" for="outfits-search"><span class="lang-en">Find your next look</span><span class="lang-ru">Найдите свой следующий образ</span></label>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="search" id="outfits-search" placeholder="Search outfits…" autocomplete="off">
+          </div>
+          <div class="outfits-toolbar-bottom">
+            <button type="button" class="outfits-filter-trigger" id="outfits-filter-trigger" aria-haspopup="dialog" aria-controls="outfits-filter-sheet" disabled><span class="lang-en">Worlds & categories</span><span class="lang-ru">Миры и категории</span></button>
+            <span id="outfits-pool-count" class="outfits-pool-count"></span>
+            <button type="button" class="outfits-text-btn" id="outfits-reset"><span class="lang-en">Reset filters</span><span class="lang-ru">Сбросить фильтры</span></button>
+          </div>
+        </div>
+      </div>
+      <h2 id="outfits-result-count" class="outfits-result-count" aria-live="polite" aria-atomic="true"></h2>
+      <p id="outfits-filter-summary"></p>
+      <div id="outfits-grid" class="outfit-cards">
         <div class="outfits-loading">
           <span class="lang-en">Loading outfits…</span>
           <span class="lang-ru">Загрузка образов…</span>
         </div>
       </div>
+      <div class="outfits-empty" id="outfits-empty" hidden>
+        <h3><span class="lang-en">No outfits in this selection</span><span class="lang-ru">В этой подборке нет образов</span></h3>
+        <p><span class="lang-en">Try another world, include more categories, or clear your search.</span><span class="lang-ru">Выберите другой мир, добавьте категории или очистите поиск.</span></p>
+        <button type="button" class="outfits-text-btn" id="outfits-empty-reset"><span class="lang-en">Reset filters</span><span class="lang-ru">Сбросить фильтры</span></button>
+      </div>
+      <nav class="outfits-pagination" id="outfits-pagination" aria-label="Outfit pages" hidden>
+        <button type="button" class="outfits-page-btn" id="outfits-previous"><span class="lang-en">← Previous</span><span class="lang-ru">← Назад</span></button>
+        <button type="button" class="outfits-page-btn" id="outfits-next"><span class="lang-en">Next →</span><span class="lang-ru">Далее →</span></button>
+      </nav>
+      <p class="outfits-shown" id="outfits-shown"></p>
+    </section>
+  </main>
+
+  <dialog class="outfits-filter-sheet" id="outfits-filter-sheet" aria-labelledby="outfits-sheet-title">
+    <div class="outfits-sheet-header">
+      <h2 id="outfits-sheet-title"><span class="lang-en">Worlds & categories</span><span class="lang-ru">Миры и категории</span></h2>
+      <button type="button" class="outfits-text-btn" id="outfits-sheet-close"><span class="lang-en">Close</span><span class="lang-ru">Закрыть</span></button>
     </div>
-  </section>
+    <div id="outfits-sheet-body" class="outfits-sheet-body"></div>
+    <div class="outfits-sheet-actions">
+      <button type="button" class="outfits-text-btn" id="outfits-sheet-reset"><span class="lang-en">Reset</span><span class="lang-ru">Сбросить</span></button>
+      <button type="button" class="outfits-apply" id="outfits-sheet-apply"></button>
+    </div>
+  </dialog>
 
   <!-- MODAL -->
-  <div class="modal" id="outfit-modal" role="dialog" aria-modal="true" aria-labelledby="outfit-modal-title" aria-hidden="true">
+  <dialog class="modal" id="outfit-modal" aria-labelledby="outfit-modal-title">
     <div class="modal-overlay"></div>
     <div class="modal-content">
-      <button class="modal-close" aria-label="Close">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
-      </button>
       <div class="modal-header">
-        <h2 class="modal-title" id="outfit-modal-title"></h2>
+        <h2 class="modal-title" id="outfit-modal-title" aria-live="polite" aria-atomic="true"></h2>
+        <button type="button" class="outfits-random-btn" id="outfit-modal-random" disabled>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><g fill="currentColor" stroke="none"><circle cx="8" cy="8" r="1.25"/><circle cx="16" cy="8" r="1.25"/><circle cx="12" cy="12" r="1.25"/><circle cx="8" cy="16" r="1.25"/><circle cx="16" cy="16" r="1.25"/></g></svg>
+          <span class="lang-en">Random</span><span class="lang-ru">Случайный</span>
+        </button>
+        <button type="button" class="modal-close" aria-label="Close">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
       </div>
       <div class="modal-image-container"></div>
       <div class="modal-body">
@@ -185,10 +232,12 @@
             <span class="lang-en">Copy Prompt</span>
             <span class="lang-ru">Копировать</span>
           </button>
+          <button type="button" class="outfits-text-btn" id="outfit-select-text"><span class="lang-en">Select text</span><span class="lang-ru">Выделить текст</span></button>
         </div>
+        <p class="outfit-copy-help"><span class="lang-en">You can also press and hold the description to copy it using your device’s text menu.</span><span class="lang-ru">Также можно нажать и удерживать описание, чтобы скопировать его через меню выделенного текста.</span></p>
       </div>
     </div>
-  </div>
+  </dialog>
 
   <!-- SCROLL TO TOP -->
   <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
@@ -214,20 +263,35 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/outfits-model.js"></script>
   <script>
-    fetch('outfits-data.json')
-      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(data => {
-        window.OUTFITS_DATA = data;
-        const s = document.createElement('script');
-        s.src = 'js/outfits.js';
-        document.body.appendChild(s);
-      })
-      .catch(err => {
-        console.error('Failed to load outfits data:', err);
-        var el = document.getElementById('outfits-grid');
-        if (el) el.innerHTML = '<p class="outfits-loading-error"><span class="lang-en">Failed to load outfits. Please reload the page.</span><span class="lang-ru">Не удалось загрузить образы. Перезагрузите страницу.</span></p>';
-      });
+    (function () {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 20000);
+      let leaving = false;
+      const cancel = () => { leaving = true; controller.abort(); };
+      window.addEventListener('pagehide', cancel, { once: true });
+      const failed = err => {
+        if (leaving) return;
+        console.error('Failed to load outfits:', err);
+        const el = document.getElementById('outfits-grid');
+        if (el) el.innerHTML = '<p class="outfits-loading-error" role="alert"><span class="lang-en">Failed to load outfits. Please reload the page.</span><span class="lang-ru">Не удалось загрузить образы. Перезагрузите страницу.</span></p>';
+      };
+      fetch('outfits-data.json', { signal: controller.signal })
+        .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(data => {
+          window.OUTFITS_DATA = data;
+          const s = document.createElement('script');
+          s.src = 'js/outfits.js';
+          s.onerror = failed;
+          document.body.appendChild(s);
+        })
+        .catch(failed)
+        .finally(() => {
+          clearTimeout(timeout);
+          window.removeEventListener('pagehide', cancel);
+        });
+    })();
   </script>
 </body>
 </html>

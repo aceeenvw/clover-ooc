@@ -3,26 +3,29 @@
    aceenvw
    ═══════════════════════════════════════════════ */
 
-/* Shared raw-text clipboard write with an iOS-compatible legacy fallback.
-   Always returns a boolean. */
+/* Shared clipboard write. Resolves to an API success boolean. */
 window.cloverCopy = function cloverCopy(text) {
   text = String(text == null ? '' : text);
-  if (navigator.clipboard && window.isSecureContext) {
-    if (navigator.clipboard.write && window.ClipboardItem) {
-      var item = new ClipboardItem({
-        'text/plain': new Blob([text], { type: 'text/plain' })
-      });
-      return navigator.clipboard.write([item]).then(function () { return true; })
-        .catch(function () {
-          if (!navigator.clipboard.writeText) return cloverCopyLegacy(text);
-          return navigator.clipboard.writeText(text).then(function () { return true; })
-            .catch(function () { return cloverCopyLegacy(text); });
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      if (navigator.clipboard.write && window.ClipboardItem) {
+        var item = new ClipboardItem({
+          'text/plain': new Blob([text], { type: 'text/plain' })
         });
+        return navigator.clipboard.write([item]).then(function () { return true; })
+          .catch(function () {
+            if (!navigator.clipboard.writeText) return cloverCopyLegacy(text);
+            return navigator.clipboard.writeText(text).then(function () { return true; });
+          })
+          .catch(function () { return cloverCopyLegacy(text); });
+      }
+      if (navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text).then(function () { return true; })
+          .catch(function () { return cloverCopyLegacy(text); });
+      }
     }
-    if (navigator.clipboard.writeText) {
-      return navigator.clipboard.writeText(text).then(function () { return true; })
-        .catch(function () { return cloverCopyLegacy(text); });
-    }
+  } catch (err) {
+    return Promise.resolve(cloverCopyLegacy(text));
   }
   return Promise.resolve(cloverCopyLegacy(text));
 };
@@ -47,7 +50,7 @@ function cloverCopyLegacy(text) {
       event.clipboardData.setData('text/plain', text);
     };
     ta.addEventListener('copy', forcePlainText);
-    document.body.appendChild(ta);
+    (document.querySelector('dialog[open]') || document.body).appendChild(ta);
     ta.focus({ preventScroll: true });
     ta.select();
     ta.setSelectionRange(0, text.length);
@@ -102,8 +105,9 @@ window.cloverToast = function cloverToast(messageEn, messageRu) {
     toast.className = 'clover-toast';
     toast.setAttribute('role', 'status');
     toast.setAttribute('aria-live', 'polite');
-    document.body.appendChild(toast);
   }
+  var host = document.querySelector('dialog[open]') || document.body;
+  if (toast.parentNode !== host) host.appendChild(toast);
   toast.textContent = window.cloverLang() === 'ru' ? messageRu : messageEn;
   toast.classList.add('visible');
   clearTimeout(cloverToast._timer);
@@ -176,15 +180,21 @@ function cloverMainInit() {
   }
 
   // ═══ FADE IN ON SCROLL ═══
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -32px 0px' });
-
-  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  const fadeElements = document.querySelectorAll('.fade-in');
+  if (fadeElements.length && 'IntersectionObserver' in window &&
+      !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -32px 0px' });
+    fadeElements.forEach(el => observer.observe(el));
+  } else {
+    fadeElements.forEach(el => el.classList.add('visible'));
+  }
 
   // ═══ SMOOTH SCROLL ═══
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {

@@ -90,6 +90,7 @@
 
   const tabButtons = document.querySelectorAll('.tab-button');
   const tabContents = document.querySelectorAll('.tab-content');
+  const renderedTabs = new Set();
 
   // ═══ SCROLL TO TOP ═══
   if (scrollToTopBtn) {
@@ -98,7 +99,7 @@
     };
     window.addEventListener('scroll', syncScrollToTop, { passive: true });
     scrollToTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     });
     syncScrollToTop();
   }
@@ -128,6 +129,7 @@
   });
 
   function switchTab(tab) {
+    renderTab(tab);
     tabButtons.forEach(btn => {
       btn.classList.toggle('active', btn.dataset.tab === tab);
       btn.setAttribute('aria-selected', btn.dataset.tab === tab);
@@ -137,6 +139,35 @@
     tabContents.forEach(content => {
       content.classList.toggle('active', content.id === `${tab}-tab`);
     });
+  }
+
+  function renderTab(tab) {
+    if (renderedTabs.has(tab)) return;
+    switch (tab) {
+      case 'constructor':
+        renderPrompts(constructorSearch.value);
+        renderConstructorEffects();
+        renderLockChips();
+        break;
+      case 'effects':
+        renderEffectsLibrary(effectsSearch.value);
+        renderEffectStacks();
+        break;
+      case 'camera':
+        renderCameraLibrary(cameraSearch ? cameraSearch.value : '');
+        break;
+      case 'backgrounds':
+        renderBackgroundsLibrary(backgroundsSearch ? backgroundsSearch.value : '');
+        break;
+      case 'overlays':
+        renderOverlayFacetChips();
+        renderOverlayPresets();
+        renderOverlaysLibrary(overlaysSearch ? overlaysSearch.value : '');
+        break;
+      default:
+        return;
+    }
+    renderedTabs.add(tab);
   }
 
   // ═══ CONSTRUCTOR: RENDER PROMPTS ═══
@@ -306,17 +337,20 @@
   function renderConstructorEffects() {
     effectsSelected.textContent = '';
 
-    renderChipGroups(effectsAvailable, 'effects',
-      effectsData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.effects })), false);
-
-    renderChipGroups(constructorOvAvailable, 'overlays',
-      overlaysData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.items })), false);
-
-    renderChipGroups(constructorBgAvailable, 'backgrounds',
-      backgroundsData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.backgrounds })), false);
-
-    renderChipGroups(constructorCameraAvailable, 'camera',
-      cameraData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.terms })), true);
+    const scope = document.querySelector('.constructor-subtab.active')?.dataset.subtab;
+    if (scope === 'effects') {
+      renderChipGroups(effectsAvailable, 'effects',
+        effectsData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.effects })), false);
+    } else if (scope === 'overlays') {
+      renderChipGroups(constructorOvAvailable, 'overlays',
+        overlaysData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.items })), false);
+    } else if (scope === 'backgrounds') {
+      renderChipGroups(constructorBgAvailable, 'backgrounds',
+        backgroundsData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.backgrounds })), false);
+    } else if (scope === 'camera') {
+      renderChipGroups(constructorCameraAvailable, 'camera',
+        cameraData.categories.map(c => ({ name: c.name, nameRu: c.nameRu, items: c.terms })), true);
+    }
 
     const lang = document.documentElement.dataset.lang || 'en';
 
@@ -391,6 +425,7 @@
         target.classList.add('active');
         target.hidden = false;
       }
+      renderConstructorEffects();
     });
   });
 
@@ -481,14 +516,14 @@
     switchTab('constructor');
     const btn = document.querySelector('.constructor-subtab[data-subtab="' + subtab + '"]');
     if (btn) btn.click();
+    else renderConstructorEffects();
 
     renderPrompts(constructorSearch ? constructorSearch.value : '');
-    renderConstructorEffects();
     updateOutput();
     if (copyButton) copyButton.disabled = false;
 
     if (outputPrompt) {
-      outputPrompt.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      outputPrompt.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
     }
     showToast(toastEn, toastRu);
   }
@@ -1901,7 +1936,7 @@
     renderConstructorEffects();
     updateOutput();
     if (copyButton) copyButton.disabled = false;
-    if (outputPrompt) outputPrompt.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (outputPrompt) outputPrompt.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
     showToast(chaos ? 'Chaos roll' : 'Rolled', chaos ? 'Режим хаоса применён' : 'Готово');
   }
 
@@ -1911,16 +1946,8 @@
   const observer = new MutationObserver(() => {
     updateSearchPlaceholders();
     if (!selectedPrompt) updateOutput();
-    renderPrompts(constructorSearch.value);
-    renderConstructorEffects();
-    renderEffectsLibrary(effectsSearch.value);
-    renderCameraLibrary(cameraSearch ? cameraSearch.value : '');
-    renderEffectStacks();
-    renderBackgroundsLibrary(backgroundsSearch ? backgroundsSearch.value : '');
-    renderOverlaysLibrary(overlaysSearch ? overlaysSearch.value : '');
-    renderOverlayPresets();
-    renderOverlayFacetChips();
-    renderLockChips();
+    renderedTabs.clear();
+    renderTab(Array.from(tabButtons).find(button => button.classList.contains('active'))?.dataset.tab || 'constructor');
   });
 
   observer.observe(document.documentElement, {
@@ -1929,16 +1956,7 @@
   });
 
   // ═══ INITIALIZE ═══
-  renderPrompts();
-  renderConstructorEffects();
-  renderEffectsLibrary();
-  renderCameraLibrary();
-  renderEffectStacks();
-  renderBackgroundsLibrary();
-  renderOverlayFacetChips();
-  renderOverlayPresets();
-  renderOverlaysLibrary();
-  renderLockChips();
+  renderTab('constructor');
   updateSearchPlaceholders();
 
 })();

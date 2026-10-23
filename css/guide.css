@@ -971,6 +971,11 @@
     font-size: 1rem;
   }
 
+  .guide-index {
+    background: var(--bg);
+    backdrop-filter: none;
+  }
+
   .guide-index-label {
     display: none;
   }

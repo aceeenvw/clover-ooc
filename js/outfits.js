@@ -1,554 +1,611 @@
 /* CLOVER OOC - OUTFITS */
-
-(function() {
+(function () {
   'use strict';
 
-  if (!window.OUTFITS_DATA || !Array.isArray(window.OUTFITS_DATA.sections)) {
-    console.error('Outfits data not loaded');
-    return;
-  }
-
+  if (window.cloverOutfitsCleanup) window.cloverOutfitsCleanup();
   const data = window.OUTFITS_DATA;
-  const root = document.getElementById('outfits-grid');
-  const searchInput = document.getElementById('outfits-search');
-  const resultCount = document.getElementById('outfits-result-count');
-  const searchWrap = document.querySelector('.outfits-search-wrap');
-  const randomBtn = document.getElementById('outfits-random');
-  const modal = document.getElementById('outfit-modal');
-  const modalOverlay = modal.querySelector('.modal-overlay');
-  const modalClose = modal.querySelector('.modal-close');
-  const scrollToTopBtn = document.getElementById('scroll-to-top');
-  const genderTabsWrap = document.getElementById('outfits-gender-tabs');
-  const genderTabs = genderTabsWrap
-    ? genderTabsWrap.querySelectorAll('.outfits-gender-tab')
-    : [];
-
-  // Flatten for modal lookup by id.
-  const allOutfits = [];
-  data.sections.forEach(sec => sec.prompts.forEach(p => allOutfits.push(p)));
-
-  // Open/closed state per section ID - first section open by default.
-  const openState = {};
-  data.sections.forEach((s, i) => { openState[s.id] = (i === 0); });
-
-  let currentFilter = '';
-  let lastRandomId = null;
-
-  const availableGenders = [];
-  allOutfits.forEach(o => {
-    const g = o.gender || 'female';
-    if (!availableGenders.includes(g)) availableGenders.push(g);
-  });
-  document.querySelectorAll('#outfits-gender-tabs [data-gender-count]').forEach(count => {
-    count.textContent = String(allOutfits.filter(o =>
-      (o.gender || 'female') === count.dataset.genderCount).length);
-  });
-
-  let currentGender = availableGenders.includes('female')
-    ? 'female'
-    : (availableGenders[0] || 'female');
+  if (!data || !Array.isArray(data.sections) || !Array.isArray(data.groups)) return;
+  const model = window.cloverOutfitsModel(data);
+  const $ = id => document.getElementById(id);
+  const root = $('outfits-grid');
+  const search = $('outfits-search');
+  const toolbar = search.closest('.outfits-search-wrap');
+  const viewControls = $('outfits-view-controls');
+  const searchControls = $('outfits-search-controls');
+  const searchField = $('outfits-search-field');
+  const searchBox = $('outfits-search-box');
+  const searchToggle = $('outfits-search-toggle');
+  const gridChoice = $('outfits-grid-choice');
+  const random = $('outfits-random');
+  const sidebar = $('outfits-sidebar');
+  const sheet = $('outfits-filter-sheet');
+  const modal = $('outfit-modal');
+  const modalRandom = $('outfit-modal-random');
+  const modalImage = modal.querySelector('.modal-image-container');
+  const pagination = $('outfits-pagination');
+  const pageSize = 48;
+  const panel = document.createElement('div');
+  panel.className = 'outfits-filter-panel';
+  const categoriesPanel = document.createElement('div');
+  sidebar.appendChild(panel);
+  const controller = new AbortController();
+  const on = (node, type, fn, options = {}) => node.addEventListener(type, fn, { ...options, signal: controller.signal });
+  const t = (en, ru) => window.cloverLang() === 'ru' ? ru : en;
+  const worlds = [{ id: 'all', name: 'All outfits', nameRu: 'Все образы' }, ...data.groups];
+  let gender = model.genders.includes('female') ? 'female' : model.genders[0];
   try {
-    const savedGender = localStorage.getItem('clover-outfits-gender');
-    if (savedGender && availableGenders.includes(savedGender)) {
-      currentGender = savedGender;
+    const saved = localStorage.getItem('clover-outfits-gender');
+    if (model.genders.includes(saved)) gender = saved;
+  } catch (error) {}
+  let state = model.initialState(gender);
+  let draft = null;
+  let selections = new Map();
+  let draftSelections = null;
+  const expandedGroups = new Set([data.groups[0].id]);
+  let evaluation = model.evaluate(state);
+  let lastRandomId = null;
+  let page = 0;
+  let searchTimer;
+  let destroyed = false;
+  let modalTrigger;
+  let previousOverflow = '';
+  const desktop = window.matchMedia('(min-width: 1024px)');
+  let columns = window.matchMedia('(min-width: 640px)').matches ? '2' : '1';
+  let searchExpanded = false;
+  try {
+    const saved = localStorage.getItem('clover-outfits-columns');
+    if (saved === '1' || saved === '2') columns = saved;
+    searchExpanded = localStorage.getItem('clover-outfits-search') === 'open';
+  } catch (error) {}
+
+  function syncViewControls() {
+    const focused = document.activeElement;
+    if (!searchExpanded && (searchControls.contains(focused) || searchBox.contains(focused))) searchToggle.focus({ preventScroll: true });
+    searchControls.hidden = !searchExpanded;
+    searchBox.hidden = !searchExpanded;
+    toolbar.classList.toggle('is-search-open', searchExpanded);
+    const host = desktop.matches ? searchField : searchControls;
+    if (searchBox.parentElement !== host) {
+      host.insertBefore(searchBox, desktop.matches ? null : host.firstChild);
+      if (focused === search && searchExpanded) search.focus({ preventScroll: true });
     }
-  } catch (e) {}
-
-  // ═══ HELPERS ═══
-  const getLang = window.cloverLang;
-
-  function outfitTitle(o) {
-    return (getLang() === 'ru' && o && o.titleRu) ? o.titleRu : (o ? o.title : '');
+    if (desktop.matches && gridChoice.contains(document.activeElement)) searchToggle.focus({ preventScroll: true });
+    searchToggle.setAttribute('aria-expanded', String(searchExpanded));
+    searchToggle.setAttribute('aria-label', searchExpanded ? t('Hide search', 'Скрыть поиск') : t('Show search', 'Показать поиск'));
+    root.dataset.mobileColumns = columns;
+    gridChoice.querySelectorAll('input').forEach(input => { input.checked = input.value === columns; });
   }
 
-  function matchesFilter(outfit, filterLower) {
-    if (availableGenders.length > 1 && (outfit.gender || 'female') !== currentGender) {
-      return false;
-    }
-    if (!filterLower) return true;
-    const hay = (
-      outfit.title + ' ' +
-      (outfit.titleRu || '') + ' ' +
-      outfit.body
-    ).toLowerCase();
-    return hay.includes(filterLower);
+  function setSearchExpanded(expanded) {
+    searchExpanded = expanded;
+    try { localStorage.setItem('clover-outfits-search', expanded ? 'open' : 'closed'); } catch (error) {}
+    syncViewControls();
+    if (expanded && desktop.matches) search.focus({ preventScroll: true });
   }
 
-  // ═══ TOAST ═══
-  const showToast = window.cloverToast;
-
-  // ═══ PLACEHOLDER (used when an outfit has no image) ═══
-  function createPlaceholder() {
-    const wrap = document.createElement('div');
-    wrap.className = 'outfit-placeholder';
-    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.setAttribute('viewBox', '0 0 200 240');
-    svg.setAttribute('fill', 'currentColor');
-    svg.setAttribute('aria-hidden', 'true');
-    // Mini clover mark.
-    svg.innerHTML =
-      '<g transform="rotate(0 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>' +
-      '<g transform="rotate(90 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>' +
-      '<g transform="rotate(180 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>' +
-      '<g transform="rotate(270 100 100)"><path d="M100 100C100 72 80 40 68 40C52 40 50 60 58 76C64 88 84 98 100 100Z"/><path d="M100 100C100 72 120 40 132 40C148 40 150 60 142 76C136 88 116 98 100 100Z"/></g>';
-    wrap.appendChild(svg);
-    return wrap;
+  function element(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
   }
 
-  // ═══ CARD ═══
-  function buildCard(outfit) {
-    const card = document.createElement('article');
-    card.className = 'outfit-card';
-    card.setAttribute('data-outfit-id', outfit.id);
+  function button(className, text, action, value) {
+    const node = element('button', className, text);
+    node.type = 'button';
+    node.dataset.action = action;
+    if (value) node.dataset.value = value;
+    return node;
+  }
 
-    const open = document.createElement('button');
-    open.type = 'button';
-    open.className = 'outfit-card-open';
-    open.setAttribute('aria-label',
-      (getLang() === 'ru' ? 'Открыть образ ' : 'Open outfit ') + outfitTitle(outfit));
-    open.addEventListener('click', () => openModal(outfit.id));
-    card.appendChild(open);
+  function sectionLabel(section, field = 'name') {
+    const male = state.gender === 'male' && section[field + 'Male'];
+    const en = male || section[field] || '';
+    const ru = (state.gender === 'male' && section[field + 'MaleRu']) || section[field + 'Ru'];
+    return t(en, ru || en);
+  }
 
-    // Image / placeholder
-    const imgWrap = document.createElement('div');
-    imgWrap.className = 'outfit-card-image';
-    if (outfit.hasImage && outfit.imgSrc) {
-      const img = document.createElement('img');
-      img.src = outfit.imgSrc;
-      img.alt = outfitTitle(outfit);
-      img.loading = 'lazy';
-      img.draggable = false;
-      img.oncontextmenu = () => false;
-      imgWrap.appendChild(img);
-    } else {
-      imgWrap.appendChild(createPlaceholder());
-    }
-    card.appendChild(imgWrap);
+  function title(outfit) { return t(outfit.title, outfit.titleRu || outfit.title); }
+  function worldLabel(value) { const option = worlds.find(item => item.id === value); return t(option.name, option.nameRu); }
+  function editing() { return draft || state; }
+  function selectionCache() { return draftSelections || selections; }
 
-    // Content
-    const content = document.createElement('div');
-    content.className = 'outfit-card-content';
+  function changeScope(gender, world) {
+    const current = editing();
+    const cache = selectionCache();
+    cache.set(current.gender + '/' + current.world, new Set(current.categories));
+    current.gender = gender;
+    current.world = world;
+    current.categories = new Set(cache.get(gender + '/' + world) || model.initialState(gender, world).categories);
+  }
 
-    const heading = document.createElement('div');
-    heading.className = 'outfit-card-heading';
-
-    const title = document.createElement('h3');
-    title.className = 'outfit-card-title';
-    title.textContent = outfitTitle(outfit);
-    heading.appendChild(title);
-
-    const expand = document.createElement('button');
-    expand.type = 'button';
-    expand.className = 'outfit-card-expand';
-    expand.setAttribute('aria-expanded', 'false');
-    expand.setAttribute('aria-label',
-      getLang() === 'ru' ? 'Показать описание образа' : 'Show outfit description');
-
-    const expandIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    expandIcon.setAttribute('viewBox', '0 0 24 24');
-    expandIcon.setAttribute('fill', 'none');
-    expandIcon.setAttribute('stroke', 'currentColor');
-    expandIcon.setAttribute('stroke-width', '2');
-    expandIcon.setAttribute('stroke-linecap', 'round');
-    expandIcon.setAttribute('stroke-linejoin', 'round');
-    expandIcon.setAttribute('aria-hidden', 'true');
-    const expandPath = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
-    expandPath.setAttribute('points', '6 9 12 15 18 9');
-    expandIcon.appendChild(expandPath);
-    expand.appendChild(expandIcon);
-
-    heading.appendChild(expand);
-    content.appendChild(heading);
-
-    // Prompt bodies remain canonical English in both interface languages.
-    const bodyEl = document.createElement('button');
-    bodyEl.type = 'button';
-    bodyEl.className = 'outfit-card-body';
-    bodyEl.id = `outfit-body-${outfit.id}`;
-    bodyEl.hidden = true;
-    bodyEl.setAttribute('aria-label',
-      getLang() === 'ru' ? 'Скопировать строку clothes' : 'Copy clothes line');
-    bodyEl.textContent = outfit.body;
-    expand.setAttribute('aria-controls', bodyEl.id);
-
-    expand.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const willExpand = bodyEl.hidden;
-      bodyEl.hidden = !willExpand;
-      expand.setAttribute('aria-expanded', String(willExpand));
-      expand.setAttribute('aria-label', getLang() === 'ru'
-        ? (willExpand ? 'Скрыть описание образа' : 'Показать описание образа')
-        : (willExpand ? 'Hide outfit description' : 'Show outfit description'));
+  function buildPanel() {
+    panel.replaceChildren();
+    const worldBox = element('fieldset', 'outfits-worlds');
+    worldBox.appendChild(element('legend', '', t('Browse worlds', 'Выберите мир')));
+    const options = element('div', 'outfits-world-options');
+    worlds.forEach(world => {
+      const label = element('label', 'outfits-world');
+      const input = element('input');
+      input.type = 'radio';
+      input.name = 'outfit-world';
+      input.value = world.id;
+      label.append(input, element('span', '', worldLabel(world.id)));
+      options.appendChild(label);
     });
+    worldBox.appendChild(options);
+    panel.append(worldBox, categoriesPanel);
+    buildCategories();
+    syncPanel();
+  }
 
-    async function doCopy(e) {
-      if (e) e.stopPropagation();
-      const ok = await window.cloverCopy(outfit.body);
-      if (ok) {
-        bodyEl.classList.add('is-copied');
-        setTimeout(() => bodyEl.classList.remove('is-copied'), 900);
-        showToast('Copied to clipboard', 'Скопировано в буфер');
-      } else {
-        showToast('Copy failed', 'Не удалось скопировать');
-      }
+  function categoryList(members) {
+    const list = element('div', 'outfits-category-list');
+    members.forEach(section => {
+      const row = element('div', 'outfits-category-row');
+      const label = element('label', 'outfits-category-label');
+      const input = element('input');
+      input.type = 'checkbox';
+      input.dataset.category = section.id;
+      const count = element('span', 'outfits-category-count');
+      count.dataset.count = section.id;
+      label.append(input, element('span', 'outfits-category-name', sectionLabel(section)), count);
+      row.appendChild(label);
+      list.appendChild(row);
+    });
+    return list;
+  }
+
+  function buildCategories() {
+    const current = editing();
+    categoriesPanel.dataset.scope = current.gender + '/' + current.world;
+    categoriesPanel.replaceChildren();
+    const heading = element('div', 'outfits-category-heading');
+    const label = element('h2', '', t('Categories', 'Категории'));
+    label.id = 'outfits-categories-title';
+    const actions = element('div', 'outfits-category-actions');
+    actions.append(button('outfits-text-btn', t('All', 'Все'), 'all'), button('outfits-text-btn', t('Clear', 'Ни одной'), 'clear'));
+    heading.append(label, actions);
+    categoriesPanel.append(heading, element('p', 'outfits-filter-help', t(
+      'Only checked categories in this world are used for browsing and Random.',
+      'В подборку и случайный выбор входят только отмеченные категории выбранного мира.'
+    )));
+    const sections = model.sectionsFor(current.gender, current.world);
+    if (current.world !== 'all') {
+      categoriesPanel.appendChild(categoryList(sections));
+      return;
     }
-    bodyEl.addEventListener('click', doCopy);
-    content.appendChild(bodyEl);
+    data.groups.forEach(group => {
+      const members = sections.filter(section => section.group === group.id);
+      if (!members.length) return;
+      const wrap = element('div', 'outfits-category-group');
+      const header = element('div', 'outfits-group-header');
+      const checkLabel = element('label', 'outfits-check');
+      const check = element('input');
+      check.type = 'checkbox';
+      check.dataset.group = group.id;
+      const name = t(group.name, group.nameRu || group.name);
+      check.setAttribute('aria-label', t('Include group: ', 'Включить группу: ') + name);
+      checkLabel.appendChild(check);
+      const toggle = button('outfits-group-toggle', name, 'toggle', group.id);
+      toggle.setAttribute('aria-controls', 'outfits-group-' + group.id);
+      toggle.setAttribute('aria-expanded', String(expandedGroups.has(group.id)));
+      header.append(checkLabel, toggle);
+      const list = categoryList(members);
+      list.id = 'outfits-group-' + group.id;
+      list.hidden = !expandedGroups.has(group.id);
+      wrap.append(header, list);
+      categoriesPanel.appendChild(wrap);
+    });
+  }
 
-    card.appendChild(content);
+  function syncPanel() {
+    const current = editing();
+    const result = draft ? model.evaluate(draft) : evaluation;
+    if (categoriesPanel.dataset.scope !== current.gender + '/' + current.world) buildCategories();
+    panel.querySelectorAll('[name="outfit-world"]').forEach(input => { input.checked = input.value === current.world; });
+    panel.querySelectorAll('[data-category]').forEach(input => { input.checked = current.categories.has(input.dataset.category); });
+    panel.querySelectorAll('[data-count]').forEach(node => { node.textContent = String(result.counts.get(node.dataset.count) || 0); });
+    panel.querySelectorAll('[data-group]').forEach(input => {
+      const members = model.sectionsFor(current.gender, current.world).filter(section => section.group === input.dataset.group);
+      const selected = members.filter(section => current.categories.has(section.id)).length;
+      input.checked = selected === members.length;
+      input.indeterminate = selected > 0 && selected < members.length;
+    });
+    $('outfits-sheet-apply').textContent = t('Show ' + result.matches.length + ' outfits', 'Показать образы: ' + result.matches.length);
+  }
 
+  function changeSelection(action) {
+    const current = editing();
+    if (action === 'all') current.categories = new Set(model.sectionsFor(current.gender, current.world).map(section => section.id));
+    if (action === 'clear') current.categories.clear();
+    if (draft) syncPanel(); else refresh();
+  }
+
+  function reset() {
+    const cache = selectionCache();
+    for (const key of cache.keys()) {
+      if (key.startsWith(state.gender + '/')) cache.delete(key);
+    }
+    if (draft) {
+      draft = model.initialState(state.gender);
+      syncPanel();
+    } else {
+      state = model.initialState(state.gender);
+      search.value = '';
+      refresh();
+    }
+  }
+
+  function buildCard(entry) {
+    const outfit = entry.outfit;
+    const card = element('article', 'outfit-card');
+    card.dataset.outfitId = outfit.id;
+    const open = button('outfit-card-open', '', 'open', outfit.id);
+    open.setAttribute('aria-label', t('Open outfit ', 'Открыть образ ') + title(outfit));
+    const image = element('div', 'outfit-card-image');
+    image.appendChild(outfitImage(outfit, true));
+    const content = element('div', 'outfit-card-content');
+    const heading = element('div', 'outfit-card-heading');
+    const expand = button('outfit-card-expand', '', 'expand', outfit.id);
+    expand.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+    expand.setAttribute('aria-expanded', 'false');
+    expand.setAttribute('aria-label', t('Show outfit description', 'Показать описание образа'));
+    const body = button('outfit-card-body', outfit.body, 'copy', outfit.id);
+    body.id = 'outfit-body-' + outfit.id;
+    body.hidden = true;
+    body.setAttribute('aria-label', t('Copy full outfit', 'Скопировать образ целиком'));
+    expand.setAttribute('aria-controls', body.id);
+    heading.append(element('h3', 'outfit-card-title', title(outfit)), expand);
+    content.append(heading, element('p', 'outfit-card-category', sectionLabel(entry.section)), body);
+    card.append(open, image, content);
     return card;
   }
 
-  // Section totals exclude the other gender but ignore text search.
-  function genderPrompts(section) {
-    if (availableGenders.length < 2) return section.prompts;
-    return section.prompts.filter(p => (p.gender || 'female') === currentGender);
+  function outfitImage(outfit, lazy) {
+    if (!outfit.hasImage || !outfit.imgSrc) return window.cloverPlaceholder('outfit-placeholder');
+    const img = element('img');
+    img.alt = title(outfit);
+    img.draggable = false;
+    img.decoding = 'async';
+    if (lazy) img.loading = 'lazy';
+    img.onerror = () => img.replaceWith(window.cloverPlaceholder('outfit-placeholder'));
+    img.src = outfit.imgSrc;
+    return img;
   }
 
-  function sectionLabel(section, field, maleField) {
-    const male = section[maleField];
-    return (currentGender === 'male' && male) ? male : section[field];
+  function renderCards() {
+    const start = page * pageSize;
+    root.replaceChildren();
+    const fragment = document.createDocumentFragment();
+    evaluation.matches.slice(start, start + pageSize).forEach(entry => fragment.appendChild(buildCard(entry)));
+    root.appendChild(fragment);
+    const total = evaluation.matches.length;
+    pagination.hidden = total <= pageSize;
+    $('outfits-previous').disabled = page === 0;
+    $('outfits-next').disabled = start + pageSize >= total;
+    $('outfits-empty').hidden = total !== 0;
+    $('outfits-shown').textContent = total ? t(
+      'Showing ' + (start + 1) + '–' + (start + root.children.length) + ' of ' + total,
+      'Показано ' + (start + 1) + '–' + (start + root.children.length) + ' из ' + total
+    ) : '';
   }
 
-  // ═══ SECTION ═══
-  function buildSection(section) {
-    const filterLower = currentFilter.trim().toLowerCase();
-    const matched = section.prompts.filter(p => matchesFilter(p, filterLower));
-    const inGender = genderPrompts(section);
-
-    const wrap = document.createElement('section');
-    wrap.className = 'outfit-section';
-    wrap.setAttribute('data-section-id', section.id);
-
-    const shouldOpen = filterLower
-      ? matched.length > 0
-      : openState[section.id];
-    if (shouldOpen) wrap.classList.add('is-open');
-
-    const header = document.createElement('button');
-    header.type = 'button';
-    header.className = 'outfit-section-header';
-    header.setAttribute('aria-expanded', String(shouldOpen));
-
-    const chev = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    chev.setAttribute('class', 'outfit-section-chevron');
-    chev.setAttribute('viewBox', '0 0 24 24');
-    chev.setAttribute('fill', 'none');
-    chev.setAttribute('stroke', 'currentColor');
-    chev.setAttribute('stroke-width', '2');
-    const chevPath = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
-    chevPath.setAttribute('points', '9 6 15 12 9 18');
-    chev.appendChild(chevPath);
-    header.appendChild(chev);
-
-    const titleBlock = document.createElement('div');
-    titleBlock.className = 'outfit-section-title';
-    const nameEn = document.createElement('span');
-    nameEn.className = 'outfit-section-name lang-en';
-    nameEn.textContent = sectionLabel(section, 'name', 'nameMale');
-    const nameRu = document.createElement('span');
-    nameRu.className = 'outfit-section-name lang-ru';
-    nameRu.textContent = sectionLabel(section, 'nameRu', 'nameMaleRu');
-    titleBlock.appendChild(nameEn);
-    titleBlock.appendChild(nameRu);
-    const descEn = document.createElement('span');
-    descEn.className = 'outfit-section-desc lang-en';
-    descEn.textContent = sectionLabel(section, 'description', 'descriptionMale');
-    const descRu = document.createElement('span');
-    descRu.className = 'outfit-section-desc lang-ru';
-    descRu.textContent = sectionLabel(section, 'descriptionRu', 'descriptionMaleRu');
-    titleBlock.appendChild(descEn);
-    titleBlock.appendChild(descRu);
-    header.appendChild(titleBlock);
-
-    const count = document.createElement('span');
-    count.className = 'outfit-section-count';
-    if (filterLower) {
-      count.textContent = matched.length + '/' + inGender.length;
-      if (matched.length > 0) count.classList.add('has-matches');
-    } else {
-      count.textContent = String(inGender.length);
-    }
-    header.appendChild(count);
-
-    header.addEventListener('click', () => {
-      const willOpen = !wrap.classList.contains('is-open');
-      wrap.classList.toggle('is-open', willOpen);
-      header.setAttribute('aria-expanded', String(willOpen));
-      openState[section.id] = willOpen;
-    });
-
-    wrap.appendChild(header);
-
-    const body = document.createElement('div');
-    body.className = 'outfit-section-body';
-
-    if (matched.length === 0) {
-      body.classList.add('is-empty');
-      const empty = document.createElement('span');
-      const emEn = document.createElement('span');
-      emEn.className = 'lang-en';
-      emEn.textContent = 'No matches in this section.';
-      const emRu = document.createElement('span');
-      emRu.className = 'lang-ru';
-      emRu.textContent = 'В этом разделе совпадений нет.';
-      empty.appendChild(emEn);
-      empty.appendChild(emRu);
-      body.appendChild(empty);
-    } else {
-      const grid = document.createElement('div');
-      grid.className = 'outfit-cards';
-      matched.forEach(p => grid.appendChild(buildCard(p)));
-      body.appendChild(grid);
-    }
-
-    wrap.appendChild(body);
-    return wrap;
+  function syncPool() {
+    const count = evaluation.matches.length;
+    random.disabled = count === 0;
+    modalRandom.disabled = count === 0;
+    $('outfits-pool-count').textContent = count
+      ? t('Random from ' + count + ' matching outfits', 'Случайный выбор из ' + count + ' образов')
+      : t('No matching outfits for Random', 'Нет образов для случайного выбора');
   }
 
-  // ═══ RENDER ═══
-  function render() {
-    root.textContent = '';
-    const filterLower = currentFilter.trim().toLowerCase();
-    let totalMatched = 0;
-    let totalInGender = 0;
-    data.sections.forEach(section => {
-      const inGender = genderPrompts(section);
-      totalInGender += inGender.length;
-      if (!inGender.length) return;
-      const el = buildSection(section);
-      root.appendChild(el);
-      totalMatched += section.prompts.filter(p => matchesFilter(p, filterLower)).length;
-    });
-    if (filterLower) {
-      resultCount.textContent = totalMatched + ' / ' + totalInGender;
-    } else {
-      resultCount.textContent = '';
-    }
+  function refresh(resetPage = true) {
+    clearTimeout(searchTimer);
+    searchTimer = null;
+    evaluation = model.evaluate(state);
+    if (resetPage) page = 0;
+    syncPool();
+    syncPanel();
+    const count = evaluation.matches.length;
+    $('outfits-result-count').textContent = t(count + ' matching outfits', 'Подходящих образов: ' + count);
+    const sections = model.sectionsFor(state.gender, state.world);
+    const categorySummary = state.categories.size === sections.length ? t('All categories', 'Все категории')
+      : state.categories.size === 1 ? sectionLabel(sections.find(section => state.categories.has(section.id)))
+      : t(state.categories.size + ' of ' + sections.length + ' categories', 'Категории: ' + state.categories.size + ' из ' + sections.length);
+    $('outfits-filter-summary').textContent = [worldLabel(state.world), categorySummary, state.query.trim() ? '“' + state.query.trim() + '”' : ''].filter(Boolean).join(' · ');
+    $('outfits-reset').hidden = state.world === 'all' && !state.query && state.categories.size === sections.length;
+    renderCards();
   }
 
-  // ═══ MODAL ═══
-  function openModal(outfitId) {
-    const o = allOutfits.find(p => p.id === outfitId);
-    if (!o) return;
-    modal.querySelector('.modal-content').dataset.outfitId = o.id;
-    modal.querySelector('.modal-title').textContent = outfitTitle(o);
-
-    const imageContainer = modal.querySelector('.modal-image-container');
-    imageContainer.textContent = '';
-    if (o.hasImage && o.imgSrc) {
-      const img = document.createElement('img');
-      img.src = o.imgSrc;
-      img.alt = outfitTitle(o);
-      img.draggable = false;
-      img.oncontextmenu = () => false;
-      imageContainer.appendChild(img);
-    } else {
-      imageContainer.appendChild(createPlaceholder());
-    }
-
-    modal.querySelector('.modal-prompt-text code').textContent = o.body;
-
-    modal.classList.add('active');
-    modal.setAttribute('aria-hidden', 'false');
+  function lockScroll() {
+    previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
-    modal._trigger = document.activeElement;
-    modal.querySelector('.modal-close').focus();
+  }
+
+  function unlockScroll() { document.body.style.overflow = previousOverflow; }
+
+  function openSheet() {
+    if (desktop.matches || sheet.open) return;
+    draft = model.cloneState(state);
+    draftSelections = new Map([...selections].map(([key, value]) => [key, new Set(value)]));
+    $('outfits-sheet-body').appendChild(panel);
+    syncPanel();
+    lockScroll();
+    sheet.showModal();
+    $('outfits-sheet-close').focus();
+  }
+
+  function closeSheet(apply) {
+    if (!sheet.open) return;
+    if (apply) {
+      state = draft;
+      selections = draftSelections;
+      search.value = state.query;
+    }
+    draft = null;
+    draftSelections = null;
+    sidebar.appendChild(panel);
+    sheet.close();
+    unlockScroll();
+    if (apply) refresh(); else syncPanel();
+    (searchControls.hidden ? searchToggle : desktop.matches ? search : $('outfits-filter-trigger')).focus({ preventScroll: true });
+  }
+
+  function clearModalImage() {
+    const img = modalImage.querySelector('img');
+    if (img) {
+      img.onerror = null;
+      img.removeAttribute('src');
+    }
+    modalImage.replaceChildren();
+  }
+
+  function updateModal() {
+    const entry = model.byId.get(modal.dataset.outfitId);
+    if (!entry) return;
+    $('outfit-modal-title').textContent = title(entry.outfit);
+    const img = modalImage.querySelector('img');
+    if (img && entry.outfit.hasImage && entry.outfit.imgSrc) {
+      img.alt = title(entry.outfit);
+      if (img.getAttribute('src') !== entry.outfit.imgSrc) img.src = entry.outfit.imgSrc;
+    } else {
+      clearModalImage();
+      modalImage.replaceChildren(outfitImage(entry.outfit, false));
+    }
+    modal.querySelector('.modal-prompt-text code').textContent = entry.outfit.body;
+    modal.querySelector('.modal-close').setAttribute('aria-label', t('Close outfit', 'Закрыть образ'));
+  }
+
+  function openModal(id, trigger) {
+    if (!model.byId.has(id)) return;
+    modal.dataset.outfitId = id;
+    updateModal();
+    if (!modal.open) {
+      modalTrigger = trigger;
+      lockScroll();
+      modal.showModal();
+      modal.querySelector('.modal-close').focus({ preventScroll: true });
+    }
+    modal.querySelector('.modal-content').scrollTop = 0;
   }
 
   function closeModal() {
-    modal.classList.remove('active');
-    modal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
-    if (modal._trigger && modal._trigger.isConnected) {
-      modal._trigger.focus();
-    } else {
-      const id = modal.querySelector('.modal-content').dataset.outfitId;
-      const trigger = root.querySelector(`[data-outfit-id="${id}"] .outfit-card-open`);
-      (trigger || searchInput)?.focus();
-    }
-    modal._trigger = null;
+    if (!modal.open) return;
+    modal.close();
+    clearModalImage();
+    unlockScroll();
+    const triggerVisible = modalTrigger && modalTrigger.isConnected && !(searchControls.hidden && searchControls.contains(modalTrigger));
+    (triggerVisible ? modalTrigger : searchControls.hidden ? searchToggle : search).focus({ preventScroll: true });
+    modalTrigger = null;
+    delete modal.dataset.outfitId;
   }
 
-  modalClose.addEventListener('click', closeModal);
-  modalOverlay.addEventListener('click', closeModal);
-  modal.querySelector('.modal-copy-btn').addEventListener('click', async () => {
-    const id = modal.querySelector('.modal-content').dataset.outfitId;
-    const o = allOutfits.find(p => p.id === id);
-    if (!o) return;
-    const ok = await window.cloverCopy(o.body);
-    if (ok) {
-      const btn = modal.querySelector('.modal-copy-btn');
-      const en = btn.querySelector('.lang-en');
-      const ru = btn.querySelector('.lang-ru');
-      const oEn = en.textContent, oRu = ru.textContent;
-      en.textContent = 'Copied!';
-      ru.textContent = 'Скопировано!';
-      setTimeout(() => { en.textContent = oEn; ru.textContent = oRu; }, 1800);
-      showToast('Copied to clipboard', 'Скопировано в буфер');
-    } else {
-      showToast('Copy failed', 'Не удалось скопировать');
+  function randomOutfit() {
+    const entry = model.pickRandom(evaluation.matches, modal.open ? modal.dataset.outfitId : lastRandomId);
+    if (!entry) return;
+    lastRandomId = entry.outfit.id;
+    openModal(entry.outfit.id, random);
+  }
+
+  function copyOutfit(id) {
+    const entry = model.byId.get(id);
+    if (!entry) return;
+    window.cloverCopy(entry.outfit.body).then(ok => {
+      if (destroyed) return;
+      window.cloverToast(ok ? 'Full outfit copied!' : 'Copy failed. Open the outfit and select its text to copy.',
+        ok ? 'Образ скопирован целиком!' : 'Не удалось скопировать. Откройте образ и выделите текст для копирования.');
+    });
+  }
+
+  on(panel, 'change', event => {
+    const input = event.target;
+    const current = editing();
+    if (input.name === 'outfit-world' && worlds.some(world => world.id === input.value)) changeScope(current.gender, input.value);
+    if (input.dataset.category) {
+      if (input.checked) current.categories.add(input.dataset.category);
+      else current.categories.delete(input.dataset.category);
+    }
+    if (input.dataset.group) {
+      model.sectionsFor(current.gender, current.world).filter(section => section.group === input.dataset.group).forEach(section => {
+        if (input.checked) current.categories.add(section.id); else current.categories.delete(section.id);
+      });
+    }
+    if (draft) syncPanel(); else refresh();
+  });
+
+  on(panel, 'click', event => {
+    const target = event.target.closest('button[data-action]');
+    if (!target) return;
+    const { action, value } = target.dataset;
+    if (action === 'toggle') {
+      const open = !expandedGroups.has(value);
+      if (open) expandedGroups.add(value); else expandedGroups.delete(value);
+      target.setAttribute('aria-expanded', String(open));
+      $('outfits-group-' + value).hidden = !open;
+    } else changeSelection(action);
+  });
+
+  on(root, 'click', event => {
+    const target = event.target.closest('button[data-action]');
+    if (!target) return;
+    const { action, value } = target.dataset;
+    if (action === 'open') openModal(value, target);
+    if (action === 'copy') copyOutfit(value);
+    if (action === 'expand') {
+      const body = $('outfit-body-' + value);
+      body.hidden = !body.hidden;
+      target.setAttribute('aria-expanded', String(!body.hidden));
+      target.setAttribute('aria-label', body.hidden ? t('Show outfit description', 'Показать описание образа') : t('Hide outfit description', 'Скрыть описание образа'));
+      target.closest('.outfit-card').classList.toggle('is-expanded', !body.hidden);
     }
   });
 
-  // ═══ KEYBOARD ═══
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
-    if (e.key === '/' && !modal.classList.contains('active') &&
-        !e.ctrlKey && !e.metaKey && !e.altKey &&
-        !document.activeElement.isContentEditable &&
-        !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) {
-      if (searchInput) { e.preventDefault(); searchInput.focus(); }
-    }
-    // focus trap
-    if (e.key === 'Tab' && modal.classList.contains('active')) {
-      const focusable = Array.from(modal.querySelectorAll(
-        'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
-      )).filter(el => el.offsetParent !== null);
-      if (!focusable.length) return;
-      const first = focusable[0];
-      const last = focusable[focusable.length - 1];
-      if (!modal.contains(document.activeElement)) {
-        e.preventDefault();
-        (e.shiftKey ? last : first).focus();
-      }
-      else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-    }
+  on(searchToggle, 'click', () => setSearchExpanded(!searchExpanded));
+  on(gridChoice, 'change', event => {
+    const value = event.target.value;
+    if (event.target.name !== 'outfits-columns' || (value !== '1' && value !== '2')) return;
+    columns = value;
+    try { localStorage.setItem('clover-outfits-columns', value); } catch (error) {}
+    syncViewControls();
+  });
+  on(search, 'input', () => {
+    state.query = search.value;
+    evaluation = model.evaluate(state);
+    syncPool();
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => refresh(), 120);
+  });
+  on(search, 'keydown', event => {
+    if (event.key !== 'Escape' || !desktop.matches) return;
+    event.preventDefault();
+    setSearchExpanded(false);
+  });
+  on(random, 'click', randomOutfit);
+  on(modalRandom, 'click', randomOutfit);
+  on(pagination, 'click', event => {
+    const target = event.target.closest('button');
+    if (!target || target.disabled) return;
+    if (searchTimer) { refresh(); return; }
+    page += target.id === 'outfits-next' ? 1 : -1;
+    renderCards();
+    const heading = $('outfits-result-count');
+    heading.tabIndex = -1;
+    heading.focus({ preventScroll: true });
+    heading.style.scrollMarginTop = 'calc(var(--nav-height) + ' + (toolbar.offsetHeight + 16) + 'px)';
+    heading.scrollIntoView({ block: 'start' });
+  });
+  ['outfits-reset', 'outfits-empty-reset', 'outfits-sheet-reset'].forEach(id => on($(id), 'click', reset));
+  on($('outfits-filter-trigger'), 'click', openSheet);
+  on($('outfits-sheet-close'), 'click', () => closeSheet(false));
+  on($('outfits-sheet-apply'), 'click', () => closeSheet(true));
+  on(sheet, 'cancel', event => { event.preventDefault(); closeSheet(false); });
+  on(desktop, 'change', () => {
+    syncViewControls();
+    if (desktop.matches) closeSheet(false);
+  });
+  on(modal.querySelector('.modal-close'), 'click', closeModal);
+  on(modal.querySelector('.modal-overlay'), 'click', closeModal);
+  on(modal, 'cancel', event => { event.preventDefault(); closeModal(); });
+  on(modal.querySelector('.modal-copy-btn'), 'click', () => copyOutfit(modal.dataset.outfitId));
+  on($('outfit-select-text'), 'click', () => {
+    const text = modal.querySelector('.modal-prompt-text code');
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNodeContents(text);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    text.parentElement.scrollIntoView({ block: 'nearest' });
   });
 
-  // ═══ GENDER TABS ═══
-  function syncGenderTabs() {
-    genderTabs.forEach(t => {
-      const isActive = t.dataset.gender === currentGender;
-      t.classList.toggle('is-active', isActive);
-      t.setAttribute('aria-selected', String(isActive));
-      t.tabIndex = isActive ? 0 : -1;
+  function syncGender() {
+    document.querySelectorAll('.outfits-gender-tab').forEach(tab => {
+      const active = tab.dataset.gender === state.gender;
+      tab.classList.toggle('is-active', active);
+      tab.setAttribute('aria-selected', String(active));
+      tab.tabIndex = active ? 0 : -1;
+      const count = model.entries.filter(entry => entry.gender === tab.dataset.gender).length;
+      tab.querySelectorAll('[data-gender-count]').forEach(node => { node.textContent = count; });
     });
+    $('outfits-results').setAttribute('aria-labelledby', 'outfits-' + state.gender + '-tab');
   }
 
-  function setGender(next) {
-    if (next === currentGender || !availableGenders.includes(next)) return;
-    currentGender = next;
-    try { localStorage.setItem('clover-outfits-gender', next); } catch (e) {}
-    syncGenderTabs();
-    render();
+  function setGender(value) {
+    if (value === state.gender || !model.genders.includes(value)) return;
+    changeScope(value, state.world);
+    try { localStorage.setItem('clover-outfits-gender', value); } catch (error) {}
+    syncGender();
+    buildPanel();
+    refresh();
   }
 
-  genderTabs.forEach(t => {
-    t.addEventListener('click', () => setGender(t.dataset.gender));
+  const tabs = [...document.querySelectorAll('.outfits-gender-tab')];
+  tabs.forEach(tab => {
+    on(tab, 'click', () => setGender(tab.dataset.gender));
+    on(tab, 'keydown', event => {
+      const index = tabs.indexOf(tab);
+      let next;
+      if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+      if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+      if (event.key === 'Home') next = 0;
+      if (event.key === 'End') next = tabs.length - 1;
+      if (next === undefined) return;
+      event.preventDefault();
+      tabs[next].focus();
+      setGender(tabs[next].dataset.gender);
+    });
   });
 
-  if (genderTabsWrap) {
-    genderTabsWrap.addEventListener('keydown', (e) => {
-      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) return;
-      const buttons = Array.from(genderTabs);
-      const current = buttons.indexOf(document.activeElement);
-      if (current < 0) return;
-      e.preventDefault();
-      let next = current;
-      if (e.key === 'ArrowRight') next = (current + 1) % buttons.length;
-      if (e.key === 'ArrowLeft') next = (current - 1 + buttons.length) % buttons.length;
-      if (e.key === 'Home') next = 0;
-      if (e.key === 'End') next = buttons.length - 1;
-      buttons[next].focus();
-      buttons[next].click();
-    });
-
-    if (availableGenders.length > 1) {
-      genderTabsWrap.hidden = false;
-    }
-  }
-
-  syncGenderTabs();
-
-  // ═══ SEARCH ═══
-  let searchDebounce = null;
-  if (searchInput) {
-    searchInput.addEventListener('input', (e) => {
-      currentFilter = e.target.value;
-      if (searchDebounce) clearTimeout(searchDebounce);
-      searchDebounce = setTimeout(render, 120);
-    });
-  }
-
-  function pickRandom() {
-    const filterLower = currentFilter.trim().toLowerCase();
-    const matched = allOutfits.filter(outfit => matchesFilter(outfit, filterLower));
-    if (!matched.length) {
-      showToast('No outfits match your search', 'По вашему запросу ничего не найдено');
-      return;
-    }
-
-    const pool = matched.length > 1
-      ? matched.filter(outfit => outfit.id !== lastRandomId)
-      : matched;
-    const choice = pool[Math.floor(Math.random() * pool.length)];
-    lastRandomId = choice.id;
-
-    randomBtn.classList.remove('is-spun');
-    void randomBtn.offsetWidth;
-    randomBtn.classList.add('is-spun');
-    openModal(choice.id);
-  }
-
-  if (randomBtn) randomBtn.addEventListener('click', pickRandom);
-
-  function updatePlaceholders() {
-    const isRu = getLang() === 'ru';
-    if (genderTabsWrap) {
-      genderTabsWrap.setAttribute('aria-label', isRu ? 'Пол персонажа' : 'Outfit gender');
-    }
-    if (!searchInput) return;
-    const searchLabel = isRu ? 'Поиск образов' : 'Search outfits';
-    searchInput.placeholder = searchLabel + '...';
-    searchInput.setAttribute('aria-label', searchLabel);
-  }
-
-  // Re-render localized titles and labels after a language change.
-  const langObserver = new MutationObserver(() => {
-    updatePlaceholders();
-    render();
-    if (modal.classList.contains('active')) {
-      const openId = modal.querySelector('.modal-content').dataset.outfitId;
-      const o = allOutfits.find(p => p.id === openId);
-      if (o) {
-        modal.querySelector('.modal-title').textContent = outfitTitle(o);
-        modal.querySelector('.modal-prompt-text code').textContent = o.body;
-        const modalImg = modal.querySelector('.modal-image-container img');
-        if (modalImg) modalImg.alt = outfitTitle(o);
-      }
-    }
+  on(document, 'keydown', event => {
+    if (event.key !== '/' || event.ctrlKey || event.metaKey || event.altKey || modal.open || sheet.open ||
+        /^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName) || event.target.isContentEditable) return;
+    event.preventDefault();
+    if (searchControls.hidden) setSearchExpanded(true);
+    search.focus();
   });
-  langObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-lang'] });
+  const scrollTop = $('scroll-to-top');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const updateScroll = () => scrollTop.classList.toggle('visible', window.scrollY > 600);
+  on(window, 'scroll', updateScroll, { passive: true });
+  on(scrollTop, 'click', () => window.scrollTo({ top: 0, behavior: reducedMotion.matches ? 'auto' : 'smooth' }));
 
-  // ═══ STICKY-STATE SHADOW ON SEARCH BAR ═══
-  if (searchWrap && 'IntersectionObserver' in window) {
-    const sentinel = document.createElement('div');
-    sentinel.style.cssText = 'height:1px;width:1px;';
-    searchWrap.parentNode.insertBefore(sentinel, searchWrap);
-    const navHeight = parseInt(
-      getComputedStyle(document.documentElement).getPropertyValue('--nav-height')
-    ) || 56;
-    const io = new IntersectionObserver(
-      entries => entries.forEach(e => searchWrap.classList.toggle('is-stuck', !e.isIntersecting)),
-      { rootMargin: `-${navHeight}px 0px 0px 0px`, threshold: 0 }
-    );
-    io.observe(sentinel);
+  function localize() {
+    syncViewControls();
+    search.placeholder = t('Search outfits…', 'Поиск образов…');
+    document.querySelector('.outfits-gender-tabs').setAttribute('aria-label', t('Outfit gender', 'Пол персонажа'));
+    scrollTop.setAttribute('aria-label', t('Scroll to top', 'Наверх'));
+    pagination.setAttribute('aria-label', t('Outfit pages', 'Страницы образов'));
+    buildPanel();
+    refresh(false);
+    if (modal.open) updateModal();
   }
 
-  // ═══ SCROLL TO TOP ═══
-  if (scrollToTopBtn) {
-    window.addEventListener('scroll', () => {
-      scrollToTopBtn.classList.toggle('visible', window.scrollY > 300);
-    });
-    scrollToTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'auto' });
-    });
-  }
+  const languageObserver = new MutationObserver(localize);
+  languageObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-lang'] });
 
-  // ═══ INIT ═══
-  updatePlaceholders();
-  render();
+  window.cloverOutfitsCleanup = function () {
+    destroyed = true;
+    clearTimeout(searchTimer);
+    languageObserver.disconnect();
+    controller.abort();
+    if (sheet.open) closeSheet(false);
+    if (modal.open) closeModal();
+    panel.remove();
+    root.replaceChildren();
+    delete root.dataset.mobileColumns;
+    viewControls.hidden = true;
+    searchControls.hidden = false;
+    searchBox.hidden = false;
+    searchControls.prepend(searchBox);
+    toolbar.classList.remove('is-search-open');
+    $('outfits-result-count').style.removeProperty('scroll-margin-top');
+    delete window.cloverOutfitsCleanup;
+  };
+
+  $('outfits-filter-trigger').disabled = false;
+  viewControls.hidden = false;
+  $('outfits-gender-tabs').hidden = false;
+  syncGender();
+  localize();
+  updateScroll();
 })();

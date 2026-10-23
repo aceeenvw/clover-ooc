@@ -18,6 +18,7 @@
   let filteredPrompts = [];
   let activeTags = new Set();
   let searchQuery = '';
+  let searchTimer = null;
   let currentView = 'grid';
   let translations = {};
 
@@ -123,6 +124,8 @@
 
   // ═══ FILTER / SEARCH ═══
   function filterPrompts() {
+    clearTimeout(searchTimer);
+    searchTimer = null;
     filteredPrompts = allPrompts.filter(prompt => {
       if (searchQuery) {
         const query = searchQuery.toLowerCase();
@@ -356,9 +359,10 @@
 
     if (prompt.hasImage && prompt.imgSrc) {
       const img = document.createElement('img');
-      img.src = prompt.imgSrc;
       img.alt = prompt.title;
       img.loading = 'lazy';
+      img.decoding = 'async';
+      img.src = prompt.imgSrc;
       img.draggable = false;
       img.oncontextmenu = () => false;
       imagePlaceholder.appendChild(img);
@@ -426,9 +430,10 @@
 
     if (prompt.hasImage && prompt.imgSrc) {
       const img = document.createElement('img');
-      img.src = prompt.imgSrc;
       img.alt = prompt.title;
       img.loading = 'lazy';
+      img.decoding = 'async';
+      img.src = prompt.imgSrc;
       img.draggable = false;
       img.oncontextmenu = () => false;
       imagePlaceholder.appendChild(img);
@@ -632,12 +637,18 @@
   function attachEventListeners() {
     searchInput.addEventListener('input', (e) => {
       searchQuery = e.target.value.trim();
-      filterPrompts();
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(filterPrompts, 120);
+    });
+    window.addEventListener('pagehide', () => clearTimeout(searchTimer));
+    window.addEventListener('pageshow', () => {
+      if (searchTimer !== null) filterPrompts();
     });
 
     const randomBtn = document.getElementById('random-btn');
     if (randomBtn) {
       randomBtn.addEventListener('click', () => {
+        if (searchTimer !== null) filterPrompts();
         const pool = filteredPrompts.length > 0 ? filteredPrompts : allPrompts;
         const random = pool[Math.floor(Math.random() * pool.length)];
         randomBtn.classList.remove('pulsed');
@@ -653,7 +664,7 @@
         const targetId = link.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+          targetElement.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
         }
       });
     });
@@ -664,12 +675,12 @@
       } else {
         scrollToTopBtn.classList.remove('visible');
       }
-    });
+    }, { passive: true });
 
     scrollToTopBtn.addEventListener('click', () => {
       window.scrollTo({
         top: 0,
-        behavior: 'smooth'
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
       });
     });
 
@@ -741,7 +752,8 @@
         toggle.classList.add('active');
         toggle.setAttribute('aria-pressed', 'true');
 
-        renderPrompts();
+        if (searchTimer !== null) filterPrompts();
+        else renderPrompts();
       });
     });
 
@@ -819,6 +831,7 @@
   window.catalogueRerender = function() {
     updateSearchPlaceholder();
     renderTagsFilter();
-    renderPrompts();
+    if (searchTimer !== null) filterPrompts();
+    else renderPrompts();
   };
 })();
